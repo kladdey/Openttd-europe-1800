@@ -1,0 +1,6 @@
+name,preview_col,preview_row,map_col,map_row,heightmap_elevation,reason,status
+LONDON,320,320,1310,1310,30,shift southeast within England,PROVISIONAL_VISUAL_PASS
+DUBLIN,155,226,635,925,31,retain previously landmass-verified control,PROVISIONAL_VISUAL_PASS
+PARIS,401,390,1642,1597,32,shift east and inland from Channel,PROVISIONAL_VISUAL_PASS
+BERLIN,575,312,2355,1278,43,shift east into northeastern Germany,PROVISIONAL_VISUAL_PASS
+STOCKHOLM,597,132,2445,541,24,retain previously landmass-verified control,PROVISIONAL_VISUAL_PASS
