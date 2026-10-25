@@ -1,0 +1,4202 @@
+[
+  {
+    "name": "'S HERTOGENBOSCH",
+    "population": 250,
+    "city": false,
+    "x": 0.3813491,
+    "y": 0.4662775
+  },
+  {
+    "name": "AACHEN",
+    "population": 500,
+    "city": false,
+    "x": 0.405531,
+    "y": 0.4785033
+  },
+  {
+    "name": "AALST",
+    "population": 200,
+    "city": false,
+    "x": 0.4008309,
+    "y": 0.4387661
+  },
+  {
+    "name": "ABBEVILLE",
+    "population": 350,
+    "city": false,
+    "x": 0.4235853,
+    "y": 0.3952491
+  },
+  {
+    "name": "ABERDEEN",
+    "population": 550,
+    "city": false,
+    "x": 0.2021537,
+    "y": 0.3196683
+  },
+  {
+    "name": "ACIREALE",
+    "population": 300,
+    "city": false,
+    "x": 0.8429933,
+    "y": 0.6524032
+  },
+  {
+    "name": "AGEN",
+    "population": 200,
+    "city": false,
+    "x": 0.5971396,
+    "y": 0.3700289
+  },
+  {
+    "name": "AIX EN PROVENCE",
+    "population": 400,
+    "city": false,
+    "x": 0.614912,
+    "y": 0.466324
+  },
+  {
+    "name": "ALBI",
+    "population": 200,
+    "city": false,
+    "x": 0.6095158,
+    "y": 0.3975005
+  },
+  {
+    "name": "ALCALA LA REAL",
+    "population": 250,
+    "city": false,
+    "x": 0.8230672,
+    "y": 0.2685534
+  },
+  {
+    "name": "ALCAZAR DE SAN JUAN",
+    "population": 200,
+    "city": false,
+    "x": 0.7609951,
+    "y": 0.2789567
+  },
+  {
+    "name": "ALENCON",
+    "population": 250,
+    "city": false,
+    "x": 0.4728311,
+    "y": 0.3601743
+  },
+  {
+    "name": "ALESSANDRIA",
+    "population": 400,
+    "city": false,
+    "x": 0.5884398,
+    "y": 0.5256309
+  },
+  {
+    "name": "ALICANTE",
+    "population": 250,
+    "city": false,
+    "x": 0.7950375,
+    "y": 0.338986
+  },
+  {
+    "name": "ALKMAAR",
+    "population": 150,
+    "city": false,
+    "x": 0.3521015,
+    "y": 0.4560558
+  },
+  {
+    "name": "ALTA MURA",
+    "population": 350,
+    "city": false,
+    "x": 0.741762,
+    "y": 0.6773976
+  },
+  {
+    "name": "ALTONA",
+    "population": 450,
+    "city": false,
+    "x": 0.3189973,
+    "y": 0.5623338
+  },
+  {
+    "name": "AMIENS",
+    "population": 700,
+    "city": false,
+    "x": 0.4287689,
+    "y": 0.4055742
+  },
+  {
+    "name": "AMSTERDAM",
+    "population": 4350,
+    "city": true,
+    "x": 0.3605374,
+    "y": 0.4588343
+  },
+  {
+    "name": "ANCONA",
+    "population": 300,
+    "city": false,
+    "x": 0.6431653,
+    "y": 0.6161851
+  },
+  {
+    "name": "ANDUJAR",
+    "population": 200,
+    "city": false,
+    "x": 0.8041824,
+    "y": 0.2651326
+  },
+  {
+    "name": "ANGERS",
+    "population": 500,
+    "city": false,
+    "x": 0.5005005,
+    "y": 0.3461987
+  },
+  {
+    "name": "ANGOULEME",
+    "population": 300,
+    "city": false,
+    "x": 0.5496817,
+    "y": 0.3615014
+  },
+  {
+    "name": "ANSBACH",
+    "population": 250,
+    "city": false,
+    "x": 0.447032,
+    "y": 0.5610323
+  },
+  {
+    "name": "ANTEQUERA",
+    "population": 300,
+    "city": false,
+    "x": 0.8372032,
+    "y": 0.2561429
+  },
+  {
+    "name": "ANTWERPEN",
+    "population": 1200,
+    "city": true,
+    "x": 0.3934926,
+    "y": 0.4468096
+  },
+  {
+    "name": "ARACENA",
+    "population": 200,
+    "city": false,
+    "x": 0.80798,
+    "y": 0.2147955
+  },
+  {
+    "name": "ARLES",
+    "population": 400,
+    "city": false,
+    "x": 0.6106892,
+    "y": 0.4496194
+  },
+  {
+    "name": "ARNHEM",
+    "population": 200,
+    "city": false,
+    "x": 0.372492,
+    "y": 0.4782942
+  },
+  {
+    "name": "ARRAS",
+    "population": 400,
+    "city": false,
+    "x": 0.4180709,
+    "y": 0.4139245
+  },
+  {
+    "name": "ASTI",
+    "population": 200,
+    "city": false,
+    "x": 0.5884017,
+    "y": 0.5172965
+  },
+  {
+    "name": "AUGSBURG",
+    "population": 550,
+    "city": false,
+    "x": 0.4750269,
+    "y": 0.5654485
+  },
+  {
+    "name": "AUXERRE",
+    "population": 250,
+    "city": false,
+    "x": 0.4945504,
+    "y": 0.4296039
+  },
+  {
+    "name": "AVIGNON",
+    "population": 400,
+    "city": false,
+    "x": 0.603123,
+    "y": 0.4528691
+  },
+  {
+    "name": "AVILA",
+    "population": 100,
+    "city": false,
+    "x": 0.719083,
+    "y": 0.2484194
+  },
+  {
+    "name": "BADAJOZ",
+    "population": 200,
+    "city": false,
+    "x": 0.7758443,
+    "y": 0.2059852
+  },
+  {
+    "name": "BAEZA",
+    "population": 200,
+    "city": false,
+    "x": 0.80592,
+    "y": 0.2769347
+  },
+  {
+    "name": "BAMBERG",
+    "population": 350,
+    "city": false,
+    "x": 0.4288243,
+    "y": 0.5681279
+  },
+  {
+    "name": "BARCELONA",
+    "population": 2300,
+    "city": true,
+    "x": 0.6914513,
+    "y": 0.391446
+  },
+  {
+    "name": "BARI",
+    "population": 350,
+    "city": false,
+    "x": 0.7311511,
+    "y": 0.6830086
+  },
+  {
+    "name": "BARMEN",
+    "population": 250,
+    "city": false,
+    "x": 0.3900518,
+    "y": 0.5005907
+  },
+  {
+    "name": "BASEL",
+    "population": 300,
+    "city": false,
+    "x": 0.5031254,
+    "y": 0.5037385
+  },
+  {
+    "name": "BATH",
+    "population": 650,
+    "city": false,
+    "x": 0.3862965,
+    "y": 0.3077679
+  },
+  {
+    "name": "BAUTZEN",
+    "population": 200,
+    "city": false,
+    "x": 0.3890208,
+    "y": 0.6381653
+  },
+  {
+    "name": "BAYEUX",
+    "population": 200,
+    "city": false,
+    "x": 0.4480921,
+    "y": 0.3431579
+  },
+  {
+    "name": "BAYONNE",
+    "population": 250,
+    "city": false,
+    "x": 0.6207046,
+    "y": 0.3260803
+  },
+  {
+    "name": "BEAUVAIS",
+    "population": 250,
+    "city": false,
+    "x": 0.4418953,
+    "y": 0.403182
+  },
+  {
+    "name": "BELFAST",
+    "population": 500,
+    "city": false,
+    "x": 0.284809,
+    "y": 0.2318044
+  },
+  {
+    "name": "BERGAMO",
+    "population": 500,
+    "city": false,
+    "x": 0.5640698,
+    "y": 0.5465776
+  },
+  {
+    "name": "BERGEN",
+    "population": 350,
+    "city": false,
+    "x": 0.0909644,
+    "y": 0.4596043
+  },
+  {
+    "name": "BERLIN",
+    "population": 3000,
+    "city": true,
+    "x": 0.3504611,
+    "y": 0.6238438
+  },
+  {
+    "name": "BERN",
+    "population": 200,
+    "city": false,
+    "x": 0.5223144,
+    "y": 0.5014491
+  },
+  {
+    "name": "BESANCON",
+    "population": 500,
+    "city": false,
+    "x": 0.5122714,
+    "y": 0.4741858
+  },
+  {
+    "name": "BEZIERS",
+    "population": 300,
+    "city": false,
+    "x": 0.6270041,
+    "y": 0.4185357
+  },
+  {
+    "name": "BILBAO",
+    "population": 200,
+    "city": false,
+    "x": 0.6304279,
+    "y": 0.2943399
+  },
+  {
+    "name": "BIRMINGHAM",
+    "population": 1400,
+    "city": true,
+    "x": 0.3515466,
+    "y": 0.316896
+  },
+  {
+    "name": "BLACKBURN",
+    "population": 250,
+    "city": false,
+    "x": 0.3106562,
+    "y": 0.3055004
+  },
+  {
+    "name": "BLOIS",
+    "population": 200,
+    "city": false,
+    "x": 0.4993476,
+    "y": 0.3853103
+  },
+  {
+    "name": "BOLOGNA",
+    "population": 1400,
+    "city": true,
+    "x": 0.6074977,
+    "y": 0.5758906
+  },
+  {
+    "name": "BOLTON",
+    "population": 250,
+    "city": false,
+    "x": 0.3160526,
+    "y": 0.3062737
+  },
+  {
+    "name": "BONN",
+    "population": 200,
+    "city": false,
+    "x": 0.4057987,
+    "y": 0.4976851
+  },
+  {
+    "name": "BORDEAUX",
+    "population": 1750,
+    "city": true,
+    "x": 0.5723355,
+    "y": 0.3481484
+  },
+  {
+    "name": "BOULOGNE",
+    "population": 250,
+    "city": false,
+    "x": 0.4609566,
+    "y": 0.4069465
+  },
+  {
+    "name": "BOURGES",
+    "population": 350,
+    "city": false,
+    "x": 0.5151945,
+    "y": 0.4054099
+  },
+  {
+    "name": "BRANDENBURG",
+    "population": 250,
+    "city": false,
+    "x": 0.3644061,
+    "y": 0.6131722
+  },
+  {
+    "name": "BRAUNSCHWEIG",
+    "population": 550,
+    "city": false,
+    "x": 0.3579023,
+    "y": 0.5680488
+  },
+  {
+    "name": "BREMEN",
+    "population": 700,
+    "city": false,
+    "x": 0.332539,
+    "y": 0.5374795
+  },
+  {
+    "name": "BRESCIA",
+    "population": 550,
+    "city": false,
+    "x": 0.5704186,
+    "y": 0.5568997
+  },
+  {
+    "name": "BRESLAU (WROCLAW)",
+    "population": 1100,
+    "city": true,
+    "x": 0.3931944,
+    "y": 0.6872259
+  },
+  {
+    "name": "BREST",
+    "population": 450,
+    "city": false,
+    "x": 0.3677677,
+    "y": 0.814997
+  },
+  {
+    "name": "BRISTOL",
+    "population": 1300,
+    "city": true,
+    "x": 0.3835767,
+    "y": 0.3030957
+  },
+  {
+    "name": "BRNO (BRUNN)",
+    "population": 450,
+    "city": false,
+    "x": 0.4479569,
+    "y": 0.674882
+  },
+  {
+    "name": "BRUGGE",
+    "population": 650,
+    "city": false,
+    "x": 0.3923807,
+    "y": 0.422397
+  },
+  {
+    "name": "BRUSSELS",
+    "population": 1500,
+    "city": true,
+    "x": 0.403465,
+    "y": 0.4449309
+  },
+  {
+    "name": "BURGOS",
+    "population": 200,
+    "city": false,
+    "x": 0.6624181,
+    "y": 0.2742093
+  },
+  {
+    "name": "CADIZ",
+    "population": 1400,
+    "city": true,
+    "x": 0.8522677,
+    "y": 0.221623
+  },
+  {
+    "name": "CAEN",
+    "population": 700,
+    "city": false,
+    "x": 0.4507123,
+    "y": 0.3505158
+  },
+  {
+    "name": "CAGLIARI",
+    "population": 350,
+    "city": false,
+    "x": 0.7802151,
+    "y": 0.5322808
+  },
+  {
+    "name": "CAHORS",
+    "population": 200,
+    "city": false,
+    "x": 0.5914814,
+    "y": 0.3849324
+  },
+  {
+    "name": "CALTAGIRONE",
+    "population": 400,
+    "city": false,
+    "x": 0.8538664,
+    "y": 0.6394697
+  },
+  {
+    "name": "CALTANISSETA",
+    "population": 300,
+    "city": false,
+    "x": 0.8453351,
+    "y": 0.6301567
+  },
+  {
+    "name": "CAMBRA!",
+    "population": 300,
+    "city": false,
+    "x": 0.4215266,
+    "y": 0.4231057
+  },
+  {
+    "name": "CAMBRIDGE",
+    "population": 200,
+    "city": false,
+    "x": 0.3641221,
+    "y": 0.3576639
+  },
+  {
+    "name": "CARCASSONNE",
+    "population": 300,
+    "city": false,
+    "x": 0.6325152,
+    "y": 0.4000125
+  },
+  {
+    "name": "CARLISLE",
+    "population": 200,
+    "city": false,
+    "x": 0.2760516,
+    "y": 0.3021158
+  },
+  {
+    "name": "CARTAGENA",
+    "population": 650,
+    "city": false,
+    "x": 0.8196161,
+    "y": 0.3289255
+  },
+  {
+    "name": "CASTEL VETRANO",
+    "population": 300,
+    "city": false,
+    "x": 0.8373568,
+    "y": 0.6046192
+  },
+  {
+    "name": "CASTRES",
+    "population": 250,
+    "city": false,
+    "x": 0.6201344,
+    "y": 0.3988971
+  },
+  {
+    "name": "CASTROGIOVANNI",
+    "population": 200,
+    "city": false,
+    "x": 0.8434936,
+    "y": 0.6312417
+  },
+  {
+    "name": "CATANIA",
+    "population": 900,
+    "city": true,
+    "x": 0.8461969,
+    "y": 0.6509502
+  },
+  {
+    "name": "CHALONS-SUR-MARNE",
+    "population": 200,
+    "city": false,
+    "x": 0.4591258,
+    "y": 0.4455209
+  },
+  {
+    "name": "CHALONS-SUR-SAONE",
+    "population": 200,
+    "city": false,
+    "x": 0.5258377,
+    "y": 0.4517494
+  },
+  {
+    "name": "CHARTRES",
+    "population": 250,
+    "city": false,
+    "x": 0.4728682,
+    "y": 0.3911184
+  },
+  {
+    "name": "CHATHAM",
+    "population": 200,
+    "city": false,
+    "x": 0.3925847,
+    "y": 0.3657151
+  },
+  {
+    "name": "CHEMNITZ (K-MARX-ST)",
+    "population": 200,
+    "city": false,
+    "x": 0.399362,
+    "y": 0.6082968
+  },
+  {
+    "name": "CHERBOURG",
+    "population": 300,
+    "city": false,
+    "x": 0.4376242,
+    "y": 0.3239018
+  },
+  {
+    "name": "CHESTER",
+    "population": 300,
+    "city": false,
+    "x": 0.3291459,
+    "y": 0.3024188
+  },
+  {
+    "name": "CHIOGGIA",
+    "population": 400,
+    "city": false,
+    "x": 0.5837456,
+    "y": 0.59308
+  },
+  {
+    "name": "CLERMONT-FERRAND",
+    "population": 600,
+    "city": false,
+    "x": 0.5540432,
+    "y": 0.4170869
+  },
+  {
+    "name": "COIMBRA",
+    "population": 300,
+    "city": false,
+    "x": 0.7316833,
+    "y": 0.177391
+  },
+  {
+    "name": "COLCHESTER",
+    "population": 250,
+    "city": false,
+    "x": 0.3744603,
+    "y": 0.3733705
+  },
+  {
+    "name": "COLMAR",
+    "population": 250,
+    "city": false,
+    "x": 0.4866182,
+    "y": 0.4999337
+  },
+  {
+    "name": "COMO",
+    "population": 300,
+    "city": false,
+    "x": 0.5598938,
+    "y": 0.5351538
+  },
+  {
+    "name": "COPENHAGEN",
+    "population": 2000,
+    "city": true,
+    "x": 0.243989,
+    "y": 0.6073806
+  },
+  {
+    "name": "CORDOBA",
+    "population": 800,
+    "city": true,
+    "x": 0.8089338,
+    "y": 0.2510395
+  },
+  {
+    "name": "CORK",
+    "population": 1500,
+    "city": true,
+    "x": 0.366052,
+    "y": 0.1807957
+  },
+  {
+    "name": "COVENTRY",
+    "population": 300,
+    "city": false,
+    "x": 0.3545854,
+    "y": 0.3248588
+  },
+  {
+    "name": "CREMA",
+    "population": 200,
+    "city": false,
+    "x": 0.5751327,
+    "y": 0.5465868
+  },
+  {
+    "name": "CREMONA",
+    "population": 500,
+    "city": false,
+    "x": 0.5829167,
+    "y": 0.5532018
+  },
+  {
+    "name": "CUENCA",
+    "population": 100,
+    "city": false,
+    "x": 0.7391651,
+    "y": 0.3011077
+  },
+  {
+    "name": "CUNEO",
+    "population": 350,
+    "city": false,
+    "x": 0.6017954,
+    "y": 0.5041229
+  },
+  {
+    "name": "DANZIG (GDANSK)",
+    "population": 800,
+    "city": true,
+    "x": 0.2919128,
+    "y": 0.7201875
+  },
+  {
+    "name": "DELFT",
+    "population": 350,
+    "city": false,
+    "x": 0.3720713,
+    "y": 0.4481978
+  },
+  {
+    "name": "DEN HAAG",
+    "population": 750,
+    "city": false,
+    "x": 0.3697707,
+    "y": 0.4470707
+  },
+  {
+    "name": "DERBY",
+    "population": 200,
+    "city": false,
+    "x": 0.3372487,
+    "y": 0.3256558
+  },
+  {
+    "name": "DIEPPE",
+    "population": 350,
+    "city": false,
+    "x": 0.4288769,
+    "y": 0.3799919
+  },
+  {
+    "name": "DIJON",
+    "population": 450,
+    "city": false,
+    "x": 0.5097883,
+    "y": 0.4554041
+  },
+  {
+    "name": "DORDRECHT",
+    "population": 350,
+    "city": false,
+    "x": 0.3782279,
+    "y": 0.4542522
+  },
+  {
+    "name": "DOUAI",
+    "population": 350,
+    "city": false,
+    "x": 0.4161131,
+    "y": 0.4194363
+  },
+  {
+    "name": "DRESDEN",
+    "population": 1100,
+    "city": true,
+    "x": 0.3926699,
+    "y": 0.624698
+  },
+  {
+    "name": "DUBLIN",
+    "population": 3350,
+    "city": true,
+    "x": 0.3268375,
+    "y": 0.2188078
+  },
+  {
+    "name": "DUNDEE",
+    "population": 500,
+    "city": false,
+    "x": 0.225798,
+    "y": 0.3054477
+  },
+  {
+    "name": "DUNKERQUE",
+    "population": 400,
+    "city": false,
+    "x": 0.3970791,
+    "y": 0.4044202
+  },
+  {
+    "name": "DUSSELDORF",
+    "population": 400,
+    "city": false,
+    "x": 0.3919356,
+    "y": 0.4924927
+  },
+  {
+    "name": "ECIJA",
+    "population": 550,
+    "city": false,
+    "x": 0.8199247,
+    "y": 0.2450922
+  },
+  {
+    "name": "EDINBURGH",
+    "population": 1650,
+    "city": true,
+    "x": 0.2437491,
+    "y": 0.3010125
+  },
+  {
+    "name": "ELBERFELD",
+    "population": 200,
+    "city": false,
+    "x": 0.390153,
+    "y": 0.4993331
+  },
+  {
+    "name": "ELBING (ELBLAG)",
+    "population": 350,
+    "city": false,
+    "x": 0.2984832,
+    "y": 0.7338787
+  },
+  {
+    "name": "ELVAS",
+    "population": 300,
+    "city": false,
+    "x": 0.7757011,
+    "y": 0.2019937
+  },
+  {
+    "name": "EMDEN",
+    "population": 250,
+    "city": false,
+    "x": 0.3233284,
+    "y": 0.5032295
+  },
+  {
+    "name": "ENKHUIZEN",
+    "population": 150,
+    "city": false,
+    "x": 0.3501256,
+    "y": 0.4668444
+  },
+  {
+    "name": "ERFURT",
+    "population": 350,
+    "city": false,
+    "x": 0.3961862,
+    "y": 0.5731347
+  },
+  {
+    "name": "EVORA",
+    "population": 300,
+    "city": false,
+    "x": 0.7857994,
+    "y": 0.1865197
+  },
+  {
+    "name": "EXETER",
+    "population": 350,
+    "city": false,
+    "x": 0.4040328,
+    "y": 0.2839561
+  },
+  {
+    "name": "FALAISE",
+    "population": 200,
+    "city": false,
+    "x": 0.459178,
+    "y": 0.3542094
+  },
+  {
+    "name": "FERRARA",
+    "population": 600,
+    "city": false,
+    "x": 0.5963995,
+    "y": 0.5811967
+  },
+  {
+    "name": "FIRENZE",
+    "population": 1600,
+    "city": true,
+    "x": 0.6333458,
+    "y": 0.5735721
+  },
+  {
+    "name": "FLENSBURG",
+    "population": 250,
+    "city": false,
+    "x": 0.2760465,
+    "y": 0.5478804
+  },
+  {
+    "name": "FOGGIA",
+    "population": 250,
+    "city": false,
+    "x": 0.7219441,
+    "y": 0.6572107
+  },
+  {
+    "name": "FOSSANO",
+    "population": 300,
+    "city": false,
+    "x": 0.5979415,
+    "y": 0.5074889
+  },
+  {
+    "name": "FRANKFURT AM",
+    "population": 700,
+    "city": false,
+    "x": 0.4232951,
+    "y": 0.5265807
+  },
+  {
+    "name": "FRANKFURT AO",
+    "population": 250,
+    "city": false,
+    "x": 0.3561629,
+    "y": 0.6451706
+  },
+  {
+    "name": "FREIBURG",
+    "population": 200,
+    "city": false,
+    "x": 0.5309837,
+    "y": 0.4961065
+  },
+  {
+    "name": "FURTH",
+    "population": 250,
+    "city": false,
+    "x": 0.4415885,
+    "y": 0.5690318
+  },
+  {
+    "name": "GALWAY",
+    "population": 250,
+    "city": false,
+    "x": 0.322984,
+    "y": 0.1682927
+  },
+  {
+    "name": "GENEVE",
+    "population": 500,
+    "city": false,
+    "x": 0.5444154,
+    "y": 0.476392
+  },
+  {
+    "name": "GENOA",
+    "population": 1800,
+    "city": true,
+    "x": 0.6055353,
+    "y": 0.531128
+  },
+  {
+    "name": "GENT",
+    "population": 1000,
+    "city": true,
+    "x": 0.3973438,
+    "y": 0.432427
+  },
+  {
+    "name": "GIRGENTI",
+    "population": 350,
+    "city": false,
+    "x": 0.8502515,
+    "y": 0.6205714
+  },
+  {
+    "name": "GLASGOW",
+    "population": 1550,
+    "city": true,
+    "x": 0.2454691,
+    "y": 0.2794581
+  },
+  {
+    "name": "GOTEBORG",
+    "population": 250,
+    "city": false,
+    "x": 0.1803438,
+    "y": 0.5919712
+  },
+  {
+    "name": "GOTHA",
+    "population": 200,
+    "city": false,
+    "x": 0.3972095,
+    "y": 0.5667443
+  },
+  {
+    "name": "GOUDA",
+    "population": 250,
+    "city": false,
+    "x": 0.3719825,
+    "y": 0.4552053
+  },
+  {
+    "name": "GRANADA",
+    "population": 1100,
+    "city": true,
+    "x": 0.8321286,
+    "y": 0.2752998
+  },
+  {
+    "name": "GRAZ",
+    "population": 600,
+    "city": false,
+    "x": 0.5200207,
+    "y": 0.6509401
+  },
+  {
+    "name": "GREENOCK",
+    "population": 350,
+    "city": false,
+    "x": 0.2413211,
+    "y": 0.2678
+  },
+  {
+    "name": "GREENWICH",
+    "population": 300,
+    "city": false,
+    "x": 0.3894126,
+    "y": 0.3560053
+  },
+  {
+    "name": "GRENOBLE",
+    "population": 450,
+    "city": false,
+    "x": 0.5739079,
+    "y": 0.4684904
+  },
+  {
+    "name": "GRONINGEN",
+    "population": 500,
+    "city": false,
+    "x": 0.3292335,
+    "y": 0.4903161
+  },
+  {
+    "name": "HAARLEM",
+    "population": 400,
+    "city": false,
+    "x": 0.3601522,
+    "y": 0.4538139
+  },
+  {
+    "name": "HALBERSTADT",
+    "population": 250,
+    "city": false,
+    "x": 0.3689658,
+    "y": 0.576491
+  },
+  {
+    "name": "HALLE",
+    "population": 400,
+    "city": false,
+    "x": 0.3806096,
+    "y": 0.5933524
+  },
+  {
+    "name": "HAMBURG",
+    "population": 2000,
+    "city": true,
+    "x": 0.3182189,
+    "y": 0.5639435
+  },
+  {
+    "name": "HANAU",
+    "population": 250,
+    "city": false,
+    "x": 0.4226574,
+    "y": 0.531018
+  },
+  {
+    "name": "HANNOVER",
+    "population": 350,
+    "city": false,
+    "x": 0.3548919,
+    "y": 0.5535524
+  },
+  {
+    "name": "HEIDELBERG",
+    "population": 200,
+    "city": false,
+    "x": 0.444933,
+    "y": 0.5256781
+  },
+  {
+    "name": "HILDESHEIM",
+    "population": 250,
+    "city": false,
+    "x": 0.3613904,
+    "y": 0.5566253
+  },
+  {
+    "name": "HOORN",
+    "population": 200,
+    "city": false,
+    "x": 0.3519503,
+    "y": 0.462234
+  },
+  {
+    "name": "HUDDERSFIELD",
+    "population": 200,
+    "city": false,
+    "x": 0.3135469,
+    "y": 0.3199722
+  },
+  {
+    "name": "HULL",
+    "population": 550,
+    "city": false,
+    "x": 0.3102043,
+    "y": 0.3496224
+  },
+  {
+    "name": "IEPER",
+    "population": 250,
+    "city": false,
+    "x": 0.4025002,
+    "y": 0.4152875
+  },
+  {
+    "name": "INNSBRUCK",
+    "population": 200,
+    "city": false,
+    "x": 0.5124326,
+    "y": 0.5758029
+  },
+  {
+    "name": "INVERNESS",
+    "population": 300,
+    "city": false,
+    "x": 0.1888344,
+    "y": 0.2764528
+  },
+  {
+    "name": "IPSWICH",
+    "population": 200,
+    "city": false,
+    "x": 0.3679305,
+    "y": 0.3787632
+  },
+  {
+    "name": "JAEN",
+    "population": 550,
+    "city": false,
+    "x": 0.8130913,
+    "y": 0.270815
+  },
+  {
+    "name": "JEREZ DA LA FRONTERA",
+    "population": 700,
+    "city": false,
+    "x": 0.8469259,
+    "y": 0.2248735
+  },
+  {
+    "name": "KARLSKRONA",
+    "population": 200,
+    "city": false,
+    "x": 0.2316331,
+    "y": 0.6639181
+  },
+  {
+    "name": "KASSEL",
+    "population": 350,
+    "city": false,
+    "x": 0.3865329,
+    "y": 0.5447826
+  },
+  {
+    "name": "KILKENNY",
+    "population": 300,
+    "city": false,
+    "x": 0.3477656,
+    "y": 0.2009689
+  },
+  {
+    "name": "KING'S LYNN",
+    "population": 200,
+    "city": false,
+    "x": 0.3440419,
+    "y": 0.3636582
+  },
+  {
+    "name": "KLAGENFURT",
+    "population": 200,
+    "city": false,
+    "x": 0.5363464,
+    "y": 0.629497
+  },
+  {
+    "name": "KOLN",
+    "population": 850,
+    "city": true,
+    "x": 0.4001667,
+    "y": 0.4952136
+  },
+  {
+    "name": "KONIGSBERG",
+    "population": 1200,
+    "city": true,
+    "x": 0.281589,
+    "y": 0.7558219
+  },
+  {
+    "name": "KORTRIJK",
+    "population": 300,
+    "city": false,
+    "x": 0.4032473,
+    "y": 0.4230468
+  },
+  {
+    "name": "KRAKOW",
+    "population": 500,
+    "city": false,
+    "x": 0.4294138,
+    "y": 0.7417349
+  },
+  {
+    "name": "LA ROCHELLE",
+    "population": 350,
+    "city": false,
+    "x": 0.5347838,
+    "y": 0.3348205
+  },
+  {
+    "name": "LAVAL",
+    "population": 250,
+    "city": false,
+    "x": 0.4829686,
+    "y": 0.3419242
+  },
+  {
+    "name": "LE HAVRE",
+    "population": 400,
+    "city": false,
+    "x": 0.4418292,
+    "y": 0.3601256
+  },
+  {
+    "name": "LE MANS",
+    "population": 350,
+    "city": false,
+    "x": 0.4858293,
+    "y": 0.362267
+  },
+  {
+    "name": "LE PUY",
+    "population": 250,
+    "city": false,
+    "x": 0.5758558,
+    "y": 0.4325568
+  },
+  {
+    "name": "LECCE",
+    "population": 400,
+    "city": false,
+    "x": 0.7565451,
+    "y": 0.7110208
+  },
+  {
+    "name": "LEEDS",
+    "population": 1050,
+    "city": true,
+    "x": 0.308771,
+    "y": 0.3252026
+  },
+  {
+    "name": "LEEUWARDEN",
+    "population": 300,
+    "city": false,
+    "x": 0.3315069,
+    "y": 0.4752729
+  },
+  {
+    "name": "LEICESTER",
+    "population": 350,
+    "city": false,
+    "x": 0.3463563,
+    "y": 0.3353016
+  },
+  {
+    "name": "LEIDEN",
+    "population": 600,
+    "city": false,
+    "x": 0.3672585,
+    "y": 0.4509404
+  },
+  {
+    "name": "LEIPZIG",
+    "population": 650,
+    "city": false,
+    "x": 0.3853165,
+    "y": 0.599954
+  },
+  {
+    "name": "LEUVEN",
+    "population": 400,
+    "city": false,
+    "x": 0.4029049,
+    "y": 0.451977
+  },
+  {
+    "name": "LIEGE",
+    "population": 1100,
+    "city": true,
+    "x": 0.4098086,
+    "y": 0.4683774
+  },
+  {
+    "name": "LIER",
+    "population": 200,
+    "city": false,
+    "x": 0.3962893,
+    "y": 0.4485875
+  },
+  {
+    "name": "LILLE",
+    "population": 1200,
+    "city": true,
+    "x": 0.4086666,
+    "y": 0.4189427
+  },
+  {
+    "name": "LIMERICK",
+    "population": 800,
+    "city": false,
+    "x": 0.3431822,
+    "y": 0.1763769
+  },
+  {
+    "name": "LIMOGES",
+    "population": 300,
+    "city": false,
+    "x": 0.5487006,
+    "y": 0.3820574
+  },
+  {
+    "name": "LINZ",
+    "population": 350,
+    "city": false,
+    "x": 0.4779339,
+    "y": 0.6304684
+  },
+  {
+    "name": "LISBOA",
+    "population": 3600,
+    "city": true,
+    "x": 0.7801271,
+    "y": 0.1614648
+  },
+  {
+    "name": "LISIEUX",
+    "population": 200,
+    "city": false,
+    "x": 0.4515956,
+    "y": 0.3632497
+  },
+  {
+    "name": "LIVERPOOL",
+    "population": 1550,
+    "city": true,
+    "x": 0.3218742,
+    "y": 0.2939317
+  },
+  {
+    "name": "LIVORNO",
+    "population": 1050,
+    "city": true,
+    "x": 0.6386363,
+    "y": 0.5559593
+  },
+  {
+    "name": "LODI",
+    "population": 300,
+    "city": false,
+    "x": 0.5764473,
+    "y": 0.543341
+  },
+  {
+    "name": "LOKEREN",
+    "population": 200,
+    "city": false,
+    "x": 0.3961647,
+    "y": 0.4381817
+  },
+  {
+    "name": "LONDON",
+    "population": 10000,
+    "city": true,
+    "x": 0.3874543,
+    "y": 0.3524538
+  },
+  {
+    "name": "LORIENT",
+    "population": 300,
+    "city": false,
+    "x": 0.4910569,
+    "y": 0.2884797
+  },
+  {
+    "name": "LUBECK",
+    "population": 450,
+    "city": false,
+    "x": 0.3089538,
+    "y": 0.576995
+  },
+  {
+    "name": "LUCCA",
+    "population": 350,
+    "city": false,
+    "x": 0.6284928,
+    "y": 0.5598685
+  },
+  {
+    "name": "LUCENA",
+    "population": 350,
+    "city": false,
+    "x": 0.8248188,
+    "y": 0.2573129
+  },
+  {
+    "name": "LUNEBURG",
+    "population": 200,
+    "city": false,
+    "x": 0.3295457,
+    "y": 0.5715558
+  },
+  {
+    "name": "LYON",
+    "population": 2000,
+    "city": true,
+    "x": 0.5564242,
+    "y": 0.451278
+  },
+  {
+    "name": "MAASTRICHT",
+    "population": 350,
+    "city": false,
+    "x": 0.4037697,
+    "y": 0.4711237
+  },
+  {
+    "name": "MACON",
+    "population": 200,
+    "city": false,
+    "x": 0.5400761,
+    "y": 0.4510911
+  },
+  {
+    "name": "MADRID",
+    "population": 3350,
+    "city": true,
+    "x": 0.7276117,
+    "y": 0.2673921
+  },
+  {
+    "name": "MAGDEBURG",
+    "population": 750,
+    "city": false,
+    "x": 0.3612859,
+    "y": 0.5884595
+  },
+  {
+    "name": "MAINZ",
+    "population": 450,
+    "city": false,
+    "x": 0.4270478,
+    "y": 0.5185721
+  },
+  {
+    "name": "MALAGA",
+    "population": 700,
+    "city": false,
+    "x": 0.8470358,
+    "y": 0.2592795
+  },
+  {
+    "name": "MANCHESTER",
+    "population": 1400,
+    "city": true,
+    "x": 0.3190278,
+    "y": 0.3101886
+  },
+  {
+    "name": "MANNHEIM",
+    "population": 450,
+    "city": false,
+    "x": 0.4423212,
+    "y": 0.5218304
+  },
+  {
+    "name": "MANTUA",
+    "population": 500,
+    "city": false,
+    "x": 0.5835056,
+    "y": 0.5667604
+  },
+  {
+    "name": "MARSALA",
+    "population": 400,
+    "city": false,
+    "x": 0.833164,
+    "y": 0.597446
+  },
+  {
+    "name": "MARSEILLE",
+    "population": 1550,
+    "city": true,
+    "x": 0.6223358,
+    "y": 0.4649457
+  },
+  {
+    "name": "MASCALI",
+    "population": 300,
+    "city": false,
+    "x": 0.8383503,
+    "y": 0.6529413
+  },
+  {
+    "name": "MAZZARINO",
+    "population": 200,
+    "city": false,
+    "x": 0.8513615,
+    "y": 0.6333566
+  },
+  {
+    "name": "MECHELEN",
+    "population": 400,
+    "city": false,
+    "x": 0.3987875,
+    "y": 0.4478342
+  },
+  {
+    "name": "MEDINA DE RIOSECO",
+    "population": 100,
+    "city": false,
+    "x": 0.6778145,
+    "y": 0.2456082
+  },
+  {
+    "name": "MEDINA DEL CAMPO",
+    "population": 100,
+    "city": false,
+    "x": 0.6969634,
+    "y": 0.2460956
+  },
+  {
+    "name": "MESSINA",
+    "population": 900,
+    "city": true,
+    "x": 0.8249832,
+    "y": 0.6597544
+  },
+  {
+    "name": "METZ",
+    "population": 800,
+    "city": false,
+    "x": 0.454647,
+    "y": 0.4783075
+  },
+  {
+    "name": "MIDDELBURG",
+    "population": 400,
+    "city": false,
+    "x": 0.3845503,
+    "y": 0.4311161
+  },
+  {
+    "name": "MILANO",
+    "population": 2700,
+    "city": true,
+    "x": 0.5712371,
+    "y": 0.5371785
+  },
+  {
+    "name": "MODENA",
+    "population": 450,
+    "city": false,
+    "x": 0.6012553,
+    "y": 0.5685695
+  },
+  {
+    "name": "MODICA/POZZALLO",
+    "population": 400,
+    "city": false,
+    "x": 0.870423,
+    "y": 0.6465946
+  },
+  {
+    "name": "MONDOVI",
+    "population": 350,
+    "city": false,
+    "x": 0.6031334,
+    "y": 0.5093636
+  },
+  {
+    "name": "MONOPOLI",
+    "population": 350,
+    "city": false,
+    "x": 0.7363027,
+    "y": 0.6919356
+  },
+  {
+    "name": "MONS",
+    "population": 350,
+    "city": false,
+    "x": 0.414223,
+    "y": 0.4367963
+  },
+  {
+    "name": "MONTAUBAN",
+    "population": 400,
+    "city": false,
+    "x": 0.6055909,
+    "y": 0.3825168
+  },
+  {
+    "name": "MONTPELLIER",
+    "population": 600,
+    "city": false,
+    "x": 0.6162513,
+    "y": 0.4331168
+  },
+  {
+    "name": "MONZA",
+    "population": 250,
+    "city": false,
+    "x": 0.5674705,
+    "y": 0.5388482
+  },
+  {
+    "name": "MORON DE LA FRONTERA",
+    "population": 200,
+    "city": false,
+    "x": 0.8335082,
+    "y": 0.2379852
+  },
+  {
+    "name": "MOULINS",
+    "population": 250,
+    "city": false,
+    "x": 0.5312222,
+    "y": 0.4225457
+  },
+  {
+    "name": "MUNCHEN",
+    "population": 700,
+    "city": false,
+    "x": 0.4829233,
+    "y": 0.5790037
+  },
+  {
+    "name": "MUNSTER",
+    "population": 300,
+    "city": false,
+    "x": 0.3524408,
+    "y": 0.1752565
+  },
+  {
+    "name": "MURCIA",
+    "population": 800,
+    "city": true,
+    "x": 0.8068115,
+    "y": 0.3256108
+  },
+  {
+    "name": "NAMUR",
+    "population": 300,
+    "city": false,
+    "x": 0.414437,
+    "y": 0.4546364
+  },
+  {
+    "name": "NANCY",
+    "population": 600,
+    "city": false,
+    "x": 0.4679953,
+    "y": 0.4782321
+  },
+  {
+    "name": "NANTES",
+    "population": 1500,
+    "city": true,
+    "x": 0.5067105,
+    "y": 0.325674
+  },
+  {
+    "name": "NAPOLI",
+    "population": 8550,
+    "city": true,
+    "x": 0.7455282,
+    "y": 0.6318103
+  },
+  {
+    "name": "NEVERS",
+    "population": 200,
+    "city": false,
+    "x": 0.5186267,
+    "y": 0.4198869
+  },
+  {
+    "name": "NEWCASTLE",
+    "population": 550,
+    "city": false,
+    "x": 0.2731317,
+    "y": 0.3280698
+  },
+  {
+    "name": "NEWRY",
+    "population": 300,
+    "city": false,
+    "x": 0.299457,
+    "y": 0.2197729
+  },
+  {
+    "name": "NICE",
+    "population": 250,
+    "city": false,
+    "x": 0.6205899,
+    "y": 0.4992879
+  },
+  {
+    "name": "NICOSIA",
+    "population": 250,
+    "city": false,
+    "x": 0.837663,
+    "y": 0.6367622
+  },
+  {
+    "name": "NIJMEGEN",
+    "population": 250,
+    "city": false,
+    "x": 0.3765374,
+    "y": 0.4769193
+  },
+  {
+    "name": "NIMES",
+    "population": 800,
+    "city": true,
+    "x": 0.6076962,
+    "y": 0.4432927
+  },
+  {
+    "name": "NIORT",
+    "population": 300,
+    "city": false,
+    "x": 0.5312143,
+    "y": 0.3484486
+  },
+  {
+    "name": "NORWICH",
+    "population": 750,
+    "city": false,
+    "x": 0.3479134,
+    "y": 0.3822443
+  },
+  {
+    "name": "NOTO",
+    "population": 200,
+    "city": false,
+    "x": 0.8655089,
+    "y": 0.6510913
+  },
+  {
+    "name": "NOTTINGHAM",
+    "population": 600,
+    "city": false,
+    "x": 0.3363762,
+    "y": 0.3323888
+  },
+  {
+    "name": "NOVARA",
+    "population": 250,
+    "city": false,
+    "x": 0.5714488,
+    "y": 0.5259261
+  },
+  {
+    "name": "NURNBERG",
+    "population": 550,
+    "city": false,
+    "x": 0.4422213,
+    "y": 0.5706906
+  },
+  {
+    "name": "OCANA",
+    "population": 100,
+    "city": false,
+    "x": 0.742744,
+    "y": 0.2714334
+  },
+  {
+    "name": "OLDHAM",
+    "population": 250,
+    "city": false,
+    "x": 0.3170599,
+    "y": 0.3128791
+  },
+  {
+    "name": "OOSTENDE",
+    "population": 200,
+    "city": false,
+    "x": 0.3918077,
+    "y": 0.4158557
+  },
+  {
+    "name": "ORIHUELA",
+    "population": 400,
+    "city": false,
+    "x": 0.803615,
+    "y": 0.3294384
+  },
+  {
+    "name": "ORLEANS",
+    "population": 850,
+    "city": true,
+    "x": 0.4902948,
+    "y": 0.3981331
+  },
+  {
+    "name": "OSLO",
+    "population": 250,
+    "city": false,
+    "x": 0.111853,
+    "y": 0.5654957
+  },
+  {
+    "name": "OSUNA",
+    "population": 300,
+    "city": false,
+    "x": 0.8298445,
+    "y": 0.2448913
+  },
+  {
+    "name": "OXFORD",
+    "population": 250,
+    "city": false,
+    "x": 0.3777086,
+    "y": 0.3300082
+  },
+  {
+    "name": "PADOVA",
+    "population": 650,
+    "city": false,
+    "x": 0.5765135,
+    "y": 0.5859666
+  },
+  {
+    "name": "PAISLEY",
+    "population": 350,
+    "city": false,
+    "x": 0.2459449,
+    "y": 0.2752234
+  },
+  {
+    "name": "PALENCIA",
+    "population": 200,
+    "city": false,
+    "x": 0.6736009,
+    "y": 0.2559485
+  },
+  {
+    "name": "PALERMO",
+    "population": 2800,
+    "city": true,
+    "x": 0.8248937,
+    "y": 0.6156111
+  },
+  {
+    "name": "PALMA",
+    "population": 600,
+    "city": false,
+    "x": 0.7541671,
+    "y": 0.4027714
+  },
+  {
+    "name": "PARIS",
+    "population": 10000,
+    "city": true,
+    "x": 0.4603874,
+    "y": 0.4089024
+  },
+  {
+    "name": "PARMA",
+    "population": 700,
+    "city": false,
+    "x": 0.5946921,
+    "y": 0.5580886
+  },
+  {
+    "name": "PAVIA",
+    "population": 500,
+    "city": false,
+    "x": 0.5803143,
+    "y": 0.5366399
+  },
+  {
+    "name": "PERPIGNAN",
+    "population": 250,
+    "city": false,
+    "x": 0.649173,
+    "y": 0.4098606
+  },
+  {
+    "name": "PERTH",
+    "population": 300,
+    "city": false,
+    "x": 0.2289823,
+    "y": 0.2963072
+  },
+  {
+    "name": "PERUGIA",
+    "population": 300,
+    "city": false,
+    "x": 0.6607631,
+    "y": 0.5945079
+  },
+  {
+    "name": "PIACENZA",
+    "population": 550,
+    "city": false,
+    "x": 0.5853835,
+    "y": 0.5470936
+  },
+  {
+    "name": "PIAZZA (ENNA)",
+    "population": 250,
+    "city": false,
+    "x": 0.8429003,
+    "y": 0.6375742
+  },
+  {
+    "name": "PISA",
+    "population": 300,
+    "city": false,
+    "x": 0.6327299,
+    "y": 0.5576748
+  },
+  {
+    "name": "PLYMOUTH",
+    "population": 850,
+    "city": true,
+    "x": 0.413859,
+    "y": 0.2715071
+  },
+  {
+    "name": "POITIERS",
+    "population": 400,
+    "city": false,
+    "x": 0.5258353,
+    "y": 0.3638954
+  },
+  {
+    "name": "PORTO",
+    "population": 600,
+    "city": false,
+    "x": 0.7003849,
+    "y": 0.1752746
+  },
+  {
+    "name": "PORTSMOUTH",
+    "population": 650,
+    "city": false,
+    "x": 0.4069375,
+    "y": 0.3339057
+  },
+  {
+    "name": "POTSDAM",
+    "population": 550,
+    "city": false,
+    "x": 0.3542385,
+    "y": 0.6169816
+  },
+  {
+    "name": "POZNAN",
+    "population": 300,
+    "city": false,
+    "x": 0.3532363,
+    "y": 0.6869355
+  },
+  {
+    "name": "PRAHA",
+    "population": 1550,
+    "city": true,
+    "x": 0.4205636,
+    "y": 0.6353906
+  },
+  {
+    "name": "PRESTON",
+    "population": 250,
+    "city": false,
+    "x": 0.310274,
+    "y": 0.3005263
+  },
+  {
+    "name": "QUEDLINBURG",
+    "population": 200,
+    "city": false,
+    "x": 0.3719494,
+    "y": 0.5779138
+  },
+  {
+    "name": "RAGUSA",
+    "population": 350,
+    "city": false,
+    "x": 0.8638623,
+    "y": 0.6438564
+  },
+  {
+    "name": "READING",
+    "population": 200,
+    "city": false,
+    "x": 0.3883787,
+    "y": 0.3357236
+  },
+  {
+    "name": "REGENSBURG",
+    "population": 450,
+    "city": false,
+    "x": 0.454728,
+    "y": 0.5902817
+  },
+  {
+    "name": "REGGIO",
+    "population": 350,
+    "city": false,
+    "x": 0.5988886,
+    "y": 0.5633525
+  },
+  {
+    "name": "REGGIO DI CALABRIA",
+    "population": 300,
+    "city": false,
+    "x": 0.8276563,
+    "y": 0.6621396
+  },
+  {
+    "name": "REIMS",
+    "population": 600,
+    "city": false,
+    "x": 0.4496705,
+    "y": 0.4395699
+  },
+  {
+    "name": "RENNES",
+    "population": 550,
+    "city": false,
+    "x": 0.4813026,
+    "y": 0.323156
+  },
+  {
+    "name": "RIOM",
+    "population": 250,
+    "city": false,
+    "x": 0.5505485,
+    "y": 0.4177456
+  },
+  {
+    "name": "ROCHEFORT",
+    "population": 300,
+    "city": false,
+    "x": 0.5407024,
+    "y": 0.3386673
+  },
+  {
+    "name": "ROMA",
+    "population": 3250,
+    "city": true,
+    "x": 0.704965,
+    "y": 0.5956564
+  },
+  {
+    "name": "RONDA",
+    "population": 300,
+    "city": false,
+    "x": 0.8459678,
+    "y": 0.2441346
+  },
+  {
+    "name": "ROSTOCK",
+    "population": 300,
+    "city": false,
+    "x": 0.2991596,
+    "y": 0.6001849
+  },
+  {
+    "name": "ROTTERDAM",
+    "population": 1150,
+    "city": true,
+    "x": 0.3747891,
+    "y": 0.4505946
+  },
+  {
+    "name": "ROUEN",
+    "population": 1600,
+    "city": true,
+    "x": 0.442202,
+    "y": 0.3819
+  },
+  {
+    "name": "SAINT-ETIENNE",
+    "population": 350,
+    "city": false,
+    "x": 0.5650551,
+    "y": 0.4426077
+  },
+  {
+    "name": "SAINT-MALO",
+    "population": 350,
+    "city": false,
+    "x": 0.4655956,
+    "y": 0.3160504
+  },
+  {
+    "name": "SAINT-OMER",
+    "population": 400,
+    "city": false,
+    "x": 0.4056965,
+    "y": 0.4022639
+  },
+  {
+    "name": "SAINT-QUENTIN",
+    "population": 200,
+    "city": false,
+    "x": 0.4308843,
+    "y": 0.4248975
+  },
+  {
+    "name": "SALAMANCA",
+    "population": 200,
+    "city": false,
+    "x": 0.7076922,
+    "y": 0.2318075
+  },
+  {
+    "name": "SALFORD",
+    "population": 300,
+    "city": false,
+    "x": 0.3188343,
+    "y": 0.3090727
+  },
+  {
+    "name": "SALZBURG",
+    "population": 200,
+    "city": false,
+    "x": 0.495723,
+    "y": 0.6074506
+  },
+  {
+    "name": "SANTIAGO",
+    "population": 500,
+    "city": false,
+    "x": 0.6438016,
+    "y": 0.1794343
+  },
+  {
+    "name": "SASSARI",
+    "population": 350,
+    "city": false,
+    "x": 0.7280883,
+    "y": 0.5213786
+  },
+  {
+    "name": "SAVIGLIANO",
+    "population": 250,
+    "city": false,
+    "x": 0.5948509,
+    "y": 0.5062475
+  },
+  {
+    "name": "SEGOVIA",
+    "population": 100,
+    "city": false,
+    "x": 0.7098276,
+    "y": 0.2595645
+  },
+  {
+    "name": "SEVILLA",
+    "population": 1900,
+    "city": true,
+    "x": 0.8247922,
+    "y": 0.2271561
+  },
+  {
+    "name": "SHEFFIELD",
+    "population": 900,
+    "city": true,
+    "x": 0.3219576,
+    "y": 0.3264544
+  },
+  {
+    "name": "SHREWSBURY",
+    "population": 300,
+    "city": false,
+    "x": 0.3436612,
+    "y": 0.2987084
+  },
+  {
+    "name": "SIENA",
+    "population": 300,
+    "city": false,
+    "x": 0.6501108,
+    "y": 0.5746446
+  },
+  {
+    "name": "SINT NIKLAAS",
+    "population": 200,
+    "city": false,
+    "x": 0.394663,
+    "y": 0.4413809
+  },
+  {
+    "name": "SIRACUSA",
+    "population": 300,
+    "city": false,
+    "x": 0.8596436,
+    "y": 0.6553381
+  },
+  {
+    "name": "SOEST",
+    "population": 100,
+    "city": false,
+    "x": 0.3795628,
+    "y": 0.5185056
+  },
+  {
+    "name": "STETTIN (SZCZECIN)",
+    "population": 450,
+    "city": false,
+    "x": 0.321054,
+    "y": 0.6449586
+  },
+  {
+    "name": "STOCKHOLM",
+    "population": 1500,
+    "city": true,
+    "x": 0.1239354,
+    "y": 0.7038503
+  },
+  {
+    "name": "STOCKPORT",
+    "population": 300,
+    "city": false,
+    "x": 0.3213288,
+    "y": 0.3117251
+  },
+  {
+    "name": "STRALSUND",
+    "population": 200,
+    "city": false,
+    "x": 0.2913107,
+    "y": 0.6172252
+  },
+  {
+    "name": "STRASBOURG",
+    "population": 950,
+    "city": true,
+    "x": 0.4709219,
+    "y": 0.507217
+  },
+  {
+    "name": "STUTTGART",
+    "population": 400,
+    "city": false,
+    "x": 0.4639492,
+    "y": 0.5340878
+  },
+  {
+    "name": "SUNDERLAND",
+    "population": 500,
+    "city": false,
+    "x": 0.2746493,
+    "y": 0.3320019
+  },
+  {
+    "name": "TARANTO",
+    "population": 350,
+    "city": false,
+    "x": 0.7523711,
+    "y": 0.691467
+  },
+  {
+    "name": "TERMINI",
+    "population": 300,
+    "city": false,
+    "x": 0.8294911,
+    "y": 0.6224128
+  },
+  {
+    "name": "TOLEDO",
+    "population": 500,
+    "city": false,
+    "x": 0.7455462,
+    "y": 0.2612117
+  },
+  {
+    "name": "TORINO",
+    "population": 1650,
+    "city": true,
+    "x": 0.5824644,
+    "y": 0.5065022
+  },
+  {
+    "name": "TOULON",
+    "population": 650,
+    "city": false,
+    "x": 0.6287056,
+    "y": 0.4758841
+  },
+  {
+    "name": "TOULOUSE",
+    "population": 900,
+    "city": true,
+    "x": 0.6195288,
+    "y": 0.3832177
+  },
+  {
+    "name": "TOURNAI",
+    "population": 450,
+    "city": false,
+    "x": 0.409528,
+    "y": 0.425606
+  },
+  {
+    "name": "TOURS",
+    "population": 450,
+    "city": false,
+    "x": 0.5043402,
+    "y": 0.3714851
+  },
+  {
+    "name": "TRAPANI",
+    "population": 500,
+    "city": false,
+    "x": 0.8264635,
+    "y": 0.5988154
+  },
+  {
+    "name": "TREVISO",
+    "population": 200,
+    "city": false,
+    "x": 0.5682793,
+    "y": 0.5924358
+  },
+  {
+    "name": "TRIESTE",
+    "population": 500,
+    "city": false,
+    "x": 0.5698785,
+    "y": 0.6197479
+  },
+  {
+    "name": "TROYES",
+    "population": 400,
+    "city": false,
+    "x": 0.4793255,
+    "y": 0.4399943
+  },
+  {
+    "name": "UBEDA",
+    "population": 300,
+    "city": false,
+    "x": 0.8053303,
+    "y": 0.2789515
+  },
+  {
+    "name": "UDINE",
+    "population": 300,
+    "city": false,
+    "x": 0.5553983,
+    "y": 0.6102916
+  },
+  {
+    "name": "ULM",
+    "population": 250,
+    "city": false,
+    "x": 0.4751808,
+    "y": 0.5488948
+  },
+  {
+    "name": "UTRECHT",
+    "population": 650,
+    "city": false,
+    "x": 0.3698567,
+    "y": 0.4634252
+  },
+  {
+    "name": "UTRERA",
+    "population": 100,
+    "city": false,
+    "x": 0.8312835,
+    "y": 0.231294
+  },
+  {
+    "name": "VALENCIA",
+    "population": 1600,
+    "city": true,
+    "x": 0.7575218,
+    "y": 0.3408775
+  },
+  {
+    "name": "VALENCIENNES",
+    "population": 350,
+    "city": false,
+    "x": 0.4168522,
+    "y": 0.4286477
+  },
+  {
+    "name": "VALLADOLID",
+    "population": 400,
+    "city": false,
+    "x": 0.6856635,
+    "y": 0.250821
+  },
+  {
+    "name": "VENEZIA",
+    "population": 2750,
+    "city": true,
+    "x": 0.5762,
+    "y": 0.5939373
+  },
+  {
+    "name": "VERCELLI",
+    "population": 250,
+    "city": false,
+    "x": 0.5750546,
+    "y": 0.521868
+  },
+  {
+    "name": "VERONA",
+    "population": 800,
+    "city": true,
+    "x": 0.5746429,
+    "y": 0.5703187
+  },
+  {
+    "name": "VERSAILLES",
+    "population": 550,
+    "city": false,
+    "x": 0.4619364,
+    "y": 0.4046374
+  },
+  {
+    "name": "VICENZA",
+    "population": 600,
+    "city": false,
+    "x": 0.5712494,
+    "y": 0.5798683
+  },
+  {
+    "name": "VIGEVANO",
+    "population": 250,
+    "city": false,
+    "x": 0.5758768,
+    "y": 0.5307333
+  },
+  {
+    "name": "VITERBO",
+    "population": 250,
+    "city": false,
+    "x": 0.686851,
+    "y": 0.5883287
+  },
+  {
+    "name": "WARRINGTON",
+    "population": 200,
+    "city": false,
+    "x": 0.3220785,
+    "y": 0.3023998
+  },
+  {
+    "name": "WARSZAWA",
+    "population": 1250,
+    "city": true,
+    "x": 0.3592809,
+    "y": 0.7586902
+  },
+  {
+    "name": "WATERFORD",
+    "population": 400,
+    "city": false,
+    "x": 0.3590931,
+    "y": 0.2051607
+  },
+  {
+    "name": "WENLOCK",
+    "population": 300,
+    "city": false,
+    "x": 0.3453289,
+    "y": 0.303654
+  },
+  {
+    "name": "WIEN",
+    "population": 4600,
+    "city": true,
+    "x": 0.4749098,
+    "y": 0.667845
+  },
+  {
+    "name": "WIGAN",
+    "population": 200,
+    "city": false,
+    "x": 0.3171754,
+    "y": 0.3019548
+  },
+  {
+    "name": "WOLVERHAMPTON",
+    "population": 250,
+    "city": false,
+    "x": 0.3479034,
+    "y": 0.3120863
+  },
+  {
+    "name": "WORCESTER",
+    "population": 200,
+    "city": false,
+    "x": 0.3615458,
+    "y": 0.311409
+  },
+  {
+    "name": "WURZBURG",
+    "population": 300,
+    "city": false,
+    "x": 0.4326097,
+    "y": 0.5496546
+  },
+  {
+    "name": "YARMOUTH",
+    "population": 300,
+    "city": false,
+    "x": 0.3483187,
+    "y": 0.3913529
+  },
+  {
+    "name": "YORK",
+    "population": 300,
+    "city": false,
+    "x": 0.3034871,
+    "y": 0.3349033
+  },
+  {
+    "name": "ZAANDAM",
+    "population": 500,
+    "city": false,
+    "x": 0.3584074,
+    "y": 0.4575839
+  },
+  {
+    "name": "ZARAGOZA",
+    "population": 800,
+    "city": true,
+    "x": 0.684804,
+    "y": 0.3320477
+  },
+  {
+    "name": "ZURICH",
+    "population": 200,
+    "city": false,
+    "x": 0.5093939,
+    "y": 0.5223365
+  },
+  {
+    "name": "ZWOLLE",
+    "population": 250,
+    "city": false,
+    "x": 0.3553166,
+    "y": 0.4820309
+  },
+  {
+    "name": "Przemyśl",
+    "population": 300,
+    "city": false,
+    "x": 0.4430991,
+    "y": 0.7978787
+  },
+  {
+    "name": "Łódź",
+    "population": 300,
+    "city": false,
+    "x": 0.3741168,
+    "y": 0.7306103
+  },
+  {
+    "name": "Toruń",
+    "population": 300,
+    "city": false,
+    "x": 0.3340802,
+    "y": 0.716785
+  },
+  {
+    "name": "Bydgoszcz",
+    "population": 300,
+    "city": false,
+    "x": 0.3306596,
+    "y": 0.7067111
+  },
+  {
+    "name": "Lublin",
+    "population": 300,
+    "city": false,
+    "x": 0.3939945,
+    "y": 0.7922001
+  },
+  {
+    "name": "Rzeszów",
+    "population": 300,
+    "city": false,
+    "x": 0.4333041,
+    "y": 0.7823909
+  },
+  {
+    "name": "Tarnów",
+    "population": 300,
+    "city": false,
+    "x": 0.4326536,
+    "y": 0.7623028
+  },
+  {
+    "name": "Katowice",
+    "population": 300,
+    "city": false,
+    "x": 0.4215989,
+    "y": 0.7241183
+  },
+  {
+    "name": "Gliwice",
+    "population": 300,
+    "city": false,
+    "x": 0.420144,
+    "y": 0.717367
+  },
+  {
+    "name": "Opole",
+    "population": 300,
+    "city": false,
+    "x": 0.4074009,
+    "y": 0.703396
+  },
+  {
+    "name": "Częstochowa",
+    "population": 300,
+    "city": false,
+    "x": 0.4045529,
+    "y": 0.7259258
+  },
+  {
+    "name": "Białystok",
+    "population": 300,
+    "city": false,
+    "x": 0.3335651,
+    "y": 0.8048127
+  },
+  {
+    "name": "Olsztyn",
+    "population": 300,
+    "city": false,
+    "x": 0.3105565,
+    "y": 0.7527405
+  },
+  {
+    "name": "Kalisz",
+    "population": 300,
+    "city": false,
+    "x": 0.3737231,
+    "y": 0.7070014
+  },
+  {
+    "name": "Płock",
+    "population": 300,
+    "city": false,
+    "x": 0.3485724,
+    "y": 0.7346197
+  },
+  {
+    "name": "Radom",
+    "population": 300,
+    "city": false,
+    "x": 0.3867485,
+    "y": 0.762527
+  },
+  {
+    "name": "Kielce",
+    "population": 300,
+    "city": false,
+    "x": 0.404289,
+    "y": 0.7541991
+  },
+  {
+    "name": "Gorzów Wielkopolski",
+    "population": 300,
+    "city": false,
+    "x": 0.3434068,
+    "y": 0.6573052
+  },
+  {
+    "name": "Zielona Góra",
+    "population": 300,
+    "city": false,
+    "x": 0.3678223,
+    "y": 0.6607484
+  },
+  {
+    "name": "Bielsko",
+    "population": 300,
+    "city": false,
+    "x": 0.4353305,
+    "y": 0.7242027
+  },
+  {
+    "name": "Nowy Sącz",
+    "population": 300,
+    "city": false,
+    "x": 0.4448817,
+    "y": 0.7569739
+  },
+  {
+    "name": "Zakopane",
+    "population": 300,
+    "city": false,
+    "x": 0.4534157,
+    "y": 0.7415703
+  },
+  {
+    "name": "Sandomierz",
+    "population": 300,
+    "city": false,
+    "x": 0.4117016,
+    "y": 0.7766275
+  },
+  {
+    "name": "Jarosław",
+    "population": 300,
+    "city": false,
+    "x": 0.4352276,
+    "y": 0.7959944
+  },
+  {
+    "name": "Sanok",
+    "population": 300,
+    "city": false,
+    "x": 0.4496304,
+    "y": 0.7866615
+  },
+  {
+    "name": "Krosno",
+    "population": 300,
+    "city": false,
+    "x": 0.4444878,
+    "y": 0.7779585
+  },
+  {
+    "name": "Jasło",
+    "population": 300,
+    "city": false,
+    "x": 0.4421258,
+    "y": 0.7720141
+  },
+  {
+    "name": "Dębica",
+    "population": 300,
+    "city": false,
+    "x": 0.4320398,
+    "y": 0.7706955
+  },
+  {
+    "name": "Mielec",
+    "population": 300,
+    "city": false,
+    "x": 0.4243436,
+    "y": 0.7707503
+  },
+  {
+    "name": "Łańcut",
+    "population": 300,
+    "city": false,
+    "x": 0.4327572,
+    "y": 0.7869702
+  },
+  {
+    "name": "Leżajsk",
+    "population": 300,
+    "city": false,
+    "x": 0.4266433,
+    "y": 0.7906383
+  },
+  {
+    "name": "Przeworsk",
+    "population": 300,
+    "city": false,
+    "x": 0.4335071,
+    "y": 0.7922849
+  },
+  {
+    "name": "Brzozów",
+    "population": 300,
+    "city": false,
+    "x": 0.4447192,
+    "y": 0.7829219
+  },
+  {
+    "name": "Lesko",
+    "population": 300,
+    "city": false,
+    "x": 0.4526795,
+    "y": 0.7891683
+  },
+  {
+    "name": "Zamość",
+    "population": 300,
+    "city": false,
+    "x": 0.4126138,
+    "y": 0.8070511
+  },
+  {
+    "name": "Chełm",
+    "population": 300,
+    "city": false,
+    "x": 0.3989621,
+    "y": 0.8111362
+  },
+  {
+    "name": "Biała Podlaska",
+    "population": 300,
+    "city": false,
+    "x": 0.3688305,
+    "y": 0.8028123
+  },
+  {
+    "name": "Siedlce",
+    "population": 300,
+    "city": false,
+    "x": 0.3628115,
+    "y": 0.784821
+  },
+  {
+    "name": "Łomża",
+    "population": 300,
+    "city": false,
+    "x": 0.330437,
+    "y": 0.7816737
+  },
+  {
+    "name": "Suwałki",
+    "population": 300,
+    "city": false,
+    "x": 0.3024104,
+    "y": 0.8019573
+  },
+  {
+    "name": "Augustów",
+    "population": 300,
+    "city": false,
+    "x": 0.3109146,
+    "y": 0.8023743
+  },
+  {
+    "name": "Ełk",
+    "population": 300,
+    "city": false,
+    "x": 0.3106491,
+    "y": 0.7898766
+  },
+  {
+    "name": "Malbork",
+    "population": 300,
+    "city": false,
+    "x": 0.3020133,
+    "y": 0.7265949
+  },
+  {
+    "name": "Grudziądz",
+    "population": 300,
+    "city": false,
+    "x": 0.3193137,
+    "y": 0.7204591
+  },
+  {
+    "name": "Włocławek",
+    "population": 300,
+    "city": false,
+    "x": 0.3455268,
+    "y": 0.7241186
+  },
+  {
+    "name": "Gniezno",
+    "population": 300,
+    "city": false,
+    "x": 0.3492139,
+    "y": 0.6988115
+  },
+  {
+    "name": "Leszno",
+    "population": 300,
+    "city": false,
+    "x": 0.3706694,
+    "y": 0.6798069
+  },
+  {
+    "name": "Piła",
+    "population": 300,
+    "city": false,
+    "x": 0.3297996,
+    "y": 0.6842753
+  },
+  {
+    "name": "Koszalin",
+    "population": 300,
+    "city": false,
+    "x": 0.2962563,
+    "y": 0.6746497
+  },
+  {
+    "name": "Słupsk",
+    "population": 300,
+    "city": false,
+    "x": 0.2878046,
+    "y": 0.6905397
+  },
+  {
+    "name": "Kołobrzeg",
+    "population": 300,
+    "city": false,
+    "x": 0.2966863,
+    "y": 0.6638102
+  },
+  {
+    "name": "Świnoujście",
+    "population": 300,
+    "city": false,
+    "x": 0.3050711,
+    "y": 0.6390413
+  },
+  {
+    "name": "Stargard",
+    "population": 300,
+    "city": false,
+    "x": 0.3240528,
+    "y": 0.6540789
+  },
+  {
+    "name": "Legnica",
+    "population": 300,
+    "city": false,
+    "x": 0.3893693,
+    "y": 0.6708624
+  },
+  {
+    "name": "Jelenia Góra",
+    "population": 300,
+    "city": false,
+    "x": 0.3976739,
+    "y": 0.6619077
+  },
+  {
+    "name": "Wałbrzych",
+    "population": 300,
+    "city": false,
+    "x": 0.4023944,
+    "y": 0.6725096
+  },
+  {
+    "name": "Świdnica",
+    "population": 300,
+    "city": false,
+    "x": 0.4005138,
+    "y": 0.6765226
+  },
+  {
+    "name": "Nysa",
+    "population": 300,
+    "city": false,
+    "x": 0.4127529,
+    "y": 0.6920323
+  },
+  {
+    "name": "Racibórz",
+    "population": 300,
+    "city": false,
+    "x": 0.4256126,
+    "y": 0.7084621
+  },
+  {
+    "name": "Oświęcim",
+    "population": 300,
+    "city": false,
+    "x": 0.4290651,
+    "y": 0.7275932
+  },
+  {
+    "name": "Bochnia",
+    "population": 300,
+    "city": false,
+    "x": 0.4331507,
+    "y": 0.7513895
+  },
+  {
+    "name": "Wieliczka",
+    "population": 300,
+    "city": false,
+    "x": 0.4319768,
+    "y": 0.7442321
+  },
+  {
+    "name": "Nowy Targ",
+    "population": 300,
+    "city": false,
+    "x": 0.4479965,
+    "y": 0.7433643
+  },
+  {
+    "name": "Ostrava",
+    "population": 300,
+    "city": false,
+    "x": 0.4338669,
+    "y": 0.7089261
+  },
+  {
+    "name": "Plzeň",
+    "population": 300,
+    "city": false,
+    "x": 0.4320108,
+    "y": 0.6148866
+  },
+  {
+    "name": "Olomouc",
+    "population": 300,
+    "city": false,
+    "x": 0.4384931,
+    "y": 0.6887229
+  },
+  {
+    "name": "České Budějovice",
+    "population": 300,
+    "city": false,
+    "x": 0.4563764,
+    "y": 0.6351205
+  },
+  {
+    "name": "Liberec",
+    "population": 300,
+    "city": false,
+    "x": 0.4005301,
+    "y": 0.6486612
+  },
+  {
+    "name": "Ústí nad Labem",
+    "population": 300,
+    "city": false,
+    "x": 0.4027489,
+    "y": 0.6284431
+  },
+  {
+    "name": "Hradec Králové",
+    "population": 300,
+    "city": false,
+    "x": 0.4185107,
+    "y": 0.6629912
+  },
+  {
+    "name": "Pardubice",
+    "population": 300,
+    "city": false,
+    "x": 0.4237866,
+    "y": 0.6617619
+  },
+  {
+    "name": "Jihlava",
+    "population": 300,
+    "city": false,
+    "x": 0.4428318,
+    "y": 0.6567323
+  },
+  {
+    "name": "Zlín",
+    "population": 300,
+    "city": false,
+    "x": 0.4498807,
+    "y": 0.6959383
+  },
+  {
+    "name": "Karlovy Vary",
+    "population": 300,
+    "city": false,
+    "x": 0.4170775,
+    "y": 0.6059211
+  },
+  {
+    "name": "Cheb",
+    "population": 300,
+    "city": false,
+    "x": 0.422451,
+    "y": 0.5963864
+  },
+  {
+    "name": "Tábor",
+    "population": 300,
+    "city": false,
+    "x": 0.4423818,
+    "y": 0.6394394
+  },
+  {
+    "name": "Opava",
+    "population": 300,
+    "city": false,
+    "x": 0.4296681,
+    "y": 0.7021101
+  },
+  {
+    "name": "Znojmo",
+    "population": 300,
+    "city": false,
+    "x": 0.4556536,
+    "y": 0.6626284
+  },
+  {
+    "name": "Bratislava",
+    "population": 300,
+    "city": false,
+    "x": 0.4776276,
+    "y": 0.6823014
+  },
+  {
+    "name": "Košice",
+    "population": 300,
+    "city": false,
+    "x": 0.4749869,
+    "y": 0.7674157
+  },
+  {
+    "name": "Žilina",
+    "population": 300,
+    "city": false,
+    "x": 0.4530141,
+    "y": 0.7174238
+  },
+  {
+    "name": "Trnava",
+    "population": 300,
+    "city": false,
+    "x": 0.4741162,
+    "y": 0.6927569
+  },
+  {
+    "name": "Nitra",
+    "population": 300,
+    "city": false,
+    "x": 0.4793685,
+    "y": 0.7028347
+  },
+  {
+    "name": "Trenčín",
+    "population": 300,
+    "city": false,
+    "x": 0.4608219,
+    "y": 0.7029656
+  },
+  {
+    "name": "Banská Bystrica",
+    "population": 300,
+    "city": false,
+    "x": 0.4690131,
+    "y": 0.724813
+  },
+  {
+    "name": "Zvolen",
+    "population": 300,
+    "city": false,
+    "x": 0.4739263,
+    "y": 0.7243854
+  },
+  {
+    "name": "Prešov",
+    "population": 300,
+    "city": false,
+    "x": 0.4657196,
+    "y": 0.7671534
+  },
+  {
+    "name": "Poprad",
+    "population": 300,
+    "city": false,
+    "x": 0.4617086,
+    "y": 0.7482975
+  },
+  {
+    "name": "Martin",
+    "population": 300,
+    "city": false,
+    "x": 0.4582786,
+    "y": 0.7208649
+  },
+  {
+    "name": "Komárno",
+    "population": 300,
+    "city": false,
+    "x": 0.4977764,
+    "y": 0.7034219
+  },
+  {
+    "name": "Bardejov",
+    "population": 300,
+    "city": false,
+    "x": 0.456409,
+    "y": 0.7680186
+  },
+  {
+    "name": "Budapest",
+    "population": 300,
+    "city": false,
+    "x": 0.5066667,
+    "y": 0.7211111
+  },
+  {
+    "name": "Debrecen",
+    "population": 300,
+    "city": false,
+    "x": 0.5155194,
+    "y": 0.7742212
+  },
+  {
+    "name": "Szeged",
+    "population": 300,
+    "city": false,
+    "x": 0.5578431,
+    "y": 0.7435249
+  },
+  {
+    "name": "Pécs",
+    "population": 300,
+    "city": false,
+    "x": 0.5598284,
+    "y": 0.705587
+  },
+  {
+    "name": "Győr",
+    "population": 300,
+    "city": false,
+    "x": 0.4987996,
+    "y": 0.6940245
+  },
+  {
+    "name": "Miskolc",
+    "population": 300,
+    "city": false,
+    "x": 0.4933098,
+    "y": 0.757139
+  },
+  {
+    "name": "Nyíregyháza",
+    "population": 300,
+    "city": false,
+    "x": 0.5013494,
+    "y": 0.7762275
+  },
+  {
+    "name": "Kecskemét",
+    "population": 300,
+    "city": false,
+    "x": 0.5299699,
+    "y": 0.7345938
+  },
+  {
+    "name": "Székesfehérvár",
+    "population": 300,
+    "city": false,
+    "x": 0.5176336,
+    "y": 0.709216
+  },
+  {
+    "name": "Szombathely",
+    "population": 300,
+    "city": false,
+    "x": 0.5132635,
+    "y": 0.6735687
+  },
+  {
+    "name": "Sopron",
+    "population": 300,
+    "city": false,
+    "x": 0.4931184,
+    "y": 0.6720219
+  },
+  {
+    "name": "Eger",
+    "population": 300,
+    "city": false,
+    "x": 0.4982554,
+    "y": 0.7487317
+  },
+  {
+    "name": "Szolnok",
+    "population": 300,
+    "city": false,
+    "x": 0.5219697,
+    "y": 0.7443917
+  },
+  {
+    "name": "Békéscsaba",
+    "population": 300,
+    "city": false,
+    "x": 0.5445478,
+    "y": 0.7628763
+  },
+  {
+    "name": "Veszprém",
+    "population": 300,
+    "city": false,
+    "x": 0.5210883,
+    "y": 0.6993138
+  },
+  {
+    "name": "Villach",
+    "population": 300,
+    "city": false,
+    "x": 0.5367153,
+    "y": 0.6214979
+  },
+  {
+    "name": "Wels",
+    "population": 300,
+    "city": false,
+    "x": 0.4830659,
+    "y": 0.6258182
+  },
+  {
+    "name": "Steyr",
+    "population": 300,
+    "city": false,
+    "x": 0.4863167,
+    "y": 0.6326287
+  },
+  {
+    "name": "Wiener Neustadt",
+    "population": 300,
+    "city": false,
+    "x": 0.4877889,
+    "y": 0.6652598
+  },
+  {
+    "name": "Sankt Pölten",
+    "population": 300,
+    "city": false,
+    "x": 0.4744176,
+    "y": 0.6532042
+  },
+  {
+    "name": "Bregenz",
+    "population": 300,
+    "city": false,
+    "x": 0.5047488,
+    "y": 0.5446502
+  },
+  {
+    "name": "Ljubljana",
+    "population": 300,
+    "city": false,
+    "x": 0.5560177,
+    "y": 0.6322738
+  },
+  {
+    "name": "Maribor",
+    "population": 300,
+    "city": false,
+    "x": 0.5394447,
+    "y": 0.6534803
+  },
+  {
+    "name": "Celje",
+    "population": 300,
+    "city": false,
+    "x": 0.5502315,
+    "y": 0.6455528
+  },
+  {
+    "name": "Kranj",
+    "population": 300,
+    "city": false,
+    "x": 0.5497391,
+    "y": 0.6298898
+  },
+  {
+    "name": "Koper",
+    "population": 300,
+    "city": false,
+    "x": 0.5733395,
+    "y": 0.6189079
+  },
+  {
+    "name": "Ptuj",
+    "population": 300,
+    "city": false,
+    "x": 0.5444006,
+    "y": 0.6572373
+  },
+  {
+    "name": "Zagreb",
+    "population": 300,
+    "city": false,
+    "x": 0.5644444,
+    "y": 0.6577778
+  },
+  {
+    "name": "Rijeka",
+    "population": 300,
+    "city": false,
+    "x": 0.5810966,
+    "y": 0.631423
+  },
+  {
+    "name": "Split",
+    "population": 300,
+    "city": false,
+    "x": 0.647692,
+    "y": 0.6712413
+  },
+  {
+    "name": "Dubrovnik",
+    "population": 300,
+    "city": false,
+    "x": 0.6786726,
+    "y": 0.70366
+  },
+  {
+    "name": "Zadar",
+    "population": 300,
+    "city": false,
+    "x": 0.6246501,
+    "y": 0.6479294
+  },
+  {
+    "name": "Šibenik",
+    "population": 300,
+    "city": false,
+    "x": 0.6390796,
+    "y": 0.6608913
+  },
+  {
+    "name": "Pula",
+    "population": 300,
+    "city": false,
+    "x": 0.5972278,
+    "y": 0.6215209
+  },
+  {
+    "name": "Karlovac",
+    "population": 300,
+    "city": false,
+    "x": 0.5752094,
+    "y": 0.650525
+  },
+  {
+    "name": "Osijek",
+    "population": 300,
+    "city": false,
+    "x": 0.5806116,
+    "y": 0.7144852
+  },
+  {
+    "name": "Sarajevo",
+    "population": 300,
+    "city": false,
+    "x": 0.6388889,
+    "y": 0.7066667
+  },
+  {
+    "name": "Mostar",
+    "population": 300,
+    "city": false,
+    "x": 0.6550295,
+    "y": 0.6961165
+  },
+  {
+    "name": "Banja Luka",
+    "population": 300,
+    "city": false,
+    "x": 0.6045719,
+    "y": 0.684534
+  },
+  {
+    "name": "Tuzla",
+    "population": 300,
+    "city": false,
+    "x": 0.6166811,
+    "y": 0.7128491
+  },
+  {
+    "name": "Zenica",
+    "population": 300,
+    "city": false,
+    "x": 0.6267741,
+    "y": 0.6974687
+  },
+  {
+    "name": "Bihać",
+    "population": 300,
+    "city": false,
+    "x": 0.5997169,
+    "y": 0.6584736
+  },
+  {
+    "name": "Travnik",
+    "population": 300,
+    "city": false,
+    "x": 0.6254673,
+    "y": 0.6930797
+  },
+  {
+    "name": "Belgrade",
+    "population": 300,
+    "city": false,
+    "x": 0.6144444,
+    "y": 0.7466667
+  },
+  {
+    "name": "Novi Sad",
+    "population": 300,
+    "city": false,
+    "x": 0.5958733,
+    "y": 0.7357216
+  },
+  {
+    "name": "Niš",
+    "population": 300,
+    "city": false,
+    "x": 0.6687298,
+    "y": 0.7789856
+  },
+  {
+    "name": "Kragujevac",
+    "population": 300,
+    "city": false,
+    "x": 0.6393641,
+    "y": 0.7577041
+  },
+  {
+    "name": "Subotica",
+    "population": 300,
+    "city": false,
+    "x": 0.5624785,
+    "y": 0.7339532
+  },
+  {
+    "name": "Zrenjanin",
+    "population": 300,
+    "city": false,
+    "x": 0.5931198,
+    "y": 0.7466126
+  },
+  {
+    "name": "Sombor",
+    "population": 300,
+    "city": false,
+    "x": 0.5736483,
+    "y": 0.7227983
+  },
+  {
+    "name": "Šabac",
+    "population": 300,
+    "city": false,
+    "x": 0.6134837,
+    "y": 0.7325525
+  },
+  {
+    "name": "Kraljevo",
+    "population": 300,
+    "city": false,
+    "x": 0.6484577,
+    "y": 0.7538199
+  },
+  {
+    "name": "Skopje",
+    "population": 300,
+    "city": false,
+    "x": 0.7108903,
+    "y": 0.7720685
+  },
+  {
+    "name": "Bitola",
+    "population": 300,
+    "city": false,
+    "x": 0.741124,
+    "y": 0.7745545
+  },
+  {
+    "name": "Ohrid",
+    "population": 300,
+    "city": false,
+    "x": 0.7363536,
+    "y": 0.7632403
+  },
+  {
+    "name": "Prilep",
+    "population": 300,
+    "city": false,
+    "x": 0.7319712,
+    "y": 0.7772598
+  },
+  {
+    "name": "Tirana",
+    "population": 300,
+    "city": false,
+    "x": 0.7267257,
+    "y": 0.7422136
+  },
+  {
+    "name": "Durrës",
+    "population": 300,
+    "city": false,
+    "x": 0.7259951,
+    "y": 0.7344958
+  },
+  {
+    "name": "Shkodër",
+    "population": 300,
+    "city": false,
+    "x": 0.7009952,
+    "y": 0.7336905
+  },
+  {
+    "name": "Vlorë",
+    "population": 300,
+    "city": false,
+    "x": 0.7548004,
+    "y": 0.7384689
+  },
+  {
+    "name": "Podgorica",
+    "population": 300,
+    "city": false,
+    "x": 0.6880743,
+    "y": 0.727517
+  },
+  {
+    "name": "Cetinje",
+    "population": 300,
+    "city": false,
+    "x": 0.6887737,
+    "y": 0.7208653
+  },
+  {
+    "name": "Kotor",
+    "population": 300,
+    "city": false,
+    "x": 0.6873193,
+    "y": 0.7176876
+  },
+  {
+    "name": "Sofia",
+    "population": 300,
+    "city": false,
+    "x": 0.7011111,
+    "y": 0.8055556
+  },
+  {
+    "name": "Plovdiv",
+    "population": 300,
+    "city": false,
+    "x": 0.713561,
+    "y": 0.8375525
+  },
+  {
+    "name": "Varna",
+    "population": 300,
+    "city": false,
+    "x": 0.6737907,
+    "y": 0.9016419
+  },
+  {
+    "name": "Burgas",
+    "population": 300,
+    "city": false,
+    "x": 0.697249,
+    "y": 0.8938013
+  },
+  {
+    "name": "Ruse",
+    "population": 300,
+    "city": false,
+    "x": 0.652606,
+    "y": 0.8609215
+  },
+  {
+    "name": "Veliko Tarnovo",
+    "population": 300,
+    "city": false,
+    "x": 0.6792106,
+    "y": 0.8547014
+  },
+  {
+    "name": "Pleven",
+    "population": 300,
+    "city": false,
+    "x": 0.6696941,
+    "y": 0.8335454
+  },
+  {
+    "name": "Shumen",
+    "population": 300,
+    "city": false,
+    "x": 0.6717921,
+    "y": 0.881323
+  },
+  {
+    "name": "București",
+    "population": 300,
+    "city": false,
+    "x": 0.6333333,
+    "y": 0.8633333
+  },
+  {
+    "name": "Brașov",
+    "population": 300,
+    "city": false,
+    "x": 0.5908347,
+    "y": 0.8540183
+  },
+  {
+    "name": "Sibiu",
+    "population": 300,
+    "city": false,
+    "x": 0.583134,
+    "y": 0.8244536
+  },
+  {
+    "name": "Cluj-Napoca",
+    "population": 300,
+    "city": false,
+    "x": 0.5475499,
+    "y": 0.8145182
+  },
+  {
+    "name": "Timișoara",
+    "population": 300,
+    "city": false,
+    "x": 0.5799759,
+    "y": 0.7641778
+  },
+  {
+    "name": "Arad",
+    "population": 300,
+    "city": false,
+    "x": 0.5635822,
+    "y": 0.7669904
+  },
+  {
+    "name": "Iași",
+    "population": 300,
+    "city": false,
+    "x": 0.5401108,
+    "y": 0.8948153
+  },
+  {
+    "name": "Constanța",
+    "population": 300,
+    "city": false,
+    "x": 0.6426731,
+    "y": 0.9155375
+  },
+  {
+    "name": "Oradea",
+    "population": 300,
+    "city": false,
+    "x": 0.5335523,
+    "y": 0.7799657
+  },
+  {
+    "name": "Satu Mare",
+    "population": 300,
+    "city": false,
+    "x": 0.5101318,
+    "y": 0.7998827
+  },
+  {
+    "name": "Baia Mare",
+    "population": 300,
+    "city": false,
+    "x": 0.5164604,
+    "y": 0.814004
+  },
+  {
+    "name": "Suceava",
+    "population": 300,
+    "city": false,
+    "x": 0.5214233,
+    "y": 0.8678412
+  },
+  {
+    "name": "Botoșani",
+    "population": 300,
+    "city": false,
+    "x": 0.51862,
+    "y": 0.8761864
+  },
+  {
+    "name": "Bacău",
+    "population": 300,
+    "city": false,
+    "x": 0.5600964,
+    "y": 0.8807969
+  },
+  {
+    "name": "Galați",
+    "population": 300,
+    "city": false,
+    "x": 0.5999418,
+    "y": 0.9024742
+  },
+  {
+    "name": "Brăila",
+    "population": 300,
+    "city": false,
+    "x": 0.605603,
+    "y": 0.9013844
+  },
+  {
+    "name": "Ploiești",
+    "population": 300,
+    "city": false,
+    "x": 0.6162592,
+    "y": 0.8619486
+  },
+  {
+    "name": "Craiova",
+    "population": 300,
+    "city": false,
+    "x": 0.635395,
+    "y": 0.8174609
+  },
+  {
+    "name": "Athens",
+    "population": 300,
+    "city": false,
+    "x": 0.8544444,
+    "y": 0.8733333
+  },
+  {
+    "name": "Thessaloniki",
+    "population": 300,
+    "city": false,
+    "x": 0.7579424,
+    "y": 0.8113489
+  },
+  {
+    "name": "Patras",
+    "population": 300,
+    "city": false,
+    "x": 0.8374883,
+    "y": 0.8118317
+  },
+  {
+    "name": "Larissa",
+    "population": 300,
+    "city": false,
+    "x": 0.7908529,
+    "y": 0.814501
+  },
+  {
+    "name": "Volos",
+    "population": 300,
+    "city": false,
+    "x": 0.8025553,
+    "y": 0.8336717
+  },
+  {
+    "name": "Ioannina",
+    "population": 300,
+    "city": false,
+    "x": 0.785088,
+    "y": 0.7739567
+  },
+  {
+    "name": "Kavala",
+    "population": 300,
+    "city": false,
+    "x": 0.7500851,
+    "y": 0.8383999
+  },
+  {
+    "name": "Serres",
+    "population": 300,
+    "city": false,
+    "x": 0.745254,
+    "y": 0.8187881
+  },
+  {
+    "name": "Trikala",
+    "population": 300,
+    "city": false,
+    "x": 0.7917548,
+    "y": 0.7985662
+  },
+  {
+    "name": "Lamia",
+    "population": 300,
+    "city": false,
+    "x": 0.8178623,
+    "y": 0.8279007
+  },
+  {
+    "name": "Tallinn",
+    "population": 300,
+    "city": false,
+    "x": 0.1318021,
+    "y": 0.8407379
+  },
+  {
+    "name": "Tartu",
+    "population": 300,
+    "city": false,
+    "x": 0.1686385,
+    "y": 0.8802118
+  },
+  {
+    "name": "Narva",
+    "population": 300,
+    "city": false,
+    "x": 0.1376396,
+    "y": 0.9091711
+  },
+  {
+    "name": "Pärnu",
+    "population": 300,
+    "city": false,
+    "x": 0.1658058,
+    "y": 0.8356933
+  },
+  {
+    "name": "Viljandi",
+    "population": 300,
+    "city": false,
+    "x": 0.1678181,
+    "y": 0.8575228
+  },
+  {
+    "name": "Rīga",
+    "population": 300,
+    "city": false,
+    "x": 0.2123897,
+    "y": 0.8279475
+  },
+  {
+    "name": "Jelgava",
+    "population": 300,
+    "city": false,
+    "x": 0.2217335,
+    "y": 0.8202954
+  },
+  {
+    "name": "Liepāja",
+    "population": 300,
+    "city": false,
+    "x": 0.223937,
+    "y": 0.7669499
+  },
+  {
+    "name": "Ventspils",
+    "population": 300,
+    "city": false,
+    "x": 0.195127,
+    "y": 0.777381
+  },
+  {
+    "name": "Daugavpils",
+    "population": 300,
+    "city": false,
+    "x": 0.2497715,
+    "y": 0.875728
+  },
+  {
+    "name": "Vilnius",
+    "population": 300,
+    "city": false,
+    "x": 0.2867593,
+    "y": 0.8499018
+  },
+  {
+    "name": "Kaunas",
+    "population": 300,
+    "city": false,
+    "x": 0.2784814,
+    "y": 0.8226432
+  },
+  {
+    "name": "Klaipėda",
+    "population": 300,
+    "city": false,
+    "x": 0.2501768,
+    "y": 0.7693163
+  },
+  {
+    "name": "Šiauliai",
+    "population": 300,
+    "city": false,
+    "x": 0.2445905,
+    "y": 0.811943
+  },
+  {
+    "name": "Panevėžys",
+    "population": 300,
+    "city": false,
+    "x": 0.2520674,
+    "y": 0.8324218
+  },
+  {
+    "name": "Lviv",
+    "population": 300,
+    "city": false,
+    "x": 0.4433533,
+    "y": 0.8232605
+  },
+  {
+    "name": "Ternopil",
+    "population": 300,
+    "city": false,
+    "x": 0.4554899,
+    "y": 0.8548009
+  },
+  {
+    "name": "Ivano-Frankivsk",
+    "population": 300,
+    "city": false,
+    "x": 0.4753519,
+    "y": 0.836977
+  },
+  {
+    "name": "Uzhhorod",
+    "population": 300,
+    "city": false,
+    "x": 0.4806662,
+    "y": 0.7881067
+  },
+  {
+    "name": "Chernivtsi",
+    "population": 300,
+    "city": false,
+    "x": 0.4988828,
+    "y": 0.8616181
+  },
+  {
+    "name": "Kyiv",
+    "population": 300,
+    "city": false,
+    "x": 0.431926,
+    "y": 0.9539012
+  },
+  {
+    "name": "Odesa",
+    "population": 300,
+    "city": false,
+    "x": 0.5652603,
+    "y": 0.9578162
+  },
+  {
+    "name": "Lutsk",
+    "population": 300,
+    "city": false,
+    "x": 0.4151415,
+    "y": 0.8492719
+  },
+  {
+    "name": "Rivne",
+    "population": 300,
+    "city": false,
+    "x": 0.4207802,
+    "y": 0.8680271
+  },
+  {
+    "name": "Khmelnytskyi",
+    "population": 300,
+    "city": false,
+    "x": 0.4619401,
+    "y": 0.8828031
+  },
+  {
+    "name": "Kamianets-Podilskyi",
+    "population": 300,
+    "city": false,
+    "x": 0.4867312,
+    "y": 0.8746565
+  },
+  {
+    "name": "Głogów",
+    "population": 300,
+    "city": false,
+    "x": 0.4141406,
+    "y": 0.6311455
+  },
+  {
+    "name": "Łowicz",
+    "population": 300,
+    "city": false,
+    "x": 0.3765691,
+    "y": 0.7320229
+  },
+  {
+    "name": "Sieradz",
+    "population": 300,
+    "city": false,
+    "x": 0.4139622,
+    "y": 0.67904
+  },
+  {
+    "name": "Rawicz",
+    "population": 300,
+    "city": false,
+    "x": 0.4206114,
+    "y": 0.6399072
+  },
+  {
+    "name": "Písek",
+    "population": 300,
+    "city": false,
+    "x": 0.4442695,
+    "y": 0.6301793
+  },
+  {
+    "name": "Krems",
+    "population": 300,
+    "city": false,
+    "x": 0.4775654,
+    "y": 0.6559244
+  }
+]
