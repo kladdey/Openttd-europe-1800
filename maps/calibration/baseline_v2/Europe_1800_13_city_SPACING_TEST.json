@@ -1,0 +1,93 @@
+[
+  {
+    "name": "LONDON",
+    "population": 10000,
+    "city": true,
+    "x": 0.32,
+    "y": 0.32
+  },
+  {
+    "name": "DUBLIN",
+    "population": 1200,
+    "city": false,
+    "x": 0.226,
+    "y": 0.155
+  },
+  {
+    "name": "PARIS",
+    "population": 7500,
+    "city": true,
+    "x": 0.39,
+    "y": 0.401
+  },
+  {
+    "name": "BERLIN",
+    "population": 2600,
+    "city": true,
+    "x": 0.312,
+    "y": 0.575
+  },
+  {
+    "name": "STOCKHOLM",
+    "population": 1500,
+    "city": true,
+    "x": 0.132,
+    "y": 0.597
+  },
+  {
+    "name": "OXFORD",
+    "population": 250,
+    "city": false,
+    "x": 0.3102543,
+    "y": 0.2975544
+  },
+  {
+    "name": "CAMBRIDGE",
+    "population": 200,
+    "city": false,
+    "x": 0.2966678,
+    "y": 0.3252101
+  },
+  {
+    "name": "READING",
+    "population": 200,
+    "city": false,
+    "x": 0.3209244,
+    "y": 0.3032698
+  },
+  {
+    "name": "KILKENNY",
+    "population": 300,
+    "city": false,
+    "x": 0.2469281,
+    "y": 0.1371611
+  },
+  {
+    "name": "WATERFORD",
+    "population": 400,
+    "city": false,
+    "x": 0.2582556,
+    "y": 0.1413529
+  },
+  {
+    "name": "POTSDAM",
+    "population": 550,
+    "city": false,
+    "x": 0.3157774,
+    "y": 0.5681378
+  },
+  {
+    "name": "BRANDENBURG",
+    "population": 250,
+    "city": false,
+    "x": 0.325945,
+    "y": 0.5643284
+  },
+  {
+    "name": "MAGDEBURG",
+    "population": 750,
+    "city": false,
+    "x": 0.3228248,
+    "y": 0.5396157
+  }
+]
