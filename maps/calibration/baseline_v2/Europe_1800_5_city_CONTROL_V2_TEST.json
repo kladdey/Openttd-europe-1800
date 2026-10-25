@@ -1,0 +1,37 @@
+[
+  {
+    "name": "LONDON",
+    "population": 10000,
+    "city": true,
+    "x": 0.32,
+    "y": 0.32
+  },
+  {
+    "name": "DUBLIN",
+    "population": 1200,
+    "city": false,
+    "x": 0.226,
+    "y": 0.155
+  },
+  {
+    "name": "PARIS",
+    "population": 7500,
+    "city": true,
+    "x": 0.39,
+    "y": 0.401
+  },
+  {
+    "name": "BERLIN",
+    "population": 2600,
+    "city": true,
+    "x": 0.312,
+    "y": 0.575
+  },
+  {
+    "name": "STOCKHOLM",
+    "population": 1500,
+    "city": true,
+    "x": 0.132,
+    "y": 0.597
+  }
+]
