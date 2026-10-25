@@ -1,0 +1,6 @@
+settlement,year,population,observation_type,source,source_url,notes
+Przemyśl,1785,6481,historical_secondary_report,"G. Karnas, Przemyśl (2012), cited by Virtual Shtetl",https://sztetl.org.pl/pl/miejscowosci/p/167-przemysl/100-demografia/21611-demografia,"City population; historical coverage needs verification"
+Przemyśl,1798,2842,historical_secondary_report,"Kramarz, cited by JewishGen Przemyśl Yizkor book",https://www.jewishgen.org/yizkor/przemysl/prz069.html,"Conflicts with 1785 estimate; do not interpolate until geographic definitions checked"
+Przemyśl,1830,7538,historical_secondary_report,"Kramarz, cited by JewishGen Przemyśl Yizkor book",https://www.jewishgen.org/yizkor/przemysl/prz069.html,"Reported city population"
+Przemyśl,1850,10140,historical_secondary_report,"Kramarz, cited by JewishGen Przemyśl Yizkor book",https://www.jewishgen.org/yizkor/przemysl/prz069.html,"Reported city population"
+Przemyśl,1869,18515,historical_secondary_report,"G. Karnas, Przemyśl (2012), cited by Virtual Shtetl",https://sztetl.org.pl/pl/miejscowosci/p/167-przemysl/100-demografia/21611-demografia,"Reported city population"
