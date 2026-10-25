@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Malmö",
+    "population": 450,
+    "city": false,
+    "x": 0.2466181,
+    "y": 0.6160242
+  },
+  {
+    "name": "Lund",
+    "population": 300,
+    "city": false,
+    "x": 0.243492,
+    "y": 0.619699
+  },
+  {
+    "name": "Helsingborg",
+    "population": 250,
+    "city": false,
+    "x": 0.2319678,
+    "y": 0.6098634
+  },
+  {
+    "name": "Landskrona",
+    "population": 200,
+    "city": false,
+    "x": 0.2378223,
+    "y": 0.6125634
+  },
+  {
+    "name": "Ystad",
+    "population": 180,
+    "city": false,
+    "x": 0.2534238,
+    "y": 0.6316837
+  },
+  {
+    "name": "Kristianstad",
+    "population": 230,
+    "city": false,
+    "x": 0.2343593,
+    "y": 0.6377329
+  },
+  {
+    "name": "Halmstad",
+    "population": 250,
+    "city": false,
+    "x": 0.2126199,
+    "y": 0.6119345
+  },
+  {
+    "name": "Varberg",
+    "population": 180,
+    "city": false,
+    "x": 0.19904,
+    "y": 0.5989675
+  },
+  {
+    "name": "Jönköping",
+    "population": 300,
+    "city": false,
+    "x": 0.1782206,
+    "y": 0.6341245
+  },
+  {
+    "name": "Växjö",
+    "population": 220,
+    "city": false,
+    "x": 0.2077602,
+    "y": 0.6483939
+  },
+  {
+    "name": "Kalmar",
+    "population": 350,
+    "city": false,
+    "x": 0.215627,
+    "y": 0.6775941
+  },
+  {
+    "name": "Västervik",
+    "population": 200,
+    "city": false,
+    "x": 0.1785824,
+    "y": 0.6803101
+  },
+  {
+    "name": "Linköping",
+    "population": 350,
+    "city": false,
+    "x": 0.1565432,
+    "y": 0.6597296
+  },
+  {
+    "name": "Norrköping",
+    "population": 350,
+    "city": false,
+    "x": 0.1497606,
+    "y": 0.6695921
+  },
+  {
+    "name": "Motala",
+    "population": 180,
+    "city": false,
+    "x": 0.1529088,
+    "y": 0.6488144
+  },
+  {
+    "name": "Örebro",
+    "population": 350,
+    "city": false,
+    "x": 0.128205,
+    "y": 0.6510251
+  },
+  {
+    "name": "Västerås",
+    "population": 350,
+    "city": false,
+    "x": 0.1150065,
+    "y": 0.6747726
+  },
+  {
+    "name": "Uppsala",
+    "population": 400,
+    "city": false,
+    "x": 0.1066965,
+    "y": 0.6955639
+  },
+  {
+    "name": "Eskilstuna",
+    "population": 200,
+    "city": false,
+    "x": 0.1226562,
+    "y": 0.6740482
+  },
+  {
+    "name": "Nyköping",
+    "population": 200,
+    "city": false,
+    "x": 0.1430703,
+    "y": 0.6839521
+  },
+  {
+    "name": "Södertälje",
+    "population": 200,
+    "city": false,
+    "x": 0.1280713,
+    "y": 0.6951811
+  },
+  {
+    "name": "Norrtälje",
+    "population": 180,
+    "city": false,
+    "x": 0.1106583,
+    "y": 0.7165368
+  },
+  {
+    "name": "Falun",
+    "population": 300,
+    "city": false,
+    "x": 0.0859379,
+    "y": 0.6594438
+  },
+  {
+    "name": "Gävle",
+    "population": 300,
+    "city": false,
+    "x": 0.0828697,
+    "y": 0.6880045
+  },
+  {
+    "name": "Karlstad",
+    "population": 280,
+    "city": false,
+    "x": 0.127807,
+    "y": 0.6195256
+  },
+  {
+    "name": "Kristinehamn",
+    "population": 170,
+    "city": false,
+    "x": 0.1290821,
+    "y": 0.630892
+  },
+  {
+    "name": "Mariestad",
+    "population": 180,
+    "city": false,
+    "x": 0.1485317,
+    "y": 0.6260712
+  },
+  {
+    "name": "Skövde",
+    "population": 180,
+    "city": false,
+    "x": 0.1586879,
+    "y": 0.6269278
+  },
+  {
+    "name": "Uddevalla",
+    "population": 220,
+    "city": false,
+    "x": 0.1605527,
+    "y": 0.5901633
+  },
+  {
+    "name": "Trollhättan",
+    "population": 180,
+    "city": false,
+    "x": 0.1625613,
+    "y": 0.5971327
+  },
+  {
+    "name": "Borås",
+    "population": 250,
+    "city": false,
+    "x": 0.1800855,
+    "y": 0.6109034
+  },
+  {
+    "name": "Lidköping",
+    "population": 200,
+    "city": false,
+    "x": 0.1554523,
+    "y": 0.613648
+  },
+  {
+    "name": "Skara",
+    "population": 200,
+    "city": false,
+    "x": 0.1590462,
+    "y": 0.6192031
+  },
+  {
+    "name": "Visby",
+    "population": 250,
+    "city": false,
+    "x": 0.1832999,
+    "y": 0.7122483
+  },
+  {
+    "name": "Oskarshamn",
+    "population": 180,
+    "city": false,
+    "x": 0.1955026,
+    "y": 0.6780989
+  }
+]
