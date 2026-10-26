@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "accessed": "2026-10-26",
+  "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_lakes.geojson",
+  "upstream_tag": "v5.1.2",
+  "upstream_commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "upstream_sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9",
+  "subset_sha256": "d024d063547bc39acb1d48961162e3c58254b33bde3fb631b800a8ef26d130ea",
+  "source_documentation": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "selection": "Ten named natural lakes spanning the British Isles, Alps, Italy, Hungary, Sweden and the Balkans; not a random sample.",
+  "independence": "Not used by V6 coastline fitting; Natural Earth lakes and coastline share a generalized cartographic source family, so source errors may be correlated.",
+  "observation_process": "Frozen-model projected windows were used to locate broad regions. Source-only morphology was visually inspected and explicit boxes, scalar elevations and component seeds were frozen before calculating comparison statistics. This is not blind observation or an exact surveyed control. No masks, seeds or transformations are optimized for agreement.",
+  "features": [
+    {
+      "name": "Geneva",
+      "ne_id": 1159114143,
+      "box": [
+        2010,
+        2080,
+        2115,
+        2155
+      ],
+      "elevation": 24,
+      "seeds": [
+        [
+          2084,
+          2107
+        ],
+        [
+          2031,
+          2123
+        ]
+      ],
+      "identification": "FRAGMENTED_BASIN",
+      "note": "Two distinct elevation-24 patches follow the crescent-shaped basin; use their union, not a nearest-water search."
+    },
+    {
+      "name": "Constance",
+      "ne_id": 1159114259,
+      "box": [
+        2310,
+        1870,
+        2410,
+        1950
+      ],
+      "elevation": 24,
+      "seeds": [
+        [
+          2368,
+          1920
+        ]
+      ],
+      "identification": "APPROXIMATE_BASIN",
+      "note": "Distinct branched basin; the elevation-24 plateau represents the main lake, not zero-elevation water."
+    },
+    {
+      "name": "Garda",
+      "ne_id": 1159116699,
+      "box": [
+        2465,
+        2185,
+        2528,
+        2280
+      ],
+      "elevation": 24,
+      "seeds": [
+        [
+          2495,
+          2252
+        ]
+      ],
+      "identification": "PARTIAL_BASIN",
+      "note": "Only the southern elevation-24 plateau is isolated; the long northern basin is not represented by this component. Do not treat the centroid as a control."
+    },
+    {
+      "name": "Balaton",
+      "ne_id": 1159114609,
+      "box": [
+        3170,
+        1996,
+        3290,
+        2075
+      ],
+      "elevation": 0,
+      "seeds": [
+        [
+          3219,
+          2049
+        ],
+        [
+          3253,
+          2022
+        ]
+      ],
+      "identification": "FRAGMENTED_BASIN",
+      "note": "Two zero-elevation components separated near the peninsula; their union is a generalized basin, not an exact historic shoreline."
+    },
+    {
+      "name": "Neagh",
+      "ne_id": 1159114155,
+      "box": [
+        680,
+        735,
+        740,
+        800
+      ],
+      "elevation": 0,
+      "seeds": [
+        [
+          716,
+          768
+        ]
+      ],
+      "identification": "APPROXIMATE_BASIN",
+      "note": "Distinct isolated lake with recognizable north and south ends."
+    },
+    {
+      "name": "Skadar",
+      "ne_id": 1159115429,
+      "box": [
+        3365,
+        2770,
+        3425,
+        2835
+      ],
+      "elevation": 0,
+      "seeds": [
+        [
+          3404,
+          2805
+        ]
+      ],
+      "identification": "APPROXIMATE_BASIN",
+      "note": "Use the isolated interior basin; exclude the Adriatic component in the southwest of the window. Seasonal shoreline varies."
+    },
+    {
+      "name": "Bracciano",
+      "ne_id": 1159118119,
+      "box": [
+        2605,
+        2715,
+        2645,
+        2760
+      ],
+      "elevation": 24,
+      "seeds": [
+        [
+          2621,
+          2736
+        ]
+      ],
+      "identification": "APPROXIMATE_BASIN",
+      "note": "Compact isolated elevation-24 crater-lake plateau; generalized boundary and pixel quantization limit precision."
+    },
+    {
+      "name": "Vanern",
+      "ne_id": 1159113235,
+      "box": [
+        2640,
+        0,
+        2880,
+        180
+      ],
+      "elevation": 0,
+      "seeds": [
+        [
+          2791,
+          66
+        ]
+      ],
+      "identification": "CLIPPED_REFERENCE",
+      "note": "The frozen model projects part of the geographic outline outside the source raster. No whole-lake centroid comparison is valid."
+    },
+    {
+      "name": "Vattern",
+      "ne_id": 1159114173,
+      "box": [
+        2830,
+        46,
+        2966,
+        267
+      ],
+      "elevation": 0,
+      "seeds": [
+        [
+          2880,
+          162
+        ]
+      ],
+      "identification": "APPROXIMATE_BASIN",
+      "note": "Distinct long inland lake; select its component, excluding the other lake at the northwest window edge."
+    },
+    {
+      "name": "Loch_Ness",
+      "ne_id": 1159115833,
+      "box": [
+        871,
+        290,
+        947,
+        373
+      ],
+      "elevation": null,
+      "seeds": [],
+      "identification": "UNRESOLVED_IDENTIFICATION",
+      "note": "Valley is visible but no reliably isolatable lake plateau was identified. Do not choose a dark line nearest the prediction."
+    }
+  ]
+}

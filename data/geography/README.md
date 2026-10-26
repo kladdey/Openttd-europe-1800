@@ -57,3 +57,11 @@ when bank alignment, source identity or historical context is held. Nine new
 site references collapse onto previously sampled importer pixels. One additional
 town is restored; remaining cases are documented, with all 600 master records
 preserved. See [V11 findings](../../maps/calibration/geography_v11/README.md).
+
+## Inland diagnostic sources
+
+`inland_observations_v1.json` and `river_bank_observations_v1.json` document the
+pinned public-domain Natural Earth geometry subsets, hashes and explicit image
+observations. [Results and reproduction](../../maps/calibration/inland_v1/README.md)
+retain all V11 coordinates and river-bank holds. Basin plateaus and generalized
+centerlines must not be treated as surveyed controls or automatic town corrections.

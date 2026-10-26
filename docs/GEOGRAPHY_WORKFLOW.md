@@ -30,6 +30,16 @@ be applied consistently to neighbouring catalogue towns in its declared region.
 Re-sample every affected target to catch newly exposed conflicts such as Orihuela.
 Coast-normal residuals do not establish two-dimensional town or inland accuracy.
 
+## Inland evidence limits
+
+[Inland diagnostics](../maps/calibration/inland_v1/README.md) compare explicit
+plateau components with generalized lake outlines without fitting the model.
+Plateau interiors are inset and often nonzero elevation; they are not surveyed
+shorelines. Named river centerlines are also generalized and do not establish
+historic bank polygons. Keep Arles and Alençon held until stronger local registration
+is available. Reproduce the overlays with
+`python scripts/validate_inland_features.py --out scratch/inland-review`.
+
 ## Review and export
 
 1. Identify a historically appropriate centre, port, industrial site or regional

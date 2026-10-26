@@ -21,6 +21,8 @@ Node.js is optional and needed only for the map-logic smoke test.
 
 | Tool | Purpose |
 |---|---|
+| `validate_inland_features.py` | Frozen-model inland shape diagnostics, explicit component observations and reproducible lake/river overlays |
+| `river_bank_diagnostics.py` | Read-only named-river and saved-terrain overlays called by the inland validator |
 | `audit_heightmap_provenance.py` | Validate PNG fingerprints and compare decoded pixels against a package without archive extraction |
 | `geography.py` | Standard-library inventory, bounds, duplicate and spacing audit |
 | `scenario_geography.py` | Read-only supplied JGRPP terrain decoder and exact importer pixel mapping |
