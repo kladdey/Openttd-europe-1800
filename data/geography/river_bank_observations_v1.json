@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "accessed": "2026-10-26",
+  "upstream_commit": "f1890d9f152c896d250a77557a5751a93d494776",
+  "subset_sha256": "b0e2141080a27da0369ff495a6516eddbce5a162d2cf9d2453283cb4913d96b9",
+  "sources": [
+    {
+      "name": "Rhône",
+      "upstream_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "upstream_sha256": "bb854a900ecbd3b408df46d5e16e3e0f974ba55993f9d8b5c26e855273c0905a"
+    },
+    {
+      "name": "Sarthe",
+      "upstream_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/f1890d9f152c896d250a77557a5751a93d494776/geojson/ne_10m_rivers_europe.geojson",
+      "upstream_sha256": "90712202ac46985812e90840df9acd5101599a9c649868d5bc55ee96c2fedd4c"
+    }
+  ],
+  "license": "Public domain",
+  "documentation_url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+  "limitation": "Generalized modern river centerlines; not bank polygons or historic channels. Never infer a bank from a nearest-water pixel.",
+  "cases": [
+    {
+      "name": "ALENCON",
+      "river": "Sarthe",
+      "reference_id": "ALENCON / V11_SITE",
+      "box": [
+        1350,
+        1745,
+        1430,
+        1825
+      ]
+    },
+    {
+      "name": "ARLES",
+      "river": "Rhône",
+      "reference_id": "ARLES / V11_SITE",
+      "box": [
+        1825,
+        2520,
+        1905,
+        2600
+      ]
+    }
+  ]
+}

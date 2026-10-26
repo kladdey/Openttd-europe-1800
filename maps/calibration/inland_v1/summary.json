@@ -1,0 +1,29 @@
+{
+  "river_bank_review": {
+    "cases_reviewed": 2,
+    "cases_resolved": 0,
+    "vector_sha256": "b0e2141080a27da0369ff495a6516eddbce5a162d2cf9d2453283cb4913d96b9",
+    "limitation": "Line-over-water fractions are descriptive overlap with any water, not named-river identification or proof of historic-bank alignment."
+  },
+  "schema_version": 1,
+  "heightmap_sha256": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+  "vector_sha256": "d024d063547bc39acb1d48961162e3c58254b33bde3fb631b800a8ef26d130ea",
+  "model_sha256": "263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50",
+  "frozen_model": "V6 axis_affine",
+  "model_coefficients": [
+    104.42263446189997,
+    1379.7176323206816,
+    -164.09816527178702,
+    9729.142746398953
+  ],
+  "features_reviewed": 10,
+  "diagnostic_comparisons": 7,
+  "withheld_features": [
+    "Garda",
+    "Vanern",
+    "Loch_Ness"
+  ],
+  "town_coordinate_changes": 0,
+  "model_fitted": false,
+  "limitation": "Generalized modern lake shapes are not surveyed inland controls or proof of historic river-bank registration."
+}

@@ -1,0 +1,3 @@
+name,reference_id,river,prior_review,outcome,approved,generalized_line_pixels,source_zero_fraction_on_line,next_evidence,v1_water_fraction_on_line,industries_water_fraction_on_line
+ALENCON,ALENCON / V11_SITE,Sarthe,HOLD_BANK_ALIGNMENT,HOLD_BANK_ALIGNMENT,False,116,0.0,Historic bank polygons or a confidently identified source channel; the generalized centerline alone cannot resolve this hold.,0.1379,0.1379
+ARLES,ARLES / V11_SITE,Rhône,HOLD_BANK_ALIGNMENT,HOLD_BANK_ALIGNMENT,False,124,0.0081,Historic bank polygons or a confidently identified source channel; the generalized centerline alone cannot resolve this hold.,0.129,0.129

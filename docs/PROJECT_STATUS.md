@@ -16,7 +16,8 @@ Documentation was synchronized and merged in [PR #1](https://github.com/kladdey/
 | Deferrals from clear candidate | 63: 27 terrain, 11 spacing, 24 outside map, 1 identity |
 | Heightmap provenance | Exact pixel match to UseYourIllusion’s Europe v4 (2014); original DEM CRS still unknown |
 | Original heightmap and scenarios | Committed and hash-checked; no scenario edited |
-| Automated validation | 52 Python tests; V9/V10/V11 map smoke tests passed |
+| Inland checks | 10 lake basins reviewed, 7 diagnostic comparisons; Arles/Alençon bank holds remain open |
+| Automated validation | 59 Python tests; V9/V10/V11 map smoke tests passed |
 | In-game validation | Unavailable; none run |
 
 Clear means nonzero source elevation and clear ground in both supplied scenario
