@@ -17,7 +17,7 @@ Documentation was synchronized and merged in [PR #1](https://github.com/kladdey/
 | Heightmap provenance | Exact pixel match to UseYourIllusion’s Europe v4 (2014); original DEM CRS still unknown |
 | Original heightmap and scenarios | Committed and hash-checked; no scenario edited |
 | Inland checks | 10 lake basins reviewed, 7 diagnostic comparisons; Arles/Alençon bank holds remain open |
-| Automated validation | 59 Python tests; V9/V10/V11 map smoke tests passed |
+| Automated validation | 67 Python tests; V9/V10/V11 map smoke tests passed |
 | In-game validation | Unavailable; none run |
 
 Clear means nonzero source elevation and clear ground in both supplied scenario
@@ -42,3 +42,9 @@ experiment outputs or NewGRF configuration. Publish new candidate versions to
 separate directories. V11 reviewed all 28 prior terrain deferrals with 25 new site references,
 restored Namur, and kept two clear alternatives on explicit bank-alignment holds.
 No arbitrary final town count or country quota is imposed.
+
+The [reverse audit](../maps/calibration/reverse_audit_v1/README.md) found and fixed
+two inland dependency-validation gaps. No V11 candidate errors were found within
+the audited structural/terrain scope. Exact minimum importer-target spacing is
+15.620499 tiles (Manchester–Oldham); the legacy normalized report gives 16.221519.
+Current [inland V2](../maps/calibration/inland_v2/README.md) retains all bank holds.

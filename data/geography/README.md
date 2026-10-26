@@ -62,6 +62,6 @@ preserved. See [V11 findings](../../maps/calibration/geography_v11/README.md).
 
 `inland_observations_v1.json` and `river_bank_observations_v1.json` document the
 pinned public-domain Natural Earth geometry subsets, hashes and explicit image
-observations. [Results and reproduction](../../maps/calibration/inland_v1/README.md)
+observations. [Results and reproduction](../../maps/calibration/inland_v2/README.md)
 retain all V11 coordinates and river-bank holds. Basin plateaus and generalized
 centerlines must not be treated as surveyed controls or automatic town corrections.

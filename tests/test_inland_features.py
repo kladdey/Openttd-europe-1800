@@ -86,7 +86,7 @@ class InlandFeatureTests(unittest.TestCase):
             self.assertEqual(summary['diagnostic_comparisons'],7)
             self.assertEqual(summary['river_bank_review']['cases_resolved'],0)
             self.assertEqual(summary['town_coordinate_changes'],0)
-            expected=ROOT/'maps/calibration/inland_v1'
+            expected=ROOT/'maps/calibration/inland_v2'
             for name in ['summary.json','inland_shape_audit.csv','river_bank_review.csv','inland_contact_sheet.png','river_bank_overlays.png']:
                 self.assertEqual((out/name).read_bytes(),(expected/name).read_bytes(),name)
             with self.assertRaises(FileExistsError):v.run(out)
