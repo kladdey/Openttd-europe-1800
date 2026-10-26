@@ -1,0 +1,141 @@
+town_a,town_b,distance_tiles,spacing_band,decision
+AALST,BRUSSELS,27.45947,15_to_30_individual_review,NONE: correct geography before spacing decisions
+AALST,GENT,29.634229,15_to_30_individual_review,NONE: correct geography before spacing decisions
+AALST,LOKEREN,19.262067,15_to_30_individual_review,NONE: correct geography before spacing decisions
+AALST,SINT NIKLAAS,27.440195,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ACIREALE,CATANIA,14.408528,under_15_review_importance,NONE: correct geography before spacing decisions
+ACIREALE,MASCALI,19.145021,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ALKMAAR,HOORN,25.313484,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ALKMAAR,ZAANDAM,26.576527,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ALTONA,HAMBURG,7.323759,under_15_review_importance,NONE: correct geography before spacing decisions
+AMSTERDAM,HAARLEM,20.623999,15_to_30_individual_review,NONE: correct geography before spacing decisions
+AMSTERDAM,ZAANDAM,10.116706,under_15_review_importance,NONE: correct geography before spacing decisions
+ANTWERPEN,LIER,13.57406,under_15_review_importance,NONE: correct geography before spacing decisions
+ANTWERPEN,MECHELEN,22.09023,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ANTWERPEN,SINT NIKLAAS,22.746862,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ARLES,NIMES,28.667664,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ARNHEM,NIJMEGEN,17.500809,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ARRAS,DOUAI,23.958246,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BADAJOZ,ELVAS,16.359702,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BAEZA,UBEDA,8.606697,under_15_review_importance,NONE: correct geography before spacing decisions
+BARMEN,ELBERFELD,5.167781,under_15_review_importance,NONE: correct geography before spacing decisions
+BATH,BRISTOL,22.143707,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BIRMINGHAM,WOLVERHAMPTON,24.714234,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BLACKBURN,BOLTON,22.329447,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BLACKBURN,PRESTON,20.43397,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BOLTON,MANCHESTER,20.140602,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BOLTON,OLDHAM,27.368503,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BOLTON,SALFORD,16.163511,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BOLTON,WARRINGTON,29.342508,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BOLTON,WIGAN,18.278249,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BONN,KOLN,25.192144,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BOULOGNE,PARIS,8.343717,under_15_review_importance,NONE: correct geography before spacing decisions
+BOULOGNE,VERSAILLES,10.274309,under_15_review_importance,NONE: correct geography before spacing decisions
+BRUGGE,OOSTENDE,26.895764,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BRUSSELS,LEUVEN,28.951865,15_to_30_individual_review,NONE: correct geography before spacing decisions
+BRUSSELS,MECHELEN,22.549645,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CADIZ,JEREZ DA LA FRONTERA,25.612474,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CALTAGIRONE,MAZZARINO,27.059813,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CALTANISSETA,CASTROGIOVANNI,8.754664,under_15_review_importance,NONE: correct geography before spacing decisions
+CALTANISSETA,MAZZARINO,27.948067,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CAMBRA!,DOUAI,26.787489,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CAMBRA!,VALENCIENNES,29.696361,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CASTROGIOVANNI,PIAZZA (ENNA),26.051514,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CHESTER,WARRINGTON,28.948175,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CLERMONT-FERRAND,RIOM,14.566342,under_15_review_importance,NONE: correct geography before spacing decisions
+CREMA,LODI,14.343833,under_15_review_importance,NONE: correct geography before spacing decisions
+CREMONA,PIACENZA,26.982417,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CUNEO,FOSSANO,20.958757,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CUNEO,MONDOVI,22.154469,15_to_30_individual_review,NONE: correct geography before spacing decisions
+CUNEO,SAVIGLIANO,29.7461,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DELFT,DEN HAAG,10.493369,under_15_review_importance,NONE: correct geography before spacing decisions
+DELFT,GOUDA,28.705024,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DELFT,LEIDEN,22.689363,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DELFT,ROTTERDAM,14.84261,under_15_review_importance,NONE: correct geography before spacing decisions
+DEN HAAG,LEIDEN,18.897493,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DEN HAAG,ROTTERDAM,25.116934,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DERBY,NOTTINGHAM,27.808958,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DORDRECHT,GOUDA,25.877328,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DORDRECHT,ROTTERDAM,20.563137,15_to_30_individual_review,NONE: correct geography before spacing decisions
+DUSSELDORF,ELBERFELD,28.954037,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ENKHUIZEN,HOORN,20.309436,15_to_30_individual_review,NONE: correct geography before spacing decisions
+ERFURT,GOTHA,26.508543,15_to_30_individual_review,NONE: correct geography before spacing decisions
+FOSSANO,MONDOVI,22.609892,15_to_30_individual_review,NONE: correct geography before spacing decisions
+FOSSANO,SAVIGLIANO,13.642129,under_15_review_importance,NONE: correct geography before spacing decisions
+FRANKFURT AM,HANAU,18.361913,15_to_30_individual_review,NONE: correct geography before spacing decisions
+FURTH,NURNBERG,7.272048,under_15_review_importance,NONE: correct geography before spacing decisions
+GENT,LOKEREN,24.06094,15_to_30_individual_review,NONE: correct geography before spacing decisions
+GLASGOW,PAISLEY,17.454473,15_to_30_individual_review,NONE: correct geography before spacing decisions
+GOUDA,LEIDEN,26.06857,15_to_30_individual_review,NONE: correct geography before spacing decisions
+GOUDA,ROTTERDAM,22.109128,15_to_30_individual_review,NONE: correct geography before spacing decisions
+GREENWICH,LONDON,16.611838,15_to_30_individual_review,NONE: correct geography before spacing decisions
+HAARLEM,ZAANDAM,17.015529,15_to_30_individual_review,NONE: correct geography before spacing decisions
+HALBERSTADT,QUEDLINBURG,13.539265,under_15_review_importance,NONE: correct geography before spacing decisions
+HANNOVER,HILDESHEIM,29.443721,15_to_30_individual_review,NONE: correct geography before spacing decisions
+HEIDELBERG,MANNHEIM,19.048071,15_to_30_individual_review,NONE: correct geography before spacing decisions
+HUDDERSFIELD,LEEDS,29.011221,15_to_30_individual_review,NONE: correct geography before spacing decisions
+IEPER,LILLE,29.361486,15_to_30_individual_review,NONE: correct geography before spacing decisions
+KORTRIJK,LILLE,27.844501,15_to_30_individual_review,NONE: correct geography before spacing decisions
+KORTRIJK,TOURNAI,27.779426,15_to_30_individual_review,NONE: correct geography before spacing decisions
+KRAKOW,Wieliczka,14.657144,under_15_review_importance,NONE: correct geography before spacing decisions
+LA ROCHELLE,ROCHEFORT,28.913146,15_to_30_individual_review,NONE: correct geography before spacing decisions
+LEUVEN,MECHELEN,23.924208,15_to_30_individual_review,NONE: correct geography before spacing decisions
+LIEGE,MAASTRICHT,27.173025,15_to_30_individual_review,NONE: correct geography before spacing decisions
+LIER,MECHELEN,10.687707,under_15_review_importance,NONE: correct geography before spacing decisions
+LILLE,TOURNAI,27.519992,15_to_30_individual_review,NONE: correct geography before spacing decisions
+LINZ,Wels,28.366621,15_to_30_individual_review,NONE: correct geography before spacing decisions
+LIVORNO,PISA,25.192398,15_to_30_individual_review,NONE: correct geography before spacing decisions
+LOKEREN,SINT NIKLAAS,14.475744,under_15_review_importance,NONE: correct geography before spacing decisions
+LUCCA,PISA,19.543259,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MANCHESTER,OLDHAM,13.653524,under_15_review_importance,NONE: correct geography before spacing decisions
+MANCHESTER,SALFORD,4.638935,under_15_review_importance,NONE: correct geography before spacing decisions
+MANCHESTER,STOCKPORT,11.332999,under_15_review_importance,NONE: correct geography before spacing decisions
+MARSALA,TRAPANI,28.012555,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MESSINA,REGGIO DI CALABRIA,14.674112,under_15_review_importance,NONE: correct geography before spacing decisions
+MILANO,MONZA,16.875905,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MODENA,REGGIO,23.464882,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MODICA/POZZALLO,NOTO,27.283385,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MODICA/POZZALLO,RAGUSA,29.119225,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MORON DE LA FRONTERA,UTRERA,28.882304,15_to_30_individual_review,NONE: correct geography before spacing decisions
+MURCIA,ORIHUELA,20.425916,15_to_30_individual_review,NONE: correct geography before spacing decisions
+NEWCASTLE,SUNDERLAND,17.263812,15_to_30_individual_review,NONE: correct geography before spacing decisions
+NICOSIA,PIAZZA (ENNA),21.70828,15_to_30_individual_review,NONE: correct geography before spacing decisions
+NOTO,SIRACUSA,29.660543,15_to_30_individual_review,NONE: correct geography before spacing decisions
+NOVARA,VERCELLI,22.235648,15_to_30_individual_review,NONE: correct geography before spacing decisions
+NOVARA,VIGEVANO,26.770535,15_to_30_individual_review,NONE: correct geography before spacing decisions
+OLDHAM,SALFORD,17.201823,15_to_30_individual_review,NONE: correct geography before spacing decisions
+OLDHAM,STOCKPORT,18.11304,15_to_30_individual_review,NONE: correct geography before spacing decisions
+PARIS,VERSAILLES,18.585925,15_to_30_individual_review,NONE: correct geography before spacing decisions
+PARMA,REGGIO,27.574099,15_to_30_individual_review,NONE: correct geography before spacing decisions
+PRAHA,Rawicz,18.50103,15_to_30_individual_review,NONE: correct geography before spacing decisions
+PRESTON,WIGAN,28.867338,15_to_30_individual_review,NONE: correct geography before spacing decisions
+SALFORD,STOCKPORT,14.914028,under_15_review_importance,NONE: correct geography before spacing decisions
+SALFORD,WIGAN,29.936254,15_to_30_individual_review,NONE: correct geography before spacing decisions
+SHREWSBURY,WENLOCK,21.377896,15_to_30_individual_review,NONE: correct geography before spacing decisions
+TRIESTE,Koper,14.587811,under_15_review_importance,NONE: correct geography before spacing decisions
+WARRINGTON,WIGAN,20.165642,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Łódź,Łowicz,11.591907,under_15_review_importance,NONE: correct geography before spacing decisions
+Rzeszów,Łańcut,18.890105,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Katowice,Gliwice,28.288147,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Bielsko,Oświęcim,29.179718,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Zakopane,Nowy Targ,23.381726,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Jarosław,Przeworsk,16.748839,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Sanok,Brzozów,25.284132,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Sanok,Lesko,16.168078,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Krosno,Jasło,26.199975,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Krosno,Brzozów,20.352169,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Łańcut,Leżajsk,29.203857,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Łańcut,Przeworsk,21.984643,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Leżajsk,Przeworsk,28.911796,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Wałbrzych,Świdnica,18.152641,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Bochnia,Wieliczka,29.708403,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Hradec Králové,Pardubice,22.188943,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Žilina,Martin,25.761245,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Banská Bystrica,Zvolen,20.200539,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Sankt Pölten,Krems,17.040607,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Ljubljana,Kranj,27.508619,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Maribor,Ptuj,25.473035,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Zenica,Travnik,18.757286,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Podgorica,Cetinje,27.395557,15_to_30_individual_review,NONE: correct geography before spacing decisions
+Cetinje,Kotor,14.314367,under_15_review_importance,NONE: correct geography before spacing decisions
+Galați,Brăila,23.614017,15_to_30_individual_review,NONE: correct geography before spacing decisions

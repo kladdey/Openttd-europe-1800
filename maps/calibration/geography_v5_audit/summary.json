@@ -1,0 +1,39 @@
+{
+  "status": "BLOCKED_MISSING_RASTER_AND_IMPORT_MAPPING",
+  "master_towns": 600,
+  "v4_towns": 40,
+  "geographically_validated": 0,
+  "coordinates_corrected": 0,
+  "existing_v4_metadata_discrepancies": 3,
+  "master_names_missing_from_inventory": [
+    "g\u0142og\u00f3w",
+    "krems",
+    "p\u00edsek",
+    "rawicz",
+    "sieradz",
+    "\u0142owicz"
+  ],
+  "inventory_names_absent_from_master": [
+    "brno",
+    "elbl\u0105g",
+    "gda\u0144sk",
+    "szczecin",
+    "vienne",
+    "wroc\u0142aw"
+  ],
+  "withheld_from_new_release": 600,
+  "new_spacing_deferrals": 0,
+  "v4_minimum_spacing_tiles": 32.084661,
+  "inputs": {
+    "data/towns/europe_1800_import_AUDIT_FIXED_TEST.json": "6e4d9ebc4f489c7a83742e63f0599f94158f889c435e02b96110769503339410",
+    "data/towns/europe_1800_towns_600_DRAFT.csv": "35809b557aa5c545194cdbc6089682466bd951b874574c8415285f2b58757be2",
+    "maps/calibration/baseline_v2/Europe_1800_40_city_V4_REGIONAL_TEST.json": "69c3001b45bb99c6c7c3304792a7ff0d9b18e553ad7e973f977ad64bf1ea67ea",
+    "maps/calibration/baseline_v2/Europe_1800_5_city_CONTROL_V2_TEST.json": "40b5ec37cea3fa77a3530fc35b1074551b8ba27b27a9fdbf980f55e62f9ee06b"
+  },
+  "missing": [
+    "original heightmap raster and provenance",
+    "target-version importer mapping, heightmap rotation and generation settings",
+    "independently identified fit and holdout landmarks"
+  ],
+  "note": "No new import emitted; original catalogue and V2/V3/V4 remain unchanged. Withheld is not a spacing deletion."
+}

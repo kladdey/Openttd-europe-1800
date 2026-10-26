@@ -1,0 +1,4 @@
+name,master_population,v4_population,master_city,v4_city,action
+DUBLIN,3350,1200,True,False,Existing discrepancy documented; neither input modified
+PARIS,10000,7500,True,True,Existing discrepancy documented; neither input modified
+BERLIN,3000,2600,True,True,Existing discrepancy documented; neither input modified
