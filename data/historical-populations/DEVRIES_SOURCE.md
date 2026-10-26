@@ -1,5 +1,7 @@
 # De Vries 1800 urban population extraction
 
+> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; V10 changes no populations. Earlier acquisition statements below retain their original scope.
+
 This is a sourced **historical estimate dataset**, not a literal Europe-wide census.
 
 Source: Jan de Vries, *European Urbanization, 1500-1800* (1984), adapted by Matthew Lincoln, [europop](https://github.com/mdlincoln/europop), version 0.3.1. Data are published under CC0 by the package maintainer; cite the underlying scholarship.

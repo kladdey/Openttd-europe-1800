@@ -1,5 +1,7 @@
 # Historical population data
 
+> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; V10 changes no populations. Earlier acquisition statements below retain their original scope.
+
 Population records must have a traceable source. Do not treat provisional gameplay values as historical observations.
 
 Proposed fields: settlement_id, name_modern, name_historical, historical_territory, reference_year, population, data_type (census/estimate/interpolation), source_title, source_url, source_page, confidence, notes.

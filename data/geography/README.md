@@ -25,12 +25,21 @@ coordinate correction, not a population change or a training control.
 The original catalogue and draft CSV remain untouched. Other draft town
 coordinates are carried through provisionally, not silently declared surveyed.
 
-Boulogne remains deferred. The draft position describes a Paris suburb, but
-the source de Vries entry has 12,000 people in 1800. That estimate is confirmed
-by [World City Populations' source index](https://worldcitypop.com/data_source.asp?disp_city=Boulogne&disp_time=1800).
-Historical series list 2,481 for Boulogne-Billancourt in 1800 versus 10,685
-for Boulogne-sur-Mer, supporting the coastal-town interpretation:
-[Billancourt series](https://fr.wikipedia.org/wiki/Boulogne-Billancourt),
-[sur-Mer series](https://commons.wikimedia.org/wiki/Data:Population_%E2%80%93_Boulogne-sur-Mer_%E2%80%93_Pas-de-Calais_%E2%80%93_INSEE_62160.tab).
-This is a strong inference, not a completed primary-source identity join;
-the workflow does not silently substitute another town.
+## Current interpretation and review tables
+
+V7 onward uses the documented provisional Boulogne-sur-Mer interpretation in the
+full candidate. The older Paris-suburb input is not treated as geographically valid.
+This is still an inference rather than a completed primary population-unit join;
+see the V7 override table and V8/V10 decisions. Modica/Pozzallo remains held.
+
+V10 evidence is in `historic_centre_references_v10.csv`,
+`coastal_regions_v10.json`, `coastal_registration_v10.json`,
+`terrain_decisions_v10.csv`, `supplemental_terrain_flags_v10.csv` and
+`spacing_decisions_v10.csv`. These preserve attempted references, rejected models,
+explicit outcomes and the newly exposed Orihuela case. Geographic correction comes
+before proximity; no fitted model optimizes town land or a desired town count.
+
+See [project status](../../docs/PROJECT_STATUS.md),
+[V10 methodology](../../maps/calibration/geography_v10/README.md) and the
+[active workflow](../../docs/GEOGRAPHY_WORKFLOW.md). The source CRS remains unknown;
+coast-normal diagnostics are not survey accuracy or named-river validation.
