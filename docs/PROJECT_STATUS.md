@@ -1,3 +1,11 @@
+## October 2026 multiplayer and release notes
+
+A separate user-supplied **Europe 1800 - Toni** scenario was packaged for JGRPP 0.73.4, Windows. The earlier portable build included the game and nine NewGRFs; its ZIP integrity was checked, but Windows execution and multiplayer were **not** validated. Toni reported **"Network - Game connection lost"**; root cause is unknown. See [multiplayer diagnostics](MULTIPLAYER.md).
+
+The 568-town V12 checkpoint remains the last user-confirmed town-placement baseline. The 613-town V13 candidate remains untested. The Toni scenario is a separate supplied file and must not be silently identified with V13.
+
+A prior public release was deleted by the repository owner. **Do not re-upload the portable bundles as public releases** pending a full licensing audit. A scenario-only distribution with upstream downloads is the preferred route. See [licensing](LICENSING.md), [installation](INSTALLATION.md) and [release process](RELEASE_PROCESS.md).
+
 # Project status
 
 Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
