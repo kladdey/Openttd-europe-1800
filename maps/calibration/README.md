@@ -1,12 +1,13 @@
 # Calibration and placement checkpoints
 
 Start with [project status](../../docs/PROJECT_STATUS.md) and the
-[current V10 report](geography_v10/README.md). Automated work runs without OpenTTD;
+[current V11 report](geography_v11/README.md). Automated work runs without OpenTTD;
 no in-game founding, growth or release validation is claimed.
 
 | Checkpoint | Role |
 |---|---|
-| [V10](geography_v10/README.md) | Current 536-town clear-target candidate; 564/576-town comparisons, terrain decisions and regional registration |
+| [V11](geography_v11/README.md) | Current 537-town candidate; 28-case follow-up, source exclusions and explicit bank-alignment holds |
+| [V10](geography_v10/README.md) | Earlier 536-town clear-target candidate; 564/576-town comparisons, terrain decisions and regional registration |
 | [V9](geography_v9/README.md) | Frozen global-model landmark checks and terrain diagnostics |
 | [V8](geography_v8/README.md) | Historic-coordinate and explicit spacing review |
 | [V7](geography_v7/README.md) | All-600 geographic coverage audit and first full in-bounds import |

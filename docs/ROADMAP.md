@@ -15,11 +15,12 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 
 ## Active geographic work, without OpenTTD
 
-- [ ] Resolve the 28 V10 terrain cases using stronger historic centre/river/coast evidence.
+- [x] V11: review all 28 V10 terrain cases, add 25 site references and restore Namur.
+- [ ] Resolve the 27 remaining V11 terrain cases using stronger historic centre/river/coast evidence.
 - [ ] Find original DEM projection/crop provenance or independent inland controls.
 - [ ] Preserve consistent neighbouring-town registration when changing a regional model.
 - [ ] Continue the Modica/Pozzallo population-unit and identity investigation.
-- [ ] Rank the 131 non-flat clear targets for later founding checks.
+- [ ] Rank the 132 non-flat clear targets for later founding checks.
 - [ ] Keep candidate maps, source references and all-600 decisions synchronized.
 
 ## Population research

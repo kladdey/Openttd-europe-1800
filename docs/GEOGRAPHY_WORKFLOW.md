@@ -51,10 +51,10 @@ Coast-normal residuals do not establish two-dimensional town or inland accuracy.
 ```powershell
 python -m pip install -r requirements-visualization.txt
 python scripts/register_coastal_regions.py --out scratch/coast-registration.json
-python scripts/resolve_terrain_flags.py --out scratch/v10-candidate
-python scripts/visualize_evidence.py --report scratch/v10-candidate --out scratch/v10-map --version V10
+python scripts/review_remaining_terrain.py --out scratch/v11-candidate
+python scripts/visualize_evidence.py --report scratch/v11-candidate --out scratch/v11-map --version V11
 python -W error::ResourceWarning -m unittest discover -s tests -v
-node tests/test_evidence_map.js scratch/v10-map/evidence_map.html scratch/v10-candidate/summary.json
+node tests/test_evidence_map.js scratch/v11-map/evidence_map.html scratch/v11-candidate/summary.json
 ```
 
 All output paths must be new. The resolver uses the committed registration by
@@ -68,4 +68,8 @@ heightmap with counter-clockwise rotation. Keep the intended NewGRF configuratio
 Town Generation → Load from file should receive one current test JSON only.
 Record failures, actual town coordinates and settings; compare against the offline
 map. Save to a new filename. Never combine overlapping candidate/comparison imports
-or overwrite an original playable scenario. See the [V10 instructions](../maps/calibration/geography_v10/README.md).
+or overwrite an original playable scenario. See the [V11 instructions](../maps/calibration/geography_v11/README.md).
+
+V11 adds an explicit historic-placement review state. A clear pixel with a
+bank, source, identity or context hold is ineligible until the hold is resolved.
+Source exclusions and repeated importer-pixel aliases remain documented.

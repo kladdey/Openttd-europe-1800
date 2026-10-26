@@ -1,7 +1,7 @@
 # Geography tooling entry point
 
 Use the [tool guide](README.md), [active workflow](../docs/GEOGRAPHY_WORKFLOW.md)
-and [project status](../docs/PROJECT_STATUS.md). V10 is the current placement
+and [project status](../docs/PROJECT_STATUS.md). V11 is the current placement
 checkpoint; the complete original raster and two scenario binaries are available
 under `source_assets/` and are hash-checked by the scripts.
 

@@ -1,6 +1,6 @@
 # IBS Polish city population dataset - acquisition status
 
-> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; V10 changes no populations. Earlier acquisition statements below retain their original scope.
+> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; Placement work changes no populations. Earlier acquisition statements below retain their original scope.
 
 **Status: source located; raw workbook not yet imported.**
 

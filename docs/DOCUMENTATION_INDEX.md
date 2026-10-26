@@ -36,7 +36,8 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [maps/calibration/baseline_v2/V3_SPACING_README.md](../maps/calibration/baseline_v2/V3_SPACING_README.md) | Historical report / experiment |
 | [maps/calibration/baseline_v2/V4_REGIONAL_README.md](../maps/calibration/baseline_v2/V4_REGIONAL_README.md) | Historical report / experiment |
 | [maps/calibration/baseline_v2/VALIDATION_CHECKPOINT.md](../maps/calibration/baseline_v2/VALIDATION_CHECKPOINT.md) | Historical report / experiment |
-| [maps/calibration/geography_v10/README.md](../maps/calibration/geography_v10/README.md) | Current V10 candidate report |
+| [maps/calibration/geography_v10/README.md](../maps/calibration/geography_v10/README.md) | Historical report / experiment |
+| [maps/calibration/geography_v11/README.md](../maps/calibration/geography_v11/README.md) | Current V11 candidate report |
 | [maps/calibration/geography_v5_audit_DEFERRED.md](../maps/calibration/geography_v5_audit_DEFERRED.md) | Historical report / experiment |
 | [maps/calibration/geography_v6/README.md](../maps/calibration/geography_v6/README.md) | Historical report / experiment |
 | [maps/calibration/geography_v6/VALIDATION.md](../maps/calibration/geography_v6/VALIDATION.md) | Historical report / experiment |

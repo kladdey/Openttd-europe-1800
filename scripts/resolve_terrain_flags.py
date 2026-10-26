@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Evidence-backed V10 target corrections and explicit unresolved-town deferrals.
+"""Evidence-backed target corrections and versioned unresolved-town deferrals.
 
 No nearest-land snapping, scenario writes, population changes or implicit point
 selection. The decisions CSV names every selected historical reference explicitly.
@@ -9,6 +9,7 @@ import collections
 import itertools
 import json
 import math
+import re
 from pathlib import Path
 
 import numpy as np
@@ -114,13 +115,34 @@ def regional_rebase(towns):
     return rebased,changes
 
 
-def reference_audit(arrays):
+def load_profile(path=None):
+    if path is None:
+        return dict(version='V10',references=REFERENCES,decisions=DECISIONS,spacing_decisions=EXTRA_PAIRS,
+                    core=CORE,comparison=COMPARISON,full=FULL)
+    data=g.read_json(path)
+    if not isinstance(data,dict) or set(data)!={'schema_version','version','references','decisions','spacing_decisions'} or type(data['schema_version']) is not int or data['schema_version']!=1:
+        raise ValueError('Unsupported placement profile schema')
+    version=data['version']
+    if not isinstance(version,str) or not re.fullmatch(r'V[1-9][0-9]*',version):raise ValueError('Invalid placement version')
+    result=dict(version=version,core=f'Europe_1800_{version}_CLEAR_TARGET_CANDIDATE_TEST.json',
+        comparison=f'Europe_1800_{version}_RETAINED_COMPARISON_TEST.json',full=f'Europe_1800_{version}_ALL_IN_BOUNDS_COMPARISON_TEST.json')
+    for key in ('references','decisions','spacing_decisions'):
+        if not isinstance(data[key],str) or not data[key].strip():raise ValueError('Invalid profile input path')
+        relative=Path(data[key])
+        target=(g.ROOT/relative).resolve()
+        if relative.is_absolute() or not target.is_relative_to(g.ROOT) or not target.is_file():
+            raise ValueError('Profile input must be an existing repository file')
+        result[key]=target
+    return result
+
+
+def reference_audit(arrays, references_path=None):
     coefficients = g.read_json(MODEL)['axis_affine']['coefficients']
     regions = registered_regions()
     old = {t['name']:t for t in g.read_json(V8/'Europe_1800_V8_DESK_REVIEWED_CANDIDATE_TEST.json')}
     flags = {r['name'] for r in rows(V9/'retained_terrain_diagnostics.csv')}
     flags |= {r['name'] for r in rows(SUPPLEMENTAL)}
-    references = rows(REFERENCES)
+    references = rows(REFERENCES if references_path is None else references_path)
     if {r['name'] for r in references} != flags: raise ValueError('Reference coverage must match original and supplemental flags')
     result, seen = [], set()
     for r in references:
@@ -145,15 +167,20 @@ def reference_audit(arrays):
         g.validate([t])
         datum = dict(r, applied_model=model, shift_column=dx, shift_row=dy, x=t['x'], y=t['y'],
             displacement_from_v8_tiles=round(g.distance(old[r['name']],t),6), **sample(t,arrays))
-        datum['eligible'] = bool(datum['direct_clear_land'] and r['reference_scope']=='BUILDING_SITE')
+        review=r.get('placement_review','APPROVED_HISTORIC_SITE')
+        if review not in ('APPROVED_HISTORIC_SITE','HOLD_BANK_ALIGNMENT','HOLD_COORDINATE_SOURCE','HOLD_IDENTITY','HOLD_CONTEXT'):
+            raise ValueError('Unknown historic placement review state')
+        if review!='APPROVED_HISTORIC_SITE' and not r.get('placement_review_reason','').strip():
+            raise ValueError('Held reference requires a reason')
+        datum['eligible'] = bool(datum['direct_clear_land'] and r['reference_scope']=='BUILDING_SITE' and review=='APPROVED_HISTORIC_SITE')
         result.append(datum)
     return result
 
 
-def checked_decisions(audit):
+def checked_decisions(audit, decisions_path=None):
     by_id = {r['reference_id']:r for r in audit}
     flags = {r['name'] for r in audit}
-    decisions = rows(DECISIONS)
+    decisions = rows(DECISIONS if decisions_path is None else decisions_path)
     if len(decisions)!=len(flags) or {r['name'] for r in decisions} != flags:
         raise ValueError('Every flagged town requires exactly one explicit decision')
     seen, selected, deferred = set(), {}, {}
@@ -173,9 +200,9 @@ def checked_decisions(audit):
     return selected, deferred, decisions
 
 
-def spacing_review(before, after, core):
+def spacing_review(before, after, core, extra_path=None, version='V10'):
     prior={pair_key(r['town_a'],r['town_b']):r for r in rows(g.ROOT/'data/geography/spacing_decisions_v8.csv')}
-    extra={pair_key(r['town_a'],r['town_b']):r for r in rows(EXTRA_PAIRS)}
+    extra={pair_key(r['town_a'],r['town_b']):r for r in rows(EXTRA_PAIRS if extra_path is None else extra_path)}
     old, new = close_pairs(before), close_pairs(after)
     safe={t['name'] for t in core}; by_name={t['name']:t for t in after}
     result=[]
@@ -192,8 +219,10 @@ def spacing_review(before, after, core):
             v10_distance_tiles=round(distance,6),actual_target_distance_tiles=round(actual,6),band=g.band(distance),
             near_policy_boundary=min(abs(distance-15),abs(distance-30))<=2,
             both_in_clear_candidate=retained,new_pair=k not in old,reason=policy['reason'],
-            inherited_or_new_review='V10' if k in extra else 'V8',
+            inherited_or_new_review=version if k in extra else 'V8',
             evidence_source=policy.get('source','data/geography/spacing_decisions_v8.csv')))
+    if version!='V10':
+        for r in result:r[version.lower()+'_distance_tiles']=r.pop('v10_distance_tiles')
     return result
 
 
@@ -225,11 +254,12 @@ def contact_sheet(arrays, decisions, references, before, after, out):
     sheet.save(out/'terrain_resolution_contact_sheet.png')
 
 
-def generate(assets,out):
+def generate(assets,out,profile_path=None):
     if out.exists(): raise FileExistsError('Use a new output directory')
+    settings=load_profile(profile_path)
     arrays=inputs(assets)
-    references=reference_audit(arrays)
-    selected,terrain_deferred,decisions=checked_decisions(references)
+    references=reference_audit(arrays,settings['references'])
+    selected,terrain_deferred,decisions=checked_decisions(references,settings['decisions'])
     old_core=g.read_json(V8/'Europe_1800_V8_DESK_REVIEWED_CANDIDATE_TEST.json')
     old_full=g.read_json(V8/'Europe_1800_V8_CORRECTED_ALL_IN_BOUNDS_TEST.json')
     old_by_name={t['name']:t for t in old_full}
@@ -250,7 +280,7 @@ def generate(assets,out):
             if any(t[k]!=master[t['name']][k] for k in ('name','population','city')):raise ValueError('Master metadata changed')
     samples={t['name']:sample(t,arrays) for t in full}
     if not all(samples[t['name']]['direct_clear_land'] for t in core):raise ValueError('Clear candidate contains a terrain flag')
-    pairs=spacing_review(old_full,full,core)
+    pairs=spacing_review(old_full,full,core,settings['spacing_decisions'],settings['version'])
     # Verify continental / island identity with independent raster landmass seeds.
     components,_=label(arrays[0]>0)
     seeds={'Great Britain':(1181,1117),'continental Europe':(1625,1712),
@@ -312,16 +342,19 @@ def generate(assets,out):
         total_deferred=len(deferred),deferred_categories=dict(collections.Counter(r['state'] for r in deferred)),
         accepted_coast_regions=[r['id'] for r in g.read_json(REGISTRATION)['regions'] if r['accepted']],
         clear_candidate_nonflat_targets=sum(not samples[t['name']]['both_saved_flat_corners'] for t in core),
-        candidate_pairs_under_15=sum(p['both_in_clear_candidate'] and p['v10_distance_tiles']<15 for p in pairs),
+        candidate_pairs_under_15=sum(p['both_in_clear_candidate'] and p[settings['version'].lower()+'_distance_tiles']<15 for p in pairs),
         minimum_spacing_tiles=min(r['distance_tiles'] for r in neighbours),new_close_pairs=sum(p['new_pair'] for p in pairs),
         coordinate_changes=len(changes),historic_site_corrections=len(selected),regional_registration_changes=len(regional_changes),
         population_changes=0,in_game_tests=0,scenario_changes=0,
-        input_sha256={str(p.relative_to(g.ROOT)):g.digest(p) for p in (REFERENCES,REGISTRATION,DECISIONS,EXTRA_PAIRS,SUPPLEMENTAL,MODEL,
+        input_sha256={str(p.relative_to(g.ROOT)):g.digest(p) for p in (settings['references'],REGISTRATION,settings['decisions'],settings['spacing_decisions'],SUPPLEMENTAL,MODEL,
             V8/'Europe_1800_V8_DESK_REVIEWED_CANDIDATE_TEST.json',V8/'Europe_1800_V8_CORRECTED_ALL_IN_BOUNDS_TEST.json')},
         original_assets_sha256=HASHES,
         limitations='Historic sites use modern reference coordinates. Regional coast-normal checks do not prove 2D town or riverbank accuracy. No nearest-land snap. Remaining targets are explicitly deferred from the clear candidate and preserved in comparison imports. Flatness, town-distance settings and founding remain separate.')
+    if profile_path is not None:
+        summary['version']=settings['version']
+        summary['input_sha256'][str(profile_path.resolve().relative_to(g.ROOT))]=g.digest(profile_path)
     out.mkdir(parents=True)
-    for filename,data in ((CORE,core),(COMPARISON,comparison),(FULL,full)):
+    for filename,data in ((settings['core'],core),(settings['comparison'],comparison),(settings['full'],full)):
         (out/filename).write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     for filename,data in (('historic_reference_audit.csv',references),('terrain_resolution.csv',resolution),
         ('coordinate_changes.csv',changes),('all_600_decisions.csv',all_rows),('deferred_towns.csv',deferred),
@@ -345,9 +378,11 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--assets',type=Path,default=g.ROOT/'source_assets')
     parser.add_argument('--out',type=Path,required=True)
+    parser.add_argument('--profile',type=Path,help='Versioned placement input profile; omitted reproduces V10')
     parser.add_argument('--preview',action='store_true',help='Write reference samples only; no town decisions or files changed')
     a=parser.parse_args()
     if a.preview:
         if a.out.exists():raise FileExistsError('Use a new CSV')
-        write_csv(a.out,reference_audit(inputs(a.assets)))
-    else:print(json.dumps(generate(a.assets,a.out),indent=2))
+        settings=load_profile(a.profile)
+        write_csv(a.out,reference_audit(inputs(a.assets),settings['references']))
+    else:print(json.dumps(generate(a.assets,a.out,a.profile),indent=2))

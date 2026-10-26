@@ -1,6 +1,6 @@
 # De Vries 1800 urban population extraction
 
-> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; V10 changes no populations. Earlier acquisition statements below retain their original scope.
+> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; Placement work changes no populations. Earlier acquisition statements below retain their original scope.
 
 This is a sourced **historical estimate dataset**, not a literal Europe-wide census.
 

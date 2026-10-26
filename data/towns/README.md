@@ -6,14 +6,14 @@ The original positions are geographically unreliable. JSON integrity is not evid
 of correct landmass, coastline or historical centre.
 
 The current candidate and comparisons are under
-[maps/calibration/geography_v10](../../maps/calibration/geography_v10/README.md).
-Use the [600-record decision audit](../../maps/calibration/geography_v10/all_600_decisions.csv)
+[maps/calibration/geography_v11](../../maps/calibration/geography_v11/README.md).
+Use the [600-record decision audit](../../maps/calibration/geography_v11/all_600_decisions.csv)
 to track retained/deferred outcomes; do not overwrite or silently prune the master.
 The draft CSV is not an exact row-for-row geographic companion, and reviewed
 source/alias overrides remain necessary.
 
 Population values in import JSONs are game sizes, not unmodified historical counts.
-They are preserved in V10. Historical source tables, units and caveats live in
+They are preserved in all current candidates. Historical source tables, units and caveats live in
 [historical populations](../historical-populations/README.md).
 
 The [Sweden add-on](SWEDEN_ADDONS_README.md) and legacy town exports are historical

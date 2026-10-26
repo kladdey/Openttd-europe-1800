@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "version": "V11",
+  "references": "data/geography/historic_centre_references_v11.csv",
+  "decisions": "data/geography/terrain_decisions_v11.csv",
+  "spacing_decisions": "data/geography/spacing_decisions_v11.csv"
+}
