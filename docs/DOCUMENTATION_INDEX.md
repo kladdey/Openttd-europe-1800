@@ -37,7 +37,9 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [maps/calibration/baseline_v2/V4_REGIONAL_README.md](../maps/calibration/baseline_v2/V4_REGIONAL_README.md) | Historical report / experiment |
 | [maps/calibration/baseline_v2/VALIDATION_CHECKPOINT.md](../maps/calibration/baseline_v2/VALIDATION_CHECKPOINT.md) | Historical report / experiment |
 | [maps/calibration/geography_v10/README.md](../maps/calibration/geography_v10/README.md) | Historical report / experiment |
-| [maps/calibration/inland_v1/README.md](../maps/calibration/inland_v1/README.md) | Frozen-model inland shape checks and river-bank overlays |
+| [maps/calibration/inland_v1/README.md](../maps/calibration/inland_v1/README.md) | Historical inland diagnostics snapshot |
+| [maps/calibration/inland_v2/README.md](../maps/calibration/inland_v2/README.md) | Hardened inland replay and current river overlays |
+| [maps/calibration/reverse_audit_v1/README.md](../maps/calibration/reverse_audit_v1/README.md) | Reverse audit, independent export checks and fixes |
 | [maps/calibration/provenance_v1/README.md](../maps/calibration/provenance_v1/README.md) | Heightmap provenance and exact pixel comparison |
 | [maps/calibration/geography_v11/README.md](../maps/calibration/geography_v11/README.md) | Current V11 candidate report |
 | [maps/calibration/geography_v5_audit_DEFERRED.md](../maps/calibration/geography_v5_audit_DEFERRED.md) | Historical report / experiment |

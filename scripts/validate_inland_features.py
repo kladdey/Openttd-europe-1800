@@ -18,6 +18,16 @@ VECTOR = ROOT / 'data/geography/ne_10m_inland_lakes_subset.geojson'
 MODEL = ROOT / 'maps/calibration/geography_v6/coastline_models.json'
 SOURCE = ROOT / 'source_assets/heightmaps/Europe_heightmap_original.png'
 SOURCE_HASH = 'beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744'
+FROZEN_MODEL_HASH = '263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50'
+
+
+def load_frozen_model(path):
+    data = path.read_bytes()
+    if hashlib.sha256(data).hexdigest() != FROZEN_MODEL_HASH:
+        raise ValueError('Frozen V6 model hash mismatch')
+    return json.loads(data)['axis_affine']['coefficients'], data
+
+
 STATES = {'APPROXIMATE_BASIN', 'FRAGMENTED_BASIN', 'PARTIAL_BASIN', 'CLIPPED_REFERENCE', 'UNRESOLVED_IDENTIFICATION'}
 
 
@@ -157,8 +167,7 @@ def run(out):
         raise ValueError('Vector hash mismatch')
     if hashlib.sha256(source_bytes).hexdigest() != SOURCE_HASH:
         raise ValueError('Original heightmap hash mismatch')
-    model_bytes = MODEL.read_bytes()
-    coefficients = json.loads(model_bytes)['axis_affine']['coefficients']
+    coefficients, model_bytes = load_frozen_model(MODEL)
     with Image.open(SOURCE) as image:
         raw = np.array(image)[:, :, 0]
     vectors = {f['properties']['ne_id']: f for f in json.loads(vector_bytes)['features']}

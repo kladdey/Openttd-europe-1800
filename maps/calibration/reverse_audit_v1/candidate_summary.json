@@ -1,0 +1,19 @@
+{
+  "errors": [],
+  "candidate_towns_checked": 537,
+  "master_records": 600,
+  "minimum_normalized_4095_distance": 16.217558,
+  "minimum_legacy_normalized_4096_distance": 16.221519,
+  "minimum_actual_target_distance": 15.620499,
+  "candidate_close_pairs": 49,
+  "nonflat_targets": 132,
+  "deferred_categories": {
+    "DEFERRED_TERRAIN": 27,
+    "DEFERRED_SPACING": 11,
+    "DEFERRED_OUTSIDE_MAP": 24,
+    "DEFERRED_IDENTITY": 1
+  },
+  "scope": "Reverse audit of V11 export membership, metadata, importer arithmetic, terrain, flatness, spacing and recorded counts; uses independent scalar importer arithmetic and shares the read-only scenario decoder and preserved-asset hash manifest.",
+  "geographic_accuracy_certified": false,
+  "in_game_tests": 0
+}

@@ -1,0 +1,6 @@
+id,severity,issue,status,placement_changed
+RA-01,MEDIUM,Claimed frozen model was not hash-enforced,FIXED,False
+RA-02,MEDIUM,River overlay relied on unpinned and unrecomputed generated target rows,FIXED,False
+RA-03,LOW,Legacy normalized spacing differs from exact importer-target spacing,DOCUMENTED_ALL_THREE_METRICS,False
+RA-04,LOW,River marker at pixel corner with hardcoded display scale,FIXED_IN_NEW_V2_IMAGE,False
+RA-05,LIMITATION,Reproduction and generalized morphology do not establish surveyed geographic accuracy,RETAIN_LIMITATION_AND_HOLDS,False

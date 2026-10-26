@@ -32,7 +32,7 @@ Coast-normal residuals do not establish two-dimensional town or inland accuracy.
 
 ## Inland evidence limits
 
-[Inland diagnostics](../maps/calibration/inland_v1/README.md) compare explicit
+[Inland diagnostics](../maps/calibration/inland_v2/README.md) compare explicit
 plateau components with generalized lake outlines without fitting the model.
 Plateau interiors are inset and often nonzero elevation; they are not surveyed
 shorelines. Named river centerlines are also generalized and do not establish
