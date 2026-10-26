@@ -21,6 +21,7 @@ Node.js is optional and needed only for the map-logic smoke test.
 
 | Tool | Purpose |
 |---|---|
+| `audit_heightmap_provenance.py` | Validate PNG fingerprints and compare decoded pixels against a package without archive extraction |
 | `geography.py` | Standard-library inventory, bounds, duplicate and spacing audit |
 | `scenario_geography.py` | Read-only supplied JGRPP terrain decoder and exact importer pixel mapping |
 | `calibrate_heightmap.py` | V6 global coastline diagnostics and regional candidate reproduction |

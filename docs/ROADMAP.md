@@ -17,7 +17,8 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 
 - [x] V11: review all 28 V10 terrain cases, add 25 site references and restore Namur.
 - [ ] Resolve the 27 remaining V11 terrain cases using stronger historic centre/river/coast evidence.
-- [ ] Find original DEM projection/crop provenance or independent inland controls.
+- [x] Identify the distributed heightmap: exact pixel match to UseYourIllusion’s Europe v4.
+- [ ] Recover upstream DEM projection/crop provenance or add independent inland controls.
 - [ ] Preserve consistent neighbouring-town registration when changing a regional model.
 - [ ] Continue the Modica/Pozzallo population-unit and identity investigation.
 - [ ] Rank the 132 non-flat clear targets for later founding checks.

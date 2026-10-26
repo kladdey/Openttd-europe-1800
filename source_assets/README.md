@@ -18,7 +18,12 @@ The raster is 4096×4096 RGBA, fully opaque. Exactly 47.340101% of its red-chann
 pixels are zero. There are 13 non-grayscale RGB pixels; the target version's
 PNG reader uses the red channel for RGBA, which this workflow reproduces.
 The PNG has no embedded projection/geographic bounds metadata. Heightmap
-origin, CRS and original geographic crop provenance are still unknown.
+origin is now identified as UseYourIllusion’s **Europe (4096 x 4096), version 4**,
+published on BaNaNaS in March 2014. All decoded RGBA pixels match the archived
+package; encoded PNG bytes differ. See the [provenance report](../maps/calibration/provenance_v1/README.md).
+The package is GPL v2; its [bundled license](heightmaps/LICENSE-Europe-heightmap-GPL-2.0.txt)
+is preserved alongside the image. The upstream DEM, CRS and original geographic
+crop provenance remain unknown. This attribution does not license unrelated assets.
 
 Both scenario containers are OTTX/LZMA with JGRPP's extended 0x8124 header and
 `jgrpp-0.73.4` version label in the SLXI chunk. Their MAPS table records

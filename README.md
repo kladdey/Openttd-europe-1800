@@ -15,6 +15,7 @@ No in-game tests have been run; the user currently has no test platform.
 - [Interactive map — download HTML and open locally](maps/calibration/geography_v11/visualization/evidence_map.html)
 - [Static map](maps/calibration/geography_v11/visualization/evidence_overview.png)
 - [All 600 retained/deferred decisions](maps/calibration/geography_v11/all_600_decisions.csv)
+- [Heightmap source identified: UseYourIllusion’s Europe v4](maps/calibration/provenance_v1/README.md)
 - [Original asset checksums](source_assets/README.md)
 - [Offline workflow](docs/GEOGRAPHY_WORKFLOW.md) and [scripts](scripts/README.md)
 - [Roadmap](docs/ROADMAP.md) and [all documentation](docs/DOCUMENTATION_INDEX.md)

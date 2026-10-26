@@ -1,0 +1,36 @@
+{
+  "research_date": "2026-10-26",
+  "identified_package": {
+    "name": "Europe (4096 x 4096)",
+    "author": "UseYourIllusion",
+    "version": "4",
+    "type": "heightmap",
+    "unique_id": "00000ae3",
+    "upload_date": "2014-03-03T15:08:09Z",
+    "license": "GPL v2",
+    "official_listing": "https://bananas.openttd.org/package/heightmap/00000ae3",
+    "metadata_repository": "OpenTTD/BaNaNaS",
+    "metadata_commit": "a402c8640fa9750b593c7104d3a5452772c41080",
+    "metadata_directory": "heightmap/00000ae3",
+    "metadata_version_file": "versions/20140303T150809Z.yaml",
+    "official_md5_prefix": "6ab07e28",
+    "official_archive_bytes": 7030642
+  },
+  "download_url": "https://kompot.snt.utwente.nl/pub/games/openttd/bananas/heightmap/Europe_4096_x_4096-4.tar.gz",
+  "archive_member_metadata": {
+    "srgb": 0,
+    "gamma": 0.45455,
+    "dpi": [
+      119.96419999999999,
+      119.96419999999999
+    ],
+    "Software": "Paint.NET v3.5.10"
+  },
+  "identity_basis": "Exact equality of all decoded RGBA pixels, without geometric or elevation transformations; encoded MD5 agrees with official prefix; archive length agrees with official metadata.",
+  "upstream_dem": null,
+  "original_crs": null,
+  "original_geographic_bounds": null,
+  "projection_status": "Unknown; existing empirical linear longitude/latitude coastline model retained unchanged.",
+  "town_placement_changes": 0,
+  "in_game_tests": 0
+}
