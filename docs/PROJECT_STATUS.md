@@ -17,7 +17,7 @@ Documentation was synchronized and merged in [PR #1](https://github.com/kladdey/
 | Heightmap provenance | Exact pixel match to UseYourIllusion’s Europe v4 (2014); original DEM CRS still unknown |
 | Original heightmap and scenarios | Committed and hash-checked; no scenario edited |
 | Inland checks | 10 lake basins reviewed, 7 diagnostic comparisons; Arles/Alençon bank holds remain open |
-| Automated validation | 67 Python tests; V9/V10/V11 map smoke tests passed |
+| Automated validation | 72 Python tests; V9/V10/V11 map smoke tests passed |
 | In-game validation | Unavailable; none run |
 
 Clear means nonzero source elevation and clear ground in both supplied scenario
@@ -48,3 +48,8 @@ two inland dependency-validation gaps. No V11 candidate errors were found within
 the audited structural/terrain scope. Exact minimum importer-target spacing is
 15.620499 tiles (Manchester–Oldham); the legacy normalized report gives 16.221519.
 Current [inland V2](../maps/calibration/inland_v2/README.md) retains all bank holds.
+
+[Historic river-bank research](../maps/calibration/river_bank_research_v1/README.md)
+strengthens both bank contexts and records the Arles boat-bridge gap in 1800.
+Both held sites remain sensitive to subpixel shifts; no hold was lifted. Historic
+map downloads failed with bounded requests/access errors, explicitly documented.

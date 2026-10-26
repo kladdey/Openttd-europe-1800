@@ -85,3 +85,12 @@ or overwrite an original playable scenario. See the [V11 instructions](../maps/c
 V11 adds an explicit historic-placement review state. A clear pixel with a
 bank, source, identity or context hold is ineligible until the hold is resolved.
 Source exclusions and repeated importer-pixel aliases remain documented.
+
+## Historical bank research checkpoint
+
+[Arles and Alençon research](../maps/calibration/river_bank_research_v1/README.md)
+adds source-backed city-bank context and dated crossing constraints, but no
+georeferenced historic bank. Both clear alternatives reach water under half-pixel
+sensitivity probes, so their holds remain. Probe counts are not probabilities.
+Reproduce offline with
+`python scripts/research_river_banks.py --out scratch/river-bank-research`.

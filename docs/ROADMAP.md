@@ -20,6 +20,7 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 - [x] Identify the distributed heightmap: exact pixel match to UseYourIllusion’s Europe v4.
 - [x] Add frozen-model inland lake diagnostics and named-river overlays for both bank holds; no unsupported town shifts.
 - [x] Reverse-audit V11 export, comparisons and provenance; enforce inland model/reference dependencies.
+- [x] Research Arles/Alençon bank context and dated crossings; demonstrate fragile targets and retain both bank holds.
 - [ ] Recover upstream DEM projection/crop provenance or add independent inland controls.
 - [ ] Preserve consistent neighbouring-town registration when changing a regional model.
 - [ ] Continue the Modica/Pozzallo population-unit and identity investigation.

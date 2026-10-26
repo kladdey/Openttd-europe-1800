@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-26",
+  "scenario_start_year": 1800,
+  "sources": [
+    {
+      "id": "ARLES_BOATS",
+      "publisher": "Région Sud, Inventaire général",
+      "url": "https://dossiersinventaire.maregionsud.fr/dossier/IA13004098",
+      "access": "INDEXED_PRIMARY_RECORD_LIVE_CHALLENGE",
+      "locator": "Historique; Description; Documents figurés",
+      "summary": "The modern-era boat bridge joined the historic centre on the left bank to Trinquetaille on the right. It was destroyed in 1792 and replaced in 1805. The record identifies an archival 1786 drawing, Médiathèque d’Arles Ms 500; that drawing was not retrieved.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ARLES_FIXED",
+      "publisher": "Région Sud, Inventaire général",
+      "url": "https://dossiersinventaire.maregionsud.fr/dossier/IA13004062",
+      "access": "INDEXED_PRIMARY_RECORD",
+      "locator": "Historique; Description; Dates",
+      "summary": "The fixed Trinquetaille bridge is nineteenth century; the inventory records 1867. It connects the centre on the left bank with Trinquetaille on the right. This date is an inventory work date, not an independently established opening date.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ARLES_LOCK",
+      "publisher": "Région Sud, Inventaire général",
+      "url": "https://dossiersinventaire.maregionsud.fr/dossier/IA13004142",
+      "access": "INDEXED_PRIMARY_RECORD_TRANSIENT_LIVE_TEXT",
+      "locator": "Dates; Description",
+      "summary": "The Roquette lock bridge is dated 1828. Its right/left-bank description concerns the Arles–Bouc canal, not the Rhône; do not transfer those bank labels to the river.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ARLES_CHURCH",
+      "publisher": "Ville d’Arles, service du patrimoine",
+      "url": "https://patrimoine.ville-arles.fr/index.php?idx=22&obj=edifice&quartier=26&site=0",
+      "access": "PRIMARY_TEXT_READ",
+      "locator": "Histoire; Localisation",
+      "summary": "The Grands-Augustins church was built in 1450, sold during the Revolution, and restored to worship under the Saint-Césaire name in 1839. The building site predates 1800, but its later name and parish status should not be projected backwards.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ALENCON_BANK",
+      "publisher": "Office de tourisme de la Communauté urbaine d’Alençon",
+      "url": "https://www.alencontourisme.com/app/uploads/alencon/2025/11/Brochure-groupes_seminaires_2026_web.pdf",
+      "access": "PRIMARY_PDF_TEXT_READ",
+      "locator": "PDF page index 3, printed pages 4–5, À la découverte d’Alençon; modern map on PDF page index 2",
+      "summary": "The tourism office places Alençon’s historic origins on the right bank of the Sarthe and includes Saint-Léonard among historic-centre monuments. This establishes neighbourhood context, not the precise church bank polygon in 1800. No source-image geometry was inspected.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ALENCON_CAUE",
+      "publisher": "CAUE de l’Orne / Atelier Canopé 61; hosted by Académie de Normandie",
+      "url": "https://prim61.ac-normandie.fr/IMG/pdf/livret_enseignants_edp_2019_compressed.pdf",
+      "access": "PRIMARY_PDF_TEXT_READ",
+      "locator": "Printed page 25 (PDF index 24), caption of the 1770 plan; printed page 52 (PDF index 51), Les ponts d’Alençon",
+      "summary": "The booklet reproduces a plan captioned 1770 and dates Pont Neuf to 1781. The older Pont de Sarthe is described as predating that crossing. Sources disagree on the older bridge’s construction century; this research does not resolve that dispute. The plan image could not be visually inspected or georeferenced.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ALENCON_CHURCH",
+      "publisher": "Office de tourisme de la Communauté urbaine d’Alençon",
+      "url": "https://www.alencontourisme.com/decouvrez/nos-incontournables/le-quartier-saint-leonard/",
+      "access": "PRIMARY_TEXT_READ",
+      "locator": "L’église Saint-Léonard",
+      "summary": "A new church was established from 1489; its vault collapsed in 1645 and the present Gothic vault was rebuilt in 1836. The historic site is valid before 1800 without assuming that all present fabric existed then.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ALENCON_BNF_PLAN",
+      "publisher": "Bibliothèque nationale de France",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b8441697v",
+      "access": "LOCATOR_ONLY_403",
+      "locator": "Plan de la ville et faubourg d’Alençon, 1770; original Gallica image not retrieved",
+      "summary": "Archival image locator for a future high-resolution inspection; no bank position, orientation or measurement is inferred from this inaccessible image.",
+      "geometry_inspected": false
+    },
+    {
+      "id": "ALENCON_PLUI",
+      "publisher": "Communauté urbaine d’Alençon / Géoportail de l’urbanisme",
+      "url": "https://data.geopf.fr/annexes/gpu/documents/DU_246100663/422aafd7bda4970f76a1a52822f2a386/246100663_rapport_2_20250626.pdf",
+      "access": "LOCATOR_ONLY_LIVE_404",
+      "locator": "Indexed figure 96, printed page 150, 1770 plan credited to Gallica",
+      "summary": "Search indexing identified a second reproduction, but the live URL returns 404. It is retained as an acquisition lead, not usable geometric evidence.",
+      "geometry_inspected": false
+    }
+  ],
+  "timeline": [
+    {
+      "id": "ARLES_BOAT_GAP",
+      "name": "ARLES",
+      "feature": "Rhône boat bridge",
+      "kind": "CROSSING_INTERRUPTION",
+      "not_before": null,
+      "interruption_start": 1792,
+      "interruption_end": 1805,
+      "source_ids": [
+        "ARLES_BOATS"
+      ],
+      "start_1800_context": "ABSENT_DURING_RECORDED_INTERRUPTION"
+    },
+    {
+      "id": "ARLES_FIXED_BRIDGE",
+      "name": "ARLES",
+      "feature": "Fixed Trinquetaille bridge configuration",
+      "kind": "LATER_CONFIGURATION",
+      "not_before": 1867,
+      "source_ids": [
+        "ARLES_FIXED"
+      ],
+      "start_1800_context": "LATER_CONFIGURATION_NOT_1800"
+    },
+    {
+      "id": "ARLES_LOCK_BRIDGE",
+      "name": "ARLES",
+      "feature": "Roquette lock bridge on canal",
+      "kind": "LATER_CONFIGURATION",
+      "not_before": 1828,
+      "source_ids": [
+        "ARLES_LOCK"
+      ],
+      "start_1800_context": "LATER_CONFIGURATION_NOT_1800"
+    },
+    {
+      "id": "ARLES_CHURCH_NAME",
+      "name": "ARLES",
+      "feature": "Saint-Césaire name and restored worship",
+      "kind": "LATER_NAME_OR_FABRIC",
+      "not_before": 1839,
+      "source_ids": [
+        "ARLES_CHURCH"
+      ],
+      "pre_1800_building_site": true,
+      "start_1800_context": "OLDER_SITE_LATER_NAME_OR_FABRIC"
+    },
+    {
+      "id": "ALENCON_PONT_NEUF",
+      "name": "ALENCON",
+      "feature": "Pont Neuf opening",
+      "kind": "DATED_OPENING",
+      "not_before": 1781,
+      "source_ids": [
+        "ALENCON_CAUE"
+      ],
+      "start_1800_context": "OPENED_BEFORE_START_CONTINUITY_NOT_PROVEN"
+    },
+    {
+      "id": "ALENCON_CHURCH_VAULT",
+      "name": "ALENCON",
+      "feature": "Present Saint-Léonard Gothic vault",
+      "kind": "LATER_NAME_OR_FABRIC",
+      "not_before": 1836,
+      "source_ids": [
+        "ALENCON_CHURCH"
+      ],
+      "pre_1800_building_site": true,
+      "start_1800_context": "OLDER_SITE_LATER_NAME_OR_FABRIC"
+    }
+  ],
+  "cases": [
+    {
+      "name": "ALENCON",
+      "reference_id": "ALENCON / V11_SITE",
+      "river": "Sarthe",
+      "historic_bank": "RIGHT_DOWNSTREAM",
+      "bank_scope": "HISTORIC_CENTRE_CONTEXT",
+      "bank_source_ids": [
+        "ALENCON_BANK"
+      ],
+      "site_source_ids": [
+        "ALENCON_CHURCH"
+      ],
+      "georeferenced_historic_bank_available": false,
+      "saved_named_channel_identified": false,
+      "registration_error_bound_pixels": null,
+      "site_to_bank_margin_pixels": null
+    },
+    {
+      "name": "ARLES",
+      "reference_id": "ARLES / V11_SITE",
+      "river": "Rhône",
+      "historic_bank": "LEFT_DOWNSTREAM",
+      "bank_scope": "HISTORIC_CENTRE_CONTEXT",
+      "bank_source_ids": [
+        "ARLES_BOATS",
+        "ARLES_FIXED"
+      ],
+      "site_source_ids": [
+        "ARLES_CHURCH"
+      ],
+      "georeferenced_historic_bank_available": false,
+      "saved_named_channel_identified": false,
+      "registration_error_bound_pixels": null,
+      "site_to_bank_margin_pixels": null
+    }
+  ],
+  "download_policy": {
+    "connect_timeout_seconds": 10,
+    "total_timeout_seconds": 25,
+    "retries": 0
+  },
+  "access_failures": [
+    {
+      "method": "curl via inherited proxy",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8441697v/f1/full/2500,/0/native.jpg",
+      "result": "curl exit 7: proxy port 8080 unavailable; immediate failure; no file downloaded"
+    },
+    {
+      "method": "web primary-page open",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b8441697v",
+      "result": "403; no map geometry acquired"
+    },
+    {
+      "method": "web PDF screenshot, index 51",
+      "url": "https://prim61.ac-normandie.fr/IMG/pdf/livret_enseignants_edp_2019_compressed.pdf",
+      "result": "TimeoutError; subsequent screenshot calls returned text placeholders only, no image content available for visual inspection"
+    },
+    {
+      "method": "web primary-page open",
+      "url": "https://data.geopf.fr/annexes/gpu/documents/DU_246100663/422aafd7bda4970f76a1a52822f2a386/246100663_rapport_2_20250626.pdf",
+      "result": "404; no PDF acquired"
+    }
+  ]
+}
