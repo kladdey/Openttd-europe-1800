@@ -1,3 +1,12 @@
+## Playing, multiplayer and redistribution
+
+- [Install JGRPP and the scenario](docs/INSTALLATION.md)
+- [Multiplayer setup and connection troubleshooting](docs/MULTIPLAYER.md)
+- [Third-party licensing and distribution policy](docs/LICENSING.md)
+- [Public release checklist](docs/RELEASE_PROCESS.md)
+
+**Release warning:** Do not publish the earlier bundled portable ZIPs as public GitHub assets. The project uses third-party NewGRFs with mixed or unverified redistribution terms. Prefer a scenario-only distribution and official upstream downloads. The V12 568-town checkpoint is the last user-confirmed town baseline; V13 (613 towns) is still an offline candidate. The separately supplied Toni multiplayer scenario has not been independently validated as equivalent to either.
+
 # OpenTTD Europe 1800
 
 Historical Europe scenario work for JGRPP 0.73.4, Windows 11 and a 4096×4096 map,
