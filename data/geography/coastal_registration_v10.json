@@ -1,0 +1,653 @@
+{
+  "method": "V6 affine plus regional translation; coastline fit only, no town land used",
+  "input_sha256": {
+    "data/geography/coastal_regions_v10.json": "50bcd334059b83072ba8701a20cd77310bb8c0757430995a86b42607cc1f57d9",
+    "maps/calibration/geography_v6/coastline_models.json": "263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50",
+    "data/geography/ne_50m_europe_coastline.geojson": "f5d53fa83d12ee15a5e56e081651ec72ec45a29a30b7340e7250c8af6c83cc3f"
+  },
+  "heightmap_sha256": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+  "gates": {
+    "status": "Regional coastline registration experiments; gates independent of town land outcomes",
+    "max_shift_pixels": 12,
+    "minimum_train_samples": 30,
+    "minimum_holdout_samples": 15,
+    "maximum_holdout_p90_pixels": 5,
+    "minimum_holdout_median_improvement": 0.2,
+    "maximum_jackknife_shift_pixels": 2,
+    "minimum_jacobian_eigenvalue_ratio": 0.15
+  },
+  "regions": [
+    {
+      "id": "SE_SPAIN",
+      "bounds_west_east_south_north": [
+        -2,
+        0.5,
+        36.9,
+        39.1
+      ],
+      "towns": [
+        "ALICANTE",
+        "CARTAGENA",
+        "ORIHUELA"
+      ],
+      "samples": 164,
+      "train_samples": 139,
+      "holdout_samples": 25,
+      "accepted": true,
+      "rejection_reasons": [],
+      "shift_column": 4.819246520297424,
+      "shift_row": -3.963872045896758,
+      "before_holdout_median_pixels": 2.082236099631754,
+      "before_holdout_p90_pixels": 6.297324575588335,
+      "holdout_median_pixels": 0.8901378285804377,
+      "holdout_p90_pixels": 1.8707038008119028,
+      "jacobian_eigenvalue_ratio": 0.5029995033890418,
+      "maximum_jackknife_difference_pixels": 0.3116580453241036,
+      "jackknife_shifts": [
+        [
+          4.906257742414072,
+          -3.6646066378706905
+        ],
+        [
+          4.658895913542124,
+          -4.036879185073563
+        ],
+        [
+          4.867416962559695,
+          -4.033881988622291
+        ],
+        [
+          4.78569355307114,
+          -3.9866972494169026
+        ]
+      ]
+    },
+    {
+      "id": "CADIZ",
+      "bounds_west_east_south_north": [
+        -7,
+        -5.3,
+        35.8,
+        37.3
+      ],
+      "towns": [
+        "CADIZ"
+      ],
+      "samples": 153,
+      "train_samples": 115,
+      "holdout_samples": 38,
+      "accepted": false,
+      "rejection_reasons": [
+        "HOLDOUT_P90_TOO_LARGE",
+        "HOLDOUT_P90_WORSENED"
+      ],
+      "shift_column": 1.8298314352088363,
+      "shift_row": -2.9960305512561196,
+      "before_holdout_median_pixels": 2.565605796355845,
+      "before_holdout_p90_pixels": 4.761490013099215,
+      "holdout_median_pixels": 1.3323954591336011,
+      "holdout_p90_pixels": 5.298150739947349,
+      "jacobian_eigenvalue_ratio": 0.5747261979713385,
+      "maximum_jackknife_difference_pixels": 1.829294856623883,
+      "jackknife_shifts": [
+        [
+          1.842502577373291,
+          -2.95209917176697
+        ],
+        [
+          1.7919465000533454,
+          -3.2786777492099075
+        ],
+        [
+          2.0396184188061173,
+          -2.219292493229351
+        ],
+        [
+          0.5900027539847481,
+          -4.341074979401425
+        ]
+      ]
+    },
+    {
+      "id": "S_SARDINIA",
+      "bounds_west_east_south_north": [
+        8,
+        10,
+        38.5,
+        40
+      ],
+      "towns": [
+        "CAGLIARI"
+      ],
+      "samples": 179,
+      "train_samples": 133,
+      "holdout_samples": 46,
+      "accepted": false,
+      "rejection_reasons": [
+        "MEDIAN_IMPROVEMENT_TOO_SMALL",
+        "HOLDOUT_P90_WORSENED",
+        "SPATIALLY_UNSTABLE_TRANSLATION"
+      ],
+      "shift_column": 0.19671616738565648,
+      "shift_row": 0.06392388501804103,
+      "before_holdout_median_pixels": 1.741720735260351,
+      "before_holdout_p90_pixels": 4.588159561323985,
+      "holdout_median_pixels": 1.6624665810712105,
+      "holdout_p90_pixels": 4.590295410123396,
+      "jacobian_eigenvalue_ratio": 0.4117465015765082,
+      "maximum_jackknife_difference_pixels": 2.070886188653237,
+      "jackknife_shifts": [
+        [
+          0.27607668423129117,
+          1.3440050609427188
+        ],
+        [
+          0.3625032537593114,
+          -2.000315502346337
+        ],
+        [
+          0.07699718776289506,
+          -0.43148380278125614
+        ],
+        [
+          0.34880829943412334,
+          0.08716520895609739
+        ]
+      ]
+    },
+    {
+      "id": "SICILY",
+      "bounds_west_east_south_north": [
+        11.8,
+        16,
+        36.3,
+        38.7
+      ],
+      "towns": [
+        "CATANIA",
+        "MESSINA",
+        "MARSALA"
+      ],
+      "samples": 429,
+      "train_samples": 331,
+      "holdout_samples": 98,
+      "accepted": true,
+      "rejection_reasons": [],
+      "shift_column": -0.7794428344492916,
+      "shift_row": -4.69883889471232,
+      "before_holdout_median_pixels": 2.9943180459071415,
+      "before_holdout_p90_pixels": 5.18467193342137,
+      "holdout_median_pixels": 1.186331768216336,
+      "holdout_p90_pixels": 2.8976284022055623,
+      "jacobian_eigenvalue_ratio": 0.9476494400987522,
+      "maximum_jackknife_difference_pixels": 0.31769555392168847,
+      "jackknife_shifts": [
+        [
+          -1.0570763034694088,
+          -4.544404048056961
+        ],
+        [
+          -0.48160807275507794,
+          -4.666484392463764
+        ],
+        [
+          -0.5375295679665435,
+          -4.62134471905754
+        ],
+        [
+          -0.836915436787224,
+          -4.967779698278342
+        ]
+      ]
+    },
+    {
+      "id": "NAPLES",
+      "bounds_west_east_south_north": [
+        13.5,
+        15.1,
+        40.2,
+        41.2
+      ],
+      "towns": [
+        "NAPOLI"
+      ],
+      "samples": 107,
+      "train_samples": 71,
+      "holdout_samples": 36,
+      "accepted": false,
+      "rejection_reasons": [
+        "MEDIAN_IMPROVEMENT_TOO_SMALL"
+      ],
+      "shift_column": -1.0797431398836854,
+      "shift_row": -1.4096686797942006,
+      "before_holdout_median_pixels": 1.1761649845247142,
+      "before_holdout_p90_pixels": 3.4117857814940296,
+      "holdout_median_pixels": 1.2171659301300748,
+      "holdout_p90_pixels": 2.5027538610676983,
+      "jacobian_eigenvalue_ratio": 0.608133786737221,
+      "maximum_jackknife_difference_pixels": 1.5305939075346622,
+      "jackknife_shifts": [
+        [
+          -0.8901671850999879,
+          -1.7638550590263435
+        ],
+        [
+          -2.1219116946908017,
+          -2.530651468758185
+        ],
+        [
+          -1.3748281448555753,
+          -1.4881792773845866
+        ],
+        [
+          -0.9116905470922646,
+          -1.264556925106726
+        ]
+      ]
+    },
+    {
+      "id": "NICE",
+      "bounds_west_east_south_north": [
+        6.6,
+        7.8,
+        43.3,
+        44
+      ],
+      "towns": [
+        "NICE"
+      ],
+      "samples": 49,
+      "train_samples": 43,
+      "holdout_samples": 6,
+      "accepted": false,
+      "rejection_reasons": [
+        "INSUFFICIENT_SPATIALLY_SPLIT_COAST_SAMPLES"
+      ]
+    },
+    {
+      "id": "MALLORCA",
+      "bounds_west_east_south_north": [
+        2.1,
+        3.7,
+        39.2,
+        40
+      ],
+      "towns": [
+        "PALMA"
+      ],
+      "samples": 128,
+      "train_samples": 97,
+      "holdout_samples": 31,
+      "accepted": false,
+      "rejection_reasons": [
+        "MEDIAN_IMPROVEMENT_TOO_SMALL"
+      ],
+      "shift_column": 0.5558167075069993,
+      "shift_row": -2.4745602694478075,
+      "before_holdout_median_pixels": 1.9937475795467228,
+      "before_holdout_p90_pixels": 4.015012619497863,
+      "holdout_median_pixels": 2.12877988109337,
+      "holdout_p90_pixels": 3.055959467301975,
+      "jacobian_eigenvalue_ratio": 0.7143952637479221,
+      "maximum_jackknife_difference_pixels": 1.0311293955237948,
+      "jackknife_shifts": [
+        [
+          -0.20307658510593785,
+          -2.7404369990799697
+        ],
+        [
+          1.0248163099462746,
+          -2.8749082156536896
+        ],
+        [
+          1.499650752094442,
+          -2.0593433061732136
+        ],
+        [
+          -0.27667106841810163,
+          -2.2013492561329153
+        ]
+      ]
+    },
+    {
+      "id": "TARANTO",
+      "bounds_west_east_south_north": [
+        16.3,
+        18.5,
+        39.7,
+        41
+      ],
+      "towns": [
+        "TARANTO"
+      ],
+      "samples": 194,
+      "train_samples": 141,
+      "holdout_samples": 53,
+      "accepted": false,
+      "rejection_reasons": [
+        "HOLDOUT_P90_TOO_LARGE",
+        "MEDIAN_IMPROVEMENT_TOO_SMALL",
+        "HOLDOUT_P90_WORSENED"
+      ],
+      "shift_column": 0.9960904292185098,
+      "shift_row": -3.564024898525429,
+      "before_holdout_median_pixels": 1.5731341557211875,
+      "before_holdout_p90_pixels": 3.955935935975182,
+      "holdout_median_pixels": 1.6358476786855667,
+      "holdout_p90_pixels": 5.3747264586525345,
+      "jacobian_eigenvalue_ratio": 0.6598161606791978,
+      "maximum_jackknife_difference_pixels": 0.642101392267109,
+      "jackknife_shifts": [
+        [
+          1.0464696119511332,
+          -3.3914788375217846
+        ],
+        [
+          0.6645806834749589,
+          -4.113929877979522
+        ],
+        [
+          1.0697940811230247,
+          -3.513207899662776
+        ],
+        [
+          0.9076530292156318,
+          -3.4150169666718893
+        ]
+      ]
+    },
+    {
+      "id": "KVARNER",
+      "bounds_west_east_south_north": [
+        13.8,
+        15.1,
+        44.6,
+        45.6
+      ],
+      "towns": [
+        "Rijeka"
+      ],
+      "samples": 227,
+      "train_samples": 179,
+      "holdout_samples": 48,
+      "accepted": false,
+      "rejection_reasons": [
+        "HOLDOUT_P90_WORSENED"
+      ],
+      "shift_column": -0.4440023521857077,
+      "shift_row": 1.3250770942399486,
+      "before_holdout_median_pixels": 1.8245327366573676,
+      "before_holdout_p90_pixels": 3.0210464251636044,
+      "holdout_median_pixels": 1.2850242476478164,
+      "holdout_p90_pixels": 3.2807396683914134,
+      "jacobian_eigenvalue_ratio": 0.4666781564764509,
+      "maximum_jackknife_difference_pixels": 0.7173676817736296,
+      "jackknife_shifts": [
+        [
+          0.13248787760065625,
+          1.7520143329696438
+        ],
+        [
+          -0.687724554839164,
+          1.1213098348207897
+        ],
+        [
+          -0.6652278310474783,
+          1.7874212905910338
+        ],
+        [
+          -0.2760131011720565,
+          1.1055411883825563
+        ]
+      ]
+    },
+    {
+      "id": "SPLIT",
+      "bounds_west_east_south_north": [
+        15.4,
+        17.2,
+        42.8,
+        44.1
+      ],
+      "towns": [
+        "Split"
+      ],
+      "samples": 230,
+      "train_samples": 187,
+      "holdout_samples": 43,
+      "accepted": false,
+      "rejection_reasons": [
+        "SPATIALLY_UNSTABLE_TRANSLATION"
+      ],
+      "shift_column": -1.1350381577469477,
+      "shift_row": -0.33519158502186913,
+      "before_holdout_median_pixels": 3.1064036666557815,
+      "before_holdout_p90_pixels": 4.82899805825701,
+      "holdout_median_pixels": 2.713791172408037,
+      "holdout_p90_pixels": 4.4668218271011035,
+      "jacobian_eigenvalue_ratio": 0.32650733645263585,
+      "maximum_jackknife_difference_pixels": 2.891044155807917,
+      "jackknife_shifts": [
+        [
+          -1.0719889065556618,
+          -0.20466945412445406
+        ],
+        [
+          -3.8672006401794725,
+          -1.2804029266906285
+        ],
+        [
+          -0.560603590941179,
+          -0.3922803620548755
+        ],
+        [
+          -0.5626936690023165,
+          0.0194842575454279
+        ]
+      ]
+    },
+    {
+      "id": "DUBROVNIK",
+      "bounds_west_east_south_north": [
+        17.2,
+        18.9,
+        42,
+        43
+      ],
+      "towns": [
+        "Dubrovnik"
+      ],
+      "samples": 127,
+      "train_samples": 94,
+      "holdout_samples": 33,
+      "accepted": false,
+      "rejection_reasons": [
+        "HOLDOUT_P90_TOO_LARGE",
+        "HOLDOUT_P90_WORSENED",
+        "SPATIALLY_UNSTABLE_TRANSLATION"
+      ],
+      "shift_column": -9.967355018658711,
+      "shift_row": -3.124737212947466,
+      "before_holdout_median_pixels": 2.1290989062388483,
+      "before_holdout_p90_pixels": 4.441113538442364,
+      "holdout_median_pixels": 1.4845367409157517,
+      "holdout_p90_pixels": 5.040690258439521,
+      "jacobian_eigenvalue_ratio": 0.5851362312550727,
+      "maximum_jackknife_difference_pixels": 17.163514259713715,
+      "jackknife_shifts": [
+        [
+          3.402176076776221,
+          7.638248433776883
+        ],
+        [
+          -2.070366609808964,
+          3.0238119620910138
+        ],
+        [
+          -8.580350986859099,
+          -3.460073643095602
+        ],
+        [
+          -2.0073427617051136,
+          3.183555846540124
+        ]
+      ]
+    },
+    {
+      "id": "DURRES",
+      "bounds_west_east_south_north": [
+        18.9,
+        20,
+        40.5,
+        42
+      ],
+      "towns": [
+        "Durr\u00ebs"
+      ],
+      "samples": 89,
+      "train_samples": 65,
+      "holdout_samples": 24,
+      "accepted": true,
+      "rejection_reasons": [],
+      "shift_column": -3.8516968142514587,
+      "shift_row": -0.5606360591159095,
+      "before_holdout_median_pixels": 2.625428442493927,
+      "before_holdout_p90_pixels": 4.362659647324904,
+      "holdout_median_pixels": 1.3235234396367892,
+      "holdout_p90_pixels": 3.4359153433412337,
+      "jacobian_eigenvalue_ratio": 0.7180515011000799,
+      "maximum_jackknife_difference_pixels": 1.8286416648073047,
+      "jackknife_shifts": [
+        [
+          -3.5984043753703916,
+          -0.4828332963689389
+        ],
+        [
+          -3.639633981241703,
+          -0.7744794893929164
+        ],
+        [
+          -4.523853775279044,
+          -2.2612639896202253
+        ],
+        [
+          -4.056832474132727,
+          -0.292462873005536
+        ]
+      ]
+    },
+    {
+      "id": "VOLOS",
+      "bounds_west_east_south_north": [
+        22.3,
+        23.6,
+        38.8,
+        39.8
+      ],
+      "towns": [
+        "Volos"
+      ],
+      "samples": 159,
+      "train_samples": 114,
+      "holdout_samples": 45,
+      "accepted": false,
+      "rejection_reasons": [
+        "HOLDOUT_P90_TOO_LARGE",
+        "MEDIAN_IMPROVEMENT_TOO_SMALL",
+        "SPATIALLY_UNSTABLE_TRANSLATION"
+      ],
+      "shift_column": 2.2665924753491025,
+      "shift_row": -5.780444170626135,
+      "before_holdout_median_pixels": 2.561569965308257,
+      "before_holdout_p90_pixels": 15.607300211604015,
+      "holdout_median_pixels": 3.107819119746438,
+      "holdout_p90_pixels": 10.145531027630234,
+      "jacobian_eigenvalue_ratio": 0.5487401012914939,
+      "maximum_jackknife_difference_pixels": 2.079037928827108,
+      "jackknife_shifts": [
+        [
+          3.235259428759867,
+          -4.255987326360299
+        ],
+        [
+          0.4900819076339382,
+          -6.548234397672481
+        ],
+        [
+          2.182223812644698,
+          -5.870811820402292
+        ],
+        [
+          4.26694911858293,
+          -5.213900254083024
+        ]
+      ]
+    },
+    {
+      "id": "KAVALA",
+      "bounds_west_east_south_north": [
+        23.5,
+        25.2,
+        40.3,
+        41.2
+      ],
+      "towns": [
+        "Kavala"
+      ],
+      "samples": 138,
+      "train_samples": 112,
+      "holdout_samples": 26,
+      "accepted": false,
+      "rejection_reasons": [
+        "MEDIAN_IMPROVEMENT_TOO_SMALL",
+        "HOLDOUT_P90_WORSENED"
+      ],
+      "shift_column": -2.8446861159072765,
+      "shift_row": -2.6042610522648064,
+      "before_holdout_median_pixels": 2.024651630064514,
+      "before_holdout_p90_pixels": 3.374771477470952,
+      "holdout_median_pixels": 1.897828017990551,
+      "holdout_p90_pixels": 3.6998407190831855,
+      "jacobian_eigenvalue_ratio": 0.9613438146371586,
+      "maximum_jackknife_difference_pixels": 0.8336389447430663,
+      "jackknife_shifts": [
+        [
+          -2.856353790691966,
+          -3.437818342172016
+        ],
+        [
+          -2.7838037421024597,
+          -2.6467915123764194
+        ],
+        [
+          -2.640419398848204,
+          -2.1722454555765514
+        ],
+        [
+          -2.7365196758768477,
+          -2.193203993380273
+        ]
+      ]
+    },
+    {
+      "id": "SEINE",
+      "bounds_west_east_south_north": [
+        -0.4,
+        1.2,
+        49,
+        50
+      ],
+      "towns": [
+        "LE HAVRE"
+      ],
+      "samples": 93,
+      "train_samples": 85,
+      "holdout_samples": 8,
+      "accepted": false,
+      "rejection_reasons": [
+        "INSUFFICIENT_SPATIALLY_SPLIT_COAST_SAMPLES"
+      ]
+    }
+  ],
+  "limitations": "Modern generalized coastline, coast-normal holdouts and spatial jackknife are diagnostics, not true point errors or historic-shoreline surveys. No named landmark was used to fit or select these regional shifts. Rejected fits must not be applied."
+}

@@ -3,7 +3,19 @@ Home project
 
 ## Europe 1800 geography work
 
-The latest evidence pass is **V9**: 22 named landmark checks, diagnostics for
+The latest placement work is **V10**: 27 original terrain flags corrected to
+source-backed clear targets; 27 original flags plus a newly exposed Orihuela
+conflict remain explicitly deferred from a separate **536-town clear-target test
+import**. Full 564- and 576-town comparison files preserve those records. All 600
+master entries, original populations and source assets remain preserved.
+
+- [V10 results, unresolved cases and reproduction/import instructions](maps/calibration/geography_v10/README.md)
+- [536-town clear-target test JSON](maps/calibration/geography_v10/Europe_1800_V10_CLEAR_TARGET_CANDIDATE_TEST.json)
+- [V10 interactive evidence map — download and open locally](maps/calibration/geography_v10/visualization/evidence_map.html)
+- [V10 terrain corrections and deferrals](maps/calibration/geography_v10/terrain_resolution_contact_sheet.png)
+
+
+The earlier evidence pass is **V9**: 22 named landmark checks, diagnostics for
 54 retained terrain flags, a Modica/Pozzallo source investigation, and an
 offline interactive evidence map. The import remains the V8 564-town candidate;
 V9 makes no coordinate or population changes and runs no in-game tests.
@@ -14,7 +26,7 @@ V9 makes no coordinate or population changes and runs no in-game tests.
 - [Landmark observations](maps/calibration/geography_v9/landmark_contact_sheet.png)
 
 
-The latest town-placement desk review is **V8**: a proposed 564-town candidate and a separate
+The earlier town-placement desk review is **V8**: a proposed 564-town candidate and a separate
 corrected full 576-town comparison import. Two Sicilian inputs were corrected
 before reviewing close pairs. All 600 source entries remain accounted for;
 54 retained terrain flags and in-game founding remain unresolved.

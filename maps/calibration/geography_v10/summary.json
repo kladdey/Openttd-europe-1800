@@ -1,0 +1,51 @@
+{
+  "status": "DESK EVIDENCE; clear target is not survey accuracy or founding success",
+  "original_flags_reviewed": 54,
+  "supplemental_flags_reviewed": 1,
+  "original_flags_resolved": 27,
+  "flags_reviewed": 55,
+  "flags_resolved_clear_target": 27,
+  "flags_temporarily_deferred": 28,
+  "catalogue_entries": 600,
+  "clear_target_candidate": 536,
+  "retained_comparison": 564,
+  "all_in_bounds_comparison": 576,
+  "total_deferred": 64,
+  "deferred_categories": {
+    "DEFERRED_TERRAIN": 28,
+    "DEFERRED_SPACING": 11,
+    "DEFERRED_OUTSIDE_MAP": 24,
+    "DEFERRED_IDENTITY": 1
+  },
+  "accepted_coast_regions": [
+    "SE_SPAIN",
+    "SICILY",
+    "DURRES"
+  ],
+  "clear_candidate_nonflat_targets": 131,
+  "candidate_pairs_under_15": 0,
+  "minimum_spacing_tiles": 16.221519,
+  "new_close_pairs": 1,
+  "coordinate_changes": 50,
+  "historic_site_corrections": 27,
+  "regional_registration_changes": 27,
+  "population_changes": 0,
+  "in_game_tests": 0,
+  "scenario_changes": 0,
+  "input_sha256": {
+    "data/geography/historic_centre_references_v10.csv": "f9f07b8ad227a666331fcf0017d780870f79dcafe14440febe8571584551c08c",
+    "data/geography/coastal_registration_v10.json": "9f1273e9c8c7aeccc14128ff27ce158036bd29a60685d21992d8485f949f0623",
+    "data/geography/terrain_decisions_v10.csv": "43ab9e176c1383174923368a7c3e8a16c10f7070d8ce9d423bf2607f3fcae7de",
+    "data/geography/spacing_decisions_v10.csv": "f6a40f68cae89af97541fb68e05a6f0ba9423456e064f51d3245a2bc702f3ea5",
+    "data/geography/supplemental_terrain_flags_v10.csv": "e26618480f9e02853621a63debb6fa9b757adf5b8ba16e5ce07e120aa833bfb5",
+    "maps/calibration/geography_v6/coastline_models.json": "263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50",
+    "maps/calibration/geography_v8/Europe_1800_V8_DESK_REVIEWED_CANDIDATE_TEST.json": "23cd1c43261c15296b5a8cc918b94ee275dbda0a8ceec10149b89690a70928c0",
+    "maps/calibration/geography_v8/Europe_1800_V8_CORRECTED_ALL_IN_BOUNDS_TEST.json": "7c612baac71592d73861ac79aede7a4ae63fd47226170cc0385ce14148603ce1"
+  },
+  "original_assets_sha256": {
+    "heightmaps/Europe_heightmap_original.png": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+    "scenarios/Europe_1800_Industries_Original.scn": "b49bda4d118dc7037441e9e0661543f1d1ea06e13349b7d1517f7ca39c9044db",
+    "scenarios/Europe_1800_V1.scn": "904097ebfda8db35b6f58f27e07aad1bf0595805ea6c8196245b7f9b68f29f3e"
+  },
+  "limitations": "Historic sites use modern reference coordinates. Regional coast-normal checks do not prove 2D town or riverbank accuracy. No nearest-land snap. Remaining targets are explicitly deferred from the clear candidate and preserved in comparison imports. Flatness, town-distance settings and founding remain separate."
+}

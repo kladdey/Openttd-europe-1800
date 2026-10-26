@@ -1,0 +1,196 @@
+{
+  "status": "Regional coastline registration experiments; gates independent of town land outcomes",
+  "max_shift_pixels": 12,
+  "minimum_train_samples": 30,
+  "minimum_holdout_samples": 15,
+  "maximum_holdout_p90_pixels": 5,
+  "minimum_holdout_median_improvement": 0.2,
+  "maximum_jackknife_shift_pixels": 2,
+  "minimum_jacobian_eigenvalue_ratio": 0.15,
+  "regions": [
+    {
+      "id": "SE_SPAIN",
+      "bounds_west_east_south_north": [
+        -2,
+        0.5,
+        36.9,
+        39.1
+      ],
+      "towns": [
+        "ALICANTE",
+        "CARTAGENA",
+        "ORIHUELA"
+      ]
+    },
+    {
+      "id": "CADIZ",
+      "bounds_west_east_south_north": [
+        -7,
+        -5.3,
+        35.8,
+        37.3
+      ],
+      "towns": [
+        "CADIZ"
+      ]
+    },
+    {
+      "id": "S_SARDINIA",
+      "bounds_west_east_south_north": [
+        8,
+        10,
+        38.5,
+        40
+      ],
+      "towns": [
+        "CAGLIARI"
+      ]
+    },
+    {
+      "id": "SICILY",
+      "bounds_west_east_south_north": [
+        11.8,
+        16,
+        36.3,
+        38.7
+      ],
+      "towns": [
+        "CATANIA",
+        "MESSINA",
+        "MARSALA"
+      ]
+    },
+    {
+      "id": "NAPLES",
+      "bounds_west_east_south_north": [
+        13.5,
+        15.1,
+        40.2,
+        41.2
+      ],
+      "towns": [
+        "NAPOLI"
+      ]
+    },
+    {
+      "id": "NICE",
+      "bounds_west_east_south_north": [
+        6.6,
+        7.8,
+        43.3,
+        44
+      ],
+      "towns": [
+        "NICE"
+      ]
+    },
+    {
+      "id": "MALLORCA",
+      "bounds_west_east_south_north": [
+        2.1,
+        3.7,
+        39.2,
+        40
+      ],
+      "towns": [
+        "PALMA"
+      ]
+    },
+    {
+      "id": "TARANTO",
+      "bounds_west_east_south_north": [
+        16.3,
+        18.5,
+        39.7,
+        41
+      ],
+      "towns": [
+        "TARANTO"
+      ]
+    },
+    {
+      "id": "KVARNER",
+      "bounds_west_east_south_north": [
+        13.8,
+        15.1,
+        44.6,
+        45.6
+      ],
+      "towns": [
+        "Rijeka"
+      ]
+    },
+    {
+      "id": "SPLIT",
+      "bounds_west_east_south_north": [
+        15.4,
+        17.2,
+        42.8,
+        44.1
+      ],
+      "towns": [
+        "Split"
+      ]
+    },
+    {
+      "id": "DUBROVNIK",
+      "bounds_west_east_south_north": [
+        17.2,
+        18.9,
+        42,
+        43
+      ],
+      "towns": [
+        "Dubrovnik"
+      ]
+    },
+    {
+      "id": "DURRES",
+      "bounds_west_east_south_north": [
+        18.9,
+        20,
+        40.5,
+        42
+      ],
+      "towns": [
+        "Durr\u00ebs"
+      ]
+    },
+    {
+      "id": "VOLOS",
+      "bounds_west_east_south_north": [
+        22.3,
+        23.6,
+        38.8,
+        39.8
+      ],
+      "towns": [
+        "Volos"
+      ]
+    },
+    {
+      "id": "KAVALA",
+      "bounds_west_east_south_north": [
+        23.5,
+        25.2,
+        40.3,
+        41.2
+      ],
+      "towns": [
+        "Kavala"
+      ]
+    },
+    {
+      "id": "SEINE",
+      "bounds_west_east_south_north": [
+        -0.4,
+        1.2,
+        49,
+        50
+      ],
+      "towns": [
+        "LE HAVRE"
+      ]
+    }
+  ]
+}
