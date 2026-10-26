@@ -39,6 +39,7 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [maps/calibration/geography_v10/README.md](../maps/calibration/geography_v10/README.md) | Historical report / experiment |
 | [maps/calibration/inland_v1/README.md](../maps/calibration/inland_v1/README.md) | Historical inland diagnostics snapshot |
 | [maps/calibration/inland_v2/README.md](../maps/calibration/inland_v2/README.md) | Hardened inland replay and current river overlays |
+| [maps/calibration/coverage_additions_v1/README.md](../maps/calibration/coverage_additions_v1/README.md) | 31 additions-only test towns, audits and import instructions |
 | [maps/calibration/river_bank_research_v1/README.md](../maps/calibration/river_bank_research_v1/README.md) | Historic bank context, dated crossings and held-target sensitivity |
 | [maps/calibration/reverse_audit_v1/README.md](../maps/calibration/reverse_audit_v1/README.md) | Reverse audit, independent export checks and fixes |
 | [maps/calibration/provenance_v1/README.md](../maps/calibration/provenance_v1/README.md) | Heightmap provenance and exact pixel comparison |

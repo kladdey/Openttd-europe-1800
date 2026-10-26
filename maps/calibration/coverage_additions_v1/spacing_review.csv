@@ -1,0 +1,2 @@
+town_a,town_b,other_is_baseline,actual_target_distance,normalized_4095_distance,decision,reason,source
+Malmö,Lund,False,25.612497,25.644279,RETAIN_BOTH,"Distinct pre-1800 commercial-port and episcopal/university centres. Their corrected target separation is in the 15–30 tile review band; retain their distinct functions, modest starting sizes and separate growth space.",https://www.lansstyrelsen.se/skane/besoksmal/kulturmiljoprogram/kulturmiljoprogram-skanes-historia-och-utveckling/kulturmiljoprogram-kustens-landskap/kuststader.html

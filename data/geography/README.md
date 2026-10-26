@@ -70,3 +70,9 @@ centerlines must not be treated as surveyed controls or automatic town correctio
 access status, inaccessible map locators and unresolved registration. Its
 [offline report](../../maps/calibration/river_bank_research_v1/README.md) keeps both
 V11 bank holds and all existing coordinates.
+
+`coverage_additions_v1.json` supplies source-backed additions-only test generation;
+[31-town supplement and audits](../../maps/calibration/coverage_additions_v1/README.md).
+It preserves V11 and the old Swedish source pack.
+`user_validation_v11_20261026.json` distinguishes the user-confirmed 537-town count
+and saved checkpoint from unverified exact positions and growth.

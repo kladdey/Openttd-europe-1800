@@ -1,7 +1,8 @@
 # Geographic correction workflow
 
 See [project status](PROJECT_STATUS.md) for the current checkpoint and remaining
-cases. The user has no OpenTTD test platform; this workflow runs offline.
+cases. The user has confirmed a 537-town baseline import and saved a checkpoint.
+These generation/audit commands run offline; additions receive separate game tests.
 
 ## Inputs and invariants
 
@@ -73,7 +74,7 @@ All output paths must be new. The resolver uses the committed registration by
 default; the separate fit command reproduces that evidence. See the
 [tool guide](../scripts/README.md) for earlier audit/reproduction scripts.
 
-## When OpenTTD becomes available
+## In-game baseline and additions tests
 
 In JGRPP 0.73.4 generate a fresh empty 4096×4096 editor map from the original
 heightmap with counter-clockwise rotation. Keep the intended NewGRF configuration.
@@ -94,3 +95,8 @@ georeferenced historic bank. Both clear alternatives reach water under half-pixe
 sensitivity probes, so their holds remain. Probe counts are not probabilities.
 Reproduce offline with
 `python scripts/research_river_banks.py --out scratch/river-bank-research`.
+
+The user confirmed the 537-town baseline count and saved a checkpoint. Import
+[the coverage additions](../maps/calibration/coverage_additions_v1/README.md) once
+into a copy of that populated map; do not reimport the baseline or combine the
+overlapping combined/regional supplement files.

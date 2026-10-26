@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Tangier",
+    "population": 400,
+    "city": false,
+    "x": 0.941713424,
+    "y": 0.188705679
+  },
+  {
+    "name": "Tétouan",
+    "population": 250,
+    "city": false,
+    "x": 0.95043585,
+    "y": 0.200077122
+  },
+  {
+    "name": "Melilla",
+    "population": 150,
+    "city": false,
+    "x": 0.961600536,
+    "y": 0.261936121
+  },
+  {
+    "name": "Algiers",
+    "population": 800,
+    "city": false,
+    "x": 0.901847566,
+    "y": 0.414964623
+  },
+  {
+    "name": "Béjaïa",
+    "population": 250,
+    "city": false,
+    "x": 0.903138712,
+    "y": 0.466063884
+  },
+  {
+    "name": "Tunis",
+    "population": 800,
+    "city": false,
+    "x": 0.900511538,
+    "y": 0.596177802
+  },
+  {
+    "name": "Bizerte",
+    "population": 250,
+    "city": false,
+    "x": 0.882033564,
+    "y": 0.588456902
+  },
+  {
+    "name": "Mahón",
+    "population": 250,
+    "city": false,
+    "x": 0.777454745,
+    "y": 0.445585828
+  },
+  {
+    "name": "Alcúdia",
+    "population": 150,
+    "city": false,
+    "x": 0.778857293,
+    "y": 0.41646632
+  },
+  {
+    "name": "Manacor",
+    "population": 200,
+    "city": false,
+    "x": 0.790311305,
+    "y": 0.418527488
+  },
+  {
+    "name": "Sóller",
+    "population": 150,
+    "city": false,
+    "x": 0.782261478,
+    "y": 0.406134189
+  }
+]
