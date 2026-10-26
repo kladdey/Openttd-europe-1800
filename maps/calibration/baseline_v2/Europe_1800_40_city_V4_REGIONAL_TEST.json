@@ -1,0 +1,282 @@
+[
+  {
+    "name": "LONDON",
+    "population": 10000,
+    "city": true,
+    "x": 0.32,
+    "y": 0.32
+  },
+  {
+    "name": "DUBLIN",
+    "population": 1200,
+    "city": false,
+    "x": 0.226,
+    "y": 0.155
+  },
+  {
+    "name": "PARIS",
+    "population": 7500,
+    "city": true,
+    "x": 0.39,
+    "y": 0.401
+  },
+  {
+    "name": "BERLIN",
+    "population": 2600,
+    "city": true,
+    "x": 0.312,
+    "y": 0.575
+  },
+  {
+    "name": "STOCKHOLM",
+    "population": 1500,
+    "city": true,
+    "x": 0.132,
+    "y": 0.597
+  },
+  {
+    "name": "OXFORD",
+    "population": 250,
+    "city": false,
+    "x": 0.3102543,
+    "y": 0.2975544
+  },
+  {
+    "name": "CAMBRIDGE",
+    "population": 200,
+    "city": false,
+    "x": 0.2966678,
+    "y": 0.3252101
+  },
+  {
+    "name": "READING",
+    "population": 200,
+    "city": false,
+    "x": 0.3209244,
+    "y": 0.3032698
+  },
+  {
+    "name": "KILKENNY",
+    "population": 300,
+    "city": false,
+    "x": 0.2469281,
+    "y": 0.1371611
+  },
+  {
+    "name": "WATERFORD",
+    "population": 400,
+    "city": false,
+    "x": 0.2582556,
+    "y": 0.1413529
+  },
+  {
+    "name": "POTSDAM",
+    "population": 550,
+    "city": false,
+    "x": 0.3157774,
+    "y": 0.5681378
+  },
+  {
+    "name": "BRANDENBURG",
+    "population": 250,
+    "city": false,
+    "x": 0.325945,
+    "y": 0.5643284
+  },
+  {
+    "name": "MAGDEBURG",
+    "population": 750,
+    "city": false,
+    "x": 0.3228248,
+    "y": 0.5396157
+  },
+  {
+    "name": "CHATHAM",
+    "population": 200,
+    "city": false,
+    "x": 0.3251304,
+    "y": 0.3332613
+  },
+  {
+    "name": "COLCHESTER",
+    "population": 250,
+    "city": false,
+    "x": 0.307006,
+    "y": 0.3409167
+  },
+  {
+    "name": "PORTSMOUTH",
+    "population": 650,
+    "city": false,
+    "x": 0.3394832,
+    "y": 0.3014519
+  },
+  {
+    "name": "IPSWICH",
+    "population": 200,
+    "city": false,
+    "x": 0.3004762,
+    "y": 0.3463094
+  },
+  {
+    "name": "BIRMINGHAM",
+    "population": 1400,
+    "city": true,
+    "x": 0.2840923,
+    "y": 0.2844422
+  },
+  {
+    "name": "BRISTOL",
+    "population": 1300,
+    "city": true,
+    "x": 0.3161224,
+    "y": 0.2706419
+  },
+  {
+    "name": "NORWICH",
+    "population": 750,
+    "city": false,
+    "x": 0.2804591,
+    "y": 0.3497905
+  },
+  {
+    "name": "NEWRY",
+    "population": 300,
+    "city": false,
+    "x": 0.1986195,
+    "y": 0.1559651
+  },
+  {
+    "name": "BELFAST",
+    "population": 500,
+    "city": false,
+    "x": 0.1839715,
+    "y": 0.1679966
+  },
+  {
+    "name": "LIMERICK",
+    "population": 800,
+    "city": false,
+    "x": 0.2423447,
+    "y": 0.1125691
+  },
+  {
+    "name": "GALWAY",
+    "population": 250,
+    "city": false,
+    "x": 0.2221465,
+    "y": 0.1044849
+  },
+  {
+    "name": "CORK",
+    "population": 1500,
+    "city": true,
+    "x": 0.2652145,
+    "y": 0.1169879
+  },
+  {
+    "name": "BEAUVAIS",
+    "population": 250,
+    "city": false,
+    "x": 0.3715079,
+    "y": 0.3952796
+  },
+  {
+    "name": "CHARTRES",
+    "population": 250,
+    "city": false,
+    "x": 0.4024808,
+    "y": 0.383216
+  },
+  {
+    "name": "ORLEANS",
+    "population": 850,
+    "city": true,
+    "x": 0.4199074,
+    "y": 0.3902307
+  },
+  {
+    "name": "AMIENS",
+    "population": 700,
+    "city": false,
+    "x": 0.3583815,
+    "y": 0.3976718
+  },
+  {
+    "name": "REIMS",
+    "population": 600,
+    "city": false,
+    "x": 0.3792831,
+    "y": 0.4316675
+  },
+  {
+    "name": "ROUEN",
+    "population": 1600,
+    "city": true,
+    "x": 0.3718146,
+    "y": 0.3739976
+  },
+  {
+    "name": "TROYES",
+    "population": 400,
+    "city": false,
+    "x": 0.4089381,
+    "y": 0.4320919
+  },
+  {
+    "name": "LILLE",
+    "population": 1200,
+    "city": true,
+    "x": 0.3382792,
+    "y": 0.4110403
+  },
+  {
+    "name": "FRANKFURT AO",
+    "population": 250,
+    "city": false,
+    "x": 0.3177018,
+    "y": 0.5963268
+  },
+  {
+    "name": "STETTIN (SZCZECIN)",
+    "population": 450,
+    "city": false,
+    "x": 0.2825929,
+    "y": 0.5961148
+  },
+  {
+    "name": "DRESDEN",
+    "population": 1100,
+    "city": true,
+    "x": 0.3542088,
+    "y": 0.5758542
+  },
+  {
+    "name": "LEIPZIG",
+    "population": 650,
+    "city": false,
+    "x": 0.3468554,
+    "y": 0.5511102
+  },
+  {
+    "name": "HALLE",
+    "population": 400,
+    "city": false,
+    "x": 0.3421485,
+    "y": 0.5445086
+  },
+  {
+    "name": "ROSTOCK",
+    "population": 300,
+    "city": false,
+    "x": 0.2606985,
+    "y": 0.5513411
+  },
+  {
+    "name": "STRALSUND",
+    "population": 200,
+    "city": false,
+    "x": 0.2528496,
+    "y": 0.5683814
+  }
+]
