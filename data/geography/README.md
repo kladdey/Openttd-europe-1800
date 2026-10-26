@@ -65,3 +65,8 @@ pinned public-domain Natural Earth geometry subsets, hashes and explicit image
 observations. [Results and reproduction](../../maps/calibration/inland_v2/README.md)
 retain all V11 coordinates and river-bank holds. Basin plateaus and generalized
 centerlines must not be treated as surveyed controls or automatic town corrections.
+
+`historic_river_bank_research_v1.json` records dated bank/crossing evidence, source
+access status, inaccessible map locators and unresolved registration. Its
+[offline report](../../maps/calibration/river_bank_research_v1/README.md) keeps both
+V11 bank holds and all existing coordinates.

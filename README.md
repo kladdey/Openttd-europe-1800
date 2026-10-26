@@ -16,6 +16,7 @@ No in-game tests have been run; the user currently has no test platform.
 - [Static map](maps/calibration/geography_v11/visualization/evidence_overview.png)
 - [All 600 retained/deferred decisions](maps/calibration/geography_v11/all_600_decisions.csv)
 - [Heightmap source identified: UseYourIllusion’s Europe v4](maps/calibration/provenance_v1/README.md)
+- [Historic river-bank research: Arles and Alençon](maps/calibration/river_bank_research_v1/README.md)
 - [Reverse audit: findings and fixes](maps/calibration/reverse_audit_v1/README.md)
 - [Inland lake checks and river-bank overlays](maps/calibration/inland_v2/README.md)
 - [Original asset checksums](source_assets/README.md)

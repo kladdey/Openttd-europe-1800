@@ -1,0 +1,10 @@
+source_id,url,access,locator,geometry_inspected
+ARLES_BOATS,https://dossiersinventaire.maregionsud.fr/dossier/IA13004098,INDEXED_PRIMARY_RECORD_LIVE_CHALLENGE,Historique; Description; Documents figurés,False
+ARLES_FIXED,https://dossiersinventaire.maregionsud.fr/dossier/IA13004062,INDEXED_PRIMARY_RECORD,Historique; Description; Dates,False
+ARLES_LOCK,https://dossiersinventaire.maregionsud.fr/dossier/IA13004142,INDEXED_PRIMARY_RECORD_TRANSIENT_LIVE_TEXT,Dates; Description,False
+ARLES_CHURCH,https://patrimoine.ville-arles.fr/index.php?idx=22&obj=edifice&quartier=26&site=0,PRIMARY_TEXT_READ,Histoire; Localisation,False
+ALENCON_BANK,https://www.alencontourisme.com/app/uploads/alencon/2025/11/Brochure-groupes_seminaires_2026_web.pdf,PRIMARY_PDF_TEXT_READ,"PDF page index 3, printed pages 4–5, À la découverte d’Alençon; modern map on PDF page index 2",False
+ALENCON_CAUE,https://prim61.ac-normandie.fr/IMG/pdf/livret_enseignants_edp_2019_compressed.pdf,PRIMARY_PDF_TEXT_READ,"Printed page 25 (PDF index 24), caption of the 1770 plan; printed page 52 (PDF index 51), Les ponts d’Alençon",False
+ALENCON_CHURCH,https://www.alencontourisme.com/decouvrez/nos-incontournables/le-quartier-saint-leonard/,PRIMARY_TEXT_READ,L’église Saint-Léonard,False
+ALENCON_BNF_PLAN,https://gallica.bnf.fr/ark:/12148/btv1b8441697v,LOCATOR_ONLY_403,"Plan de la ville et faubourg d’Alençon, 1770; original Gallica image not retrieved",False
+ALENCON_PLUI,https://data.geopf.fr/annexes/gpu/documents/DU_246100663/422aafd7bda4970f76a1a52822f2a386/246100663_rapport_2_20250626.pdf,LOCATOR_ONLY_LIVE_404,"Indexed figure 96, printed page 150, 1770 plan credited to Gallica",False

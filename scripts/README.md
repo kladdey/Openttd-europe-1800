@@ -21,6 +21,7 @@ Node.js is optional and needed only for the map-logic smoke test.
 
 | Tool | Purpose |
 |---|---|
+| `research_river_banks.py` | Offline historical-bank evidence, 1800 crossing chronology, exact half-pixel sensitivity and local terrain diagrams |
 | `reverse_audit.py` | Independent backward checks of V11 export membership, metadata, scalar importer arithmetic, both saved terrains and spacing |
 | `validate_inland_features.py` | Frozen-model inland shape diagnostics, explicit component observations and reproducible lake/river overlays |
 | `river_bank_diagnostics.py` | Read-only named-river and saved-terrain overlays called by the inland validator |

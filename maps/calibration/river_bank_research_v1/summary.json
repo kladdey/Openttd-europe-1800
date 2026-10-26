@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "research_manifest_sha256": "374b67d332899f82cd028b06a0e7f6915fa4d5e97e65657da921067bfd51d05e",
+  "model_sha256": "263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50",
+  "input_sha256": {
+    "data/geography/historic_centre_references_v11.csv": "8b17101da3c3afa005aaad93b7814938585cc6ad495620eb9c25bc8b94c9cbc9",
+    "maps/calibration/geography_v11/historic_reference_audit.csv": "6614dc224fd66c91db973e362eb44b0cbff8c4a83279caae8c4bb4081a7cadb5",
+    "maps/calibration/geography_v11/all_600_decisions.csv": "bce9343ee233a879ff763a4e87ba683167dc1fb4e2b96123b1aadae4f8f834a9",
+    "source_assets/heightmaps/Europe_heightmap_original.png": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+    "source_assets/scenarios/Europe_1800_Industries_Original.scn": "b49bda4d118dc7037441e9e0661543f1d1ea06e13349b7d1517f7ca39c9044db",
+    "source_assets/scenarios/Europe_1800_V1.scn": "904097ebfda8db35b6f58f27e07aad1bf0595805ea6c8196245b7f9b68f29f3e"
+  },
+  "cases_reviewed": 2,
+  "holds_lifted": 0,
+  "source_records": 9,
+  "historic_maps_georeferenced": 0,
+  "town_coordinate_changes": 0,
+  "candidate_towns": 537,
+  "terrain_cases_unresolved": 27,
+  "in_game_tests": 0,
+  "probe_interpretation": "Deterministic sensitivity examples, not registration error bounds, independent samples, likelihoods or candidate alternatives."
+}
