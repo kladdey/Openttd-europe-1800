@@ -1,5 +1,10 @@
 # V7: complete map-covered town import
 
+[Town overview](visualization/Europe_1800_V7_TOWNS_OVERVIEW.png) ·
+[Regional atlas](visualization/Europe_1800_V7_REGIONAL_ATLAS.png) ·
+[Offline interactive map](visualization/Europe_1800_V7_INTERACTIVE_MAP.html)
+([instructions](visualization/README.md)).
+
 The user requested all towns after the V6 regional test. V7 now processes
 **every one of the 600 master records**, with no region restriction:
 
