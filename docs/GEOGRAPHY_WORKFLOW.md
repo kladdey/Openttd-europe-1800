@@ -1,193 +1,71 @@
-# Geographic audit and calibration workflow
+# Geographic correction workflow
 
-**Historical V5 checkpoint.** The user subsequently supplied the source assets.
-See [V6](../maps/calibration/geography_v6/README.md) for the recovered importer
-mapping, read-only scenario validation, coastline fit and corrected regional test.
-The missing-asset statements below describe the earlier inspection, not current
-availability. The current importer validator requires strict `0 < x,y < 1`.
+See [project status](PROJECT_STATUS.md) for the current checkpoint and remaining
+cases. The user has no OpenTTD test platform; this workflow runs offline.
 
-## Current evidence and limitations
+## Inputs and invariants
 
-Repository inspected at `a4d9312100ae093b01fa244c09f1cebc6edf2072`.
-The complete default-branch tree contains **no heightmap, scenario binary,
-importer source, calibration screenshots, executable generation script, or
-dependency manifest**. `scripts/README.md` describes planned tooling only.
-No alternate branch was present at inspection. No AGENTS.md was present.
-Earlier reports describe a 4096 × 4096 RGBA raster, but that raster is absent
-from the repository and current workspace. Its dimensions, shoreline and
-projection cannot presently be independently checked. The user is supplying
-assets separately.
+Preserve `data/towns/europe_1800_import_AUDIT_FIXED_TEST.json` as the complete
+600-town master. Original normalized coordinates are not geographically reliable.
+Preserve names, populations and city flags unless a separate justified change is
+authorized. Join geographic source tables by reviewed names, never row number.
+Read the original heightmap and two scenario files from `source_assets/`; their
+checksums are documented in the asset manifest. Never edit these files or the
+NewGRF setup. Earlier experiment outputs remain historical snapshots.
 
-The master JSON has 600 records with `name`, integer `population`, boolean
-`city`, and normalized game `x`, `y`. All records pass structural checks.
-The draft CSV supplies real-world latitude/longitude but is **not an exact
-geographic companion to the current master**: Głogów, Krems, Písek, Rawicz,
-Sieradz and Łowicz exist only in the JSON; six historical duplicate-name
-rows exist only in the draft CSV. Do not join these files by row number or
-invent coordinates for unmatched names. See generated summary for both lists.
+## Mapping and uncertainty
 
-The 29 `control_points_900px.json` points are approximate preview pixel
-observations. Prior full-resolution and leave-one-out reports explicitly
-reject their reliability. Do not convert them into authoritative controls.
-V2 has five provisional visually accepted game-space anchors; V4 preserves
-them. They remain unchanged. A global fit to these five towns would be
-unjustified.
+The source PNG is 4096×4096 RGBA. The target reader samples its red channel.
+Importer JSON `x` corresponds to source row/4095 and `y` to source column/4095;
+these are not ordinary east/north axes. Use `scenario_geography.py` to reproduce
+float32 parsing, counter-clockwise rotation and truncation exactly. The geographic
+fit and mapping evidence are in the [V6 report](../maps/calibration/geography_v6/README.md).
 
-V4's minimum continuous game-space separation is 32.084661 tiles. This
-establishes spacing only. Neither correct landmass nor land placement has
-been established for any of its 40 towns in this audit.
+The global fit is empirical; the original DEM CRS is unknown. V10 adds three
+accepted regional translations, with [declared gates](../data/geography/coastal_regions_v10.json).
+Rejected fits must not be applied. Any accepted geographic correction must also
+be applied consistently to neighbouring catalogue towns in its declared region.
+Re-sample every affected target to catch newly exposed conflicts such as Orihuela.
+Coast-normal residuals do not establish two-dimensional town or inland accuracy.
 
-Existing metadata differences also need a deliberate future decision:
+## Review and export
 
-| Town | Master population / city | V4 population / city |
-|---|---|---|
-| Dublin | 3350 / true | 1200 / false |
-| Paris | 10000 / true | 7500 / true |
-| Berlin | 3000 / true | 2600 / true |
+1. Identify a historically appropriate centre, port, industrial site or regional
+   hub using linked sources. Distinguish an old site from a modern rebuilt building.
+2. Record geographic coordinates, historical basis, interpretation and uncertainty.
+   Keep failed alternatives in the evidence table.
+3. Apply the supported map transformation; do not search for a nearby clear pixel
+   and retroactively call it the historic centre.
+4. Check actual source land, landmass and both saved terrain arrays. Record slope
+   separately; clear ground does not imply flatness or successful founding.
+5. Recompute all proximity after correction. Normally retain the more important
+   settlement below 15 tiles; individually review 15–30; generally allow coexistence
+   beyond 30. Document historical exceptions and avoid merged urban growth.
+6. Give every source record a retained or documented deferred outcome. Produce
+   a clear-target test import and separate full comparisons, with no town-count quota.
+7. Run automated checks, inspect maps, commit reviewable results and preserve prior
+   candidate files. Founding/growth/playability remain a later validation stage.
 
-No populations, flags or coordinates were modified by this workflow.
-
-## Reproduce the audit
-
-Use Python 3.10 or newer from the repository root:
+## Reproduction
 
 ```powershell
-python scripts/geography.py audit --out scratch/geography-audit-1
-python -m unittest discover -s tests -v
+python -m pip install -r requirements-visualization.txt
+python scripts/register_coastal_regions.py --out scratch/coast-registration.json
+python scripts/resolve_terrain_flags.py --out scratch/v10-candidate
+python scripts/visualize_evidence.py --report scratch/v10-candidate --out scratch/v10-map --version V10
+python -W error::ResourceWarning -m unittest discover -s tests -v
+node tests/test_evidence_map.js scratch/v10-map/evidence_map.html scratch/v10-candidate/summary.json
 ```
 
-Use a **new output directory** each time. Existing output directories are
-refused. The audit uses only the standard library. It generates master and
-V4 nearest-neighbour CSVs, all pairs at most 30 tiles apart, an existing
-metadata discrepancy report, a complete 600-row review register, and a
-summary with SHA-256 input hashes. Outputs are deterministic for identical
-inputs. The committed snapshot is in `maps/calibration/geography_v5_audit/`.
+All output paths must be new. The resolver uses the committed registration by
+default; the separate fit command reproduces that evidence. See the
+[tool guide](../scripts/README.md) for earlier audit/reproduction scripts.
 
-Names are checked with Unicode NFKC, case folding and whitespace normalization.
-That detects textual duplicates, not all historical aliases. Source coordinates
-remain unverified even when names are unique and numbers lie in [0,1].
+## When OpenTTD becomes available
 
-## Establish the coordinate transformation
-
-There are two separate mappings to prove:
-
-1. Geographic longitude/latitude → original raster column/row. Obtain source
-   CRS, bounds, crop and any rotations/resampling, or independently identify
-   coastline and inland landmarks on the full-resolution raster. Use controls
-   distributed across the intended region, not only town centres in one cluster.
-2. Raster pixels → normalized game coordinates. Verify JGRPP **0.73.4**
-   importer code, heightmap generation rotation, crop/scaling, map dimensions
-   and tile rounding against identifiable in-game points. Isometric screen
-   positions are not game tile coordinates.
-
-The older alignment report claims an X/Y swap and links upstream master
-documentation; this is not sufficient evidence for the target binary and
-actual scenario orientation. No axis swap, flip or north-up projection is
-assumed by the new script. The precise mapping is **unresolved**.
-
-Optional diagnostic dependencies:
-
-```powershell
-python -m pip install -r requirements-geography.txt
-```
-
-Prepare a CSV with columns
-`name,longitude,latitude,column,row,role,evidence`. Roles are `fit` or
-`holdout`; evidence identifies the actual source and how the point was
-located. Column/row are full-resolution pixel centres. Use at least three
-noncollinear fit controls and three independent holdouts to run the diagnostic;
-the release review should use 20+ independently verified holdouts across Europe.
-Do not relabel training points as holdouts or reuse locations under aliases.
-
-```powershell
-python scripts/geography.py fit --controls controls.csv --max-error-pixels 10 --out affine-diagnostic.json
-```
-
-The example 10-pixel threshold is a caller-supplied diagnostic tolerance,
-not a historical accuracy guarantee. The fit is ordinary least squares:
-
-```text
-[column, row] = [longitude, latitude, 1] @ coefficients
-```
-
-The 3×2 coefficient matrix, all residuals, holdout median and worst error are
-reported. Holdouts are excluded from fitting. This tests an **affine model
-hypothesis**, not a known projection. Curvature, cropping or regional
-distortions may invalidate it. A passing threshold never marks a model
-release validated and never emits a town JSON. Prefer the documented original
-projection if recovered. Account for control uncertainty and coverage; assess
-regional errors before extrapolating.
-
-## Raster diagnostics
-
-Once the original raster and mapping evidence exist, prepare a manifest:
-
-```json
-{
-  "mapping_evidence": "Reference verified target importer and in-game orientation evidence here",
-  "raster_sha256": "SHA-256 of the exact original raster",
-  "raster_dimensions": [4096, 4096],
-  "pixel_convention": "normalized_endpoints_nearest",
-  "game_to_raster_matrix": [[1, 0, 0], [0, 1, 0]],
-  "zero_elevation_threshold": 0
-}
-```
-
-**The identity matrix above is a schema example, not this map's mapping.**
-Replace it with verified coefficients before sampling. For each game point,
-the explicit 2×3 matrix maps `[x,y,1]` to normalized raster `[u,v]`; column
-is `round(u*(width-1))`, row is `round(v*(height-1))` using Python's nearest,
-ties-to-even rounding. This endpoint convention is explicit and may require
-replacement if target importer evidence uses another convention. The tool
-refuses mismatched raster hashes, dimensions, singular mappings, unsupported
-image modes and non-grayscale/transparent sampled pixels.
-
-```powershell
-python scripts/geography.py terrain --towns maps/calibration/baseline_v2/Europe_1800_40_city_V4_REGIONAL_TEST.json --raster original.png --manifest mapping.json --out v4-terrain.csv
-```
-
-This reads full-resolution pixel values, without moving towns. A nonzero
-pixel alone does not prove correct geography or successful founding. A zero
-pixel may represent sea or lowlands. Game height conversion, sea level,
-neighbourhood slope and founding rules still require checks. The report
-therefore retains `UNVERIFIED_IN_GAME` land status. Synthetic raster tests
-exercise the code; they are not tests of this absent European raster.
-
-## Spacing and deferred decisions
-
-Distances are continuous Euclidean game distances:
-`4096 * hypot(x1-x2, y1-y2)`. This is not ground distance or exact quantized
-founding-tile separation. Less than 15 triggers importance review; 15 through
-30 inclusive requires individual review; over 30 generally allows coexistence.
-The script flags pairs, **never automatically deletes towns**. Apply these
-decisions only after geographic correction. Record retained/deferred decisions
-and historical port, mining, industrial or regional-hub exceptions explicitly.
-
-The review register withholds all 600 towns from a *new release*, pending
-geography. This is not 600 spacing deferrals, nor a change to the catalogue.
-No replacement regional JSON or complete Europe import is emitted while the
-necessary geographic evidence is missing.
-
-## OpenTTD test procedure after correction
-
-There is currently **no new corrected import to test**. To reproduce the
-existing provisional baseline while supplying further evidence:
-
-1. Back up the original heightmap and playable scenario outside the test folder.
-2. In JGRPP 0.73.4 Scenario Editor, generate a **fresh empty** 4096×4096 test
-   map from the exact original heightmap with the original rotation and settings.
-   Keep NewGRF configuration unchanged.
-3. In Town Generation → Load from file, choose
-   `maps/calibration/baseline_v2/Europe_1800_5_city_CONTROL_V2_TEST.json`.
-4. Record actual founding success/failure and town tile coordinates. Capture
-   full-resolution coastline context and generation settings. Do not judge
-   relative bearings from isometric screen axes alone.
-5. For V4 comparison, generate another fresh empty map with identical settings
-   and load `Europe_1800_40_city_V4_REGIONAL_TEST.json` from the same directory.
-   Check all 40 towns, particularly Brandenburg and the Baltic ports.
-6. Save only under a new test filename, such as `Europe_1800_V5_DIAGNOSTIC.scn`.
-   Never overwrite the base or existing playable industry scenario.
-
-After a corrected candidate exists, repeat those checks with the new filename,
-review landmass, river/coast relationships and close pairs, and compare expected
-town count with actual successful placements before considering release.
+In JGRPP 0.73.4 generate a fresh empty 4096×4096 editor map from the original
+heightmap with counter-clockwise rotation. Keep the intended NewGRF configuration.
+Town Generation → Load from file should receive one current test JSON only.
+Record failures, actual town coordinates and settings; compare against the offline
+map. Save to a new filename. Never combine overlapping candidate/comparison imports
+or overwrite an original playable scenario. See the [V10 instructions](../maps/calibration/geography_v10/README.md).

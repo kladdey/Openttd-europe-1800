@@ -1,5 +1,7 @@
 # Preserved original source assets
 
+> Current project context: [status and limitations](../docs/PROJECT_STATUS.md). These assets remain read-only inputs for current offline terrain review; no scenario has been resaved.
+
 Supplied in `Europe_1800_GitHub_Source_Assets.zip` on 2026-10-26.
 Archive SHA-256: `3d23d483f4ca3960bc28fa24879a1e72585f8a69136078e39bd405d8112cdbfd`.
 These files are copied byte for byte; neither scenario was edited or resaved.

@@ -1,5 +1,7 @@
 # Census research log
 
+> Current project context: [status and limitations](PROJECT_STATUS.md). Population-source research is separate from the 600-record game catalogue; V10 changes no populations. Earlier acquisition statements below retain their original scope.
+
 ## Status: first regional source pass (2026-10-25)
 
 ### Britain

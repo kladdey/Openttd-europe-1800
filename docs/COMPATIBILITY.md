@@ -1,5 +1,7 @@
 # Compatibility and asset policy
 
+> Current project context: [status and limitations](PROJECT_STATUS.md). Game, NewGRF compatibility and installer release testing remain pending. FIRS 5.2.0 Temperate Basic is the intended industry setup; this work changes no NewGRF configuration.
+
 Target game: OpenTTD JGR's Patch Pack v0.73.4 on Windows 11 x64.
 Target scenario: 4096 x 4096 Europe heightmap, 1800-2025 campaign.
 
