@@ -1,3 +1,7 @@
+## Confirmed successful client playtest - 2026-10-26
+
+User reports that **Squirrel successfully joined the hosted Europe 1800 game, loaded the map and played**. This is an end-to-end multiplayer success on the 4096 x 4096 scenario, not merely a server-browser connection. Toni's earlier disconnect remains unresolved. The exact client-side build, NewGRF checksums, test duration and logs were not recorded; do not infer those details.
+
 # Multiplayer test guide - Toni and Squirrel
 
 **Target:** Windows 11, JGRPP **0.73.4**, 4096 x 4096 Europe 1800 scenario.
