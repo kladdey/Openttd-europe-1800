@@ -43,3 +43,17 @@ See [project status](../../docs/PROJECT_STATUS.md),
 [V10 methodology](../../maps/calibration/geography_v10/README.md) and the
 [active workflow](../../docs/GEOGRAPHY_WORKFLOW.md). The source CRS remains unknown;
 coast-normal diagnostics are not survey accuracy or named-river validation.
+
+## V11 source-review follow-up
+
+The current profile is `placement_profile_v11.json`, with
+`historic_centre_references_v11.csv`, `terrain_decisions_v11.csv` and
+`spacing_decisions_v11.csv`. `remaining_case_research_v11.csv` records all 28
+prior deferrals and `source_exclusions_v11.csv` records rejected/insufficient
+lookup results. No geographic model is refitted in V11.
+
+References carry explicit placement review states. Even clear land is ineligible
+when bank alignment, source identity or historical context is held. Nine new
+site references collapse onto previously sampled importer pixels. One additional
+town is restored; remaining cases are documented, with all 600 master records
+preserved. See [V11 findings](../../maps/calibration/geography_v11/README.md).

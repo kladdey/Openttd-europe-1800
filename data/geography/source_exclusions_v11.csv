@@ -1,0 +1,10 @@
+name,source,reason,accessed
+NICE,https://en.wikipedia.org/wiki/Place_Garibaldi,"Wrong-scope result: city-level Nice coordinates were returned, not the specific square. Use the French monument record.",2026-10-26
+ALENCON,https://61.monvillagenormand.fr/Eglise.php?NumEglise=4610008,Coordinates disagree with the church-specific architectural record and mapped site; not used.,2026-10-26
+BOURGES,https://missionfranceguichet.fr/tourisme-culture-patrimoine-commune-bourges-18,"Palace heritage identity is known, but the aggregator coordinate has not been confirmed against its precise site. No new numeric reference used.",2026-10-26
+Dębica,https://www.outdooractive.com/en/webcam/debica-market-square/803711322/,A webcam coordinate is not established as the historic market-centre coordinate. No new numeric reference used.,2026-10-26
+MODENA,https://mapcarta.com/W167119274,San Pietro Apostolo homonym west of the city is not the historic central San Pietro abbey. Use the specific Q16961192 site.,2026-10-26
+TARANTO,https://www.senato.it/application/xmanager/projects/leg17/attachments/documento_evento_procedura_commissione/files/000/003/003/Agenzia_del_Demanio.pdf,Similar Dominican names can identify different sites. The municipality distinguishes old San Domenico from later Maggiore/Monteoliveto usage; do not substitute the inventory coordinate blindly.,2026-10-26
+Dubrovnik,https://mapcarta.com/N2571160782,"This Minceta is at Ston, not Dubrovnik. Reject the homonym.",2026-10-26
+Volos,https://mapcarta.com/N8925656087,"This Palia tower is in Monemvasia, not Volos. Reject the homonym.",2026-10-26
+Volos,https://mapcarta.com/W921414140,Neighbourhood-area reference remains insufficient for a precise historic-site target; do not promote it to a building coordinate.,2026-10-26

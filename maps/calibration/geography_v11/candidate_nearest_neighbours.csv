@@ -1,0 +1,538 @@
+name,nearest_town,distance_tiles,band
+'S HERTOGENBOSCH,NIJMEGEN,61.942776,over_30_generally_coexist
+AACHEN,MAASTRICHT,42.855064,over_30_generally_coexist
+AALST,LOKEREN,27.858956,15_to_30_individual_review
+ABBEVILLE,AMIENS,58.766622,over_30_generally_coexist
+ABERDEEN,DUNDEE,139.256069,over_30_generally_coexist
+ACIREALE,CATANIA,18.794133,15_to_30_individual_review
+AGEN,MONTAUBAN,80.676784,over_30_generally_coexist
+AIX EN PROVENCE,MARSEILLE,38.644622,over_30_generally_coexist
+ALBI,CASTRES,55.171192,over_30_generally_coexist
+ALCALA LA REAL,JAEN,52.392488,over_30_generally_coexist
+ALCAZAR DE SAN JUAN,OCANA,97.793904,over_30_generally_coexist
+ALESSANDRIA,ASTI,42.91577,over_30_generally_coexist
+ALKMAAR,HOORN,32.543444,over_30_generally_coexist
+ALTA MURA,BARI,58.579198,over_30_generally_coexist
+AMIENS,ABBEVILLE,58.766622,over_30_generally_coexist
+AMSTERDAM,HAARLEM,26.434397,15_to_30_individual_review
+ANCONA,PERUGIA,141.700204,over_30_generally_coexist
+ANDUJAR,JAEN,52.003274,over_30_generally_coexist
+ANGERS,LAVAL,102.162462,over_30_generally_coexist
+ANGOULEME,LIMOGES,119.48247,over_30_generally_coexist
+ANSBACH,NURNBERG,57.489327,over_30_generally_coexist
+ANTEQUERA,MALAGA,51.270676,over_30_generally_coexist
+ANTWERPEN,SINT NIKLAAS,28.583584,15_to_30_individual_review
+ARACENA,SEVILLA,103.845867,over_30_generally_coexist
+ARNHEM,NIJMEGEN,23.376874,15_to_30_individual_review
+ARRAS,DOUAI,33.541865,over_30_generally_coexist
+ASTI,ALESSANDRIA,42.91577,over_30_generally_coexist
+AUGSBURG,MUNCHEN,81.500528,over_30_generally_coexist
+AUXERRE,NEVERS,139.67292,over_30_generally_coexist
+AVIGNON,NIMES,51.51666,over_30_generally_coexist
+AVILA,SEGOVIA,78.338439,over_30_generally_coexist
+BADAJOZ,ELVAS,20.084717,15_to_30_individual_review
+BAMBERG,NURNBERG,74.504606,over_30_generally_coexist
+BARCELONA,PERPIGNAN,228.186904,over_30_generally_coexist
+BARI,MONOPOLI,52.936049,over_30_generally_coexist
+BASEL,FREIBURG,77.272167,over_30_generally_coexist
+BATH,BRISTOL,26.239951,15_to_30_individual_review
+BAUTZEN,DRESDEN,74.671526,over_30_generally_coexist
+BAYEUX,CAEN,39.042997,over_30_generally_coexist
+BAYONNE,BILBAO,155.498443,over_30_generally_coexist
+BEAUVAIS,AMIENS,79.871556,over_30_generally_coexist
+BELFAST,NEWRY,78.730113,over_30_generally_coexist
+BERGAMO,MONZA,45.318847,over_30_generally_coexist
+BERLIN,POTSDAM,41.703768,over_30_generally_coexist
+BERN,BASEL,101.033673,over_30_generally_coexist
+BESANCON,DIJON,105.194595,over_30_generally_coexist
+BEZIERS,MONTPELLIER,82.547072,over_30_generally_coexist
+BILBAO,BAYONNE,155.498443,over_30_generally_coexist
+BIRMINGHAM,WOLVERHAMPTON,29.370124,15_to_30_individual_review
+BLACKBURN,PRESTON,22.277605,15_to_30_individual_review
+BLOIS,TOURS,75.411416,over_30_generally_coexist
+BOLOGNA,FERRARA,62.082817,over_30_generally_coexist
+BOLTON,WIGAN,21.293279,15_to_30_individual_review
+BONN,KOLN,35.965116,over_30_generally_coexist
+BORDEAUX,ANGOULEME,153.227352,over_30_generally_coexist
+BOULOGNE,SAINT-OMER,66.468871,over_30_generally_coexist
+BRANDENBURG,POTSDAM,55.714962,over_30_generally_coexist
+BRAUNSCHWEIG,HILDESHEIM,62.624023,over_30_generally_coexist
+BREMEN,HAMBURG,150.78916,over_30_generally_coexist
+BRESCIA,BERGAMO,63.058255,over_30_generally_coexist
+BRESLAU (WROCLAW),Świdnica,71.677627,over_30_generally_coexist
+BREST,LORIENT,157.24372,over_30_generally_coexist
+BRISTOL,BATH,26.239951,15_to_30_individual_review
+BRUGGE,OOSTENDE,32.714884,over_30_generally_coexist
+BRUSSELS,MECHELEN,32.166603,over_30_generally_coexist
+BURGOS,PALENCIA,102.807319,over_30_generally_coexist
+CAEN,BAYEUX,39.042997,over_30_generally_coexist
+CAHORS,MONTAUBAN,71.552717,over_30_generally_coexist
+CALTAGIRONE,PIAZZA (ENNA),28.440841,15_to_30_individual_review
+CALTANISSETA,CASTROGIOVANNI,25.329099,15_to_30_individual_review
+CAMBRA!,DOUAI,35.337789,over_30_generally_coexist
+CAMBRIDGE,KING'S LYNN,94.339317,over_30_generally_coexist
+CARCASSONNE,CASTRES,63.780158,over_30_generally_coexist
+CARLISLE,NEWCASTLE,140.265246,over_30_generally_coexist
+CARTAGENA,MURCIA,65.411033,over_30_generally_coexist
+CASTEL VETRANO,MARSALA,42.013968,over_30_generally_coexist
+CASTRES,ALBI,55.171192,over_30_generally_coexist
+CASTROGIOVANNI,CALTANISSETA,25.329099,15_to_30_individual_review
+CATANIA,ACIREALE,18.794133,15_to_30_individual_review
+CHALONS-SUR-MARNE,REIMS,59.816096,over_30_generally_coexist
+CHALONS-SUR-SAONE,MACON,78.323223,over_30_generally_coexist
+CHARTRES,VERSAILLES,88.801128,over_30_generally_coexist
+CHATHAM,LONDON,68.358224,over_30_generally_coexist
+CHEMNITZ (K-MARX-ST),DRESDEN,94.025136,over_30_generally_coexist
+CHERBOURG,BAYEUX,112.272204,over_30_generally_coexist
+CHESTER,WARRINGTON,36.6667,over_30_generally_coexist
+CHIOGGIA,VENEZIA,36.476772,over_30_generally_coexist
+CLERMONT-FERRAND,RIOM,20.005812,15_to_30_individual_review
+COIMBRA,PORTO,156.226478,over_30_generally_coexist
+COLCHESTER,IPSWICH,38.299583,over_30_generally_coexist
+COLMAR,FREIBURG,52.523576,over_30_generally_coexist
+COMO,MONZA,42.160999,over_30_generally_coexist
+COPENHAGEN,STRALSUND,230.738471,over_30_generally_coexist
+CORDOBA,ECIJA,64.99324,over_30_generally_coexist
+CORK,LIMERICK,126.856305,over_30_generally_coexist
+COVENTRY,BIRMINGHAM,42.148805,over_30_generally_coexist
+CREMA,LODI,18.801403,15_to_30_individual_review
+CREMONA,PIACENZA,37.327596,over_30_generally_coexist
+CUENCA,OCANA,141.805156,over_30_generally_coexist
+CUNEO,MONDOVI,28.602856,15_to_30_individual_review
+DANZIG (GDANSK),Malbork,64.555732,over_30_generally_coexist
+DEN HAAG,LEIDEN,24.334093,15_to_30_individual_review
+DIEPPE,ROUEN,80.477898,over_30_generally_coexist
+DIJON,CHALONS-SUR-SAONE,89.255605,over_30_generally_coexist
+DORDRECHT,ROTTERDAM,27.448638,15_to_30_individual_review
+DOUAI,ARRAS,33.541865,over_30_generally_coexist
+DRESDEN,Ústí nad Labem,70.373939,over_30_generally_coexist
+DUBLIN,NEWRY,131.15683,over_30_generally_coexist
+DUNDEE,PERTH,51.952817,over_30_generally_coexist
+DUNKERQUE,SAINT-OMER,50.726919,over_30_generally_coexist
+DUSSELDORF,ELBERFELD,38.126367,over_30_generally_coexist
+ECIJA,OSUNA,50.055693,over_30_generally_coexist
+EDINBURGH,PERTH,77.918156,over_30_generally_coexist
+ELBERFELD,DUSSELDORF,38.126367,over_30_generally_coexist
+ELBING (ELBLAG),Malbork,44.23906,over_30_generally_coexist
+ELVAS,BADAJOZ,20.084717,15_to_30_individual_review
+EMDEN,GRONINGEN,71.184397,over_30_generally_coexist
+ENKHUIZEN,HOORN,26.203546,15_to_30_individual_review
+ERFURT,GOTHA,34.92187,over_30_generally_coexist
+EVORA,ELVAS,92.730372,over_30_generally_coexist
+EXETER,PLYMOUTH,86.062399,over_30_generally_coexist
+FALAISE,CAEN,51.151929,over_30_generally_coexist
+FERRARA,BOLOGNA,62.082817,over_30_generally_coexist
+FIRENZE,SIENA,73.817788,over_30_generally_coexist
+FLENSBURG,LUBECK,199.744396,over_30_generally_coexist
+FOGGIA,BARI,147.190399,over_30_generally_coexist
+FRANKFURT AM,MAINZ,46.704509,over_30_generally_coexist
+FRANKFURT AO,Gorzów Wielkopolski,95.171087,over_30_generally_coexist
+FREIBURG,COLMAR,52.523576,over_30_generally_coexist
+GALWAY,LIMERICK,109.141794,over_30_generally_coexist
+GENEVE,MACON,138.34442,over_30_generally_coexist
+GENOA,ALESSANDRIA,90.081063,over_30_generally_coexist
+GENT,LOKEREN,30.214134,over_30_generally_coexist
+GIRGENTI,CALTANISSETA,58.336407,over_30_generally_coexist
+GLASGOW,PAISLEY,21.302046,15_to_30_individual_review
+GOTEBORG,COPENHAGEN,339.215346,over_30_generally_coexist
+GOTHA,ERFURT,34.92187,over_30_generally_coexist
+GOUDA,ROTTERDAM,28.492383,15_to_30_individual_review
+GRANADA,ALCALA LA REAL,55.704694,over_30_generally_coexist
+GRAZ,Maribor,85.7602,over_30_generally_coexist
+GREENOCK,PAISLEY,39.307446,over_30_generally_coexist
+GRENOBLE,LYON,131.81683,over_30_generally_coexist
+GRONINGEN,EMDEN,71.184397,over_30_generally_coexist
+HAARLEM,AMSTERDAM,26.434397,15_to_30_individual_review
+HALBERSTADT,QUEDLINBURG,19.046923,15_to_30_individual_review
+HALLE,LEIPZIG,46.871201,over_30_generally_coexist
+HAMBURG,LUNEBURG,69.564604,over_30_generally_coexist
+HANNOVER,HILDESHEIM,42.64954,over_30_generally_coexist
+HEIDELBERG,MANNHEIM,26.464126,15_to_30_individual_review
+HILDESHEIM,HANNOVER,42.64954,over_30_generally_coexist
+HOORN,ENKHUIZEN,26.203546,15_to_30_individual_review
+HUDDERSFIELD,LEEDS,34.977786,over_30_generally_coexist
+HULL,YORK,85.53845,over_30_generally_coexist
+IEPER,KORTRIJK,39.785884,over_30_generally_coexist
+INNSBRUCK,MUNCHEN,144.821764,over_30_generally_coexist
+INVERNESS,PERTH,195.709403,over_30_generally_coexist
+IPSWICH,COLCHESTER,38.299583,over_30_generally_coexist
+JAEN,ANDUJAR,52.003274,over_30_generally_coexist
+JEREZ DA LA FRONTERA,UTRERA,87.012447,over_30_generally_coexist
+KARLSKRONA,Słupsk,316.726246,over_30_generally_coexist
+KASSEL,GOTHA,139.3462,over_30_generally_coexist
+KILKENNY,WATERFORD,66.604082,over_30_generally_coexist
+KING'S LYNN,CAMBRIDGE,94.339317,over_30_generally_coexist
+KLAGENFURT,Villach,47.000541,over_30_generally_coexist
+KOLN,BONN,35.965116,over_30_generally_coexist
+KONIGSBERG,ELBING (ELBLAG),146.725844,over_30_generally_coexist
+KORTRIJK,TOURNAI,38.514638,over_30_generally_coexist
+KRAKOW,Wieliczka,18.116415,15_to_30_individual_review
+LA ROCHELLE,ROCHEFORT,42.070685,over_30_generally_coexist
+LAVAL,RENNES,94.779175,over_30_generally_coexist
+LE HAVRE,LISIEUX,57.272742,over_30_generally_coexist
+LE MANS,LAVAL,101.912473,over_30_generally_coexist
+LE PUY,SAINT-ETIENNE,82.983331,over_30_generally_coexist
+LECCE,MONOPOLI,134.752137,over_30_generally_coexist
+LEEDS,HUDDERSFIELD,34.977786,over_30_generally_coexist
+LEEUWARDEN,GRONINGEN,81.714217,over_30_generally_coexist
+LEICESTER,NOTTINGHAM,49.558583,over_30_generally_coexist
+LEIDEN,DEN HAAG,24.334093,15_to_30_individual_review
+LEIPZIG,HALLE,46.871201,over_30_generally_coexist
+LEUVEN,MECHELEN,33.458722,over_30_generally_coexist
+LIEGE,MAASTRICHT,37.436846,over_30_generally_coexist
+LILLE,TOURNAI,34.804171,over_30_generally_coexist
+LIMERICK,GALWAY,109.141794,over_30_generally_coexist
+LIMOGES,ANGOULEME,119.48247,over_30_generally_coexist
+LINZ,Wels,34.970943,over_30_generally_coexist
+LISBOA,EVORA,131.150751,over_30_generally_coexist
+LISIEUX,LE HAVRE,57.272742,over_30_generally_coexist
+LIVERPOOL,WARRINGTON,40.420491,over_30_generally_coexist
+LIVORNO,PISA,29.599945,15_to_30_individual_review
+LODI,CREMA,18.801403,15_to_30_individual_review
+LOKEREN,SINT NIKLAAS,18.660408,15_to_30_individual_review
+LONDON,CHATHAM,68.358224,over_30_generally_coexist
+LORIENT,BREST,157.24372,over_30_generally_coexist
+LUBECK,HAMBURG,85.137024,over_30_generally_coexist
+LUCENA,ALCALA LA REAL,59.386089,over_30_generally_coexist
+LUNEBURG,HAMBURG,69.564604,over_30_generally_coexist
+LYON,SAINT-ETIENNE,70.312223,over_30_generally_coexist
+MAASTRICHT,LIEGE,37.436846,over_30_generally_coexist
+MACON,CHALONS-SUR-SAONE,78.323223,over_30_generally_coexist
+MADRID,OCANA,78.436364,over_30_generally_coexist
+MAGDEBURG,HALBERSTADT,74.105714,over_30_generally_coexist
+MAINZ,FRANKFURT AM,46.704509,over_30_generally_coexist
+MALAGA,ANTEQUERA,51.270676,over_30_generally_coexist
+MANCHESTER,OLDHAM,16.221519,15_to_30_individual_review
+MANNHEIM,HEIDELBERG,26.464126,15_to_30_individual_review
+MANTUA,VERONA,49.568507,over_30_generally_coexist
+MARSALA,TRAPANI,36.460914,over_30_generally_coexist
+MARSEILLE,AIX EN PROVENCE,38.644622,over_30_generally_coexist
+MASCALI,ACIREALE,24.716005,15_to_30_individual_review
+MAZZARINO,PIAZZA (ENNA),20.538784,15_to_30_individual_review
+MECHELEN,BRUSSELS,32.166603,over_30_generally_coexist
+MEDINA DE RIOSECO,VALLADOLID,50.210105,over_30_generally_coexist
+MEDINA DEL CAMPO,VALLADOLID,59.676424,over_30_generally_coexist
+MESSINA,REGGIO DI CALABRIA,17.386393,15_to_30_individual_review
+METZ,NANCY,71.365684,over_30_generally_coexist
+MIDDELBURG,BRUGGE,62.950091,over_30_generally_coexist
+MILANO,MONZA,21.352289,15_to_30_individual_review
+MONDOVI,CUNEO,28.602856,15_to_30_individual_review
+MONOPOLI,BARI,52.936049,over_30_generally_coexist
+MONS,VALENCIENNES,46.979023,over_30_generally_coexist
+MONTAUBAN,TOULOUSE,68.395622,over_30_generally_coexist
+MONTPELLIER,NIMES,61.409006,over_30_generally_coexist
+MONZA,MILANO,21.352289,15_to_30_individual_review
+MORON DE LA FRONTERA,UTRERA,35.739019,over_30_generally_coexist
+MOULINS,NEVERS,71.760935,over_30_generally_coexist
+MUNCHEN,AUGSBURG,81.500528,over_30_generally_coexist
+MUNSTER,SOEST,80.953345,over_30_generally_coexist
+MURCIA,CARTAGENA,65.411033,over_30_generally_coexist
+NAMUR,LEUVEN,70.86597,over_30_generally_coexist
+NANCY,METZ,71.365684,over_30_generally_coexist
+NANTES,ANGERS,112.511682,over_30_generally_coexist
+NEVERS,MOULINS,71.760935,over_30_generally_coexist
+NEWCASTLE,SUNDERLAND,25.494131,15_to_30_individual_review
+NEWRY,BELFAST,78.730113,over_30_generally_coexist
+NICOSIA,CASTROGIOVANNI,33.260126,over_30_generally_coexist
+NIJMEGEN,ARNHEM,23.376874,15_to_30_individual_review
+NIMES,AVIGNON,51.51666,over_30_generally_coexist
+NIORT,LA ROCHELLE,76.629126,over_30_generally_coexist
+NORWICH,YARMOUTH,45.253962,over_30_generally_coexist
+NOTO,RAGUSA,37.304104,over_30_generally_coexist
+NOTTINGHAM,LEICESTER,49.558583,over_30_generally_coexist
+NOVARA,VERCELLI,29.919969,15_to_30_individual_review
+NURNBERG,ANSBACH,57.489327,over_30_generally_coexist
+OCANA,TOLEDO,57.530072,over_30_generally_coexist
+OLDHAM,MANCHESTER,16.221519,15_to_30_individual_review
+OOSTENDE,BRUGGE,32.714884,over_30_generally_coexist
+ORLEANS,BLOIS,79.38923,over_30_generally_coexist
+OSUNA,MORON DE LA FRONTERA,40.962681,over_30_generally_coexist
+OXFORD,READING,56.924618,over_30_generally_coexist
+PADOVA,VICENZA,42.737897,over_30_generally_coexist
+PAISLEY,GLASGOW,21.302046,15_to_30_individual_review
+PALENCIA,MEDINA DE RIOSECO,57.662749,over_30_generally_coexist
+PALERMO,TERMINI,41.23986,over_30_generally_coexist
+PARIS,VERSAILLES,24.152608,15_to_30_individual_review
+PARMA,REGGIO,35.922998,over_30_generally_coexist
+PAVIA,VIGEVANO,37.680026,over_30_generally_coexist
+PERPIGNAN,CARCASSONNE,102.484325,over_30_generally_coexist
+PERTH,DUNDEE,51.952817,over_30_generally_coexist
+PERUGIA,SIENA,115.447503,over_30_generally_coexist
+PIACENZA,CREMONA,37.327596,over_30_generally_coexist
+PIAZZA (ENNA),MAZZARINO,20.538784,15_to_30_individual_review
+PISA,LIVORNO,29.599945,15_to_30_individual_review
+PLYMOUTH,EXETER,86.062399,over_30_generally_coexist
+POITIERS,NIORT,93.106653,over_30_generally_coexist
+PORTO,COIMBRA,156.226478,over_30_generally_coexist
+PORTSMOUTH,READING,107.518254,over_30_generally_coexist
+POTSDAM,BERLIN,41.703768,over_30_generally_coexist
+POZNAN,Gniezno,72.689656,over_30_generally_coexist
+PRAHA,Ústí nad Labem,102.378608,over_30_generally_coexist
+PRESTON,BLACKBURN,22.277605,15_to_30_individual_review
+QUEDLINBURG,HALBERSTADT,19.046923,15_to_30_individual_review
+RAGUSA,NOTO,37.304104,over_30_generally_coexist
+READING,OXFORD,56.924618,over_30_generally_coexist
+REGENSBURG,NURNBERG,128.299558,over_30_generally_coexist
+REGGIO,PARMA,35.922998,over_30_generally_coexist
+REGGIO DI CALABRIA,MESSINA,17.386393,15_to_30_individual_review
+REIMS,CHALONS-SUR-MARNE,59.816096,over_30_generally_coexist
+RENNES,LAVAL,94.779175,over_30_generally_coexist
+RIOM,CLERMONT-FERRAND,20.005812,15_to_30_individual_review
+ROCHEFORT,LA ROCHELLE,42.070685,over_30_generally_coexist
+ROMA,VITERBO,94.385907,over_30_generally_coexist
+RONDA,MORON DE LA FRONTERA,68.981978,over_30_generally_coexist
+ROTTERDAM,DORDRECHT,27.448638,15_to_30_individual_review
+ROUEN,DIEPPE,80.477898,over_30_generally_coexist
+SAINT-ETIENNE,LYON,70.312223,over_30_generally_coexist
+SAINT-MALO,RENNES,95.275603,over_30_generally_coexist
+SAINT-OMER,DUNKERQUE,50.726919,over_30_generally_coexist
+SAINT-QUENTIN,CAMBRA!,54.079272,over_30_generally_coexist
+SALAMANCA,MEDINA DEL CAMPO,96.501925,over_30_generally_coexist
+SALZBURG,Wels,119.632181,over_30_generally_coexist
+SANTIAGO,PORTO,283.743597,over_30_generally_coexist
+SASSARI,ROMA,452.40691,over_30_generally_coexist
+SAVIGLIANO,CUNEO,42.133048,over_30_generally_coexist
+SEGOVIA,AVILA,78.338439,over_30_generally_coexist
+SEVILLA,UTRERA,38.261003,over_30_generally_coexist
+SHEFFIELD,HUDDERSFIELD,55.371369,over_30_generally_coexist
+SHREWSBURY,WENLOCK,25.310371,15_to_30_individual_review
+SIENA,FIRENZE,73.817788,over_30_generally_coexist
+SINT NIKLAAS,LOKEREN,18.660408,15_to_30_individual_review
+SIRACUSA,NOTO,38.798908,over_30_generally_coexist
+SOEST,MUNSTER,80.953345,over_30_generally_coexist
+STETTIN (SZCZECIN),Stargard,54.061491,over_30_generally_coexist
+STRALSUND,Świnoujście,138.26904,over_30_generally_coexist
+STRASBOURG,COLMAR,91.008102,over_30_generally_coexist
+STUTTGART,ULM,105.871398,over_30_generally_coexist
+SUNDERLAND,NEWCASTLE,25.494131,15_to_30_individual_review
+TERMINI,PALERMO,41.23986,over_30_generally_coexist
+TOLEDO,OCANA,57.530072,over_30_generally_coexist
+TORINO,ASTI,61.599019,over_30_generally_coexist
+TOULON,MARSEILLE,64.829716,over_30_generally_coexist
+TOULOUSE,MONTAUBAN,68.395622,over_30_generally_coexist
+TOURNAI,LILLE,34.804171,over_30_generally_coexist
+TOURS,BLOIS,75.411416,over_30_generally_coexist
+TRAPANI,MARSALA,36.460914,over_30_generally_coexist
+TREVISO,VENEZIA,38.393003,over_30_generally_coexist
+TRIESTE,Koper,17.298106,15_to_30_individual_review
+UBEDA,JAEN,59.390024,over_30_generally_coexist
+UDINE,TRIESTE,88.078313,over_30_generally_coexist
+ULM,AUGSBURG,93.290338,over_30_generally_coexist
+UTRECHT,GOUDA,44.911089,over_30_generally_coexist
+UTRERA,MORON DE LA FRONTERA,35.739019,over_30_generally_coexist
+VALENCIA,CUENCA,209.471821,over_30_generally_coexist
+VALENCIENNES,CAMBRA!,42.144652,over_30_generally_coexist
+VALLADOLID,MEDINA DE RIOSECO,50.210105,over_30_generally_coexist
+VENEZIA,CHIOGGIA,36.476772,over_30_generally_coexist
+VERCELLI,NOVARA,29.919969,15_to_30_individual_review
+VERONA,MANTUA,49.568507,over_30_generally_coexist
+VERSAILLES,PARIS,24.152608,15_to_30_individual_review
+VICENZA,PADOVA,42.737897,over_30_generally_coexist
+VIGEVANO,NOVARA,33.802356,over_30_generally_coexist
+VITERBO,ROMA,94.385907,over_30_generally_coexist
+WARRINGTON,WIGAN,25.787167,15_to_30_individual_review
+WARSZAWA,Łowicz,114.672171,over_30_generally_coexist
+WATERFORD,KILKENNY,66.604082,over_30_generally_coexist
+WENLOCK,SHREWSBURY,25.310371,15_to_30_individual_review
+WIEN,Wiener Neustadt,65.921275,over_30_generally_coexist
+WIGAN,BOLTON,21.293279,15_to_30_individual_review
+WOLVERHAMPTON,BIRMINGHAM,29.370124,15_to_30_individual_review
+WORCESTER,BIRMINGHAM,58.780824,over_30_generally_coexist
+WURZBURG,BAMBERG,100.285382,over_30_generally_coexist
+YARMOUTH,NORWICH,45.253962,over_30_generally_coexist
+YORK,LEEDS,55.127803,over_30_generally_coexist
+ZARAGOZA,CUENCA,291.623085,over_30_generally_coexist
+ZURICH,BASEL,106.76128,over_30_generally_coexist
+ZWOLLE,ARNHEM,89.476562,over_30_generally_coexist
+Przemyśl,Jarosław,39.35418,over_30_generally_coexist
+Łódź,Łowicz,74.908625,over_30_generally_coexist
+Toruń,Bydgoszcz,64.201099,over_30_generally_coexist
+Bydgoszcz,Toruń,64.201099,over_30_generally_coexist
+Lublin,Chełm,95.852068,over_30_generally_coexist
+Rzeszów,Łańcut,24.449537,15_to_30_individual_review
+Tarnów,Bochnia,58.450627,over_30_generally_coexist
+Katowice,Gliwice,37.126789,over_30_generally_coexist
+Gliwice,Katowice,37.126789,over_30_generally_coexist
+Opole,Nysa,69.638166,over_30_generally_coexist
+Częstochowa,Katowice,90.33129,over_30_generally_coexist
+Białystok,Łomża,116.116241,over_30_generally_coexist
+Olsztyn,ELBING (ELBLAG),127.329616,over_30_generally_coexist
+Kalisz,Sieradz,73.735779,over_30_generally_coexist
+Płock,Włocławek,68.77579,over_30_generally_coexist
+Radom,Kielce,103.394365,over_30_generally_coexist
+Kielce,Radom,103.394365,over_30_generally_coexist
+Gorzów Wielkopolski,FRANKFURT AO,95.171087,over_30_generally_coexist
+Zielona Góra,Głogów,75.784662,over_30_generally_coexist
+Bielsko,Oświęcim,38.849751,over_30_generally_coexist
+Nowy Sącz,Bochnia,64.92136,over_30_generally_coexist
+Zakopane,Nowy Targ,30.513975,over_30_generally_coexist
+Sandomierz,Mielec,73.275658,over_30_generally_coexist
+Jarosław,Przeworsk,20.438414,15_to_30_individual_review
+Sanok,Lesko,19.742186,15_to_30_individual_review
+Krosno,Brzozów,25.996824,15_to_30_individual_review
+Jasło,Krosno,32.48306,over_30_generally_coexist
+Mielec,Tarnów,64.267765,over_30_generally_coexist
+Łańcut,Rzeszów,24.449537,15_to_30_individual_review
+Leżajsk,Przeworsk,34.303661,over_30_generally_coexist
+Przeworsk,Jarosław,20.438414,15_to_30_individual_review
+Brzozów,Krosno,25.996824,15_to_30_individual_review
+Lesko,Sanok,19.742186,15_to_30_individual_review
+Zamość,Chełm,72.656955,over_30_generally_coexist
+Chełm,Zamość,72.656955,over_30_generally_coexist
+Siedlce,WARSZAWA,133.906274,over_30_generally_coexist
+Łomża,Ełk,111.369085,over_30_generally_coexist
+Suwałki,Augustów,44.347386,over_30_generally_coexist
+Augustów,Suwałki,44.347386,over_30_generally_coexist
+Ełk,Augustów,64.273598,over_30_generally_coexist
+Malbork,ELBING (ELBLAG),44.23906,over_30_generally_coexist
+Grudziądz,Toruń,78.81364,over_30_generally_coexist
+Włocławek,Płock,68.77579,over_30_generally_coexist
+Gniezno,POZNAN,72.689656,over_30_generally_coexist
+Leszno,Rawicz,48.06758,over_30_generally_coexist
+Piła,POZNAN,123.847265,over_30_generally_coexist
+Koszalin,Kołobrzeg,61.584417,over_30_generally_coexist
+Słupsk,Koszalin,99.813444,over_30_generally_coexist
+Kołobrzeg,Koszalin,61.584417,over_30_generally_coexist
+Świnoujście,STETTIN (SZCZECIN),85.160909,over_30_generally_coexist
+Stargard,STETTIN (SZCZECIN),54.061491,over_30_generally_coexist
+Legnica,Jelenia Góra,67.378169,over_30_generally_coexist
+Jelenia Góra,Wałbrzych,62.911765,over_30_generally_coexist
+Wałbrzych,Świdnica,24.424632,15_to_30_individual_review
+Świdnica,Wałbrzych,24.424632,15_to_30_individual_review
+Nysa,Opole,69.638166,over_30_generally_coexist
+Oświęcim,Bielsko,38.849751,over_30_generally_coexist
+Bochnia,Wieliczka,38.291219,over_30_generally_coexist
+Wieliczka,KRAKOW,18.116415,15_to_30_individual_review
+Nowy Targ,Zakopane,30.513975,over_30_generally_coexist
+Ostrava,Opava,42.272158,over_30_generally_coexist
+Plzeň,Karlovy Vary,96.525393,over_30_generally_coexist
+Olomouc,Zlín,74.345335,over_30_generally_coexist
+České Budějovice,Písek,64.784369,over_30_generally_coexist
+Liberec,Jelenia Góra,72.843756,over_30_generally_coexist
+Ústí nad Labem,DRESDEN,70.373939,over_30_generally_coexist
+Hradec Králové,Pardubice,29.209302,15_to_30_individual_review
+Pardubice,Hradec Králové,29.209302,15_to_30_individual_review
+Jihlava,Tábor,97.538152,over_30_generally_coexist
+Zlín,Trenčín,67.236518,over_30_generally_coexist
+Karlovy Vary,Cheb,57.632812,over_30_generally_coexist
+Cheb,Karlovy Vary,57.632812,over_30_generally_coexist
+Tábor,Písek,56.042828,over_30_generally_coexist
+Opava,Ostrava,42.272158,over_30_generally_coexist
+Znojmo,Krems,84.937736,over_30_generally_coexist
+Bratislava,Trnava,62.599202,over_30_generally_coexist
+Košice,Prešov,46.900356,over_30_generally_coexist
+Žilina,Martin,32.125646,over_30_generally_coexist
+Trnava,Nitra,52.419133,over_30_generally_coexist
+Nitra,Trnava,52.419133,over_30_generally_coexist
+Trenčín,Zlín,67.236518,over_30_generally_coexist
+Banská Bystrica,Zvolen,26.295719,15_to_30_individual_review
+Zvolen,Banská Bystrica,26.295719,15_to_30_individual_review
+Prešov,Košice,46.900356,over_30_generally_coexist
+Poprad,Zakopane,53.597474,over_30_generally_coexist
+Martin,Žilina,32.125646,over_30_generally_coexist
+Komárno,Győr,50.877559,over_30_generally_coexist
+Bardejov,Prešov,47.912822,over_30_generally_coexist
+Budapest,Székesfehérvár,82.394259,over_30_generally_coexist
+Debrecen,Nyíregyháza,70.185711,over_30_generally_coexist
+Szeged,Subotica,55.672298,over_30_generally_coexist
+Pécs,Osijek,97.796184,over_30_generally_coexist
+Győr,Komárno,50.877559,over_30_generally_coexist
+Miskolc,Eger,53.33341,over_30_generally_coexist
+Nyíregyháza,Debrecen,70.185711,over_30_generally_coexist
+Kecskemét,Szolnok,67.144843,over_30_generally_coexist
+Székesfehérvár,Veszprém,55.472828,over_30_generally_coexist
+Szombathely,Sopron,74.128792,over_30_generally_coexist
+Sopron,Wiener Neustadt,41.525114,over_30_generally_coexist
+Eger,Miskolc,53.33341,over_30_generally_coexist
+Szolnok,Kecskemét,67.144843,over_30_generally_coexist
+Békéscsaba,Arad,83.306558,over_30_generally_coexist
+Veszprém,Székesfehérvár,55.472828,over_30_generally_coexist
+Villach,KLAGENFURT,47.000541,over_30_generally_coexist
+Wels,LINZ,34.970943,over_30_generally_coexist
+Steyr,Wels,45.349717,over_30_generally_coexist
+Wiener Neustadt,Sopron,41.525114,over_30_generally_coexist
+Sankt Pölten,Krems,34.858123,over_30_generally_coexist
+Bregenz,ZURICH,127.024332,over_30_generally_coexist
+Ljubljana,Kranj,33.741999,over_30_generally_coexist
+Maribor,Ptuj,32.758106,over_30_generally_coexist
+Celje,Maribor,66.062752,over_30_generally_coexist
+Kranj,Ljubljana,33.741999,over_30_generally_coexist
+Koper,TRIESTE,17.298106,15_to_30_individual_review
+Ptuj,Maribor,32.758106,over_30_generally_coexist
+Zagreb,Karlovac,69.141167,over_30_generally_coexist
+Zadar,Šibenik,93.744149,over_30_generally_coexist
+Šibenik,Zadar,93.744149,over_30_generally_coexist
+Pula,Koper,112.553252,over_30_generally_coexist
+Karlovac,Zagreb,69.141167,over_30_generally_coexist
+Osijek,Sombor,56.479867,over_30_generally_coexist
+Sarajevo,Zenica,77.668747,over_30_generally_coexist
+Mostar,Sarajevo,105.230204,over_30_generally_coexist
+Banja Luka,Travnik,102.396931,over_30_generally_coexist
+Tuzla,Zenica,96.513344,over_30_generally_coexist
+Zenica,Travnik,25.546486,15_to_30_individual_review
+Bihać,Karlovac,115.747489,over_30_generally_coexist
+Travnik,Zenica,25.546486,15_to_30_individual_review
+Belgrade,Šabac,79.567009,over_30_generally_coexist
+Novi Sad,Zrenjanin,61.028576,over_30_generally_coexist
+Niš,Kraljevo,142.432505,over_30_generally_coexist
+Kragujevac,Kraljevo,52.93702,over_30_generally_coexist
+Subotica,Szeged,55.672298,over_30_generally_coexist
+Zrenjanin,Novi Sad,61.028576,over_30_generally_coexist
+Sombor,Osijek,56.479867,over_30_generally_coexist
+Šabac,Belgrade,79.567009,over_30_generally_coexist
+Kraljevo,Kragujevac,52.93702,over_30_generally_coexist
+Skopje,Prilep,108.168014,over_30_generally_coexist
+Bitola,Prilep,56.643798,over_30_generally_coexist
+Ohrid,Bitola,57.199544,over_30_generally_coexist
+Prilep,Bitola,56.643798,over_30_generally_coexist
+Tirana,Ohrid,111.843276,over_30_generally_coexist
+Shkodër,Podgorica,65.052744,over_30_generally_coexist
+Vlorë,LECCE,138.788702,over_30_generally_coexist
+Podgorica,Cetinje,35.612939,over_30_generally_coexist
+Cetinje,Kotor,16.984885,15_to_30_individual_review
+Kotor,Cetinje,16.984885,15_to_30_individual_review
+Sofia,Plovdiv,174.990173,over_30_generally_coexist
+Plovdiv,Sofia,174.990173,over_30_generally_coexist
+Ruse,Veliko Tarnovo,129.931552,over_30_generally_coexist
+Veliko Tarnovo,Pleven,118.253755,over_30_generally_coexist
+Pleven,Veliko Tarnovo,118.253755,over_30_generally_coexist
+Brașov,Sibiu,155.83702,over_30_generally_coexist
+Sibiu,Brașov,155.83702,over_30_generally_coexist
+Cluj-Napoca,Baia Mare,145.400606,over_30_generally_coexist
+Timișoara,Arad,72.653638,over_30_generally_coexist
+Arad,Timișoara,72.653638,over_30_generally_coexist
+Oradea,Debrecen,85.249801,over_30_generally_coexist
+Satu Mare,Baia Mare,76.440339,over_30_generally_coexist
+Baia Mare,Satu Mare,76.440339,over_30_generally_coexist
+Craiova,Pleven,173.319155,over_30_generally_coexist
+Athens,Lamia,202.230386,over_30_generally_coexist
+Thessaloniki,Serres,98.054255,over_30_generally_coexist
+Patras,Lamia,129.965662,over_30_generally_coexist
+Larissa,Trikala,69.377261,over_30_generally_coexist
+Ioannina,Trikala,97.157214,over_30_generally_coexist
+Serres,Thessaloniki,98.054255,over_30_generally_coexist
+Trikala,Larissa,69.377261,over_30_generally_coexist
+Lamia,Larissa,121.128848,over_30_generally_coexist
+Pärnu,Viljandi,114.208468,over_30_generally_coexist
+Viljandi,Pärnu,114.208468,over_30_generally_coexist
+Rīga,Jelgava,63.304969,over_30_generally_coexist
+Jelgava,Rīga,63.304969,over_30_generally_coexist
+Liepāja,Klaipėda,132.277373,over_30_generally_coexist
+Ventspils,Liepāja,156.155502,over_30_generally_coexist
+Vilnius,Kaunas,147.856322,over_30_generally_coexist
+Kaunas,Panevėžys,145.225136,over_30_generally_coexist
+Klaipėda,Liepāja,132.277373,over_30_generally_coexist
+Šiauliai,Panevėžys,113.862809,over_30_generally_coexist
+Panevėžys,Šiauliai,113.862809,over_30_generally_coexist
+Lviv,Przemyśl,132.179903,over_30_generally_coexist
+Ternopil,Ivano-Frankivsk,138.719289,over_30_generally_coexist
+Ivano-Frankivsk,Ternopil,138.719289,over_30_generally_coexist
+Uzhhorod,Košice,108.389206,over_30_generally_coexist
+Chernivtsi,Ivano-Frankivsk,164.966019,over_30_generally_coexist
+Lutsk,Ternopil,197.942013,over_30_generally_coexist
+Głogów,Leszno,58.137029,over_30_generally_coexist
+Łowicz,Łódź,74.908625,over_30_generally_coexist
+Sieradz,Kalisz,73.735779,over_30_generally_coexist
+Rawicz,Leszno,48.06758,over_30_generally_coexist
+Písek,Tábor,56.042828,over_30_generally_coexist
+Krems,Sankt Pölten,34.858123,over_30_generally_coexist

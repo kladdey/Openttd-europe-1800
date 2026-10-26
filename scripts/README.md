@@ -8,11 +8,11 @@ needed for these offline operations.
 ```powershell
 python -m pip install -r requirements-visualization.txt
 python scripts/register_coastal_regions.py --out scratch/coast-registration.json
-python scripts/resolve_terrain_flags.py --preview --out scratch/reference-preview.csv
-python scripts/resolve_terrain_flags.py --out scratch/v10-candidate
-python scripts/visualize_evidence.py --report scratch/v10-candidate --out scratch/v10-map --version V10
+python scripts/resolve_terrain_flags.py --profile data/geography/placement_profile_v11.json --preview --out scratch/reference-preview.csv
+python scripts/review_remaining_terrain.py --out scratch/v11-candidate
+python scripts/visualize_evidence.py --report scratch/v11-candidate --out scratch/v11-map --version V11
 python -W error::ResourceWarning -m unittest discover -s tests -v
-node tests/test_evidence_map.js scratch/v10-map/evidence_map.html scratch/v10-candidate/summary.json
+node tests/test_evidence_map.js scratch/v11-map/evidence_map.html scratch/v11-candidate/summary.json
 ```
 
 Use new output paths. The resolver uses the committed, hash-checked regional
@@ -28,13 +28,17 @@ Node.js is optional and needed only for the map-logic smoke test.
 | `review_europe_placements.py` | V8 historic-coordinate and explicit spacing review |
 | `validate_landmarks.py` | V9 frozen-model landmark and terrain diagnostics |
 | `register_coastal_regions.py` | Bounded coastline-only regional fitting and rejection gates |
-| `resolve_terrain_flags.py` | V10 explicit historic-site corrections, coherent regional rebasing and deferrals |
+| `resolve_terrain_flags.py` | Versioned explicit site corrections, coherent regional rebasing and deferrals; defaults to V10 for reproduction |
+| `review_remaining_terrain.py` | Current V11 follow-up, source exclusions, bank-review holds and V10 delta |
 | `visualize_europe_towns.py` | Earlier V7 map and atlas |
 | `visualize_evidence.py` | Offline evidence HTML/PNG for a selected report directory |
 
 See the [active workflow](../docs/GEOGRAPHY_WORKFLOW.md),
 [coordinate mapping](../maps/calibration/geography_v6/README.md), and
-[V10 reproduction details](../maps/calibration/geography_v10/README.md).
+[V11 reproduction details](../maps/calibration/geography_v11/README.md).
 The original source assets and catalogue are read-only. No tool resaves a scenario
 or changes NewGRF configuration. Historic-site evidence, sampled land, slope and
 successful founding are distinct checks.
+
+Omitting the shared resolver profile reproduces V10 intentionally. Use the V11
+follow-up command above for the current candidate; all output paths must be new.

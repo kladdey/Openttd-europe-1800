@@ -1,6 +1,6 @@
 # Sweden supplemental towns - V1
 
-> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Historical add-on experiment; its import instructions do not apply to the V10 candidate. Do not append it without a new geographic audit.
+> Current project context: [status and limitations](../../docs/PROJECT_STATUS.md). Historical add-on experiment; its import instructions do not apply to the current candidate. Do not append it without a new geographic audit.
 
 Adds **35 towns**, predominantly southern and central Sweden, to the already-imported Europe 1800 scenario. These are **additional towns only**, not the original 600.
 
