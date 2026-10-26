@@ -1,3 +1,7 @@
+## Multiplayer playtest - 2026-10-26
+
+**Confirmed by user:** Squirrel joined the hosted Europe 1800 game and was able to play on the 4096 x 4096 map using the current multiplayer setup. This verifies at least one successful end-to-end client join, scenario load and gameplay session. It does **not** establish long-duration stability, a clean-install test, or Toni's compatibility. Toni previously received 'Network - Game connection lost'; cause remains unknown.
+
 ## October 2026 multiplayer and release notes
 
 A separate user-supplied **Europe 1800 - Toni** scenario was packaged for JGRPP 0.73.4, Windows. The earlier portable build included the game and nine NewGRFs; its ZIP integrity was checked, but Windows execution and multiplayer were **not** validated. Toni reported **"Network - Game connection lost"**; root cause is unknown. See [multiplayer diagnostics](MULTIPLAYER.md).
