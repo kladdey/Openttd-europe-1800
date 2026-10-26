@@ -1,0 +1,36 @@
+{
+  "version": "V13",
+  "baseline_towns": 568,
+  "research_candidates": 62,
+  "additions": 45,
+  "full_import_towns": 613,
+  "deferred": 17,
+  "retained_by_region": {
+    "Denmark": 7,
+    "Southern Norway": 3,
+    "Wales": 4,
+    "Northern Spain": 7,
+    "Portugal": 4,
+    "Sardinia": 2,
+    "Ireland": 2,
+    "Scotland": 1,
+    "Switzerland": 3,
+    "North Africa": 3,
+    "Western Belarus": 3,
+    "Southern Italy": 4,
+    "Greek islands": 2
+  },
+  "deferred_by_reason": {
+    "DEFER_REGISTRATION_SENSITIVITY": 8,
+    "DEFER_SPACING_REVIEW": 1,
+    "DEFER_TERRAIN_REVIEW": 8
+  },
+  "baseline_records_unchanged": true,
+  "nonflat_addition_targets": 17,
+  "config_sha256": "466914216553529968244ff0f8e1a71ae7babe3aee89288da370e933768fcf83",
+  "output_sha256": {
+    "Europe_1800_V13_ADDITIONS_ONLY_TEST.json": "488a1f6a6c818e4d19e17ed750e105f5b1f386d1294eae53cd9438f456a5cd11",
+    "Europe_1800_V13_FULL_IMPORT_TEST.json": "edb933051b0041d47934e051e38a271f0d431c0b46e10b85acd56fb7fd2b0a65"
+  },
+  "limitations": "Offline candidate only. Published city points are approximate. Nine half-pixel probes do not bound registration uncertainty. Two supplied source scenarios are not the user saved 568-town map. Actual founding, historic bank/coast placement, realized population and growth need in-game checks. Six earlier held centres remain held; no restoration or relocation is attempted."
+}

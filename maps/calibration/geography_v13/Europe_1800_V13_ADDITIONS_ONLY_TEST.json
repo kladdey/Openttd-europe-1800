@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Aarhus",
+    "population": 350,
+    "city": false,
+    "x": 0.125482115,
+    "y": 0.597300568
+  },
+  {
+    "name": "Odense",
+    "population": 350,
+    "city": false,
+    "x": 0.155992352,
+    "y": 0.601837279
+  },
+  {
+    "name": "Ribe",
+    "population": 350,
+    "city": false,
+    "x": 0.158697266,
+    "y": 0.56036428
+  },
+  {
+    "name": "Aalborg",
+    "population": 350,
+    "city": false,
+    "x": 0.089705108,
+    "y": 0.589811208
+  },
+  {
+    "name": "Viborg",
+    "population": 350,
+    "city": false,
+    "x": 0.114430033,
+    "y": 0.576627691
+  },
+  {
+    "name": "Kolding",
+    "population": 350,
+    "city": false,
+    "x": 0.152151773,
+    "y": 0.579177695
+  },
+  {
+    "name": "Roskilde",
+    "population": 350,
+    "city": false,
+    "x": 0.145807045,
+    "y": 0.645044279
+  },
+  {
+    "name": "Stavanger",
+    "population": 350,
+    "city": false,
+    "x": 0.012765309,
+    "y": 0.483078016
+  },
+  {
+    "name": "Kristiansand",
+    "population": 350,
+    "city": false,
+    "x": 0.045756854,
+    "y": 0.540815445
+  },
+  {
+    "name": "Arendal",
+    "population": 350,
+    "city": false,
+    "x": 0.033141933,
+    "y": 0.560627186
+  },
+  {
+    "name": "Swansea",
+    "population": 350,
+    "city": false,
+    "x": 0.307420696,
+    "y": 0.236202253
+  },
+  {
+    "name": "Cardiff",
+    "population": 350,
+    "city": false,
+    "x": 0.31284375,
+    "y": 0.255858443
+  },
+  {
+    "name": "Carmarthen",
+    "population": 350,
+    "city": false,
+    "x": 0.297738704,
+    "y": 0.226937326
+  },
+  {
+    "name": "Merthyr Tydfil",
+    "population": 200,
+    "city": false,
+    "x": 0.302371522,
+    "y": 0.250788272
+  },
+  {
+    "name": "A Coruña",
+    "population": 350,
+    "city": false,
+    "x": 0.637856696,
+    "y": 0.122826302
+  },
+  {
+    "name": "Vigo",
+    "population": 350,
+    "city": false,
+    "x": 0.68354411,
+    "y": 0.114771097
+  },
+  {
+    "name": "Oviedo",
+    "population": 350,
+    "city": false,
+    "x": 0.638301905,
+    "y": 0.187879691
+  },
+  {
+    "name": "Santander",
+    "population": 350,
+    "city": false,
+    "x": 0.634183221,
+    "y": 0.239899758
+  },
+  {
+    "name": "León",
+    "population": 350,
+    "city": false,
+    "x": 0.668534437,
+    "y": 0.1948922
+  },
+  {
+    "name": "Pamplona",
+    "population": 350,
+    "city": false,
+    "x": 0.660061442,
+    "y": 0.294852329
+  },
+  {
+    "name": "Logroño",
+    "population": 350,
+    "city": false,
+    "x": 0.674167072,
+    "y": 0.274565522
+  },
+  {
+    "name": "Braga",
+    "population": 350,
+    "city": false,
+    "x": 0.710789214,
+    "y": 0.122004691
+  },
+  {
+    "name": "Guimarães",
+    "population": 350,
+    "city": false,
+    "x": 0.71504134,
+    "y": 0.125511711
+  },
+  {
+    "name": "Viseu",
+    "population": 350,
+    "city": false,
+    "x": 0.746217988,
+    "y": 0.135043623
+  },
+  {
+    "name": "Bragança",
+    "population": 350,
+    "city": false,
+    "x": 0.700548206,
+    "y": 0.164575466
+  },
+  {
+    "name": "Oristano",
+    "population": 350,
+    "city": false,
+    "x": 0.776953834,
+    "y": 0.555794165
+  },
+  {
+    "name": "Iglesias",
+    "population": 350,
+    "city": false,
+    "x": 0.800316284,
+    "y": 0.554519163
+  },
+  {
+    "name": "Derry",
+    "population": 350,
+    "city": false,
+    "x": 0.171954555,
+    "y": 0.150267142
+  },
+  {
+    "name": "Wexford",
+    "population": 350,
+    "city": false,
+    "x": 0.278516177,
+    "y": 0.172153821
+  },
+  {
+    "name": "Stornoway",
+    "population": 350,
+    "city": false,
+    "x": 0.043260719,
+    "y": 0.174058673
+  },
+  {
+    "name": "Lausanne",
+    "population": 350,
+    "city": false,
+    "x": 0.511671819,
+    "y": 0.506077516
+  },
+  {
+    "name": "St. Gallen",
+    "population": 350,
+    "city": false,
+    "x": 0.475439184,
+    "y": 0.575883855
+  },
+  {
+    "name": "Sion",
+    "population": 350,
+    "city": false,
+    "x": 0.523248453,
+    "y": 0.524593344
+  },
+  {
+    "name": "Tlemcen",
+    "population": 350,
+    "city": false,
+    "x": 0.978007948,
+    "y": 0.303352255
+  },
+  {
+    "name": "Kairouan",
+    "population": 350,
+    "city": false,
+    "x": 0.946172504,
+    "y": 0.594498879
+  },
+  {
+    "name": "Sousse",
+    "population": 350,
+    "city": false,
+    "x": 0.939929961,
+    "y": 0.608069232
+  },
+  {
+    "name": "Grodno",
+    "population": 350,
+    "city": false,
+    "x": 0.225271431,
+    "y": 0.944669665
+  },
+  {
+    "name": "Brest (Belarus)",
+    "population": 350,
+    "city": false,
+    "x": 0.2866742,
+    "y": 0.94018013
+  },
+  {
+    "name": "Lida",
+    "population": 350,
+    "city": false,
+    "x": 0.216112389,
+    "y": 0.981971878
+  },
+  {
+    "name": "Cosenza",
+    "population": 350,
+    "city": false,
+    "x": 0.800997522,
+    "y": 0.751302916
+  },
+  {
+    "name": "Catanzaro",
+    "population": 350,
+    "city": false,
+    "x": 0.817026646,
+    "y": 0.760227928
+  },
+  {
+    "name": "Potenza",
+    "population": 350,
+    "city": false,
+    "x": 0.747580463,
+    "y": 0.739827902
+  },
+  {
+    "name": "L'Aquila",
+    "population": 350,
+    "city": false,
+    "x": 0.678775445,
+    "y": 0.678627823
+  },
+  {
+    "name": "Chania",
+    "population": 350,
+    "city": false,
+    "x": 0.95259297,
+    "y": 0.949361671
+  },
+  {
+    "name": "Heraklion",
+    "population": 350,
+    "city": false,
+    "x": 0.959673835,
+    "y": 0.977855408
+  }
+]

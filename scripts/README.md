@@ -1,5 +1,7 @@
 # Scenario tools
 
+Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
+
 The geography and visualization tools are implemented. The current placement
 checkpoint and limitations are tracked in [project status](../docs/PROJECT_STATUS.md).
 Run commands from the repository root with Python 3.10+; no OpenTTD executable is

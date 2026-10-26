@@ -1,5 +1,7 @@
 # Geographic calibration evidence
 
+Current offline candidate: [V13 coverage implementation](../../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
+
 `ne_50m_europe_coastline.geojson` is a derived subset of Natural Earth's
 1:50m coastline, not a town gazetteer or exact historic coastline.
 

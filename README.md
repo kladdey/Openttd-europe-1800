@@ -3,11 +3,9 @@
 Historical Europe scenario work for JGRPP 0.73.4, Windows 11 and a 4096×4096 map,
 with an intended 1800–2025 campaign and FIRS 5.2.0 Temperate Basic industries.
 
-The latest full import is **V12: 568 towns**, combining the 537-town baseline and
-31 additions across Sweden, North Africa and the Balearics. It is for a **fresh
-empty map only**. Existing populated checkpoints do not need another import.
-All 600 original source records and their population settings remain preserved;
-original deferrals and the supplement's review holds remain documented.
+The latest offline candidate is **V13: 613 towns**, with **45 additions** for the saved 568-town checkpoint. Seventeen research leads remain deferred. Use the additions-only file once on a copy of your saved map; the full file is for fresh empty maps only. All 600 original source records remain preserved.
+
+- [V13 downloads, audit and import instructions](maps/calibration/geography_v13/README.md)
 
 The user confirmed completion after the 568-town count/save prompt and supplied
 regional screenshots. Exact actual town positions, growth and playability remain
@@ -31,7 +29,7 @@ unverified; no fresh-map one-step V12 test has yet been independently observed.
 - [Offline workflow](docs/GEOGRAPHY_WORKFLOW.md) and [scripts](scripts/README.md)
 - [Roadmap](docs/ROADMAP.md) and [all documentation](docs/DOCUMENTATION_INDEX.md)
 
-A clear target is not a founding guarantee: 143 combined targets have non-flat
+A clear target is not a founding guarantee: 160 V13 combined targets (143 in V12) have non-flat
 corners in at least one supplied scenario. Source CRS and exact historical
 shoreline/river registration remain uncertain. Continue geographic review offline;
 test actual founding, growth and multiplayer separately.
