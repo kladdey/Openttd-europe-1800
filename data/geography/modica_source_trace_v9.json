@@ -1,0 +1,25 @@
+{
+  "accessed": "2026-10-26",
+  "upstream_repository": "mdlincoln/europop",
+  "upstream_commit": "ce0810c4de6affd9e62a3c003fb6dfdd295ea7e7",
+  "transcription_path": "data-raw/extracted/de_vries6.csv",
+  "transcription_header": "City,Code,1500,1550,1600,1650,1700,1750,1800",
+  "transcription_row": "MODICA/POZZALLO,12,UNK,15,18,16,19,20,20",
+  "population_units": "thousands in upstream historical population table, not game population",
+  "original_population_reference": "Jan de Vries (1984), European Urbanization 1500-1800, Appendix I; upstream transcription inspected, original printed page and footnotes not inspected",
+  "archive_source": "https://dgagaeta.cultura.gov.it/public/uploads/documents/Archivi%20Italiani/634d031e69426.pdf",
+  "archive_locator": "PDF page 28 (zero-based page 27), caption: Modica municipal archive b.57, copy of royal decree, Naples 12 June 1829",
+  "supported_history": "Pozzallo was dependent on Modica before being constituted as a separate commune in 1829.",
+  "not_established": "Whether the de Vries 1800 figure is the inland urban centre, a municipal aggregation, or a combined urban unit. Administrative dependence alone does not establish population scope.",
+  "recommendation": "Keep original merged record documented and deferred; do not allocate all 20000 to the port or duplicate the game population. Modica is a plausible principal centre requiring the original population table notes.",
+  "coordinate_changes": 0,
+  "source_population_changes": 0,
+  "transcription_git_blob_sha": "7078b89fbd4158d355cd9ceae80f6a9bc0d25df3",
+  "source_record": {
+    "name": "MODICA/POZZALLO",
+    "population": 400,
+    "city": false,
+    "x": 0.870423,
+    "y": 0.6465946
+  }
+}

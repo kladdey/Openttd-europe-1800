@@ -3,7 +3,18 @@ Home project
 
 ## Europe 1800 geography work
 
-The latest desk review is **V8**: a proposed 564-town candidate and a separate
+The latest evidence pass is **V9**: 22 named landmark checks, diagnostics for
+54 retained terrain flags, a Modica/Pozzallo source investigation, and an
+offline interactive evidence map. The import remains the V8 564-town candidate;
+V9 makes no coordinate or population changes and runs no in-game tests.
+
+- [V9 findings, limitations and reproduction](maps/calibration/geography_v9/README.md)
+- [Interactive evidence map — download HTML and open locally](maps/calibration/geography_v9/visualization/evidence_map.html)
+- [Static evidence map](maps/calibration/geography_v9/visualization/evidence_overview.png)
+- [Landmark observations](maps/calibration/geography_v9/landmark_contact_sheet.png)
+
+
+The latest town-placement desk review is **V8**: a proposed 564-town candidate and a separate
 corrected full 576-town comparison import. Two Sicilian inputs were corrected
 before reviewing close pairs. All 600 source entries remain accounted for;
 54 retained terrain flags and in-game founding remain unresolved.

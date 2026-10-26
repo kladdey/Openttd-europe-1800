@@ -1,0 +1,42 @@
+{
+  "status": "DESK EVIDENCE ONLY; frozen transform; no town movement",
+  "landmarks_attempted": 22,
+  "approximate_morphological_matches": 21,
+  "ambiguous_landmarks": 1,
+  "landmark_spatial_relations": {
+    "HELD_OUT_CELL": 8,
+    "OUTSIDE_FIT_SAMPLE_EXTENT": 4,
+    "TRAINING_CELL": 10
+  },
+  "landmark_vector_median_pixels": 3.772,
+  "landmark_vector_p90_pixels": 8.196,
+  "landmark_vector_max_pixels": 8.61,
+  "landmark_feature_estimate_exceeded": 2,
+  "terrain_targets_investigated": 54,
+  "terrain_targets_resolved": 0,
+  "terrain_priorities": {
+    "INLAND_CHANNEL_OR_CENTRE_REVIEW": 38,
+    "COAST_OR_HARBOUR_REVIEW": 13,
+    "ROAD_OCCUPANCY_REVIEW": 3
+  },
+  "catalogue_entries": 600,
+  "candidate_towns": 564,
+  "deferred_towns": 36,
+  "coordinates_changed": 0,
+  "population_changes": 0,
+  "scenario_changes": 0,
+  "in_game_tests": 0,
+  "input_sha256": {
+    "data/geography/landmark_observations_v9.csv": "d1ef67ad3f206ef3b3918235cceaffc556899b4468d2d886f466d06ff7a63e6f",
+    "maps/calibration/geography_v6/coastline_models.json": "263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50",
+    "maps/calibration/geography_v8/Europe_1800_V8_DESK_REVIEWED_CANDIDATE_TEST.json": "23cd1c43261c15296b5a8cc918b94ee275dbda0a8ceec10149b89690a70928c0",
+    "maps/calibration/geography_v8/all_600_decisions.csv": "3fc1c84ff52a534ce1861f3e96d57c8116e81805e3373451e2515cbc751f8be9",
+    "maps/calibration/geography_v8/terrain_review_refined.csv": "aca026ece7758eb0f9d7da84539604d3d920232fa6712c86f06603ff4f2fea67"
+  },
+  "original_assets_sha256": {
+    "heightmaps/Europe_heightmap_original.png": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+    "scenarios/Europe_1800_Industries_Original.scn": "b49bda4d118dc7037441e9e0661543f1d1ea06e13349b7d1517f7ca39c9044db",
+    "scenarios/Europe_1800_V1.scn": "904097ebfda8db35b6f58f27e07aad1bf0595805ea6c8196245b7f9b68f29f3e"
+  },
+  "limitations": "Observations were identified in model-selected crops; approximate shoreline/lighthouse matches are not blinded or survey controls. No refit. New feature points in training cells share coastline information with fitting. No town is survey validated by this report."
+}
