@@ -16,6 +16,7 @@ unverified; no fresh-map one-step V12 test has yet been independently observed.
 - [Complete 568-town V12 JSON — fresh maps only](maps/calibration/geography_v12/Europe_1800_V12_568_TOWN_FULL_IMPORT_TEST.json)
 - [V12 composition and import instructions](maps/calibration/geography_v12/README.md)
 - [31-town coverage supplement — import once into your saved 537-town map](maps/calibration/coverage_additions_v1/README.md)
+- [Whole-map coverage audit — gaps and research priorities](maps/calibration/coverage_gap_audit_v1/README.md)
 - [Current status and limitations](docs/PROJECT_STATUS.md)
 - [Earlier V11 files, findings and instructions](maps/calibration/geography_v11/README.md)
 - [Earlier 537-town baseline JSON](maps/calibration/geography_v11/Europe_1800_V11_CLEAR_TARGET_CANDIDATE_TEST.json)
