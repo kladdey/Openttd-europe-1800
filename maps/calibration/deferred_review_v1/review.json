@@ -1,0 +1,451 @@
+[
+  {
+    "name": "Randers",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/St_Martin%27s_Church%2C_Randers",
+      "latitude": 56.46,
+      "longitude": 10.035
+    },
+    "sample": {
+      "source_column": 2428,
+      "source_row": 464,
+      "tile_x": 1667,
+      "tile_y": 464,
+      "raw_elevation": 27,
+      "v1_tile_type": 0,
+      "industries_tile_type": 0,
+      "direct_clear_land": true,
+      "both_saved_flat_corners": false,
+      "edge_margin_tiles": 464
+    },
+    "clear_probes": 9,
+    "reference_shift_pixels": 0.646,
+    "nearest": [
+      52.202,
+      "Aarhus"
+    ],
+    "review_decision": "CANDIDATE_FOR_NEW_IMPORT_TEST",
+    "reason": "Independently identifiable pre-1800 landmark; base and nine probes clear; nearest V13 town beyond 30 tiles. Exact bank, founding and growth still need checking."
+  },
+  {
+    "name": "Helsingør",
+    "prior_status": "DEFER_SPACING_REVIEW",
+    "alternative": null,
+    "review_decision": "KEEP_HOLD",
+    "reason": "About 9.2 tiles from Helsingborg; no new spacing exception justified."
+  },
+  {
+    "name": "Faro",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Faro_Cathedral",
+      "latitude": 37.01333,
+      "longitude": -7.93472
+    },
+    "sample": {
+      "source_column": 552,
+      "source_row": 3655,
+      "tile_x": 3543,
+      "tile_y": 3655,
+      "raw_elevation": 0,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 440
+    },
+    "clear_probes": 0,
+    "reference_shift_pixels": 0.457,
+    "nearest": [
+      195.76,
+      "JEREZ DA LA FRONTERA"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Lagos",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://turismo.diocese-algarve.pt/vigararias/item/157-paroquia-de-lagos-santa-maria",
+      "latitude": 37.10016111111111,
+      "longitude": -8.6707
+    },
+    "sample": {
+      "source_column": 475,
+      "source_row": 3641,
+      "tile_x": 3620,
+      "tile_y": 3641,
+      "raw_elevation": 0,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 454
+    },
+    "clear_probes": 0,
+    "reference_shift_pixels": 0.482,
+    "nearest": [
+      253.931,
+      "EVORA"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Setúbal",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Monastery_of_Jesus_of_Set%C3%BAbal",
+      "latitude": 38.52614,
+      "longitude": -8.89484
+    },
+    "sample": {
+      "source_column": 451,
+      "source_row": 3407,
+      "tile_x": 3644,
+      "tile_y": 3407,
+      "raw_elevation": 20,
+      "v1_tile_type": 0,
+      "industries_tile_type": 0,
+      "direct_clear_land": true,
+      "both_saved_flat_corners": false,
+      "edge_margin_tiles": 451
+    },
+    "clear_probes": 8,
+    "reference_shift_pixels": 0.38,
+    "nearest": [
+      40.608,
+      "LISBOA"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Ajaccio",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Ajaccio_Cathedral",
+      "latitude": 41.91722,
+      "longitude": 8.73778
+    },
+    "sample": {
+      "source_column": 2293,
+      "source_row": 2850,
+      "tile_x": 1802,
+      "tile_y": 2850,
+      "raw_elevation": 0,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 1245
+    },
+    "clear_probes": 0,
+    "reference_shift_pixels": 1.558,
+    "nearest": [
+      195.923,
+      "SASSARI"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Bastia",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Bastia_Cathedral",
+      "latitude": 42.69222,
+      "longitude": 9.45167
+    },
+    "sample": {
+      "source_column": 2367,
+      "source_row": 2723,
+      "tile_x": 1728,
+      "tile_y": 2723,
+      "raw_elevation": 21,
+      "v1_tile_type": 0,
+      "industries_tile_type": 0,
+      "direct_clear_land": true,
+      "both_saved_flat_corners": false,
+      "edge_margin_tiles": 1372
+    },
+    "clear_probes": 6,
+    "reference_shift_pixels": 1.415,
+    "nearest": [
+      166.433,
+      "LIVORNO"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Alghero",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Alghero_Cathedral",
+      "latitude": 40.5592,
+      "longitude": 8.31278
+    },
+    "sample": {
+      "source_column": 2248,
+      "source_row": 3073,
+      "tile_x": 1847,
+      "tile_y": 3073,
+      "raw_elevation": 13,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": false,
+      "edge_margin_tiles": 1022
+    },
+    "clear_probes": 1,
+    "reference_shift_pixels": 0.266,
+    "nearest": [
+      38.21,
+      "SASSARI"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Sligo",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Sligo_Abbey",
+      "latitude": 54.270809,
+      "longitude": -8.470091
+    },
+    "sample": {
+      "source_column": 496,
+      "source_row": 823,
+      "tile_x": 3599,
+      "tile_y": 823,
+      "raw_elevation": 24,
+      "v1_tile_type": 0,
+      "industries_tile_type": 0,
+      "direct_clear_land": true,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 496
+    },
+    "clear_probes": 9,
+    "reference_shift_pixels": 1.535,
+    "nearest": [
+      169.0,
+      "Derry"
+    ],
+    "review_decision": "CANDIDATE_FOR_NEW_IMPORT_TEST",
+    "reason": "Independently identifiable pre-1800 landmark; base and nine probes clear; nearest V13 town beyond 30 tiles. Exact bank, founding and growth still need checking."
+  },
+  {
+    "name": "Tralee",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": null,
+    "review_decision": "KEEP_HOLD",
+    "reason": "No suitable pre-1800 alternative verified. Current courthouse dates from 1830–1835 and is rejected as an 1800 reference."
+  },
+  {
+    "name": "Stirling",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Stirling_Castle",
+      "latitude": 56.12389,
+      "longitude": -3.94778
+    },
+    "sample": {
+      "source_column": 968,
+      "source_row": 519,
+      "tile_x": 3127,
+      "tile_y": 519,
+      "raw_elevation": 24,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 519
+    },
+    "clear_probes": 2,
+    "reference_shift_pixels": 1.65,
+    "nearest": [
+      52.431,
+      "GLASGOW"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Dumfries",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://saintsplaces.gla.ac.uk/place.php?id=1359555550",
+      "latitude": 55.06421547476406,
+      "longitude": -3.6051419193421226
+    },
+    "sample": {
+      "source_column": 1004,
+      "source_row": 693,
+      "tile_x": 3091,
+      "tile_y": 693,
+      "raw_elevation": 25,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 693
+    },
+    "clear_probes": 0,
+    "reference_shift_pixels": 0.975,
+    "nearest": [
+      74.095,
+      "CARLISLE"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Oban",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Oban_distillery",
+      "latitude": 56.4147,
+      "longitude": -5.4728
+    },
+    "sample": {
+      "source_column": 809,
+      "source_row": 471,
+      "tile_x": 3286,
+      "tile_y": 471,
+      "raw_elevation": 16,
+      "v1_tile_type": 0,
+      "industries_tile_type": 0,
+      "direct_clear_land": true,
+      "both_saved_flat_corners": false,
+      "edge_margin_tiles": 471
+    },
+    "clear_probes": 7,
+    "reference_shift_pixels": 0.451,
+    "nearest": [
+      106.794,
+      "GREENOCK"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Lucerne",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Church_of_St._Leodegar_(Lucerne)",
+      "latitude": 47.0557,
+      "longitude": 8.31405
+    },
+    "sample": {
+      "source_column": 2248,
+      "source_row": 2007,
+      "tile_x": 1847,
+      "tile_y": 2007,
+      "raw_elevation": 54,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 1847
+    },
+    "clear_probes": 3,
+    "reference_shift_pixels": 1.74,
+    "nearest": [
+      56.798,
+      "ZURICH"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Constantine",
+    "prior_status": "DEFER_REGISTRATION_SENSITIVITY",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Constantine",
+      "latitude": 36.36583,
+      "longitude": 6.61278
+    },
+    "sample": {
+      "source_column": 2071,
+      "source_row": 3761,
+      "tile_x": 2024,
+      "tile_y": 3761,
+      "raw_elevation": 65,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 334
+    },
+    "clear_probes": 5,
+    "reference_shift_pixels": 2.92,
+    "nearest": [
+      173.819,
+      "Béjaïa"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Salerno",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Salerno_Cathedral",
+      "latitude": 40.68,
+      "longitude": 14.76028
+    },
+    "sample": {
+      "source_column": 2922,
+      "source_row": 3053,
+      "tile_x": 1173,
+      "tile_y": 3053,
+      "raw_elevation": 0,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 1042
+    },
+    "clear_probes": 0,
+    "reference_shift_pixels": 0.135,
+    "nearest": [
+      108.296,
+      "Potenza"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  },
+  {
+    "name": "Corfu (city)",
+    "prior_status": "DEFER_TERRAIN_REVIEW",
+    "alternative": {
+      "url": "https://en.wikipedia.org/wiki/Saint_Spyridon_Church",
+      "latitude": 39.6251,
+      "longitude": 19.9227
+    },
+    "sample": {
+      "source_column": 3461,
+      "source_row": 3226,
+      "tile_x": 634,
+      "tile_y": 3226,
+      "raw_elevation": 0,
+      "v1_tile_type": 6,
+      "industries_tile_type": 6,
+      "direct_clear_land": false,
+      "both_saved_flat_corners": true,
+      "edge_margin_tiles": 634
+    },
+    "clear_probes": 0,
+    "reference_shift_pixels": 0.241,
+    "nearest": [
+      97.185,
+      "Ioannina"
+    ],
+    "review_decision": "KEEP_HOLD",
+    "reason": "Named historical alternative still fails base terrain or one or more half-pixel probes. Preserve hold; no nearest-land shift."
+  }
+]
