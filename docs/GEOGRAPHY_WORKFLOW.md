@@ -21,6 +21,8 @@ these are not ordinary east/north axes. Use `scenario_geography.py` to reproduce
 float32 parsing, counter-clockwise rotation and truncation exactly. The geographic
 fit and mapping evidence are in the [V6 report](../maps/calibration/geography_v6/README.md).
 
+The distributed heightmap is now identified by exact pixel comparison as
+[UseYourIllusion’s Europe v4](../maps/calibration/provenance_v1/README.md).
 The global fit is empirical; the original DEM CRS is unknown. V10 adds three
 accepted regional translations, with [declared gates](../data/geography/coastal_regions_v10.json).
 Rejected fits must not be applied. Any accepted geographic correction must also

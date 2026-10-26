@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "archive_sha256": "ab5b9cf3f6ae4805fd8c9445de00c5c6c29ecdaf263077658d7c794b01afc4d5",
+  "archive_bytes": 7030642,
+  "comparisons": [
+    {
+      "source": {
+        "bytes": 5210979,
+        "sha256": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+        "md5": "f33812194e12aa93b4d33369ba1e0d3e",
+        "width": 4096,
+        "height": 4096,
+        "original_mode": "RGBA",
+        "chunk_counts": {
+          "IDAT": 80,
+          "IEND": 1,
+          "IHDR": 1
+        },
+        "rgba_sha256": "9ebac830ec0888d1b569ed9db344145d8c7d08b9b4d37e71dfe47db04647b0ff",
+        "red_sha256": "26cea4d87051c72f445153a5451b453ea78559941599c83625d2ffdb07a2b396",
+        "non_grey_pixels": 13,
+        "opaque": true
+      },
+      "candidate": {
+        "bytes": 7145501,
+        "sha256": "c6e12e57257949305ed7681e0c63dd4ab2e05c463bbe2b0c5d932b877e1c59d9",
+        "md5": "6ab07e287d53419af312fcd55b823f61",
+        "width": 4096,
+        "height": 4096,
+        "original_mode": "RGBA",
+        "chunk_counts": {
+          "IDAT": 110,
+          "IEND": 1,
+          "IHDR": 1,
+          "gAMA": 1,
+          "pHYs": 1,
+          "sRGB": 1,
+          "tEXt": 1
+        },
+        "rgba_sha256": "9ebac830ec0888d1b569ed9db344145d8c7d08b9b4d37e71dfe47db04647b0ff",
+        "red_sha256": "26cea4d87051c72f445153a5451b453ea78559941599c83625d2ffdb07a2b396",
+        "non_grey_pixels": 13,
+        "opaque": true
+      },
+      "encoded_bytes_equal": false,
+      "dimensions_equal": true,
+      "rgba_pixels_equal": true,
+      "different_rgba_pixels": 0,
+      "different_red_pixels": 0,
+      "member": "Europe_4096_x_4096-4/flevo_2.png"
+    }
+  ]
+}
