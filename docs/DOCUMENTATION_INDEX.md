@@ -15,6 +15,10 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [data/historical-populations/README.md](../data/historical-populations/README.md) | Active guide |
 | [data/towns/README.md](../data/towns/README.md) | Active guide |
 | [data/towns/SWEDEN_ADDONS_README.md](../data/towns/SWEDEN_ADDONS_README.md) | Historical report / experiment |
+| [docs/INSTALLATION.md](INSTALLATION.md) | Scenario setup and NewGRF acquisition |
+| [docs/MULTIPLAYER.md](MULTIPLAYER.md) | Toni/Squirrel multiplayer tests and diagnostics |
+| [docs/LICENSING.md](LICENSING.md) | Third-party licensing and public distribution policy |
+| [docs/RELEASE_PROCESS.md](RELEASE_PROCESS.md) | Release workflow and preflight checklist |
 | [docs/CENSUS_RESEARCH.md](CENSUS_RESEARCH.md) | Active guide |
 | [docs/COMPATIBILITY.md](COMPATIBILITY.md) | Active guide |
 | [docs/DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) | Active guide |
