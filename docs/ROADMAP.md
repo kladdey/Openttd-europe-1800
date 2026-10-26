@@ -36,7 +36,9 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 ## Gameplay and release
 
 - [x] User confirmed a 537-town baseline import and a saved checkpoint.
-- [ ] Test the 31-town coverage supplement separately; expected combined count 568.
+- [x] User supplied supplement regional views and confirmed completion after the 568-count/save prompt.
+- [x] Publish a single 568-town full import for fresh-map rebuilds.
+- [ ] Verify a fresh-map one-step V12 import, exact positions and later growth.
 
 - [ ] Test actual founding locations/failures, growth, spacing and infrastructure room.
 - [ ] Validate FIRS 5.2.0 Temperate Basic and the intended vehicle/track/station sets.

@@ -43,7 +43,8 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [maps/calibration/river_bank_research_v1/README.md](../maps/calibration/river_bank_research_v1/README.md) | Historic bank context, dated crossings and held-target sensitivity |
 | [maps/calibration/reverse_audit_v1/README.md](../maps/calibration/reverse_audit_v1/README.md) | Reverse audit, independent export checks and fixes |
 | [maps/calibration/provenance_v1/README.md](../maps/calibration/provenance_v1/README.md) | Heightmap provenance and exact pixel comparison |
-| [maps/calibration/geography_v11/README.md](../maps/calibration/geography_v11/README.md) | Current V11 candidate report |
+| [maps/calibration/geography_v11/README.md](../maps/calibration/geography_v11/README.md) | Preserved V11 baseline component |
+| [maps/calibration/geography_v12/README.md](../maps/calibration/geography_v12/README.md) | Current complete 568-town import and fresh-map instructions |
 | [maps/calibration/geography_v5_audit_DEFERRED.md](../maps/calibration/geography_v5_audit_DEFERRED.md) | Historical report / experiment |
 | [maps/calibration/geography_v6/README.md](../maps/calibration/geography_v6/README.md) | Historical report / experiment |
 | [maps/calibration/geography_v6/VALIDATION.md](../maps/calibration/geography_v6/VALIDATION.md) | Historical report / experiment |

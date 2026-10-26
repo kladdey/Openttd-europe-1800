@@ -100,3 +100,11 @@ The user confirmed the 537-town baseline count and saved a checkpoint. Import
 [the coverage additions](../maps/calibration/coverage_additions_v1/README.md) once
 into a copy of that populated map; do not reimport the baseline or combine the
 overlapping combined/regional supplement files.
+
+## One-file rebuild
+
+[V12](../maps/calibration/geography_v12/README.md) combines both imports into one
+568-town file for a fresh empty map. It must not be imported into an existing
+537- or 568-town checkpoint. Reproduce with
+`python scripts/build_full_import.py --out scratch/full-v12`. No records are changed
+by this merge; earlier geographic/terrain limitations remain.

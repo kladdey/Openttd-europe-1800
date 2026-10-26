@@ -76,3 +76,8 @@ V11 bank holds and all existing coordinates.
 It preserves V11 and the old Swedish source pack.
 `user_validation_v11_20261026.json` distinguishes the user-confirmed 537-town count
 and saved checkpoint from unverified exact positions and growth.
+
+`user_validation_coverage_20261026.json` records regional screenshot feedback and
+the user’s completion confirmation after the 568-count/save prompt; no combined-count
+screenshot or saved scenario was supplied. [V12](../../maps/calibration/geography_v12/README.md)
+is the exact single-file merge for fresh maps only.
