@@ -1,0 +1,2 @@
+name,reason,evidence_ids
+MODICA/POZZALLO,Merged label names two distinct settlements; current coordinate resembles coastal Pozzallo while Modica is inland. Hold until the historical population/identity join is resolved; do not silently split a single population across two towns.,COORDINATES

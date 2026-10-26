@@ -1,0 +1,3 @@
+name,old_latitude,old_longitude,new_latitude,new_longitude,old_x,old_y,new_x,new_y,shift_tiles,source,reason
+CASTROGIOVANNI,37.551584,14.118638,37.56333,14.27611,0.871061467,0.696953115,0.870590772,0.700968657,16.560271,https://en.wikipedia.org/wiki/Enna,Enna was called Castrogiovanni until 1926; correct erroneous westward input before spacing review
+PIAZZA (ENNA),37.58333,14.43333,37.383,14.367,0.869789316,0.704977772,0.877817102,0.703286354,33.60374,https://en.wikipedia.org/wiki/Piazza_Armerina,Place at Piazza Armerina in Enna province; previous coordinate was too far north

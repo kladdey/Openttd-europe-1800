@@ -1,0 +1,18 @@
+id,kind,title,url_or_path,scope
+CATALOGUE,dataset,Preserved 600-town catalogue and source inventory,data/towns/europe_1800_towns_600_DRAFT.csv,Settlement list and provisional historical/gameplay values; not proof of every historical function or a source-endorsed priority ranking
+COORDINATES,gazetteer,Explicit external reference comparisons,data/geography/coordinate_checks_v8.csv,Published approximate modern settlement references; not independent raster controls or surveyed 1800 centres
+ALTONA_PORT,primary,Port of Hamburg history,https://www.hafen-hamburg.de/en/experience/geschichte/,Altona was an independent competing Danish port with eighteenth-century shipbuilding; no source endorsement of deferral
+ZAAN_HERITAGE,heritage,The Zaan district heyday,https://www.dezaanseschans.nl/en/history/heyday/,Historic industrial mills and shipbuilding explain the importance of the Zaandam exception
+WUPPERTAL_ARCHIVE,primary,Wuppertal municipal archive city chronology,https://www.wuppertal.de/kultur-bildung/stadtarchiv/stadtchronik/600_stadtarchiv_chronik_Wuppertal.php,Barmen and Elberfeld shared an early textile trajectory and remained separate before the 1929 merger
+UBEDA_BAEZA,primary,UNESCO Renaissance Monumental Ensembles of Ubeda and Baeza,https://whc.unesco.org/en/list/522/,Both are significant distinct towns; choosing one is a scenario-space judgement and not UNESCO's recommendation
+GREENWICH_UNESCO,primary,UNESCO Maritime Greenwich,https://whc.unesco.org/en/list/795/,Seventeenth/eighteenth-century maritime scientific and architectural significance
+BATH_UNESCO,primary,UNESCO City of Bath,https://whc.unesco.org/en/list/428/,Georgian spa-city identity distinct from Bristol
+ELVAS_UNESCO,primary,UNESCO Garrison Border Town of Elvas,https://whc.unesco.org/en/list/1367/,Fortified border-corridor role before and after 1800
+WIELICZKA_UNESCO,primary,UNESCO Wieliczka and Bochnia Royal Salt Mines,https://whc.unesco.org/en/list/32/,Medieval origins and distinct salt-mining function; no implication about FIRS configurations
+CETINJE_UNESCO,primary,UNESCO tentative-list Cetinje Historic Core,https://whc.unesco.org/en/tentativelists/5561/,Fifteenth-century castle/monastery origins; much urban expansion belongs to the nineteenth century
+KOTOR_UNESCO,primary,UNESCO Natural and Culturo-Historical Region of Kotor,https://whc.unesco.org/en/list/125/,Historic harbour and steep mountain-enclosed bay context
+VERSAILLES_1789,primary,Palace of Versailles Departure of the King,https://en.chateauversailles.fr/discover/history/key-dates/departure-king-1789,Royal departure in October 1789; do not label Versailles an active royal court in 1800
+MANCHESTER_MARKET,research,Provincial Merchants in Eighteenth-Century England,https://academic.oup.com/ehr/article/136/580/568/6345335,Manchester's late-eighteenth-century marketing and textile-network role; not a ranking of all Lancashire towns
+MANCHESTER_1819,museum,People's History Museum Cotton strikers picketers and Peterloo,https://phm.org.uk/blogposts/cotton-strikers-picketers-peterloo/,Mechanised cotton in Oldham and Stockport by 1819 supports campaign progression; not an 1800 factory census
+JGR_TOWN_RULES,primary,JGRPP 0.73.4 town placement rules,https://github.com/JGRennison/OpenTTD-patches/blob/cd2235f78365bad1dc6769f3b8f8b1e66b24fdf8/src/town_cmd.cpp#L2285,Flat clear/tree terrain and other restrictions; a nearby static pixel is not a successful founding test
+JGR_TILE_TYPES,primary,JGRPP 0.73.4 tile type enumeration,https://github.com/JGRennison/OpenTTD-patches/blob/cd2235f78365bad1dc6769f3b8f8b1e66b24fdf8/src/tile_type.h,Type 2 is road/tram and type 6 water; distinguishes occupied road targets from water

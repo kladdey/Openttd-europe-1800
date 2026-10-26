@@ -3,10 +3,16 @@ Home project
 
 ## Europe 1800 geography work
 
-The latest experiment is the **V7 complete map-covered import**: 576 towns
-from the 600-town master, with 24 outside-map entries documented separately.
-Close neighbours and terrain-risk targets are included and flagged for review.
-It is not yet validated by founding the towns in OpenTTD.
+The latest desk review is **V8**: a proposed 564-town candidate and a separate
+corrected full 576-town comparison import. Two Sicilian inputs were corrected
+before reviewing close pairs. All 600 source entries remain accounted for;
+54 retained terrain flags and in-game founding remain unresolved.
+
+- [V8 review, evidence and reproduction](maps/calibration/geography_v8/README.md)
+- [Proposed 564-town candidate](maps/calibration/geography_v8/Europe_1800_V8_DESK_REVIEWED_CANDIDATE_TEST.json)
+- [Corrected full 576-town import](maps/calibration/geography_v8/Europe_1800_V8_CORRECTED_ALL_IN_BOUNDS_TEST.json)
+- [All 600 retained/deferred decisions](maps/calibration/geography_v8/all_600_decisions.csv)
+- [Refined terrain contact sheet](maps/calibration/geography_v8/terrain_review_contact_sheet.png)
 
 - [V7 results and import instructions](maps/calibration/geography_v7/README.md)
 - [Full 576-town test JSON](maps/calibration/geography_v7/Europe_1800_V7_ALL_IN_BOUNDS_TEST.json)
@@ -26,6 +32,7 @@ python -m pip install -r requirements-geography.txt
 python -m unittest discover -s tests -v
 python scripts/calibrate_heightmap.py --assets source_assets --out scratch/v6-reproduction
 python scripts/expand_europe_towns.py --out scratch/v7-reproduction
+python scripts/review_europe_placements.py --out scratch/v8-reproduction
 ```
 
 The output directory must be new. The 600-town master catalogue, previous

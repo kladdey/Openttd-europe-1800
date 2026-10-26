@@ -1,0 +1,73 @@
+town_a,town_b,recommendation,reason,evidence_ids
+AALST,LOKEREN,RETAIN_BOTH,Keep distinct Flemish centres at nearly 28 tiles; preserve separate local catchments.,CATALOGUE
+ACIREALE,CATANIA,RETAIN_BOTH,Keep the coastal regional centre and its separate northern neighbour; Catania terrain remains unresolved.,CATALOGUE
+ACIREALE,MASCALI,RETAIN_BOTH,Separate eastern Sicilian settlements; retain the 24.7-tile gap with a growth-space caveat.,CATALOGUE
+ALTONA,HAMBURG,DEFER_A,"Retain Hamburg as the core port; defer Altona at 9.5 tiles for space, while explicitly preserving its independent Danish-port exception.",ALTONA_PORT
+AMSTERDAM,HAARLEM,RETAIN_BOTH,Distinct Dutch city centres at 26.4 tiles; retain both and review future growth between them.,COORDINATES
+AMSTERDAM,ZAANDAM,DEFER_B,"Keep Amsterdam; Zaandam's shipbuilding and mill-industry importance warrants an exception queue, but 12.5 tiles risks coalescence.",ZAAN_HERITAGE
+ANTWERPEN,LIER,DEFER_B,Retain Antwerp and Mechelen as the cluster anchors; defer intervening Lier rather than compress three centres.,CATALOGUE
+ANTWERPEN,SINT NIKLAAS,RETAIN_BOTH,Distinct centres nearly 29 tiles apart; retain separate Flemish catchments without imposing a regional quota.,CATALOGUE
+ARNHEM,NIJMEGEN,RETAIN_BOTH,External coordinate checks support two separate cities; preserve their distinct Rhine/Waal corridor roles.,COORDINATES
+BADAJOZ,ELVAS,RETAIN_BOTH,Retain both sides of the historic border corridor; Elvas's fortified-garrison role justifies the 20-tile exception.,ELVAS_UNESCO
+BAEZA,UBEDA,DEFER_A,Both towns are historically important; choose Ubeda using the larger catalogue estimate when only one can fit at 11 tiles. Preserve Baeza's ecclesiastical/educational exception.,UBEDA_BAEZA
+BARMEN,ELBERFELD,DEFER_A,"Represent the extremely tight Wupper cluster with Elberfeld; this is a spatial choice, not a claim that industrial Barmen lacked importance.",WUPPERTAL_ARCHIVE
+BATH,BRISTOL,RETAIN_BOTH,Retain Georgian spa Bath separately from Bristol; distinct functions justify the 26.2-tile pair.,BATH_UNESCO
+BIRMINGHAM,WOLVERHAMPTON,RETAIN_BOTH,Keep two separate Midlands nodes at nearly 30 tiles; future urban growth remains a review item.,CATALOGUE
+BLACKBURN,BOLTON,RETAIN_BOTH,Retain separate Lancashire centres at 28.8 tiles; do not collapse the whole region into one town.,CATALOGUE
+BLACKBURN,PRESTON,RETAIN_BOTH,Retain two Lancashire centres at 24.5 tiles; Preston's river target still requires a terrain review.,CATALOGUE
+BOLTON,MANCHESTER,RETAIN_BOTH,Keep Bolton outside the Manchester core; retain the region's distributed settlement pattern rather than just its dominant market.,MANCHESTER_MARKET
+BOLTON,SALFORD,DEFER_B,Salford is deferred consistently throughout the Manchester cluster; preserve Bolton as a separate outer node.,MANCHESTER_MARKET
+BOLTON,WIGAN,RETAIN_BOTH,Retain distinct Lancashire centres at 21.3 tiles; protect an interurban route rather than merge names.,CATALOGUE
+CALTANISSETA,CASTROGIOVANNI,RETAIN_BOTH,Correcting Castrogiovanni to Enna removes the false under-15 conflict; retain both genuine inland centres in the corrected 15-30 band.,COORDINATES
+CLERMONT-FERRAND,RIOM,RETAIN_BOTH,Retain distinct Auvergne towns at 20 tiles; maintain separate local origins with later growth review.,CATALOGUE
+CREMA,LODI,RETAIN_BOTH,Keep two established Lombard centres at 18.8 tiles; retain separate rural catchments and inspect growth.,CATALOGUE
+CUNEO,MONDOVI,RETAIN_BOTH,Retain these Piedmont endpoints; the cluster is relieved by deferring intermediate Fossano instead.,CATALOGUE
+DELFT,DEN HAAG,DEFER_A,Keep The Hague in the dense southwest Dutch cluster; defer Delft at 12.9 tiles but preserve its cultural/manufacturing exception.,CATALOGUE
+DELFT,LEIDEN,DEFER_A,Delft is deferred consistently for its tighter Hague/Rotterdam conflicts; retain Leiden.,CATALOGUE
+DELFT,ROTTERDAM,DEFER_A,Keep Rotterdam as a major port anchor; defer Delft consistently instead of importing all southwest cluster centres.,CATALOGUE
+DEN HAAG,LEIDEN,RETAIN_BOTH,Retain separate city identities at 24.3 tiles; removal of Delft leaves more corridor space.,COORDINATES
+DORDRECHT,ROTTERDAM,RETAIN_BOTH,Retain separate Dutch centres at 27.4 tiles; do not erase the southern river-network node.,CATALOGUE
+ENKHUIZEN,HOORN,RETAIN_BOTH,Retain both historic Zuiderzee towns at 26.2 tiles; present-day land/water geometry still needs historic-shoreline review.,CATALOGUE
+FOSSANO,MONDOVI,DEFER_A,"Choose Cuneo, Mondovi and Savigliano as the Piedmont cluster anchors; defer intermediate Fossano to preserve corridor space.",CATALOGUE
+FOSSANO,SAVIGLIANO,DEFER_A,The 17-tile pair compounds the Piedmont cluster; defer Fossano consistently rather than alter either town's coordinates.,CATALOGUE
+FRANKFURT AM,HANAU,RETAIN_BOTH,Retain distinct centres at 24.5 tiles; both saved water targets remain flagged rather than snapped away from rivers.,CATALOGUE
+FURTH,NURNBERG,DEFER_A,Keep Nurnberg as the dominant catalogue centre at only 10 tiles separation; preserve Furth as a documented historical exception.,CATALOGUE
+GLASGOW,PAISLEY,RETAIN_BOTH,Retain distinct Scottish centres at 19.7 tiles; Glasgow's water target is not mistaken for proof of wrong geography.,CATALOGUE
+GOUDA,ROTTERDAM,RETAIN_BOTH,Keep an inland Dutch origin separate from the Rotterdam port anchor at 28.5 tiles.,CATALOGUE
+GREENWICH,LONDON,DEFER_A,Keep London; Greenwich's maritime institutions are important but 14.1 tiles does not justify a second growing town in the core candidate.,GREENWICH_UNESCO
+HAARLEM,ZAANDAM,DEFER_B,Zaandam is deferred for its tighter Amsterdam conflict; Haarlem remains a distinct western centre.,ZAAN_HERITAGE
+HALBERSTADT,QUEDLINBURG,RETAIN_BOTH,Retain two established Harz-edge centres at 19 tiles with a later growth-space check.,CATALOGUE
+HEIDELBERG,MANNHEIM,RETAIN_BOTH,Keep two distinct centres at 26.5 tiles; preserve the interurban corridor and separate catchments.,CATALOGUE
+KRAKOW,Wieliczka,RETAIN_BOTH,Retain the salt-mining settlement despite proximity to Krakow; mining has documented medieval origins and distinct transport demand.,WIELICZKA_UNESCO
+LIER,MECHELEN,DEFER_A,Defer Lier at 15.6 tiles in the Antwerp-Mechelen cluster; preserve its entry and historical identity for possible later reinstatement.,CATALOGUE
+LIVORNO,PISA,RETAIN_BOTH,Retain two distinct Tuscan centres at almost 30 tiles; protect the port/interior relationship.,CATALOGUE
+LOKEREN,SINT NIKLAAS,RETAIN_BOTH,Retain separate Flemish centres at 18.7 tiles; no arbitrary total-town target is used.,CATALOGUE
+LUCCA,PISA,RETAIN_BOTH,Retain distinct Tuscan towns at 23.9 tiles; Lucca's saved water target remains an independent terrain issue.,CATALOGUE
+MANCHESTER,OLDHAM,RETAIN_BOTH,"Retain Oldham as an explicitly documented industrial-neighbour exception at 16.2 tiles; this requires later growth testing, not a claim of ample space.",MANCHESTER_1819
+MANCHESTER,SALFORD,DEFER_B,At 5.6 tiles keep Manchester's core entry; defer Salford without erasing its separate historical identity.,MANCHESTER_MARKET
+MANCHESTER,STOCKPORT,DEFER_B,Borderline 15 tiles within centre-choice uncertainty; defer Stockport to relieve the crowded Manchester cluster while preserving its industrial exception. This is not a threshold-only decision.,MANCHESTER_1819
+MESSINA,REGGIO DI CALABRIA,RETAIN_BOTH,Keep opposite sides of the Strait of Messina: different landmasses and a crossing opportunity outweigh short tile distance.,COORDINATES
+MILANO,MONZA,RETAIN_BOTH,Retain Monza as a separate Lombard origin at 21.4 tiles; flag metropolitan growth rather than merge names.,CATALOGUE
+MURCIA,ORIHUELA,RETAIN_BOTH,Retain distinct southeastern Spanish centres at 25.2 tiles with separate local catchments.,CATALOGUE
+NEWCASTLE,SUNDERLAND,RETAIN_BOTH,Retain both northeastern English port centres at 25.5 tiles; avoid collapsing separate coastal transport origins.,CATALOGUE
+NICOSIA,PIAZZA (ENNA),NO_LONGER_CLOSE,Correcting Piazza Armerina removes this V7 close-pair flag; no town is deferred on the old erroneous geometry.,COORDINATES
+NOVARA,VERCELLI,RETAIN_BOTH,Retain distinct Piedmont centres at 28.5 tiles; leave rural catchment and corridor planning to later layout review.,CATALOGUE
+OLDHAM,SALFORD,DEFER_B,Salford remains deferred for the Manchester core conflict; retain Oldham's distinct industrial-neighbour role.,MANCHESTER_1819
+OLDHAM,STOCKPORT,DEFER_B,Stockport remains deferred for the Manchester sub-15 conflict; do not make contradictory per-pair choices.,MANCHESTER_1819
+PARIS,VERSAILLES,RETAIN_BOTH,"Corrected separation is 24.2 tiles. Retain Versailles's separate historical/administrative identity, but do not describe it as an active royal court in 1800.",VERSAILLES_1789
+SALFORD,STOCKPORT,DEFER_BOTH,Both entries are deferred consistently for their separate sub-15 conflicts with Manchester; neither is deleted from the catalogue.,MANCHESTER_MARKET
+SHREWSBURY,WENLOCK,RETAIN_BOTH,Keep separate Shropshire origins at 25.3 tiles; no unsupported assumption about 1800 railway or industry is required.,CATALOGUE
+TRIESTE,Koper,RETAIN_BOTH,"Retain separate Adriatic coastal origins at 17.3 tiles, with port-growth and harbour-approach review still pending.",COORDINATES
+WARRINGTON,WIGAN,RETAIN_BOTH,Retain distinct outer Lancashire centres at 25.8 tiles; the Manchester core is already reduced separately.,CATALOGUE
+Rzeszów,Łańcut,RETAIN_BOTH,Keep distinct southeastern Polish centres at 24.4 tiles; provisional gameplay populations do not establish historic rank.,CATALOGUE
+Jarosław,Przeworsk,RETAIN_BOTH,Retain separate southeastern Polish origins at 20.4 tiles with a later corridor/growth check.,CATALOGUE
+Sanok,Lesko,RETAIN_BOTH,Retain separate Carpathian-area origins at 19.2 tiles; Sanok's saved river target remains flagged.,CATALOGUE
+Krosno,Brzozów,RETAIN_BOTH,Retain distinct southeastern Polish centres at 26 tiles without assuming modern industries existed in 1800.,CATALOGUE
+Łańcut,Przeworsk,RETAIN_BOTH,Keep both centres at 27.7 tiles; the accepted corridor chain remains visible rather than merged.,CATALOGUE
+Wałbrzych,Świdnica,RETAIN_BOTH,Retain separate Silesian origins at 24.4 tiles; modern industrial importance is not used as a fabricated 1800 population.,CATALOGUE
+Hradec Králové,Pardubice,RETAIN_BOTH,"Retain two separate Czech centres at 29.2 tiles, near the generally-coexist band.",CATALOGUE
+Banská Bystrica,Zvolen,RETAIN_BOTH,Retain separate Slovak regional centres at 26.3 tiles and preserve an interurban connection opportunity.,CATALOGUE
+Zenica,Travnik,RETAIN_BOTH,Retain distinct Bosnian centres at 25.5 tiles; do not project later steel-industry scale backward into 1800.,CATALOGUE
+Cetinje,Kotor,RETAIN_BOTH,Retain the historic inland monastery/political centre and the mountain-enclosed harbour; terrain separation matters more than straight tile distance.,CETINJE_UNESCO;KOTOR_UNESCO
+CALTAGIRONE,PIAZZA (ENNA),RETAIN_BOTH,Newly exposed 28.4-tile pair after correcting Piazza Armerina; retain two genuine Sicilian centres and document the changed geometry.,COORDINATES
+MAZZARINO,PIAZZA (ENNA),RETAIN_BOTH,Newly exposed 20.5-tile pair after correcting Piazza Armerina; retain separate inland centres with later growth review.,COORDINATES

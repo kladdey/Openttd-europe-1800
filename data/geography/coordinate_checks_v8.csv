@@ -1,0 +1,32 @@
+name,reference_name,latitude,longitude,source,interpretation
+AMSTERDAM,Amsterdam,52.37278,4.89361,https://en.wikipedia.org/wiki/Amsterdam,Approximate city-centre reference
+HAARLEM,Haarlem,52.38139,4.63556,https://en.wikipedia.org/wiki/Haarlem,Approximate city-centre reference
+ZAANDAM,Zaandam,52.433,4.833,https://en.wikipedia.org/wiki/Zaandam,Rounded settlement reference
+DELFT,Delft,52.01167,4.35917,https://en.wikipedia.org/wiki/Delft,Approximate city-centre reference
+DEN HAAG,The Hague,52.08000,4.31000,https://en.wikipedia.org/wiki/The_Hague,Approximate city-centre reference
+LEIDEN,Leiden,52.16,4.49,https://en.wikipedia.org/wiki/Leiden,Rounded published reference; not a surveyed centre
+ROTTERDAM,Rotterdam,51.92,4.48,https://en.wikipedia.org/wiki/Rotterdam,Rounded city reference
+ARNHEM,Arnhem,51.983,5.917,https://en.wikipedia.org/wiki/Arnhem,Rounded city reference
+NIJMEGEN,Nijmegen,51.84750,5.86250,https://en.wikipedia.org/wiki/Nijmegen,Approximate city-centre reference
+MANCHESTER,Manchester,53.47944,-2.24528,https://en.wikipedia.org/wiki/Manchester,Approximate city-centre reference
+SALFORD,Salford,53.4830,-2.2931,https://en.wikipedia.org/wiki/Salford,Settlement reference rather than modern city boundary centroid
+STOCKPORT,Stockport,53.4083,-2.1494,https://en.wikipedia.org/wiki/Stockport,Approximate settlement reference
+OLDHAM,Oldham,53.544,-2.117,https://en.wikipedia.org/wiki/Oldham,Rounded settlement reference
+BOLTON,Bolton,53.5783,-2.43,https://en.wikipedia.org/wiki/Bolton,Approximate settlement reference
+PARIS,Paris,48.8567,2.3522,https://en.wikipedia.org/wiki/Paris,Approximate city-centre reference
+VERSAILLES,Versailles city,48.8050,2.1350,https://en.wikipedia.org/wiki/Versailles_(city),City reference; not the palace point from redirected Versailles article
+MESSINA,Messina,38.19361,15.55417,https://en.wikipedia.org/wiki/Messina,Approximate settlement reference
+REGGIO DI CALABRIA,Reggio Calabria,38.11139,15.66194,https://en.wikipedia.org/wiki/Reggio_Calabria,Approximate settlement reference
+TRIESTE,Trieste,45.65028,13.77028,https://en.wikipedia.org/wiki/Trieste,Approximate settlement reference
+Koper,Koper,45.550,13.733,https://en.wikipedia.org/wiki/Koper,Rounded settlement reference
+BADAJOZ,Badajoz,38.88028,-6.97528,https://en.wikipedia.org/wiki/Badajoz,Approximate settlement reference
+ELVAS,Elvas,38.867,-7.150,https://en.wikipedia.org/wiki/Elvas,Rounded municipal reference; allow centre-choice uncertainty
+KRAKOW,Krakow,50.06139,19.93722,https://en.wikipedia.org/wiki/Krak%C3%B3w,Approximate city-centre reference
+Wieliczka,Wieliczka,49.98944,20.06611,https://en.wikipedia.org/wiki/Wieliczka,Approximate settlement reference
+Cetinje,Cetinje,42.3894,18.9247,https://en.wikipedia.org/wiki/Cetinje,Approximate settlement reference
+Kotor,Kotor,42.43000,18.77000,https://en.wikipedia.org/wiki/Kotor,Approximate settlement reference
+CALTANISSETA,Caltanissetta,37.49028,14.06250,https://en.wikipedia.org/wiki/Caltanissetta,Coordinate only; history not inferred from this article
+CASTROGIOVANNI,Enna formerly Castrogiovanni,37.56333,14.27611,https://en.wikipedia.org/wiki/Enna,Historical name explicitly identified; source position requires correction
+PIAZZA (ENNA),Piazza Armerina,37.383,14.367,https://en.wikipedia.org/wiki/Piazza_Armerina,Enna province qualifier is not the location of the town of Enna
+MODICA/POZZALLO,Modica,36.850,14.767,https://en.wikipedia.org/wiki/Modica,One of two distinct places in a merged catalogue label; do not choose silently
+MODICA/POZZALLO,Pozzallo,36.733,14.850,https://en.wikipedia.org/wiki/Pozzallo,Other place in merged label; draft position resembles coastal Pozzallo rather than inland Modica
