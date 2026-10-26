@@ -1,0 +1,20 @@
+{
+  "version": "V12",
+  "baseline_towns": 537,
+  "additions": 31,
+  "full_import_towns": 568,
+  "baseline_records_unchanged": true,
+  "addition_records_unchanged": true,
+  "reviewed_close_pairs": 50,
+  "minimum_actual_target_spacing": 15.620499,
+  "intended_use": "One import into a fresh empty 4096x4096 map; do not load into an already populated checkpoint.",
+  "input_sha256": {
+    "maps/calibration/geography_v11/Europe_1800_V11_CLEAR_TARGET_CANDIDATE_TEST.json": "5f151f91cece608ac9c6e9f1fb89f5d321b3048668e7bd287ddc747cb308e88b",
+    "maps/calibration/coverage_additions_v1/Europe_1800_ALL_COVERAGE_ADDITIONS_V1_TEST.json": "fd7781175446ef1a30e8ad436fe7d606366c9a55d0025202b4dcfa1757425f5c",
+    "maps/calibration/geography_v11/spacing_audit.csv": "7cc03f4c1624571ef1dd77415f1b22096a97b2411fffaccea6dc5185b7290232",
+    "maps/calibration/coverage_additions_v1/spacing_review.csv": "3afae3b49d298fcb7a676cfd325f3ffedf99aebea9e302f138ba71b83007201d"
+  },
+  "output_sha256": "753868a44669ff923e2fe74f5a904bd662a5aff69420961a044c92ebd8868f95",
+  "new_coordinate_changes": 0,
+  "validation": "Exact composition of previously tested components. User confirmed completion after the 568-town count/save prompt; no save file supplied and no fresh-map V12 full-import test independently observed."
+}

@@ -1,0 +1,19 @@
+{
+  "recorded_date": "2026-10-26",
+  "source": "User screenshots and confirmation in this conversation",
+  "game": "OpenTTD JGRPP 0.73.4",
+  "baseline_screenshot_count": 537,
+  "expected_additions": 31,
+  "expected_combined_count": 568,
+  "user_confirmation": "User replied Done after being asked to confirm 568 towns and save a new checkpoint.",
+  "count_evidence": "User confirmation following the count/save prompt; no screenshot showing the combined Town Directory count was supplied.",
+  "observed_regional_views": [
+    "North African and Balearic additions visible",
+    "Swedish additions visible",
+    "S\u00f6dert\u00e4lje visible near the northern map boundary"
+  ],
+  "saved_filename": null,
+  "submitted_scenario_file": null,
+  "fresh_map_one_step_v12_test_observed": false,
+  "limitations": "Count/completion and regional visual feedback only. No independent inspection of saved town IDs, exact actual coordinates, growth or multiplayer."
+}

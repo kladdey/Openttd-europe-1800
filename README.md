@@ -3,17 +3,22 @@
 Historical Europe scenario work for JGRPP 0.73.4, Windows 11 and a 4096×4096 map,
 with an intended 1800–2025 campaign and FIRS 5.2.0 Temperate Basic industries.
 
-The latest placement checkpoint is **V11**: a **537-town clear-target test import**,
-plus separate 564- and 576-town comparisons. All 600 source records and original
-populations remain preserved. Twenty-eight original terrain flags have clear-site corrections;
-27 terrain cases remain unresolved, including the additional Orihuela conflict.
-The user confirmed a 537-town import in JGRPP 0.73.4 and saved a checkpoint.
-Individual actual positions, growth and playability remain unverified.
+The latest full import is **V12: 568 towns**, combining the 537-town baseline and
+31 additions across Sweden, North Africa and the Balearics. It is for a **fresh
+empty map only**. Existing populated checkpoints do not need another import.
+All 600 original source records and their population settings remain preserved;
+original deferrals and the supplement's review holds remain documented.
 
+The user confirmed completion after the 568-town count/save prompt and supplied
+regional screenshots. Exact actual town positions, growth and playability remain
+unverified; no fresh-map one-step V12 test has yet been independently observed.
+
+- [Complete 568-town V12 JSON — fresh maps only](maps/calibration/geography_v12/Europe_1800_V12_568_TOWN_FULL_IMPORT_TEST.json)
+- [V12 composition and import instructions](maps/calibration/geography_v12/README.md)
 - [31-town coverage supplement — import once into your saved 537-town map](maps/calibration/coverage_additions_v1/README.md)
 - [Current status and limitations](docs/PROJECT_STATUS.md)
-- [Candidate files, findings and import instructions](maps/calibration/geography_v11/README.md)
-- [537-town candidate JSON](maps/calibration/geography_v11/Europe_1800_V11_CLEAR_TARGET_CANDIDATE_TEST.json)
+- [Earlier V11 files, findings and instructions](maps/calibration/geography_v11/README.md)
+- [Earlier 537-town baseline JSON](maps/calibration/geography_v11/Europe_1800_V11_CLEAR_TARGET_CANDIDATE_TEST.json)
 - [Interactive map — download HTML and open locally](maps/calibration/geography_v11/visualization/evidence_map.html)
 - [Static map](maps/calibration/geography_v11/visualization/evidence_overview.png)
 - [All 600 retained/deferred decisions](maps/calibration/geography_v11/all_600_decisions.csv)
@@ -25,10 +30,10 @@ Individual actual positions, growth and playability remain unverified.
 - [Offline workflow](docs/GEOGRAPHY_WORKFLOW.md) and [scripts](scripts/README.md)
 - [Roadmap](docs/ROADMAP.md) and [all documentation](docs/DOCUMENTATION_INDEX.md)
 
-A clear target is not a founding guarantee: 132 candidate targets have non-flat
+A clear target is not a founding guarantee: 143 combined targets have non-flat
 corners in at least one supplied scenario. Source CRS and exact historical
 shoreline/river registration remain uncertain. Continue geographic review offline;
-reserve founding, growth and multiplayer checks for when OpenTTD is available.
+test actual founding, growth and multiplayer separately.
 
 Preserve original assets, the master dataset, previous experiments and NewGRF
 configuration. Use fresh output directories and new scenario filenames.
