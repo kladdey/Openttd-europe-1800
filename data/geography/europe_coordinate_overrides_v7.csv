@@ -1,0 +1,13 @@
+name,latitude,longitude,region,source,reason
+BRANDENBURG,52.417,12.533,Germany,https://en.wikipedia.org/wiki/Brandenburg_an_der_Havel,Carry forward documented V6 correction
+Głogów,51.65889,16.08028,Poland,https://en.wikipedia.org/wiki/G%C5%82og%C3%B3w,Source coordinate for missing draft companion row
+Łowicz,52.100,19.933,Poland,https://en.wikipedia.org/wiki/%C5%81owicz,Published approximate coordinate for missing draft companion row
+Sieradz,51.600,18.750,Poland,https://en.wikipedia.org/wiki/Sieradz,Published approximate coordinate for missing draft companion row
+Rawicz,51.60917,16.85750,Poland,https://en.wikipedia.org/wiki/Rawicz,Source coordinate for missing draft companion row
+Písek,49.30889,14.14750,Czech Republic,https://en.wikipedia.org/wiki/P%C3%ADsek,Source coordinate for missing draft companion row
+Krems,48.417,15.617,Austria,https://en.wikipedia.org/wiki/Krems_an_der_Donau,Published approximate coordinate for Krems an der Donau; missing draft companion row
+GREENWICH,51.48,0.00,England and Wales,https://en.wikipedia.org/wiki/Greenwich,Published approximate settlement coordinate replaces inaccurate draft position
+BOULOGNE,50.7264,1.6147,France,https://en.wikipedia.org/wiki/Boulogne-sur-Mer,Provisional identity correction to Channel port supported by de Vries 12000 estimate versus Billancourt 2481 in 1800; retain original name and population
+BREST,48.39056,-4.48611,France,https://en.wikipedia.org/wiki/Brest%2C_France,France region identifies Breton naval port; original draft incorrectly used Brest in Belarus
+MUNSTER,51.96250,7.62556,Germany,https://en.wikipedia.org/wiki/M%C3%BCnster,Germany region identifies city of Muenster; original draft incorrectly used Irish province
+FREIBURG,47.99500,7.85000,Germany,https://en.wikipedia.org/wiki/Freiburg_im_Breisgau,Germany region identifies Freiburg im Breisgau; original draft incorrectly used Fribourg in Switzerland

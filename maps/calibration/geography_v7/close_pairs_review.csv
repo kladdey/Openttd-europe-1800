@@ -1,0 +1,71 @@
+town_a,town_b,distance_tiles,actual_target_distance_tiles,policy,decision
+AALST,LOKEREN,27.858956,27.45906,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ACIREALE,CATANIA,18.887207,19.697716,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ACIREALE,MASCALI,24.716001,24.186773,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ALTONA,HAMBURG,9.520764,9.848858,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+AMSTERDAM,HAARLEM,26.434397,27.018512,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+AMSTERDAM,ZAANDAM,12.480991,12.206556,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ANTWERPEN,LIER,19.57936,19.416488,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ANTWERPEN,SINT NIKLAAS,28.583584,28.460499,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ARNHEM,NIJMEGEN,23.376874,22.803509,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BADAJOZ,ELVAS,20.084717,20.024984,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BAEZA,UBEDA,10.974292,10.440307,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BARMEN,ELBERFELD,6.963245,7.0,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BATH,BRISTOL,26.239951,26.832816,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BIRMINGHAM,WOLVERHAMPTON,29.370124,29.410882,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BLACKBURN,BOLTON,28.848001,29.614186,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BLACKBURN,PRESTON,24.525037,24.083189,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BOLTON,MANCHESTER,25.535265,25.612497,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BOLTON,SALFORD,20.671626,19.79899,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+BOLTON,WIGAN,21.293279,21.587033,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+CALTANISSETA,CASTROGIOVANNI,11.646367,12.529964,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+CLERMONT-FERRAND,RIOM,20.005812,19.416488,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+CREMA,LODI,18.801403,18.788294,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+CUNEO,MONDOVI,28.602856,29.068884,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+DELFT,DEN HAAG,12.93813,12.529964,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+DELFT,LEIDEN,28.738955,27.784888,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+DELFT,ROTTERDAM,18.909208,19.104973,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+DEN HAAG,LEIDEN,24.334093,23.853721,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+DORDRECHT,ROTTERDAM,27.448638,27.586228,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+ENKHUIZEN,HOORN,26.203546,26.0,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+FOSSANO,MONDOVI,28.191387,29.154759,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+FOSSANO,SAVIGLIANO,16.988899,16.155494,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+FRANKFURT AM,HANAU,24.524345,24.186773,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+FURTH,NURNBERG,9.952162,9.486833,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+GLASGOW,PAISLEY,19.668969,19.646883,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+GOUDA,ROTTERDAM,28.492383,28.301943,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+GREENWICH,LONDON,14.081924,13.928388,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+HAARLEM,ZAANDAM,21.951512,21.931712,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+HALBERSTADT,QUEDLINBURG,19.046923,18.867962,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+HEIDELBERG,MANNHEIM,26.464126,26.627054,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+KRAKOW,Wieliczka,18.116415,17.691806,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+LIER,MECHELEN,15.608921,15.297059,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+LIVORNO,PISA,29.599945,29.410882,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+LOKEREN,SINT NIKLAAS,18.660408,18.867962,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+LUCCA,PISA,23.914788,23.706539,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+MANCHESTER,OLDHAM,16.221519,15.620499,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+MANCHESTER,SALFORD,5.644829,6.324555,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+MANCHESTER,STOCKPORT,14.477406,14.422205,under_15_review_importance,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+MESSINA,REGGIO DI CALABRIA,17.904682,18.439089,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+MILANO,MONZA,21.352289,21.023796,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+MURCIA,ORIHUELA,25.202795,25.612497,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+NEWCASTLE,SUNDERLAND,25.494131,26.0,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+NICOSIA,PIAZZA (ENNA),27.577533,27.166155,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+NOVARA,VERCELLI,28.547326,28.319605,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+OLDHAM,SALFORD,20.364659,19.697716,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+OLDHAM,STOCKPORT,22.471699,22.36068,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+PARIS,VERSAILLES,24.152608,23.769729,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+SALFORD,STOCKPORT,18.908166,19.79899,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+SHREWSBURY,WENLOCK,25.310371,25.632011,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+TRIESTE,Koper,17.298106,16.763055,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+WARRINGTON,WIGAN,25.787167,25.179357,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Rzeszów,Łańcut,24.449537,24.515301,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Jarosław,Przeworsk,20.438414,20.248457,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Sanok,Lesko,19.187014,19.104973,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Krosno,Brzozów,25.996824,26.019224,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Łańcut,Przeworsk,27.725454,28.071338,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Wałbrzych,Świdnica,24.424632,24.186773,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Hradec Králové,Pardubice,29.209302,29.614186,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Banská Bystrica,Zvolen,26.295719,26.019224,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Zenica,Travnik,25.546486,25.317978,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
+Cetinje,Kotor,16.984885,17.088007,15_to_30_individual_review,BOTH INCLUDED FOR REQUESTED ALL-TOWN TEST; importance/transport exception review pending
