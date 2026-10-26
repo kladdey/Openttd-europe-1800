@@ -18,7 +18,7 @@ Documentation was synchronized and merged in [PR #1](https://github.com/kladdey/
 | Heightmap provenance | Exact pixel match to UseYourIllusion’s Europe v4 (2014); original DEM CRS still unknown |
 | Original heightmap and scenarios | Committed and hash-checked; no scenario edited |
 | Inland checks | 10 lake basins reviewed, 7 diagnostic comparisons; Arles/Alençon bank holds remain open |
-| Automated validation | 81 Python tests; V9/V10/V11 map smoke tests passed |
+| Automated validation | 86 Python tests; V9/V10/V11 map smoke tests passed |
 | In-game validation | 537-count screenshot; supplement regional views and completion confirmation after 568-count/save prompt; no save supplied |
 
 Clear means nonzero source elevation and clear ground in both supplied scenario
@@ -65,3 +65,9 @@ The [V12 full JSON](../maps/calibration/geography_v12/README.md) is an exact mer
 not a replacement import for an already populated save. All records are unchanged.
 The user confirmed completion after the 568-count/save prompt; this is recorded as
 user-reported feedback. A fresh-map one-step V12 import remains to be tested.
+
+The [whole-map coverage screen](../maps/calibration/coverage_gap_audit_v1/README.md)
+records 62 research leads and 83 distinct existing deferrals, with no new import
+or coordinate change. Priority gaps include Jutland/Funen, southern Norway, Wales,
+northern Spain, Portugal, Corsica/Sardinia, Crete, southern Italy and the western
+Belarus strip. Distance alone does not justify filling rural or mountain terrain.

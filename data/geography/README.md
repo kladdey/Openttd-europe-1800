@@ -81,3 +81,7 @@ and saved checkpoint from unverified exact positions and growth.
 the user’s completion confirmation after the 568-count/save prompt; no combined-count
 screenshot or saved scenario was supplied. [V12](../../maps/calibration/geography_v12/README.md)
 is the exact single-file merge for fresh maps only.
+
+`coverage_gap_research_v1.json` contains 62 cited, approximate research points and
+21 overlapping study windows. [The coverage screen](../../maps/calibration/coverage_gap_audit_v1/README.md)
+does not generate town imports, change V12 or lift any recorded deferral.

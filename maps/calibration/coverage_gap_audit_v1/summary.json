@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "current_towns": 568,
+  "research_candidates": 62,
+  "candidate_stages": {
+    "GAP_RESEARCH_CANDIDATE": 61,
+    "SUB_15_IMPORTANCE_EXCEPTION_REVIEW": 1
+  },
+  "known_deferrals": 83,
+  "new_imports_generated": 0,
+  "town_coordinate_changes": 0,
+  "source_grid_step": 8,
+  "grid_cell_size": 128,
+  "nonzero_source_samples": 137855,
+  "fraction_nonzero_samples_over_100_tiles": 0.2688,
+  "fraction_nonzero_samples_over_200_tiles": 0.0698,
+  "preserved_input_sha256": {
+    "maps/calibration/geography_v11/all_600_decisions.csv": "bce9343ee233a879ff763a4e87ba683167dc1fb4e2b96123b1aadae4f8f834a9",
+    "maps/calibration/coverage_additions_v1/all_candidate_decisions.csv": "e1c99a7eecab185c6e80a217e40738854795fd0c2450a0614034c977533a73e5"
+  },
+  "input_import_sha256": "753868a44669ff923e2fe74f5a904bd662a5aff69420961a044c92ebd8868f95",
+  "research_sha256": "08a25e6e17006284c2d78baa7b06f7ed16ffd4166fe0c4dca7b8e7edf913a0b6",
+  "model_sha256": "263b814b4ce30e93f9034c8d328217f2e70681ccb362fa619bc5d5d0116e1e50",
+  "limitations": "Research shortlist only: no founding points, population proposals, corrected bank positions or import JSON. Generic city coordinates may be outside the historic core. Regional context sources support examples, not every named town. Detailed per-site pre-1800 verification remains required. Distance to a town is Euclidean across water and mountains, not travel distance, rural population coverage or proof that another town is needed."
+}

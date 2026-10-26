@@ -108,3 +108,11 @@ overlapping combined/regional supplement files.
 537- or 568-town checkpoint. Reproduce with
 `python scripts/build_full_import.py --out scratch/full-v12`. No records are changed
 by this merge; earlier geographic/terrain limitations remain.
+
+## Coverage screening
+
+[The coverage gap audit](../maps/calibration/coverage_gap_audit_v1/README.md) uses
+V12 planned target locations and the original source raster. Its distance colours,
+approximate regional windows and generic city-reference queue are research aids,
+not founding sites or density quotas. Existing held towns are reviewed separately.
+Reproduce with `python scripts/audit_coverage_gaps.py --out scratch/coverage-gaps`.

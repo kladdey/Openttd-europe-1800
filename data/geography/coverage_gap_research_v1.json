@@ -1,0 +1,1033 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-26",
+  "input_import": "maps/calibration/geography_v12/Europe_1800_V12_568_TOWN_FULL_IMPORT_TEST.json",
+  "import_sha256": "753868a44669ff923e2fe74f5a904bd662a5aff69420961a044c92ebd8868f95",
+  "sample_step_source_pixels": 8,
+  "cell_size_source_pixels": 128,
+  "candidates": [
+    {
+      "id": "G001",
+      "name": "Aarhus",
+      "study_region": "Denmark",
+      "latitude": 56.1572,
+      "longitude": 10.2107,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Aarhus",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Aarhus",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G002",
+      "name": "Odense",
+      "study_region": "Denmark",
+      "latitude": 55.39583,
+      "longitude": 10.38861,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Odense",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Odense",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G003",
+      "name": "Ribe",
+      "study_region": "Denmark",
+      "latitude": 55.32833,
+      "longitude": 8.76222,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Ribe",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Ribe",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G004",
+      "name": "Aalborg",
+      "study_region": "Denmark",
+      "latitude": 57.05,
+      "longitude": 9.917,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Aalborg",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Aalborg",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G005",
+      "name": "Viborg",
+      "study_region": "Denmark",
+      "latitude": 56.433,
+      "longitude": 9.4,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Viborg,_Denmark",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Viborg",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G006",
+      "name": "Randers",
+      "study_region": "Denmark",
+      "latitude": 56.457,
+      "longitude": 10.039,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Randers",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Randers",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G007",
+      "name": "Kolding",
+      "study_region": "Denmark",
+      "latitude": 55.49167,
+      "longitude": 9.5,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Kolding",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Kolding",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G008",
+      "name": "Roskilde",
+      "study_region": "Denmark",
+      "latitude": 55.65,
+      "longitude": 12.083,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Roskilde",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Roskilde",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G009",
+      "name": "Helsingør",
+      "study_region": "Denmark",
+      "latitude": 56.03611,
+      "longitude": 12.60833,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Helsing%C3%B8r",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Helsing%C3%B8r",
+      "regional_context_source": "https://names.ku.dk/selectednames/ribe",
+      "historical_role": "Historic trading, cathedral or royal centre; rebuild a credible Danish port/market network rather than adding arbitrary rural towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G010",
+      "name": "Stavanger",
+      "study_region": "Southern Norway",
+      "latitude": 58.97,
+      "longitude": 5.73139,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Stavanger",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Stavanger",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Stavanger",
+      "historical_role": "Historic southern port and shipping corridor; verify early town footprint and northern map margin.",
+      "study_priority": 2
+    },
+    {
+      "id": "G011",
+      "name": "Kristiansand",
+      "study_region": "Southern Norway",
+      "latitude": 58.14671,
+      "longitude": 7.9956,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Kristiansand",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Kristiansand",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Kristiansand",
+      "historical_role": "Historic southern port and shipping corridor; verify early town footprint and northern map margin.",
+      "study_priority": 2
+    },
+    {
+      "id": "G012",
+      "name": "Arendal",
+      "study_region": "Southern Norway",
+      "latitude": 58.46151,
+      "longitude": 8.77253,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Arendal",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Arendal",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Arendal",
+      "historical_role": "Historic southern port and shipping corridor; verify early town footprint and northern map margin.",
+      "study_priority": 2
+    },
+    {
+      "id": "G013",
+      "name": "Swansea",
+      "study_region": "Wales",
+      "latitude": 51.617,
+      "longitude": -3.95,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Swansea",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Swansea",
+      "regional_context_source": "https://cadw.gov.wales/learn/sites-through-centuries/industrial-wales",
+      "historical_role": "Historic market/castle settlement or eighteenth-century metalworking centre; distinguish the 1800 town from later coal-port expansion.",
+      "study_priority": 1
+    },
+    {
+      "id": "G014",
+      "name": "Cardiff",
+      "study_region": "Wales",
+      "latitude": 51.48167,
+      "longitude": -3.17917,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Cardiff",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Cardiff",
+      "regional_context_source": "https://cadw.gov.wales/learn/sites-through-centuries/industrial-wales",
+      "historical_role": "Historic market/castle settlement or eighteenth-century metalworking centre; distinguish the 1800 town from later coal-port expansion.",
+      "study_priority": 1
+    },
+    {
+      "id": "G015",
+      "name": "Carmarthen",
+      "study_region": "Wales",
+      "latitude": 51.85861,
+      "longitude": -4.31333,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Carmarthen",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Carmarthen",
+      "regional_context_source": "https://cadw.gov.wales/learn/sites-through-centuries/industrial-wales",
+      "historical_role": "Historic market/castle settlement or eighteenth-century metalworking centre; distinguish the 1800 town from later coal-port expansion.",
+      "study_priority": 1
+    },
+    {
+      "id": "G016",
+      "name": "Merthyr Tydfil",
+      "study_region": "Wales",
+      "latitude": 51.743,
+      "longitude": -3.378,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Merthyr_Tydfil",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Merthyr_Tydfil",
+      "regional_context_source": "https://cadw.gov.wales/learn/sites-through-centuries/industrial-wales",
+      "historical_role": "Historic market/castle settlement or eighteenth-century metalworking centre; distinguish the 1800 town from later coal-port expansion.",
+      "study_priority": 1
+    },
+    {
+      "id": "G017",
+      "name": "A Coruña",
+      "study_region": "Northern Spain",
+      "latitude": 43.37111,
+      "longitude": -8.39611,
+      "coordinate_source": "https://en.wikipedia.org/wiki/A_Coru%C3%B1a",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/A_Coru%C3%B1a",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G018",
+      "name": "Vigo",
+      "study_region": "Northern Spain",
+      "latitude": 42.231,
+      "longitude": -8.712,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Vigo",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Vigo",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G019",
+      "name": "Oviedo",
+      "study_region": "Northern Spain",
+      "latitude": 43.36,
+      "longitude": -5.845,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Oviedo",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Oviedo",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G020",
+      "name": "Santander",
+      "study_region": "Northern Spain",
+      "latitude": 43.46278,
+      "longitude": -3.805,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Santander%2C_Spain",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Santander%2C_Spain",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G021",
+      "name": "León",
+      "study_region": "Northern Spain",
+      "latitude": 42.60556,
+      "longitude": -5.57,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Le%C3%B3n%2C_Spain",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Le%C3%B3n%2C_Spain",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G022",
+      "name": "Pamplona",
+      "study_region": "Northern Spain",
+      "latitude": 42.817,
+      "longitude": -1.65,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Pamplona",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Pamplona",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G023",
+      "name": "Logroño",
+      "study_region": "Northern Spain",
+      "latitude": 42.465,
+      "longitude": -2.44556,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Logro%C3%B1o",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Logro%C3%B1o",
+      "regional_context_source": "https://www.spain.info/en/destination/oviedo/",
+      "historical_role": "Historic coastal, episcopal or regional market centre; address the northern/Iberian imbalance without densifying Andalusia.",
+      "study_priority": 1
+    },
+    {
+      "id": "G024",
+      "name": "Braga",
+      "study_region": "Portugal",
+      "latitude": 41.55111,
+      "longitude": -8.42833,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Braga",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Braga",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G025",
+      "name": "Guimarães",
+      "study_region": "Portugal",
+      "latitude": 41.445,
+      "longitude": -8.2908,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Guimar%C3%A3es",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Guimar%C3%A3es",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G026",
+      "name": "Faro",
+      "study_region": "Portugal",
+      "latitude": 37.01611,
+      "longitude": -7.935,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Faro%2C_Portugal",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Faro%2C_Portugal",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G027",
+      "name": "Lagos",
+      "study_region": "Portugal",
+      "latitude": 37.10278,
+      "longitude": -8.67278,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Lagos%2C_Portugal",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Lagos%2C_Portugal",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G028",
+      "name": "Setúbal",
+      "study_region": "Portugal",
+      "latitude": 38.524306,
+      "longitude": -8.892611,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Set%C3%BAbal",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Set%C3%BAbal",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G029",
+      "name": "Viseu",
+      "study_region": "Portugal",
+      "latitude": 40.667,
+      "longitude": -7.917,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Viseu",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Viseu",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G030",
+      "name": "Bragança",
+      "study_region": "Portugal",
+      "latitude": 41.80667,
+      "longitude": -6.75889,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Bragan%C3%A7a%2C_Portugal",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Bragan%C3%A7a%2C_Portugal",
+      "regional_context_source": "https://visitbraga.travel/en/braga-cidade/",
+      "historical_role": "Historic administrative, market or maritime centre; recover north/interior/Algarve coverage beyond the five existing catalogue towns.",
+      "study_priority": 1
+    },
+    {
+      "id": "G031",
+      "name": "Ajaccio",
+      "study_region": "Corsica",
+      "latitude": 41.9267,
+      "longitude": 8.7369,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Ajaccio",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Ajaccio",
+      "regional_context_source": "https://www.visit-corsica.com/en/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LA-CITADELLE-DE-BASTIA",
+      "historical_role": "Historic Genoese-era port/citadel; currently missing island settlement coverage.",
+      "study_priority": 1
+    },
+    {
+      "id": "G032",
+      "name": "Bastia",
+      "study_region": "Corsica",
+      "latitude": 42.7008,
+      "longitude": 9.4503,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Bastia",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Bastia",
+      "regional_context_source": "https://www.visit-corsica.com/en/Mon-sejour/Patrimoine-culturel/Tout-le-patrimoine-culturel/LA-CITADELLE-DE-BASTIA",
+      "historical_role": "Historic Genoese-era port/citadel; currently missing island settlement coverage.",
+      "study_priority": 1
+    },
+    {
+      "id": "G033",
+      "name": "Alghero",
+      "study_region": "Sardinia",
+      "latitude": 40.56,
+      "longitude": 8.315,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Alghero",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Alghero",
+      "regional_context_source": "https://www.sardegnaturismo.it/it/esplora/oristano",
+      "historical_role": "Historic port, judicial/administrative or mining centre; complement Sassari and review existing Cagliari separately.",
+      "study_priority": 1
+    },
+    {
+      "id": "G034",
+      "name": "Oristano",
+      "study_region": "Sardinia",
+      "latitude": 39.9,
+      "longitude": 8.583,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Oristano",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Oristano",
+      "regional_context_source": "https://www.sardegnaturismo.it/it/esplora/oristano",
+      "historical_role": "Historic port, judicial/administrative or mining centre; complement Sassari and review existing Cagliari separately.",
+      "study_priority": 1
+    },
+    {
+      "id": "G035",
+      "name": "Iglesias",
+      "study_region": "Sardinia",
+      "latitude": 39.317,
+      "longitude": 8.533,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Iglesias%2C_Sardinia",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Iglesias%2C_Sardinia",
+      "regional_context_source": "https://www.sardegnaturismo.it/it/esplora/oristano",
+      "historical_role": "Historic port, judicial/administrative or mining centre; complement Sassari and review existing Cagliari separately.",
+      "study_priority": 1
+    },
+    {
+      "id": "G036",
+      "name": "Derry",
+      "study_region": "Ireland",
+      "latitude": 54.9975,
+      "longitude": -7.32,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Derry",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Derry",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Derry",
+      "historical_role": "Historic western/northern or southeastern port/market hub; selective regional transport connections.",
+      "study_priority": 2
+    },
+    {
+      "id": "G037",
+      "name": "Sligo",
+      "study_region": "Ireland",
+      "latitude": 54.2667,
+      "longitude": -8.4833,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Sligo",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Sligo",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Sligo",
+      "historical_role": "Historic western/northern or southeastern port/market hub; selective regional transport connections.",
+      "study_priority": 2
+    },
+    {
+      "id": "G038",
+      "name": "Tralee",
+      "study_region": "Ireland",
+      "latitude": 52.2675,
+      "longitude": -9.6962,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Tralee",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Tralee",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Tralee",
+      "historical_role": "Historic western/northern or southeastern port/market hub; selective regional transport connections.",
+      "study_priority": 2
+    },
+    {
+      "id": "G039",
+      "name": "Wexford",
+      "study_region": "Ireland",
+      "latitude": 52.3383,
+      "longitude": -6.4617,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Wexford",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Wexford",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Wexford",
+      "historical_role": "Historic western/northern or southeastern port/market hub; selective regional transport connections.",
+      "study_priority": 2
+    },
+    {
+      "id": "G040",
+      "name": "Stirling",
+      "study_region": "Scotland",
+      "latitude": 56.1166,
+      "longitude": -3.9369,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Stirling",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Stirling",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Stirling",
+      "historical_role": "Historic castle, market or western-island port; retain low-density Highland terrain rather than fill it uniformly.",
+      "study_priority": 2
+    },
+    {
+      "id": "G041",
+      "name": "Dumfries",
+      "study_region": "Scotland",
+      "latitude": 55.07,
+      "longitude": -3.603,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Dumfries",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Dumfries",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Dumfries",
+      "historical_role": "Historic castle, market or western-island port; retain low-density Highland terrain rather than fill it uniformly.",
+      "study_priority": 2
+    },
+    {
+      "id": "G042",
+      "name": "Oban",
+      "study_region": "Scotland",
+      "latitude": 56.412,
+      "longitude": -5.472,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Oban",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Oban",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Oban",
+      "historical_role": "Historic castle, market or western-island port; retain low-density Highland terrain rather than fill it uniformly.",
+      "study_priority": 2
+    },
+    {
+      "id": "G043",
+      "name": "Stornoway",
+      "study_region": "Scotland",
+      "latitude": 58.209,
+      "longitude": -6.387,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Stornoway",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Stornoway",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Stornoway",
+      "historical_role": "Historic castle, market or western-island port; retain low-density Highland terrain rather than fill it uniformly.",
+      "study_priority": 2
+    },
+    {
+      "id": "G044",
+      "name": "Lausanne",
+      "study_region": "Switzerland",
+      "latitude": 46.52,
+      "longitude": 6.63333,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Lausanne",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Lausanne",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Lausanne",
+      "historical_role": "Historic episcopal, lake-port or regional market centre; respect Alpine terrain and original-scale reference uncertainty.",
+      "study_priority": 2
+    },
+    {
+      "id": "G045",
+      "name": "Lucerne",
+      "study_region": "Switzerland",
+      "latitude": 47.05,
+      "longitude": 8.3,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Lucerne",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Lucerne",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Lucerne",
+      "historical_role": "Historic episcopal, lake-port or regional market centre; respect Alpine terrain and original-scale reference uncertainty.",
+      "study_priority": 2
+    },
+    {
+      "id": "G046",
+      "name": "St. Gallen",
+      "study_region": "Switzerland",
+      "latitude": 47.42417,
+      "longitude": 9.37083,
+      "coordinate_source": "https://en.wikipedia.org/wiki/St._Gallen",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/St._Gallen",
+      "regional_context_source": "https://en.wikipedia.org/wiki/St._Gallen",
+      "historical_role": "Historic episcopal, lake-port or regional market centre; respect Alpine terrain and original-scale reference uncertainty.",
+      "study_priority": 2
+    },
+    {
+      "id": "G047",
+      "name": "Sion",
+      "study_region": "Switzerland",
+      "latitude": 46.23111,
+      "longitude": 7.35944,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Sion%2C_Switzerland",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Sion%2C_Switzerland",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Sion%2C_Switzerland",
+      "historical_role": "Historic episcopal, lake-port or regional market centre; respect Alpine terrain and original-scale reference uncertainty.",
+      "study_priority": 2
+    },
+    {
+      "id": "G048",
+      "name": "Tlemcen",
+      "study_region": "North Africa",
+      "latitude": 34.88278,
+      "longitude": -1.31667,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Tlemcen",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Tlemcen",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Tlemcen",
+      "historical_role": "Historic pre-colonial administrative, religious, market or coastal centre; no nineteenth-century colonial expansion assumed.",
+      "study_priority": 2
+    },
+    {
+      "id": "G049",
+      "name": "Constantine",
+      "study_region": "North Africa",
+      "latitude": 36.35,
+      "longitude": 6.6,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Constantine%2C_Algeria",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Constantine%2C_Algeria",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Constantine%2C_Algeria",
+      "historical_role": "Historic pre-colonial administrative, religious, market or coastal centre; no nineteenth-century colonial expansion assumed.",
+      "study_priority": 2
+    },
+    {
+      "id": "G050",
+      "name": "Kairouan",
+      "study_region": "North Africa",
+      "latitude": 35.67722,
+      "longitude": 10.10083,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Kairouan",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Kairouan",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Kairouan",
+      "historical_role": "Historic pre-colonial administrative, religious, market or coastal centre; no nineteenth-century colonial expansion assumed.",
+      "study_priority": 2
+    },
+    {
+      "id": "G051",
+      "name": "Sousse",
+      "study_region": "North Africa",
+      "latitude": 35.833,
+      "longitude": 10.633,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Sousse",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Sousse",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Sousse",
+      "historical_role": "Historic pre-colonial administrative, religious, market or coastal centre; no nineteenth-century colonial expansion assumed.",
+      "study_priority": 2
+    },
+    {
+      "id": "G052",
+      "name": "Grodno",
+      "study_region": "Western Belarus",
+      "latitude": 53.667,
+      "longitude": 23.833,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Grodno",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Grodno",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Grodno",
+      "historical_role": "Historic regional market, castle or administrative centre in the mapped western strip; modern geographic labels are not 1800 political boundaries.",
+      "study_priority": 1
+    },
+    {
+      "id": "G053",
+      "name": "Brest (Belarus)",
+      "study_region": "Western Belarus",
+      "latitude": 52.13472,
+      "longitude": 23.65694,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Brest%2C_Belarus",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Brest%2C_Belarus",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Brest%2C_Belarus",
+      "historical_role": "Historic regional market, castle or administrative centre in the mapped western strip; modern geographic labels are not 1800 political boundaries.",
+      "study_priority": 1
+    },
+    {
+      "id": "G054",
+      "name": "Lida",
+      "study_region": "Western Belarus",
+      "latitude": 53.89556,
+      "longitude": 25.29583,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Lida",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Lida",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Lida",
+      "historical_role": "Historic regional market, castle or administrative centre in the mapped western strip; modern geographic labels are not 1800 political boundaries.",
+      "study_priority": 1
+    },
+    {
+      "id": "G055",
+      "name": "Salerno",
+      "study_region": "Southern Italy",
+      "latitude": 40.6806,
+      "longitude": 14.7594,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Salerno",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Salerno",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Salerno",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G056",
+      "name": "Cosenza",
+      "study_region": "Southern Italy",
+      "latitude": 39.3,
+      "longitude": 16.25,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Cosenza",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Cosenza",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Cosenza",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G057",
+      "name": "Catanzaro",
+      "study_region": "Southern Italy",
+      "latitude": 38.9,
+      "longitude": 16.6,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Catanzaro",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Catanzaro",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Catanzaro",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G058",
+      "name": "Potenza",
+      "study_region": "Southern Italy",
+      "latitude": 40.633,
+      "longitude": 15.8,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Potenza",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Potenza",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Potenza",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G059",
+      "name": "L'Aquila",
+      "study_region": "Southern Italy",
+      "latitude": 42.35,
+      "longitude": 13.4,
+      "coordinate_source": "https://en.wikipedia.org/wiki/L%27Aquila",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/L%27Aquila",
+      "regional_context_source": "https://en.wikipedia.org/wiki/L%27Aquila",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G060",
+      "name": "Chania",
+      "study_region": "Greek islands",
+      "latitude": 35.517,
+      "longitude": 24.017,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Chania",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Chania",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Chania",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G061",
+      "name": "Heraklion",
+      "study_region": "Greek islands",
+      "latitude": 35.3403,
+      "longitude": 25.1344,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Heraklion",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Heraklion",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Heraklion",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    },
+    {
+      "id": "G062",
+      "name": "Corfu (city)",
+      "study_region": "Greek islands",
+      "latitude": 39.62389,
+      "longitude": 19.92139,
+      "coordinate_source": "https://en.wikipedia.org/wiki/Corfu_%28city%29",
+      "coordinate_scope": "APPROXIMATE_PUBLISHED_CITY_REFERENCE_NOT_IMPORT_READY",
+      "history_source": "https://en.wikipedia.org/wiki/Corfu_%28city%29",
+      "regional_context_source": "https://en.wikipedia.org/wiki/Corfu_%28city%29",
+      "historical_role": "Historic regional, episcopal or fortified port centre; confirm the pre-1800 footprint and transport role before placement.",
+      "study_priority": 2
+    }
+  ],
+  "regional_windows": [
+    {
+      "name": "Wales and border margins",
+      "bounds_west_east_south_north": [
+        -5.7,
+        -2.5,
+        51.3,
+        53.6
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Denmark and nearby shores",
+      "bounds_west_east_south_north": [
+        8,
+        12.9,
+        54.5,
+        57.9
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Southern Norway",
+      "bounds_west_east_south_north": [
+        4.5,
+        10,
+        57.6,
+        59.28
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Northern Iberia",
+      "bounds_west_east_south_north": [
+        -9.6,
+        -1,
+        41.5,
+        43.9
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Portuguese study strip",
+      "bounds_west_east_south_north": [
+        -9.6,
+        -6,
+        36.9,
+        42
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Corsica",
+      "bounds_west_east_south_north": [
+        8.45,
+        9.65,
+        41.3,
+        43.1
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Sardinia",
+      "bounds_west_east_south_north": [
+        8,
+        9.9,
+        38.8,
+        41.35
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Ireland",
+      "bounds_west_east_south_north": [
+        -10.8,
+        -5.3,
+        51.3,
+        55.6
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Scotland and northern margins",
+      "bounds_west_east_south_north": [
+        -7.8,
+        -1.4,
+        54.6,
+        59.2
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Swiss and neighbouring Alpine corridor",
+      "bounds_west_east_south_north": [
+        5.8,
+        10.6,
+        45.7,
+        47.85
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Western Belarus and eastern map strip",
+      "bounds_west_east_south_north": [
+        22.5,
+        26,
+        51.4,
+        55
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Southern map band, including North Africa",
+      "bounds_west_east_south_north": [
+        -6.5,
+        11.2,
+        34.34,
+        37.7
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Mainland France study area",
+      "bounds_west_east_south_north": [
+        -5,
+        7.7,
+        42,
+        51.2
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Benelux study area",
+      "bounds_west_east_south_north": [
+        2.5,
+        7,
+        49.4,
+        53.6
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Germany study area",
+      "bounds_west_east_south_north": [
+        7,
+        15,
+        47.5,
+        55
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Northern Italy",
+      "bounds_west_east_south_north": [
+        7,
+        14,
+        44,
+        46.5
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Central Europe",
+      "bounds_west_east_south_north": [
+        14,
+        22,
+        46.5,
+        51.5
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Balkans",
+      "bounds_west_east_south_north": [
+        15,
+        26,
+        39,
+        46.5
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Baltic study strip",
+      "bounds_west_east_south_north": [
+        20,
+        26,
+        54.5,
+        59.28
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Southern Italian mainland",
+      "bounds_west_east_south_north": [
+        13,
+        18,
+        37.9,
+        42.8
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    },
+    {
+      "name": "Greek mainland and island study strip",
+      "bounds_west_east_south_north": [
+        19,
+        26,
+        34.34,
+        40
+      ],
+      "meaning": "Approximate overlapping study rectangle, not a country boundary or population-density statistic."
+    }
+  ],
+  "limitations": "Research shortlist only: no founding points, population proposals, corrected bank positions or import JSON. Generic city coordinates may be outside the historic core. Regional context sources support examples, not every named town. Detailed per-site pre-1800 verification remains required. Distance to a town is Euclidean across water and mountains, not travel distance, rural population coverage or proof that another town is needed.",
+  "preserved_input_sha256": {
+    "maps/calibration/geography_v11/all_600_decisions.csv": "bce9343ee233a879ff763a4e87ba683167dc1fb4e2b96123b1aadae4f8f834a9",
+    "maps/calibration/coverage_additions_v1/all_candidate_decisions.csv": "e1c99a7eecab185c6e80a217e40738854795fd0c2450a0614034c977533a73e5"
+  }
+}

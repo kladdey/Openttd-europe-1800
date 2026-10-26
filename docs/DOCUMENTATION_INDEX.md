@@ -44,6 +44,7 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [maps/calibration/reverse_audit_v1/README.md](../maps/calibration/reverse_audit_v1/README.md) | Reverse audit, independent export checks and fixes |
 | [maps/calibration/provenance_v1/README.md](../maps/calibration/provenance_v1/README.md) | Heightmap provenance and exact pixel comparison |
 | [maps/calibration/geography_v11/README.md](../maps/calibration/geography_v11/README.md) | Preserved V11 baseline component |
+| [maps/calibration/coverage_gap_audit_v1/README.md](../maps/calibration/coverage_gap_audit_v1/README.md) | Whole-map coverage screening, recovery list and research priorities |
 | [maps/calibration/geography_v12/README.md](../maps/calibration/geography_v12/README.md) | Current complete 568-town import and fresh-map instructions |
 | [maps/calibration/geography_v5_audit_DEFERRED.md](../maps/calibration/geography_v5_audit_DEFERRED.md) | Historical report / experiment |
 | [maps/calibration/geography_v6/README.md](../maps/calibration/geography_v6/README.md) | Historical report / experiment |

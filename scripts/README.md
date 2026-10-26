@@ -21,6 +21,7 @@ Node.js is optional and needed only for the map-logic smoke test.
 
 | Tool | Purpose |
 |---|---|
+| `audit_coverage_gaps.py` | Whole-raster distance screening, held-town recovery distances and source-backed research queue; generates no imports |
 | `build_full_import.py` | Exact V12 merge of baseline and additions, with combined duplicate/bounds/spacing checks |
 | `build_coverage_additions.py` | Source-backed additions-only tests for Sweden, North Africa and the Balearics against the frozen V11 baseline |
 | `research_river_banks.py` | Offline historical-bank evidence, 1800 crossing chronology, exact half-pixel sensitivity and local terrain diagrams |
