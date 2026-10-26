@@ -1,0 +1,18 @@
+{
+  "recorded_date": "2026-10-26",
+  "source": "User-provided Town Directory screenshot and confirmation in this conversation",
+  "reported_game": "OpenTTD JGRPP 0.73.4",
+  "displayed_scenario_date": "1800-01-01",
+  "displayed_town_count": 537,
+  "expected_v11_towns": 537,
+  "user_confirmed_separate_checkpoint_saved": true,
+  "saved_filename": null,
+  "submitted_scenario_file": null,
+  "imported_json_checksum": null,
+  "validation_scope": "Count match and user regional visual review; assumes V11 from task instructions. Individual actual town coordinates, population realization, growth and multiplayer were not independently verified.",
+  "observations": [
+    "User said the England/Channel view looked good.",
+    "Sweden and the North African coast were sparse; coverage audit found catalogue gaps.",
+    "Constantinople lies beyond the mapped eastern extent; user accepted leaving it outside."
+  ]
+}

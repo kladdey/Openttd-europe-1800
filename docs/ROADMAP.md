@@ -13,7 +13,7 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 - [x] V10: correct 27 original terrain flags and account for every remaining case.
 - [x] Add automated source-preservation, model, coordinate, terrain and spacing checks.
 
-## Active geographic work, without OpenTTD
+## Active geographic work
 
 - [x] V11: review all 28 V10 terrain cases, add 25 site references and restore Namur.
 - [ ] Resolve the 27 remaining V11 terrain cases using stronger historic centre/river/coast evidence.
@@ -33,7 +33,10 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 - [ ] Resolve ambiguous historical units and aliases before changing any game populations.
 - [ ] Complete outstanding British, Polish and Prussian source acquisition/review.
 
-## Gameplay and release, when a test platform is available
+## Gameplay and release
+
+- [x] User confirmed a 537-town baseline import and a saved checkpoint.
+- [ ] Test the 31-town coverage supplement separately; expected combined count 568.
 
 - [ ] Test actual founding locations/failures, growth, spacing and infrastructure room.
 - [ ] Validate FIRS 5.2.0 Temperate Basic and the intended vehicle/track/station sets.
@@ -43,3 +46,7 @@ No arbitrary final town count is imposed; the 600-record master remains preserve
 
 An unavailable game platform does not block the active geographic/source tasks.
 No complete playable scenario or release has been validated.
+
+The first coverage supplement reviews all 35 old Swedish entries and 16 new
+Mediterranean proposals, plus the existing Palma hold; 31 additions qualify for
+separate game testing. No fixed final town count is imposed.

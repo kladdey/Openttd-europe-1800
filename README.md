@@ -7,8 +7,10 @@ The latest placement checkpoint is **V11**: a **537-town clear-target test impor
 plus separate 564- and 576-town comparisons. All 600 source records and original
 populations remain preserved. Twenty-eight original terrain flags have clear-site corrections;
 27 terrain cases remain unresolved, including the additional Orihuela conflict.
-No in-game tests have been run; the user currently has no test platform.
+The user confirmed a 537-town import in JGRPP 0.73.4 and saved a checkpoint.
+Individual actual positions, growth and playability remain unverified.
 
+- [31-town coverage supplement — import once into your saved 537-town map](maps/calibration/coverage_additions_v1/README.md)
 - [Current status and limitations](docs/PROJECT_STATUS.md)
 - [Candidate files, findings and import instructions](maps/calibration/geography_v11/README.md)
 - [537-town candidate JSON](maps/calibration/geography_v11/Europe_1800_V11_CLEAR_TARGET_CANDIDATE_TEST.json)

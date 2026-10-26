@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Malmö",
+    "population": 450,
+    "city": false,
+    "x": 0.147617401,
+    "y": 0.668557079
+  },
+  {
+    "name": "Lund",
+    "population": 300,
+    "city": false,
+    "x": 0.143647521,
+    "y": 0.673400316
+  },
+  {
+    "name": "Helsingborg",
+    "population": 250,
+    "city": false,
+    "x": 0.129845202,
+    "y": 0.660713667
+  },
+  {
+    "name": "Landskrona",
+    "population": 200,
+    "city": false,
+    "x": 0.136968586,
+    "y": 0.664121109
+  },
+  {
+    "name": "Ystad",
+    "population": 180,
+    "city": false,
+    "x": 0.15514401,
+    "y": 0.689669337
+  },
+  {
+    "name": "Kristianstad",
+    "population": 230,
+    "city": false,
+    "x": 0.130601817,
+    "y": 0.697922933
+  },
+  {
+    "name": "Halmstad",
+    "population": 250,
+    "city": false,
+    "x": 0.104776893,
+    "y": 0.664786915
+  },
+  {
+    "name": "Jönköping",
+    "population": 300,
+    "city": false,
+    "x": 0.060340553,
+    "y": 0.698022128
+  },
+  {
+    "name": "Växjö",
+    "population": 220,
+    "city": false,
+    "x": 0.096640109,
+    "y": 0.714561704
+  },
+  {
+    "name": "Kalmar",
+    "population": 350,
+    "city": false,
+    "x": 0.105277804,
+    "y": 0.75417881
+  },
+  {
+    "name": "Linköping",
+    "population": 350,
+    "city": false,
+    "x": 0.034972459,
+    "y": 0.735372536
+  },
+  {
+    "name": "Norrköping",
+    "population": 350,
+    "city": false,
+    "x": 0.027991864,
+    "y": 0.749756623
+  },
+  {
+    "name": "Motala",
+    "population": 180,
+    "city": false,
+    "x": 0.030277128,
+    "y": 0.720269376
+  },
+  {
+    "name": "Södertälje",
+    "population": 200,
+    "city": false,
+    "x": 0.003715666,
+    "y": 0.786443492
+  },
+  {
+    "name": "Mariestad",
+    "population": 180,
+    "city": false,
+    "x": 0.023584968,
+    "y": 0.689261336
+  },
+  {
+    "name": "Uddevalla",
+    "population": 220,
+    "city": false,
+    "x": 0.037643713,
+    "y": 0.641348305
+  },
+  {
+    "name": "Trollhättan",
+    "population": 180,
+    "city": false,
+    "x": 0.040304147,
+    "y": 0.650301621
+  },
+  {
+    "name": "Borås",
+    "population": 250,
+    "city": false,
+    "x": 0.062811843,
+    "y": 0.666904948
+  },
+  {
+    "name": "Skara",
+    "population": 200,
+    "city": false,
+    "x": 0.03628805,
+    "y": 0.679469324
+  },
+  {
+    "name": "Döderhultsvik",
+    "population": 180,
+    "city": false,
+    "x": 0.081089454,
+    "y": 0.756402923
+  }
+]
