@@ -1,5 +1,7 @@
 # Project status
 
+Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
+
 Current full import checkpoint: **V12, 568 towns**. See the
 [combined import](../maps/calibration/geography_v12/README.md); V11 remains the preserved 537-town component. See the
 [V11 follow-up](../maps/calibration/geography_v11/README.md) for exact files and evidence.

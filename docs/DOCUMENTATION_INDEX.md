@@ -1,5 +1,7 @@
 # Documentation index
 
+Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
+
 Every Markdown document is indexed below. Active guides describe current work;
 versioned reports and experiments retain their original content as historical
 evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint claims.

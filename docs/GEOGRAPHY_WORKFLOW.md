@@ -1,5 +1,7 @@
 # Geographic correction workflow
 
+Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
+
 See [project status](PROJECT_STATUS.md) for the current checkpoint and remaining
 cases. The user has confirmed a 537-town baseline import and saved a checkpoint.
 These generation/audit commands run offline; additions receive separate game tests.
