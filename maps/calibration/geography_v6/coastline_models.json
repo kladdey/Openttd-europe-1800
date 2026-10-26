@@ -1,0 +1,43 @@
+{
+  "axis_affine": {
+    "coefficients": [
+      104.42263446189997,
+      1379.7176323206816,
+      -164.09816527178702,
+      9729.142746398953
+    ],
+    "fit_samples": 2646,
+    "holdout_samples": 946,
+    "holdout_median_coast_distance_pixels": 2.5105797554864253,
+    "holdout_p90_coast_distance_pixels": 9.16954994257124,
+    "holdout_max_coast_distance_pixels": 86.66525899835051
+  },
+  "affine": {
+    "coefficients": [
+      104.4279097247577,
+      -0.012450519592304065,
+      1380.1563018058519,
+      -0.0825527019874144,
+      -164.05620317499995,
+      9727.602938601176
+    ],
+    "fit_samples": 2646,
+    "holdout_samples": 946,
+    "holdout_median_coast_distance_pixels": 2.467058819593663,
+    "holdout_p90_coast_distance_pixels": 9.269097010327556,
+    "holdout_max_coast_distance_pixels": 86.46402554035208
+  },
+  "mercator": {
+    "coefficients": [
+      104.66388005367533,
+      1379.534316908215,
+      -111.86595765082373,
+      8088.569817602252
+    ],
+    "fit_samples": 2646,
+    "holdout_samples": 946,
+    "holdout_median_coast_distance_pixels": 13.512329278955146,
+    "holdout_p90_coast_distance_pixels": 53.27603976174326,
+    "holdout_max_coast_distance_pixels": 200.0
+  }
+}

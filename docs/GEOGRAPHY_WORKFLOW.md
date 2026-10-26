@@ -1,5 +1,11 @@
 # Geographic audit and calibration workflow
 
+**Historical V5 checkpoint.** The user subsequently supplied the source assets.
+See [V6](../maps/calibration/geography_v6/README.md) for the recovered importer
+mapping, read-only scenario validation, coastline fit and corrected regional test.
+The missing-asset statements below describe the earlier inspection, not current
+availability. The current importer validator requires strict `0 < x,y < 1`.
+
 ## Current evidence and limitations
 
 Repository inspected at `a4d9312100ae093b01fa244c09f1cebc6edf2072`.

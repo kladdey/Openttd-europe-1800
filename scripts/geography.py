@@ -42,7 +42,7 @@ def validate(towns):
         seen.add(name)
         for axis in ('x', 'y'):
             v = t.get(axis)
-            if type(v) not in (int, float) or not math.isfinite(v) or not 0 <= v <= 1:
+            if type(v) not in (int, float) or not math.isfinite(v) or not 0 < v < 1:
                 raise ValueError(f'{t["name"]}: invalid {axis}')
         if type(t.get('population')) is not int or t['population'] <= 0:
             raise ValueError('Invalid population: ' + t['name'])

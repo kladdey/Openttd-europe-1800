@@ -1,0 +1,30 @@
+{
+  "status": "EXPERIMENTAL_REGIONAL_CANDIDATE; not an in-game validated release",
+  "original_assets_sha256": {
+    "heightmaps/Europe_heightmap_original.png": "beb1760c157e72f90b87713cc7a88b7455d47e235f91fe54a11de663c541d744",
+    "scenarios/Europe_1800_Industries_Original.scn": "b49bda4d118dc7037441e9e0661543f1d1ea06e13349b7d1517f7ca39c9044db",
+    "scenarios/Europe_1800_V1.scn": "904097ebfda8db35b6f58f27e07aad1bf0595805ea6c8196245b7f9b68f29f3e"
+  },
+  "master_sha256": "6e4d9ebc4f489c7a83742e63f0599f94158f889c435e02b96110769503339410",
+  "inventory_sha256": "35809b557aa5c545194cdbc6089682466bd951b874574c8415285f2b58757be2",
+  "coastline_sha256": "f5d53fa83d12ee15a5e56e081651ec72ec45a29a30b7340e7250c8af6c83cc3f",
+  "overrides_sha256": "27f000e04ad0d84a59119167dcb3298ab79cf746f2e0ced9bb14411874fe0893",
+  "regional_reviewed": 43,
+  "retained_and_corrected": 36,
+  "regional_deferred": 7,
+  "catalogue_projection_rows": 600,
+  "in_game_validated": 0,
+  "independently_surveyed_town_positions": 0,
+  "minimum_retained_spacing_tiles": 38.299583,
+  "libraries": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "approximate_bounds": {
+    "west": -13.21282152505059,
+    "east": 26.00281425259412,
+    "north": 59.28855286276415,
+    "south": 34.33397769601765
+  },
+  "warning": "Coastal normal residual is not 2D town accuracy. Coastline source generalized; town coordinates still need local review. No full Europe import emitted."
+}

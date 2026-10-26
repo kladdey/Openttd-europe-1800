@@ -1,0 +1,118 @@
+{
+  "v1": [
+    {
+      "transpose": false,
+      "flip_rows": false,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.07672866199929325,
+      "sampled_zero_water_agreement": 0.4796818333263123
+    },
+    {
+      "transpose": false,
+      "flip_rows": false,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.9940370896097026,
+      "sampled_zero_water_agreement": 0.9838657174260209
+    },
+    {
+      "transpose": false,
+      "flip_rows": true,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.014442464822534964,
+      "sampled_zero_water_agreement": 0.48764365945289734
+    },
+    {
+      "transpose": false,
+      "flip_rows": true,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.3178445798797414,
+      "sampled_zero_water_agreement": 0.6669092106724469
+    },
+    {
+      "transpose": true,
+      "flip_rows": false,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.1064698400098817,
+      "sampled_zero_water_agreement": 0.5352576008823495
+    },
+    {
+      "transpose": true,
+      "flip_rows": false,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.2607998249216114,
+      "sampled_zero_water_agreement": 0.5939392082597723
+    },
+    {
+      "transpose": true,
+      "flip_rows": true,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.18475843496097857,
+      "sampled_zero_water_agreement": 0.5951263973406965
+    },
+    {
+      "transpose": true,
+      "flip_rows": true,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.10766232972191139,
+      "sampled_zero_water_agreement": 0.5347559177546042
+    }
+  ],
+  "industries_original": [
+    {
+      "transpose": false,
+      "flip_rows": false,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.07672866199929325,
+      "sampled_zero_water_agreement": 0.4797469372436533
+    },
+    {
+      "transpose": false,
+      "flip_rows": false,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.9940370896097026,
+      "sampled_zero_water_agreement": 0.9837699763711076
+    },
+    {
+      "transpose": false,
+      "flip_rows": true,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.014442464822534964,
+      "sampled_zero_water_agreement": 0.4876551483794869
+    },
+    {
+      "transpose": false,
+      "flip_rows": true,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.3178445798797414,
+      "sampled_zero_water_agreement": 0.6669283588834295
+    },
+    {
+      "transpose": true,
+      "flip_rows": false,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.1064698400098817,
+      "sampled_zero_water_agreement": 0.5352920676621183
+    },
+    {
+      "transpose": true,
+      "flip_rows": false,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.2607998249216114,
+      "sampled_zero_water_agreement": 0.5939200600487896
+    },
+    {
+      "transpose": true,
+      "flip_rows": true,
+      "flip_columns": false,
+      "sampled_height_correlation": 0.18475843496097857,
+      "sampled_zero_water_agreement": 0.5951149084141069
+    },
+    {
+      "transpose": true,
+      "flip_rows": true,
+      "flip_columns": true,
+      "sampled_height_correlation": 0.10766232972191139,
+      "sampled_zero_water_agreement": 0.5347980438187661
+    }
+  ]
+}

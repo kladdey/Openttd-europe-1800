@@ -1,0 +1,41 @@
+name,source_column,source_row,raw_elevation,v1_tile_type,original_industries_tile_type,approximate_longitude_from_coast_model,approximate_latitude_from_coast_model,landmass,geography_status
+LONDON,1311,1310,28,0,0,-0.6580721955042623,51.30552637474512,Great Britain,Land alone does not validate geographic location
+DUBLIN,635,925,31,0,0,-7.131764450861484,53.651683014353765,Ireland,Land alone does not validate geographic location
+PARIS,1643,1597,32,0,0,2.5213151251741364,49.55657324340049,continental Europe,Land alone does not validate geographic location
+BERLIN,2355,1277,43,0,0,9.33976022253263,51.506625515283005,continental Europe,Land alone does not validate geographic location
+STOCKHOLM,2445,540,25,0,0,10.201642327535811,55.99783965396241,continental Europe,Land alone does not validate geographic location
+OXFORD,1219,1270,37,0,0,-1.53910723617418,51.54928290873043,Great Britain,Land alone does not validate geographic location
+CAMBRIDGE,1332,1214,34,0,0,-0.4569663710035202,51.890542056309876,Great Britain,Land alone does not validate geographic location
+READING,1242,1314,34,0,0,-1.3188484760067007,51.28115072134659,Great Britain,Land alone does not validate geographic location
+KILKENNY,562,1011,28,0,0,-7.830846602697397,53.12760646628534,Ireland,Land alone does not validate geographic location
+WATERFORD,579,1057,34,0,0,-7.66804664953013,52.84728645220223,Ireland,Land alone does not validate geographic location
+POTSDAM,2327,1293,38,0,0,9.071619123198309,51.40912290168888,continental Europe,Land alone does not validate geographic location
+BRANDENBURG,2311,1334,50,0,0,8.918395637864409,51.15927245435393,continental Europe,Land alone does not validate geographic location
+MAGDEBURG,2210,1321,53,0,0,7.951172386694173,51.23849332789916,continental Europe,Land alone does not validate geographic location
+CHATHAM,1365,1331,28,0,0,-0.14094293250235407,51.17755419440283,Great Britain,Land alone does not validate geographic location
+COLCHESTER,1397,1257,28,0,0,0.16550403816544343,51.628503782275665,Great Britain,Land alone does not validate geographic location
+PORTSMOUTH,1235,1390,26,0,0,-1.3858837508402813,50.818013306774496,Great Britain,Land alone does not validate geographic location
+IPSWICH,1419,1230,29,0,0,0.3761863304995542,51.793039442715745,Great Britain,Land alone does not validate geographic location
+BIRMINGHAM,1165,1163,27,0,0,-2.056236499176088,52.20133163714115,Great Britain,Land alone does not validate geographic location
+BRISTOL,1109,1294,32,0,0,-2.592518697844734,51.403028988339244,Great Britain,Land alone does not validate geographic location
+NORWICH,1433,1148,25,0,0,0.5102568801667156,52.292740337385645,Great Britain,Land alone does not validate geographic location
+NEWRY,639,813,43,0,0,-7.09345857952801,54.33420130951264,Ireland,Land alone does not validate geographic location
+BELFAST,688,753,31,0,0,-6.624211655692944,54.699836110490615,Ireland,Land alone does not validate geographic location
+LIMERICK,461,992,25,0,0,-8.798069853867633,53.243390819928365,Ireland,Land alone does not validate geographic location
+GALWAY,428,909,27,0,0,-9.1140932923688,53.749185627947895,Ireland,Land alone does not validate geographic location
+CORK,480,1086,24,0,0,-8.616116965033628,52.67056296506288,Ireland,Land alone does not validate geographic location
+BEAUVAIS,1619,1521,32,0,0,2.2914798971732884,50.01971065797259,continental Europe,Land alone does not validate geographic location
+CHARTRES,1570,1648,32,0,0,1.8222329733382236,49.24578366256922,continental Europe,Land alone does not validate geographic location
+ORLEANS,1598,1719,32,0,0,2.0903740726725464,48.81311581474529,continental Europe,Land alone does not validate geographic location
+AMIENS,1629,1467,34,0,0,2.3872445755069753,50.34878197885276,continental Europe,Land alone does not validate geographic location
+REIMS,1768,1553,34,0,0,3.7183736043452207,49.82470543078434,continental Europe,Land alone does not validate geographic location
+ROUEN,1532,1522,31,0,0,1.458327195670214,50.01361674462296,continental Europe,Land alone does not validate geographic location
+TROYES,1770,1674,31,0,0,3.7375265400119577,49.08734191547877,continental Europe,Land alone does not validate geographic location
+LILLE,1684,1385,25,0,0,2.9139503063422523,50.848482873522656,continental Europe,Land alone does not validate geographic location
+FRANKFURT AO,2442,1300,47,0,0,10.172912924035705,51.36646550824145,continental Europe,Land alone does not validate geographic location
+STETTIN (SZCZECIN),2442,1157,29,0,0,10.172912924035705,52.23789511723895,continental Europe,Land alone does not validate geographic location
+DRESDEN,2359,1450,55,0,0,9.378066093866105,50.452378505796524,continental Europe,Land alone does not validate geographic location
+LEIPZIG,2257,1420,39,0,0,8.401266374862502,50.63519590628551,continental Europe,Land alone does not validate geographic location
+HALLE,2230,1401,56,0,0,8.142701743361547,50.75098025992853,continental Europe,Land alone does not validate geographic location
+ROSTOCK,2258,1067,26,0,0,8.41084284269587,52.7863473187059,continental Europe,Land alone does not validate geographic location
+STRALSUND,2328,1035,24,0,0,9.081195591031676,52.981352545894154,continental Europe,Land alone does not validate geographic location

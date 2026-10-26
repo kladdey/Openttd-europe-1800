@@ -26,7 +26,7 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(t, indexed[t['name']])
 
     def test_bounds_and_types(self):
-        for bad in [-0.001, 1.001, float('nan'), float('inf'), True, '0.3', None]:
+        for bad in [-0.001, 0, 1, 1.001, float('nan'), float('inf'), True, '0.3', None]:
             towns = copy.deepcopy(self.towns)
             towns[0]['x'] = bad
             with self.subTest(bad=bad), self.assertRaises(ValueError):
@@ -81,8 +81,8 @@ class MappingTests(unittest.TestCase):
             im = Image.new('L', (3, 3), 100)
             im.putpixel((0, 2), 0)
             im.save(p/'raster.png')
-            towns = [dict(name='low', x=0, y=1, population=300, city=False),
-                     dict(name='high', x=1, y=0, population=300, city=False)]
+            towns = [dict(name='low', x=.1, y=.9, population=300, city=False),
+                     dict(name='high', x=.9, y=.1, population=300, city=False)]
             (p/'towns.json').write_text(json.dumps(towns))
             m = dict(mapping_evidence='Synthetic fixture only', raster_sha256=g.digest(p/'raster.png'),
                      raster_dimensions=[3, 3], game_to_raster_matrix=[[1, 0, 0], [0, 1, 0]],

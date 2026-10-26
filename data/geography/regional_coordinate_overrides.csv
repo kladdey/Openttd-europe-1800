@@ -1,0 +1,2 @@
+name,latitude,longitude,source,reason
+BRANDENBURG,52.417,12.533,https://en.wikipedia.org/wiki/Brandenburg_an_der_Havel,Published approximate town coordinate; original 52.5N 13.5E incorrectly near Berlin; applies only to derived outputs
