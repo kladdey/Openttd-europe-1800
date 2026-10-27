@@ -1,3 +1,7 @@
+## Economy and vehicle overhaul - 2026-10-27
+
+The three-company 1800-1813 multiplayer session was a **disposable playtest**, not the campaign save. The player reported insufficient FIRS Temperate Basic industry variety and poor early-era vehicle choice (two-horse passenger versus six-horse mail carriage; no useful trains by 1813). **AXIS Extreme Classic is a candidate only**, not installed or verified. Priorities: audit early road/rail/ship NewGRFs, verify AXIS's cargo compatibility and JGRPP 0.73.4 behavior, and plan historical industry progression on fresh scenario copies. See [economy and vehicle overhaul](ECONOMY_VEHICLE_OVERHAUL.md).
+
 ## Multiplayer playtest - 2026-10-26
 
 **Confirmed by user:** Squirrel joined the hosted Europe 1800 game and was able to play on the 4096 x 4096 map using the current multiplayer setup. This verifies at least one successful end-to-end client join, scenario load and gameplay session. It does **not** establish long-duration stability, a clean-install test, or Toni's compatibility. Toni previously received 'Network - Game connection lost'; cause remains unknown.
