@@ -15,6 +15,7 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 | [data/historical-populations/README.md](../data/historical-populations/README.md) | Active guide |
 | [data/towns/README.md](../data/towns/README.md) | Active guide |
 | [data/towns/SWEDEN_ADDONS_README.md](../data/towns/SWEDEN_ADDONS_README.md) | Historical report / experiment |
+| [docs/ECONOMY_VEHICLE_OVERHAUL.md](ECONOMY_VEHICLE_OVERHAUL.md) | AXIS candidate, 1800-1813 playtest findings and early vehicle audit plan |
 | [docs/INSTALLATION.md](INSTALLATION.md) | Scenario setup and NewGRF acquisition |
 | [docs/MULTIPLAYER.md](MULTIPLAYER.md) | Toni/Squirrel multiplayer tests and diagnostics |
 | [docs/LICENSING.md](LICENSING.md) | Third-party licensing and public distribution policy |
