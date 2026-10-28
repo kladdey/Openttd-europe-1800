@@ -1,0 +1,477 @@
+tag,engine_id,buildable,name,design_date_calendar,status,note
+coal-matched-control,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coal-matched-control,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-clear,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-spaced,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+coast-three,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_fleet,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_farm_small,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_fruit,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_cheap,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_local_fast,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_mail_local,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-horse_regional,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coal,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-shared_coast_navigable_reverse,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_fleet,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_long,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_low_demand,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_mail,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+final-ship_medium,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-first,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+fish-fixed,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+mail-open-coast,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+main-pilot,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-cheap,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_fleet,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_farm_small,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_local_fast,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_mail_local,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_mail,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+road-access-horse_straight_pass,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-final,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-credit-matched,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+three-final,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,147,true,1 Horse Small Passenger Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,149,true,1 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,150,true,2 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,151,true,4 Horse Passenger Carriage,1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,181,true,1 Horse Mail Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,402,true,1 Horse Hopper Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,430,true,1 Horse Ice Box Carriage,1700-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,612,true,Clipper,1820-03-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,614,true,Merchantman,1750-07-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,615,true,Barque,1790-09-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,616,true,Brig,1700-12-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,617,true,Schooner,1800-05-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,1534,true,2-2-0 Planet (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset
+urban-fix-cheap,2038,true,0-4-0 Grasshopper (Steam),1830-01-01,VERIFIED IN GAME,Engine design date is calendar time; company financial time has a separate saved offset

@@ -9,6 +9,23 @@
 
 # OpenTTD Europe 1800
 
+## Local Europe 1830 transport economy audit
+
+Phases 1–4 conclude **READY WITH CAVEATS** for the exact locally inspected
+15-NewGRF scenario identified in the reports. This is isolated gameplay evidence,
+not certification of the separately supplied Toni scenario or activation of the
+historical AXIS prototype.
+
+- [Multiplayer readiness and first-session procedure](docs/MULTIPLAYER_ECONOMY_READINESS.md)
+- [Complete audit reports, datasets and reproduction guide](docs/VEHICLE_TRANSPORT_AUDIT_INDEX.md)
+- [Minimum action plan before launch](docs/FINAL_ECONOMY_ACTION_PLAN.md)
+
+The economy audit does not implement vehicle-price, performance, date, roster or
+campaign-setting changes. Disposable runtime assets and third-party NewGRF
+binaries are excluded from Git.
+
+## Scenario and geography work
+
 Historical Europe scenario work for JGRPP 0.73.4, Windows 11 and a 4096×4096 map,
 with an intended 1800–2025 campaign and FIRS 5.2.0 Temperate Basic industries.
 

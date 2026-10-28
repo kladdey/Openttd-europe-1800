@@ -1,0 +1,21 @@
+{
+  "earliest_gets_powered_intro_year": 1881,
+  "gets_running_context_rows": 1,
+  "gets_other_models_with_positive_speed": [
+    "1192",
+    "1204",
+    "1502",
+    "1510",
+    "182",
+    "1892",
+    "1929",
+    "1942",
+    "2660",
+    "4127",
+    "4670",
+    "6126",
+    "6151"
+  ],
+  "class66_status": "MANUAL TEST REQUIRED; no ordered loaded Class 66 route has been tested. Phase 2 used an orderless short track. No inference of a set-wide or opening-era movement defect is justified.",
+  "polish_duplicate_status": "Post-launch targeted tests; Phase 2 evidence retained, no implementation and no new operational endorsement"
+}

@@ -1,0 +1,223 @@
+{
+  "method_version": 2,
+  "phase1_input_hashes": {
+    "docs\\research\\vehicle_roster.csv": "c192470d1aade407306b3fe99243ad679f4fb195234c298d80cc53142a3ae3de",
+    "docs\\research\\newgrf_inventory.json": "f58c0508fd96ed4ed1739ea645170baee5fedd3c90a357a20757291f45db37f5",
+    "docs\\research\\vehicle_economy_snapshots.csv": "78461a94c72949ef5f51fb4499b4bef25a755efe6e62981d5b00949d211ef140",
+    "docs\\research\\vehicle_runtime_evidence.log": "f6409907241d5665a6e8d3b0535da5920e5ac6be1d1f544e9e177c025283babb",
+    "docs\\research\\vehicle_grf_parameters.json": "f217d37f4a262fa72ec17db02214c5a129a3fb16b55c6442db140547b2b1ed9c",
+    "docs\\research\\scenario_economy_settings.json": "3e0cc8b087448fef6bc08937108feb41003cb8ca4423abe78277f6f65eb9bf50",
+    "docs\\VEHICLE_NEWGRF_INVENTORY.md": "7b0c8ffb7be4ef66177d75904e558d0f2275fb1226c151c10d8489493b09eb49",
+    "docs\\LOCOMOTIVE_PRICE_AUDIT.md": "ffdea4622255c1080499f90810842c76a0e9dafdf51db2c5ad9b9b0f6a38f55d",
+    "docs\\VEHICLE_BALANCING_RECOMMENDATIONS.md": "acba70de9a9cebbf1316cd02c68e4cb6d0d8772f6c6d26184bc6b661ce86242d"
+  },
+  "probe_runs": [
+    {
+      "year": 1830,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1830.log",
+      "sha256": "6127036bcd419e115ff4bb45b5333bee977a1a65d329b9e8c925ca6ca79e3baf",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "2489d4b77093ac50f38d5ac6b44791ea92615c6a74f0baf6a23555c05478eedb"
+    },
+    {
+      "year": 1849,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1849.log",
+      "sha256": "af7bc1b29d7476ad961191edd1d5be6efe0c179d24b159837de0fa44968fc740",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "1a3a322186995d4a4195fe63b1564155a894d58a72f07ae98126e308ec1402e3"
+    },
+    {
+      "year": 1879,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1879.log",
+      "sha256": "959da7f9d25fd11841579aaacd4f749a3c772a1012a99a2ff46f82ec398d7718",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "2c1ee5a9ef924f9198447ccc8ba6bf1472c49d0483c40bd7457ea23efd7d4485"
+    },
+    {
+      "year": 1913,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1913.log",
+      "sha256": "b5e9635481345ece04860a22576a20574f2a35d1c48ac8df0556028d45fef7b7",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "3c0e098acd5a8feec170e365461ed53b4490f2e1467269ad6ac3eb06710da7f5"
+    },
+    {
+      "year": 1945,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1945.log",
+      "sha256": "7184a6adaafe0307768e7a03e7dcae1ff18d003e2ff1e2ed5cca204a83a2ef20",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "420c5af463a4191b190a7c0a6d61782e77e863273db76b5975fe67fac2b0d35e"
+    },
+    {
+      "year": 1970,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1970.log",
+      "sha256": "7e6625767c52149b417f1fba374958524d24bb360b473e99ae3fec077d7dfb19",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "c4d26f0e8443ca61e8b7c3883efc0ace57a57aebbf6ab5d112b9f8cd691113c5"
+    },
+    {
+      "year": 1990,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-1990.log",
+      "sha256": "f5c9b0ac2e28ef6a8b7661c73d53b5101653465b4da44c1fbe3551287c8b51e1",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "d88553371755bfc5f1e21b00ae5907fa7c27bc06414b4901f90f94e6a1392115"
+    },
+    {
+      "year": 2025,
+      "runtime_log": ".vehicle-audit-runtime\\phase2\\phase2-verified-2025.log",
+      "sha256": "93280872461f37776ceb8c25eeafe827d0757966015ef1a7027ee74ebee27e2d",
+      "engines": 2887,
+      "settings": {
+        "difficulty.vehicle_costs": 0,
+        "difficulty.construction_cost": 0,
+        "economy.inflation": 0,
+        "economy.day_length_factor": 1,
+        "economy.timekeeping_units": 0,
+        "vehicle.freight_trains": 1,
+        "vehicle.train_slope_steepness": 3,
+        "economy.infrastructure_maintenance": 1
+      },
+      "config_sha256": "48b14b95840790380b11e473f237657f5cf4f4027d91ce08a0cab1f90bd6931f"
+    }
+  ],
+  "raw_train_observations": 22832,
+  "economic_profiles": 15000,
+  "statistically_flagged_profiles": 373,
+  "overlap_pairs": 398,
+  "train_tests": 994,
+  "built_train_tests": 314,
+  "route_envelopes": 8700,
+  "cargo_validation": {
+    "api_points_matched": 27648,
+    "errors": [],
+    "rule": "Exact integer matching at 54 distance/time points per cargo and snapshot; CB39-profit mask must be absent",
+    "cargo_weight_profiles_matched": 512
+  },
+  "config_corrections": [
+    {
+      "setting": "difficulty.train_flip_reverse_allowed",
+      "phase1_config": "all",
+      "campaign": 1
+    },
+    {
+      "setting": "economy.town_layout",
+      "phase1_config": "0",
+      "campaign": 3
+    },
+    {
+      "setting": "economy.infrastructure_maintenance",
+      "phase1_config": "false",
+      "campaign": 1
+    },
+    {
+      "setting": "vehicle.road_side",
+      "phase1_config": "right",
+      "campaign": 1
+    },
+    {
+      "setting": "linkgraph.distribution_pax",
+      "phase1_config": "0",
+      "campaign": 2
+    },
+    {
+      "setting": "linkgraph.distribution_mail",
+      "phase1_config": "0",
+      "campaign": 2
+    },
+    {
+      "setting": "linkgraph.distribution_default",
+      "phase1_config": "0",
+      "campaign": 1
+    },
+    {
+      "setting": "game_creation.town_name",
+      "phase1_config": "english",
+      "campaign": 0
+    },
+    {
+      "setting": "game_creation.landscape",
+      "phase1_config": "temperate",
+      "campaign": 0
+    },
+    {
+      "setting": "game_creation.generation_unique_id",
+      "phase1_config": "0",
+      "campaign": 932554866
+    },
+    {
+      "setting": "construction.map_height_limit",
+      "phase1_config": "0",
+      "campaign": 45
+    }
+  ],
+  "scope": "No original game/scenario/save/GRF changes; statistical screens are not balance verdicts"
+}

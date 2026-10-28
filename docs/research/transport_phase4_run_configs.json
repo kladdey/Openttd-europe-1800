@@ -1,0 +1,1651 @@
+[
+  {
+    "case": "horse_coal_control",
+    "tag": "coal-matched-control",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "7ab260a89cd88026b1115d9438629a10b62b2edfa3bc967288d8df6cf445ed79",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\coal-matched-control\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "shared_coast_clear",
+    "tag": "coast-clear",
+    "configuration": {
+      "years": 5,
+      "dock_spacing": 4,
+      "depot_spacing": 4,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "d54a07721648d3609c8e4bb837cdbfc616ecb551bbf4dc138cbe10efed242d43",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\coast-clear\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "shared_coast_spaced",
+    "tag": "coast-spaced",
+    "configuration": {
+      "years": 5,
+      "dock_spacing": 4,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "7a92f91562a79dbc31ea8228f68ebbbe8b3a85290f1cd31c1fe9e761b7fa45a3",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\coast-spaced\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "shared_coast",
+    "tag": "coast-three",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "be1f53ca56bd5e08d78bd7e7bfba1947799da58826ff2c36d199d151c0261ae3",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\coast-three\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_farm_fleet",
+    "tag": "final-horse_farm_fleet",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "8db71a867ab6c8465aa4e7b46db2f3236592b19929a1eb730b453c59af0390cd",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_farm_fleet\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_farm_small",
+    "tag": "final-horse_farm_small",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 2,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "7d990725b263397a071c72ba5a1623587e1e74e3467859d6e2b51620ea898036",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_farm_small\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_fruit",
+    "tag": "final-horse_fruit",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 26,
+          "a": 130,
+          "b": 525,
+          "engine": 430,
+          "fleet": 4,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "a196ed29610c6dcac137484cd2457b4456f375d804430fe5bce72ec4a07b18ec",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_fruit\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_local_cheap",
+    "tag": "final-horse_local_cheap",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 191,
+          "b": 191,
+          "engine": 147,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "0ec368c6231dde093f9c47d72a71251cff7a4c90ff3e37dfffb6808196bb0750",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_local_cheap\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_local_fast",
+    "tag": "final-horse_local_fast",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 191,
+          "b": 191,
+          "engine": 151,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "a75fc7593d7a0ccce12db930247e826efd8b29c7ee1f547d937d1221b3846bb0",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_local_fast\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_mail_local",
+    "tag": "final-horse_mail_local",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 2,
+          "a": 191,
+          "b": 191,
+          "engine": 181,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "9d0d06479ca685333624dce1661774a4c3d8fafdae10632d68fa6a661a73a76f",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_mail_local\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_regional",
+    "tag": "final-horse_regional",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 189,
+          "b": 96,
+          "engine": 149,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "2ef7f7adb8753322e084086ba1d6955b44d5cb4fbd29244e08477918c2322d55",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-horse_regional\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "shared_coal",
+    "tag": "final-shared_coal",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "road",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "road",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "43e4ce2aecf346d00e509b988aeda05630f8d1ba960f81c9ae6e0be22a53611b",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-shared_coal\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "shared_coast_navigable",
+    "tag": "final-shared_coast_navigable",
+    "configuration": {
+      "years": 5,
+      "dock_spacing": 4,
+      "depot_spacing": 4,
+      "clear_approaches": true,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "69f542dab7df6c80130515ae16b48c19a05df6b5a7271173574b4339c0e30e59",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-shared_coast_navigable\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "shared_coast_navigable_reverse",
+    "tag": "final-shared_coast_navigable_reverse",
+    "configuration": {
+      "years": 5,
+      "order": [
+        1,
+        0
+      ],
+      "dock_spacing": 4,
+      "depot_spacing": 4,
+      "clear_approaches": true,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "bf8732a0bd750de85393afc2aa81168566967f047f9a08360f9af8a4e5c58262",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-shared_coast_navigable_reverse\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_fleet",
+    "tag": "final-ship_fleet",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 3,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "f1ff2cbb1a93a89ff22fa517d93c4b336ed66af7b9a3b697762c8d818b44597b",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-ship_fleet\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_long",
+    "tag": "final-ship_long",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 324,
+          "b": 16,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "17ca4de9ce8d56fca4010f1504b5589a31f6ed3f390ff6ea287d4858bb963334",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-ship_long\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_low_demand",
+    "tag": "final-ship_low_demand",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 463,
+          "b": 461,
+          "engine": 615,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "d5229328131223234d0cf9c8e397ddc4932fc78ef07d9a2ece2448480072985e",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-ship_low_demand\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_mail",
+    "tag": "final-ship_mail",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 2,
+          "a": 324,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "c532ba00ec1e9cbd6d2c10d97ab1370fa661ba93667c30f9fcf257bbc972ef24",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-ship_mail\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_medium",
+    "tag": "final-ship_medium",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 463,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "152bb0665020cbf6b5cfe2cb631b57b1a0a32de2f623455995016ff4c1ad456c",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\final-ship_medium\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_fish",
+    "tag": "fish-first",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 25,
+          "a": 1289,
+          "b": 1303,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "00317786a6c2ca5095d2a381b22c17f7d9b50078eaafd4f344fbababd7c5aec6",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\fish-first\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_fish",
+    "tag": "fish-fixed",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 25,
+          "a": 1289,
+          "b": 1303,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "350ce861f0935e5c11cebeb2855bd8b870d0dcc91d13c980c2299fc94b7f9dad",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\fish-fixed\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "ship_mail_open_coast",
+    "tag": "mail-open-coast",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 2,
+          "a": 207,
+          "b": 309,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "a025c0cf77442cf5462d85c16ccfcd44322284e2527c2f75b58d6b52497bc5e2",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\mail-open-coast\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "three_strategies",
+    "tag": "main-pilot",
+    "configuration": {
+      "years": 20,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "rail",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 1534,
+          "fleet": 1,
+          "endpoints": "industry",
+          "wagons": 12,
+          "platform": 4,
+          "brake": true,
+          "sep": 2
+        },
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ],
+      "expand": true
+    },
+    "script_sha256": "a65525c8abb62ee2d182b17f35c05367ea0b1aac343f7064b0f414018dcb850e",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=10000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\main-pilot\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_local_cheap",
+    "tag": "road-access-cheap",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 191,
+          "b": 191,
+          "engine": 147,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "4a059459976f37a9963d3b0efa0d7008688d83e78576a0d6c4db4dc786870269",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-cheap\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_farm_fleet",
+    "tag": "road-access-horse_farm_fleet",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "8e7d5ca0a452192b3866964f208217b2abd2448bfc4f4b9b3112baf14eb39638",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-horse_farm_fleet\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_farm_small",
+    "tag": "road-access-horse_farm_small",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 2,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ]
+    },
+    "script_sha256": "fce3abacade5199e019607469d6a1b558dd3960849098db0a3f6eea62f2efcd6",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-horse_farm_small\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_local_fast",
+    "tag": "road-access-horse_local_fast",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 191,
+          "b": 191,
+          "engine": 151,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "a888e97bb94552a87b946b1eee57a065158a73150f7364acb4fa2b7a1fcaa124",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-horse_local_fast\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_mail_local",
+    "tag": "road-access-horse_mail_local",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 2,
+          "a": 191,
+          "b": 191,
+          "engine": 181,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "220fe252d0c56bfab964f98457b60a29ecf2ba33c71ea173140f1cd88da48fd4",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-horse_mail_local\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_straight_mail",
+    "tag": "road-access-horse_straight_mail",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 2,
+          "a": 191,
+          "b": 191,
+          "engine": 181,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4,
+          "straight_local": true
+        }
+      ]
+    },
+    "script_sha256": "a4c57ff0aa19876e48b1985cfccb9757910a7b5a649e545ddd20e212316751ef",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-horse_straight_mail\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_straight_pass",
+    "tag": "road-access-horse_straight_pass",
+    "configuration": {
+      "years": 3,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 191,
+          "b": 191,
+          "engine": 147,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4,
+          "straight_local": true
+        }
+      ]
+    },
+    "script_sha256": "7cd34a895153197ed3a6b21c38528a8e4e3118f95013dfc3c07f40e35c56b310",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\road-access-horse_straight_pass\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "three_strategies_credit",
+    "tag": "three-credit-final",
+    "configuration": {
+      "years": 20,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "rail",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 1534,
+          "fleet": 1,
+          "endpoints": "industry",
+          "wagons": 12,
+          "platform": 4,
+          "brake": true,
+          "sep": 2
+        },
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ],
+      "expand": true,
+      "expand_credit": true
+    },
+    "script_sha256": "e4415e3aa64b9fa09f24d7a6705e1fa36c720983f0298a0f903efda136bf8444",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=660000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\three-credit-final\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "three_strategies_credit",
+    "tag": "three-credit-matched",
+    "configuration": {
+      "years": 20,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "rail",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 1534,
+          "fleet": 1,
+          "endpoints": "industry",
+          "wagons": 12,
+          "platform": 4,
+          "brake": true,
+          "sep": 2
+        },
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ],
+      "expand": true,
+      "expand_credit": true
+    },
+    "script_sha256": "a27b4c98b47e6848afce6158f854434b898dbdbba03bee5cb5bec59592192704",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=660000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\three-credit-matched\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "three_strategies",
+    "tag": "three-final",
+    "configuration": {
+      "years": 20,
+      "routes": [
+        {
+          "mode": "ship",
+          "cargo": 0,
+          "a": 458,
+          "b": 315,
+          "engine": 616,
+          "fleet": 1,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        },
+        {
+          "mode": "rail",
+          "cargo": 14,
+          "a": 438,
+          "b": 456,
+          "engine": 1534,
+          "fleet": 1,
+          "endpoints": "industry",
+          "wagons": 12,
+          "platform": 4,
+          "brake": true,
+          "sep": 2
+        },
+        {
+          "mode": "road",
+          "cargo": 28,
+          "a": 260,
+          "b": 286,
+          "engine": 402,
+          "fleet": 8,
+          "endpoints": "industry",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 2
+        }
+      ],
+      "expand": true
+    },
+    "script_sha256": "a65525c8abb62ee2d182b17f35c05367ea0b1aac343f7064b0f414018dcb850e",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=660000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\three-final\\scenario-test.scn"
+    ]
+  },
+  {
+    "case": "horse_local_cheap",
+    "tag": "urban-fix-cheap",
+    "configuration": {
+      "years": 5,
+      "routes": [
+        {
+          "mode": "road",
+          "cargo": 0,
+          "a": 191,
+          "b": 191,
+          "engine": 147,
+          "fleet": 2,
+          "endpoints": "town",
+          "wagons": 4,
+          "platform": 2,
+          "brake": false,
+          "sep": 4
+        }
+      ]
+    },
+    "script_sha256": "59f32d5c5168dee046310b06e0b09a347a2412345d65108f86c86a399aa3b419",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+    "arguments": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-c",
+      "test.cfg",
+      "-x",
+      "-v",
+      "null:ticks=210000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\.vehicle-audit-runtime\\phase4\\urban-fix-cheap\\scenario-test.scn"
+    ]
+  }
+]

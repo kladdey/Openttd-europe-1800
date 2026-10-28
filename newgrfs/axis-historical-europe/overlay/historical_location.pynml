@@ -1,0 +1,14 @@
+<!--! Editor placement bypasses probability checks, so guard location as well. -->
+<tal:history condition="getattr(industry, 'historical_rule', None) is not None">
+switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_location,
+       !historical_europe_mode || economy != 0 || (${industry.historical_condition})) {
+    1: ${industry.id}_check_location_upstream;
+    return CB_RESULT_LOCATION_DISALLOW;
+}
+</tal:history>
+<tal:unmodified condition="getattr(industry, 'historical_rule', None) is None">
+switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_location, 1) {
+    1: ${industry.id}_check_location_upstream;
+    return CB_RESULT_LOCATION_DISALLOW;
+}
+</tal:unmodified>

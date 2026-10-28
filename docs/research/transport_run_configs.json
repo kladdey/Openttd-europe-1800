@@ -1,0 +1,388 @@
+[
+  {
+    "tag": "coastal-industry-check",
+    "constants": "",
+    "script": "scripts/transport_phase3_coastal.nut",
+    "ticks_limit": 15000,
+    "script_sha256": "0d8ad1babb245db18deafaa6ad9bab884089465bfe760c7b729f80d3471a2085",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-city-road",
+    "constants": "CASE <- \"horse_city_road\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "64c6889551086a22e8f0fd5fd0fa0cf52ef49aef603e18007115628f1471ff39",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-coal-10y",
+    "constants": "CASE <- \"horse_coal\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "6fbd72ca46a4965150e42bab17367aff20bb5fd6a96e07608bcc464cc88312df"
+  },
+  {
+    "tag": "horse-coal-10yb",
+    "constants": "CASE <- \"horse_coal\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "71a0afd5aa0f6d0520316c9c06ab6ee620ab0fdb0cf613a7ccd1b36f7ea02a14"
+  },
+  {
+    "tag": "horse-coal-10yc",
+    "constants": "CASE <- \"horse_coal\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "f48a8a45d958c0ee4fc01d4ac53d0397d054424f3aa08d1bbb4c3a2bb27a0f51"
+  },
+  {
+    "tag": "horse-coal-final",
+    "constants": "CASE <- \"horse_coal\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "3227339209ceb7e701898f025e0fe190547db3de0f4dfa97fcb04e9cc414a326"
+  },
+  {
+    "tag": "horse-coal-fleet",
+    "constants": "CASE <- \"horse_coal_fleet\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\"; FLEET <- 8;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "7dc08bbcc1dac062f2330d6fe20f5e37e166377b07498bfc2fba5a45c944897d"
+  },
+  {
+    "tag": "horse-coal-fleet2",
+    "constants": "CASE <- \"horse_coal_fleet\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\"; FLEET <- 8;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "127274cd4fea0ce8b0c13382883d6d8bbc9ec581dee6e21c370f8c7df5ece17d"
+  },
+  {
+    "tag": "horse-coal-fleet3",
+    "constants": "CASE <- \"horse_coal_fleet\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\"; FLEET <- 8;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "8093cdf3bd33edb1df55834c652a528503635a639060229c4ebcbc2392e63637"
+  },
+  {
+    "tag": "horse-coal-fleet4",
+    "constants": "CASE <- \"horse_coal_fleet\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\"; FLEET <- 8;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "ae1cdb39955b548d29597625eb8f74ea16fc2f1232e38701e935e6ce824fd72d"
+  },
+  {
+    "tag": "horse-coast",
+    "constants": "CASE <- \"horse_coast\"; MODE <- \"road\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "dcf5d8158bb988559d7c0d7355118af46bfaead270c373ba4a81a353228a5692",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-existing-road",
+    "constants": "CASE <- \"horse_existing_road\"; MODE <- \"road\"; CARGO <- 0; A <- 189; B <- 96; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"town\"; FLEET <- 4;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 310000,
+    "script_sha256": "b12b27b3c32ba5a2e7c275e39899423d136729d306d8845604de7d2322161bef",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-local",
+    "constants": "CASE <- \"horse_local\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "7b79b69e4e005a807b214338893e9c2c80ebb7a40eeaf471cc0914eb20525f0c",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-local-bridge",
+    "constants": "CASE <- \"horse_local_bridge\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "d68e72d6e190141e94e90c2ae49789c03ddffdbd592446fdc7cb53b645c8f487",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-local-bridge2",
+    "constants": "CASE <- \"horse_local_bridge\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "72d0bb62d538dbb9e558e23ed102404322ebc4ec19fa54ee3fac3265c98e6020",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-local-bridge3",
+    "constants": "CASE <- \"horse_local_bridge\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "f7d4175d7250a1ece08cc89e2c9b807471e94d06524a20325e47d170f4d3fa28",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-local2",
+    "constants": "CASE <- \"horse_local\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "8ba231597531639a4133f124536a94e72831348813dfbf23e70b5c71a643c3fa",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-local3",
+    "constants": "CASE <- \"horse_local\"; MODE <- \"road\"; CARGO <- 0; A <- 203; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "5e3b292917c907265c9e80b4d39bc1c7567ab7ec3c6b88d04e1c0872086d6ede",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-lodi",
+    "constants": "CASE <- \"horse_lodi\"; MODE <- \"road\"; CARGO <- 0; A <- 189; B <- 96; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "b00ba0acd0c1c0703759c0a4c7eb9821b35228fb7b9a067a6ab94f92e6010e29",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-london",
+    "constants": "CASE <- \"horse_london\"; MODE <- \"road\"; CARGO <- 0; A <- 191; B <- 191; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4; MIN_SEPARATION <- 8;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "bd232ab5180ca7969717d83c14231777362c6d3fb9b8de05f24866255bff813f",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "horse-mail",
+    "constants": "CASE <- \"horse_mail\"; MODE <- \"road\"; CARGO <- 2; A <- 244; B <- 203; ENGINE <- 182; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\"; FLEET <- 4;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "278508d31bfe0d108460241b19d6cc3393d270a5c287a8bf5e989cf0a15fd076"
+  },
+  {
+    "tag": "horse-passenger-final",
+    "constants": "CASE <- \"horse_passenger\"; MODE <- \"road\"; CARGO <- 0; A <- 244; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 20; ENDPOINTS <- \"town\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "aa20c6d140cb0c040d5ab528f86b35af3ec5caecf7e43db1a70f94a432de2edc"
+  },
+  {
+    "tag": "horse-passenger-final2",
+    "constants": "CASE <- \"horse_passenger\"; MODE <- \"road\"; CARGO <- 0; A <- 244; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 20; ENDPOINTS <- \"town\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "50f31f09e52f1c296197446d95bdf742942441089711b239bf4f386b22da175b"
+  },
+  {
+    "tag": "horse-passenger-ledger",
+    "constants": "CASE <- \"horse_passenger\"; MODE <- \"road\"; CARGO <- 0; A <- 244; B <- 203; ENGINE <- 150; POLICY <- \"repay_idle\"; YEARS <- 20; ENDPOINTS <- \"town\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "1ceaf06f030439866ae3526f849a555ea3b2f17f05538b26de7a423c4db541c2"
+  },
+  {
+    "tag": "horse-transition",
+    "constants": "CASE <- \"horse_transition_1830\"; MODE <- \"road\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 403; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"industry\"; FLEET <- 8; EXPAND <- true;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 450000,
+    "script_sha256": "eaaa0b7bc97bc98985a68aac1128b48414f55faa98414d7e321061803f77abed",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-coal-12-brake",
+    "constants": "CASE <- \"rail_coal_12_brake\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\"; WAGONS <- 12; PLATFORM <- 4; BRAKE_VAN <- true;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "1c62852c9ffc02159b5706eaa2852cbb8ca7be1936d7c7be1f0660c5743ba700",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-coal-12wagons",
+    "constants": "CASE <- \"rail_coal_12wagons\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\"; WAGONS <- 12; PLATFORM <- 4;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "e68e53e9af13f49323d20806bb5f9ac104fe0416e8f4ea2f08cc4174fd7a38c0",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-coal-24-brake",
+    "constants": "CASE <- \"rail_coal_24_brake\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\"; WAGONS <- 24; PLATFORM <- 7; BRAKE_VAN <- true;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "bfcdc10d2a8a96b4d02c73b41609792d986257ea71ed1c3b6b6e071ce75aa690",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-coal-24wagons",
+    "constants": "CASE <- \"rail_coal_24wagons\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\"; WAGONS <- 24; PLATFORM <- 7;",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "7babd86c47fb0168b825c8e65d908620d8edb59d13c0ea471a3242ddfa448b4b",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-coal-keep",
+    "constants": "CASE <- \"rail_coal_keep\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 1534; POLICY <- \"keep\"; YEARS <- 2; ENDPOINTS <- \"industry\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 75000,
+    "script_sha256": "6005c96f971dcde3904acbe3358280bb65f5c4508137293409ba46ce7b9069de",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-coal-ledger",
+    "constants": "CASE <- \"rail_coal\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 20; ENDPOINTS <- \"industry\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "84b8ee8db023496236ba925633658f10056b7b07950fac1a376a20a1d754d603"
+  },
+  {
+    "tag": "rail-coast",
+    "constants": "CASE <- \"rail_coast\"; MODE <- \"rail\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "14301bcba3c5f310baeab3fbe37edd82fc07eea24cad0d07672a480c70798525",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-general",
+    "constants": "CASE <- \"rail_wood\"; MODE <- \"rail\"; CARGO <- 32; A <- 869; B <- 369; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\";\nFLEET <- 1;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "884f815428c1ebcdb51f3c85d4f66a2a0f48a2f560b194a56e21a9af202b0b58"
+  },
+  {
+    "tag": "rail-general2",
+    "constants": "CASE <- \"rail_grain\"; MODE <- \"rail\"; CARGO <- 28; A <- 260; B <- 286; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\";\nFLEET <- 1;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "63bacfe62f6066317e47075f3902f86be42d9a5532ebbc468fc635abdde61bbb"
+  },
+  {
+    "tag": "rail-grasshopper",
+    "constants": "CASE <- \"rail_grasshopper\"; MODE <- \"rail\"; CARGO <- 14; A <- 438; B <- 456; ENGINE <- 2038; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "a4f9fb119e682063d245146f6316143c2db03524e1c15befecc9ad5990853072",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-lodi",
+    "constants": "CASE <- \"rail_lodi\"; MODE <- \"rail\"; CARGO <- 0; A <- 189; B <- 96; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"town\";\nFLEET <- 1;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "f785c7d4c53c91bb5ccdded8fce936cec2c6fbfe8433a344d00689ed1a198c75"
+  },
+  {
+    "tag": "rail-medium",
+    "constants": "CASE <- \"rail_medium_coal\"; MODE <- \"rail\"; CARGO <- 14; A <- 237; B <- 76; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "b9f1b484e50e6841fb4398d3e63124d90baf25ef92a793233ea64ffeedeb6d55",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-passenger",
+    "constants": "CASE <- \"rail_passenger\"; MODE <- \"rail\"; CARGO <- 0; A <- 244; B <- 203; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"town\";\nFLEET <- 1;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "cd1bcf134de8433c44be14a539d008ea82bea5b52d6eaa18b6f0fd8069b8ae9a"
+  },
+  {
+    "tag": "rail-wood-final",
+    "constants": "CASE <- \"rail_wood\"; MODE <- \"rail\"; CARGO <- 32; A <- 869; B <- 369; ENGINE <- 1534; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "baeabab04e578f8abd6f060386a9653f0d74bd34443e48a2d2308beb5a06514a",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "rail-wood-grasshopper",
+    "constants": "CASE <- \"rail_wood_grasshopper\"; MODE <- \"rail\"; CARGO <- 32; A <- 869; B <- 369; ENGINE <- 2038; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"industry\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "a10739e4f586bb84a33586bea11c72423fc3b8b6a4d0de58a8606bd19af6eedd",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "replay-brake-required",
+    "constants": "",
+    "script": "scripts/transport_phase3_probe.nut",
+    "ticks_limit": 5000,
+    "script_sha256": "e68e53e9af13f49323d20806bb5f9ac104fe0416e8f4ea2f08cc4174fd7a38c0",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "ship-barque",
+    "constants": "CASE <- \"ship_barque_pax\"; MODE <- \"ship\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 615; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "155fe3b26a1c3d4c12ffe94bafab310da46a2870d380184fb2f03a5b69ca8d17",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  },
+  {
+    "tag": "ship-mail",
+    "constants": "CASE <- \"ship_mail\"; MODE <- \"ship\"; CARGO <- 2; A <- 458; B <- 315; ENGINE <- 615; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\";\nFLEET <- 1;\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "84c3902294795b84cbae913494c494088eda9c3015741be47c32b738ca8096ef"
+  },
+  {
+    "tag": "ship-pax-final",
+    "constants": "CASE <- \"ship_pax\"; MODE <- \"ship\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 616; POLICY <- \"repay_idle\"; YEARS <- 10; ENDPOINTS <- \"town\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "93dfcefdcab6091f14ac78dc826e49e23566d04ec6035cf9d0bfa6f72b6f7120"
+  },
+  {
+    "tag": "ship-pax-pilot",
+    "constants": "CASE <- \"ship_pax\"; MODE <- \"ship\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 616; POLICY <- \"repay_idle\"; YEARS <- 1; ENDPOINTS <- \"town\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "69ec518d10504ade5044d190ad4b3f70a6b1e19a779201b79545f3e5ca626333"
+  },
+  {
+    "tag": "ship-pax-pilot2",
+    "constants": "CASE <- \"ship_pax\"; MODE <- \"ship\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 616; POLICY <- \"repay_idle\"; YEARS <- 1; ENDPOINTS <- \"town\";\n",
+    "note": "Manifest reconstructed from retained per-case source",
+    "script_sha256": "6b5c816ea6d65463ff2bbc603e9c14e323d6ee3ca66beec1ae58683176f71238"
+  },
+  {
+    "tag": "ship-schooner",
+    "constants": "CASE <- \"ship_schooner\"; MODE <- \"ship\"; CARGO <- 0; A <- 458; B <- 315; ENGINE <- 617; POLICY <- \"repay_idle\"; YEARS <- 5; ENDPOINTS <- \"town\";",
+    "script": "scripts/transport_phase3_services.nut",
+    "ticks_limit": 180000,
+    "script_sha256": "bdb24ee486a0337380b375a79f995317bffef30a897dfe627a1f2270b65863ef",
+    "config_sha256": "c7e94fb74bee6443bc37b55426d980307af337dc75c6a5b1e808ecd4c3bcc259",
+    "scenario_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+    "exe": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe"
+  }
+]

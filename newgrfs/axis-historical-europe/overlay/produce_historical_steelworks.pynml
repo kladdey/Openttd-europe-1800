@@ -1,0 +1,19 @@
+<!--! Preserve generic callbacks for the other economies and their UI state. -->
+<tal:include metal:use-macro="load: produce_secondary.pynml" />
+
+<!--! Classic: stockpile BOTH inputs; only complete batches produce steel.
+      Integer batch recipe is centralized in the manifest, not duplicated here.
+      No closure or time-dependent production callback is added. -->
+<tal:recipe define="recipe industry.historical_rule['recipe']">
+produce(historical_steelworks_batch,
+    [
+        <tal:input repeat="cargo recipe['inputs'].items()">
+        ${cargo[0]}: min(incoming_cargo_waiting("IRON") / ${recipe['inputs']['IRON']}, incoming_cargo_waiting("COKE") / ${recipe['inputs']['COKE']}) * ${cargo[1]};
+        </tal:input>
+    ],
+    [
+        <tal:output repeat="cargo recipe['outputs'].items()">
+        ${cargo[0]}: min(incoming_cargo_waiting("IRON") / ${recipe['inputs']['IRON']}, incoming_cargo_waiting("COKE") / ${recipe['inputs']['COKE']}) * ${cargo[1]};
+        </tal:output>
+    ], 0)
+</tal:recipe>

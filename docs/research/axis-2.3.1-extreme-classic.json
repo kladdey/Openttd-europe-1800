@@ -1,0 +1,2730 @@
+{
+  "source_commit": "11c8353ccf7444b143e57080b1aa2b5e38839a23",
+  "economy": "BASIC_TEMPERATE",
+  "cargo_count": 64,
+  "industries": [
+    {
+      "id": "coal_mine",
+      "local_id": 0,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "COAL",
+          20
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/coal_mine.py"
+    },
+    {
+      "id": "iron_ore_mine",
+      "local_id": 4,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "IORE",
+          20
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/iron_ore_mine.py"
+    },
+    {
+      "id": "peatlands",
+      "local_id": 5,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "BIOM",
+          18
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/peatlands.py"
+    },
+    {
+      "id": "blast_furnace",
+      "local_id": 7,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "IORE",
+        "COKE",
+        "LIME"
+      ],
+      "outputs": [
+        [
+          "IRON",
+          6
+        ],
+        [
+          "SLAG",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "IORE",
+          4
+        ],
+        [
+          "COKE",
+          3
+        ],
+        [
+          "LIME",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "0",
+      "source": "src/industries/blast_furnace.py"
+    },
+    {
+      "id": "aluminium_plant",
+      "local_id": 8,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "AORE",
+        "SCMT",
+        "COKE",
+        "ACID"
+      ],
+      "outputs": [
+        [
+          "ALUM",
+          7
+        ],
+        [
+          "SLAG",
+          1
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "AORE",
+          4
+        ],
+        [
+          "SCMT",
+          4
+        ],
+        [
+          "COKE",
+          2
+        ],
+        [
+          "ACID",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/aluminium_plant.py"
+    },
+    {
+      "id": "metal_workshop",
+      "local_id": 9,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "STEL",
+        "ALUM",
+        "COAT"
+      ],
+      "outputs": [
+        [
+          "MPAR",
+          8
+        ],
+        [
+          "MNSP",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "STEL",
+          6
+        ],
+        [
+          "ALUM",
+          6
+        ],
+        [
+          "COAT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/metal_workshop.py"
+    },
+    {
+      "id": "quarry",
+      "local_id": 10,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "SAND",
+          14
+        ],
+        [
+          "LIME",
+          14
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/quarry.py"
+    },
+    {
+      "id": "forest",
+      "local_id": 11,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "WOOD",
+          19
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/forest.py"
+    },
+    {
+      "id": "sawmill",
+      "local_id": 12,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "WOOD"
+      ],
+      "outputs": [
+        [
+          "WDPR",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "WOOD",
+          6
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/sawmill.py"
+    },
+    {
+      "id": "furniture_factory",
+      "local_id": 13,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "WDPR",
+        "TEXT",
+        "MPAR",
+        "GLAS"
+      ],
+      "outputs": [
+        [
+          "GOOD",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "WDPR",
+          4
+        ],
+        [
+          "TEXT",
+          2
+        ],
+        [
+          "MPAR",
+          2
+        ],
+        [
+          "GLAS",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "7",
+      "source": "src/industries/furniture_factory.py"
+    },
+    {
+      "id": "oil_wells",
+      "local_id": 15,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "OIL_",
+          28
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "6",
+      "source": "src/industries/oil_wells.py"
+    },
+    {
+      "id": "oil_rig",
+      "local_id": 16,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "OIL_",
+          29
+        ],
+        [
+          "PASS",
+          4
+        ]
+      ],
+      "intro_year": 1967,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "6",
+      "source": "src/industries/oil_rig.py"
+    },
+    {
+      "id": "oil_refinery",
+      "local_id": 17,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "OIL_"
+      ],
+      "outputs": [
+        [
+          "RFPR",
+          6
+        ],
+        [
+          "PETR",
+          4
+        ],
+        [
+          "CTAR",
+          4
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "OIL_",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/oil_refinery.py"
+    },
+    {
+      "id": "plastics_plant",
+      "local_id": 18,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "PLAS",
+        "MPAR"
+      ],
+      "outputs": [
+        [
+          "MNSP",
+          6
+        ]
+      ],
+      "intro_year": "1900",
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "PLAS",
+          5
+        ],
+        [
+          "MPAR",
+          3
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/plastics_plant.py"
+    },
+    {
+      "id": "fish_farm",
+      "local_id": 19,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "FISH",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "14",
+      "source": "src/industries/fish_farm.py"
+    },
+    {
+      "id": "dredging_site",
+      "local_id": 20,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "SAND",
+          17
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/dredging_site.py"
+    },
+    {
+      "id": "iron_works",
+      "local_id": 21,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "IRON",
+        "ALUM",
+        "SAND"
+      ],
+      "outputs": [
+        [
+          "MPAR",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "IRON",
+          3
+        ],
+        [
+          "ALUM",
+          2
+        ],
+        [
+          "SAND",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/iron_works.py"
+    },
+    {
+      "id": "glass_works",
+      "local_id": 22,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SAND",
+        "SASH",
+        "QLME"
+      ],
+      "outputs": [
+        [
+          "GLAS",
+          8
+        ],
+        [
+          "MNSP",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SAND",
+          6
+        ],
+        [
+          "SASH",
+          2
+        ],
+        [
+          "QLME",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/glass_works.py"
+    },
+    {
+      "id": "recycling_plant",
+      "local_id": 23,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RCYC"
+      ],
+      "outputs": [
+        [
+          "PLAS",
+          3
+        ]
+      ],
+      "intro_year": 1978,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RCYC",
+          6
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "7",
+      "source": "src/industries/recycling_plant.py"
+    },
+    {
+      "id": "recycling_depot",
+      "local_id": 24,
+      "model_class": "IndustryTownProducerPopulationDependent",
+      "inputs": [],
+      "outputs": [
+        [
+          "RCYC",
+          16
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "20",
+      "source": "src/industries/recycling_depot.py"
+    },
+    {
+      "id": "junk_yard",
+      "local_id": 25,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RCYC"
+      ],
+      "outputs": [
+        [
+          "SCMT",
+          3
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RCYC",
+          6
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/junk_yard.py"
+    },
+    {
+      "id": "arable_farm",
+      "local_id": 26,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "GRAI",
+          14
+        ],
+        [
+          "SGBT",
+          24
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "5",
+      "source": "src/industries/arable_farm.py"
+    },
+    {
+      "id": "sheep_farm",
+      "local_id": 27,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "LVST",
+          13
+        ],
+        [
+          "FICR",
+          16
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/sheep_farm.py"
+    },
+    {
+      "id": "dairy_farm",
+      "local_id": 28,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "LVST",
+          12
+        ],
+        [
+          "MILK",
+          14
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/dairy_farm.py"
+    },
+    {
+      "id": "farm",
+      "local_id": 29,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "OLSD",
+          20
+        ],
+        [
+          "LVST",
+          12
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/farm.py"
+    },
+    {
+      "id": "fruit_plantation",
+      "local_id": 30,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "FRUT",
+          16
+        ],
+        [
+          "OLSD",
+          13
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/fruit_plantation.py"
+    },
+    {
+      "id": "fishing_grounds",
+      "local_id": 32,
+      "model_class": "IndustryPrimaryNoSupplies",
+      "inputs": [],
+      "outputs": [
+        [
+          "FISH",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "14",
+      "source": "src/industries/fishing_grounds.py"
+    },
+    {
+      "id": "vehicle_distributor",
+      "local_id": 33,
+      "model_class": "IndustryTertiary",
+      "inputs": [
+        "VEHI"
+      ],
+      "outputs": [],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/vehicle_distributor.py"
+    },
+    {
+      "id": "flour_mill",
+      "local_id": 34,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "GRAI",
+        "MNSP"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          6
+        ],
+        [
+          "EOIL",
+          4
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "GRAI",
+          6
+        ],
+        [
+          "MNSP",
+          4
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "10",
+      "source": "src/industries/flour_mill.py"
+    },
+    {
+      "id": "brewery",
+      "local_id": 35,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "GRAI",
+        "FRUT",
+        "MNSP"
+      ],
+      "outputs": [
+        [
+          "BEER",
+          6
+        ],
+        [
+          "BIOM",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "GRAI",
+          4
+        ],
+        [
+          "FRUT",
+          3
+        ],
+        [
+          "MNSP",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/brewery.py"
+    },
+    {
+      "id": "dairy",
+      "local_id": 36,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "MILK",
+        "MNSP"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          8
+        ],
+        [
+          "EOIL",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "MILK",
+          6
+        ],
+        [
+          "MNSP",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/dairy.py"
+    },
+    {
+      "id": "stockyard",
+      "local_id": 37,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "LVST",
+        "MNSP"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "LVST",
+          6
+        ],
+        [
+          "MNSP",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/stockyard.py"
+    },
+    {
+      "id": "machine_shop",
+      "local_id": 38,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "POWR",
+        "VPTS",
+        "MPAR",
+        "TYRE",
+        "GLAS"
+      ],
+      "outputs": [
+        [
+          "GOOD",
+          4
+        ],
+        [
+          "ENSP",
+          2
+        ],
+        [
+          "FMSP",
+          2
+        ]
+      ],
+      "intro_year": 1790,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "POWR",
+          3
+        ],
+        [
+          "VPTS",
+          2
+        ],
+        [
+          "MPAR",
+          2
+        ],
+        [
+          "TYRE",
+          2
+        ],
+        [
+          "GLAS",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/machine_shop.py"
+    },
+    {
+      "id": "port",
+      "local_id": 39,
+      "model_class": "IndustryPrimaryPort",
+      "inputs": [
+        "BDMT",
+        "FOOD",
+        "BEER",
+        "PAPR"
+      ],
+      "outputs": [
+        [
+          "ENSP",
+          19
+        ],
+        [
+          "FMSP",
+          19
+        ],
+        [
+          "POWR",
+          12
+        ],
+        [
+          "MPAR",
+          12
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "2",
+      "source": "src/industries/port.py"
+    },
+    {
+      "id": "ammonia_plant",
+      "local_id": 40,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RFPR",
+        "NITR",
+        "BIOM",
+        "ACID"
+      ],
+      "outputs": [
+        [
+          "FERT",
+          5
+        ],
+        [
+          "BOOM",
+          3
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RFPR",
+          2
+        ],
+        [
+          "NITR",
+          4
+        ],
+        [
+          "BIOM",
+          2
+        ],
+        [
+          "ACID",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/ammonia_plant.py"
+    },
+    {
+      "id": "lumber_yard",
+      "local_id": 41,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "WDPR",
+        "MPAR",
+        "COAT"
+      ],
+      "outputs": [
+        [
+          "BDMT",
+          6
+        ],
+        [
+          "MNSP",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "WDPR",
+          4
+        ],
+        [
+          "MPAR",
+          2
+        ],
+        [
+          "COAT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/lumber_yard.py"
+    },
+    {
+      "id": "textile_mill",
+      "local_id": 42,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "FICR",
+        "COAT"
+      ],
+      "outputs": [
+        [
+          "TEXT",
+          7
+        ],
+        [
+          "GOOD",
+          4
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "FICR",
+          4
+        ],
+        [
+          "COAT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/textile_mill.py"
+    },
+    {
+      "id": "vineyard",
+      "local_id": 43,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "FRUT",
+          14
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/vineyard.py"
+    },
+    {
+      "id": "clay_pit",
+      "local_id": 44,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "CLAY",
+          16
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/clay_pit.py"
+    },
+    {
+      "id": "brick_works",
+      "local_id": 45,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "CLAY",
+        "SAND",
+        "COAL"
+      ],
+      "outputs": [
+        [
+          "BDMT",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "CLAY",
+          4
+        ],
+        [
+          "SAND",
+          3
+        ],
+        [
+          "COAL",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "1",
+      "source": "src/industries/brick_works.py"
+    },
+    {
+      "id": "wharf",
+      "local_id": 46,
+      "model_class": "IndustryPrimaryPort",
+      "inputs": [
+        "COPR",
+        "BOOM",
+        "GOOD",
+        "CMNT"
+      ],
+      "outputs": [
+        [
+          "MNSP",
+          19
+        ],
+        [
+          "RAMT",
+          16
+        ],
+        [
+          "ENSP",
+          12
+        ],
+        [
+          "FMSP",
+          12
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "2",
+      "source": "src/industries/wharf.py"
+    },
+    {
+      "id": "orchard_piggery",
+      "local_id": 47,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "FRUT",
+          9
+        ],
+        [
+          "LVST",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/orchard_piggery.py"
+    },
+    {
+      "id": "ranch",
+      "local_id": 48,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "FICR",
+          18
+        ],
+        [
+          "OLSD",
+          14
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/ranch.py"
+    },
+    {
+      "id": "bulk_terminal",
+      "local_id": 51,
+      "model_class": "IndustryPrimaryPort",
+      "inputs": [
+        "ZINC",
+        "FERT",
+        "VEHI",
+        "STEL"
+      ],
+      "outputs": [
+        [
+          "IORE",
+          19
+        ],
+        [
+          "COAL",
+          19
+        ],
+        [
+          "AORE",
+          16
+        ],
+        [
+          "CORE",
+          16
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "2",
+      "source": "src/industries/bulk_terminal.py"
+    },
+    {
+      "id": "trading_post",
+      "local_id": 52,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "SCMT",
+          12
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "2",
+      "source": "src/industries/trading_post.py"
+    },
+    {
+      "id": "rubber_plantation",
+      "local_id": 53,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "RUBR",
+          16
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/rubber_plantation.py"
+    },
+    {
+      "id": "limestone_mine",
+      "local_id": 54,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "LIME",
+          20
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/limestone_mine.py"
+    },
+    {
+      "id": "food_processor",
+      "local_id": 56,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "FRUT",
+        "FISH",
+        "EOIL",
+        "MNSP",
+        "SALT"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "FRUT",
+          4
+        ],
+        [
+          "FISH",
+          4
+        ],
+        [
+          "EOIL",
+          4
+        ],
+        [
+          "MNSP",
+          2
+        ],
+        [
+          "SALT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/food_processor.py"
+    },
+    {
+      "id": "hardware_store",
+      "local_id": 57,
+      "model_class": "IndustryTertiary",
+      "inputs": [
+        "GOOD",
+        "BDMT"
+      ],
+      "outputs": [],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "18",
+      "source": "src/industries/hardware_store.py"
+    },
+    {
+      "id": "food_market",
+      "local_id": 59,
+      "model_class": "IndustryTertiary",
+      "inputs": [
+        "FOOD",
+        "FRUT",
+        "BEER"
+      ],
+      "outputs": [],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "12",
+      "source": "src/industries/food_market.py"
+    },
+    {
+      "id": "petrol_pump",
+      "local_id": 60,
+      "model_class": "IndustryTertiary",
+      "inputs": [
+        "FOOD",
+        "GOOD",
+        "PETR"
+      ],
+      "outputs": [],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "14",
+      "source": "src/industries/petrol_pump.py"
+    },
+    {
+      "id": "general_store",
+      "local_id": 61,
+      "model_class": "IndustryTertiary",
+      "inputs": [
+        "FOOD",
+        "GOOD",
+        "BEER"
+      ],
+      "outputs": [],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "12",
+      "source": "src/industries/general_store.py"
+    },
+    {
+      "id": "assembly_plant",
+      "local_id": 62,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "STEL",
+        "GLAS",
+        "VPTS",
+        "MPAR",
+        "TYRE",
+        "COAT"
+      ],
+      "outputs": [
+        [
+          "VEHI",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "STEL",
+          3
+        ],
+        [
+          "GLAS",
+          2
+        ],
+        [
+          "VPTS",
+          2
+        ],
+        [
+          "MPAR",
+          2
+        ],
+        [
+          "TYRE",
+          2
+        ],
+        [
+          "COAT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "1",
+      "source": "src/industries/assembly_plant.py"
+    },
+    {
+      "id": "copper_mine",
+      "local_id": 64,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "CORE",
+          20
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "7",
+      "source": "src/industries/copper_mine.py"
+    },
+    {
+      "id": "nitrate_mine",
+      "local_id": 65,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "NITR",
+          18
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/nitrate_mine.py"
+    },
+    {
+      "id": "power_plant",
+      "local_id": 66,
+      "model_class": "IndustryTertiary",
+      "inputs": [
+        "COAL",
+        "PETR",
+        "BIOM"
+      ],
+      "outputs": [],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "3",
+      "source": "src/industries/power_plant.py"
+    },
+    {
+      "id": "copper_refinery",
+      "local_id": 67,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "CORE",
+        "SCMT",
+        "ACID"
+      ],
+      "outputs": [
+        [
+          "COPR",
+          7
+        ],
+        [
+          "SLAG",
+          1
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "CORE",
+          4
+        ],
+        [
+          "SCMT",
+          2
+        ],
+        [
+          "ACID",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/copper_refinery.py"
+    },
+    {
+      "id": "cement_plant",
+      "local_id": 68,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "CMNT",
+        "COKE",
+        "SAND",
+        "LIME"
+      ],
+      "outputs": [
+        [
+          "BDMT",
+          6
+        ],
+        [
+          "QLME",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "CMNT",
+          2
+        ],
+        [
+          "COKE",
+          2
+        ],
+        [
+          "SAND",
+          2
+        ],
+        [
+          "LIME",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/cement_plant.py"
+    },
+    {
+      "id": "supply_yard",
+      "local_id": 69,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "VEHI",
+        "PETR",
+        "BOOM"
+      ],
+      "outputs": [
+        [
+          "ENSP",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "VEHI",
+          8
+        ],
+        [
+          "PETR",
+          8
+        ],
+        [
+          "BOOM",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/supply_yard.py"
+    },
+    {
+      "id": "tyre_plant",
+      "local_id": 70,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RUBR",
+        "MPAR",
+        "SULP"
+      ],
+      "outputs": [
+        [
+          "TYRE",
+          8
+        ],
+        [
+          "GOOD",
+          4
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RUBR",
+          4
+        ],
+        [
+          "MPAR",
+          2
+        ],
+        [
+          "SULP",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/tyre_plant.py"
+    },
+    {
+      "id": "pyrite_mine",
+      "local_id": 71,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "PORE",
+          20
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/pyrite_mine.py"
+    },
+    {
+      "id": "pyrite_smelter",
+      "local_id": 72,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "PORE",
+        "COKE",
+        "ACID"
+      ],
+      "outputs": [
+        [
+          "ZINC",
+          4
+        ],
+        [
+          "RAMT",
+          3
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "PORE",
+          6
+        ],
+        [
+          "COKE",
+          2
+        ],
+        [
+          "ACID",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/pyrite_smelter.py"
+    },
+    {
+      "id": "paper_mill",
+      "local_id": 73,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "CLAY",
+        "WOOD",
+        "SULP"
+      ],
+      "outputs": [
+        [
+          "PAPR",
+          6
+        ],
+        [
+          "MNSP",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "CLAY",
+          2
+        ],
+        [
+          "WOOD",
+          4
+        ],
+        [
+          "SULP",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/paper_mill.py"
+    },
+    {
+      "id": "liquids_terminal",
+      "local_id": 74,
+      "model_class": "IndustryPrimaryPort",
+      "inputs": [
+        "CHLO",
+        "RUBR",
+        "EOIL",
+        "PETR"
+      ],
+      "outputs": [
+        [
+          "OIL_",
+          20
+        ],
+        [
+          "ACID",
+          20
+        ],
+        [
+          "RFPR",
+          18
+        ],
+        [
+          "COAT",
+          18
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "2",
+      "source": "src/industries/liquids_terminal.py"
+    },
+    {
+      "id": "basic_oxygen_furnace",
+      "local_id": 77,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "IRON",
+        "QLME",
+        "RAMT"
+      ],
+      "outputs": [
+        [
+          "STEL",
+          6
+        ],
+        [
+          "SLAG",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "IRON",
+          4
+        ],
+        [
+          "QLME",
+          2
+        ],
+        [
+          "RAMT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "0",
+      "source": "src/industries/basic_oxygen_furnace.py"
+    },
+    {
+      "id": "coke_oven",
+      "local_id": 78,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "COAL"
+      ],
+      "outputs": [
+        [
+          "COKE",
+          6
+        ],
+        [
+          "SULP",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "COAL",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "0",
+      "source": "src/industries/coke_oven.py"
+    },
+    {
+      "id": "electric_arc_furnace",
+      "local_id": 79,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SCMT",
+        "QLME"
+      ],
+      "outputs": [
+        [
+          "STEL",
+          6
+        ],
+        [
+          "SLAG",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SCMT",
+          4
+        ],
+        [
+          "QLME",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "1",
+      "source": "src/industries/electric_arc_furnace.py"
+    },
+    {
+      "id": "slag_grinding_plant",
+      "local_id": 80,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SLAG"
+      ],
+      "outputs": [
+        [
+          "CMNT",
+          8
+        ],
+        [
+          "FERT",
+          5
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SLAG",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/slag_grinding_plant.py"
+    },
+    {
+      "id": "biorefinery",
+      "local_id": 82,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SGBT",
+        "BIOM",
+        "OLSD"
+      ],
+      "outputs": [
+        [
+          "RFPR",
+          5
+        ],
+        [
+          "PETR",
+          4
+        ],
+        [
+          "PLAS",
+          3
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SGBT",
+          6
+        ],
+        [
+          "BIOM",
+          6
+        ],
+        [
+          "OLSD",
+          6
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/biorefinery.py"
+    },
+    {
+      "id": "electrical_works",
+      "local_id": 83,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "COPR",
+        "TYRE",
+        "PLAS",
+        "RAMT"
+      ],
+      "outputs": [
+        [
+          "POWR",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "COPR",
+          2
+        ],
+        [
+          "TYRE",
+          2
+        ],
+        [
+          "PLAS",
+          2
+        ],
+        [
+          "RAMT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/electrical_works.py"
+    },
+    {
+      "id": "soda_ash_mine",
+      "local_id": 86,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "SASH",
+          16
+        ],
+        [
+          "SALT",
+          18
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/soda_ash_mine.py"
+    },
+    {
+      "id": "chlor_alkali_plant",
+      "local_id": 87,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SALT"
+      ],
+      "outputs": [
+        [
+          "ACID",
+          4
+        ],
+        [
+          "CHLO",
+          4
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SALT",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/chlor_alkali_plant.py"
+    },
+    {
+      "id": "component_factory",
+      "local_id": 88,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "MPAR",
+        "PLAS",
+        "TEXT",
+        "POWR"
+      ],
+      "outputs": [
+        [
+          "VPTS",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "MPAR",
+          2
+        ],
+        [
+          "PLAS",
+          2
+        ],
+        [
+          "TEXT",
+          2
+        ],
+        [
+          "POWR",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "7",
+      "source": "src/industries/component_factory.py"
+    },
+    {
+      "id": "fishing_harbour",
+      "local_id": 90,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "FISH",
+        "MNSP"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "FISH",
+          6
+        ],
+        [
+          "MNSP",
+          1
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "10",
+      "source": "src/industries/fishing_harbour.py"
+    },
+    {
+      "id": "fischer_tropsch_plant",
+      "local_id": 92,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "COAL"
+      ],
+      "outputs": [
+        [
+          "RFPR",
+          6
+        ],
+        [
+          "CTAR",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "COAL",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/fischer_tropsch_plant.py"
+    },
+    {
+      "id": "printing_plant",
+      "local_id": 93,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "PAPR",
+        "COAT"
+      ],
+      "outputs": [
+        [
+          "GOOD",
+          6
+        ],
+        [
+          "MAIL",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "PAPR",
+          6
+        ],
+        [
+          "COAT",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "7",
+      "source": "src/industries/printing_plant.py"
+    },
+    {
+      "id": "lime_kiln",
+      "local_id": 99,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "LIME",
+        "PETR"
+      ],
+      "outputs": [
+        [
+          "QLME",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "LIME",
+          6
+        ],
+        [
+          "PETR",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/lime_kiln.py"
+    },
+    {
+      "id": "appliance_factory",
+      "local_id": 100,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "MPAR",
+        "POWR",
+        "GLAS",
+        "PLAS"
+      ],
+      "outputs": [
+        [
+          "GOOD",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "MPAR",
+          4
+        ],
+        [
+          "POWR",
+          4
+        ],
+        [
+          "GLAS",
+          2
+        ],
+        [
+          "PLAS",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "7",
+      "source": "src/industries/appliance_factory.py"
+    },
+    {
+      "id": "paint_factory",
+      "local_id": 102,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RFPR",
+        "QLME",
+        "PLAS",
+        "MNSP"
+      ],
+      "outputs": [
+        [
+          "COAT",
+          6
+        ],
+        [
+          "GOOD",
+          4
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RFPR",
+          2
+        ],
+        [
+          "QLME",
+          2
+        ],
+        [
+          "PLAS",
+          2
+        ],
+        [
+          "MNSP",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "7",
+      "source": "src/industries/paint_factory.py"
+    },
+    {
+      "id": "sheet_and_pipe_mill",
+      "local_id": 103,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "STEL",
+        "ZINC",
+        "ACID"
+      ],
+      "outputs": [
+        [
+          "MPAR",
+          6
+        ],
+        [
+          "BDMT",
+          6
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "STEL",
+          4
+        ],
+        [
+          "ZINC",
+          3
+        ],
+        [
+          "ACID",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "0",
+      "source": "src/industries/sheet_and_pipe_mill.py"
+    },
+    {
+      "id": "solvay_plant",
+      "local_id": 104,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SALT",
+        "LIME",
+        "RFPR"
+      ],
+      "outputs": [
+        [
+          "SASH",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SALT",
+          4
+        ],
+        [
+          "LIME",
+          2
+        ],
+        [
+          "RFPR",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/solvay_plant.py"
+    },
+    {
+      "id": "sulphuric_acid_plant",
+      "local_id": 109,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "SULP",
+        "NITR",
+        "RFPR"
+      ],
+      "outputs": [
+        [
+          "ACID",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "SULP",
+          5
+        ],
+        [
+          "NITR",
+          5
+        ],
+        [
+          "RFPR",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/sulphuric_acid_plant.py"
+    },
+    {
+      "id": "polyethylene_plant",
+      "local_id": 111,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RFPR",
+        "CHLO",
+        "ACID"
+      ],
+      "outputs": [
+        [
+          "PLAS",
+          5
+        ],
+        [
+          "RUBR",
+          3
+        ],
+        [
+          "FICR",
+          3
+        ]
+      ],
+      "intro_year": "1900",
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RFPR",
+          6
+        ],
+        [
+          "CHLO",
+          2
+        ],
+        [
+          "ACID",
+          2
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/polyethylene_plant.py"
+    },
+    {
+      "id": "ethylene_cracker",
+      "local_id": 112,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "RFPR",
+        "CTAR"
+      ],
+      "outputs": [
+        [
+          "PETR",
+          5
+        ],
+        [
+          "COKE",
+          3
+        ],
+        [
+          "SULP",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "RFPR",
+          4
+        ],
+        [
+          "CTAR",
+          4
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/ethylene_cracker.py"
+    },
+    {
+      "id": "sugar_refinery",
+      "local_id": 113,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "MNSP",
+        "SGBT"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          6
+        ],
+        [
+          "BIOM",
+          2
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "MNSP",
+          3
+        ],
+        [
+          "SGBT",
+          5
+        ]
+      ],
+      "combined_cargos_boost_prod": true,
+      "prob_in_game": "3",
+      "source": "src/industries/sugar_refinery.py"
+    },
+    {
+      "id": "bauxite_mine",
+      "local_id": 115,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "AORE",
+          20
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/bauxite_mine.py"
+    },
+    {
+      "id": "tar_sands_mine",
+      "local_id": 116,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "SAND",
+          14
+        ],
+        [
+          "CTAR",
+          14
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "4",
+      "source": "src/industries/tar_sands_mine.py"
+    },
+    {
+      "id": "salt_evaporator",
+      "local_id": 117,
+      "model_class": "IndustryPrimaryExtractive",
+      "inputs": [
+        "ENSP"
+      ],
+      "outputs": [
+        [
+          "SALT",
+          15
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "14",
+      "source": "src/industries/salt_evaporator.py"
+    },
+    {
+      "id": "seaweed_farm",
+      "local_id": 119,
+      "model_class": "IndustryPrimaryOrganic",
+      "inputs": [
+        "FMSP"
+      ],
+      "outputs": [
+        [
+          "BIOM",
+          18
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": null,
+      "combined_cargos_boost_prod": null,
+      "prob_in_game": "14",
+      "source": "src/industries/seaweed_farm.py"
+    },
+    {
+      "id": "farm_supply_yard",
+      "local_id": 120,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "VEHI",
+        "PETR",
+        "FERT"
+      ],
+      "outputs": [
+        [
+          "FMSP",
+          8
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "VEHI",
+          8
+        ],
+        [
+          "PETR",
+          8
+        ],
+        [
+          "FERT",
+          8
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "3",
+      "source": "src/industries/farm_supply_yard.py"
+    },
+    {
+      "id": "edible_oil_refinery",
+      "local_id": 122,
+      "model_class": "IndustrySecondary",
+      "inputs": [
+        "OLSD"
+      ],
+      "outputs": [
+        [
+          "EOIL",
+          4
+        ],
+        [
+          "BIOM",
+          1
+        ]
+      ],
+      "intro_year": 0,
+      "expiry_year": 5000000,
+      "input_ratios": [
+        [
+          "OLSD",
+          4
+        ]
+      ],
+      "combined_cargos_boost_prod": false,
+      "prob_in_game": "7",
+      "source": "src/industries/edible_oil_refinery.py"
+    }
+  ]
+}

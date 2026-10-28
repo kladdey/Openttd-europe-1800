@@ -8,6 +8,16 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 
 | Document | Scope |
 |---|---|
+| [docs/AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md](AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md) | Actual truck-delivered steel production and one-input stockpile save/reload proof |
+| [docs/AXIS_HISTORICAL_IMPLEMENTATION.md](AXIS_HISTORICAL_IMPLEMENTATION.md) | Compiled historical steelmaking fork, source architecture and JGRPP runtime results |
+| [docs/AXIS_HISTORICAL_CARGO_VALIDATION.md](AXIS_HISTORICAL_CARGO_VALIDATION.md) | Preserved cargo slots, steelworks recipe and dependency validation |
+| [docs/AXIS_HISTORICAL_TEST_PLAN.md](AXIS_HISTORICAL_TEST_PLAN.md) | Passed headless cases and pending production/UI/multiplayer tests |
+| [newgrfs/axis-historical-europe/README.md](../newgrfs/axis-historical-europe/README.md) | Pinned checkout/overlay build, local binary/source bundle and license notes |
+| [docs/HISTORICAL_INDUSTRY_FEASIBILITY.md](HISTORICAL_INDUSTRY_FEASIBILITY.md) | Pinned JGRPP/AXIS investigation, supported APIs and enforcement limits |
+| [docs/AXIS_INDUSTRY_MATRIX.md](AXIS_INDUSTRY_MATRIX.md) | 91 extracted Classic industry types and proposed historical bands |
+| [docs/HISTORICAL_INDUSTRY_ROADMAP.md](HISTORICAL_INDUSTRY_ROADMAP.md) | Historical model, dependency algorithm and incremental testing gates |
+| [docs/research/HISTORICAL_INDUSTRY_VERIFICATION.md](research/HISTORICAL_INDUSTRY_VERIFICATION.md) | Executed source checks and explicit runtime-test limitations |
+| [prototypes/historical_industry_poc/README.md](../prototypes/historical_industry_poc/README.md) | Isolated, unexecuted GameScript probe and disposable-game test protocol |
 | [README.md](../README.md) | Active guide |
 | [data/geography/README.md](../data/geography/README.md) | Active guide |
 | [data/historical-populations/DEVRIES_SOURCE.md](../data/historical-populations/DEVRIES_SOURCE.md) | Active guide |

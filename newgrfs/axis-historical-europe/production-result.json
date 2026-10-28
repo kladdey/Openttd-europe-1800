@@ -1,0 +1,91 @@
+{
+  "engine": "JGRPP 0.73.4",
+  "map_size": [
+    256,
+    256
+  ],
+  "year": 1860,
+  "grf_sha256": "cd1d5a5a704613469207d726b15c1bec02afff8cb0c2c70b2877c8fe429ecd09",
+  "checkpoint_sha256": "be17260bf1def3e8a11f55b14f500396e078863d9e895eedf279bf121be1c822",
+  "phases": [
+    {
+      "phase": "initial",
+      "passed": true,
+      "test_lines": [
+        "dbg: [script:4] [18] [I] PRODTEST START year=1860",
+        "dbg: [script:4] [18] [I] PRODTEST ENGINE COAL=DW Coal Truck id=125",
+        "dbg: [script:4] [18] [I] PRODTEST ENGINE IORE=Chippy Iron Ore Truck id=149",
+        "dbg: [script:4] [18] [I] PRODTEST ENGINE COKE=DW Coal Truck id=125",
+        "dbg: [script:4] [18] [I] PRODTEST ENGINE IRON=Goss Goods Truck id=140",
+        "dbg: [script:4] [18] [I] PRODTEST ENGINE STEL=Kelling Steel Truck id=152",
+        "dbg: [script:4] [18] [I] PRODTEST SETUP works=4 customer=5",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=857 stock=0 paused=false ore_prod=0 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=21023 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=1597 stock=0 paused=false ore_prod=0 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=20542 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=2337 stock=0 paused=false ore_prod=0 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=28996 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=3077 stock=0 paused=false ore_prod=0 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=33594 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=3817 stock=0 paused=false ore_prod=0 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=36642 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=4557 stock=0 paused=false ore_prod=140 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=33583 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=5297 stock=0 paused=false ore_prod=140 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=6037 stock=0 paused=false ore_prod=140 pigiron_prod=0",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=33595 iron_load=4",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=6777 stock=0 paused=false ore_prod=80 pigiron_prod=6",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=36640 iron_load=4",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=7517 stock=4 paused=false ore_prod=80 pigiron_prod=6",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=33580 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=8257 stock=4 paused=false ore_prod=80 pigiron_prod=6",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=29251 iron_load=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=8997 stock=4 paused=false ore_prod=90 pigiron_prod=12",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=33598 iron_load=4",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_IRON tick=9737 stock=4 paused=false ore_prod=90 pigiron_prod=12",
+        "dbg: [script:4] [18] [I] PRODTEST TRUCK iron_pos=35872 iron_load=4",
+        "dbg: [script:4] [18] [I] PRODTEST CHECKPOINT iron=8 coke=0 steel=0"
+      ]
+    },
+    {
+      "phase": "reloaded",
+      "passed": true,
+      "test_lines": [
+        "dbg: [script:4] [18] [I] PRODTEST START year=1860",
+        "dbg: [script:4] [18] [I] PRODTEST RELOAD iron=8 coke=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=3 iron=8 coke=0 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=743 iron=8 coke=0 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=1483 iron=8 coke=0 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=2223 iron=8 coke=0 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=2963 iron=8 coke=0 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=3703 iron=8 coke=0 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=4443 iron=2 coke=8 steel_month=0",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=5183 iron=2 coke=26 steel_month=6",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=5923 iron=2 coke=26 steel_month=6",
+        "dbg: [script:4] [18] [I] PRODTEST WAIT_STEEL tick=6663 iron=2 coke=26 steel_month=6",
+        "dbg: [script:4] [18] [I] PRODTEST DONE steel_last_month=6 slag_last_month=2 delivered_steel=4 remaining_iron=2 failures=0"
+      ]
+    }
+  ],
+  "passed": true,
+  "diagnostic_concession": "Default trucks force-enabled through GSEngine.EnableForCompany in the disposable company; campaign vehicle NewGRFs not tested",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "reload_replayed_existing_checkpoint": true,
+  "observations": {
+    "saved_stockpile": {
+      "IRON": 8,
+      "COKE": 0
+    },
+    "steel_before_coke": 0,
+    "reloaded_stockpile": {
+      "IRON": 8,
+      "COKE": 0
+    },
+    "observed_completed_month_production": {
+      "STEL": 6,
+      "SLAG": 2
+    },
+    "steel_delivered_to_customer": 4,
+    "remaining_pig_iron": 2
+  }
+}

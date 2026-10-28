@@ -1,0 +1,44 @@
+[
+  {
+    "year": 1830,
+    "runtime_log_sha256": "7b69773336cca22041fa9fca3652c0cc0af27bc5cef84900203463d09c589dc0",
+    "rows": 2887,
+    "seed": null,
+    "note": "1830 initial snapshot predates fixed seed; cost values reproduced in later fixed-seed snapshots"
+  },
+  {
+    "year": 1850,
+    "runtime_log_sha256": "384be33c5c11e533afb25b4f7d40de3229dccfa8e14f4e765a61b192c7dfdabd",
+    "rows": 2887,
+    "seed": 1830,
+    "note": "1830 initial snapshot predates fixed seed; cost values reproduced in later fixed-seed snapshots"
+  },
+  {
+    "year": 1900,
+    "runtime_log_sha256": "f7cecb1bd3fc16931e557e924523f9e62b075780bea412a19a2033de9d586a3f",
+    "rows": 2887,
+    "seed": 1830,
+    "note": "1830 initial snapshot predates fixed seed; cost values reproduced in later fixed-seed snapshots"
+  },
+  {
+    "year": 1950,
+    "runtime_log_sha256": "0f0279b682768eb901ec38caeb5dca252a04937f70bd03a7efa4ec1e3e9c5a65",
+    "rows": 2887,
+    "seed": 1830,
+    "note": "1830 initial snapshot predates fixed seed; cost values reproduced in later fixed-seed snapshots"
+  },
+  {
+    "year": 2000,
+    "runtime_log_sha256": "5c966bafe16f6a519dc52433b9dbd367a4e69de06922d864eeb7c5143ccc6fad",
+    "rows": 2887,
+    "seed": 1830,
+    "note": "1830 initial snapshot predates fixed seed; cost values reproduced in later fixed-seed snapshots"
+  },
+  {
+    "year": 2025,
+    "runtime_log_sha256": "f7568f47d35a3522ab525cf7691157e38bbb1825d877bfa5fe160896cfc0e7f5",
+    "rows": 2887,
+    "seed": 1830,
+    "note": "1830 initial snapshot predates fixed seed; cost values reproduced in later fixed-seed snapshots"
+  }
+]

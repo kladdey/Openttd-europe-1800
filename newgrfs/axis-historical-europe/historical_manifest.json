@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/EmperorJake/AXIS.git",
+  "upstream_commit": "11c8353ccf7444b143e57080b1aa2b5e38839a23",
+  "name": "AXIS Historical Europe",
+  "version": "0.1.0",
+  "grfid": "4B484531",
+  "nml_grfid": "KHE1",
+  "grf_version": 1,
+  "economy": "BASIC_TEMPERATE",
+  "parameter_index": 10,
+  "construction_policy_note": "Natural gameplay and deity GS both use RANDOM; separate permissions are unsupported. Editor dates also checked through location callback.",
+  "industries": {
+    "steel_mill": {
+      "earliest_year": 1860,
+      "final_construction_year": null,
+      "allow_map_generation": true,
+      "allow_natural_and_gs": true,
+      "allow_player_funding_and_prospecting": true,
+      "role": "nineteenth-century steelworks, reused local ID 2 and graphics",
+      "recipe": {"inputs": {"IRON": 3, "COKE": 1}, "outputs": {"STEL": 3, "SLAG": 1}, "all_inputs_required": true}
+    },
+    "electric_arc_furnace": {
+      "earliest_year": 1906,
+      "final_construction_year": null,
+      "allow_map_generation": true,
+      "allow_natural_and_gs": true,
+      "allow_player_funding_and_prospecting": true
+    },
+    "basic_oxygen_furnace": {
+      "earliest_year": 1952,
+      "final_construction_year": null,
+      "allow_map_generation": true,
+      "allow_natural_and_gs": true,
+      "allow_player_funding_and_prospecting": true
+    }
+  }
+}

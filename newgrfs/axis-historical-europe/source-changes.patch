@@ -1,0 +1,305 @@
+--- a/src/historical_availability.py
++++ b/src/historical_availability.py
+@@ -0,0 +1,38 @@
++# AXIS Historical Europe modifications, 2026, Openttd-europe-1800 contributors.
++# SPDX-License-Identifier: GPL-2.0-only
++"""Small model extension; policy lives exclusively in historical_manifest.json."""
++import json
++from pathlib import Path
++
++MANIFEST = json.loads(Path(__file__).with_name("historical_manifest.json").read_text(encoding="utf-8"))
++
++
++def condition_for_rule(rule):
++    return (
++            f"(current_year >= {rule['earliest_year']})"
++            + (f" && (current_year <= {rule['final_construction_year']})"
++               if rule["final_construction_year"] is not None else "")
++            + " && ((extra_callback_info2 == IND_CREATION_GENERATION && "
++            + str(int(rule["allow_map_generation"])) + ")"
++            + " || (extra_callback_info2 == IND_CREATION_RANDOM && "
++            + str(int(rule["allow_natural_and_gs"])) + ")"
++            + " || ((extra_callback_info2 == IND_CREATION_FUND || extra_callback_info2 == IND_CREATION_PROSPECT) && "
++            + str(int(rule["allow_player_funding_and_prospecting"])) + "))"
++    )
++
++
++def apply_to_industries(industries):
++    by_id = {i.id: i for i in industries}
++    for identifier, rule in MANIFEST["industries"].items():
++        item = by_id[identifier]
++        item.historical_rule = rule
++        item.historical_condition = condition_for_rule(rule)
++    # Reuse an existing disabled-in-Classic industry; no industry/tile ID changes.
++    steel = by_id["steel_mill"]
++    recipe = MANIFEST["industries"]["steel_mill"]["recipe"]
++    classic = steel.economy_variations[MANIFEST["economy"]]
++    classic.enabled = True
++    classic.name = "string(STR_IND_HISTORICAL_STEELWORKS)"
++    classic.accept_cargos_with_input_ratios = [(k, v * 2) for k, v in recipe["inputs"].items()]
++    classic.prod_cargo_types_with_output_ratios = [(k, v * 2) for k, v in recipe["outputs"].items()]
++    steel.template = "industry_historical_steelworks.pynml"
+--- a/src/historical_manifest.json
++++ b/src/historical_manifest.json
+@@ -0,0 +1,38 @@
++{
++  "schema_version": 1,
++  "upstream_repository": "https://github.com/EmperorJake/AXIS.git",
++  "upstream_commit": "11c8353ccf7444b143e57080b1aa2b5e38839a23",
++  "name": "AXIS Historical Europe",
++  "version": "0.1.0",
++  "grfid": "4B484531",
++  "nml_grfid": "KHE1",
++  "grf_version": 1,
++  "economy": "BASIC_TEMPERATE",
++  "parameter_index": 10,
++  "construction_policy_note": "Natural gameplay and deity GS both use RANDOM; separate permissions are unsupported. Editor dates also checked through location callback.",
++  "industries": {
++    "steel_mill": {
++      "earliest_year": 1860,
++      "final_construction_year": null,
++      "allow_map_generation": true,
++      "allow_natural_and_gs": true,
++      "allow_player_funding_and_prospecting": true,
++      "role": "nineteenth-century steelworks, reused local ID 2 and graphics",
++      "recipe": {"inputs": {"IRON": 3, "COKE": 1}, "outputs": {"STEL": 3, "SLAG": 1}, "all_inputs_required": true}
++    },
++    "electric_arc_furnace": {
++      "earliest_year": 1906,
++      "final_construction_year": null,
++      "allow_map_generation": true,
++      "allow_natural_and_gs": true,
++      "allow_player_funding_and_prospecting": true
++    },
++    "basic_oxygen_furnace": {
++      "earliest_year": 1952,
++      "final_construction_year": null,
++      "allow_map_generation": true,
++      "allow_natural_and_gs": true,
++      "allow_player_funding_and_prospecting": true
++    }
++  }
++}
+--- a/src/incompatible_grfs.py
++++ b/src/incompatible_grfs.py
+@@ -115,4 +115,5 @@
+ IncompatibleGRF(LiteralGrfID(r"SLTU"), "Tourist Set")
+ IncompatibleGRF(LiteralGrfID(r"DD\06\03"), "UKRS Brick Chain")
+ IncompatibleGRF(LiteralGrfID(r"DD\06\01"), "UKRS Industries")
+-IncompatibleGRF(DwordGrfID("42580002"), "Vanilla Industries in Stockpiling mode")
+\ No newline at end of file
++IncompatibleGRF(DwordGrfID("42580002"), "Vanilla Industries in Stockpiling mode")
++IncompatibleGRF(DwordGrfID("4A4B8808"), "Original AXIS (use only one AXIS variant)")
+--- a/src/industries/__init__.py
++++ b/src/industries/__init__.py
+@@ -523,3 +523,14 @@
+ from industries import wire_and_section_mill
+ 
+ wire_and_section_mill.industry.register()
++
++# AXIS Historical Europe overlay (GPL-2.0-only).
++from industries import steel_mill
++# The upstream file exists but its registration was commented out.
++# Enable it ONLY in Classic; do not activate it in upstream's unused economies.
++for variation in steel_mill.industry.economy_variations.values():
++    variation.enabled = False
++steel_mill.industry.economy_variations['BASIC_TEMPERATE'].enabled = True
++steel_mill.industry.register()
++from historical_availability import apply_to_industries
++apply_to_industries(registered_industries)
+--- a/src/industry.py
++++ b/src/industry.py
+@@ -988,7 +988,7 @@
+             result.append(IndustryLocationCheckCoastDistance())
+ 
+         # prevent locating very near industries in the same accept / produce chain
+-        for industry in set(incompatible_industries[self.industry]):
++        for industry in sorted(set(incompatible_industries[self.industry]), key=lambda item: item.numeric_id):
+             # don't check for self type, we have other ways to do that (occasionally economy cargo variations trigger this)
+             if industry.id != self.industry.id:
+                 result.append(IndustryLocationCheckIndustryMinDistance(industry.id, 16))
+--- a/src/lang_templates/english.pylng
++++ b/src/lang_templates/english.pylng
+@@ -1,4 +1,10 @@
+-STR_GRF_NAME                                                    :AXIS 2.3.1
+-STR_GRF_DOCS_URL                                                :https://github.com/EmperorJake/AXIS
++STR_GRF_NAME                                                    :AXIS Historical Europe 0.1.0 (AXIS 2.3.1 base)
++STR_GRF_DOCS_URL                                                :https://github.com/kladdey/Openttd-europe-1800
+ <!--! empty string is not translated :) -->
+ STR_EMPTY                                                       :
++
++STR_PARAM_HISTORICAL_EUROPE :Historical Europe steelmaking dates (Classic only)
++STR_PARAM_HISTORICAL_EUROPE_DESC :Default on. Steelworks from 1860, EAF from 1906, BOF from 1952. Off disables added date/route restrictions, not original AXIS dates. Natural and deity GameScript construction share permission. New games only.
++STR_IND_HISTORICAL_STEELWORKS :Nineteenth-century Steelworks
++STR_HISTORICAL_STEELWORKS_RECIPE :Stockpiles both inputs. Each complete batch: 3 pig iron + 1 coke yields 3 steel + 1 slag. No output from either input alone.
++STR_HISTORICAL_STEELWORKS_FUND :Historical mode: new construction from 1860. Existing works keep operating.
+--- a/src/templates/availability.pynml
++++ b/src/templates/availability.pynml
+@@ -32,10 +32,12 @@
+     }
+ </tal:economy_dates>
+ 
+-switch (FEAT_INDUSTRIES, SELF, ${industry.id}_check_availability, economy) {
++switch (FEAT_INDUSTRIES, SELF, ${industry.id}_check_availability_upstream, economy) {
+     <tal:economy_switches repeat="economy economies">
+         ${economy.numeric_id}: ${industry.id}_check_availability_${economy.numeric_id};
+     </tal:economy_switches>
+ }
+ 
+ 
++
++<tal:include metal:use-macro="load: historical_availability.pynml" />
+--- a/src/templates/header.pynml
++++ b/src/templates/header.pynml
+@@ -1,10 +1,18 @@
+ grf {
+-	grfid: "JK\88\08";
++	grfid: "KHE1";
+ 	name: string(STR_GRF_NAME);
+ 	desc: string(STR_GRF_DESC);
+ 	url: string(STR_GRF_DOCS_URL);
+-	version: ${git_info.get_revision()};
+-	min_compatible_version: 6745;
++	version: 1;
++	min_compatible_version: 1;
++    param 10 {
++        historical_europe_mode {
++            name: string(STR_PARAM_HISTORICAL_EUROPE);
++            desc: string(STR_PARAM_HISTORICAL_EUROPE_DESC);
++            type: bool;
++            def_value: 1;
++        }
++    }
+ 	param 0 {
+ 	    <!--! 'economy_selection' is remapped to 'economy' later because we can't control order and value separately here -->
+ 		economy_selection {
+--- a/src/templates/historical_availability.pynml
++++ b/src/templates/historical_availability.pynml
+@@ -0,0 +1,14 @@
++<!--! AXIS Historical Europe, GPL-2.0-only. Shared RANDOM/GS category is intentional. -->
++<tal:history condition="getattr(industry, 'historical_rule', None) is not None">
++switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_availability,
++       !historical_europe_mode || economy != 0 || (${industry.historical_condition})) {
++    1: ${industry.id}_check_availability_upstream;
++    return CB_RESULT_IND_NO_CONSTRUCTION;
++}
++</tal:history>
++<tal:unmodified condition="getattr(industry, 'historical_rule', None) is None">
++switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_availability, 1) {
++    1: ${industry.id}_check_availability_upstream;
++    return CB_RESULT_IND_NO_CONSTRUCTION;
++}
++</tal:unmodified>
+--- a/src/templates/historical_location.pynml
++++ b/src/templates/historical_location.pynml
+@@ -0,0 +1,14 @@
++<!--! Editor placement bypasses probability checks, so guard location as well. -->
++<tal:history condition="getattr(industry, 'historical_rule', None) is not None">
++switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_location,
++       !historical_europe_mode || economy != 0 || (${industry.historical_condition})) {
++    1: ${industry.id}_check_location_upstream;
++    return CB_RESULT_LOCATION_DISALLOW;
++}
++</tal:history>
++<tal:unmodified condition="getattr(industry, 'historical_rule', None) is None">
++switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_location, 1) {
++    1: ${industry.id}_check_location_upstream;
++    return CB_RESULT_LOCATION_DISALLOW;
++}
++</tal:unmodified>
+--- a/src/templates/industry_historical_steelworks.pynml
++++ b/src/templates/industry_historical_steelworks.pynml
+@@ -0,0 +1,54 @@
++/* ******************************************************************
++ * Definition of the industry tile, its callbacks, and graphics chain
++ * ******************************************************************/
++
++<tal:include metal:use-macro="load: spritesets.pynml" />
++
++<tal:include metal:use-macro="load: spritelayouts.pynml" />
++
++<tal:include metal:use-macro="load: graphics_switches.pynml" />
++
++<tal:include define="location_checks_tile load: location_check_macros_tile.pynml"
++             metal:use-macro="location_checks_tile.macros['render_tree']" />
++
++<tal:include define="animation_macros load: animation_macros.pynml"
++             metal:use-macro="animation_macros.macros['tile_animation']" />
++
++<tal:include metal:use-macro="load: properties_tile.pynml" />
++
++
++/* *************************************************
++ * Definition of the industry
++ * *************************************************/
++
++<tal:include metal:use-macro="load: layouts.pynml" />
++
++<tal:include metal:use-macro="load: extra_text_secondary.pynml" />
++
++<tal:include metal:use-macro="load: produce_historical_steelworks.pynml" />
++
++<tal:include metal:use-macro="load: availability.pynml" />
++
++<tal:include metal:use-macro="load: location_check_macros_industry.pynml" />
++
++<tal:include metal:use-macro="load: properties_industry.pynml" />
++
++<!--! graphics block defined explicitly per industry subclass, to avoid too much fiddly conditional stuff -->
++<tal:build_economies repeat="economy industry.economies_enabled_for_industry">
++    if (economy==${economy.numeric_id}) {
++        item(FEAT_INDUSTRIES, ${industry.id}, ${industry.numeric_id}) {
++            graphics {
++                construction_probability: ${industry.id}_check_availability;
++                produce_cargo_arrival:    ${'historical_steelworks_batch' if economy.id == 'BASIC_TEMPERATE' else industry.id + '_produce_cargo_arrival'};
++                produce_256_ticks:        ${'historical_steelworks_batch' if economy.id == 'BASIC_TEMPERATE' else industry.id + '_produce_256_ticks'};
++                
++                random_prod_change:       CB_RESULT_IND_PROD_NO_CHANGE;
++                location_check:           ${industry.id}_check_location;
++                extra_text_fund:          ${'return string(STR_HISTORICAL_STEELWORKS_FUND)' if economy.id == 'BASIC_TEMPERATE' else industry.get_extra_text_fund(economy)};
++                extra_text_industry:      ${'return string(STR_HISTORICAL_STEELWORKS_RECIPE)' if economy.id == 'BASIC_TEMPERATE' else industry.id + '_extra_text'};
++                cargo_subtype_display:    ${'return CB_RESULT_NO_TEXT' if economy.id == 'BASIC_TEMPERATE' else industry.id + '_cargo_subtype_display'};
++                colour:                   switch_colour;
++            }
++        }
++    }
++</tal:build_economies>
+--- a/src/templates/location_check_macros_industry.pynml
++++ b/src/templates/location_check_macros_industry.pynml
+@@ -50,7 +50,7 @@
+     ${industry.id}_check_location_post_player_founding_checks_OR;
+ }
+ <!--! checks that apply to both player and game constructing the industry, e.g. date restricted layouts -->
+-switch (FEAT_INDUSTRIES, SELF, ${industry.id}_check_location,
++switch (FEAT_INDUSTRIES, SELF, ${industry.id}_check_location_upstream,
+     [
+     <!--! assumes all checks return 1 for allow and 0 otherwise, then we just AND all the results -->
+     <tal:location_checks_industry repeat="location_check industry.location_checks.get_pre_player_founding_checks(incompatible_industries)">
+@@ -65,3 +65,5 @@
+     1: return ${industry.id}_check_location_allow_player_founding;
+     return CB_RESULT_LOCATION_DISALLOW;
+ }
++
++<tal:include metal:use-macro="load: historical_location.pynml" />
+--- a/src/templates/produce_historical_steelworks.pynml
++++ b/src/templates/produce_historical_steelworks.pynml
+@@ -0,0 +1,19 @@
++<!--! Preserve generic callbacks for the other economies and their UI state. -->
++<tal:include metal:use-macro="load: produce_secondary.pynml" />
++
++<!--! Classic: stockpile BOTH inputs; only complete batches produce steel.
++      Integer batch recipe is centralized in the manifest, not duplicated here.
++      No closure or time-dependent production callback is added. -->
++<tal:recipe define="recipe industry.historical_rule['recipe']">
++produce(historical_steelworks_batch,
++    [
++        <tal:input repeat="cargo recipe['inputs'].items()">
++        ${cargo[0]}: min(incoming_cargo_waiting("IRON") / ${recipe['inputs']['IRON']}, incoming_cargo_waiting("COKE") / ${recipe['inputs']['COKE']}) * ${cargo[1]};
++        </tal:input>
++    ],
++    [
++        <tal:output repeat="cargo recipe['outputs'].items()">
++        ${cargo[0]}: min(incoming_cargo_waiting("IRON") / ${recipe['inputs']['IRON']}, incoming_cargo_waiting("COKE") / ${recipe['inputs']['COKE']}) * ${cargo[1]};
++        </tal:output>
++    ], 0)
++</tal:recipe>

@@ -1,0 +1,207 @@
+{
+  "scenario": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V2 newGRFS.scn",
+  "sha256": "5710beea8b3badf6aecc8ab679caea1fb2c4b66e96c4393b342a816c064e0688",
+  "references": [
+    {
+      "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+      "grfid": "44440A01",
+      "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+      "version": 2210,
+      "params": [],
+      "palette": 9,
+      "name": "av8 Aviators Aircraft Set"
+    },
+    {
+      "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+      "grfid": "43485054",
+      "md5": "f09180381b487c911d5eaf5dff4fddf2",
+      "version": 376,
+      "params": [],
+      "palette": 4,
+      "name": "CHIPS Station Set 2.0.0"
+    },
+    {
+      "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+      "grfid": "41560103",
+      "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+      "version": 40,
+      "params": [
+        0,
+        63,
+        0,
+        3,
+        0
+      ],
+      "palette": 9,
+      "name": "eGRVTS v2.1 - r240"
+    },
+    {
+      "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+      "grfid": "4A430002",
+      "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+      "version": 5518,
+      "params": [
+        0,
+        1
+      ],
+      "palette": 9,
+      "name": "Industrial Stations Renewal 1.0.2"
+    },
+    {
+      "filename": "polishtrainset3.0.3.grf",
+      "grfid": "4D560103",
+      "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+      "version": 211,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "Polish Train Set 3.0"
+    },
+    {
+      "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+      "grfid": "434D4301",
+      "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+      "version": 5,
+      "params": [
+        0,
+        0,
+        0
+      ],
+      "palette": 9,
+      "name": "Sailing Ships (community) 0.73"
+    },
+    {
+      "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+      "grfid": "4D560105",
+      "md5": "99ae27e35245e498e378adc3d06dec20",
+      "version": 17,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "TEST Polish Rolling Stock Pack 0.19.1"
+    },
+    {
+      "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+      "grfid": "44441000",
+      "md5": "da36131a815d2d5fc158c7a27d67b5af",
+      "version": 1050,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "palette": 9,
+      "name": "UK Railway Set (UKRS2)"
+    },
+    {
+      "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+      "grfid": "414E0201",
+      "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+      "version": 1687,
+      "params": [
+        1,
+        1,
+        0
+      ],
+      "palette": 4,
+      "name": "Squid Ate FISH r1687"
+    },
+    {
+      "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+      "grfid": "0100403A",
+      "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+      "version": 0,
+      "params": [],
+      "palette": 1,
+      "name": "City objects 1.3"
+    },
+    {
+      "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+      "grfid": "4F472B34",
+      "md5": "136d889fdaeaa3491f8320248a04425c",
+      "version": 5524,
+      "params": [
+        12,
+        0,
+        4,
+        15,
+        4,
+        0
+      ],
+      "palette": 4,
+      "name": "OpenGFX+ Landscape 1.1.2"
+    },
+    {
+      "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+      "grfid": "44440302",
+      "md5": "5f268de28cca8fa7fdd140ac031a5939",
+      "version": 252,
+      "params": [
+        0
+      ],
+      "palette": 9,
+      "name": "North American Railway Set (NARS) 2.52"
+    },
+    {
+      "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+      "grfid": "4E4D0518",
+      "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+      "version": 2401131718,
+      "params": [
+        4,
+        3,
+        2
+      ],
+      "palette": 4,
+      "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+    },
+    {
+      "filename": "4a4b8808-axis_extreme_industry_set-2.3.1.tar\\axis_extreme_industry_set-2.3.1\\axis_2.3.1.grf",
+      "grfid": "4A4B8808",
+      "md5": "b580ae20d12247f3a7edd28fadc6f2e5",
+      "version": 6749,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        150,
+        80,
+        300
+      ],
+      "palette": 4,
+      "name": "AXIS 2.3.1"
+    },
+    {
+      "filename": "gets0.7.grf",
+      "grfid": "53410808",
+      "md5": "7c3e713c64766a1dd71dc96d583e8138",
+      "version": 19,
+      "params": [
+        3,
+        2
+      ],
+      "palette": 20,
+      "name": " GETS 0.7"
+    }
+  ]
+}
