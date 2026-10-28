@@ -1,0 +1,39 @@
+{
+  "method": "Editor-generated NGRF/GLOG; empty orphan IIDS/TIDS; original map/towns restored; start paused",
+  "source_sha256": "06273051c3e76e6c750e7bdda2859ce3fbece2f3eac5998591dfe645169162fb",
+  "editor_pilot_sha256": "afbc3eb126a01b43472337d840ec533ae4dc76dba39eb6dedd77dfc6aa6368d3",
+  "output_sha256": "a51d7e267df039ed8f520eabe3d1930b91bb5ab88e55afada4e967bc7fb1aa06",
+  "source": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V2 newGRFS fuck industry.scn",
+  "output": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\europe-migration\\scenario\\Europe-1830-Historical-AXIS-clean-candidate.scn",
+  "changed_chunks": [
+    "GLOG",
+    "DATE",
+    "IIDS",
+    "TIDS",
+    "NGRF"
+  ],
+  "previous_pause_mode": 0,
+  "new_pause_mode": 1,
+  "protected_chunks_identical": [
+    "MAPS",
+    "MAPT",
+    "MAPH",
+    "MAPO",
+    "MAP2",
+    "M3LO",
+    "M3HI",
+    "MAP5",
+    "MAPE",
+    "MAP7",
+    "MAP8",
+    "PATS",
+    "VEHS",
+    "ECMY",
+    "CITY",
+    "STNN",
+    "OBJS"
+  ],
+  "safety_preconditions": "Zero industry records/tiles, zero vehicles/stations/persistent storage; exact other 14 GRFs unchanged",
+  "engine_reference": "JGRPP 0.73.4 src/sl/newgrf_sl.cpp Load_NewGRFMapping resets managers before loading records",
+  "runtime_verified": false
+}

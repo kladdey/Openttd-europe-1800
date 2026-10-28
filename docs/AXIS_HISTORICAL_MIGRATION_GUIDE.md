@@ -1,5 +1,13 @@
 # Historical AXIS migration guide
 
+**Industry-free follow-up:** the subsequently supplied, empty-industry Europe
+scenario has now been converted, engine-saved and load/save/reload tested with
+Historical AXIS, preserving every town/map chunk. It required strictly guarded
+orphan industry/tile-ID cleanup; ordinary editor replacement alone overflowed
+the tile mappings. See [the specific migration report](AXIS_INDUSTRY_FREE_SCENARIO_MIGRATION.md).
+This exception applies only to that verified empty world. The populated-world
+restrictions and earlier baseline procedure below remain applicable.
+
 **Do not replace stock AXIS in the working Europe scenario.** No validated direct conversion exists. The current fork uses a distinct GRFID, and 463 existing instances conflict with its draft 1830 policy. Availability gates intentionally leave existing industries operating.
 
 ## Safe procedure available now
