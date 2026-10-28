@@ -1,0 +1,14 @@
+<!--! AXIS Historical Europe, GPL-2.0-only. Shared RANDOM/GS category is intentional. -->
+<tal:history condition="getattr(industry, 'historical_rule', None) is not None">
+switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_availability,
+       !historical_europe_mode || economy != 0 || (${industry.historical_condition})) {
+    1: ${industry.id}_check_availability_upstream;
+    return CB_RESULT_IND_NO_CONSTRUCTION;
+}
+</tal:history>
+<tal:unmodified condition="getattr(industry, 'historical_rule', None) is None">
+switch(FEAT_INDUSTRIES, SELF, ${industry.id}_check_availability, 1) {
+    1: ${industry.id}_check_availability_upstream;
+    return CB_RESULT_IND_NO_CONSTRUCTION;
+}
+</tal:unmodified>

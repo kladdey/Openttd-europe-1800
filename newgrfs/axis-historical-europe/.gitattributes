@@ -1,0 +1,4 @@
+# Unified patches contain significant whitespace in context lines.
+source-changes.patch -whitespace -text
+# Preserve the unmodified upstream GPL text, including its final blank line.
+LICENSE.txt whitespace=-blank-at-eof
