@@ -1,2 +1,5 @@
 /.research/
 __pycache__/
+/.vehicle-audit-runtime/
+/docs/research/vehicle_audit_raw/
+/docs/research/vehicle_audit_v2/

@@ -1,0 +1,9 @@
+route-1534-1830-campaign-density.log|ROUTE_MODE|true
+route-1534-1830-campaign-density.log|ROUTE_COAL_TYPE|44|Bulk Terminal|false
+route-1534-1830-campaign-density.log|ROUTE_COAL_TYPE|1|Coal Mine|false
+route-1534-1830-campaign-density.log|ROUTE_BLOCKED|no AXIS coal producer could be constructed at fixture origin|ERR_NONE
+route-492-1970-campaign-density.log|ROUTE_MODE|true
+route-492-1970-campaign-density.log|ROUTE_DENSITY|4
+route-492-1970-campaign-density.log|ROUTE_COAL_TYPE|44|Bulk Terminal|false
+route-492-1970-campaign-density.log|ROUTE_COAL_TYPE|1|Coal Mine|false
+route-492-1970-campaign-density.log|ROUTE_BLOCKED|no AXIS coal producer could be constructed at fixture origin|ERR_NONE

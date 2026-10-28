@@ -1,0 +1,413 @@
+{
+  "original_path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V2 newGRFS.scn",
+  "original_sha256": "5710beea8b3badf6aecc8ab679caea1fb2c4b66e96c4393b342a816c064e0688",
+  "test_copy_sha256": "fdd2d4c4db2e29abc4540bc4947dadd447cfce14e4932d55fc36a13a8cc3a7f3",
+  "changes": "GSDT only: attach measurement GS, no previous active GS configured",
+  "chunk_checks": [
+    {
+      "chunk": "SLXI",
+      "unchanged": true,
+      "sha256": "1a31d3ddf6365e3b28d87f414f824e632250b57664c8334a6248b055c2b30953"
+    },
+    {
+      "chunk": "GLOG",
+      "unchanged": true,
+      "sha256": "630e4ee205b7af8f59c9c02eb1602ab9d033677aae3c86a808259b2d9b89e265"
+    },
+    {
+      "chunk": "MAPS",
+      "unchanged": true,
+      "sha256": "e8f6af1ebb41412ed622a3e635c440b1e7b4811b1f119dc03d869d0f0f4ff1d3"
+    },
+    {
+      "chunk": "MAPT",
+      "unchanged": true,
+      "sha256": "e209fd36d4a2dfe7b5e66d28f60932f235160b44ab89e35cd2bca377f5c8ceb7"
+    },
+    {
+      "chunk": "MAPH",
+      "unchanged": true,
+      "sha256": "e715da61e0aedda1e32ba8c0851171dba4674e0f83e7c8c97dbc7fdd4e27cd58"
+    },
+    {
+      "chunk": "MAPO",
+      "unchanged": true,
+      "sha256": "f178df568d52def9086aa98cdd25bc7cca87265563d6400b696ff3d419f12d61"
+    },
+    {
+      "chunk": "MAP2",
+      "unchanged": true,
+      "sha256": "fab25bbc7aedb67f8366a621206292482503981361f2628606d5c0001a432d3f"
+    },
+    {
+      "chunk": "M3LO",
+      "unchanged": true,
+      "sha256": "8a11f8913bb97c5baf07786cbc76f9d3aa263afeacbe78b9f49f8624a5f6139a"
+    },
+    {
+      "chunk": "M3HI",
+      "unchanged": true,
+      "sha256": "8d191f774a2999ee95c175aeeadbab66f3a5b2cc89eac53db5c9655bf1b79c6e"
+    },
+    {
+      "chunk": "MAP5",
+      "unchanged": true,
+      "sha256": "81a76ed378a17c55f2fe97629e8a4343669012bfd9e7bbaab83237a050df8019"
+    },
+    {
+      "chunk": "MAPE",
+      "unchanged": true,
+      "sha256": "e13fdde1fd9d20ce06cfd7026de13303da2615aba400708bfacaca8da56a88df"
+    },
+    {
+      "chunk": "MAP7",
+      "unchanged": true,
+      "sha256": "7c5d723f662e4a2c8d9a15db7f3b68741d73fc5452f3a947583a1a830d35cf56"
+    },
+    {
+      "chunk": "MAP8",
+      "unchanged": true,
+      "sha256": "eb747d54b6659d3304ef9ae0ecb9e842f3d8e07369df1b20420cf8ce590deb7b"
+    },
+    {
+      "chunk": "DATE",
+      "unchanged": true,
+      "sha256": "5e1e10ded70ff2d1c473dccb5cf21a614939b5eb2014b69745536cd15a659c55"
+    },
+    {
+      "chunk": "VIEW",
+      "unchanged": true,
+      "sha256": "6e58e5c2fe63bc1f285c1dadc7eec39131a6b03c5d6e4d74a6d91bb8b30cb242"
+    },
+    {
+      "chunk": "CHTS",
+      "unchanged": true,
+      "sha256": "ed217ea3a3f5eb501b3b230c7b0a983215a61ab2fe93de76d220010115d19d6a"
+    },
+    {
+      "chunk": "PATS",
+      "unchanged": true,
+      "sha256": "0c54a795b8ceb8c012cb69bae795fffa621b0704c34305cd0dbe519277d6c3c5"
+    },
+    {
+      "chunk": "VEHS",
+      "unchanged": true,
+      "sha256": "2f425a6342406d0b19c467d0e098bcbf079b4c6ef80bc2a9e25f4461518738dc"
+    },
+    {
+      "chunk": "VESR",
+      "unchanged": true,
+      "sha256": "c260d9dc61d6b66fbae716323e14473b42269a88caf9faf2e44052ca3ec097f5"
+    },
+    {
+      "chunk": "DEPT",
+      "unchanged": true,
+      "sha256": "01270631af847e7d5ae7db420ed6398a23c166520e0c201df4408c871ecf5498"
+    },
+    {
+      "chunk": "BKOR",
+      "unchanged": true,
+      "sha256": "1b50b7ae9458b883965c4cc6a9313290ae0997a65881b38dc2e4ad5a02c49645"
+    },
+    {
+      "chunk": "ORDL",
+      "unchanged": true,
+      "sha256": "9a279473954224b9049a956b91ec30bb819e2903f26d9217995cb2267d7978c0"
+    },
+    {
+      "chunk": "INDY",
+      "unchanged": true,
+      "sha256": "81c509e643fb89e7bf4db624d2cf4d866c99e8e2cf991e1b655a9347a6c62271"
+    },
+    {
+      "chunk": "IIDS",
+      "unchanged": true,
+      "sha256": "f75226d641687b9544d40d9f94d87004660145ee5ea52085692de06d134f9432"
+    },
+    {
+      "chunk": "TIDS",
+      "unchanged": true,
+      "sha256": "f35e0c784a306a858e9ff81a3c2a5a79032b144614a3455d23031b186ee7495f"
+    },
+    {
+      "chunk": "IBLD",
+      "unchanged": true,
+      "sha256": "804fa11156810239af3aa537410e9def44ad448d4de0b97811de262eec4012b4"
+    },
+    {
+      "chunk": "ITBL",
+      "unchanged": true,
+      "sha256": "fffc58a1e1fa43bab9d21e5f02faa6023a107222733d3297d4458426f67b36c5"
+    },
+    {
+      "chunk": "CAPY",
+      "unchanged": true,
+      "sha256": "02287e473ea234423a804f471c5774ae5091d0574ae59319c5e66c777b12075c"
+    },
+    {
+      "chunk": "ECMY",
+      "unchanged": true,
+      "sha256": "4af480f1a41d4f800c026e76db46027bf4452ae1a15c7a4271e6e336a56e2ccd"
+    },
+    {
+      "chunk": "SUBS",
+      "unchanged": true,
+      "sha256": "5245bc7c6b773e1c5f41cf360a90e085dd7ebef0eb974ff93bd6b373257a12df"
+    },
+    {
+      "chunk": "CMDL",
+      "unchanged": true,
+      "sha256": "2db01302ac0057101afd7d553771106a69f2bf0c7a5836693ed47f581eec9d77"
+    },
+    {
+      "chunk": "CMPU",
+      "unchanged": true,
+      "sha256": "fe979912b2f328838fefad9f3446b621b47f0a2733f5bf75fea64f72d969f367"
+    },
+    {
+      "chunk": "GOAL",
+      "unchanged": true,
+      "sha256": "74679501a60a4c38639dc40cf2adc95671a13a44d5659be9145ce0dfacf6e749"
+    },
+    {
+      "chunk": "STPE",
+      "unchanged": true,
+      "sha256": "7d9b06f410a85b0819bf09be8bafdeb3d418e025bb4c6b0be0d875d417b89764"
+    },
+    {
+      "chunk": "STPA",
+      "unchanged": true,
+      "sha256": "174b3dd24c1bf1a9c40c576a23493e8ac52327d656ad9852e39a2ffb9007dde3"
+    },
+    {
+      "chunk": "LEAE",
+      "unchanged": true,
+      "sha256": "9789dfb82aad1f3e55f3130c11b7bc478dadce19dbb9a66986fb247d90ce772a"
+    },
+    {
+      "chunk": "LEAT",
+      "unchanged": true,
+      "sha256": "20b3aacce0bb2e6fce2633198ccc95bfb08a179435d390aeb4bdeb5423669a2f"
+    },
+    {
+      "chunk": "EIDS",
+      "unchanged": true,
+      "sha256": "c79a6a72fea2e2a4a8c9a97bdf26c9af4fb4831497d1eb9dca2c29b845bee0e2"
+    },
+    {
+      "chunk": "ENGN",
+      "unchanged": true,
+      "sha256": "3403ee65e9e5d7822215e8851bfee8061360c98825821a4856da3e6a7c0d4dc4"
+    },
+    {
+      "chunk": "HIDS",
+      "unchanged": true,
+      "sha256": "149d009845aabbbac3383317214b9f61cbf9068101cd8892bd093e5c543afae7"
+    },
+    {
+      "chunk": "CITY",
+      "unchanged": true,
+      "sha256": "caeffa2eaaa0d90af148a761d1781c32fc9f8223300daa76d008b1ff46116881"
+    },
+    {
+      "chunk": "SIGN",
+      "unchanged": true,
+      "sha256": "6fbe1577e614bc5f0d2d39310fff0145d83d9da827810b3ed6ee33d00b92eec9"
+    },
+    {
+      "chunk": "STNN",
+      "unchanged": true,
+      "sha256": "4e5467eafaa09deec18065b2f004dd90bef7040a752b4454d6d65b0649b74ab5"
+    },
+    {
+      "chunk": "ROAD",
+      "unchanged": true,
+      "sha256": "c0e53eb77d1672d5b93f838bfccd4507957760e880583fb09d35c22aa6e11ad2"
+    },
+    {
+      "chunk": "PLYR",
+      "unchanged": true,
+      "sha256": "9426cff8f6b90fbe481be4d6166a5bc7da617c430b97cf9dca4e2c82eaf4acad"
+    },
+    {
+      "chunk": "PLYP",
+      "unchanged": true,
+      "sha256": "2b198a9a18897e7189ce9426cab706ee593775cef9767774e251f4992b6bbbae"
+    },
+    {
+      "chunk": "AIPL",
+      "unchanged": true,
+      "sha256": "ed2df309b826b7e279d4cc6af21c6b143344ba4bc353ed5d579a5ac6d78ba118"
+    },
+    {
+      "chunk": "GSTR",
+      "unchanged": true,
+      "sha256": "8cabed1e670097841a730d530c01c254508a9fd68c74eb295e486f10875dedfa"
+    },
+    {
+      "chunk": "GSDT",
+      "unchanged": false,
+      "sha256": "bfbd049343b45a3a09851b3572f0a946001fb968db79e75d96eb4b008e067de0"
+    },
+    {
+      "chunk": "ANIT",
+      "unchanged": true,
+      "sha256": "0ed67a05c827f97b5aec867faa7458b66975b8514f50ff1a4b5fc66829b4da69"
+    },
+    {
+      "chunk": "NGRF",
+      "unchanged": true,
+      "sha256": "b95a565b08dc1558e9bc405ec793c81467cda09352656b8528c46b3dc460b917"
+    },
+    {
+      "chunk": "GRPS",
+      "unchanged": true,
+      "sha256": "e7ef96ff654b849cc55cdbb24b39e969e21ce294b69fef6405b12b66924bbe66"
+    },
+    {
+      "chunk": "CAPA",
+      "unchanged": true,
+      "sha256": "12bbdc24d7874f9631085b1bc555d020750d65c26566810c5180209a3d6ebbc0"
+    },
+    {
+      "chunk": "CPDP",
+      "unchanged": true,
+      "sha256": "8d2c20729e9fe56461860738d8ab9ad26476a60f9ab868d911d2282a19d34167"
+    },
+    {
+      "chunk": "ERNW",
+      "unchanged": true,
+      "sha256": "4bbc881edb35c3a1574c6a2f3e1b14b27060bd16daca4033845d485cf4c404c2"
+    },
+    {
+      "chunk": "RAIL",
+      "unchanged": true,
+      "sha256": "43ec88c3829b90aca8303237e856fb969e0cd73e13f842ea32a7f2bfd43cd6b0"
+    },
+    {
+      "chunk": "ROTT",
+      "unchanged": true,
+      "sha256": "24ef07ec47f8e69f722ff4bf0afe65624eb31ea9fafee4eab23ffe05da171aa6"
+    },
+    {
+      "chunk": "LGRP",
+      "unchanged": true,
+      "sha256": "0c87e0c7431ec9a79d804daa6c5ba71ad664015d1e01cde66a3baca4d5485f68"
+    },
+    {
+      "chunk": "LGRJ",
+      "unchanged": true,
+      "sha256": "5bac9e1df9f96f28ac946f7707bb4cf9e29a17e1c9aea387d3cfbcbcb7e99c21"
+    },
+    {
+      "chunk": "LGRS",
+      "unchanged": true,
+      "sha256": "276197fc65b2b030a1466c0b4b1660db9167e96b9a28e66e011427ca0b3a5796"
+    },
+    {
+      "chunk": "ATID",
+      "unchanged": true,
+      "sha256": "00d1877cf7c5adc4deabf0b0362d79582792e9b9dc7ef6fa1be1e7a9abdba2f5"
+    },
+    {
+      "chunk": "APID",
+      "unchanged": true,
+      "sha256": "88d7d3b92380bcc38249a5c79f05be54f3a7d0f0195e80ead69b84f5c71d570f"
+    },
+    {
+      "chunk": "OBID",
+      "unchanged": true,
+      "sha256": "3b161d40b3d623fdfc8b1e09ce5406f78a5295b56a6a33fd5054bd3a9bd7b8f6"
+    },
+    {
+      "chunk": "OBJS",
+      "unchanged": true,
+      "sha256": "40cd8a64c2b2427ff823645ccf7a86e85fdd1983747ebf9e47191e2f0fc4b092"
+    },
+    {
+      "chunk": "PSAC",
+      "unchanged": true,
+      "sha256": "aa7c33d487ab8bb37232f17db235acec2b27c87b0309bc805e5e3d2c2f862601"
+    },
+    {
+      "chunk": "TRRM",
+      "unchanged": true,
+      "sha256": "33b85b4317311203ada2c9b35a9a6714cdc7388aec376908b309af309d5d8820"
+    },
+    {
+      "chunk": "TRRP",
+      "unchanged": true,
+      "sha256": "5746b3a8f1af6e68671516f8d7a575c7939c158c46e431f853aeda42d2967ff4"
+    },
+    {
+      "chunk": "TRRS",
+      "unchanged": true,
+      "sha256": "27e9ab34605f3c56932e72e318320df9cf0e971d14e0585475567ee705204aeb"
+    },
+    {
+      "chunk": "TRRG",
+      "unchanged": true,
+      "sha256": "86864e2200b944416c5ecb9097054c0a28fc0ca643e5dc2f40f60bad6e0d5aec"
+    },
+    {
+      "chunk": "TRRC",
+      "unchanged": true,
+      "sha256": "b03e4b42e8a1de30a0fa21af09f272e48a722d58f9a20a512f1dc841018934bd"
+    },
+    {
+      "chunk": "TRRB",
+      "unchanged": true,
+      "sha256": "66d452d5f268996c7a641acf3f66c283bc61885a7fe7874d6ff0f1af55f52b34"
+    },
+    {
+      "chunk": "SPRG",
+      "unchanged": true,
+      "sha256": "71c3c0dfcb89fd3b2a46243686178fa7bb13693fbfd073cf93ed7bbcf17921f8"
+    },
+    {
+      "chunk": "PLAN",
+      "unchanged": true,
+      "sha256": "666dc7c0482caaea2cbbcdac16afb7116d91b11a14980019cc10b5ef52c81941"
+    },
+    {
+      "chunk": "TRPL",
+      "unchanged": true,
+      "sha256": "6d4fdaf550300c3b46715af4b75d0c37c35856a9d220f2537d7edb6526442c37"
+    },
+    {
+      "chunk": "TMPL",
+      "unchanged": true,
+      "sha256": "babf6536c7cd671aa6935f276e28edce38cb6409eb008840c145354dd4bd8857"
+    },
+    {
+      "chunk": "XBSS",
+      "unchanged": true,
+      "sha256": "6d9711215ddef956a116ab06129287cc2152ee201c3d09d60c9b225d9c9bc60f"
+    },
+    {
+      "chunk": "XBST",
+      "unchanged": true,
+      "sha256": "41eaa0fd69d5bcde05ca6c433ba43f804f3334c8a4a95971f30c7eb9f6c069cb"
+    },
+    {
+      "chunk": "TUNN",
+      "unchanged": true,
+      "sha256": "2a8e7903433004fab9f9bfa6be076e686a4c8a26afe395567147939624a77aa1"
+    },
+    {
+      "chunk": "TSAS",
+      "unchanged": true,
+      "sha256": "ee49a734d698c804ad34ade81e1690fd5a1df030d923d61448f328fd201ee837"
+    },
+    {
+      "chunk": "NSID",
+      "unchanged": true,
+      "sha256": "c3d666cb3de3e562c87f885ed910cdf05c042a4e5a35f9a3d5014e34e60665ba"
+    },
+    {
+      "chunk": "DBGD",
+      "unchanged": true,
+      "sha256": "3c3366986f049595047d2eff459169e03d0bf35f1f4068c7f32e6b18c176657b"
+    }
+  ]
+}

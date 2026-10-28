@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "protected_prior_research_files": 75,
+  "original_installed_asset_paths_checked": 83,
+  "newgrf_identities": [
+    "44440A01",
+    "43485054",
+    "41560103",
+    "4A430002",
+    "4D560103",
+    "434D4301",
+    "4D560105",
+    "44441000",
+    "414E0201",
+    "0100403A",
+    "4F472B34",
+    "44440302",
+    "4E4D0518",
+    "4A4B8808",
+    "53410808"
+  ],
+  "test_assets_same_file_across_cases": true,
+  "only_disposable_GSDT_copy_used": true,
+  "main_company_years": 120,
+  "matched_pre_intervention_company_year_pairs": 30,
+  "full_horizon_cash_ledger_residuals_gbp": {
+    "three-final/0": -2,
+    "three-final/1": -5,
+    "three-final/2": -2,
+    "three-credit-matched/0": -2,
+    "three-credit-matched/1": -3,
+    "three-credit-matched/2": -2
+  },
+  "residual_note": "Finance-year ledgers and year-end bank observations differ by approximately one day; residuals are retained, not forced to match.",
+  "no_artificial_cash_or_settings_mutations_in_harness": true
+}

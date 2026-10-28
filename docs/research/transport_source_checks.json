@@ -1,0 +1,48 @@
+{
+  "local_sources": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\script\\api\\script_industrytype.cpp",
+      "sha256": "9437f2283c703b2e6ab845004df21814cdff3e6a3017c1cec171945f8ada63d5"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\script\\api\\script_date.cpp",
+      "sha256": "0750c174128496bad23015da882da6bb59c25ef1f8c2a2b4e713992ea2461044"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\script\\api\\script_company.cpp",
+      "sha256": "8bec507e89b65bdb21423dabcbbf6b196243f64fbb873538c0c8caafb368621e"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\script\\api\\script_vehicle.cpp",
+      "sha256": "3f59c39e46caa805d2d23364838ec7737e7ff8fa38aa41b2a402f735f19813ac"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\company_cmd.cpp",
+      "sha256": "c183a52ea614b0828ddac665da57c44a7eecf6e32f4b826d31d854aff33e03a7"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\economy.cpp",
+      "sha256": "8a52ccfb9b815ca32ade805afa8c737ab5476beeb87f2a41e94b9f6a17f7a509"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\axis\\src\\templates\\header.pynml",
+      "sha256": "2136cc305bf6d5ac5b2635bee07055b8b158a74ada44f2079d7523cfab99551b"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\axis\\src\\templates\\availability.pynml",
+      "sha256": "f4624106e9513e5d409ddaa2067cffea1cfe227bc1481426ef63b46c62efec0c"
+    }
+  ],
+  "installed_axis_grfid": "4A4B8808",
+  "installed_axis_sha256": "038b5f39025afbe07713ba144553d3329a36af91dff125c7c99d0454fafb4a9b",
+  "parameter_name": "Allow industries spawning during gameplay",
+  "parameter_mask_hex": "020201",
+  "decoded_mask": {
+    "parameter": 2,
+    "first_bit": 2,
+    "number_of_bits": 1
+  },
+  "saved_parameter_value": 0,
+  "effective_allow_spawning": false,
+  "official_clock_source": "https://github.com/JGRennison/OpenTTD-patches/blob/jgrpp-0.73.4/src/script/api/script_date.cpp"
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coal-planet-pilot.log",
+    "sha256": "5780feb7252c15ec54359a89b28425dc453fa13617cb7942b5bd39fe4835fc68",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coal-planet-pilot2.log",
+    "sha256": "79ad3389648365b5033a0ce7c7513dd51fb617abf4868322d53323df8037cbf9",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coal-planet-pilot3.log",
+    "sha256": "0e80ca9c715a987ff69f693958b43a2c59965415886a12f85b81fd1ec1f7f54b",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coal-planet-pilot4.log",
+    "sha256": "70ad0f454315a90a49a555ded37bfd29a1d2e973dc28614bfe7b49b393757a9e",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coal-planet-pilot5.log",
+    "sha256": "a0a27774fd961feb1c2c6e77cc6100ccb99fb4285663e6950f5bbe2323bb86f2",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coal-planet-pilot6.log",
+    "sha256": "3e19ba4190e4f8b7ec4bec820a6e4f99177dd18d0c04e70b96ca4d0ba8273a08",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\coastal-industry-check\\coastal-industry-check.log",
+    "sha256": "a4b565004e13725334788f9911dfb76331f409ce3676c11b01927c3cad7e9c98",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-city-road\\horse-city-road.log",
+    "sha256": "e7a0d27fbb4165146da8a232552b63593e1bdd8807a48fccf9d21d3536e8aa4d",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-10y\\horse-coal-10y.log",
+    "sha256": "c375c78b26519bd8a79f69270f922a953044e8a3c0d796bedcb5d3dcdd6189dc",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-10yb\\horse-coal-10yb.log",
+    "sha256": "69f9525dfa559c56826848b2cf6f57f6a7fb07869931266792f7cbf60984ba70",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-10yc\\horse-coal-10yc.log",
+    "sha256": "609d981ca88c24a05da39c1bd4f6b333e65b6c08150cf93519b4b29885cf4ab1",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-final\\horse-coal-final.log",
+    "sha256": "ff6328aa36f2d987a16ba88670fbbd7e1e41c57fe66478431a80945a31de9030",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-fleet\\horse-coal-fleet.log",
+    "sha256": "cdabdf2bfb3805932682a730f42368eb8b7eaf7b0268fb45ef5e540508fd4ced",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-fleet2\\horse-coal-fleet2.log",
+    "sha256": "38aac3d384619f7cf11de3ded08198d0873cd8ebdf4411c1c30451f43eee25da",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-fleet3\\horse-coal-fleet3.log",
+    "sha256": "baf826ec701a808e1ea55c06eb5744406ce3de8aabb693578f801fa33f336163",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coal-fleet4\\horse-coal-fleet4.log",
+    "sha256": "a81a6b3f471f3176fefdca17b66614d14faed8cde02c26a284bfde056126f4b9",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-coast\\horse-coast.log",
+    "sha256": "e3772716ba2a434d8a006f105e670f641bb86e16de3ab707dd160c069688e858",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-existing-road\\horse-existing-road.log",
+    "sha256": "9a8f87c62c04b32fe8a04eb162ff2f391a54ea4d67f431735a6e0f3d8f1e9499",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-local\\horse-local.log",
+    "sha256": "da28e0f572b25e3bd1e77eaacd6a2b5ddaeec397797c89f170ebfc2e2082aa90",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-local-bridge\\horse-local-bridge.log",
+    "sha256": "bd0dc30dacc23a5605de423b9475ebb04d7321bce6db3a39a9c1d9acf845bbf8",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-local-bridge2\\horse-local-bridge2.log",
+    "sha256": "7f5a366ba1d6d495e5ebbd24c8f2500b5dc5b73cd6c1455c5859b1e726fc32bb",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-local-bridge3\\horse-local-bridge3.log",
+    "sha256": "7777ff3080131715f1cf7f3939fb69f8220a591842aa28e76aecb55de8636466",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-local2\\horse-local2.log",
+    "sha256": "11ab811a506d7f835e44495b2d427ddab9ee74aa32f47ad324c084a963235ffd",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-local3\\horse-local3.log",
+    "sha256": "6cf6c8baf56dc94a83c161bd4248acaf69ed7627b996defcea030032ca81b6e6",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-lodi\\horse-lodi.log",
+    "sha256": "98b0fed60e95380fd8c9da9dff3d6341ab6c25f6974bb24feb0a46c37969a4d1",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-london\\horse-london.log",
+    "sha256": "efe00321e0093403ee8b63acde466fae1c84209d241b37e511380707444c0444",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-mail\\horse-mail.log",
+    "sha256": "1ac9c06ee7f8fe68bab15286dc2a0f8285644ca9429b4dc95cffa2fd2f564eb6",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-passenger-final\\horse-passenger-final.log",
+    "sha256": "f6a6c1900dfc5835020341cbba3075805445456470dd56320cae2ca57a1cfa64",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-passenger-final2\\horse-passenger-final2.log",
+    "sha256": "f06eb075c635b4403ef4c815ea548b04148a3d34acd168b7de4acfc08eceefaa",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-passenger-ledger\\horse-passenger-ledger.log",
+    "sha256": "297552be0eb108ce47d859500ebd1cd5eeb8b7b8a605effd2b666f17c459c3ce",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\horse-transition\\horse-transition.log",
+    "sha256": "c31d9b8a0712c2f4d01c51b2bc0ba37bfc876cf88ada5c54525b2a1ab7601211",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\inventory.log",
+    "sha256": "5a264a954973d10bc0cd65963881f967fafe05f6fbcfe4b690f4faf367843c8f",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coal-12-brake\\rail-coal-12-brake.log",
+    "sha256": "3643c35997e25cff4c6b1097813bcf520e45e5762975b0e144ba5ba70d6733c5",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coal-12wagons\\rail-coal-12wagons.log",
+    "sha256": "61546694208f1c8f817035e44bfea65b5b9c3fe1af051736a1dd8e5f9b1e4575",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coal-24-brake\\rail-coal-24-brake.log",
+    "sha256": "7e81cf77dfaec652ad80459c70db85b82ed2a66333183354fa5a3a418c61f7e3",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coal-24wagons\\rail-coal-24wagons.log",
+    "sha256": "94a4330823d23fa4a804da87ea68572a1950a28c3d1f0937a1a906c3bd9ca6ea",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coal-keep\\rail-coal-keep.log",
+    "sha256": "62d3c1c1c9c5a276724d60623d79585038575e1d4e7aeeba50070440deeaba41",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coal-ledger\\rail-coal-ledger.log",
+    "sha256": "41f566405ec82e21096cbb3da71698e0745afe9c09aacf18363488a4b2cbb872",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-coast\\rail-coast.log",
+    "sha256": "b9f66d16fc7cfd24c010c9436870ec33250f9b57033f8762b3faa9929175b08b",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-general\\rail-general.log",
+    "sha256": "94f0afcea1b6f4b7df5f326b19f0db00c2a293e3eda59dd80ef2084816b5954f",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-general2\\rail-general2.log",
+    "sha256": "0189d725ea2d708fd9a912a0b1b363247da69a9a36e58ffac1041b95a6c3e8d0",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-grasshopper\\rail-grasshopper.log",
+    "sha256": "b8490603c473729952c1a3648e131886083c8d6347bae03f292d2ab9885c8e75",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-lodi\\rail-lodi.log",
+    "sha256": "50e179ba734794d3542f3b3948131ee495b22f534ff445e0922f763dfbc0a23a",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-medium\\rail-medium.log",
+    "sha256": "6951f4f034f93b0b00bd651f04381a3d87e5e98dc63422aef82ce5bd960e70cc",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-passenger\\rail-passenger.log",
+    "sha256": "17870483cd445bb4ece0e60478b5a737b1bcb895204abe05f5b30ecb3b205dcc",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-wood-final\\rail-wood-final.log",
+    "sha256": "abb874a61824dda78a590404b6b60543e3772a139985b77fa64182dc2cde9c69",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\rail-wood-grasshopper\\rail-wood-grasshopper.log",
+    "sha256": "b571430b62e80d4e8899bfae500af7b70447081c625f1b861b80e6df55399882",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\replay-brake-required\\replay-brake-required.log",
+    "sha256": "61546694208f1c8f817035e44bfea65b5b9c3fe1af051736a1dd8e5f9b1e4575",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\ship-barque\\ship-barque.log",
+    "sha256": "c64866943aef510fc5802bcc1d36379fae8b3d8fd478dc8912610ecdc4f292f0",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\ship-mail\\ship-mail.log",
+    "sha256": "23c5db0b4be1a408c4218f92de272a79798818daa9a75d8393b5213e0c73a37b",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\ship-pax-final\\ship-pax-final.log",
+    "sha256": "59c1db92006ae990592379a5aa44d086fded4dd3f22322f167c2b6b82a0d51f3",
+    "selected_financial_case": true
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\ship-pax-pilot\\ship-pax-pilot.log",
+    "sha256": "04e9a435aabd0479ffdaef1aa0be972dba504027652e426c861b47845cc22955",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\ship-pax-pilot2\\ship-pax-pilot2.log",
+    "sha256": "d6cc6410060e6fc75549809ae64b93a722e3c777d9c7ff11258be1d5a12e0bad",
+    "selected_financial_case": false
+  },
+  {
+    "log": ".vehicle-audit-runtime\\phase3\\ship-schooner\\ship-schooner.log",
+    "sha256": "957cd29bb303b8d6db899b3d69c0ff985813676d4fd36db24423d1762eb8d8a0",
+    "selected_financial_case": true
+  }
+]

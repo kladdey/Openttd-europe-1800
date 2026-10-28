@@ -1,0 +1,2070 @@
+[
+  {
+    "grfid": "53410808",
+    "sha256": "c1d33f99d2acd038f49ceafa4e0fdf1fcd6492f55a38c3da3f19e68555742f0a",
+    "metadata": [
+      {
+        "path": "/INFO/VRSN",
+        "hex": "13000000",
+        "integer_le": 19
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "24000000",
+        "integer_le": 36
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "02",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": " Running cost"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": " Choose between cheaper or higher costs for running trains."
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "00",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/0/LIMI",
+        "hex": "0000000005000000",
+        "integer_le": 21474836480
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/0",
+        "language": 127,
+        "text": " the cheapest"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/1",
+        "language": 127,
+        "text": " very cheap"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/2",
+        "language": 127,
+        "text": " cheap"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/3",
+        "language": 127,
+        "text": " default"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/4",
+        "language": 127,
+        "text": " high"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/5",
+        "language": 127,
+        "text": " very high"
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "03000000",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": " Purchase cost"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": " Choose between cheaper or higher costs for buying trains."
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/LIMI",
+        "hex": "0000000004000000",
+        "integer_le": 17179869184
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/0",
+        "language": 127,
+        "text": " very cheap"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/1",
+        "language": 127,
+        "text": " cheap"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/2",
+        "language": 127,
+        "text": " default"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/3",
+        "language": 127,
+        "text": " high"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/4",
+        "language": 127,
+        "text": " very high"
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "02000000",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "44",
+        "integer_le": 68
+      },
+      {
+        "path": "/INFO/BLTR",
+        "hex": "33",
+        "integer_le": 51
+      }
+    ]
+  },
+  {
+    "grfid": "44440302",
+    "sha256": "2492f70bdd9a50a089b245e81b5b54ac6a1f4efaf733c4956a272809052bc854",
+    "metadata": [
+      {
+        "path": "/INFO/VRSN",
+        "hex": "fc000000",
+        "integer_le": 252
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "fa000000",
+        "integer_le": 250
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "57",
+        "integer_le": 87
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Reduce vehicle costs"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "Halve the purchase and running costs of all trains. This may be useful if you want a faster or easier game."
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "000001",
+        "integer_le": 65536
+      },
+      {
+        "path": "/INFO/PARA/0/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "00",
+        "integer_le": 0
+      }
+    ]
+  },
+  {
+    "grfid": "44441000",
+    "sha256": "82f13c7988df320c012fe50e32c4bae91da50c02f82cb1e98616adf511631d8d",
+    "metadata": [
+      {
+        "path": "/INFO/VRSN",
+        "hex": "1a040000",
+        "integer_le": 1050
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "64000000",
+        "integer_le": 100
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "57",
+        "integer_le": 87
+      },
+      {
+        "path": "/INFO/URL_",
+        "language": 127,
+        "text": "http://users.tt-forums.net/pikka/wiki/index.php?title=Main_Page"
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "08",
+        "integer_le": 8
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Locomotive Selection"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "Choose what locomotives will be available."
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "050004",
+        "integer_le": 262149
+      },
+      {
+        "path": "/INFO/PARA/0/TYPE",
+        "hex": "00",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/0/LIMI",
+        "hex": "0000000004000000",
+        "integer_le": 17179869184
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "03000000",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/0",
+        "language": 127,
+        "text": "No Locomotives"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/1",
+        "language": 127,
+        "text": "Small Selection"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/2",
+        "language": 127,
+        "text": "Transport Tycoon Style"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/3",
+        "language": 127,
+        "text": "Normal"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/4",
+        "language": 127,
+        "text": "Extended (includes 3rd party contributions)"
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": "Wagon Selection"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": "Choose what wagons will be available."
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "060004",
+        "integer_le": 262150
+      },
+      {
+        "path": "/INFO/PARA/1/TYPE",
+        "hex": "00",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/1/LIMI",
+        "hex": "0000000003000000",
+        "integer_le": 12884901888
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "02000000",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/0",
+        "language": 127,
+        "text": "No Wagons"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/1",
+        "language": 127,
+        "text": "Transport Tycoon Style"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/2",
+        "language": 127,
+        "text": "Normal"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/3",
+        "language": 127,
+        "text": "Extended (includes 3rd party contributions)"
+      },
+      {
+        "path": "/INFO/PARA/2/NAME",
+        "language": 127,
+        "text": "Single Livery"
+      },
+      {
+        "path": "/INFO/PARA/2/DESC",
+        "language": 127,
+        "text": "Vehicles will use a single livery variation."
+      },
+      {
+        "path": "/INFO/PARA/2/MASK",
+        "hex": "020001",
+        "integer_le": 65538
+      },
+      {
+        "path": "/INFO/PARA/2/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/3/NAME",
+        "language": 127,
+        "text": "Real Colours"
+      },
+      {
+        "path": "/INFO/PARA/3/DESC",
+        "language": 127,
+        "text": "Vehicles will use real-world-like colours instead of Transport Tycoon company colours."
+      },
+      {
+        "path": "/INFO/PARA/3/MASK",
+        "hex": "020101",
+        "integer_le": 65794
+      },
+      {
+        "path": "/INFO/PARA/3/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/NAME",
+        "language": 127,
+        "text": "Real Coloured Containers"
+      },
+      {
+        "path": "/INFO/PARA/4/DESC",
+        "language": 127,
+        "text": "Use 'real colours' on the Freightliner containers, even when trains use company colours."
+      },
+      {
+        "path": "/INFO/PARA/4/MASK",
+        "hex": "020201",
+        "integer_le": 66050
+      },
+      {
+        "path": "/INFO/PARA/4/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/5/NAME",
+        "language": 127,
+        "text": "Enable Identifier Flags"
+      },
+      {
+        "path": "/INFO/PARA/5/DESC",
+        "language": 127,
+        "text": "Show UK flags behind vehicles in the buy menu."
+      },
+      {
+        "path": "/INFO/PARA/5/MASK",
+        "hex": "040001",
+        "integer_le": 65540
+      },
+      {
+        "path": "/INFO/PARA/5/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/6/NAME",
+        "language": 127,
+        "text": "Disable Running Sounds"
+      },
+      {
+        "path": "/INFO/PARA/6/DESC",
+        "language": 127,
+        "text": "Disable train running sounds.  Does not affect horn and whistle sounds."
+      },
+      {
+        "path": "/INFO/PARA/6/MASK",
+        "hex": "000001",
+        "integer_le": 65536
+      },
+      {
+        "path": "/INFO/PARA/6/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/7/NAME",
+        "language": 127,
+        "text": "De-clutter Purchase list"
+      },
+      {
+        "path": "/INFO/PARA/7/DESC",
+        "language": 127,
+        "text": "Remove old locomotives from the purchase list sooner."
+      },
+      {
+        "path": "/INFO/PARA/7/MASK",
+        "hex": "030001",
+        "integer_le": 65539
+      },
+      {
+        "path": "/INFO/PARA/7/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      }
+    ]
+  },
+  {
+    "grfid": "4D560105",
+    "sha256": "c126d071f37e481f86f16b8cdc959c775ce67fc97d3089fa5d031e3b118084c7",
+    "metadata": [
+      {
+        "path": "/INFO/VRSN",
+        "hex": "11000000",
+        "integer_le": 17
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "09",
+        "integer_le": 9
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Disable original normal trains"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "Select this option to disable original rail engines and wagons for normal tracks. Not applicable to monorail and maglev trains."
+      },
+      {
+        "path": "/INFO/PARA/0/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "000001",
+        "integer_le": 65536
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": "Disable original monorail and maglev trains"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": "Select this option to disable original monorail and maglev engines and wagons. Not applicable to normal track trains."
+      },
+      {
+        "path": "/INFO/PARA/1/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "010001",
+        "integer_le": 65537
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/2/NAME",
+        "language": 127,
+        "text": "Keep old vehicles in purchase menu"
+      },
+      {
+        "path": "/INFO/PARA/2/DESC",
+        "language": 127,
+        "text": "Select this option to disable expiration of old engines and wagons. Historical vehicles will remain available in purchase menu also in modern ages. This option applies only to this set. To disable expiration of another vehicles use option \"Vehicles never expire\" in game settings."
+      },
+      {
+        "path": "/INFO/PARA/2/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/2/MASK",
+        "hex": "020001",
+        "integer_le": 65538
+      },
+      {
+        "path": "/INFO/PARA/3/NAME",
+        "language": 127,
+        "text": "Transport 'goods' in special wagons"
+      },
+      {
+        "path": "/INFO/PARA/3/DESC",
+        "language": 127,
+        "text": "Some wagons in the set are dedicated to transport special cargoes, defined by FIRS and ECS industry sets. If you play without FIRS and ECS, these wagons are disabled. Select this option to use these wagons with a standard 'goods' cargo."
+      },
+      {
+        "path": "/INFO/PARA/3/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/3/MASK",
+        "hex": "020101",
+        "integer_le": 65794
+      },
+      {
+        "path": "/INFO/PARA/4/NAME",
+        "language": 127,
+        "text": "Use original introduction dates for early rolling stock "
+      },
+      {
+        "path": "/INFO/PARA/4/DESC",
+        "language": 127,
+        "text": "Select this option to use original introduction dates for early PKP rolling stock instead of 1918 - the year in which Poland regained its independence.\rWhen option is enabled, the first vehicles are available in 1882."
+      },
+      {
+        "path": "/INFO/PARA/4/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/MASK",
+        "hex": "020201",
+        "integer_le": 66050
+      },
+      {
+        "path": "/INFO/PARA/5/NAME",
+        "language": 127,
+        "text": "Disable 'heating' parameter"
+      },
+      {
+        "path": "/INFO/PARA/5/DESC",
+        "language": 127,
+        "text": "Select this option to disable parameter 'heating'. Applies only in Arctic climate."
+      },
+      {
+        "path": "/INFO/PARA/5/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/5/MASK",
+        "hex": "020301",
+        "integer_le": 66306
+      },
+      {
+        "path": "/INFO/PARA/6/NAME",
+        "language": 127,
+        "text": "ECS 'tourists' in passenger/suburban coaches"
+      },
+      {
+        "path": "/INFO/PARA/6/DESC",
+        "language": 127,
+        "text": "This option don't work yet."
+      },
+      {
+        "path": "/INFO/PARA/6/MASK",
+        "hex": "03",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/6/LIMI",
+        "hex": "0000000002000000",
+        "integer_le": 8589934592
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/0",
+        "language": 127,
+        "text": "Autorefit"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/1",
+        "language": 127,
+        "text": "Manual"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/2",
+        "language": 127,
+        "text": "Disabled"
+      },
+      {
+        "path": "/INFO/PARA/6/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/7/NAME",
+        "language": 127,
+        "text": "Purchase cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/7/DESC",
+        "language": 127,
+        "text": "Use this option to increase the purchase cost of engines and wagons. Applicable only in this set."
+      },
+      {
+        "path": "/INFO/PARA/7/MASK",
+        "hex": "04",
+        "integer_le": 4
+      },
+      {
+        "path": "/INFO/PARA/7/LIMI",
+        "hex": "0000000003000000",
+        "integer_le": 12884901888
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/0",
+        "language": 127,
+        "text": "1x"
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/1",
+        "language": 127,
+        "text": "2x"
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/2",
+        "language": 127,
+        "text": "4x"
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/3",
+        "language": 127,
+        "text": "8x"
+      },
+      {
+        "path": "/INFO/PARA/7/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/8/NAME",
+        "language": 127,
+        "text": "Running cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/8/DESC",
+        "language": 127,
+        "text": "Use this option to increase the running cost of engines and wagons. Applicable only for vehicles in this set."
+      },
+      {
+        "path": "/INFO/PARA/8/MASK",
+        "hex": "05",
+        "integer_le": 5
+      },
+      {
+        "path": "/INFO/PARA/8/LIMI",
+        "hex": "0000000003000000",
+        "integer_le": 12884901888
+      },
+      {
+        "path": "/INFO/PARA/8/VALU/0",
+        "language": 127,
+        "text": "1x"
+      },
+      {
+        "path": "/INFO/PARA/8/VALU/1",
+        "language": 127,
+        "text": "2x"
+      },
+      {
+        "path": "/INFO/PARA/8/VALU/2",
+        "language": 127,
+        "text": "4x"
+      },
+      {
+        "path": "/INFO/PARA/8/VALU/3",
+        "language": 127,
+        "text": "8x"
+      },
+      {
+        "path": "/INFO/PARA/8/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "44",
+        "integer_le": 68
+      },
+      {
+        "path": "/INFO/BLTR",
+        "hex": "38",
+        "integer_le": 56
+      }
+    ]
+  },
+  {
+    "grfid": "4E4D0518",
+    "sha256": "66104bc7965fc8cffa702a4a457d68413dbec1f696a208eb8efad04cce90a7bd",
+    "metadata": [
+      {
+        "path": "/INFO/URL_",
+        "language": 127,
+        "text": "https://www.tt-forums.net/viewtopic.php?f=26&t=76411"
+      },
+      {
+        "path": "/INFO/VRSN",
+        "hex": "c65c1e8f",
+        "integer_le": 2401131718
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "9e080000",
+        "integer_le": 2206
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "03",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Purchase cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "You can use this setting to increase or decrease the purchase costs of the vehicles in this set."
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "00",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/0/LIMI",
+        "hex": "0000000008000000",
+        "integer_le": 34359738368
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/0",
+        "language": 127,
+        "text": "1/16"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/1",
+        "language": 127,
+        "text": "1/8"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/2",
+        "language": 127,
+        "text": "1/4"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/3",
+        "language": 127,
+        "text": "1/2"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/4",
+        "language": 127,
+        "text": "1 (default)"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/5",
+        "language": 127,
+        "text": "2"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/6",
+        "language": 127,
+        "text": "4"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/7",
+        "language": 127,
+        "text": "8"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/8",
+        "language": 127,
+        "text": "16"
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "04000000",
+        "integer_le": 4
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": "Running cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": "You can use this setting to increase or decrease the running costs of the vehicles in this set."
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/LIMI",
+        "hex": "0000000008000000",
+        "integer_le": 34359738368
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/0",
+        "language": 127,
+        "text": "1/16"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/1",
+        "language": 127,
+        "text": "1/8"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/2",
+        "language": 127,
+        "text": "1/4"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/3",
+        "language": 127,
+        "text": "1/2"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/4",
+        "language": 127,
+        "text": "1 (default)"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/5",
+        "language": 127,
+        "text": "2"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/6",
+        "language": 127,
+        "text": "4"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/7",
+        "language": 127,
+        "text": "8"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/8",
+        "language": 127,
+        "text": "16"
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "03000000",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/2/NAME",
+        "language": 127,
+        "text": "Loading speed"
+      },
+      {
+        "path": "/INFO/PARA/2/DESC",
+        "language": 127,
+        "text": "Set the loading speed of this set"
+      },
+      {
+        "path": "/INFO/PARA/2/MASK",
+        "hex": "02",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PARA/2/LIMI",
+        "hex": "0100000004000000",
+        "integer_le": 17179869185
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/1",
+        "language": 127,
+        "text": "Slow"
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/2",
+        "language": 127,
+        "text": "Normal (default)"
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/3",
+        "language": 127,
+        "text": "Fast"
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/4",
+        "language": 127,
+        "text": "As fast as possible"
+      },
+      {
+        "path": "/INFO/PARA/2/DFLT",
+        "hex": "02000000",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "44",
+        "integer_le": 68
+      },
+      {
+        "path": "/INFO/BLTR",
+        "hex": "38",
+        "integer_le": 56
+      }
+    ]
+  },
+  {
+    "grfid": "544D0101",
+    "sha256": "9016b5faf94c2311af916c3177770a9dbac60eda691e8f531d4333d7505e534c",
+    "metadata": [
+      {
+        "path": "/INFO/DESC",
+        "language": 0,
+        "text": "\ufffd2cc Trains of the World in NML\r\r(c)2ccts\rLicense:GPLv2 or higher.\rSee readme for details."
+      },
+      {
+        "path": "/INFO/URL_",
+        "language": 127,
+        "text": "https://dev.openttdcoop.org/projects/2ccts"
+      },
+      {
+        "path": "/INFO/VRSN",
+        "hex": "f01d0000",
+        "integer_le": 7664
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "e6190000",
+        "integer_le": 6630
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "0d",
+        "integer_le": 13
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Purchase cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "You can use this setting to increase or decrease the purchase costs of the vehicles in this set."
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "00",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/0/LIMI",
+        "hex": "0000000008000000",
+        "integer_le": 34359738368
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/0",
+        "language": 127,
+        "text": "1/16"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/1",
+        "language": 127,
+        "text": "1/8"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/2",
+        "language": 127,
+        "text": "1/4"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/3",
+        "language": 127,
+        "text": "1/2"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/4",
+        "language": 127,
+        "text": "1 (default)"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/5",
+        "language": 127,
+        "text": "2"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/6",
+        "language": 127,
+        "text": "4"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/7",
+        "language": 127,
+        "text": "8"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/8",
+        "language": 127,
+        "text": "16"
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "04000000",
+        "integer_le": 4
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": "Running cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": "You can use this setting to increase or decrease the running costs of the vehicles in this set."
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/LIMI",
+        "hex": "0000000008000000",
+        "integer_le": 34359738368
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/0",
+        "language": 127,
+        "text": "1/16"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/1",
+        "language": 127,
+        "text": "1/8"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/2",
+        "language": 127,
+        "text": "1/4"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/3",
+        "language": 127,
+        "text": "1/2"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/4",
+        "language": 127,
+        "text": "1 (default)"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/5",
+        "language": 127,
+        "text": "2"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/6",
+        "language": 127,
+        "text": "4"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/7",
+        "language": 127,
+        "text": "8"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/8",
+        "language": 127,
+        "text": "16"
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "04000000",
+        "integer_le": 4
+      },
+      {
+        "path": "/INFO/PARA/2/NAME",
+        "language": 127,
+        "text": "Concept vehicles"
+      },
+      {
+        "path": "/INFO/PARA/2/DESC",
+        "language": 127,
+        "text": "Use concept vehicles"
+      },
+      {
+        "path": "/INFO/PARA/2/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/2/MASK",
+        "hex": "020001",
+        "integer_le": 65538
+      },
+      {
+        "path": "/INFO/PARA/2/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/3/NAME",
+        "language": 127,
+        "text": "Africa"
+      },
+      {
+        "path": "/INFO/PARA/3/DESC",
+        "language": 127,
+        "text": "Use vehicles from Africa"
+      },
+      {
+        "path": "/INFO/PARA/3/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/3/MASK",
+        "hex": "030001",
+        "integer_le": 65539
+      },
+      {
+        "path": "/INFO/PARA/3/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/NAME",
+        "language": 127,
+        "text": "North America"
+      },
+      {
+        "path": "/INFO/PARA/4/DESC",
+        "language": 127,
+        "text": "Use vehicles from North America"
+      },
+      {
+        "path": "/INFO/PARA/4/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/MASK",
+        "hex": "040001",
+        "integer_le": 65540
+      },
+      {
+        "path": "/INFO/PARA/4/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/5/NAME",
+        "language": 127,
+        "text": "South America"
+      },
+      {
+        "path": "/INFO/PARA/5/DESC",
+        "language": 127,
+        "text": "Use vehicles from South America"
+      },
+      {
+        "path": "/INFO/PARA/5/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/5/MASK",
+        "hex": "050001",
+        "integer_le": 65541
+      },
+      {
+        "path": "/INFO/PARA/5/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/6/NAME",
+        "language": 127,
+        "text": "Asia"
+      },
+      {
+        "path": "/INFO/PARA/6/DESC",
+        "language": 127,
+        "text": "Use vehicles from Asia"
+      },
+      {
+        "path": "/INFO/PARA/6/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/6/MASK",
+        "hex": "060001",
+        "integer_le": 65542
+      },
+      {
+        "path": "/INFO/PARA/6/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/7/NAME",
+        "language": 127,
+        "text": "Northern Europe"
+      },
+      {
+        "path": "/INFO/PARA/7/DESC",
+        "language": 127,
+        "text": "Use vehicles from Northern Europe"
+      },
+      {
+        "path": "/INFO/PARA/7/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/7/MASK",
+        "hex": "070001",
+        "integer_le": 65543
+      },
+      {
+        "path": "/INFO/PARA/7/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/8/NAME",
+        "language": 127,
+        "text": "Eastern Europe"
+      },
+      {
+        "path": "/INFO/PARA/8/DESC",
+        "language": 127,
+        "text": "Use vehicles from Eastern Europe"
+      },
+      {
+        "path": "/INFO/PARA/8/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/8/MASK",
+        "hex": "080001",
+        "integer_le": 65544
+      },
+      {
+        "path": "/INFO/PARA/8/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/9/NAME",
+        "language": 127,
+        "text": "Southern Europe"
+      },
+      {
+        "path": "/INFO/PARA/9/DESC",
+        "language": 127,
+        "text": "Use vehicles from Southern Europe"
+      },
+      {
+        "path": "/INFO/PARA/9/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/9/MASK",
+        "hex": "090001",
+        "integer_le": 65545
+      },
+      {
+        "path": "/INFO/PARA/9/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/10/NAME",
+        "language": 127,
+        "text": "Western Europe"
+      },
+      {
+        "path": "/INFO/PARA/10/DESC",
+        "language": 127,
+        "text": "Use vehicles from Western Europe"
+      },
+      {
+        "path": "/INFO/PARA/10/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/10/MASK",
+        "hex": "0a0001",
+        "integer_le": 65546
+      },
+      {
+        "path": "/INFO/PARA/10/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/11/NAME",
+        "language": 127,
+        "text": "Oceania"
+      },
+      {
+        "path": "/INFO/PARA/11/DESC",
+        "language": 127,
+        "text": "Use vehicles from Oceania"
+      },
+      {
+        "path": "/INFO/PARA/11/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/11/MASK",
+        "hex": "0b0001",
+        "integer_le": 65547
+      },
+      {
+        "path": "/INFO/PARA/11/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/12/NAME",
+        "language": 127,
+        "text": "Loading speed"
+      },
+      {
+        "path": "/INFO/PARA/12/DESC",
+        "language": 127,
+        "text": "Set the loading speed of this set"
+      },
+      {
+        "path": "/INFO/PARA/12/MASK",
+        "hex": "0c",
+        "integer_le": 12
+      },
+      {
+        "path": "/INFO/PARA/12/LIMI",
+        "hex": "0000000003000000",
+        "integer_le": 12884901888
+      },
+      {
+        "path": "/INFO/PARA/12/VALU/0",
+        "language": 127,
+        "text": "Slow"
+      },
+      {
+        "path": "/INFO/PARA/12/VALU/1",
+        "language": 127,
+        "text": "Normal (default)"
+      },
+      {
+        "path": "/INFO/PARA/12/VALU/2",
+        "language": 127,
+        "text": "Fast"
+      },
+      {
+        "path": "/INFO/PARA/12/VALU/3",
+        "language": 127,
+        "text": "As fast as possible"
+      },
+      {
+        "path": "/INFO/PARA/12/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "44",
+        "integer_le": 68
+      },
+      {
+        "path": "/INFO/BLTR",
+        "hex": "38",
+        "integer_le": 56
+      }
+    ]
+  },
+  {
+    "grfid": "54574607",
+    "sha256": "7cd15340478471f73638c77c4f8a2807b55a90d91e1ab0cdd8c66dc41f250bcf",
+    "metadata": [
+      {
+        "path": "/INFO/VRSN",
+        "hex": "8e0e0000",
+        "integer_le": 3726
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "08",
+        "integer_le": 8
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Purchase cost modifier"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "Increase or decrease build costs to change difficulty, or balance with other GRF sets.\r\r\ufffdHigher values may be difficult, especially in the early game.\ufffd"
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "00",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/0/LIMI",
+        "hex": "0000000007000000",
+        "integer_le": 30064771072
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/0",
+        "language": 127,
+        "text": "0.25x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/1",
+        "language": 127,
+        "text": "0.5x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/2",
+        "language": 127,
+        "text": "1x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/3",
+        "language": 127,
+        "text": "2x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/4",
+        "language": 127,
+        "text": "4x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/5",
+        "language": 127,
+        "text": "8x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/6",
+        "language": 127,
+        "text": "16x"
+      },
+      {
+        "path": "/INFO/PARA/0/VALU/7",
+        "language": 127,
+        "text": "32x"
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "02000000",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": "Running cost modifier"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": "Increase or decrease running costs to change difficulty, or balance with other GRF sets.\r\r\ufffdHigher values may be difficult, especially in the early game.\ufffd"
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/LIMI",
+        "hex": "0000000007000000",
+        "integer_le": 30064771072
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/0",
+        "language": 127,
+        "text": "0.25x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/1",
+        "language": 127,
+        "text": "0.5x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/2",
+        "language": 127,
+        "text": "1x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/3",
+        "language": 127,
+        "text": "2x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/4",
+        "language": 127,
+        "text": "4x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/5",
+        "language": 127,
+        "text": "8x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/6",
+        "language": 127,
+        "text": "16x"
+      },
+      {
+        "path": "/INFO/PARA/1/VALU/7",
+        "language": 127,
+        "text": "32x"
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "02000000",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PARA/2/NAME",
+        "language": 127,
+        "text": "Maximum multiple unit length"
+      },
+      {
+        "path": "/INFO/PARA/2/DESC",
+        "language": 127,
+        "text": "Some multiple units included in this set have very long consists in prototypical usage (e.g. Eurostar).\r\rAlter this parameter to set the maximum length in tiles for these longer units."
+      },
+      {
+        "path": "/INFO/PARA/2/MASK",
+        "hex": "02",
+        "integer_le": 2
+      },
+      {
+        "path": "/INFO/PARA/2/LIMI",
+        "hex": "0000000002000000",
+        "integer_le": 8589934592
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/0",
+        "language": 127,
+        "text": "Unlimited (realistic)"
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/1",
+        "language": 127,
+        "text": "6 tiles (default)"
+      },
+      {
+        "path": "/INFO/PARA/2/VALU/2",
+        "language": 127,
+        "text": "4 tiles (short)"
+      },
+      {
+        "path": "/INFO/PARA/2/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/3/NAME",
+        "language": 127,
+        "text": "Running cost penalty for old trains"
+      },
+      {
+        "path": "/INFO/PARA/3/DESC",
+        "language": 127,
+        "text": "When trains reach the end of their working life they will become more expensive to run.\r\rHigher settings cause this this to happen faster and the increase in costs to be larger.\r\rFor casual network games and other situations where players may not be able to replace expired vehicles for several decades, \ufffdMild\ufffd is recommended as it will still allow most well-designed networks to break even or return a small profit."
+      },
+      {
+        "path": "/INFO/PARA/3/MASK",
+        "hex": "03",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/3/LIMI",
+        "hex": "0000000002000000",
+        "integer_le": 8589934592
+      },
+      {
+        "path": "/INFO/PARA/3/VALU/0",
+        "language": 127,
+        "text": "Mild"
+      },
+      {
+        "path": "/INFO/PARA/3/VALU/1",
+        "language": 127,
+        "text": "Spicy"
+      },
+      {
+        "path": "/INFO/PARA/3/VALU/2",
+        "language": 127,
+        "text": "Painful"
+      },
+      {
+        "path": "/INFO/PARA/3/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/NAME",
+        "language": 127,
+        "text": "Graffiti"
+      },
+      {
+        "path": "/INFO/PARA/4/DESC",
+        "language": 127,
+        "text": "When a locomotive gets old, some freight wagons will show weathering and graffiti as an indication it is reaching the end of its life, with more graffiti the older it gets.\r\rAs this may be visually distracting, you can switch off the accumulation of graffiti over a train with this parameter."
+      },
+      {
+        "path": "/INFO/PARA/4/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/MASK",
+        "hex": "040001",
+        "integer_le": 65540
+      },
+      {
+        "path": "/INFO/PARA/4/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/5/NAME",
+        "language": 127,
+        "text": "Use company colours for brake vans"
+      },
+      {
+        "path": "/INFO/PARA/5/DESC",
+        "language": 127,
+        "text": "By default, brake vans are shown in a variety of prototypical real-world colours to make them visually distinct from freight vehicles. This option allows showing them in company colours instead."
+      },
+      {
+        "path": "/INFO/PARA/5/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/5/MASK",
+        "hex": "050001",
+        "integer_le": 65541
+      },
+      {
+        "path": "/INFO/PARA/5/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/6/NAME",
+        "language": 127,
+        "text": "Cargo decay time"
+      },
+      {
+        "path": "/INFO/PARA/6/DESC",
+        "language": 127,
+        "text": "When using extreme sized maps with slow economy speeds (e.g. in JGRPP) the default cargo payment algorithm does not scale well to long train routes. This parameter allows slowing down cargo payment decay to allow more satisfying gameplay on extreme map sizes.\r\r\ufffdNote:\ufffd will make the game significantly easier - you may wish to increase running costs to compensate."
+      },
+      {
+        "path": "/INFO/PARA/6/MASK",
+        "hex": "06",
+        "integer_le": 6
+      },
+      {
+        "path": "/INFO/PARA/6/LIMI",
+        "hex": "0000000004000000",
+        "integer_le": 17179869184
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/0",
+        "language": 127,
+        "text": "Normal (1x)"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/1",
+        "language": 127,
+        "text": "Savage \ufffd(0.5x)"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/2",
+        "language": 127,
+        "text": "Relaxed (2x)"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/3",
+        "language": 127,
+        "text": "Casual (3x)"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/4",
+        "language": 127,
+        "text": "Silly (4x)"
+      },
+      {
+        "path": "/INFO/PARA/6/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/7/NAME",
+        "language": 127,
+        "text": "Disable extra gameplay vehicles"
+      },
+      {
+        "path": "/INFO/PARA/7/DESC",
+        "language": 127,
+        "text": "The 1960s rationalisation of BR resulted in a number of sectors abandoned to road transport. Since players may wish to explore the possibilities had BR continued to provide these types of traffic, a number of plausible fictional vehicles are included in this set. For extra realism, these can be turned off with this flag."
+      },
+      {
+        "path": "/INFO/PARA/7/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/7/MASK",
+        "hex": "070001",
+        "integer_le": 65543
+      },
+      {
+        "path": "/INFO/PARA/7/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "44",
+        "integer_le": 68
+      },
+      {
+        "path": "/INFO/BLTR",
+        "hex": "38",
+        "integer_le": 56
+      }
+    ]
+  },
+  {
+    "grfid": "4D560103",
+    "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6",
+    "metadata": [
+      {
+        "path": "/INFO/VRSN",
+        "hex": "d3000000",
+        "integer_le": 211
+      },
+      {
+        "path": "/INFO/MINV",
+        "hex": "d0000000",
+        "integer_le": 208
+      },
+      {
+        "path": "/INFO/NPAR",
+        "hex": "08",
+        "integer_le": 8
+      },
+      {
+        "path": "/INFO/PARA/0/NAME",
+        "language": 127,
+        "text": "Disable original normal trains"
+      },
+      {
+        "path": "/INFO/PARA/0/DESC",
+        "language": 127,
+        "text": "Select this option to disable original rail engines and wagons for normal tracks. Not applicable to monorail and maglev trains."
+      },
+      {
+        "path": "/INFO/PARA/0/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/0/MASK",
+        "hex": "000001",
+        "integer_le": 65536
+      },
+      {
+        "path": "/INFO/PARA/0/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/NAME",
+        "language": 127,
+        "text": "Disable original monorail and maglev trains"
+      },
+      {
+        "path": "/INFO/PARA/1/DESC",
+        "language": 127,
+        "text": "Select this option to disable original monorail and maglev engines and wagons. Not applicable to normal track trains."
+      },
+      {
+        "path": "/INFO/PARA/1/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/1/MASK",
+        "hex": "010001",
+        "integer_le": 65537
+      },
+      {
+        "path": "/INFO/PARA/1/DFLT",
+        "hex": "01000000",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/2/NAME",
+        "language": 127,
+        "text": "Keep old vehicles in purchase menu"
+      },
+      {
+        "path": "/INFO/PARA/2/DESC",
+        "language": 127,
+        "text": "Select this option to disable expiration of old engines and wagons. Historical vehicles will remain available in purchase menu also in modern ages. This option applies only to this set. To disable expiration of another vehicles use option \"Vehicles never expire\" in game settings."
+      },
+      {
+        "path": "/INFO/PARA/2/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/2/MASK",
+        "hex": "020001",
+        "integer_le": 65538
+      },
+      {
+        "path": "/INFO/PARA/3/NAME",
+        "language": 127,
+        "text": "Transport 'goods' in special wagons"
+      },
+      {
+        "path": "/INFO/PARA/3/DESC",
+        "language": 127,
+        "text": "Some wagons in the set are dedicated to transport special cargoes, defined by FIRS and ECS industry sets. If you play without FIRS and ECS, these wagons are disabled. Select this option to use these wagons with a standard 'goods' cargo."
+      },
+      {
+        "path": "/INFO/PARA/3/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/3/MASK",
+        "hex": "020101",
+        "integer_le": 65794
+      },
+      {
+        "path": "/INFO/PARA/4/NAME",
+        "language": 127,
+        "text": "Use original introduction dates for early rolling stock "
+      },
+      {
+        "path": "/INFO/PARA/4/DESC",
+        "language": 127,
+        "text": "Select this option to use original introduction dates for early PKP rolling stock instead of 1918 - the year in which Poland regained its independence.\rWhen option is enabled, the first vehicles are available in 1882."
+      },
+      {
+        "path": "/INFO/PARA/4/TYPE",
+        "hex": "01",
+        "integer_le": 1
+      },
+      {
+        "path": "/INFO/PARA/4/MASK",
+        "hex": "020201",
+        "integer_le": 66050
+      },
+      {
+        "path": "/INFO/PARA/5/NAME",
+        "language": 127,
+        "text": "ECS 'tourists' in passenger/suburban coaches"
+      },
+      {
+        "path": "/INFO/PARA/5/DESC",
+        "language": 127,
+        "text": "This option don't work yet."
+      },
+      {
+        "path": "/INFO/PARA/5/MASK",
+        "hex": "03",
+        "integer_le": 3
+      },
+      {
+        "path": "/INFO/PARA/5/LIMI",
+        "hex": "0000000002000000",
+        "integer_le": 8589934592
+      },
+      {
+        "path": "/INFO/PARA/5/VALU/0",
+        "language": 127,
+        "text": "Autorefit"
+      },
+      {
+        "path": "/INFO/PARA/5/VALU/1",
+        "language": 127,
+        "text": "Manulal"
+      },
+      {
+        "path": "/INFO/PARA/5/VALU/2",
+        "language": 127,
+        "text": "Disabled"
+      },
+      {
+        "path": "/INFO/PARA/5/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/6/NAME",
+        "language": 127,
+        "text": "Purchase cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/6/DESC",
+        "language": 127,
+        "text": "Use this option to increase the purchase cost of engines and wagons. Applicable only in this set."
+      },
+      {
+        "path": "/INFO/PARA/6/MASK",
+        "hex": "04",
+        "integer_le": 4
+      },
+      {
+        "path": "/INFO/PARA/6/LIMI",
+        "hex": "0000000003000000",
+        "integer_le": 12884901888
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/0",
+        "language": 127,
+        "text": "1x"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/1",
+        "language": 127,
+        "text": "2x"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/2",
+        "language": 127,
+        "text": "4x"
+      },
+      {
+        "path": "/INFO/PARA/6/VALU/3",
+        "language": 127,
+        "text": "8x"
+      },
+      {
+        "path": "/INFO/PARA/6/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PARA/7/NAME",
+        "language": 127,
+        "text": "Running cost multiplier"
+      },
+      {
+        "path": "/INFO/PARA/7/DESC",
+        "language": 127,
+        "text": "Use this option to increase the running cost of engines and wagons. Applicable only for vehicles in this set."
+      },
+      {
+        "path": "/INFO/PARA/7/MASK",
+        "hex": "05",
+        "integer_le": 5
+      },
+      {
+        "path": "/INFO/PARA/7/LIMI",
+        "hex": "0000000003000000",
+        "integer_le": 12884901888
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/0",
+        "language": 127,
+        "text": "1x"
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/1",
+        "language": 127,
+        "text": "2x"
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/2",
+        "language": 127,
+        "text": "4x"
+      },
+      {
+        "path": "/INFO/PARA/7/VALU/3",
+        "language": 127,
+        "text": "8x"
+      },
+      {
+        "path": "/INFO/PARA/7/DFLT",
+        "hex": "00000000",
+        "integer_le": 0
+      },
+      {
+        "path": "/INFO/PALS",
+        "hex": "44",
+        "integer_le": 68
+      },
+      {
+        "path": "/INFO/BLTR",
+        "hex": "38",
+        "integer_le": 56
+      }
+    ]
+  }
+]

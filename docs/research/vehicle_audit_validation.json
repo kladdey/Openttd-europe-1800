@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_paths_checked": 83,
+  "grf_instances": 83,
+  "distinct_grf_hashes": 74,
+  "scenario_references_md5_matched": 15,
+  "unique_roster_keys": 2887,
+  "snapshot_rows": 17322,
+  "counts": {
+    "4D560103": 135,
+    "434D4301": 8,
+    "4D560105": 694,
+    "44441000": 94,
+    "414E0201": 25,
+    "44440302": 113,
+    "4E4D0518": 216,
+    "53410808": 1602
+  },
+  "limits": "Validates extraction identities and arithmetic, not depot builds, attachment or route profitability."
+}

@@ -1,0 +1,2570 @@
+{
+  "audit_date": "2026-10-28",
+  "roots": [
+    "C:\\Users\\Kladd\\Documents\\OpenTTD\\newgrf",
+    "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf",
+    "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario",
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf",
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\content_download\\newgrf",
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\scenario"
+  ],
+  "scenario": {
+    "scenario": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V2 newGRFS.scn",
+    "sha256": "5710beea8b3badf6aecc8ab679caea1fb2c4b66e96c4393b342a816c064e0688",
+    "references": [
+      {
+        "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+        "grfid": "44440A01",
+        "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+        "version": 2210,
+        "params": [],
+        "palette": 9,
+        "name": "av8 Aviators Aircraft Set"
+      },
+      {
+        "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+        "grfid": "43485054",
+        "md5": "f09180381b487c911d5eaf5dff4fddf2",
+        "version": 376,
+        "params": [],
+        "palette": 4,
+        "name": "CHIPS Station Set 2.0.0"
+      },
+      {
+        "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+        "grfid": "41560103",
+        "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+        "version": 40,
+        "params": [
+          0,
+          63,
+          0,
+          3,
+          0
+        ],
+        "palette": 9,
+        "name": "eGRVTS v2.1 - r240"
+      },
+      {
+        "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+        "grfid": "4A430002",
+        "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+        "version": 5518,
+        "params": [
+          0,
+          1
+        ],
+        "palette": 9,
+        "name": "Industrial Stations Renewal 1.0.2"
+      },
+      {
+        "filename": "polishtrainset3.0.3.grf",
+        "grfid": "4D560103",
+        "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+        "version": 211,
+        "params": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "palette": 4,
+        "name": "Polish Train Set 3.0"
+      },
+      {
+        "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+        "grfid": "434D4301",
+        "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+        "version": 5,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "palette": 9,
+        "name": "Sailing Ships (community) 0.73"
+      },
+      {
+        "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+        "grfid": "4D560105",
+        "md5": "99ae27e35245e498e378adc3d06dec20",
+        "version": 17,
+        "params": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "palette": 4,
+        "name": "TEST Polish Rolling Stock Pack 0.19.1"
+      },
+      {
+        "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+        "grfid": "44441000",
+        "md5": "da36131a815d2d5fc158c7a27d67b5af",
+        "version": 1050,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2
+        ],
+        "palette": 9,
+        "name": "UK Railway Set (UKRS2)"
+      },
+      {
+        "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+        "grfid": "414E0201",
+        "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+        "version": 1687,
+        "params": [
+          1,
+          1,
+          0
+        ],
+        "palette": 4,
+        "name": "Squid Ate FISH r1687"
+      },
+      {
+        "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+        "grfid": "0100403A",
+        "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+        "version": 0,
+        "params": [],
+        "palette": 1,
+        "name": "City objects 1.3"
+      },
+      {
+        "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+        "grfid": "4F472B34",
+        "md5": "136d889fdaeaa3491f8320248a04425c",
+        "version": 5524,
+        "params": [
+          12,
+          0,
+          4,
+          15,
+          4,
+          0
+        ],
+        "palette": 4,
+        "name": "OpenGFX+ Landscape 1.1.2"
+      },
+      {
+        "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+        "grfid": "44440302",
+        "md5": "5f268de28cca8fa7fdd140ac031a5939",
+        "version": 252,
+        "params": [
+          0
+        ],
+        "palette": 9,
+        "name": "North American Railway Set (NARS) 2.52"
+      },
+      {
+        "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+        "grfid": "4E4D0518",
+        "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+        "version": 2401131718,
+        "params": [
+          4,
+          3,
+          2
+        ],
+        "palette": 4,
+        "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+      },
+      {
+        "filename": "4a4b8808-axis_extreme_industry_set-2.3.1.tar\\axis_extreme_industry_set-2.3.1\\axis_2.3.1.grf",
+        "grfid": "4A4B8808",
+        "md5": "b580ae20d12247f3a7edd28fadc6f2e5",
+        "version": 6749,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          150,
+          80,
+          300
+        ],
+        "palette": 4,
+        "name": "AXIS 2.3.1"
+      },
+      {
+        "filename": "gets0.7.grf",
+        "grfid": "53410808",
+        "md5": "7c3e713c64766a1dd71dc96d583e8138",
+        "version": 19,
+        "params": [
+          3,
+          2
+        ],
+        "palette": 20,
+        "name": " GETS 0.7"
+      }
+    ]
+  },
+  "installed_newgrfs": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\newgrf\\gets0.7.grf",
+      "sha256": "c1d33f99d2acd038f49ceafa4e0fdf1fcd6492f55a38c3da3f19e68555742f0a",
+      "size": 382191349,
+      "errors": [],
+      "action_counts": {
+        "53": 1,
+        "0": 4619,
+        "20": 1,
+        "8": 1,
+        "4": 1606,
+        "13": 204,
+        "6": 7,
+        "10": 2,
+        "1": 966,
+        "2": 21246,
+        "9": 9,
+        "3": 1605
+      },
+      "grf_format_version": 8,
+      "grfid": "53410808",
+      "internal_name": " GETS 0.7",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 1602,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\0100403a-City_Objects-1.3.tar",
+      "member": "City_Objects-1.3/COv1.3.GRF",
+      "archive_sha256": "6a7beb84463c0017dca4d790c8cecca5d4be486d5b422bf049f3c2232cc7a41d",
+      "sha256": "f8f3449138e92305c75cf7cc427e485c588b53490f3db71503446d7bba25b502",
+      "size": 796763,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "184": 1,
+        "8": 1,
+        "4": 2,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 6,
+      "grfid": "0100403A",
+      "internal_name": "City objects 1.3\r\n",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\0100403b-City_Objects_Extras-1.5.tar",
+      "member": "City_Objects_Extras-1.5/COextrasv1.5.GRF",
+      "archive_sha256": "0fd3b4341158d156a423d47085abbb5b5b36234c5243ff51fbc5fb3202b14fb1",
+      "sha256": "30aeaeda66f0dbf3ab6be679bbf88210448ad3d9d7e0e64063297064b97c979e",
+      "size": 404243,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "52": 1,
+        "8": 1,
+        "4": 2,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 6,
+      "grfid": "0100403B",
+      "internal_name": "City objects Extras 1.5\r\n",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\19060801-Bigger_Depots-0.3.tar",
+      "member": "Bigger_Depots.0.3/bigdepot.grf",
+      "archive_sha256": "46feb3de43482ee98b09ece4d9a9314f633fa60261524a8dfe73ec1912db3ba0",
+      "sha256": "b3da0c2956459e068ee40960df69ffadb4ed75168a6ba899a47c2d6afb9e15ab",
+      "size": 4790,
+      "errors": [
+        "subsection not found"
+      ],
+      "action_counts": {
+        "8": 1
+      },
+      "grf_format_version": 0,
+      "grfid": "0000",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\2d480107-Main_HQ_ttdur-1.0.tar",
+      "member": "Main_HQ_ttdur-1.0/mainhqw.grf",
+      "archive_sha256": "443db40b5adb5193e7f4757fbaa49acc35459d32ea05fcb9713da1faf97eca91",
+      "sha256": "b17ddf326d21130397029940c9c931b4c64a70814311078fd99e0ab0e3235fbc",
+      "size": 13041,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "9": 1,
+        "8": 1,
+        "10": 1
+      },
+      "grf_format_version": 2,
+      "grfid": "2D480107",
+      "internal_name": "Main HQ",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\414e0201-Squid_Ate_FISH_FISH_2_Ships-2.0.3.tar",
+      "member": "FISH_2-2.0.3/fish.grf",
+      "archive_sha256": "bbca24a526c87cb0364eb139144377c21869fc37491f586ce082c0fcef0754cd",
+      "sha256": "3a7d7578ba477b2ebb3a57d52548b9bb0b0cc931a6c5c19a620a41a37f78536d",
+      "size": 1247782,
+      "errors": [],
+      "action_counts": {
+        "222": 1,
+        "20": 1,
+        "8": 1,
+        "0": 124,
+        "4": 446,
+        "13": 2,
+        "9": 1,
+        "7": 26,
+        "1": 50,
+        "2": 503,
+        "6": 50,
+        "3": 25
+      },
+      "grf_format_version": 8,
+      "grfid": "414E0201",
+      "internal_name": "Squid Ate FISH r1687",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 25,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\41560102-PIPE-6.40.tar",
+      "member": "PIPE-6.40/PIPE.grf",
+      "archive_sha256": "926f7c1101895406d51fb661c4c6f6600882459b399469f8380b592f1899a57e",
+      "sha256": "ed5b50b601be71be108968c5a2c488279cfb6606fcbd1ea2daea4ada369f8d51",
+      "size": 43133,
+      "errors": [],
+      "action_counts": {
+        "10": 1,
+        "20": 1,
+        "8": 1,
+        "4": 14,
+        "13": 30,
+        "9": 2,
+        "11": 2,
+        "0": 27,
+        "2": 148,
+        "1": 16,
+        "3": 13,
+        "6": 12
+      },
+      "grf_format_version": 8,
+      "grfid": "41560102",
+      "internal_name": "PIPE v6.4 - r69",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\41560103-eGRVTS_v2.1-r240.tar",
+      "member": "eGRVTS_v2.1-r240/eGRVTS2_1.grf",
+      "archive_sha256": "7945aa8f753838dff1b2ac5d8de090ad2630aaf999a64cd0a0820708a198ea50",
+      "sha256": "6fe110c28d13caa3d46b0bf0f895d40eed9d50c4c86ea838e1668995bedf919c",
+      "size": 8592375,
+      "errors": [],
+      "action_counts": {
+        "248": 1,
+        "20": 1,
+        "8": 1,
+        "4": 2201,
+        "13": 5570,
+        "9": 1737,
+        "11": 1,
+        "0": 493,
+        "7": 1,
+        "6": 384,
+        "2": 3231,
+        "1": 276,
+        "3": 244,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "41560103",
+      "internal_name": "eGRVTS v2.1 - r240",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\41570101-2CC_Cargo_Trams-0.8r.tar",
+      "member": "2CC_Cargo_Trams-0.8r/2cc-trams-cargo-v0.8r-2021-03-24.grf",
+      "archive_sha256": "4fc1d1421bd6b2b2dbc2628a0950b9b10acda0267c1a10561aac7da3f17664d8",
+      "sha256": "12b40d5f46f68c7b61cbfd00e4db188f1dc2d66ca057d78267c79badca583e6f",
+      "size": 94568,
+      "errors": [],
+      "action_counts": {
+        "6": 1,
+        "20": 1,
+        "8": 1,
+        "0": 54,
+        "1": 33,
+        "2": 294,
+        "4": 21,
+        "3": 21
+      },
+      "grf_format_version": 8,
+      "grfid": "41570101",
+      "internal_name": "2CC CargoTram Set 0.8r",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4252534f-BRObjects-0.0.1.tar",
+      "member": "BRObjects-0.0.1/BRobjects.grf",
+      "archive_sha256": "fe09a3e8eb3ea93db91549307d98f6b884563de79f2f9478d51585f5cc3dd624",
+      "sha256": "966a2b506ebe80014ea27f61b8116c29747b0a28bd67dd5b51895404e7ac8fb2",
+      "size": 945658,
+      "errors": [],
+      "action_counts": {
+        "211": 1,
+        "20": 1,
+        "8": 1,
+        "4": 8,
+        "1": 1,
+        "2": 236,
+        "0": 8,
+        "3": 4
+      },
+      "grf_format_version": 8,
+      "grfid": "4252534F",
+      "internal_name": "British Object Set",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\43485054-CHIPS_Station_Set_2-2.0.0.tar",
+      "member": "CHIPS_Station_Set_2-2.0.0/chips.grf",
+      "archive_sha256": "8a44f8e42c1f43328e720d3b839e670236c855d170215f885b77738513317c25",
+      "sha256": "3327c7241c113fbe2f1ba5982a9a647b194f8784eb18fd148abc0f9c30c35918",
+      "size": 858971,
+      "errors": [],
+      "action_counts": {
+        "31": 1,
+        "20": 1,
+        "8": 1,
+        "0": 36,
+        "10": 2,
+        "13": 6,
+        "16": 1,
+        "6": 10,
+        "9": 1,
+        "2": 3261,
+        "1": 475,
+        "3": 35,
+        "4": 38
+      },
+      "grf_format_version": 7,
+      "grfid": "43485054",
+      "internal_name": "CHIPS Station Set 2.0.0",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\434b4fb1-Generic_Skyscraper_Objects_Set-0.1.tar",
+      "member": "Generic_Skyscraper_Objects_Set-0.1/genericskyscrapers.grf",
+      "archive_sha256": "90fdd36c7a5081d033e805ea625d6632a0083da266f9c843154e4fb79eeb3f29",
+      "sha256": "4dcf12d2c7342f038d2af627346fa6a55a209a5d1238c8ea4e765f88e28a9ec3",
+      "size": 2074401,
+      "errors": [],
+      "action_counts": {
+        "204": 1,
+        "20": 1,
+        "8": 1,
+        "4": 174,
+        "1": 3,
+        "2": 819,
+        "0": 174,
+        "3": 87
+      },
+      "grf_format_version": 8,
+      "grfid": "434B4FB1",
+      "internal_name": "Generic Skyscraper Objects Set 0.1",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\434d4301-Sailing_Ships_community-0.73.tar",
+      "member": "Sailing_Ships_community-0.73/ss_community.grf",
+      "archive_sha256": "729eb1f721ad8bbc8ad66266d35381a75fb946a868deb0baaa446c08b47da393",
+      "sha256": "2ab285cf8bb8a119888a74bd6dd5e096b8e38b9137d04cbfe37d71827e32ad92",
+      "size": 2289840,
+      "errors": [],
+      "action_counts": {
+        "182": 1,
+        "20": 1,
+        "8": 1,
+        "0": 20,
+        "4": 33,
+        "13": 24,
+        "9": 8,
+        "6": 5,
+        "1": 16,
+        "2": 215,
+        "3": 8,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "434D4301",
+      "internal_name": "Sailing Ships (community) 0.73",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 8,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\44440302-North_American_Renewal_Set-2.52.tar",
+      "member": "North_American_Renewal_Set-2.52/newnars.grf",
+      "archive_sha256": "7d1c6b816c8b7a6b06143712020769d8050272d8afa9eafa6e2a35c7aece4d47",
+      "sha256": "2492f70bdd9a50a089b245e81b5b54ac6a1f4efaf733c4956a272809052bc854",
+      "size": 1192184,
+      "errors": [],
+      "action_counts": {
+        "160": 1,
+        "20": 4,
+        "8": 1,
+        "0": 124,
+        "9": 2,
+        "13": 3,
+        "17": 1,
+        "2": 1688,
+        "1": 232,
+        "4": 113,
+        "3": 123
+      },
+      "grf_format_version": 8,
+      "grfid": "44440302",
+      "internal_name": "North American Railway Set (NARS) 2.52",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 113,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\44440a01-av8_Aviators_Aircraft_Set-2.21.tar",
+      "member": "av8_Aviators_Aircraft_Set-2.21/pb_av8w.grf",
+      "archive_sha256": "e874f93b45e2413a5fcea177e5cd0db852b6ede14c2f93bed56386e14fea3e4c",
+      "sha256": "0f29337a57811ca89044ade21024ce5d73cc683328312eea8d8de22e6a13e72e",
+      "size": 2489908,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "23": 1,
+        "20": 4,
+        "8": 1,
+        "0": 2,
+        "13": 6,
+        "9": 3,
+        "11": 2,
+        "2": 17,
+        "4": 330,
+        "10": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "44440A01",
+      "internal_name": "av8 Aviators Aircraft Set",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\44441000-UKRS2_The_UK_Railway_Set-1.05.tar",
+      "member": "UKRS2__The_UK_Railway_Set-1.05/proj1000.grf",
+      "archive_sha256": "b6e38b9fac21b411dacbabb4fa3fe457d34e0a6ccc0df7d8ed7e82413d5d58e9",
+      "sha256": "82f13c7988df320c012fe50e32c4bae91da50c02f82cb1e98616adf511631d8d",
+      "size": 2337710,
+      "errors": [],
+      "action_counts": {
+        "130": 1,
+        "20": 5,
+        "13": 9,
+        "7": 10,
+        "16": 5,
+        "11": 4,
+        "9": 2,
+        "8": 1,
+        "0": 83,
+        "10": 1,
+        "2": 276,
+        "17": 1,
+        "255": 55,
+        "4": 53,
+        "1": 3
+      },
+      "grf_format_version": 8,
+      "grfid": "44441000",
+      "internal_name": "UK Railway Set (UKRS2)",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 94,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\444c4f53-Dutch_Landmark_Objects_Set-0.2.tar",
+      "member": "Dutch_Landmark_Objects_Set-0.2/dlos.grf",
+      "archive_sha256": "fd0b989cdcba37701791ffad3a6861060e91c201d5c837efa3effc2990ef4dc1",
+      "sha256": "d5aafd9551b99852e854d17673157bf849fe2441bcce91710083bf0297ec8015",
+      "size": 3584995,
+      "errors": [],
+      "action_counts": {
+        "11": 1,
+        "20": 1,
+        "8": 1,
+        "4": 72,
+        "1": 9,
+        "2": 1175,
+        "0": 76,
+        "3": 38
+      },
+      "grf_format_version": 8,
+      "grfid": "444C4F53",
+      "internal_name": "Dutch Landmarks Objects",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\444e0800-VAST_Objects-0.3.0.tar",
+      "member": "VAST_Objects-0.3.0/VASTobjects.grf",
+      "archive_sha256": "09997f9d34e7d3a436d74cb43a7ad86acf8d54bea86f6100b85c25ae453ffc15",
+      "sha256": "b87f1bcfea9dcd5739dfaf4aeaa6d3db236fe89edd2120bc2e214d3e2116b6ed",
+      "size": 2046564,
+      "errors": [],
+      "action_counts": {
+        "104": 1,
+        "13": 1029,
+        "9": 17,
+        "11": 1,
+        "20": 1,
+        "8": 1,
+        "4": 10,
+        "2": 820,
+        "1": 13,
+        "6": 111,
+        "0": 118,
+        "3": 79,
+        "7": 48
+      },
+      "grf_format_version": 8,
+      "grfid": "444E0800",
+      "internal_name": "VAST (Objects) 0.3.0",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\46520101-Fridaemon_s_Objects-4.1.tar",
+      "member": "Fridaemon_s_Objects-4.1/fridaemonsobjects.grf",
+      "archive_sha256": "092400feed76b578144f8ad0e7dedf92d19c334bf3540b4fff622ec2612965d2",
+      "sha256": "6d5f99d531159cb03f9ac71403bd31398692c1cf41d9a9e0fc2f9249f3525615",
+      "size": 20117474,
+      "errors": [],
+      "action_counts": {
+        "238": 1,
+        "20": 1,
+        "8": 1,
+        "4": 66,
+        "1": 475,
+        "2": 4285,
+        "0": 286,
+        "3": 162
+      },
+      "grf_format_version": 8,
+      "grfid": "46520101",
+      "internal_name": "Fridaemons Objects",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\46530200-STGFX_Trolleybus_set-B1.00.02.tar",
+      "member": "STGFX_Trolleybus_set-B1.00.02/pack_000_Slovak_Trolleybus_set.grf",
+      "archive_sha256": "90ebbd07c42ccdff957935f9809a7275c1a111f6c8c8b76f679a99fa44b6fe4b",
+      "sha256": "62d9cdcea85c15f7fda229944e56fa05c1ee4b01e02e9e458aef255a5262367e",
+      "size": 703025,
+      "errors": [],
+      "action_counts": {
+        "4": 57,
+        "20": 1,
+        "8": 1,
+        "18": 7,
+        "13": 175,
+        "9": 23,
+        "0": 75,
+        "1": 25,
+        "2": 889,
+        "6": 39,
+        "10": 2,
+        "16": 4,
+        "7": 25,
+        "3": 30
+      },
+      "grf_format_version": 8,
+      "grfid": "46530200",
+      "internal_name": "STGFX Trolleybus Set !BETA!",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47470705-z._Auz_Lineside_Objects-xxx.tar",
+      "member": "Auz_Lineside_Objects-27/Auz_Lineside_Objects.grf",
+      "archive_sha256": "5e493b98982be8a340aa7d68e40e5f31cf2f9ba983ae287d0997ce79a52433a2",
+      "sha256": "ae0df9ba48294c2ba1403af2b0550bacbb891456329e685db9212673f0206b2a",
+      "size": 2699766,
+      "errors": [],
+      "action_counts": {
+        "194": 1,
+        "20": 1,
+        "8": 1,
+        "4": 76,
+        "13": 8,
+        "9": 3,
+        "11": 2,
+        "6": 1,
+        "2": 4050,
+        "1": 4,
+        "0": 347,
+        "3": 174,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "47470705",
+      "internal_name": "Auz_Lineside_Objects",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47470901-z._Auz_Roadside_Objects-xxx.tar",
+      "member": "Auz_Roadside_Objects-25/Auz_Roadside_Objects.grf",
+      "archive_sha256": "809d7c0ef998b72d6528a17ddcc81ba495a531cb7890b2484056802339611049",
+      "sha256": "f9663b8be0028166c62bf2c10916bb297ebb1f162ca72947632fae995626b325",
+      "size": 3607368,
+      "errors": [],
+      "action_counts": {
+        "229": 1,
+        "20": 1,
+        "8": 1,
+        "4": 83,
+        "13": 10,
+        "9": 3,
+        "11": 2,
+        "1": 33,
+        "2": 4585,
+        "0": 435,
+        "3": 220,
+        "6": 4
+      },
+      "grf_format_version": 8,
+      "grfid": "47470901",
+      "internal_name": "Auz_Roadside_Objects",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47471801-z._Auz_Landscape_Objects-xxx_12.tar",
+      "member": "AuzLandscapeObjects-12/Auz_Landscape_Objects.grf",
+      "archive_sha256": "f58e481ecf70142c1172e018f36ae7f64a231b39dd8ffb79f4778c51117dd6fd",
+      "sha256": "d69bc8f8256a77522d8682e1958b9b994c795f7c5a9007fb48e325a1cbe03fd7",
+      "size": 3491220,
+      "errors": [],
+      "action_counts": {
+        "152": 1,
+        "20": 1,
+        "8": 1,
+        "4": 3,
+        "1": 33,
+        "2": 2402,
+        "0": 240,
+        "3": 120
+      },
+      "grf_format_version": 8,
+      "grfid": "47471801",
+      "internal_name": "Auz Landscape and Terrain Objects",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47473333-z._AuzObjects_Towns-xxx.tar",
+      "member": "AuzObjects_Towns-1/AuzObjects_Towns.grf",
+      "archive_sha256": "f4dc5fa98daf4fde449bcbdfe39161afd85ebcf506a84a8a6e98d9c2d70fe3da",
+      "sha256": "39981bdd5066ece1d947ef0d2a6d1888c4db2423d994fad9a9928aaa9c35e2f9",
+      "size": 1510534,
+      "errors": [],
+      "action_counts": {
+        "53": 1,
+        "20": 1,
+        "8": 1,
+        "4": 1,
+        "13": 6,
+        "9": 3,
+        "11": 2,
+        "1": 1,
+        "2": 1328,
+        "0": 118,
+        "3": 61,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "47473333",
+      "internal_name": "AuzObjects_Towns",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47473838-z._AuzObjects_Landscape-xxx_3.tar",
+      "member": "AuzObjects_Landscape-3/AuzObjects_Landscape.grf",
+      "archive_sha256": "742a9c1df69b5aec1f8e04801ae1b10e71cd82463e3469eabc0d110d05284c47",
+      "sha256": "736b80a5445b1d21f8b7f66d0ddde46af03233cce2282e2b126305d22a2abe5b",
+      "size": 3403841,
+      "errors": [],
+      "action_counts": {
+        "249": 1,
+        "20": 1,
+        "8": 1,
+        "4": 14,
+        "1": 31,
+        "2": 2548,
+        "0": 260,
+        "3": 130,
+        "13": 272,
+        "6": 4
+      },
+      "grf_format_version": 8,
+      "grfid": "47473838",
+      "internal_name": "AuzObjects_Landscape",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47474750-AuzObjects_Car_Parks-1.tar",
+      "member": "AuzCarParksAndSubwayOverlays-1/AuzCarParksAndSubwayOverlays.grf",
+      "archive_sha256": "115ca07fa91fec69aa01d7cdf974cc20110f26575c451984bc816ad869ef2edc",
+      "sha256": "5e1d5db50796734f9f722baf092bb1dc1f2b0695d20266a7d138c9906512966b",
+      "size": 3320447,
+      "errors": [],
+      "action_counts": {
+        "64": 1,
+        "20": 1,
+        "8": 1,
+        "4": 243,
+        "1": 5,
+        "2": 2665,
+        "0": 254,
+        "3": 127
+      },
+      "grf_format_version": 8,
+      "grfid": "47474750",
+      "internal_name": "Auz Car Parks and Subway Overlays",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\47524306-OLD_GRC_1_Pt._6-0.2a.tar",
+      "member": "GPL_Roadtype_Collection_Pt._6-0.2a/grc6.grf",
+      "archive_sha256": "80c206bae489055da570971055d065d86c6f858de8f37a5e697605cf6006fd18",
+      "sha256": "e8d44be8e5065ed6b666d08c177c92a9ac249900c7ae8b7c6fdb7ca93bc32d76",
+      "size": 327076,
+      "errors": [],
+      "action_counts": {
+        "179": 1,
+        "20": 1,
+        "8": 1,
+        "4": 28,
+        "13": 15,
+        "9": 1,
+        "11": 1,
+        "0": 35,
+        "6": 2,
+        "1": 59,
+        "2": 146,
+        "3": 30
+      },
+      "grf_format_version": 8,
+      "grfid": "47524306",
+      "internal_name": "GRC Part 6: CONVEYORS 0.2a",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4a430002-Industrial_Stations_Renewal-1.0.2.tar",
+      "member": "Industrial_Stations_Renewal-1.0.2/indstatr.grf",
+      "archive_sha256": "17dc152e473c824754193c6ded5c246b166c13b828d60b22dde705c6ab3daf07",
+      "sha256": "66d51f71033149c269e46c8a973b005f7ae32a35631a2df875831dda8c579352",
+      "size": 1163340,
+      "errors": [
+        "Unsupported train property 0a at 21001"
+      ],
+      "action_counts": {
+        "106": 1,
+        "20": 21,
+        "9": 31,
+        "11": 3,
+        "8": 1,
+        "0": 26,
+        "13": 31,
+        "6": 2,
+        "10": 2
+      },
+      "grf_format_version": 7,
+      "grfid": "4A430002",
+      "internal_name": "Industrial Stations Renewal 1.0.2",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4a448807-XIS_Extreme_Industry_Set-0.6.2.tar",
+      "member": "Extreme_Industry_Set-0.6.2/xis.grf",
+      "archive_sha256": "cc2f1c839563f8a4ef1ba8510a79eeac09ea2671ef5fcc028b2067b026887fae",
+      "sha256": "8f527aa5afa99183a1a063c8623d1aef3b722fb55f0df47a58944c6bbc03a283",
+      "size": 5285819,
+      "errors": [],
+      "action_counts": {
+        "223": 1,
+        "20": 1,
+        "8": 1,
+        "0": 899,
+        "4": 91,
+        "9": 102,
+        "13": 11215,
+        "11": 173,
+        "7": 876,
+        "1": 36,
+        "2": 7891,
+        "3": 434,
+        "6": 607
+      },
+      "grf_format_version": 8,
+      "grfid": "4A448807",
+      "internal_name": "XIS Extreme Industry Set 0.6.2.9081",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4a4b8808-AXIS_eXtreme_Industry_Set-2.3.1.tar",
+      "member": "AXIS_eXtreme_Industry_Set-2.3.1/axis_2.3.1.grf",
+      "archive_sha256": "78d0a7ded843bb5fc9025504884312df1effe4f15908876a8dcbba73b6f7429a",
+      "sha256": "038b5f39025afbe07713ba144553d3329a36af91dff125c7c99d0454fafb4a9b",
+      "size": 7761434,
+      "errors": [],
+      "action_counts": {
+        "127": 1,
+        "20": 2,
+        "8": 1,
+        "0": 1385,
+        "4": 2420,
+        "9": 158,
+        "13": 905,
+        "11": 720,
+        "7": 1456,
+        "1": 59,
+        "2": 19313,
+        "3": 816,
+        "6": 658
+      },
+      "grf_format_version": 8,
+      "grfid": "4A4B8808",
+      "internal_name": "AXIS 2.3.1",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4a4d0101-Sailing_Ships-0.62.tar",
+      "member": "Sailing_Ships-0.62/ss.grf",
+      "archive_sha256": "a51b9565f87322dc997358ff63903b3d597514ac46d4a90a61a80f3b074d74fa",
+      "sha256": "9ea9bd27765fc7858217e5508d5f28d38eef315218db2533e747ab908b23b87d",
+      "size": 755607,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "115": 1,
+        "20": 1,
+        "8": 1,
+        "4": 1,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4A4D0101",
+      "internal_name": "  Sailing Ships  0.62",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4a565201-Project_Gondola-0.4.tar",
+      "member": "Project_Gondola-0.4/gondola.grf",
+      "archive_sha256": "b9429781d09886b525510bf4128358be8251c74cb9e21b7cc7ed981120a3302e",
+      "sha256": "6418089b9044ef9f83f602846a743c5b76c8526734420f5bf1d98fee6d05d541",
+      "size": 61577,
+      "errors": [],
+      "action_counts": {
+        "86": 1,
+        "20": 1,
+        "8": 1,
+        "4": 9,
+        "1": 13,
+        "2": 77,
+        "0": 16,
+        "3": 8
+      },
+      "grf_format_version": 8,
+      "grfid": "4A565201",
+      "internal_name": "Project Gondola",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4d4d9910-The_Lighthouse_Set-1.2.tar",
+      "member": "The_Lighthouse_Set-1.2/the_lighthouse_set_v1.2.grf",
+      "archive_sha256": "ad76a9e7d923897b0ff49998c0f5ee2f770a1dc3427c1a55259fd144c9cfcf2c",
+      "sha256": "594b4780be6094a093d243508b743989e79ed35a5e8da811cafc1f499c42415d",
+      "size": 40453,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "156": 1,
+        "8": 1,
+        "4": 24,
+        "12": 1,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "4D4D9910",
+      "internal_name": "The Lighthouse Set v. 1.20",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4d560105-Polish_Rolling_Stock_Pack-0.19.11.tar",
+      "member": "Polish_Rolling_Stock_Pack-0.19.11/polish-rolling-stock-pack-0.19.11.grf",
+      "archive_sha256": "0cc055a184f2ac407ca757e7af095f883742732b07da47f59df659b3dbc08123",
+      "sha256": "c126d071f37e481f86f16b8cdc959c775ce67fc97d3089fa5d031e3b118084c7",
+      "size": 7122104,
+      "errors": [],
+      "action_counts": {
+        "214": 1,
+        "20": 1,
+        "8": 1,
+        "0": 2492,
+        "4": 2100,
+        "13": 923,
+        "9": 327,
+        "11": 2,
+        "7": 166,
+        "6": 207,
+        "10": 12,
+        "2": 7431,
+        "1": 1065,
+        "3": 702
+      },
+      "grf_format_version": 8,
+      "grfid": "4D560105",
+      "internal_name": "TEST Polish Rolling Stock Pack 0.19.1",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 694,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4d635769-Wired-1.2.tar",
+      "member": "Wired-1.2/wired.grf",
+      "archive_sha256": "e41fff52a5bb3510397c581eb75f02b21dccd77cf0824ffc569259bbcc5c431c",
+      "sha256": "aaba9967ca5af4013b366a996a667db25a63d41866959d3087b34f15af949481",
+      "size": 241299,
+      "errors": [],
+      "action_counts": {
+        "139": 1,
+        "20": 1,
+        "8": 1,
+        "0": 256,
+        "4": 72,
+        "13": 86,
+        "9": 22,
+        "11": 2,
+        "6": 31,
+        "1": 25,
+        "2": 162,
+        "7": 17,
+        "3": 11,
+        "10": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4D635769",
+      "internal_name": "Wired: telecomunication wires and fast information carriers",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4d656f17-Long_vehicles-v4_04_Oct_2008.tar",
+      "member": "Long_vehicles-v404Oct2008/4LVw.grf",
+      "archive_sha256": "88eb2f5491f5e40a6217a27c9d4caa256b67963ebcb33fac93166c16a4981de1",
+      "sha256": "946685713c2f95cd05f4618ac13aab727fc09812b4c76083a3b793b4de211c9f",
+      "size": 2345981,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "2": 1,
+        "12": 63,
+        "9": 3,
+        "11": 72,
+        "7": 90,
+        "16": 14,
+        "13": 10,
+        "8": 1,
+        "0": 5,
+        "10": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "4D656F17",
+      "internal_name": "Long vehicles v4 (13 Jan 2008)",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4d656f20-Long_vehicles_v4._Cut_version-13_Jan_2008.tar",
+      "member": "Long_vehicles_v4._Cut_version-13Jan2008/4LVCutw.grf",
+      "archive_sha256": "9dbd5625684a02294ed17f9091a6d0044450b031938c1d97c63a1f4c2f88837a",
+      "sha256": "781dcbade8f6958d8569fcb6865e3e60321d4c627a9ea3ad0a52e116006d5442",
+      "size": 52016,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "21": 1,
+        "12": 21,
+        "9": 3,
+        "11": 8,
+        "7": 12,
+        "16": 1,
+        "8": 1,
+        "13": 4,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "4D656F20",
+      "internal_name": "Long vehicles v4. Cut version (13 Jan 2008)",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434143-NML_CAT_AIRCRAFT-1.tar",
+      "member": "NML_CAT__AIRCRAFT-1/nmlcat-aircraft.grf",
+      "archive_sha256": "2e12199ded690e51e5f61597774b48360220060c52982fa608962175a3f0ebb6",
+      "sha256": "f8ebb70ed4a679c94dea12dd81c446781ee48053c1c1696f5fec904cee23025a",
+      "size": 253,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434143",
+      "internal_name": "\ufffd<==== AIR CRAFT =========>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434944-NML_CAT_INDUSTRY-1.tar",
+      "member": "NML_CAT__INDUSTRY-1/nmlcat-industry.grf",
+      "archive_sha256": "1a8eb0ee98c0a1cbb3a89b34d9f182d1194527b9af01a13c3b8be426076d6d83",
+      "sha256": "afab04ba6f9e4e389252aad04b6559f9c2180b41c09783cfe6c83c4797266ddf",
+      "size": 285,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434944",
+      "internal_name": "\ufffd<==== INDUSTRIES ========>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434953-NML_CAT_INFRASTRUCTURE-1.tar",
+      "member": "NML_CAT__INFRASTRUCTURE-1/nmlcat-infrastructure.grf",
+      "archive_sha256": "68d528270e6355d95ac8336cbf3433e5d7f6773c3441324021a7833948d3db7e",
+      "sha256": "c1a88cc4d42a0b591bb50bf130d966f0a1395a0a0dd122d5a9d5cf184d95519b",
+      "size": 312,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434953",
+      "internal_name": "\ufffd<==== INFRASTRUCTURE ====>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434c53-NML_CAT_LANDSCAPE-1.tar",
+      "member": "NML_CAT__LANDSCAPE-1/nmlcat-landscape.grf",
+      "archive_sha256": "03d1dee6490dfeede7ef00f070a9692b3f1c5fa5fb3ecbd64493179bf52c6de8",
+      "sha256": "808471fe38951261371ce8c99b78945856542ea0d176e3063303763683757fa9",
+      "size": 290,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434C53",
+      "internal_name": "\ufffd<==== LANDSCAPE =========>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434d41-NML_CAT_MARINE-1.tar",
+      "member": "NML_CAT__MARINE-1/nmlcat-marine.grf",
+      "archive_sha256": "a069d01023292158be53ebda9562ee65f577012aa556ceffa33e1b4722bd0df4",
+      "sha256": "0b2adbf2020476d56985aada2fdd186d4aad8772cc394065e8719420d6d196b9",
+      "size": 284,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434D41",
+      "internal_name": "\ufffd<==== MARINE CRAFT ======>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434d43-NML_CAT_MISC-1.tar",
+      "member": "NML_CAT__MISC-1/nmlcat-misc.grf",
+      "archive_sha256": "89db47585caa67437d72cd8029ada05a32818e568ed227e6e771bec712a1278a",
+      "sha256": "29f90b6c5f96ad7aba4f13002fb0cf442b0bb8b74b094d91464ac9fdd9a079fd",
+      "size": 279,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434D43",
+      "internal_name": "\ufffd<==== MISC ==============>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e434f42-NML_CAT_NEWOBJECTS-1.tar",
+      "member": "NML_CAT__NEWOBJECTS-1/nmlcat-newobjects.grf",
+      "archive_sha256": "f2a5f325f865b2515a3476fcd33d8800151ec34512380dbf2445371e9575900e",
+      "sha256": "698fc28a663e0bd4546c09ae04d9752d3b3a7ee2ebc454d2848b539e696eb244",
+      "size": 274,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E434F42",
+      "internal_name": "\ufffd<==== NEW OBJECTS =======>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e435244-NML_CAT_ROAD-1.tar",
+      "member": "NML_CAT__ROAD-1/nmlcat-road.grf",
+      "archive_sha256": "a484361af243051ce67c46ee76d83da567e8f1c08e3ceeceea900d507a0d9f22",
+      "sha256": "fdaaf9f5511e74af781cf5768a7c77a9ac3ffd03f9ea119eb5d45c931c81b90d",
+      "size": 295,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E435244",
+      "internal_name": "\ufffd<==== ROAD VEHICLES =====>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e435354-NML_CAT_STATIONS-1.tar",
+      "member": "NML_CAT__STATIONS-1/nmlcat-stations.grf",
+      "archive_sha256": "0d9c9337249739c1d7d0f66bcc20b144a1a7b3bd82a2aa6974face0900cee4aa",
+      "sha256": "fe308bdb7380d5d36de4b7d6afeb1e9bf95d6c8cd60142a3a916bb7a90ec5c92",
+      "size": 284,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E435354",
+      "internal_name": "\ufffd<==== STATIONS ==========>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e435452-NML_CAT_TRAINS-1.tar",
+      "member": "NML_CAT__TRAINS-1/nmlcat-trains.grf",
+      "archive_sha256": "e2aa65bf8dccc70aa82eafe8b5ce264a7877166508261456c9ae96c95334c04a",
+      "sha256": "39b8bb20b407431fc3a596c92a73b26ead24b53cb6404e309fcacaee61274c0b",
+      "size": 273,
+      "errors": [],
+      "action_counts": {
+        "2": 1,
+        "20": 1,
+        "8": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "4E435452",
+      "internal_name": "\ufffd<==== RAIL VEHICLES =====>",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4e4d0518-NARS_Add_On_Set_2cc-2401131718.tar",
+      "member": "NARS_Add_On_Set_2cc-2401131718/nars_add_on_set.grf",
+      "archive_sha256": "f01a247f596e0174e114b45cbc60c135063ef6b588b94f01783192e78931494b",
+      "sha256": "66104bc7965fc8cffa702a4a457d68413dbec1f696a208eb8efad04cce90a7bd",
+      "size": 1327941,
+      "errors": [],
+      "action_counts": {
+        "253": 1,
+        "20": 1,
+        "8": 1,
+        "4": 218,
+        "0": 534,
+        "13": 495,
+        "6": 66,
+        "9": 203,
+        "11": 3,
+        "1": 409,
+        "2": 1752,
+        "3": 235
+      },
+      "grf_format_version": 8,
+      "grfid": "4E4D0518",
+      "internal_name": "\ufffdNARS ADD-ON SET 2CC \ufffdrev.2401131718 \ufffd(STILL 218 Vehicles!)",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 216,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4f472b34-OpenGFX_Landscape-1.1.2.tar",
+      "member": "OpenGFX_Landscape-1.1.2/ogfx-landscape.grf",
+      "archive_sha256": "5f9682e327d35da4df7ab62fe03e18fa1a86cf300e34b44b54b58176a70f755a",
+      "sha256": "cac4b13b3ab9d8cf1d0d53e1cc7eb18574f7be3846953a0ee9c0731c17efdfab",
+      "size": 5155919,
+      "errors": [],
+      "action_counts": {
+        "254": 1,
+        "20": 1,
+        "8": 1,
+        "0": 29,
+        "4": 176,
+        "13": 1153,
+        "9": 179,
+        "11": 18,
+        "16": 56,
+        "7": 28,
+        "10": 439,
+        "1": 8,
+        "2": 183,
+        "3": 10,
+        "6": 23,
+        "5": 33
+      },
+      "grf_format_version": 8,
+      "grfid": "4F472B34",
+      "internal_name": "OpenGFX+ Landscape 1.1.2",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\504a0013-ISR_DWE_style_Objects-1.1.tar",
+      "member": "ISRDWEstyle_Objects-1.1/ISRDWE_objects_v1_1.grf",
+      "archive_sha256": "acf63d00a6cd958438e12776831c4d00c4e978afad26ae4f6065ed409b972872",
+      "sha256": "06a3213074583499bc3cf47a337e98fbf589c3e88f57a989dc26645ace22a331",
+      "size": 2367209,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "165": 1,
+        "20": 1,
+        "8": 1,
+        "12": 12,
+        "4": 25,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "504A0013",
+      "internal_name": "ISR/DWE-style Objects v1.1",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\504a0103-ISR_style_dock-1.4.tar",
+      "member": "ISRstyle_dock-1.4/isrdock_v1_4.grf",
+      "archive_sha256": "d589186d2d2cc8688ba26eb654c87234b3bda0f37cb2aea90e69a103911db1c5",
+      "sha256": "4d7095b08631a618e90570971368f8b0c9672e6671ef6ebb31001941c3c1fbe3",
+      "size": 42295,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "67": 1,
+        "8": 1,
+        "12": 1,
+        "9": 1,
+        "10": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "504A0103",
+      "internal_name": "ISR-style Dock V1.4",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\504a0107-Beach_Objects-1.2.tar",
+      "member": "Beach_Objects-1.2/beach_v1_2.grf",
+      "archive_sha256": "7439f9cd66e4ae7c5560ebf662b9c75e38f687bdfe6a5e9134cea99cacc299c3",
+      "sha256": "242e6141d1f27d4f72aef8a7b2b5d1197cc83727611169649d9cb7b99e21259b",
+      "size": 513683,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "204": 1,
+        "20": 1,
+        "8": 1,
+        "12": 12,
+        "4": 21,
+        "0": 1,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "504A0107",
+      "internal_name": "Beach Objects v1.2",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\504a0110-Dutch_Station_Addition_Set-0.8.tar",
+      "member": "Dutch_Station_Addition_Set-0.8/dstatadd_v0_8.grf",
+      "archive_sha256": "a3eca626573ef6f6acea462e9e029285652ade723115121ae7d8fe69160860a7",
+      "sha256": "1614ea6a4d164fb06911a0dfe2318086875e1c02ad7bb38bcd180cfbdc3d8a87",
+      "size": 1259967,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "169": 1,
+        "20": 1,
+        "8": 1,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "504A0110",
+      "internal_name": "Dutch Stations Addition Set v0.8",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\504a0112-Dutch_Station_Addition_Part_2-0.4.tar",
+      "member": "Dutch_Station_Addition_Part_2-0.4/dstatadd_part2_v0_4.grf",
+      "archive_sha256": "5df49305fdd369bf7dd11cc157f757ffd5472895379410db97a833a72e42affd",
+      "sha256": "5e9d20780d22c172839207d58a1e36be462938f44d3b0e0249baba41bbebe135",
+      "size": 2534884,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "169": 1,
+        "20": 1,
+        "8": 1,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "504A0112",
+      "internal_name": "Dutch Stations Addition Set Part 2 v0.4",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\504a0113-Dutch_Station_Addition_Part_3-001.tar",
+      "member": "Dutch_Station_Addition_Part_3-001/dstatadd_part3_v001.grf",
+      "archive_sha256": "750bc1f2186144f7bc4c1520102f6681dca1de6c9e5ef764b29c577ba41a3b20",
+      "sha256": "af25a9cc4c8a8de50881247ccdf31df3f928e52e80ac3e4018bce080c871c937",
+      "size": 4394544,
+      "errors": [],
+      "action_counts": {
+        "21": 1,
+        "20": 1,
+        "8": 1,
+        "12": 28,
+        "1": 52,
+        "0": 51,
+        "2": 204,
+        "3": 51,
+        "4": 99
+      },
+      "grf_format_version": 7,
+      "grfid": "504A0113",
+      "internal_name": "Dutch Stations Addition Set Part 3 v001",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\52415608-RAV8_Rangless_Av8-1.00.tar",
+      "member": "RAV8_Rangless_Av8-1.00/RAV8.grf",
+      "archive_sha256": "9168b7a6be81c8c610d5b0fadb7dcc0768c8d68d960a847eb0f20965456bee30",
+      "sha256": "397ea103164fe2ed14431bcc80e13e9d78c42a7a894201fb02dcf254f418a941",
+      "size": 2490213,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "23": 1,
+        "20": 4,
+        "8": 1,
+        "0": 2,
+        "13": 6,
+        "9": 3,
+        "11": 2,
+        "2": 17,
+        "4": 330,
+        "10": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "52415608",
+      "internal_name": "RAV8 Aircraft Set",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\52571204-OLD_eGRVTS2_for_NRT-NRT_r207.tar",
+      "member": "eGRVTS2_NRT-r207/eGRVTS2.grf",
+      "archive_sha256": "68c6bb15695f76c28e3bd881311f69197b28115f2b0392d82b5c1f4414aa7622",
+      "sha256": "932397c791037b672f6fad22f932b759927d3d114a385984f6d6e9d395b78367",
+      "size": 8503107,
+      "errors": [],
+      "action_counts": {
+        "234": 1,
+        "20": 1,
+        "8": 1,
+        "13": 2901,
+        "9": 651,
+        "11": 1,
+        "0": 492,
+        "6": 265,
+        "2": 3223,
+        "1": 287,
+        "4": 1708,
+        "3": 244,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "52571204",
+      "internal_name": "eGRVTS v2.0 NRT - r207",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\52571208-Generic_Cars-0.4.tar",
+      "member": "Generic_Cars-0.4/cars.grf",
+      "archive_sha256": "1d6d87261674da0a9b7ad986af9d308c2efdda95e3a39516faf04ec978abebf1",
+      "sha256": "dbfaa8f007775adb96762a699366cdad1b59e8d34aae4fc20dec3b3a473bce7c",
+      "size": 323908,
+      "errors": [],
+      "action_counts": {
+        "181": 1,
+        "13": 1,
+        "7": 2,
+        "11": 1,
+        "8": 1,
+        "17": 1,
+        "255": 13,
+        "0": 6,
+        "4": 6,
+        "1": 6,
+        "2": 90,
+        "3": 6
+      },
+      "grf_format_version": 6,
+      "grfid": "52571208",
+      "internal_name": "Generic Cars v0.4",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\52580101-FIRS_and_CHIPS_style_objects-0.1.10.tar",
+      "member": "FIRS_and_CHIPS_style_objects-0.1.10/facso_0.1.10.grf",
+      "archive_sha256": "7f1c85ea07f9792364a246b745cea28dd972440bd83f9701329e3eabd9083543",
+      "sha256": "3025a9dde5b24057dc9c64f48cb8ef2f3bb355565d692cc47fd95720e0c39484",
+      "size": 4624843,
+      "errors": [],
+      "action_counts": {
+        "11": 1,
+        "20": 1,
+        "8": 1,
+        "4": 178,
+        "1": 41,
+        "2": 3051,
+        "0": 222,
+        "3": 111
+      },
+      "grf_format_version": 8,
+      "grfid": "52580101",
+      "internal_name": "FIRS and CHIPS style objects - v0.1.10",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\535a4003-Super_Cars-20.tar",
+      "member": "Super_Cars-20/SuperCars.grf",
+      "archive_sha256": "924f6382263863505eea8a0eac0e093be4e05b103eeccf6ce92ff74f31e3a644",
+      "sha256": "d45ae22bf67453c8dc09763735229421ca2587eb3e43796a987ac98b08f297fd",
+      "size": 152824,
+      "errors": [],
+      "action_counts": {
+        "100": 1,
+        "20": 1,
+        "8": 1,
+        "0": 34,
+        "4": 52,
+        "13": 11,
+        "6": 3,
+        "9": 3,
+        "11": 1,
+        "1": 12,
+        "2": 113,
+        "3": 13,
+        "7": 6,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "535A4003",
+      "internal_name": "SuperCars",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\544d0101-2cc_TrainsInNML-3.1.tar",
+      "member": "2cc_TrainsInNML-3.1/2ccts.grf",
+      "archive_sha256": "7a0c04b7ab9c3fe0b239873ea61b131382496dcacb6628fa4ee82eabdac5d2fd",
+      "sha256": "9016b5faf94c2311af916c3177770a9dbac60eda691e8f531d4333d7505e534c",
+      "size": 7408192,
+      "errors": [],
+      "action_counts": {
+        "148": 1,
+        "20": 1,
+        "8": 1,
+        "0": 2258,
+        "4": 9826,
+        "13": 15014,
+        "6": 1120,
+        "9": 5642,
+        "11": 32,
+        "2": 7906,
+        "1": 1071,
+        "3": 1117
+      },
+      "grf_format_version": 8,
+      "grfid": "544D0101",
+      "internal_name": "2cc Trains In NML 3.1",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\54540501-Sal_s_Canalboats-0.4.1.tar",
+      "member": "Sal_s_Canalboats-0.4.1/sals_canalboats.grf",
+      "archive_sha256": "ada302a691a10f99c32d026928c62f1d80776f8e13f8cc4d9f11c6340de31dd9",
+      "sha256": "56b3c5dd10372df1455c6be0e43f27fc11351638f80cde603d13a5212f83f487",
+      "size": 5945,
+      "errors": [],
+      "action_counts": {
+        "38": 1,
+        "20": 1,
+        "8": 1,
+        "0": 5,
+        "1": 1,
+        "2": 2,
+        "4": 2,
+        "3": 2
+      },
+      "grf_format_version": 8,
+      "grfid": "54540501",
+      "internal_name": "Sal's Canalboats 0.4.1",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\54574607-Timberwolf_s_UK_Trains-1.7.7.tar",
+      "member": "Timberwolf_s_UK_Trains-1.7.7/timberwolfs_trains.grf",
+      "archive_sha256": "e84eab5e1e21f2ad4df938d698b6885dd239ebc0ec5481f0111ad7e76f36cb50",
+      "sha256": "7cd15340478471f73638c77c4f8a2807b55a90d91e1ab0cdd8c66dc41f250bcf",
+      "size": 40489748,
+      "errors": [
+        "Unsupported train property 7d at 67373"
+      ],
+      "action_counts": {
+        "36": 1,
+        "20": 1,
+        "8": 1,
+        "4": 2,
+        "0": 7,
+        "13": 35,
+        "9": 16,
+        "6": 5,
+        "10": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "54574607",
+      "internal_name": "Timberwolf's UK Trains 1.7.7",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\5457460c-Timberwolf_s_UK_Trains_Addon-1.2.6.tar",
+      "member": "Timberwolf_s_UK_Trains_Addon-1.2.6/timberwolfs_community_addon.grf",
+      "archive_sha256": "9f848b92c59fcdbaefe74bf869ac403cd173d33dca8f09e4c54730f696a460b1",
+      "sha256": "b7ffb51edaccfc62bf3d46b5c8c3c890f490fcdd384973a58c50698f3869a9bf",
+      "size": 6916668,
+      "errors": [
+        "Unsupported train property 7d at 16222"
+      ],
+      "action_counts": {
+        "68": 1,
+        "20": 1,
+        "8": 1,
+        "4": 1,
+        "0": 7,
+        "13": 38,
+        "9": 18,
+        "11": 1,
+        "6": 5,
+        "10": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "5457460C",
+      "internal_name": "Timberwolf's UK Trains Community Addon 1.2.6",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\55464989-U_RaTT-0.6.tar",
+      "member": "U_RaTT-0.6/URaTT.grf",
+      "archive_sha256": "e764a5bd43d315cf0c8e9c081e05d02b44b1b2d8986586b0d5f9a8dd11c2dfae",
+      "sha256": "426ff482be676401407994a87b478edefb8c9340fee73aecced26673cc4ff247",
+      "size": 3359021,
+      "errors": [],
+      "action_counts": {
+        "48": 1,
+        "20": 1,
+        "8": 1,
+        "4": 6,
+        "13": 965,
+        "9": 388,
+        "11": 1,
+        "0": 234,
+        "7": 161,
+        "1": 158,
+        "2": 757,
+        "6": 79,
+        "3": 49,
+        "16": 23,
+        "5": 3,
+        "10": 11
+      },
+      "grf_format_version": 8,
+      "grfid": "55464989",
+      "internal_name": "U&RaTT 0.6",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\55464990-U_ReRMM_2-1.4a.tar",
+      "member": "U_ReRMM_2-1.4a/UReRMM2.grf",
+      "archive_sha256": "edfaa69655a233c9a4703523de4dc9ad0d8bdb03a85bca64e8c8334ce1a63a2a",
+      "sha256": "743cbd6a7d44a817d79a4c101e82c2e4c59d3bdb16d21e290bbe60cb162923fe",
+      "size": 4601119,
+      "errors": [],
+      "action_counts": {
+        "3": 67,
+        "20": 1,
+        "8": 1,
+        "4": 2,
+        "13": 912,
+        "9": 218,
+        "11": 1,
+        "0": 49,
+        "7": 110,
+        "1": 190,
+        "2": 1466,
+        "6": 102,
+        "16": 9
+      },
+      "grf_format_version": 8,
+      "grfid": "55464990",
+      "internal_name": "U&ReRMM 2 1.4",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\56430001-Total_Town_Replacement_Set-3.14.tar",
+      "member": "Total_Town_Replacement_Set-3.14/ttrs3w.grf",
+      "archive_sha256": "58eaeb3d62f0f594711e649cefa38f84ab434ed4bd186b20499e7865cdd4df69",
+      "sha256": "e962c350e98d9ef92e50e62bbb8649ddbb432f1973a2b31d1d4f0f9d7e5501c1",
+      "size": 3174822,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "187": 1,
+        "20": 1,
+        "9": 4,
+        "11": 30,
+        "7": 19,
+        "14": 2,
+        "13": 6,
+        "8": 1,
+        "0": 1,
+        "4": 202,
+        "1": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "56430001",
+      "internal_name": "Total Town Replacement Set 3.14",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\58534453-Dutch_Stations_Set-1.0.0_alpha.tar",
+      "member": "Dutch_Stations_Set-1.0.0alpha/dutchstatw.grf",
+      "archive_sha256": "1495795c8af4502c91c10247414be443b6f36f4c12dd42dc98dd8b3230d16910",
+      "sha256": "3c8509350bb7c7500759b4eece10ada9b1d7cc77445926bc1a8929fe9f793457",
+      "size": 150820,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "227": 1,
+        "8": 1,
+        "1": 1
+      },
+      "grf_format_version": 6,
+      "grfid": "58534453",
+      "internal_name": "Dutch station set",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\74677462-Total_Bridge_Renewal_Set-1.2.tar",
+      "member": "Total_Bridge_Renewal_Set-1.2/total_bridges.grf",
+      "archive_sha256": "367491eed6dadbb85a94214f2bc94c72b48caa13203c0483f6c2ea15c4266624",
+      "sha256": "7a1e6eaebdbdd653b431f60b7f0a593dda51a7e0b59fff78043e38eb6245fc39",
+      "size": 513241,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "196": 1,
+        "7": 17,
+        "11": 13,
+        "13": 50,
+        "8": 1,
+        "0": 179,
+        "4": 27,
+        "9": 7,
+        "16": 4,
+        "6": 8,
+        "10": 1
+      },
+      "grf_format_version": 7,
+      "grfid": "74677462",
+      "internal_name": "Total Bridge Renewal Set Version 1.2",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\bebe0100-Farm_Objects-4.tar",
+      "member": "Farm_Objects-4/farmobjects.grf",
+      "archive_sha256": "97a6e5805d9160c89dafed56e408014cb6c186c2386f8a60a583944201fd5938",
+      "sha256": "16d01e526f881adfc92891758646a2cc33fb4f8d6c69a239d1c5bc51b8f1b4c7",
+      "size": 136437,
+      "errors": [],
+      "action_counts": {
+        "167": 1,
+        "20": 1,
+        "8": 1,
+        "4": 66,
+        "1": 2,
+        "2": 619,
+        "0": 68,
+        "3": 34
+      },
+      "grf_format_version": 8,
+      "grfid": "BEBE0100",
+      "internal_name": "Farm Objects",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\f1250009-FIRS_Industries_5-5.2.0.tar",
+      "member": "FIRS_Industries_5-5.2.0/firs.grf",
+      "archive_sha256": "65708760dfa36b520600a9b176bf25d0f44d39bbe40b43fd2537ce9a5d5f1889",
+      "sha256": "862dcdfbbd1ca1499b23a2c1eed47b43639eb2c163024a088552dffa6b49dad6",
+      "size": 9060291,
+      "errors": [],
+      "action_counts": {
+        "29": 1,
+        "20": 1,
+        "8": 1,
+        "0": 1624,
+        "4": 10,
+        "9": 591,
+        "13": 3546,
+        "11": 68,
+        "2": 16064,
+        "7": 1498,
+        "1": 287,
+        "3": 883,
+        "6": 504
+      },
+      "grf_format_version": 8,
+      "grfid": "F1250009",
+      "internal_name": "FIRS Industry Replacement Set 5.2.0",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\fbfb0010-2CC_Trams-0.9c.tar",
+      "member": "2CC_Trams-0.9c/2cc-trams-v0.9c-2020-10-24.grf",
+      "archive_sha256": "1c30db5ed8a91415ec97995bd667f5c6328cd52908364bb6525a9d6072e0a193",
+      "sha256": "5a27f4191b8d9351d93325d2059a05834821792ca8255f32a16f628971bb0f7d",
+      "size": 503294,
+      "errors": [],
+      "action_counts": {
+        "250": 1,
+        "20": 1,
+        "8": 1,
+        "0": 725,
+        "4": 1311,
+        "1": 180,
+        "2": 1664,
+        "3": 118,
+        "13": 819,
+        "9": 351,
+        "7": 234
+      },
+      "grf_format_version": 8,
+      "grfid": "FBFB0010",
+      "internal_name": "2CC Tram Set 1",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\fbfb0501-Dutch_Road_Furniture-0.7.1.tar",
+      "member": "Dutch_Road_Furniture-0.7.1/dutchroadfurniture.grf",
+      "archive_sha256": "505420c6ba2b4eb4b48d285205a2461bf17fb2263a21b8902474ff3f4557650b",
+      "sha256": "73c2f2816aa53bd23ddb929933919a2b4da2c052b9d4973fb1a7cfc2e5fb9a46",
+      "size": 935852,
+      "errors": [],
+      "action_counts": {
+        "211": 1,
+        "20": 1,
+        "8": 1,
+        "0": 111,
+        "4": 681,
+        "13": 319,
+        "9": 108,
+        "11": 2,
+        "16": 1,
+        "7": 2,
+        "10": 2,
+        "1": 20,
+        "2": 3722,
+        "6": 84,
+        "3": 42
+      },
+      "grf_format_version": 8,
+      "grfid": "FBFB0501",
+      "internal_name": "Dutch Road Furniture 0.7.1",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\polishtrainset3.0.3.grf",
+      "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6",
+      "size": 2718813,
+      "errors": [],
+      "action_counts": {
+        "154": 1,
+        "20": 1,
+        "8": 1,
+        "0": 681,
+        "4": 1148,
+        "13": 538,
+        "9": 185,
+        "11": 2,
+        "7": 95,
+        "6": 104,
+        "10": 12,
+        "2": 2354,
+        "1": 243,
+        "3": 145
+      },
+      "grf_format_version": 8,
+      "grfid": "4D560103",
+      "internal_name": "Polish Train Set 3.0",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 135,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\41560103-eGRVTS_v2.1-r240.tar",
+      "member": "eGRVTS_v2.1-r240/eGRVTS2_1.grf",
+      "archive_sha256": "7945aa8f753838dff1b2ac5d8de090ad2630aaf999a64cd0a0820708a198ea50",
+      "sha256": "6fe110c28d13caa3d46b0bf0f895d40eed9d50c4c86ea838e1668995bedf919c",
+      "size": 8592375,
+      "errors": [],
+      "action_counts": {
+        "248": 1,
+        "20": 1,
+        "8": 1,
+        "4": 2201,
+        "13": 5570,
+        "9": 1737,
+        "11": 1,
+        "0": 493,
+        "7": 1,
+        "6": 384,
+        "2": 3231,
+        "1": 276,
+        "3": 244,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "41560103",
+      "internal_name": "eGRVTS v2.1 - r240",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\43485054-CHIPS_Station_Set_2-2.0.0.tar",
+      "member": "CHIPS_Station_Set_2-2.0.0/chips.grf",
+      "archive_sha256": "8a44f8e42c1f43328e720d3b839e670236c855d170215f885b77738513317c25",
+      "sha256": "3327c7241c113fbe2f1ba5982a9a647b194f8784eb18fd148abc0f9c30c35918",
+      "size": 858971,
+      "errors": [],
+      "action_counts": {
+        "31": 1,
+        "20": 1,
+        "8": 1,
+        "0": 36,
+        "10": 2,
+        "13": 6,
+        "16": 1,
+        "6": 10,
+        "9": 1,
+        "2": 3261,
+        "1": 475,
+        "3": 35,
+        "4": 38
+      },
+      "grf_format_version": 7,
+      "grfid": "43485054",
+      "internal_name": "CHIPS Station Set 2.0.0",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\434d4301-Sailing_Ships_community-0.73.tar",
+      "member": "Sailing_Ships_community-0.73/ss_community.grf",
+      "archive_sha256": "729eb1f721ad8bbc8ad66266d35381a75fb946a868deb0baaa446c08b47da393",
+      "sha256": "2ab285cf8bb8a119888a74bd6dd5e096b8e38b9137d04cbfe37d71827e32ad92",
+      "size": 2289840,
+      "errors": [],
+      "action_counts": {
+        "182": 1,
+        "20": 1,
+        "8": 1,
+        "0": 20,
+        "4": 33,
+        "13": 24,
+        "9": 8,
+        "6": 5,
+        "1": 16,
+        "2": 215,
+        "3": 8,
+        "17": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "434D4301",
+      "internal_name": "Sailing Ships (community) 0.73",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 8,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\44440a01-av8_Aviators_Aircraft_Set-2.21.tar",
+      "member": "av8_Aviators_Aircraft_Set-2.21/pb_av8w.grf",
+      "archive_sha256": "e874f93b45e2413a5fcea177e5cd0db852b6ede14c2f93bed56386e14fea3e4c",
+      "sha256": "0f29337a57811ca89044ade21024ce5d73cc683328312eea8d8de22e6a13e72e",
+      "size": 2489908,
+      "errors": [
+        "index out of range"
+      ],
+      "action_counts": {
+        "23": 1,
+        "20": 4,
+        "8": 1,
+        "0": 2,
+        "13": 6,
+        "9": 3,
+        "11": 2,
+        "2": 17,
+        "4": 330,
+        "10": 1
+      },
+      "grf_format_version": 8,
+      "grfid": "44440A01",
+      "internal_name": "av8 Aviators Aircraft Set",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\44441000-UKRS2_The_UK_Railway_Set-1.05.tar",
+      "member": "UKRS2__The_UK_Railway_Set-1.05/proj1000.grf",
+      "archive_sha256": "b6e38b9fac21b411dacbabb4fa3fe457d34e0a6ccc0df7d8ed7e82413d5d58e9",
+      "sha256": "82f13c7988df320c012fe50e32c4bae91da50c02f82cb1e98616adf511631d8d",
+      "size": 2337710,
+      "errors": [],
+      "action_counts": {
+        "130": 1,
+        "20": 5,
+        "13": 9,
+        "7": 10,
+        "16": 5,
+        "11": 4,
+        "9": 2,
+        "8": 1,
+        "0": 83,
+        "10": 1,
+        "2": 276,
+        "17": 1,
+        "255": 55,
+        "4": 53,
+        "1": 3
+      },
+      "grf_format_version": 8,
+      "grfid": "44441000",
+      "internal_name": "UK Railway Set (UKRS2)",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 94,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\4a430002-Industrial_Stations_Renewal-1.0.2.tar",
+      "member": "Industrial_Stations_Renewal-1.0.2/indstatr.grf",
+      "archive_sha256": "17dc152e473c824754193c6ded5c246b166c13b828d60b22dde705c6ab3daf07",
+      "sha256": "66d51f71033149c269e46c8a973b005f7ae32a35631a2df875831dda8c579352",
+      "size": 1163340,
+      "errors": [
+        "Unsupported train property 0a at 21001"
+      ],
+      "action_counts": {
+        "106": 1,
+        "20": 21,
+        "9": 31,
+        "11": 3,
+        "8": 1,
+        "0": 26,
+        "13": 31,
+        "6": 2,
+        "10": 2
+      },
+      "grf_format_version": 7,
+      "grfid": "4A430002",
+      "internal_name": "Industrial Stations Renewal 1.0.2",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\4d560105-Polish_Rolling_Stock_Pack-0.19.11.tar",
+      "member": "Polish_Rolling_Stock_Pack-0.19.11/polish-rolling-stock-pack-0.19.11.grf",
+      "archive_sha256": "0cc055a184f2ac407ca757e7af095f883742732b07da47f59df659b3dbc08123",
+      "sha256": "c126d071f37e481f86f16b8cdc959c775ce67fc97d3089fa5d031e3b118084c7",
+      "size": 7122104,
+      "errors": [],
+      "action_counts": {
+        "214": 1,
+        "20": 1,
+        "8": 1,
+        "0": 2492,
+        "4": 2100,
+        "13": 923,
+        "9": 327,
+        "11": 2,
+        "7": 166,
+        "6": 207,
+        "10": 12,
+        "2": 7431,
+        "1": 1065,
+        "3": 702
+      },
+      "grf_format_version": 8,
+      "grfid": "4D560105",
+      "internal_name": "TEST Polish Rolling Stock Pack 0.19.1",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 694,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\f1250009-FIRS_Industries_5-5.2.0.tar",
+      "member": "FIRS_Industries_5-5.2.0/firs.grf",
+      "archive_sha256": "65708760dfa36b520600a9b176bf25d0f44d39bbe40b43fd2537ce9a5d5f1889",
+      "sha256": "862dcdfbbd1ca1499b23a2c1eed47b43639eb2c163024a088552dffa6b49dad6",
+      "size": 9060291,
+      "errors": [],
+      "action_counts": {
+        "29": 1,
+        "20": 1,
+        "8": 1,
+        "0": 1624,
+        "4": 10,
+        "9": 591,
+        "13": 3546,
+        "11": 68,
+        "2": 16064,
+        "7": 1498,
+        "1": 287,
+        "3": 883,
+        "6": 504
+      },
+      "grf_format_version": 8,
+      "grfid": "F1250009",
+      "internal_name": "FIRS Industry Replacement Set 5.2.0",
+      "referenced_by_newest_scenario": false,
+      "runtime_inventory_count": 0,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\polishtrainset3.0.3.grf",
+      "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6",
+      "size": 2718813,
+      "errors": [],
+      "action_counts": {
+        "154": 1,
+        "20": 1,
+        "8": 1,
+        "0": 681,
+        "4": 1148,
+        "13": 538,
+        "9": 185,
+        "11": 2,
+        "7": 95,
+        "6": 104,
+        "10": 12,
+        "2": 2354,
+        "1": 243,
+        "3": 145
+      },
+      "grf_format_version": 8,
+      "grfid": "4D560103",
+      "internal_name": "Polish Train Set 3.0",
+      "referenced_by_newest_scenario": true,
+      "runtime_inventory_count": 135,
+      "static_extraction_note": "Raw Action 0 candidates are not a resolved roster; Action 6/7/9 and callbacks require the engine"
+    }
+  ],
+  "duplicate_grfids": {
+    "41560103": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\41560103-eGRVTS_v2.1-r240.tar",
+        "member": "eGRVTS_v2.1-r240/eGRVTS2_1.grf",
+        "sha256": "6fe110c28d13caa3d46b0bf0f895d40eed9d50c4c86ea838e1668995bedf919c"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\41560103-eGRVTS_v2.1-r240.tar",
+        "member": "eGRVTS_v2.1-r240/eGRVTS2_1.grf",
+        "sha256": "6fe110c28d13caa3d46b0bf0f895d40eed9d50c4c86ea838e1668995bedf919c"
+      }
+    ],
+    "43485054": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\43485054-CHIPS_Station_Set_2-2.0.0.tar",
+        "member": "CHIPS_Station_Set_2-2.0.0/chips.grf",
+        "sha256": "3327c7241c113fbe2f1ba5982a9a647b194f8784eb18fd148abc0f9c30c35918"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\43485054-CHIPS_Station_Set_2-2.0.0.tar",
+        "member": "CHIPS_Station_Set_2-2.0.0/chips.grf",
+        "sha256": "3327c7241c113fbe2f1ba5982a9a647b194f8784eb18fd148abc0f9c30c35918"
+      }
+    ],
+    "434D4301": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\434d4301-Sailing_Ships_community-0.73.tar",
+        "member": "Sailing_Ships_community-0.73/ss_community.grf",
+        "sha256": "2ab285cf8bb8a119888a74bd6dd5e096b8e38b9137d04cbfe37d71827e32ad92"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\434d4301-Sailing_Ships_community-0.73.tar",
+        "member": "Sailing_Ships_community-0.73/ss_community.grf",
+        "sha256": "2ab285cf8bb8a119888a74bd6dd5e096b8e38b9137d04cbfe37d71827e32ad92"
+      }
+    ],
+    "44440A01": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\44440a01-av8_Aviators_Aircraft_Set-2.21.tar",
+        "member": "av8_Aviators_Aircraft_Set-2.21/pb_av8w.grf",
+        "sha256": "0f29337a57811ca89044ade21024ce5d73cc683328312eea8d8de22e6a13e72e"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\44440a01-av8_Aviators_Aircraft_Set-2.21.tar",
+        "member": "av8_Aviators_Aircraft_Set-2.21/pb_av8w.grf",
+        "sha256": "0f29337a57811ca89044ade21024ce5d73cc683328312eea8d8de22e6a13e72e"
+      }
+    ],
+    "44441000": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\44441000-UKRS2_The_UK_Railway_Set-1.05.tar",
+        "member": "UKRS2__The_UK_Railway_Set-1.05/proj1000.grf",
+        "sha256": "82f13c7988df320c012fe50e32c4bae91da50c02f82cb1e98616adf511631d8d"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\44441000-UKRS2_The_UK_Railway_Set-1.05.tar",
+        "member": "UKRS2__The_UK_Railway_Set-1.05/proj1000.grf",
+        "sha256": "82f13c7988df320c012fe50e32c4bae91da50c02f82cb1e98616adf511631d8d"
+      }
+    ],
+    "4A430002": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4a430002-Industrial_Stations_Renewal-1.0.2.tar",
+        "member": "Industrial_Stations_Renewal-1.0.2/indstatr.grf",
+        "sha256": "66d51f71033149c269e46c8a973b005f7ae32a35631a2df875831dda8c579352"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\4a430002-Industrial_Stations_Renewal-1.0.2.tar",
+        "member": "Industrial_Stations_Renewal-1.0.2/indstatr.grf",
+        "sha256": "66d51f71033149c269e46c8a973b005f7ae32a35631a2df875831dda8c579352"
+      }
+    ],
+    "4D560105": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\4d560105-Polish_Rolling_Stock_Pack-0.19.11.tar",
+        "member": "Polish_Rolling_Stock_Pack-0.19.11/polish-rolling-stock-pack-0.19.11.grf",
+        "sha256": "c126d071f37e481f86f16b8cdc959c775ce67fc97d3089fa5d031e3b118084c7"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\4d560105-Polish_Rolling_Stock_Pack-0.19.11.tar",
+        "member": "Polish_Rolling_Stock_Pack-0.19.11/polish-rolling-stock-pack-0.19.11.grf",
+        "sha256": "c126d071f37e481f86f16b8cdc959c775ce67fc97d3089fa5d031e3b118084c7"
+      }
+    ],
+    "F1250009": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\f1250009-FIRS_Industries_5-5.2.0.tar",
+        "member": "FIRS_Industries_5-5.2.0/firs.grf",
+        "sha256": "862dcdfbbd1ca1499b23a2c1eed47b43639eb2c163024a088552dffa6b49dad6"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\f1250009-FIRS_Industries_5-5.2.0.tar",
+        "member": "FIRS_Industries_5-5.2.0/firs.grf",
+        "sha256": "862dcdfbbd1ca1499b23a2c1eed47b43639eb2c163024a088552dffa6b49dad6"
+      }
+    ],
+    "4D560103": [
+      {
+        "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\content_download\\newgrf\\polishtrainset3.0.3.grf",
+        "member": null,
+        "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6"
+      },
+      {
+        "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\newgrf\\polishtrainset3.0.3.grf",
+        "member": null,
+        "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6"
+      }
+    ]
+  },
+  "runtime_counts": {
+    "4D560103": 135,
+    "434D4301": 8,
+    "4D560105": 694,
+    "44441000": 94,
+    "414E0201": 25,
+    "44440302": 113,
+    "4E4D0518": 216,
+    "53410808": 1602
+  },
+  "runtime_total": 2887,
+  "runtime_train_count": 2854,
+  "runtime_ship_count": 33,
+  "fingerprints": [
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+      "bytes": 55187876,
+      "mtime": 1793048084.0
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\OpenTTD\\openttd.exe",
+      "sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+      "bytes": 55187876,
+      "mtime": 1792947236.3063476
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\openttd.cfg",
+      "sha256": "e8258a5a319fab3890f530377182507327504a47f0bf54de2cc94c11c14286d9",
+      "bytes": 20780,
+      "mtime": 1793151045.6482546
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.cfg",
+      "sha256": "151fb33d366083b1dcc1d81cf1efbe7e258c66c71117fce36eafd6349d7d3e57",
+      "bytes": 18219,
+      "mtime": 1793051870.048184
+    }
+  ],
+  "scenario_metadata": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 Indutries 1.scn",
+      "sha256": "b49bda4d118dc7037441e9e0661543f1d1ea06e13349b7d1517f7ca39c9044db",
+      "mtime": 1792966386.315543,
+      "header": "4f54545881240000"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 Indutries 2 installer.scn",
+      "sha256": "14d3d3115c23a6177910e5a456455d32d157114990ea59d33c8da183c4c305df",
+      "mtime": 1793051111.6481614,
+      "header": "4f54545881240000"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 Indutries 2.scn",
+      "sha256": "6d529a5ada7f75cd7564379e123d0a6f0200cff748c1c59aa95c3ef3f853d781",
+      "mtime": 1793050999.7624936,
+      "header": "4f54545881240000"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V1.scn",
+      "sha256": "904097ebfda8db35b6f58f27e07aad1bf0595805ea6c8196245b7f9b68f29f3e",
+      "mtime": 1792964553.863739,
+      "header": "4f54545881240000"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V2 newGRFS.scn",
+      "sha256": "5710beea8b3badf6aecc8ab679caea1fb2c4b66e96c4393b342a816c064e0688",
+      "mtime": 1793146056.8189015,
+      "header": "4f54545881240000"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800.scn",
+      "sha256": "7d4257be8ea3a273fcd316d3e97d3c6374140e9bf12ccc1875d9508788cac7f4",
+      "mtime": 1792948112.5300605,
+      "header": "4f54545881240000"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Downloads\\OpenTTD\\scenario\\Europe 1800 - Toni.scn",
+      "sha256": "14d3d3115c23a6177910e5a456455d32d157114990ea59d33c8da183c4c305df",
+      "mtime": 1793047752.0,
+      "header": "4f54545881240000"
+    }
+  ],
+  "scope": "Installed paths read only. Runtime on local copies in ignored workspace. No runtime binary/assets redistributed."
+}

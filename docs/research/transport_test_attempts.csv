@@ -1,0 +1,55 @@
+tag,case,selected,built,years_observed,completed,status,blocker,source_log
+coal-planet-pilot,Harness compilation/initialization,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Error C:\Users\Kladd\Documents\Codex\2026-10-28\openttd-europe-1830-2025-local-newgrf\.vehicle-audit-runtime\phase3\game\p3\main.nut:14/48: expected 'IDENTIFIER',.vehicle-audit-runtime\phase3\coal-planet-pilot.log
+coal-planet-pilot2,coal_planet,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Your script made an error: the index 'center' does not exist,.vehicle-audit-runtime\phase3\coal-planet-pilot2.log
+coal-planet-pilot3,coal_planet,False,False,0,False,BLOCKED / NOT TESTED,coal_planet|no legal contiguous route|ERR_AREA_NOT_CLEAR,.vehicle-audit-runtime\phase3\coal-planet-pilot3.log
+coal-planet-pilot4,coal_planet,False,False,0,False,BLOCKED / NOT TESTED,coal_planet|vehicle/refit|ERR_PRECONDITION_FAILED,.vehicle-audit-runtime\phase3\coal-planet-pilot4.log
+coal-planet-pilot5,coal_planet,False,True,1,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\coal-planet-pilot5.log
+coal-planet-pilot6,coal_planet,False,True,1,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\coal-planet-pilot6.log
+coastal-industry-check,UNKNOWN,False,False,0,True,ENGINE-CALCULATED,,.vehicle-audit-runtime\phase3\coastal-industry-check\coastal-industry-check.log
+horse-city-road,horse_city_road,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-city-road\horse-city-road.log
+horse-coal-10y,horse_coal,False,False,0,False,BLOCKED / NOT TESTED,horse_coal|orders|ERR_UNKNOWN,.vehicle-audit-runtime\phase3\horse-coal-10y\horse-coal-10y.log
+horse-coal-10yb,horse_coal,False,False,0,False,BLOCKED / NOT TESTED,horse_coal|origin order|ERR_UNKNOWN,.vehicle-audit-runtime\phase3\horse-coal-10yb\horse-coal-10yb.log
+horse-coal-10yc,horse_coal,False,True,3,False,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-coal-10yc\horse-coal-10yc.log
+horse-coal-final,horse_coal,True,True,10,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-coal-final\horse-coal-final.log
+horse-coal-fleet,Harness compilation/initialization,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Error C:\Users\Kladd\Documents\Codex\2026-10-28\openttd-europe-1830-2025-local-newgrf\.vehicle-audit-runtime\phase3\horse-coal-fleet\game\p3\main.nut:142/41: expected 'IDENTIFIER',.vehicle-audit-runtime\phase3\horse-coal-fleet\horse-coal-fleet.log
+horse-coal-fleet2,Harness compilation/initialization,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Error C:\Users\Kladd\Documents\Codex\2026-10-28\openttd-europe-1830-2025-local-newgrf\.vehicle-audit-runtime\phase3\horse-coal-fleet2\game\p3\main.nut:142/152: end of statement expected (; or lf),.vehicle-audit-runtime\phase3\horse-coal-fleet2\horse-coal-fleet2.log
+horse-coal-fleet3,Harness compilation/initialization,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Your script made an error: the index 'getroottable' does not exist,.vehicle-audit-runtime\phase3\horse-coal-fleet3\horse-coal-fleet3.log
+horse-coal-fleet4,horse_coal_fleet,True,True,10,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-coal-fleet4\horse-coal-fleet4.log
+horse-coast,horse_coast,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-coast\horse-coast.log
+horse-existing-road,horse_existing_road,True,True,10,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-existing-road\horse-existing-road.log
+horse-local,Harness compilation/initialization,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Error C:\Users\Kladd\Documents\Codex\2026-10-28\openttd-europe-1830-2025-local-newgrf\.vehicle-audit-runtime\phase3\horse-local\game\p3\main.nut:91/77: end of statement expected (; or lf),.vehicle-audit-runtime\phase3\horse-local\horse-local.log
+horse-local-bridge,horse_local_bridge,False,False,0,False,BLOCKED / NOT TESTED,horse_local_bridge|commit path|ERR_AREA_NOT_CLEAR,.vehicle-audit-runtime\phase3\horse-local-bridge\horse-local-bridge.log
+horse-local-bridge2,Harness compilation/initialization,False,False,0,False,BLOCKED / NOT TESTED,dbg: [script:0] [18] [S] Error C:\Users\Kladd\Documents\Codex\2026-10-28\openttd-europe-1830-2025-local-newgrf\.vehicle-audit-runtime\phase3\horse-local-bridge2\game\p3\main.nut:61/84: end of statement expected (; or lf),.vehicle-audit-runtime\phase3\horse-local-bridge2\horse-local-bridge2.log
+horse-local-bridge3,horse_local_bridge,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-local-bridge3\horse-local-bridge3.log
+horse-local2,horse_local,False,False,0,False,BLOCKED / NOT TESTED,horse_local|no legal contiguous route|ERR_TUNNEL_CANNOT_BUILD_ON_WATER,.vehicle-audit-runtime\phase3\horse-local2\horse-local2.log
+horse-local3,horse_local,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-local3\horse-local3.log
+horse-lodi,horse_lodi,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-lodi\horse-lodi.log
+horse-london,horse_london,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-london\horse-london.log
+horse-mail,horse_mail,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-mail\horse-mail.log
+horse-passenger-final,horse_passenger,False,False,0,False,BLOCKED / NOT TESTED,horse_passenger|commit path|ERR_LAND_SLOPED_WRONG,.vehicle-audit-runtime\phase3\horse-passenger-final\horse-passenger-final.log
+horse-passenger-final2,horse_passenger,True,True,20,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-passenger-final2\horse-passenger-final2.log
+horse-passenger-ledger,horse_passenger,False,False,0,False,BLOCKED / NOT TESTED,horse_passenger|no legal contiguous route|ERR_AREA_NOT_CLEAR,.vehicle-audit-runtime\phase3\horse-passenger-ledger\horse-passenger-ledger.log
+horse-transition,horse_transition_1830,False,True,15,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\horse-transition\horse-transition.log
+inventory,UNKNOWN,False,False,0,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\inventory.log
+rail-coal-12-brake,rail_coal_12_brake,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-coal-12-brake\rail-coal-12-brake.log
+rail-coal-12wagons,rail_coal_12wagons,False,True,0,False,BLOCKED / NOT TESTED,rail_coal_12wagons|start|ERR_NEWGRF_SUPPLIED_ERROR,.vehicle-audit-runtime\phase3\rail-coal-12wagons\rail-coal-12wagons.log
+rail-coal-24-brake,rail_coal_24_brake,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-coal-24-brake\rail-coal-24-brake.log
+rail-coal-24wagons,rail_coal_24wagons,False,True,0,False,BLOCKED / NOT TESTED,rail_coal_24wagons|start|ERR_NEWGRF_SUPPLIED_ERROR,.vehicle-audit-runtime\phase3\rail-coal-24wagons\rail-coal-24wagons.log
+rail-coal-keep,rail_coal_keep,True,True,2,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-coal-keep\rail-coal-keep.log
+rail-coal-ledger,rail_coal,True,True,20,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-coal-ledger\rail-coal-ledger.log
+rail-coast,rail_coast,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-coast\rail-coast.log
+rail-general,rail_wood,True,False,0,False,BLOCKED / NOT TESTED,rail_wood|commit path|ERR_LAND_SLOPED_WRONG,.vehicle-audit-runtime\phase3\rail-general\rail-general.log
+rail-general2,rail_grain,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-general2\rail-general2.log
+rail-grasshopper,rail_grasshopper,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-grasshopper\rail-grasshopper.log
+rail-lodi,rail_lodi,True,True,10,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-lodi\rail-lodi.log
+rail-medium,rail_medium_coal,True,False,0,False,BLOCKED / NOT TESTED,rail_medium_coal|destination station|ERR_TUNNEL_CANNOT_BUILD_ON_WATER,.vehicle-audit-runtime\phase3\rail-medium\rail-medium.log
+rail-passenger,rail_passenger,False,False,0,False,BLOCKED / NOT TESTED,rail_passenger|no legal contiguous route|ERR_TUNNEL_CANNOT_BUILD_ON_WATER,.vehicle-audit-runtime\phase3\rail-passenger\rail-passenger.log
+rail-wood-final,rail_wood,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-wood-final\rail-wood-final.log
+rail-wood-grasshopper,rail_wood_grasshopper,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\rail-wood-grasshopper\rail-wood-grasshopper.log
+replay-brake-required,rail_coal_12wagons,False,True,0,False,BLOCKED / NOT TESTED,rail_coal_12wagons|start|ERR_NEWGRF_SUPPLIED_ERROR,.vehicle-audit-runtime\phase3\replay-brake-required\replay-brake-required.log
+ship-barque,ship_barque_pax,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\ship-barque\ship-barque.log
+ship-mail,ship_mail,True,False,0,False,BLOCKED / NOT TESTED,ship_mail|origin station|ERR_SITE_UNSUITABLE,.vehicle-audit-runtime\phase3\ship-mail\ship-mail.log
+ship-pax-final,ship_pax,True,True,10,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\ship-pax-final\ship-pax-final.log
+ship-pax-pilot,ship_pax,False,True,1,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\ship-pax-pilot\ship-pax-pilot.log
+ship-pax-pilot2,ship_pax,False,False,0,False,BLOCKED / NOT TESTED,ship_pax|docks not connected within 200-tile water search|ERR_NONE,.vehicle-audit-runtime\phase3\ship-pax-pilot2\ship-pax-pilot2.log
+ship-schooner,ship_schooner,True,True,5,True,VERIFIED IN GAME,,.vehicle-audit-runtime\phase3\ship-schooner\ship-schooner.log
