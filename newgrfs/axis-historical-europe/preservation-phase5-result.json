@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "original_asset_paths_checked": 83,
+  "original_fingerprints": 4,
+  "original_scenario_sha256": "5710beea8b3badf6aecc8ab679caea1fb2c4b66e96c4393b342a816c064e0688",
+  "original_grf_identities_verified": [
+    "44440A01",
+    "43485054",
+    "41560103",
+    "4A430002",
+    "4D560103",
+    "434D4301",
+    "4D560105",
+    "44441000",
+    "414E0201",
+    "0100403A",
+    "4F472B34",
+    "44440302",
+    "4E4D0518",
+    "4A4B8808",
+    "53410808"
+  ],
+  "historical_configuration_fingerprint_drift": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\openttd.cfg",
+      "historical_sha256": "e8258a5a319fab3890f530377182507327504a47f0bf54de2cc94c11c14286d9",
+      "current_sha256": "350bb7e95a47140eb86896dffae3382f86fbcb40e9646aa357184a615b278b6a",
+      "last_write_unix": 1793218276.458323
+    }
+  ],
+  "protected_prior_research_unchanged": 74,
+  "authorized_report_update": [
+    "docs\\AXIS_HISTORICAL_IMPLEMENTATION.md"
+  ],
+  "annual_observation_rows": 40,
+  "matched_control_years": 15,
+  "original_instances_reviewed": 1387,
+  "original_instances_unresolved": 0,
+  "original_instances_outside_1830_policy": 463
+}

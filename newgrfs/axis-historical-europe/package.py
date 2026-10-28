@@ -11,18 +11,19 @@ import sys
 import tempfile
 
 ROOT = Path(__file__).resolve().parent
+VERSION = json.loads((ROOT / 'historical_manifest.json').read_text())['version']
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--verify-rebuild", action="store_true")
     args = parser.parse_args()
-    artifact = ROOT / "dist/axis-historical-europe-0.1.0.grf"
-    report = json.loads((ROOT / "validation-result.json").read_text())
+    artifact = ROOT / f"dist/axis-historical-europe-{VERSION}.grf"
+    report = json.loads((ROOT / "validation-phase5-result.json").read_text())
     if not report["passed"] or report["artifact_sha256"] != hashlib.sha256(artifact.read_bytes()).hexdigest():
         raise SystemExit("Build and validate matching artifact before packaging")
     source = ROOT / ".work/source"
-    bundle = ROOT / "dist/axis-historical-europe-0.1.0-source.zip"
+    bundle = ROOT / f"dist/axis-historical-europe-{VERSION}-source.zip"
     with zipfile.ZipFile(bundle, "w", compression=zipfile.ZIP_DEFLATED) as out:
         for name in ["src", "license.pt", "README.md", "Makefile"]:
             target = source / name
@@ -38,7 +39,7 @@ def main():
             for path in sorted((ROOT / folder).rglob("*")):
                 if path.is_file() and "__pycache__" not in path.parts:
                     out.write(path, "project/" + path.relative_to(ROOT).as_posix())
-        out.writestr("BUILD_FROM_SOURCE.txt", """AXIS Historical Europe 0.1.0 corresponding source (GPL v2)
+        out.writestr("BUILD_FROM_SOURCE.txt", f"""AXIS Historical Europe {VERSION} corresponding source (GPL v2)
 Install the exact versions in project/requirements-build.txt into Python 3.12.
 From the source/ directory run:
   Set environment variable PYTHONHASHSEED=0 before starting Python.
@@ -46,7 +47,7 @@ From the source/ directory run:
   POSIX shell: export PYTHONHASHSEED=0
   python src/render_lang.py
   python src/render_nml.py
-  python -m nml.main -c -l generated/lang --grf=../axis-historical-europe-0.1.0.grf generated/firs.nml
+  python -m nml.main -c -l generated/lang --grf=../axis-historical-europe-{VERSION}.grf generated/firs.nml
 All source graphics and templates are included. HTML documentation generation
 is not needed for the GRF. See project/ATTRIBUTION.md and project/LICENSE.txt.
 This is a modified AXIS release; never load it together with original AXIS.
@@ -79,7 +80,7 @@ This is a modified AXIS release; never load it together with original AXIS.
             assert rebuilt_hash == report["artifact_sha256"], rebuilt_hash
             check = {"passed": True, "rebuilt_grf_sha256": rebuilt_hash,
                      "source_bundle_sha256": result["sha256"], "method": "extract complete source ZIP and run its documented build commands"}
-            (ROOT / "bundle-rebuild-result.json").write_text(json.dumps(check, indent=2) + "\n", encoding="utf-8")
+            (ROOT / "bundle-rebuild-phase5-result.json").write_text(json.dumps(check, indent=2) + "\n", encoding="utf-8")
             print(json.dumps(check, indent=2))
 
 

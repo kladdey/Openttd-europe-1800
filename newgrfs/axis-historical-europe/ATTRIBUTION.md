@@ -1,6 +1,6 @@
 # License and attribution
 
-AXIS Historical Europe 0.1.0 modifies AXIS 2.3.1, source commit
+AXIS Historical Europe 0.2.0 (following the 0.1.0 milestone) modifies AXIS 2.3.1, source commit
 `11c8353ccf7444b143e57080b1aa2b5e38839a23`, by Emperor Jake, based on
 FIRS 4.4.0 by andythenorth and collaborators.
 

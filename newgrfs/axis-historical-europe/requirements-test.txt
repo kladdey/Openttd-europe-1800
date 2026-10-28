@@ -1,0 +1,2 @@
+-r requirements-build.txt
+numpy==2.3.5

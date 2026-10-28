@@ -8,6 +8,8 @@ import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parent
+MANIFEST = json.loads((ROOT / 'historical_manifest.json').read_text())
+ARTIFACT = 'axis-historical-europe-' + MANIFEST['version'] + '.grf'
 
 
 def main():
@@ -22,7 +24,7 @@ def main():
         "render-lang": [sys.executable, "src/render_lang.py"],
         "render-nml": [sys.executable, "src/render_nml.py"],
         "compile": [sys.executable, "-m", "nml.main", "-c", "-l", "generated/lang", "--verbosity=3",
-                    "--grf=" + str(dist / "axis-historical-europe-0.1.0.grf"), "generated/firs.nml"],
+                    "--grf=" + str(dist / ARTIFACT), "generated/firs.nml"],
     }
     for label, command in steps.items():
         print(label, flush=True)
@@ -31,7 +33,7 @@ def main():
                                     env={**os.environ, "PYTHONHASHSEED": "0"})
         if result.returncode:
             raise SystemExit(f"{label} failed; inspect {logs / (label + '.log')}")
-    artifact = dist / "axis-historical-europe-0.1.0.grf"
+    artifact = dist / ARTIFACT
     report = {"artifact": artifact.name, "bytes": artifact.stat().st_size,
               "sha256": hashlib.sha256(artifact.read_bytes()).hexdigest(),
               "upstream_commit": json.loads((ROOT / "historical_manifest.json").read_text())["upstream_commit"],
