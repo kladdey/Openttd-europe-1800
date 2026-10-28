@@ -73,8 +73,10 @@ of AXIS's generic partial-input efficiency system:
 | 6 | 1 | 3 / 1 | 3 / 1 | 3 / 0 |
 
 These cases execute the expressions extracted from **generated NML**, and the
-whole GRF compiles and loads. They are **not measurements of engine-delivered
-cargo**; the transport/production test remains in the manual test plan. The
+whole GRF compiles and loads. Those six table cases remain expression tests;
+a separate [actual transport fixture](AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md)
+has now verified 8 delivered pig iron, a save/reload with no coke, followed by
+coke delivery, 6 steel / 2 slag production and the 2-pig-iron remainder. The
 recipe intentionally simplifies heat, air, flux and metallurgical yield. It
 must not be presented as a literal Bessemer chemical equation.
 
@@ -108,7 +110,8 @@ This is an explicit residual design gap, not hidden as a successful early-chain
 test. The next milestone should decide whether early specialized steel/imports
 are needed before gating more downstream sectors.
 
-No production dead end was introduced into the full Classic graph. Actual
-batch processing, byproduct transport, save/reload and three-company balance
-still need in-game transport testing. No full economic balance or historical
+No production dead end was introduced into the full Classic graph. One actual
+batch, downstream steel transport and stockpile save/reload now pass in JGRPP.
+Byproduct transport, other batch/delivery orders and three-company balance
+remain to be tested. No full economic balance or historical
 regional viability claim is made.

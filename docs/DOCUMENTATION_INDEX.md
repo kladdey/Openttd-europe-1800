@@ -8,6 +8,7 @@ evidence. Use [project status](PROJECT_STATUS.md) to resolve old checkpoint clai
 
 | Document | Scope |
 |---|---|
+| [docs/AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md](AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md) | Actual truck-delivered steel production and one-input stockpile save/reload proof |
 | [docs/AXIS_HISTORICAL_IMPLEMENTATION.md](AXIS_HISTORICAL_IMPLEMENTATION.md) | Compiled historical steelmaking fork, source architecture and JGRPP runtime results |
 | [docs/AXIS_HISTORICAL_CARGO_VALIDATION.md](AXIS_HISTORICAL_CARGO_VALIDATION.md) | Preserved cargo slots, steelworks recipe and dependency validation |
 | [docs/AXIS_HISTORICAL_TEST_PLAN.md](AXIS_HISTORICAL_TEST_PLAN.md) | Passed headless cases and pending production/UI/multiplayer tests |

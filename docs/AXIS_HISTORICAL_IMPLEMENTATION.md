@@ -3,6 +3,8 @@
 2026-10-28. **Compiled and loaded in JGRPP 0.73.4; 16 automated headless
 construction cases passed.** This is a limited steelmaking milestone, not a
 complete historical economy. The campaign scenario and other NewGRFs are untouched.
+An additional actual-delivery and stockpile save/reload fixture has now passed;
+see [production verification](AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md).
 
 ## Identity, source and reproducibility
 
@@ -186,12 +188,18 @@ a warning-free build. No compiler error occurred. Upstream rendering also report
 existing map-colour and recycling-keystone diagnostics; no ID was renumbered to
 silence them.
 
-**Not tested:** actual cargo delivery and steel tonnage in the engine, the
-funding-window UI, editor interaction, human three-player join/rejoin,
-save/reload/long-term production, 4096² performance or the installed transport
-NewGRF stack. Natural gameplay openings over elapsed years were not soaked;
-world generation and the shared RANDOM construction path were exercised.
-Do not describe this as campaign-ready or fully verified steel production.
+**Additional executed test:** real trucks delivered pig iron to the steelworks;
+8 IRON / 0 COKE survived a disk save and new engine process. Subsequent coke
+delivery produced 6 STEL / 2 SLAG, retained 2 IRON and resulted in 4 STEL
+delivered to a metal workshop. The unchanged GRF passed this representative
+batch/persistence test using force-enabled default trucks in a disposable
+1860 world. See the production verification report for its diagnostic limits.
+
+**Not tested:** the funding-window UI, editor interaction, human three-player
+join/rejoin, long-term production/expiry, reverse-order or concurrent delivery,
+4096² performance or the installed transport NewGRF stack. Natural gameplay
+openings over elapsed years were not soaked; world generation and the shared
+RANDOM construction path were exercised. Do not describe this as campaign-ready.
 
 ## License, remaining scope and next milestone
 
@@ -203,6 +211,6 @@ No public release was created. See [attribution and distribution instructions](.
 
 Modern aluminium, chemicals, vehicle factories and other non-steel sectors
 retain original AXIS availability. This milestone does not claim to make all
-1830 industries historically appropriate. Next: test an actual pig-iron/coke
-transport route into the new works, verify output/GUI/save-reload in JGRPP,
-then extend the manifest sector-by-sector after recipe and historical review.
+1830 industries historically appropriate. Next: test a small three-player
+candidate with the actual historical vehicle sets and inspect the UI, then
+extend the manifest sector-by-sector after recipe and historical review.

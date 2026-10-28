@@ -1,8 +1,9 @@
 # AXIS Historical Europe — reproducible test plan
 
 2026-10-28. Binary 0.1.0, GRFID `4B484531`, numeric version 1.
-**16 headless JGRPP 0.73.4 construction cases have passed.** Human multiplayer,
-editor and actual transported-cargo production tests below remain pending.
+**16 headless JGRPP 0.73.4 construction cases have passed**, plus a real truck
+delivery/stockpile save-reload fixture. Human multiplayer, editor interaction
+and the actual campaign vehicle stack remain pending.
 
 ## Installation and isolation
 
@@ -119,10 +120,17 @@ alone: it must remain stockpiled with no output. Deliver the second: complete
 loads, reverse delivery order, repeated callbacks, concurrent unloading, and
 save/reload with partial stockpiles. Transport steel to an existing customer;
 do not infer commercial viability from an output label in source.
+The representative pig-iron-first fixture has now passed: 8 IRON / 0 COKE
+persisted across a new process; later coke delivery produced 6 STEL / 2 SLAG,
+left 2 IRON, and a truck delivered 4 STEL to the customer. See
+[the executed verification](AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md).
+The other batch sizes/order/concurrent unloading and campaign vehicles remain
+acceptance work; the fixture used explicitly force-enabled default trucks.
 
 **Persistence and construction expiry:** all current final-year fields are null,
-so existing works should keep producing in 1906, 1952 and 2000. Verify across a
-save/reload and date progression. To test the optional final-year feature, use
+so existing works should keep producing in 1906, 1952 and 2000. A one-input
+stockpile save/reload has passed; later-era progression remains untested.
+To test the optional final-year feature, use
 a separately versioned throwaway build with the steelworks final year 1900:
 new construction must work through 1900 and fail in 1901, while a previously
 built works continues its production callbacks. Do not force-close it or replace

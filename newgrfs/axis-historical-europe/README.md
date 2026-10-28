@@ -1,7 +1,8 @@
 # AXIS Historical Europe 0.1.0 — steelmaking milestone
 
 **Compiled experimental NewGRF; 16 headless JGRPP 0.73.4 construction tests passed.**
-Transported-cargo production, human multiplayer and campaign-scale tests remain.
+An actual truck-delivery and stockpile save/reload fixture also passed.
+Human multiplayer, historical vehicle refits and campaign-scale tests remain.
 Replacement for AXIS 2.3.1, not an add-on to it. Targets JGRPP 0.73.4 and
 Extreme Classic. It is not a save-compatible swap for original AXIS.
 No installation or scenario mutation is performed by the build scripts.
@@ -64,6 +65,8 @@ Outputs:
   and build instructions, produced by package.py.
 * `dist/build-result.json`, `.work/logs/`, and committed `validation-result.json`.
 * `runtime-result.json`: exact engine/binary hashes and the 16 headless cases.
+* `production-result.json`: transported inputs, persisted stockpiles, steel/slag
+  output and downstream steel delivery in a disposable 1860 world.
 
 The binary, prepared sources, render caches and environment are deliberately
 ignored to avoid committing large generated/third-party files. The small
@@ -73,6 +76,7 @@ against a pristine export. `prepare.py` is the authoritative reproducible patche
 See [attribution](ATTRIBUTION.md), [implementation](../../docs/AXIS_HISTORICAL_IMPLEMENTATION.md),
 [cargo validation](../../docs/AXIS_HISTORICAL_CARGO_VALIDATION.md) and
 [manual JGRPP test plan](../../docs/AXIS_HISTORICAL_TEST_PLAN.md).
+See also [production verification](../../docs/AXIS_HISTORICAL_PRODUCTION_VERIFICATION.md).
 
 For the optional Windows runtime harness, extract the official
 [JGRPP 0.73.4 win64 ZIP](https://github.com/JGRennison/OpenTTD-patches/releases/tag/jgrpp-0.73.4)
