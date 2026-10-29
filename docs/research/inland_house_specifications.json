@@ -1,0 +1,667 @@
+{
+  "engine_source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src\\table\\town_land.h",
+  "engine_source_sha256": "1fdfcd01eb101d6ad8ea68c386dc42c2096bbf6cc01fc4c228488198a2677b1f",
+  "method": "Vanilla house IDs from MAP8 & 0xfff; town index from MAP2; completed/protected M3LO bits 7/5, per JGRPP 0.73.4 town_map.h. Only ordinary 1x1 houses; no NewGRF houses assumed.",
+  "houses": {
+    "0": {
+      "population": 187,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "1": {
+      "population": 85,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_1"
+    },
+    "2": {
+      "population": 40,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SMALL_BLOCK_OF_FLATS_1"
+    },
+    "3": {
+      "population": 5,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+    },
+    "4": {
+      "population": 220,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_LARGE_OFFICE_BLOCK_1"
+    },
+    "5": {
+      "population": 220,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_LARGE_OFFICE_BLOCK_1"
+    },
+    "6": {
+      "population": 30,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TOWN_HOUSES_1"
+    },
+    "7": {
+      "population": 140,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+    },
+    "8": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+    },
+    "9": {
+      "population": 0,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_STATUE_1"
+    },
+    "10": {
+      "population": 0,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_FOUNTAIN_1"
+    },
+    "11": {
+      "population": 0,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_PARK_1"
+    },
+    "12": {
+      "population": 0,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_PARK_1"
+    },
+    "13": {
+      "population": 150,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_2"
+    },
+    "14": {
+      "population": 95,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "15": {
+      "population": 95,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "16": {
+      "population": 95,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "17": {
+      "population": 130,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_MODERN_OFFICE_BUILDING_1"
+    },
+    "18": {
+      "population": 6,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_WAREHOUSE_1"
+    },
+    "19": {
+      "population": 110,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_OFFICE_BLOCK_3"
+    },
+    "20": {
+      "population": 65,
+      "one_tile": false,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+    },
+    "21": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+    },
+    "22": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+    },
+    "23": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_1"
+    },
+    "24": {
+      "population": 15,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_OLD_HOUSES_1"
+    },
+    "25": {
+      "population": 12,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_COTTAGES_1"
+    },
+    "26": {
+      "population": 13,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_1"
+    },
+    "27": {
+      "population": 100,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "28": {
+      "population": 170,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_2"
+    },
+    "29": {
+      "population": 100,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_2"
+    },
+    "30": {
+      "population": 180,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_3"
+    },
+    "31": {
+      "population": 35,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_THEATER_1"
+    },
+    "32": {
+      "population": 65,
+      "one_tile": false,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+    },
+    "33": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+    },
+    "34": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+    },
+    "35": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_STADIUM_2"
+    },
+    "36": {
+      "population": 140,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_OFFICES_1"
+    },
+    "37": {
+      "population": 15,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "38": {
+      "population": 15,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "39": {
+      "population": 35,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_CINEMA_1"
+    },
+    "40": {
+      "population": 180,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+    },
+    "41": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+    },
+    "42": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+    },
+    "43": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPPING_MALL_1"
+    },
+    "44": {
+      "population": 80,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "45": {
+      "population": 80,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "46": {
+      "population": 16,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "47": {
+      "population": 16,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "48": {
+      "population": 14,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "49": {
+      "population": 14,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "50": {
+      "population": 135,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "51": {
+      "population": 135,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "52": {
+      "population": 170,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "53": {
+      "population": 170,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "54": {
+      "population": 210,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "55": {
+      "population": 210,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "56": {
+      "population": 10,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "57": {
+      "population": 10,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "58": {
+      "population": 25,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "59": {
+      "population": 25,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "60": {
+      "population": 6,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+    },
+    "61": {
+      "population": 6,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+    },
+    "62": {
+      "population": 17,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "63": {
+      "population": 17,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "64": {
+      "population": 90,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "65": {
+      "population": 90,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "66": {
+      "population": 140,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+    },
+    "67": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+    },
+    "68": {
+      "population": 140,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+    },
+    "69": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOTEL_1"
+    },
+    "70": {
+      "population": 105,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "71": {
+      "population": 105,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "72": {
+      "population": 190,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "73": {
+      "population": 190,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "74": {
+      "population": 250,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "75": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "76": {
+      "population": 250,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "77": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "78": {
+      "population": 16,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "79": {
+      "population": 16,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "80": {
+      "population": 16,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "81": {
+      "population": 7,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "82": {
+      "population": 45,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "83": {
+      "population": 8,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+    },
+    "84": {
+      "population": 18,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "85": {
+      "population": 90,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "86": {
+      "population": 120,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "87": {
+      "population": 250,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "88": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "89": {
+      "population": 80,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_FLATS_1"
+    },
+    "90": {
+      "population": 180,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "91": {
+      "population": 8,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_CHURCH_1"
+    },
+    "92": {
+      "population": 18,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "93": {
+      "population": 7,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "94": {
+      "population": 15,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "95": {
+      "population": 17,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "96": {
+      "population": 19,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "97": {
+      "population": 21,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "98": {
+      "population": 75,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "99": {
+      "population": 35,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "100": {
+      "population": 0,
+      "one_tile": false,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_HOUSES_2"
+    },
+    "101": {
+      "population": 85,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "102": {
+      "population": 11,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_IGLOO_1"
+    },
+    "103": {
+      "population": 10,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TEPEES_1"
+    },
+    "104": {
+      "population": 67,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "105": {
+      "population": 86,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_SHOPS_AND_OFFICES_1"
+    },
+    "106": {
+      "population": 95,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TALL_OFFICE_BLOCK_1"
+    },
+    "107": {
+      "population": 30,
+      "one_tile": true,
+      "ordinary": false,
+      "building_name": "STR_TOWN_BUILDING_NAME_STATUE_1"
+    },
+    "108": {
+      "population": 25,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_TEAPOT_HOUSE_1"
+    },
+    "109": {
+      "population": 18,
+      "one_tile": true,
+      "ordinary": true,
+      "building_name": "STR_TOWN_BUILDING_NAME_PIGGY_BANK_1"
+    }
+  }
+}

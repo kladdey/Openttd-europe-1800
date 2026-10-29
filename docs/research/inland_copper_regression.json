@@ -1,0 +1,27 @@
+{
+  "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\phase6c-regression-copper-1793266530642914900",
+  "evidence": "VERIFIED IN GAME",
+  "scope": "Controlled disposable 256x256 recipe regression; not Europe route profitability",
+  "engine_log_sha256": "d3f057f63a4c54f8d339c86f6beabb0ba6781f458936203e9d3a5133f4a6b0bf",
+  "script_sha256": "ab90e1016c31ad355967423b1a3ba6bca0f398ba5cfd9236b515229a2568d58f",
+  "events": [
+    "dbg: [script:4] [18] [I] I6 CONTROL_INDUSTRY|64|0|40985",
+    "dbg: [script:4] [18] [I] I6 CONTROL_INDUSTRY|0|1|41010",
+    "dbg: [script:4] [18] [I] I6 CONTROL_INDUSTRY|10|2|33305",
+    "dbg: [script:4] [18] [I] I6 CONTROL_INDUSTRY|123|3|41030",
+    "dbg: [script:4] [18] [I] I6 CONTROL_INDUSTRY|46|4|48449",
+    "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|ore_to_copper|0|3|40729|40774|0|2",
+    "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|coal_to_copper|1|3|40754|40774|4|6",
+    "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|sand_to_copper|2|3|33049|40774|8|10",
+    "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|copper_to_export|3|4|40518|48193|12|14",
+    "dbg: [script:4] [18] [I] I6 CONTROL_NEGATIVE|copper_ore_only|6|0|0|0",
+    "dbg: [script:4] [18] [I] I6 CONTROL_PAID|ore_to_copper|2|152|0|40774",
+    "dbg: [script:4] [18] [I] I6 CONTROL_PAID|coal_to_copper|4|67|0|40774",
+    "dbg: [script:4] [18] [I] I6 CONTROL_NEGATIVE|copper_missing_sand|32|22|0|0",
+    "dbg: [script:4] [18] [I] I6 CONTROL_PAID|sand_to_copper|8|260|0|40774",
+    "dbg: [script:4] [18] [I] I6 CONTROL_PRODUCTION|4",
+    "dbg: [script:4] [18] [I] I6 CONTROL_PAID|copper_to_export|12|43|0|48193",
+    "dbg: [script:4] [18] [I] I6 CONTROL_PASS|copper|production=0|output_paid=true",
+    "dbg: [script:4] [18] [I] C6 DONE production control"
+  ]
+}

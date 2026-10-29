@@ -23,7 +23,7 @@ EXPECTED='9b4dbd70e27653fcb72d5778993988d257d5f83adcaf4a394c01af110d366735'
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
-def run(script,tag,ticks=15000,source=SOURCE,unpaused=False):
+def run(script,tag,ticks=15000,source=SOURCE,unpaused=False,stop_on_script_error=False):
     if not __debug__:raise SystemExit('Safety assertions required; do not run with Python -O')
     assert sha(SOURCE)==EXPECTED
     home=BASE/(tag+'-'+str(time.time_ns()));home.mkdir(parents=True)
@@ -70,7 +70,21 @@ currency = GBP
     cmd=[str(ENGINE),'-X','-x','-c',str(home/'probe.cfg'),'-g',str(home/'probe.scn'),'-v',f'null:ticks={ticks}','-s','null','-m','null','-d','script=4']
     (home/'manifest.json').write_text(json.dumps(dict(source=str(source),source_sha256=sha(source),script_sha256=sha(game/'main.nut'),unpaused_movement_test=unpaused,command=cmd),indent=2))
     with log.open('w',encoding='utf8') as f:
-        subprocess.run(cmd,cwd=home,stdout=f,stderr=subprocess.STDOUT,timeout=300,creationflags=subprocess.CREATE_NO_WINDOW,check=True)
+        if not stop_on_script_error:
+            subprocess.run(cmd,cwd=home,stdout=f,stderr=subprocess.STDOUT,timeout=300,creationflags=subprocess.CREATE_NO_WINDOW,check=True)
+        else:
+            process=subprocess.Popen(cmd,cwd=home,stdout=f,stderr=subprocess.STDOUT,creationflags=subprocess.CREATE_NO_WINDOW)
+            start=time.monotonic()
+            try:
+                while process.poll() is None:
+                    time.sleep(.25)
+                    text=log.read_text(encoding='utf8',errors='replace')
+                    if any(marker in text for marker in ['Your script made an error','Failed to compile','The script died unexpectedly.']):
+                        raise RuntimeError('Script failed; raw evidence retained in '+str(home))
+                    if time.monotonic()-start>300:raise subprocess.TimeoutExpired(cmd,300)
+                if process.returncode:raise subprocess.CalledProcessError(process.returncode,cmd)
+            finally:
+                if process.poll() is None:process.kill();process.wait()
     assert sha(SOURCE)==EXPECTED
     print(home,flush=True)
     print('\n'.join(s for s in log.read_text(errors='replace').splitlines() if 'C6 DONE' in s or 'Error ' in s),flush=True)

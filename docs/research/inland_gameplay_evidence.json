@@ -1,0 +1,1078 @@
+[
+  {
+    "case": "coastal_food",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_food-cheapest-fleet2-1793265552718496800",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "d7d83903876e13e3f1543505ae79d792df385fd519f22fa161ba9cc745ef7e02",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FISH",
+        "a": 141,
+        "b": 413,
+        "mode": "ship",
+        "manhattan": 29,
+        "a_tile": 10750068,
+        "b_tile": 10799203
+      },
+      {
+        "label": "FOOD",
+        "a": 413,
+        "b": 154,
+        "mode": "ship",
+        "manhattan": 29,
+        "a_tile": 10799203,
+        "b_tile": 10741874
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|2218|15232|82548|100000",
+      "CHAIN_PAID|284|legs=2",
+      "FINANCE|1800|17003|30000|16291|2218,15232,0,0,0,1958,252,0,0,0,-7574,600,300,0,0,",
+      "FINANCE|1801|26461|30000|22701|0,0,0,0,0,2276,252,0,0,0,-12884,600,300,0,0,",
+      "FINANCE|1802|36473|30000|30177|0,0,0,0,0,2389,252,0,0,0,-13555,600,300,0,0,",
+      "COMPLETE|all_paid=true|cash=36473|loan=30000|elapsed=1096"
+    ],
+    "paid_events": [
+      "FISH_141_413|0|916|2|10807397",
+      "FOOD_413_154|3|1336|2|10733681"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "d7d83903876e13e3f1543505ae79d792df385fd519f22fa161ba9cc745ef7e02",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_food-cheapest-fleet2-1793265552718496800\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_food-cheapest-fleet2-1793265552718496800\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "6347f7fd72604a28c4a46e98ecb8a62a8b1403caa3b810f5d2dde7f0a11329f4",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FISH_141_413|141|413|10758259|10799205|0|1",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FOOD_413_154|413|154|10807393|10741873|2|3",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|2218|15232|82548|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FISH_141_413|0|916|2|10807397",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FOOD_413_154|3|1336|2|10733681",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|284|legs=2",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|17003|30000|16291|2218,15232,0,0,0,1958,252,0,0,0,-7574,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|26461|30000|22701|0,0,0,0,0,2276,252,0,0,0,-12884,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|36473|30000|30177|0,0,0,0,0,2389,252,0,0,0,-13555,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=36473|loan=30000|elapsed=1096"
+    ]
+  },
+  {
+    "case": "coastal_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods-cheapest-fleet2-1793266647494727300",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "47403ae86bf4809da6bfca01b0c75c53f617a9e04cd28f200932bcf08ab1a2d2",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 175,
+        "b": 358,
+        "mode": "road",
+        "manhattan": 50,
+        "a_tile": 3840927,
+        "b_tile": 3898235
+      },
+      {
+        "label": "GOOD",
+        "a": 358,
+        "b": 458,
+        "mode": "road",
+        "manhattan": 124,
+        "a_tile": 3898235,
+        "b_tile": 3959784
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|Route construction blocked FICR_175_358"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "47403ae86bf4809da6bfca01b0c75c53f617a9e04cd28f200932bcf08ab1a2d2",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods-cheapest-fleet2-1793266647494727300\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods-cheapest-fleet2-1793266647494727300\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "71ebda287d322be634053404c802785a3b5cf2443d50bf4015b4646f2d2320e0",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|43|402|1 Horse Hopper Carriage",
+      "dbg: [script:1] [18] [E] M6 SERVICE_ERROR|Route construction blocked FICR_175_358"
+    ]
+  },
+  {
+    "case": "coastal_goods_water",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods_water-cheapest-fleet2-1793266799208811900",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "37898b2735fa88586af7d958c382d1adbdd95c2d67261d100a81baf97265ba0d",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 176,
+        "b": 358,
+        "mode": "ship",
+        "manhattan": 83,
+        "a_tile": 3615597,
+        "b_tile": 3898235
+      },
+      {
+        "label": "GOOD",
+        "a": 358,
+        "b": 458,
+        "mode": "ship",
+        "manhattan": 124,
+        "a_tile": 3898235,
+        "b_tile": 3959784
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|Ship fixture failed FICR_176_358"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "37898b2735fa88586af7d958c382d1adbdd95c2d67261d100a81baf97265ba0d",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods_water-cheapest-fleet2-1793266799208811900\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods_water-cheapest-fleet2-1793266799208811900\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "dc795169f8dbce4d1ef9c1c2357867d6b973ca0616702473aa6f848da45dab81",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:1] [18] [E] M6 SERVICE_ERROR|Ship fixture failed FICR_176_358"
+    ]
+  },
+  {
+    "case": "copper_regression",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "partial/empty departures allowed",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-copper_regression-cheapest-fleet2-1793266437907154600",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "a9e8aac95e101a5e8bf410f8ca905adf89a3ff003868a405870cd0e30713962f",
+    "grant": true,
+    "years_requested": 8,
+    "legs": [
+      {
+        "label": "CORE",
+        "a": 439,
+        "b": 440,
+        "mode": "road",
+        "manhattan": 317,
+        "a_tile": 3980381,
+        "b_tile": 5110836
+      },
+      {
+        "label": "COAL",
+        "a": 0,
+        "b": 440,
+        "mode": "road",
+        "manhattan": 69,
+        "a_tile": 5045247,
+        "b_tile": 5110836
+      },
+      {
+        "label": "SAND",
+        "a": 441,
+        "b": 440,
+        "mode": "road",
+        "manhattan": 9,
+        "a_tile": 5073972,
+        "b_tile": 5110836
+      },
+      {
+        "label": "COPR",
+        "a": 440,
+        "b": 456,
+        "mode": "road",
+        "manhattan": 25,
+        "a_tile": 5110836,
+        "b_tile": 5196856
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|1000100000|100000|300000|grant=true|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|Route construction blocked COPR_440_456"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "a9e8aac95e101a5e8bf410f8ca905adf89a3ff003868a405870cd0e30713962f",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-copper_regression-cheapest-fleet2-1793266437907154600\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-copper_regression-cheapest-fleet2-1793266437907154600\\probe.scn",
+        "-v",
+        "null:ticks=270000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "7b0e78b792ac1cbd671fe9d7890b7aa2d2f72d8a22ff132cf16eb30e5b8e07d4",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|1000100000|100000|300000|grant=true|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|18|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|CORE_439_440|439|440|3976285|5106740|0|2",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|14|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|COAL_0_440|0|440|5045246|5106740|4|6",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|51|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|SAND_441_440|441|440|5069876|5106740|8|10",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|17|378|1 Horse Flatbed Carriage",
+      "dbg: [script:1] [18] [E] M6 SERVICE_ERROR|Route construction blocked COPR_440_456"
+    ]
+  },
+  {
+    "case": "farm_fruit",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-farm_fruit-cheapest-fleet2-1793266552944104300",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "425134fef8f5fea051d2bb59cb26affe7ba23f02026eb0a697836883c023a4a5",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FRUT",
+        "a": 171,
+        "b": 538,
+        "mode": "road",
+        "manhattan": 40,
+        "a_tile": 13253339,
+        "b_tile": 13318851
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|12177|1148|86674|100000",
+      "CHAIN_PAID|163|legs=1",
+      "FINANCE|1800|15284|30000|1|12177,1148,0,167,0,0,648,0,-325,0,0,600,300,0,0,",
+      "FINANCE|1801|14222|30000|1|0,0,0,167,0,0,648,0,-653,0,0,600,300,0,0,",
+      "FINANCE|1802|13002|30000|1|0,0,0,167,0,0,648,0,-330,0,0,600,300,0,0,",
+      "COMPLETE|all_paid=true|cash=13002|loan=30000|elapsed=1096"
+    ],
+    "paid_events": [
+      "FRUT_171_538|0|163|0|13314755"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "425134fef8f5fea051d2bb59cb26affe7ba23f02026eb0a697836883c023a4a5",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-farm_fruit-cheapest-fleet2-1793266552944104300\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-farm_fruit-cheapest-fleet2-1793266552944104300\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "dd6dc25693c7d5884b8211efcb6f8a7d07a46c7c76f1b079e3f00ebf46fa79c4",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|26|430|1 Horse Ice Box Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FRUT_171_538|171|538|13249243|13314755|0|2",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|12177|1148|86674|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FRUT_171_538|0|163|0|13314755",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|163|legs=1",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|15284|30000|1|12177,1148,0,167,0,0,648,0,-325,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|14222|30000|1|0,0,0,167,0,0,648,0,-653,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|13002|30000|1|0,0,0,167,0,0,648,0,-330,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=13002|loan=30000|elapsed=1096"
+    ]
+  },
+  {
+    "case": "farm_fruit",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 8,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-farm_fruit-cheapest-fleet8-1793264572740102300",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "b61ad3ac50017dcb2581b0b33f22c71e11b2771e5f165e988dd9d7158acdd94b",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FRUT",
+        "a": 171,
+        "b": 538,
+        "mode": "road",
+        "manhattan": 40,
+        "a_tile": 13253339,
+        "b_tile": 13318851
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|12177|4592|83230|100000",
+      "FINANCE|1800|11018|30000|1|12177,4592,0,664,0,0,648,0,0,0,0,600,300,0,0,",
+      "CHAIN_PAID|372|legs=1",
+      "FINANCE|1801|11380|30000|1|0,0,0,672,0,0,648,0,-2584,0,0,600,300,0,0,",
+      "FINANCE|1802|10694|30000|1|0,0,0,756,0,0,648,0,-1617,0,0,600,300,0,0,",
+      "COMPLETE|all_paid=true|cash=10694|loan=30000|elapsed=1096"
+    ],
+    "paid_events": [
+      "FRUT_171_538|4|161|0|13314755"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "b61ad3ac50017dcb2581b0b33f22c71e11b2771e5f165e988dd9d7158acdd94b",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-farm_fruit-cheapest-fleet8-1793264572740102300\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-farm_fruit-cheapest-fleet8-1793264572740102300\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "312dc864d0bec4bb6026076b385a41af9ce84752de75bceb43eae2823163e11c",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|26|430|1 Horse Ice Box Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FRUT_171_538|171|538|13249243|13314755|0|2",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|12177|4592|83230|100000",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|11018|30000|1|12177,4592,0,664,0,0,648,0,0,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FRUT_171_538|4|161|0|13314755",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|372|legs=1",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|11380|30000|1|0,0,0,672,0,0,648,0,-2584,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|10694|30000|1|0,0,0,756,0,0,648,0,-1617,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=10694|loan=30000|elapsed=1096"
+    ]
+  },
+  {
+    "case": "local_food",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_food-cheapest-fleet2-1793265925369478000",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "abd51d9f6815d0401ede8512caa0540eddb96a3d42f26c3e6ea5142e4b84e96a",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "GRAI",
+        "a": 66,
+        "b": 275,
+        "mode": "road",
+        "manhattan": 31,
+        "a_tile": 6234718,
+        "b_tile": 6173294
+      },
+      {
+        "label": "FOOD",
+        "a": 275,
+        "b": 474,
+        "mode": "road",
+        "manhattan": 17,
+        "a_tile": 6173294,
+        "b_tile": 6197881
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|11445|2296|86258|100000",
+      "FINANCE|1800|15050|30000|1|11445,2296,0,273,0,0,564,0,-530,0,0,600,300,0,0,",
+      "CHAIN_PAID|388|legs=2",
+      "FINANCE|1801|13909|30000|1|0,0,0,299,0,0,564,0,-621,0,0,600,300,0,0,",
+      "FINANCE|1802|12949|30000|1|0,0,0,304,0,0,564,0,-809,0,0,600,300,0,0,",
+      "COMPLETE|all_paid=true|cash=12949|loan=30000|elapsed=1096"
+    ],
+    "paid_events": [
+      "GRAI_66_275|2|133|0|6169198",
+      "FOOD_275_474|4|90|0|6201977"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "abd51d9f6815d0401ede8512caa0540eddb96a3d42f26c3e6ea5142e4b84e96a",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_food-cheapest-fleet2-1793265925369478000\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_food-cheapest-fleet2-1793265925369478000\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "bee90cf1d9815bebd163a260165fe376babca52eab9036a6a4ddabd318ed2398",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|28|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|GRAI_66_275|66|275|6234717|6169198|0|2",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|11|430|1 Horse Ice Box Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FOOD_275_474|275|474|6173292|6201977|4|6",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|11445|2296|86258|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|GRAI_66_275|2|133|0|6169198",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|15050|30000|1|11445,2296,0,273,0,0,564,0,-530,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FOOD_275_474|4|90|0|6201977",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|388|legs=2",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|13909|30000|1|0,0,0,299,0,0,564,0,-621,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|12949|30000|1|0,0,0,304,0,0,564,0,-809,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=12949|loan=30000|elapsed=1096"
+    ]
+  },
+  {
+    "case": "local_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_goods-cheapest-fleet2-1793266070989917600",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "7b15881f95210b8a742bd2f527be45f36d15f0ced5d0b936123f2b8c913f6d9b",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 187,
+        "b": 370,
+        "mode": "road",
+        "manhattan": 45,
+        "a_tile": 6104269,
+        "b_tile": 6157485
+      },
+      {
+        "label": "GOOD",
+        "a": 370,
+        "b": 522,
+        "mode": "road",
+        "manhattan": 20,
+        "a_tile": 6157485,
+        "b_tile": 6177980
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|14898|2296|82805|100000",
+      "FINANCE|1800|11117|30000|1|14898,2296,0,285,0,0,828,0,-325,0,0,600,300,0,0,",
+      "FINANCE|1801|9747|30000|1|0,0,0,292,0,0,828,0,-650,0,0,600,300,0,0,",
+      "CHAIN_PAID|757|legs=2",
+      "FINANCE|1802|8041|30000|1|0,0,0,340,0,0,828,0,-363,0,0,600,300,0,0,",
+      "COMPLETE|all_paid=true|cash=8041|loan=30000|elapsed=1096"
+    ],
+    "paid_events": [
+      "FICR_187_370|2|164|0|6153389",
+      "GOOD_370_522|4|42|0|6169788"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "7b15881f95210b8a742bd2f527be45f36d15f0ced5d0b936123f2b8c913f6d9b",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_goods-cheapest-fleet2-1793266070989917600\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_goods-cheapest-fleet2-1793266070989917600\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "c6e5f7796570e06a58d58b0ef800418281dd07cf7200ff72ce7470e324a6288e",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|43|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FICR_187_370|187|370|6100173|6153389|0|2",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|5|203|1 Horse Covered Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|GOOD_370_522|370|522|6165677|6169788|4|6",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|14898|2296|82805|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FICR_187_370|2|164|0|6153389",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|11117|30000|1|14898,2296,0,285,0,0,828,0,-325,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|9747|30000|1|0,0,0,292,0,0,828,0,-650,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|GOOD_370_522|4|42|0|6169788",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|757|legs=2",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|8041|30000|1|0,0,0,340,0,0,828,0,-363,0,0,600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=8041|loan=30000|elapsed=1096"
+    ]
+  },
+  {
+    "case": "long_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-long_goods-cheapest-fleet2-1793266450609234100",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "77396c12c04e30651df21e1451e052e4bf9f45bbd58d5a42f4db5121a7c5844f",
+    "grant": false,
+    "years_requested": 5,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 181,
+        "b": 364,
+        "mode": "road",
+        "manhattan": 48,
+        "a_tile": 7116682,
+        "b_tile": 7165798
+      },
+      {
+        "label": "GOOD",
+        "a": 364,
+        "b": 481,
+        "mode": "road",
+        "manhattan": 164,
+        "a_tile": 7165798,
+        "b_tile": 7059164
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|49203|2296|48499|100000",
+      "FINANCE|1800|12973|70000|1|49203,2296,0,271,0,0,3864,0,-309,0,0,1400,300,0,0,",
+      "FINANCE|1801|7539|70000|1|0,0,0,328,0,0,3864,0,-457,0,0,1400,300,0,0,",
+      "BORROW|658348|80000",
+      "FINANCE|1802|12007|80000|1|0,0,0,314,0,0,3864,0,-446,0,0,1500,300,0,0,",
+      "CHAIN_PAID|1200|legs=2",
+      "FINANCE|1803|6283|80000|1|0,0,0,292,0,0,3864,0,-332,0,0,1600,300,0,0,",
+      "BORROW|658988|90000",
+      "FINANCE|1804|10587|90000|1|0,0,0,421,0,0,3864,0,-640,0,0,1750,300,0,0,",
+      "COMPLETE|all_paid=true|cash=10587|loan=90000|elapsed=1827"
+    ],
+    "paid_events": [
+      "FICR_181_364|2|160|0|7161702",
+      "GOOD_364_481|4|20|0|7063260"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "77396c12c04e30651df21e1451e052e4bf9f45bbd58d5a42f4db5121a7c5844f",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-long_goods-cheapest-fleet2-1793266450609234100\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-long_goods-cheapest-fleet2-1793266450609234100\\probe.scn",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "6bf8ee5bc94f02c6204f240867532a0cfbde326b29945d2c51a8bde61d637fde",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|43|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FICR_181_364|181|364|7112586|7161702|0|2",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|5|203|1 Horse Covered Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|GOOD_364_481|364|481|7165796|7063260|4|6",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|49203|2296|48499|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FICR_181_364|2|160|0|7161702",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|12973|70000|1|49203,2296,0,271,0,0,3864,0,-309,0,0,1400,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|7539|70000|1|0,0,0,328,0,0,3864,0,-457,0,0,1400,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 BORROW|658348|80000",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|12007|80000|1|0,0,0,314,0,0,3864,0,-446,0,0,1500,300,0,0,",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|GOOD_364_481|4|20|0|7063260",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|1200|legs=2",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1803|6283|80000|1|0,0,0,292,0,0,3864,0,-332,0,0,1600,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 BORROW|658988|90000",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1804|10587|90000|1|0,0,0,421,0,0,3864,0,-640,0,0,1750,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=10587|loan=90000|elapsed=1827"
+    ]
+  },
+  {
+    "case": "rail_food",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-rail_food-cheapest-fleet2-1793265935477414100",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "d6eb50063d9aa50db23df8bcdbdec9b7509181cf48fc36579a953d0aaf4fd2d7",
+    "grant": false,
+    "years_requested": 5,
+    "legs": [
+      {
+        "label": "GRAI",
+        "a": 66,
+        "b": 275,
+        "mode": "rail",
+        "manhattan": 31,
+        "a_tile": 6234718,
+        "b_tile": 6173294
+      },
+      {
+        "label": "FOOD",
+        "a": 275,
+        "b": 474,
+        "mode": "road",
+        "manhattan": 17,
+        "a_tile": 6173294,
+        "b_tile": 6197881
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "TRAIN|1534|2-2-0 Planet (Steam)|1430|Open Wagon|44|72",
+      "RAIL_LINK|0|6230622|6230621|6226525|true",
+      "RAIL_LINK|1|6230621|6226525|6222429|true",
+      "RAIL_LINK|2|6226525|6222429|6222430|true",
+      "RAIL_LINK|3|6222429|6222430|6222431|true",
+      "RAIL_LINK|4|6222430|6222431|6222432|true",
+      "RAIL_LINK|5|6222431|6222432|6222433|true",
+      "RAIL_LINK|6|6222432|6222433|6222434|true",
+      "RAIL_LINK|7|6222433|6222434|6222435|true",
+      "RAIL_LINK|8|6222434|6222435|6222436|true",
+      "RAIL_LINK|9|6222435|6222436|6222437|true",
+      "RAIL_LINK|10|6222436|6222437|6222438|true",
+      "RAIL_LINK|11|6222437|6222438|6222439|true",
+      "RAIL_LINK|12|6222438|6222439|6222440|true",
+      "RAIL_LINK|13|6222439|6222440|6222441|true",
+      "RAIL_LINK|14|6222440|6222441|6222442|true",
+      "RAIL_LINK|15|6222441|6222442|6222443|true",
+      "RAIL_LINK|16|6222442|6222443|6222444|true",
+      "RAIL_LINK|17|6222443|6222444|6222445|true",
+      "RAIL_LINK|18|6222444|6222445|6222446|true",
+      "RAIL_LINK|19|6222445|6222446|6222447|true",
+      "RAIL_LINK|20|6222446|6222447|6222448|true",
+      "RAIL_LINK|21|6222447|6222448|6222449|true",
+      "RAIL_LINK|22|6222448|6222449|6222450|true",
+      "RAIL_LINK|23|6222449|6222450|6222451|true",
+      "RAIL_LINK|24|6222450|6222451|6218355|true",
+      "RAIL_LINK|25|6222451|6218355|6214259|true",
+      "RAIL_LINK|26|6218355|6214259|6210163|true",
+      "RAIL_LINK|27|6214259|6210163|6206067|true",
+      "RAIL_LINK|28|6210163|6206067|6201971|true",
+      "RAIL_LINK|29|6206067|6201971|6197875|true",
+      "RAIL_LINK|30|6201971|6197875|6193779|true",
+      "RAIL_LINK|31|6197875|6193779|6189683|true",
+      "RAIL_LINK|32|6193779|6189683|6185587|true",
+      "RAIL_LINK|33|6189683|6185587|6181491|true",
+      "RAIL_LINK|34|6185587|6181491|6177395|true",
+      "RAIL_LINK|35|6181491|6177395|6173299|true",
+      "RAIL_LINK|36|6177395|6173299|6169203|true",
+      "RAIL_LINK|37|6173299|6169203|6169202|true",
+      "RAIL_LINK|38|6169203|6169202|6169201|true",
+      "CAPITAL|11842|11731|76426|100000",
+      "CHAIN_PAID|131|legs=2",
+      "FINANCE|1800|18973|40000|4553|11842,11731,808,138,0,0,516,-4626,-375,0,0,800,300,0,0,",
+      "FINANCE|1801|22883|40000|6828|0,0,617,169,0,0,523,-5699,-729,0,0,800,300,0,0,",
+      "FINANCE|1802|26647|40000|9220|0,0,612,178,0,0,528,-5700,-484,0,0,800,300,0,0,",
+      "FINANCE|1803|29008|40000|10372|0,0,867,167,0,0,528,-4529,-494,0,0,800,300,0,0,",
+      "FINANCE|1804|32922|40000|13265|0,0,749,144,0,0,528,-5700,-734,0,0,800,300,0,0,",
+      "COMPLETE|all_paid=true|cash=32922|loan=40000|elapsed=1827"
+    ],
+    "paid_events": [
+      "GRAI_66_275|0|1188|0|6169198",
+      "FOOD_275_474|15|125|0|6201977"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "d6eb50063d9aa50db23df8bcdbdec9b7509181cf48fc36579a953d0aaf4fd2d7",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-rail_food-cheapest-fleet2-1793265935477414100\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-rail_food-cheapest-fleet2-1793265935477414100\\probe.scn",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "f321156cd45ba3f2e7dd93a8657f31990c82418f9a26aef3d53e67ba0751dab7",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] M6 TRAIN|1534|2-2-0 Planet (Steam)|1430|Open Wagon|44|72",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|11|430|1 Horse Ice Box Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FOOD_275_474|275|474|6173292|6201977|15|17",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|0|6230622|6230621|6226525|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|1|6230621|6226525|6222429|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|2|6226525|6222429|6222430|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|3|6222429|6222430|6222431|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|4|6222430|6222431|6222432|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|5|6222431|6222432|6222433|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|6|6222432|6222433|6222434|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|7|6222433|6222434|6222435|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|8|6222434|6222435|6222436|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|9|6222435|6222436|6222437|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|10|6222436|6222437|6222438|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|11|6222437|6222438|6222439|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|12|6222438|6222439|6222440|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|13|6222439|6222440|6222441|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|14|6222440|6222441|6222442|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|15|6222441|6222442|6222443|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|16|6222442|6222443|6222444|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|17|6222443|6222444|6222445|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|18|6222444|6222445|6222446|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|19|6222445|6222446|6222447|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|20|6222446|6222447|6222448|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|21|6222447|6222448|6222449|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|22|6222448|6222449|6222450|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|23|6222449|6222450|6222451|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|24|6222450|6222451|6218355|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|25|6222451|6218355|6214259|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|26|6218355|6214259|6210163|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|27|6214259|6210163|6206067|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|28|6210163|6206067|6201971|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|29|6206067|6201971|6197875|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|30|6201971|6197875|6193779|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|31|6197875|6193779|6189683|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|32|6193779|6189683|6185587|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|33|6189683|6185587|6181491|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|34|6185587|6181491|6177395|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|35|6181491|6177395|6173299|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|36|6177395|6173299|6169203|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|37|6173299|6169203|6169202|true",
+      "dbg: [script:4] [18] [I] M6 RAIL_LINK|38|6169203|6169202|6169201|true",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|11842|11731|76426|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|GRAI_66_275|0|1188|0|6169198",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FOOD_275_474|15|125|0|6201977",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|131|legs=2",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|18973|40000|4553|11842,11731,808,138,0,0,516,-4626,-375,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|22883|40000|6828|0,0,617,169,0,0,523,-5699,-729,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|26647|40000|9220|0,0,612,178,0,0,528,-5700,-484,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1803|29008|40000|10372|0,0,867,167,0,0,528,-4529,-494,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1804|32922|40000|13265|0,0,749,144,0,0,528,-5700,-734,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=32922|loan=40000|elapsed=1827"
+    ]
+  },
+  {
+    "case": "regional_food",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-regional_food-cheapest-fleet2-1793266210118113500",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "5091895408ae58fa07ddefa3facc31f9dc2ac95dcd68d2329d3f19042de7b25d",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "GRAI",
+        "a": 47,
+        "b": 257,
+        "mode": "road",
+        "manhattan": 33,
+        "a_tile": 5421644,
+        "b_tile": 5343834
+      },
+      {
+        "label": "FOOD",
+        "a": 257,
+        "b": 479,
+        "mode": "road",
+        "manhattan": 99,
+        "a_tile": 5343834,
+        "b_tile": 5233314
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|20868|2296|76835|100000",
+      "FINANCE|1800|14715|40000|1|20868,2296,0,291,0,0,1248,0,-519,0,0,800,300,0,0,",
+      "CHAIN_PAID|624|legs=2",
+      "FINANCE|1801|12641|40000|1|0,0,0,298,0,0,1248,0,-573,0,0,800,300,0,0,",
+      "FINANCE|1802|10538|40000|1|0,0,0,351,0,0,1248,0,-595,0,0,800,300,0,0,",
+      "COMPLETE|all_paid=true|cash=10538|loan=40000|elapsed=1096"
+    ],
+    "paid_events": [
+      "GRAI_47_257|2|131|0|5339738",
+      "FOOD_257_479|4|184|0|5237411"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "5091895408ae58fa07ddefa3facc31f9dc2ac95dcd68d2329d3f19042de7b25d",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-regional_food-cheapest-fleet2-1793266210118113500\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-regional_food-cheapest-fleet2-1793266210118113500\\probe.scn",
+        "-v",
+        "null:ticks=120000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "a617179f1bb0fc9372504f419b03fbeac5b4dcca59e0b9b785a9ad9175b54ef9",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|28|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|GRAI_47_257|47|257|5417548|5339738|0|2",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|11|430|1 Horse Ice Box Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FOOD_257_479|257|479|5343832|5237411|4|6",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|20868|2296|76835|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|GRAI_47_257|2|131|0|5339738",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|14715|40000|1|20868,2296,0,291,0,0,1248,0,-519,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FOOD_257_479|4|184|0|5237411",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|624|legs=2",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|12641|40000|1|0,0,0,298,0,0,1248,0,-573,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|10538|40000|1|0,0,0,351,0,0,1248,0,-595,0,0,800,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=10538|loan=40000|elapsed=1096"
+    ]
+  },
+  {
+    "case": "salt_regression",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "partial/empty departures allowed",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-salt_regression-cheapest-fleet2-1793266198185819400",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "ec6a3fca04c02cd6fb48c5c4f70e77f1222fc6fe9d652629920f0fa56cf2c68b",
+    "grant": true,
+    "years_requested": 5,
+    "legs": [
+      {
+        "label": "SALT",
+        "a": 443,
+        "b": 445,
+        "mode": "road",
+        "manhattan": 30,
+        "a_tile": 6275694,
+        "b_tile": 6210172
+      },
+      {
+        "label": "LVST",
+        "a": 446,
+        "b": 445,
+        "mode": "road",
+        "manhattan": 59,
+        "a_tile": 6251083,
+        "b_tile": 6210172
+      },
+      {
+        "label": "FOOD",
+        "a": 445,
+        "b": 474,
+        "mode": "road",
+        "manhattan": 6,
+        "a_tile": 6210172,
+        "b_tile": 6197881
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=true|maintenance=1|train_limit=7",
+      "CAPITAL|22985|3444|73570|100000",
+      "FINANCE|1800|69529|100000|1|22985,3444,0,474,0,0,1500,0,-234,0,0,2000,300,0,0,",
+      "CHAIN_PAID|619|legs=3",
+      "FINANCE|1801|65805|100000|1|0,0,0,520,0,0,1500,0,-596,0,0,2000,300,0,0,",
+      "FINANCE|1802|62245|100000|1|0,0,0,483,0,0,1500,0,-723,0,0,2000,300,0,0,",
+      "FINANCE|1803|58533|100000|1|0,0,0,484,0,0,1500,0,-572,0,0,2000,300,0,0,",
+      "FINANCE|1804|54546|100000|1|0,0,0,551,0,0,1500,0,-363,0,0,2000,300,0,0,",
+      "COMPLETE|all_paid=true|cash=54546|loan=100000|elapsed=1827"
+    ],
+    "paid_events": [
+      "SALT_443_445|0|117|0|6206078",
+      "LVST_446_445|6|117|0|6206078",
+      "FOOD_445_474|8|4|0|6201977"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "manifest": {
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300\\inland-markets-candidate.scn",
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "script_sha256": "ec6a3fca04c02cd6fb48c5c4f70e77f1222fc6fe9d652629920f0fa56cf2c68b",
+      "unpaused_movement_test": true,
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-salt_regression-cheapest-fleet2-1793266198185819400\\probe.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-salt_regression-cheapest-fleet2-1793266198185819400\\probe.scn",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ]
+    },
+    "engine_log_sha256": "4481aa594b7ee01d69f713070d3f1898dce1f2504fb399c921b2247e0f2f03e7",
+    "measurements": [
+      "dbg: [script:4] [18] [I] M6 INITIAL|100000|100000|300000|grant=true|maintenance=1|train_limit=7",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|50|402|1 Horse Hopper Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|SALT_443_445|443|445|6271598|6206078|0|2",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|31|378|1 Horse Flatbed Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|LVST_446_445|446|445|6246988|6206078|4|6",
+      "dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|11|430|1 Horse Ice Box Carriage",
+      "dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|FOOD_445_474|445|474|6214265|6201977|8|10",
+      "dbg: [script:4] [18] [I] M6 CAPITAL|22985|3444|73570|100000",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|SALT_443_445|0|117|0|6206078",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1800|69529|100000|1|22985,3444,0,474,0,0,1500,0,-234,0,0,2000,300,0,0,",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|LVST_446_445|6|117|0|6206078",
+      "dbg: [script:4] [18] [I] I6 CONTROL_PAID|FOOD_445_474|8|4|0|6201977",
+      "dbg: [script:4] [18] [I] M6 CHAIN_PAID|619|legs=3",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1801|65805|100000|1|0,0,0,520,0,0,1500,0,-596,0,0,2000,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1802|62245|100000|1|0,0,0,483,0,0,1500,0,-723,0,0,2000,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1803|58533|100000|1|0,0,0,484,0,0,1500,0,-572,0,0,2000,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 FINANCE|1804|54546|100000|1|0,0,0,551,0,0,1500,0,-363,0,0,2000,300,0,0,",
+      "dbg: [script:4] [18] [I] M6 COMPLETE|all_paid=true|cash=54546|loan=100000|elapsed=1827"
+    ]
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "industry_id": 467,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|0|467|59|335|7435245|25|5489|5477|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 468,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|1|468|57|335|7451627|25|5477|5465|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 469,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|2|469|59|180|5818455|25|1405|1393|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 470,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|3|470|57|180|5818456|25|1393|1381|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 471,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|4|471|59|216|9295580|25|2883|2871|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 472,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|5|472|57|216|9295579|25|2871|2859|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 473,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|6|473|61|483|12263911|25|445|433|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 474,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|7|474|61|167|6197881|25|559|547|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 475,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|8|475|61|66|6789824|25|865|853|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 476,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|9|476|61|178|5346704|25|757|745|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 477,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|10|477|61|435|8766052|25|430|418|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 478,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|11|478|61|606|3625036|25|490|478|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 479,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|12|479|59|191|5233314|25|11004|10992|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 480,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|13|480|57|191|5241509|25|10992|10980|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 481,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|14|481|61|304|7059164|25|511|499|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 482,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|15|482|61|576|771926|25|406|394|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 483,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|16|483|59|252|14210347|25|3129|3117|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 484,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|17|484|57|252|14218538|25|3117|3105|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 485,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|18|485|61|344|4544543|25|430|418|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 486,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|19|486|61|409|5723256|25|448|436|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 487,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|20|487|61|387|4465364|25|433|421|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 488,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|21|488|61|230|8108862|25|1640|1628|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 489,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|22|489|59|134|2288726|25|1675|1663|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 490,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|23|490|57|134|2292820|25|1663|1651|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 491,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|24|491|59|185|13807189|25|4356|4344|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 492,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|25|492|57|185|13807187|25|4344|4332|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 493,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|26|493|61|295|3971890|25|1055|1043|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 494,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|27|494|61|122|9725404|25|700|688|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 495,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|28|495|61|519|1294801|25|445|433|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 496,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|29|496|59|196|9111717|25|2049|2037|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 497,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|30|497|57|196|9095336|25|2037|2025|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 498,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|31|498|61|94|4976146|25|1620|1608|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 499,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|32|499|61|219|5933312|25|472|460|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 500,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|33|500|61|27|7341608|25|692|680|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 501,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|34|501|61|57|4712020|25|640|628|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 502,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|35|502|61|41|3169544|25|598|586|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 503,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|36|503|61|310|10541574|25|1110|1098|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 504,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|37|504|61|294|14728459|25|2170|2158|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 505,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|38|505|59|253|7023016|25|11287|11275|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 506,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|39|506|57|253|6998438|25|11275|11263|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 507,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|40|507|61|509|13197686|25|415|403|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 508,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|41|508|61|599|7976650|25|578|566|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 509,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|42|509|59|199|12680223|25|3726|3714|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 510,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|43|510|57|199|12667936|25|3714|3702|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 511,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|44|511|61|54|9706199|25|2045|2033|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 512,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|45|512|59|280|11687299|25|3679|3667|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 513,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|46|513|57|280|11687302|25|3667|3655|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 514,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|47|514|61|572|1914564|25|618|606|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 515,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|48|515|61|465|9224957|25|565|553|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 516,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|49|516|61|447|8205133|25|532|520|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 517,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|50|517|59|308|9557880|25|2048|2036|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 518,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|51|518|57|308|9557882|25|2036|2024|1|BDMT,GOOD,"
+  },
+  {
+    "industry_id": 519,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|52|519|61|36|5319574|25|848|836|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 520,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|53|520|61|303|7198576|25|1051|1039|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 521,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|54|521|61|528|7168389|25|424|412|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 522,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|55|522|61|268|6177980|25|1814|1802|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 523,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|56|523|61|469|9908990|25|409|397|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 524,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|57|524|61|262|5991503|25|899|887|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 525,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-1793262379989089800",
+    "engine_log_sha256": "cd1b245c2f045a603100d2ced3d0e31a3157f1e5e7dcfba6953dfd16e0e8cf84",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|58|525|61|164|5617607|25|1027|1015|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 526,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|59|526|61|381|4096412|25|310|298|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 527,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|60|527|61|473|9732673|25|316|304|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 528,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|61|528|61|226|4929409|25|325|313|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 529,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|62|529|61|176|4455171|25|365|353|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 530,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|63|530|61|532|4817530|25|376|364|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 531,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|64|531|61|539|2172270|25|334|322|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 532,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|65|532|61|362|4400232|25|379|367|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 533,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|66|533|61|522|2404860|25|347|335|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 534,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|67|534|61|419|7021584|25|373|361|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 535,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793262788855652500",
+    "engine_log_sha256": "645db6510b2215dfdd7e5370e151a447dfa8fcc22438d24a3d43960f1aae6f14",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|68|535|61|445|8122979|25|367|355|1|FOOD,GOOD,BEER,"
+  },
+  {
+    "industry_id": 536,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300",
+    "engine_log_sha256": "46acd4c88fd49195da005ba363563262ed5998f24998e11281f8ba127edaeba8",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|69|536|59|54|9698007|25|2033|2021|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 537,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300",
+    "engine_log_sha256": "46acd4c88fd49195da005ba363563262ed5998f24998e11281f8ba127edaeba8",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|70|537|59|276|6744312|25|721|709|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 538,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300",
+    "engine_log_sha256": "46acd4c88fd49195da005ba363563262ed5998f24998e11281f8ba127edaeba8",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|71|538|59|321|13318851|25|1908|1896|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 539,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300",
+    "engine_log_sha256": "46acd4c88fd49195da005ba363563262ed5998f24998e11281f8ba127edaeba8",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|72|539|59|294|14728461|25|2158|2146|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 540,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300",
+    "engine_log_sha256": "46acd4c88fd49195da005ba363563262ed5998f24998e11281f8ba127edaeba8",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|73|540|59|123|10438149|25|1834|1822|1|FRUT,FOOD,BEER,"
+  },
+  {
+    "industry_id": 541,
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\placement-extension-1793264389160829300",
+    "engine_log_sha256": "46acd4c88fd49195da005ba363563262ed5998f24998e11281f8ba127edaeba8",
+    "measurement": "dbg: [script:4] [18] [I] M6 MARKET|74|541|59|68|14795951|25|505|493|1|FRUT,FOOD,BEER,"
+  }
+]
