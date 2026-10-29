@@ -1,0 +1,13 @@
+<!--! SPDX-License-Identifier: GPL-2.0-only. Input waiting remains stockpiled until a full batch exists. -->
+<tal:include metal:use-macro="load: produce_secondary.pynml" />
+produce(${industry.id}_historical_batch,
+ [
+  <tal:input repeat="cargo industry.historical_rule['recipe']['inputs'].items()">
+  ${cargo[0]}: (${industry.historical_batch_expression}) * ${cargo[1]};
+  </tal:input>
+ ],
+ [
+  <tal:output repeat="cargo industry.historical_rule['recipe']['outputs'].items()">
+  ${cargo[0]}: (${industry.historical_batch_expression}) * ${cargo[1]};
+  </tal:output>
+ ],0)

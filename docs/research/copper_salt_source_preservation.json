@@ -1,0 +1,38 @@
+{
+  "all_existing_industry_models_identical": true,
+  "all_economy_cargo_orders_identical": true,
+  "changes": {
+    "BASIC_TEMPERATE": {
+      "changed_existing": [],
+      "added": [
+        "fish_saltery",
+        "meat_saltery",
+        "salt_mine",
+        "traditional_copper_smelter"
+      ]
+    },
+    "STEELTOWN": {
+      "changed_existing": [],
+      "added": []
+    },
+    "BASIC_TROPIC": {
+      "changed_existing": [],
+      "added": []
+    },
+    "BASIC_ARCTIC": {
+      "changed_existing": [],
+      "added": []
+    },
+    "BETTER_LIVING_THROUGH_CHEMISTRY": {
+      "changed_existing": [],
+      "added": []
+    },
+    "IN_A_HOT_COUNTRY": {
+      "changed_existing": [],
+      "added": []
+    }
+  },
+  "base_grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "candidate_grf_sha256": "f0da622873c91107fa4d2b768d88cd95d5db009c2b2975bdb6d7ab6caaed3c33",
+  "method": "Separate interpreter evaluation of trusted prepared source; every enabled old model/property/recipe/layout in all six economies. This is not a claim that globally generated neighbour checks are byte-identical after registering new types."
+}

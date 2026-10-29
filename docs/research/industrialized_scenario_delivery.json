@@ -1,0 +1,21 @@
+{
+  "candidate": {
+    "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.3.0 Candidate - Industrialized.scn",
+    "sha256": "b05ef51a3bd17eb453d6b5e4af544c0745fee372a6195f5354ab8bd927ce6e75",
+    "bytes": 4467412
+  },
+  "newgrf": {
+    "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\newgrf\\axis-historical-europe-0.3.0-candidate.grf",
+    "sha256": "f0da622873c91107fa4d2b768d88cd95d5db009c2b2975bdb6d7ab6caaed3c33",
+    "bytes": 7855587
+  },
+  "legacy_0_2": {
+    "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.2.0 - Industrialized.scn",
+    "sha256": "728069c6bed1e6e8c4cf40fba88fc25a0f224ddd4832b893cf98989687a73169",
+    "bytes": 4464164
+  },
+  "source_scenario_sha256": "6c7a7b8ccbf72a744102ab06df755d119d692ca435e397e1bbbac3267ee1b60d",
+  "normal_configuration_modified": false,
+  "existing_newgrf_files_modified": false,
+  "notes": "0.3.0 is the copper/salt candidate. The 438-industry 0.2.0 file is a separately preserved earlier working version, not the copper/salt release. No file was overwritten."
+}

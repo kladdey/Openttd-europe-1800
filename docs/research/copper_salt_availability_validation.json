@@ -1,0 +1,18 @@
+{
+  "evidence": "VERIFIED IN GAME",
+  "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\availability-1830-1793258290486372300",
+  "script_sha256": "9083c90007d58cef404a897548c1a9f8b826620145984eb5462094959ecc777a",
+  "events": [
+    "POLICY_CONTEXT|year=1830|version=3|types=96|cargos=64|grfs=15",
+    "POLICY|64|deity=false|company_raw_disabled=false|company_raw_enabled=true",
+    "POLICY|67|deity=false|company_raw_disabled=false|company_raw_enabled=false",
+    "POLICY|56|deity=false|company_raw_disabled=false|company_raw_enabled=false",
+    "POLICY|105|deity=false|company_raw_disabled=false|company_raw_enabled=true",
+    "POLICY|117|deity=false|company_raw_disabled=false|company_raw_enabled=true",
+    "POLICY|123|deity=false|company_raw_disabled=true|company_raw_enabled=true",
+    "POLICY|124|deity=false|company_raw_disabled=true|company_raw_enabled=true",
+    "POLICY|125|deity=false|company_raw_disabled=true|company_raw_enabled=true",
+    "DEITY_BUILD|false|ERR_PRECONDITION_FAILED|0|0"
+  ],
+  "interpretation": "Normal spawning parameter remains zero. Deity-mode GS construction is blocked by the RandomCreation availability callback. Company-funded new processors are available in 1830. Raw mines require the raw-funding setting in disposable construction fixtures. Existing 1850 copper refinery and food processor remain unavailable in 1830."
+}
