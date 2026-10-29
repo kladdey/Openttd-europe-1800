@@ -1,3 +1,17 @@
+# Current multiplayer test protocol — Phase 7B
+
+**Current candidate:** JGRPP **0.73.4**, **617 towns**, **542 starting industries**, Historical AXIS **0.5.0** and packaged GameScript **v2**, exact 15 active NewGRFs. Launch using `python scripts/lifecycle_phase7b_launch.py` and the isolated profile documented in [readiness](PHASE_7B_READINESS.md). This is a **new separate scenario**, not the old Europe 1800/Toni save.
+
+**Verified so far:** dedicated-server startup, lifecycle state restoration and notification smoke; earlier Squirrel client connection to a different Europe 1800 scenario. **Not verified:** all three human players connected simultaneously to the Phase 7B lifecycle candidate, shared-service incentives, dumping exploits, closure during reconnect, or full-campaign stability.
+
+For the first three-person test: confirm identical engine, GRF and GS checksums; save disposable checkpoints; test normal industry delivery, 5–10-year warning, decline and physical closure using the matching accelerated fixture **only in disposable copies**; restart/reconnect; inspect orphaned infrastructure and competing service. Do not load accelerated fixture saves with the normal policy. Record finance, service counters and exact errors. Do not change NewGRFs in an active campaign.
+
+See [Phase 7B human playtest procedure](PHASE_7B_READINESS.md) and [migration/safety](PHASE_7B_MIGRATION_AND_SAFETY.md).
+
+---
+
+## Earlier multiplayer troubleshooting (historical)
+
 ## Confirmed successful client playtest - 2026-10-26
 
 User reports that **Squirrel successfully joined the hosted Europe 1800 game, loaded the map and played**. This is an end-to-end multiplayer success on the 4096 x 4096 scenario, not merely a server-browser connection. Toni's earlier disconnect remains unresolved. The exact client-side build, NewGRF checksums, test duration and logs were not recorded; do not infer those details.
