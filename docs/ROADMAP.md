@@ -1,3 +1,31 @@
+# Current roadmap — Historical Europe 1830–2025
+
+The active branch now has a **617-town / 542-industry** playable development candidate. Older V12/V13 geography tasks remain historical backlog, not the main critical path.
+
+## Completed milestones
+
+- [x] Phase 6B: historical industrialized scenario, copper and salt processing.
+- [x] Phase 6C: 75 inland retail markets and verified paid FOOD/GOOD deliveries.
+- [x] Phase 7A: guarded server-side scheduling, openings, warnings and actual closure in JGRPP; isolated AXIS 0.4.0 candidate.
+- [x] Phase 7B: guarded four-mine existing-site depletion pilot, native production decline, warning windows, finite service extensions, save/reload and dedicated-server smoke; isolated AXIS 0.5.0 candidate.
+
+## Next priorities
+
+- [ ] **Phase 7C:** historically researched industrial expansion by era and region, including factory openings, obsolete chains, replacement policy and paid freight-chain verification. **Prompt prepared only; no implementation evidence.**
+- [ ] Extend 7B depletion beyond four original mines with documented regional policies; investigate four unresolved soda-ash sites.
+- [ ] Test three actual multiplayer clients through closures, reconnects, shared transport and potential cargo-dumping exploits.
+- [ ] Validate long-duration 1830–2025 behavior, performance, demand continuity and economic balance.
+- [ ] Complete Europe coastal GOOD and copper export end-to-end tests.
+- [ ] Test short-distance horse feeders on existing roads before considering price changes.
+- [ ] Plan explicit migration for any existing campaign save; never silently switch NewGRF or GS versions.
+- [ ] Resolve licensing and release packaging before public distribution.
+
+See [Phase 7B readiness](PHASE_7B_READINESS.md), [Phase 6C readiness](INLAND_MARKETS_READINESS.md), [project status](PROJECT_STATUS.md).
+
+---
+
+## Historical geography roadmap (archived checkpoint)
+
 # Development roadmap
 
 Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
