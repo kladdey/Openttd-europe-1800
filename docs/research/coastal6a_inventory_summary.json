@@ -1,0 +1,10 @@
+{
+  "towns": 613,
+  "dock_command_catchment_usable": 82,
+  "legal_dock_somewhere_in_scan": 170,
+  "water_components": 6340,
+  "largest_component_tiles": 8011918,
+  "coarse_sea_id": 3,
+  "inventory_log_sha256": "ce5335c849311ffb96c420199ecb866262617ca32d8dd0f0cf793497e3a8206d",
+  "source_sha256": "9b4dbd70e27653fcb72d5778993988d257d5f83adcaf4a394c01af110d366735"
+}

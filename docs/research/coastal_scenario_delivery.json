@@ -1,0 +1,310 @@
+{
+  "source": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.2.0 - No Industries.scn",
+  "source_sha256": "9b4dbd70e27653fcb72d5778993988d257d5f83adcaf4a394c01af110d366735",
+  "output": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.2.0 - Coastal Towns.scn",
+  "output_sha256": "6c7a7b8ccbf72a744102ab06df755d119d692ca435e397e1bbbac3267ee1b60d",
+  "original_towns": 613,
+  "added_towns": 4,
+  "final_towns": 617,
+  "guards": {
+    "changed_tiles": 182,
+    "height_changes": 0,
+    "water_type_changes": 0,
+    "existing_infrastructure_changes": 0
+  },
+  "original_town_records_bit_identical": true,
+  "changed_chunks": [
+    "MAPT",
+    "MAPO",
+    "MAP2",
+    "M3LO",
+    "MAP5",
+    "MAP8",
+    "CITY"
+  ],
+  "all_other_chunks_bit_identical": true,
+  "newgrfs": [
+    {
+      "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+      "grfid": "44440A01",
+      "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+      "version": 2210,
+      "params": [],
+      "palette": 9,
+      "name": "av8 Aviators Aircraft Set"
+    },
+    {
+      "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+      "grfid": "43485054",
+      "md5": "f09180381b487c911d5eaf5dff4fddf2",
+      "version": 376,
+      "params": [],
+      "palette": 4,
+      "name": "CHIPS Station Set 2.0.0"
+    },
+    {
+      "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+      "grfid": "41560103",
+      "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+      "version": 40,
+      "params": [
+        0,
+        63,
+        0,
+        3,
+        0
+      ],
+      "palette": 9,
+      "name": "eGRVTS v2.1 - r240"
+    },
+    {
+      "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+      "grfid": "4A430002",
+      "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+      "version": 5518,
+      "params": [
+        0,
+        1
+      ],
+      "palette": 9,
+      "name": "Industrial Stations Renewal 1.0.2"
+    },
+    {
+      "filename": "polishtrainset3.0.3.grf",
+      "grfid": "4D560103",
+      "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+      "version": 211,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "Polish Train Set 3.0"
+    },
+    {
+      "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+      "grfid": "434D4301",
+      "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+      "version": 5,
+      "params": [
+        0,
+        0,
+        0
+      ],
+      "palette": 9,
+      "name": "Sailing Ships (community) 0.73"
+    },
+    {
+      "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+      "grfid": "4D560105",
+      "md5": "99ae27e35245e498e378adc3d06dec20",
+      "version": 17,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "TEST Polish Rolling Stock Pack 0.19.1"
+    },
+    {
+      "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+      "grfid": "44441000",
+      "md5": "da36131a815d2d5fc158c7a27d67b5af",
+      "version": 1050,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "palette": 9,
+      "name": "UK Railway Set (UKRS2)"
+    },
+    {
+      "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+      "grfid": "414E0201",
+      "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+      "version": 1687,
+      "params": [
+        1,
+        1,
+        0
+      ],
+      "palette": 4,
+      "name": "Squid Ate FISH r1687"
+    },
+    {
+      "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+      "grfid": "0100403A",
+      "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+      "version": 0,
+      "params": [],
+      "palette": 1,
+      "name": "City objects 1.3"
+    },
+    {
+      "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+      "grfid": "4F472B34",
+      "md5": "136d889fdaeaa3491f8320248a04425c",
+      "version": 5524,
+      "params": [
+        12,
+        0,
+        4,
+        15,
+        4,
+        0
+      ],
+      "palette": 4,
+      "name": "OpenGFX+ Landscape 1.1.2"
+    },
+    {
+      "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+      "grfid": "44440302",
+      "md5": "5f268de28cca8fa7fdd140ac031a5939",
+      "version": 252,
+      "params": [
+        0
+      ],
+      "palette": 9,
+      "name": "North American Railway Set (NARS) 2.52"
+    },
+    {
+      "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+      "grfid": "4E4D0518",
+      "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+      "version": 2401131718,
+      "params": [
+        4,
+        3,
+        2
+      ],
+      "palette": 4,
+      "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+    },
+    {
+      "filename": "axis-historical-europe-0.2.0.grf",
+      "grfid": "4B484531",
+      "md5": "8a395985234b85df126aeac4e3c8cc7c",
+      "version": 2,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        150,
+        80,
+        300,
+        1
+      ],
+      "palette": 4,
+      "name": "AXIS Historical Europe 0.2.0 (AXIS 2.3.1 base)"
+    },
+    {
+      "filename": "gets0.7.grf",
+      "grfid": "53410808",
+      "md5": "7c3e713c64766a1dd71dc96d583e8138",
+      "version": 19,
+      "params": [
+        3,
+        2
+      ],
+      "palette": 20,
+      "name": " GETS 0.7"
+    }
+  ],
+  "industry_instances": 0,
+  "industry_tiles": 0,
+  "real_save_and_reload_passed": true,
+  "load_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\coastal6a\\final-load-save-1793231796246319600",
+  "reload_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\coastal6a\\final-reload-1793231811471986800",
+  "name_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\coastal6a\\names-verified-1793231766209581600",
+  "accepted": [
+    {
+      "name": "Falmouth",
+      "attempt": 3,
+      "case": "newgrfs\\axis-historical-europe\\.work\\coastal6a\\place-falmouth-3-1793231145670123100",
+      "evidence": "VERIFIED IN GAME",
+      "changed_tiles": 52,
+      "height_changes": 0,
+      "water_type_changes": 0,
+      "existing_infrastructure_changes": 0,
+      "town_id": 613,
+      "x": 3248,
+      "y": 1502,
+      "population": 511,
+      "dock_tile": 6163626,
+      "status": "ACCEPTED",
+      "reason": "All preservation, population and actual dock-command/catchment gates passed",
+      "engine_log_sha256": "4a577de0b77cce83813f927ad2500f2ba049f4ad5c096bbdcc2c350da96ae865"
+    },
+    {
+      "name": "Dover",
+      "attempt": 2,
+      "case": "newgrfs\\axis-historical-europe\\.work\\coastal6a\\place-dover-2-1793231202229948400",
+      "evidence": "VERIFIED IN GAME",
+      "changed_tiles": 55,
+      "height_changes": 0,
+      "water_type_changes": 0,
+      "existing_infrastructure_changes": 0,
+      "town_id": 614,
+      "x": 2579,
+      "y": 1334,
+      "population": 825,
+      "dock_tile": 5503506,
+      "status": "ACCEPTED",
+      "reason": "All preservation, population and actual dock-command/catchment gates passed",
+      "engine_log_sha256": "be7a5d5a06fba82e32e0b08e97d108327ef176dba26d4ad5ac043fcc83b82ed8"
+    },
+    {
+      "name": "Holyhead",
+      "attempt": 0,
+      "case": "newgrfs\\axis-historical-europe\\.work\\coastal6a\\place-holyhead-0-1793231228238717700",
+      "evidence": "VERIFIED IN GAME",
+      "changed_tiles": 38,
+      "height_changes": 0,
+      "water_type_changes": 0,
+      "existing_infrastructure_changes": 0,
+      "town_id": 615,
+      "x": 3193,
+      "y": 983,
+      "population": 413,
+      "dock_tile": 4017273,
+      "status": "ACCEPTED",
+      "reason": "All preservation, population and actual dock-command/catchment gates passed",
+      "engine_log_sha256": "c03257c46e2a7215cd4fe809823794d0dc5c13339927f2da01046267998b3557"
+    },
+    {
+      "name": "Tarragona",
+      "attempt": 2,
+      "case": "newgrfs\\axis-historical-europe\\.work\\coastal6a\\place-tarragona-2-1793231582419525000",
+      "evidence": "VERIFIED IN GAME",
+      "changed_tiles": 37,
+      "height_changes": 0,
+      "water_type_changes": 0,
+      "existing_infrastructure_changes": 0,
+      "town_id": 616,
+      "x": 2581,
+      "y": 2974,
+      "population": 887,
+      "dock_tile": 12196369,
+      "status": "ACCEPTED",
+      "reason": "All preservation, population and actual dock-command/catchment gates passed",
+      "engine_log_sha256": "cfca3f30a5f25e0e6228a0cc000b91bac1f2490a9bc331b22f0330e3d9787828"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "ports": [
+    {
+      "name": "BARCELONA",
+      "tile": 12048822,
+      "witness": 12048797
+    },
+    {
+      "name": "Dover",
+      "tile": 5503506,
+      "witness": 5503481
+    },
+    {
+      "name": "Falmouth",
+      "tile": 6163626,
+      "witness": 6163601
+    },
+    {
+      "name": "Holyhead",
+      "tile": 4017273,
+      "witness": 3939443
+    },
+    {
+      "name": "Kołobrzeg",
+      "tile": 3421248,
+      "witness": 3392558
+    },
+    {
+      "name": "LISBOA",
+      "tile": 13827680,
+      "witness": 13913692
+    },
+    {
+      "name": "PLYMOUTH",
+      "tile": 6011978,
+      "witness": 6061117
+    },
+    {
+      "name": "PORTO",
+      "tile": 12201506,
+      "witness": 12295716
+    },
+    {
+      "name": "Tarragona",
+      "tile": 12196369,
+      "witness": 12196344
+    },
+    {
+      "name": "Świnoujście",
+      "tile": 3601612,
+      "witness": 3577017
+    }
+  ],
+  "routes": [
+    {
+      "name": "British Isles",
+      "a": "Falmouth",
+      "b": "PLYMOUTH"
+    },
+    {
+      "name": "Iberia",
+      "a": "PORTO",
+      "b": "LISBOA"
+    },
+    {
+      "name": "Mediterranean",
+      "a": "Tarragona",
+      "b": "BARCELONA"
+    },
+    {
+      "name": "Baltic / North Sea",
+      "a": "Świnoujście",
+      "b": "Kołobrzeg"
+    }
+  ]
+}
