@@ -1,3 +1,17 @@
+# Current project status — 29 October 2026
+
+**Active development branch:** `feature/axis-historical-integration`. The current development candidate is **Phase 7B**, not the old V13 geography prototype. Current map: **617 towns**, **542 starting industries**, 15 active NewGRFs, JGRPP **0.73.4**, calendar **1830** / economy **1800**. Phase 7B uses a separate opt-in Historical AXIS **0.5.0** candidate and server-side GS v2. Read [Phase 7B readiness](PHASE_7B_READINESS.md), [migration and safety](PHASE_7B_MIGRATION_AND_SAFETY.md), and [installation](INSTALLATION.md).
+
+**Completed:** Phase 6B industrialization; Phase 6C inland markets (FOOD consumers 13→76, GOOD 12→69); Phase 7A scheduled lifecycle foundation; Phase 7B guarded existing-mine pilot (four of 44 extractive sites). **Not completed:** Phase 7C continental historical expansion, full 195-year balancing, and three-human lifecycle multiplayer test. Earlier scenario files, AXIS 0.3/0.4 binaries and the older FIRS-based 1800 setup are separate historical checkpoints, not interchangeable save formats.
+
+**Current verdict:** READY WITH CAVEATS for controlled playtesting; not a finished 1830–2025 campaign. NewGRF/GS migration requires explicit review; compiled scenario/GRF assets remain local. See [current roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
+
+---
+
+## Historical project-status entries (preserved)
+
+The material below records earlier development checkpoints and must not override the current status above.
+
 ## Economy and vehicle overhaul - 2026-10-27
 
 The three-company 1800-1813 multiplayer session was a **disposable playtest**, not the campaign save. The player reported insufficient FIRS Temperate Basic industry variety and poor early-era vehicle choice (two-horse passenger versus six-horse mail carriage; no useful trains by 1813). **AXIS Extreme Classic is a candidate only**, not installed or verified. Priorities: audit early road/rail/ship NewGRFs, verify AXIS's cargo compatibility and JGRPP 0.73.4 behavior, and plan historical industry progression on fresh scenario copies. See [economy and vehicle overhaul](ECONOMY_VEHICLE_OVERHAUL.md).
