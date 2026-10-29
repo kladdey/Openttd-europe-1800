@@ -1,0 +1,222 @@
+{
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "results": [
+    {
+      "case": "coal_rail",
+      "mode": "rail",
+      "cargo": "COAL",
+      "evidence": "BLOCKED",
+      "paid_delivery_verified": false,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G SELECT|rail|COAL|0|36|203",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7"
+      ],
+      "years": [],
+      "log": ".work\\integration\\coal_rail-1793218896920087400\\engine.log",
+      "log_sha256": "92365cc40185ddaa1f1d3c1118550db11b697a9620ff002743030e251cb3cb41",
+      "settings_sha256": "c7741b06d01e8dbe94cb5a9b52eb7a5e773368e6892b12b06f38f48886c7d16c",
+      "script_sha256": "a2ca6c549cdbb1c28c3595248856f67c483b564ae565b76483549fad4d3925b8"
+    },
+    {
+      "case": "grain_horse",
+      "mode": "road",
+      "cargo": "GRAI",
+      "evidence": "BLOCKED",
+      "paid_delivery_verified": false,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G SELECT|road|GRAI|13|19|243",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_NO_SERVICE",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [],
+      "log": ".work\\integration\\grain_horse-1793218915479638700\\engine.log",
+      "log_sha256": "6d8676394abf29c829866b7fd8002a543b9d9b58ef90a25b192ca463aa18b0be",
+      "settings_sha256": "c7741b06d01e8dbe94cb5a9b52eb7a5e773368e6892b12b06f38f48886c7d16c",
+      "script_sha256": "47d8cdf60e90df1962d4489ec9fe009684b1956700294d450e28eae7e32c3538"
+    },
+    {
+      "case": "iron_horse",
+      "mode": "road",
+      "cargo": "IRON",
+      "evidence": "BLOCKED",
+      "paid_delivery_verified": false,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G SELECT|road|IRON|3|9|379",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_NO_SERVICE",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [],
+      "log": ".work\\integration\\iron_horse-1793218929189169200\\engine.log",
+      "log_sha256": "9be9ac9f60903093a005c13255544c6e987200fe2dc43286ef32dbfc27baff66",
+      "settings_sha256": "c7741b06d01e8dbe94cb5a9b52eb7a5e773368e6892b12b06f38f48886c7d16c",
+      "script_sha256": "b433fb4e63be219b60b1ca5106fc97d121025cdd47aa7fdbf219728447054f34"
+    },
+    {
+      "case": "passenger_horse",
+      "mode": "road",
+      "cargo": "PASS",
+      "evidence": "VERIFIED BY ENGINE TEST",
+      "paid_delivery_verified": true,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G SELECT|road|PASS|5|1|20",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_BUILT|company_0|147|1 Horse Small Passenger Carriage|3659|1148|10|23|56|37|64|27|15193|20000|668396",
+        "dbg: [script:4] [18] [I] P4_COMMISSION|company_0|0|3659|1148|10|2|668396|14100",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1830|15189|20000|1679|70|2|767|3659,1148,0,137,0,0,72,0,-905,0,0,400,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1831|15443|20000|1795|90|2|1026|0,0,0,138,0,0,72,0,-1165,0,0,400,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1832|15974|20000|2192|110|2|1302|0,0,0,128,0,0,72,0,-1430,0,0,400,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1833|16206|20000|2286|90|2|1003|0,0,0,145,0,0,72,0,-1149,0,0,400,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1834|16550|20000|2492|100|2|1116|0,0,0,166,0,0,72,0,-1283,0,0,400,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [
+        {
+          "year": 1830,
+          "cash": 15189,
+          "loan": 20000,
+          "delivered": 70,
+          "vehicle_profit": 767,
+          "ledger": [
+            3659,
+            1148,
+            0,
+            137,
+            0,
+            0,
+            72,
+            0,
+            -905,
+            0,
+            0,
+            400,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1831,
+          "cash": 15443,
+          "loan": 20000,
+          "delivered": 90,
+          "vehicle_profit": 1026,
+          "ledger": [
+            0,
+            0,
+            0,
+            138,
+            0,
+            0,
+            72,
+            0,
+            -1165,
+            0,
+            0,
+            400,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1832,
+          "cash": 15974,
+          "loan": 20000,
+          "delivered": 110,
+          "vehicle_profit": 1302,
+          "ledger": [
+            0,
+            0,
+            0,
+            128,
+            0,
+            0,
+            72,
+            0,
+            -1430,
+            0,
+            0,
+            400,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1833,
+          "cash": 16206,
+          "loan": 20000,
+          "delivered": 90,
+          "vehicle_profit": 1003,
+          "ledger": [
+            0,
+            0,
+            0,
+            145,
+            0,
+            0,
+            72,
+            0,
+            -1149,
+            0,
+            0,
+            400,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1834,
+          "cash": 16550,
+          "loan": 20000,
+          "delivered": 100,
+          "vehicle_profit": 1116,
+          "ledger": [
+            0,
+            0,
+            0,
+            166,
+            0,
+            0,
+            72,
+            0,
+            -1283,
+            0,
+            0,
+            400,
+            300,
+            0,
+            0
+          ]
+        }
+      ],
+      "log": ".work\\integration\\passenger_horse-1793218945957208900\\engine.log",
+      "log_sha256": "8421b40bb7cb2060b44ddbc3f8c7f5edc257b3d5b7426a7c036149da61ab7de3",
+      "settings_sha256": "c7741b06d01e8dbe94cb5a9b52eb7a5e773368e6892b12b06f38f48886c7d16c",
+      "script_sha256": "e118ed5538bdfdfa7fde5eee3f49d91cda7a1d11042669d40a4120318b472758"
+    },
+    {
+      "case": "passenger_ship",
+      "mode": "ship",
+      "cargo": "PASS",
+      "evidence": "BLOCKED",
+      "paid_delivery_verified": false,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G SELECT|ship|PASS|17|12|20",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_NO_SERVICE",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [],
+      "log": ".work\\integration\\passenger_ship-1793218948777170200\\engine.log",
+      "log_sha256": "c68edeaea95f27f3d344c3ea45b3904b13b13c560020ef2791f11d229b93149f",
+      "settings_sha256": "f8fac00a7d5c01308b6034cac009d5a8bc583e86edba75711a1255ddd8f7cae3",
+      "script_sha256": "1b453d22ca6975a82dbfe30075768757a1b164649c059719edf4b0ce4a49d07e"
+    }
+  ],
+  "limitations": "Fresh 256x256 geography; inherited scalar PATS settings, changed map generation. No matched geographic baseline or multiplayer network test."
+}

@@ -1,0 +1,1489 @@
+{
+  "source": {
+    "path": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1800 V2 newGRFS fuck industry.scn",
+    "sha256": "06273051c3e76e6c750e7bdda2859ce3fbece2f3eac5998591dfe645169162fb",
+    "bytes": 4876236,
+    "header": "4f54545881240000",
+    "newgrfs": [
+      {
+        "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+        "grfid": "44440A01",
+        "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+        "version": 2210,
+        "params": [],
+        "palette": 9,
+        "name": "av8 Aviators Aircraft Set"
+      },
+      {
+        "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+        "grfid": "43485054",
+        "md5": "f09180381b487c911d5eaf5dff4fddf2",
+        "version": 376,
+        "params": [],
+        "palette": 4,
+        "name": "CHIPS Station Set 2.0.0"
+      },
+      {
+        "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+        "grfid": "41560103",
+        "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+        "version": 40,
+        "params": [
+          0,
+          63,
+          0,
+          3,
+          0
+        ],
+        "palette": 9,
+        "name": "eGRVTS v2.1 - r240"
+      },
+      {
+        "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+        "grfid": "4A430002",
+        "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+        "version": 5518,
+        "params": [
+          0,
+          1
+        ],
+        "palette": 9,
+        "name": "Industrial Stations Renewal 1.0.2"
+      },
+      {
+        "filename": "polishtrainset3.0.3.grf",
+        "grfid": "4D560103",
+        "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+        "version": 211,
+        "params": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "palette": 4,
+        "name": "Polish Train Set 3.0"
+      },
+      {
+        "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+        "grfid": "434D4301",
+        "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+        "version": 5,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "palette": 9,
+        "name": "Sailing Ships (community) 0.73"
+      },
+      {
+        "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+        "grfid": "4D560105",
+        "md5": "99ae27e35245e498e378adc3d06dec20",
+        "version": 17,
+        "params": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "palette": 4,
+        "name": "TEST Polish Rolling Stock Pack 0.19.1"
+      },
+      {
+        "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+        "grfid": "44441000",
+        "md5": "da36131a815d2d5fc158c7a27d67b5af",
+        "version": 1050,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2
+        ],
+        "palette": 9,
+        "name": "UK Railway Set (UKRS2)"
+      },
+      {
+        "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+        "grfid": "414E0201",
+        "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+        "version": 1687,
+        "params": [
+          1,
+          1,
+          0
+        ],
+        "palette": 4,
+        "name": "Squid Ate FISH r1687"
+      },
+      {
+        "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+        "grfid": "0100403A",
+        "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+        "version": 0,
+        "params": [],
+        "palette": 1,
+        "name": "City objects 1.3"
+      },
+      {
+        "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+        "grfid": "4F472B34",
+        "md5": "136d889fdaeaa3491f8320248a04425c",
+        "version": 5524,
+        "params": [
+          12,
+          0,
+          4,
+          15,
+          4,
+          0
+        ],
+        "palette": 4,
+        "name": "OpenGFX+ Landscape 1.1.2"
+      },
+      {
+        "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+        "grfid": "44440302",
+        "md5": "5f268de28cca8fa7fdd140ac031a5939",
+        "version": 252,
+        "params": [
+          0
+        ],
+        "palette": 9,
+        "name": "North American Railway Set (NARS) 2.52"
+      },
+      {
+        "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+        "grfid": "4E4D0518",
+        "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+        "version": 2401131718,
+        "params": [
+          4,
+          3,
+          2
+        ],
+        "palette": 4,
+        "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+      },
+      {
+        "filename": "4a4b8808-axis_extreme_industry_set-2.3.1.tar\\axis_extreme_industry_set-2.3.1\\axis_2.3.1.grf",
+        "grfid": "4A4B8808",
+        "md5": "b580ae20d12247f3a7edd28fadc6f2e5",
+        "version": 6749,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          150,
+          80,
+          300
+        ],
+        "palette": 4,
+        "name": "AXIS 2.3.1"
+      },
+      {
+        "filename": "gets0.7.grf",
+        "grfid": "53410808",
+        "md5": "7c3e713c64766a1dd71dc96d583e8138",
+        "version": 19,
+        "params": [
+          3,
+          2
+        ],
+        "palette": 20,
+        "name": " GETS 0.7"
+      }
+    ],
+    "chunks": {
+      "SLXI": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 4154,
+        "sha256": "d8392eb2731f6e65c0ea28a09b1be4d5e9b1e756befda7e3fd61be897cf8d872"
+      },
+      "GLOG": {
+        "kind": 3,
+        "records": 6,
+        "payload_bytes": 1178,
+        "sha256": "2fa0b402a9a06f95029f3bda9787a1c524fa4700c0606b7ae54dc38a0ac99329"
+      },
+      "MAPS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 23,
+        "sha256": "b526a1a7f0b7b980dbc2c238b577b6331ac19c87bd5948d9c72118bbe6334ca1"
+      },
+      "MAPT": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "34c8b16294ec82906abcfaec6cdde1a56f122b2589432899290fc0edb82fdb01"
+      },
+      "MAPH": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "ff6da8971d70d4a5ec438b0995dfd1b588b48b5c1fbe78cd88f62ed73883f47d"
+      },
+      "MAPO": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "0d52dd25745b2bac43ece7d213a6113280e17fc6356f006f0e7bc034f2abea99"
+      },
+      "MAP2": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 33554432,
+        "sha256": "e4a6ec941a4956e58ed58b8451270b89426604b37cae93342f41dafe7cdb3bf5"
+      },
+      "M3LO": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "7559a0431a53c6d5b940f1d25bcf73c3a2eb43e19edb90905cfd380a56b02933"
+      },
+      "M3HI": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "811c0680fb7734b9861d1f083ded05cac8cd8b8cd3784b6b32d72a29ff5a0fbb"
+      },
+      "MAP5": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "3ec68e7657d3932bc6122b9a9f82bb8166b57e2886ef745d34f8ca09a14820ce"
+      },
+      "MAPE": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "a2b8bf9be3adeef3d5b365ef65a8386a3e17ccf4dc0648f1db3fea4cddf8ada6"
+      },
+      "MAP7": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "6983a136ca4b9ceabc99a30687f72e6c3783db22b5f39a2d2c0a2ce1e8e3228b"
+      },
+      "MAP8": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 33554432,
+        "sha256": "40124a0bd4395b46ee39056d47ccf81bdce7037d45b20c263dde44c01a36ac43"
+      },
+      "DATE": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 655,
+        "sha256": "13237f3d15f0d72ddecbcc58b1049c247a4792aea2a44e67a5a35bd1978949c2"
+      },
+      "VIEW": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 22,
+        "sha256": "2b73cc51936c4af3482ee8185f66dc65494d8adddb3fc3e515ad5a70edbd3800"
+      },
+      "CHTS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 562,
+        "sha256": "de419ef7af3129ee2f42a1970c6d0d0f5bb499f8f130c720daada5adc3079ef9"
+      },
+      "PATS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 12741,
+        "sha256": "3be070b6f47d0c716cf28cc35cc23af983ce3bbe92920571baef6bde02a6b435"
+      },
+      "VEHS": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 6909,
+        "sha256": "a51ab75b6dc129cd06a64cb2da390b0d5a05f05e41e60f2e4572a8138244da3d"
+      },
+      "VESR": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 41,
+        "sha256": "69721b5788044bf672c3c5464c5d03e660b74ecdcb600da53179b1e5f4423643"
+      },
+      "DEPT": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 38,
+        "sha256": "aaecd9f6dc75bd618e1fc35e657fb11c3ce4b91c7f966239f40dba3ff881afe9"
+      },
+      "BKOR": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 575,
+        "sha256": "3af45e3448fc56a9818cce8742e6c9df4f9404d732fe046f77f8298b3e98b0bd"
+      },
+      "ORDL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 323,
+        "sha256": "d7fa9a372653d8c856633ef1e586bf878d8d15b3d8d36fa7933fb83942607d7a"
+      },
+      "INDY": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 484,
+        "sha256": "a76128137119a90c976706960265eb50797b40c39308fad09e19c3ebbc7e4eec"
+      },
+      "IIDS": {
+        "kind": 3,
+        "records": 107,
+        "payload_bytes": 874,
+        "sha256": "e436b4682c5738e6ce4a533cb185ffbc4ce47fe457d6aec9d3397eb20fdc1ea4"
+      },
+      "TIDS": {
+        "kind": 3,
+        "records": 513,
+        "payload_bytes": 2730,
+        "sha256": "9e0b171616183d143740513a0763e94b1d56caa80199e38f213d617f50717272"
+      },
+      "IBLD": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 18,
+        "sha256": "c249af10ec0697ec24482f1c6617c5a9069a5c44b31d1cde412213ac7e775685"
+      },
+      "ITBL": {
+        "kind": 3,
+        "records": 241,
+        "payload_bytes": 2702,
+        "sha256": "2811a88b5fb85585086b1ec125ca1627e03157e6d5e8567940f459d8dc55fcb0"
+      },
+      "CAPY": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 54,
+        "sha256": "6d7eb2bff7f38c613859bf361da6c2aa297eaa4236dcfdc118219b1e31233d5a"
+      },
+      "ECMY": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 145,
+        "sha256": "3dabe214fc74f9b6b569df8a5468a137f75e1c7b1b2a91fb8b5bdeccc772a55e"
+      },
+      "SUBS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 63,
+        "sha256": "77fdb47f45b03cd835ecdde51914f2d8ceb5720ed5d731c8e5469160614bf5ca"
+      },
+      "CMDL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 17,
+        "sha256": "431d1a081a5c7aaac6e7bface0422161a2aa20f7bbf6742f67686fcfaca56547"
+      },
+      "CMPU": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 17,
+        "sha256": "431d1a081a5c7aaac6e7bface0422161a2aa20f7bbf6742f67686fcfaca56547"
+      },
+      "GOAL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 48,
+        "sha256": "160f4fe4db0b551486f7bd17e1ee28c0c798693cee7dd7afd6003c059daf1de7"
+      },
+      "STPE": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 46,
+        "sha256": "d14e80f347c2a8dfed7249bcf2a13825b9e092189a210dd2ea71d1819bfe0e44"
+      },
+      "STPA": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 35,
+        "sha256": "a9889bffb02f9fbb1c45ceeb501c618b572d655c60df3a4982eb3d2fc315b2a4"
+      },
+      "LEAE": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 62,
+        "sha256": "bca770331528d8c6e38dff47288c8a5ee6f2e361f4a79e2b187a160a1b511e5e"
+      },
+      "LEAT": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 24,
+        "sha256": "36732992ac67429b24c241d1991a0bc2e9d3918de7645a5809f9cc2c5b5632e8"
+      },
+      "EIDS": {
+        "kind": 3,
+        "records": 3765,
+        "payload_bytes": 30154,
+        "sha256": "c4edc94b48cea4aa98b4a6cd6f1e87ecd65dc8dce25c7cc8565271bd958c5458"
+      },
+      "ENGN": {
+        "kind": 3,
+        "records": 3765,
+        "payload_bytes": 128227,
+        "sha256": "61802397bdd05c253725321bdace5a6cd81188ac0b612cb2538acca512c581fa"
+      },
+      "HIDS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 34,
+        "sha256": "6180afaa13c8a353f38ae5d3436106be7cdfcbc2d160099ab328a4c112acce64"
+      },
+      "CITY": {
+        "kind": 3,
+        "records": 614,
+        "payload_bytes": 1283506,
+        "sha256": "d1bc146a6e7aa0fc8b3c0a5393f77988b6e3ef75d6742a74d200c70685608583"
+      },
+      "SIGN": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 36,
+        "sha256": "3ad633392c8485964180717616f2ea8ca95f2964f8225628dc91542c022cd168"
+      },
+      "STNN": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 1295,
+        "sha256": "e9318bc755b0cafbfb3ce8fe4fca8c60c4dacc654a432985013fa04f32020fbd"
+      },
+      "ROAD": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 19,
+        "sha256": "88f857c6e73c7219e2bc337272d43a4b5c3a99ec608ed3203227091a61fd50f3"
+      },
+      "PLYR": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 2185,
+        "sha256": "0f4d0374a00f0c97adeb5dff9b293746b6e5d6858c09d94fa37bccefbf4dc13e"
+      },
+      "PLYP": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 0,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "AIPL": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 116,
+        "sha256": "bed97f97bc5a57463d784d1de4c683b85d1ed9d41b42db700c7c0792559a1532"
+      },
+      "GSTR": {
+        "kind": 3,
+        "records": 5,
+        "payload_bytes": 8550,
+        "sha256": "efa705ac700ed9e49090a9b89d56ae3b494159417164e0dffae5fdcbe8affc58"
+      },
+      "GSDT": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 33,
+        "sha256": "61a8df5c140adce7aa71eb943494e2a394ad0fc35dcff633a15f5c29ebcfe5c0"
+      },
+      "ANIT": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 32,
+        "sha256": "d395cf334b8a5748b88254ea45d8e03f52d0aa955f3e1d99fbad52645471e317"
+      },
+      "NGRF": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 2220,
+        "sha256": "969278aa92b692548075b720936186127fd532c6f96c47174098bda6325a2176"
+      },
+      "GRPS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 98,
+        "sha256": "23f517ac2cb96cbfe049c4d59dc0c5714c569309046a9699d02b6e0ad73eebc9"
+      },
+      "CAPA": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 125,
+        "sha256": "a0e0769bb59ceaccb65710d28419cb877943c745910e0a1e31f4ec6f3d85705a"
+      },
+      "CPDP": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 0,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "ERNW": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 45,
+        "sha256": "9f942e241d0ef55973e5d24176156565784cd1cfb68ca7d00052497e445aa417"
+      },
+      "RAIL": {
+        "kind": 3,
+        "records": 65,
+        "payload_bytes": 264,
+        "sha256": "7bdff20cebe760acc5e713771b3b91ce807f4d9b8e823cd2ba76f52274a09e44"
+      },
+      "ROTT": {
+        "kind": 3,
+        "records": 64,
+        "payload_bytes": 332,
+        "sha256": "5fa0967c8afa8687139db28ccf1e24ad5854f6e599c1e994ee5857471e0cf20b"
+      },
+      "LGRP": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 194,
+        "sha256": "a3ce5d76a25089833fb66f243aee1a533307865a253f688752f78c4ece697f00"
+      },
+      "LGRJ": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 2994,
+        "sha256": "47203d829223f4a8b3f0485c7c65c338378626882d1cba92db56c693c542c6fb"
+      },
+      "LGRS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 22,
+        "sha256": "fb98f28bbeba68f42fe164c857cd4b9227c5cb9b4c5fd8587a0571943c28efc9"
+      },
+      "ATID": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 34,
+        "sha256": "6180afaa13c8a353f38ae5d3436106be7cdfcbc2d160099ab328a4c112acce64"
+      },
+      "APID": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 34,
+        "sha256": "6180afaa13c8a353f38ae5d3436106be7cdfcbc2d160099ab328a4c112acce64"
+      },
+      "OBID": {
+        "kind": 3,
+        "records": 141,
+        "payload_bytes": 1114,
+        "sha256": "4248700aa3e5a36d826deeb1ca61602e7bc7ea5d69b3335ab70308d03178a7ba"
+      },
+      "OBJS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 78,
+        "sha256": "3b837e48539bc4deeb22db91e6b9dfe6444992b4179339910b270c7ecb972a37"
+      },
+      "PSAC": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 17,
+        "sha256": "760d6b1c73371f33378567e20b099d41d9ff79cd76e0ad95d865ed8ecef29e94"
+      },
+      "TRRM": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 13,
+        "sha256": "b18ce8ef1c214d85ce9f54e852b29022819ea3d5dcf651a4909641129474c856"
+      },
+      "TRRP": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 24,
+        "sha256": "276c7ab587a374ec87225f17d1a2e997441ecf2e77e385ca2397a25d12dc2176"
+      },
+      "TRRS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 75,
+        "sha256": "053a9d93c2576dcb7d53ed69c0a327b3af50f2cf6b6291361aa4451661b7295e"
+      },
+      "TRRG": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 36,
+        "sha256": "7d460bea991e7a82215bf96ed3ce4d05e8c690575802b56f0028bc794118a828"
+      },
+      "TRRC": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 28,
+        "sha256": "0260cc5dad022e4d4094a25cec2fcb6ea1c76eae0be6d514f9649526bd445ddd"
+      },
+      "TRRB": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 125,
+        "sha256": "c480198a6c772cc746d886f5a858992fbf4bac9186cea1fd8a330994b02ddedc"
+      },
+      "SPRG": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 1,
+        "sha256": "e64cf59bfbcf3c5743ccd9eda3a811a7966689717a8499e5b1ef0cb1f33bf4b6"
+      },
+      "PLAN": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 77,
+        "sha256": "c8028081f207709b73230abea4e1bd3f6211d6783466992fbcffe267833b9fdd"
+      },
+      "TRPL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 22,
+        "sha256": "987df2eb4aefce73e68e9a3c2e79140de25065be0e9a391762458c6b1817d572"
+      },
+      "TMPL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 265,
+        "sha256": "e885b6030581b3c084dfea70c5603cc919d07a5644923782cd4896231b426452"
+      },
+      "XBSS": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 18,
+        "sha256": "911cb28ef98ed60cd146df15a84952adb1ee061f07fbb7f6a529375a2c53414b"
+      },
+      "XBST": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 20,
+        "sha256": "fc50570c3fd2aa8bc3a4a27b3cb8c1efb379cdf67a1e7ade9447778ac851177d"
+      },
+      "TUNN": {
+        "kind": 3,
+        "records": 7,
+        "payload_bytes": 127,
+        "sha256": "f7f084870b5b4e17d19b3b5e665e333357f418aee0ed66639fd97c4735a84418"
+      },
+      "TSAS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 77,
+        "sha256": "8da7a97ceaceb79ee93dfc8a5f16635019ff71d5abed625ce9243e54fff7e09d"
+      },
+      "NSID": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 97,
+        "sha256": "74bfc6b8c1f2e36eb7d68200d073bd4f18b6829e75b1c3a71a34683dbe47bf11"
+      },
+      "DBGD": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 1,
+        "sha256": "225e8b0669f42feb38bc1d07704ef23ec77341427d2e8cd9403b7d381937cfae"
+      }
+    },
+    "tile_type_counts": {
+      "7": 16380,
+      "0": 8387724,
+      "4": 153207,
+      "6": 8179893,
+      "3": 18263,
+      "2": 21337,
+      "9": 412
+    },
+    "industry_tiles": 0,
+    "industry_records": 0,
+    "town_records": 613,
+    "map_dimensions": [
+      4096,
+      4096
+    ],
+    "date_records_hex": [
+      "050464617465040a646174655f6672616374080c7469636b5f636f756e74657202117469636b5f736b69705f636f756e74657208137363616c65645f7469636b5f636f756e746572070b73746174655f7469636b7306116375725f74696c656c6f6f705f74696c6504136e6578745f64697361737465725f7374617274060f72616e646f6d5f73746174655b305d060f72616e646f6d5f73746174655b315d080e73746174655f636865636b73756d0214636f6d70616e795f7469636b5f636f756e746572021274726565735f7469636b5f636f756e746572020a70617573655f6d6f6465061367616d655f6576656e74735f6f766572616c6c061a726f61645f6c61796f75745f6368616e67655f636f756e746572080f6173706563745f6366675f6861736806116175785f74696c656c6f6f705f74696c650614636f6d70657469746f72735f696e74657276616c061c636f6d70657469746f72735f696e74657276616c5f656c6170736564011a636f6d70657469746f72735f696e74657276616c5f66697265641a026964050c65636f6e6f6d795f64617465041265636f6e6f6d795f646174655f6672616374041763616c656e6461725f7375625f646174655f6672616374051565636f6e6f6d795f79656172735f656c61707365640515706572696f645f646973706c61795f6f6666736574060b656e67696e655f7365656400",
+      "000a32ea000000000000000005000000000000000000000000000000d456f700f6e310047ae11b5676bbe1f077000000000000000000000000000004000000008ae0b835ec86dece0000000100000b550000003a01203433454135353631324139383336314430353434463943333744464135414136000a081d0000000000000000fffff8f9be91d6c3"
+    ]
+  },
+  "candidate": {
+    "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\europe-migration\\scenario\\r.scn",
+    "sha256": "9b4dbd70e27653fcb72d5778993988d257d5f83adcaf4a394c01af110d366735",
+    "bytes": 4876032,
+    "header": "4f54545881240000",
+    "newgrfs": [
+      {
+        "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+        "grfid": "44440A01",
+        "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+        "version": 2210,
+        "params": [],
+        "palette": 9,
+        "name": "av8 Aviators Aircraft Set"
+      },
+      {
+        "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+        "grfid": "43485054",
+        "md5": "f09180381b487c911d5eaf5dff4fddf2",
+        "version": 376,
+        "params": [],
+        "palette": 4,
+        "name": "CHIPS Station Set 2.0.0"
+      },
+      {
+        "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+        "grfid": "41560103",
+        "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+        "version": 40,
+        "params": [
+          0,
+          63,
+          0,
+          3,
+          0
+        ],
+        "palette": 9,
+        "name": "eGRVTS v2.1 - r240"
+      },
+      {
+        "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+        "grfid": "4A430002",
+        "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+        "version": 5518,
+        "params": [
+          0,
+          1
+        ],
+        "palette": 9,
+        "name": "Industrial Stations Renewal 1.0.2"
+      },
+      {
+        "filename": "polishtrainset3.0.3.grf",
+        "grfid": "4D560103",
+        "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+        "version": 211,
+        "params": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "palette": 4,
+        "name": "Polish Train Set 3.0"
+      },
+      {
+        "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+        "grfid": "434D4301",
+        "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+        "version": 5,
+        "params": [
+          0,
+          0,
+          0
+        ],
+        "palette": 9,
+        "name": "Sailing Ships (community) 0.73"
+      },
+      {
+        "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+        "grfid": "4D560105",
+        "md5": "99ae27e35245e498e378adc3d06dec20",
+        "version": 17,
+        "params": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "palette": 4,
+        "name": "TEST Polish Rolling Stock Pack 0.19.1"
+      },
+      {
+        "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+        "grfid": "44441000",
+        "md5": "da36131a815d2d5fc158c7a27d67b5af",
+        "version": 1050,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          2
+        ],
+        "palette": 9,
+        "name": "UK Railway Set (UKRS2)"
+      },
+      {
+        "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+        "grfid": "414E0201",
+        "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+        "version": 1687,
+        "params": [
+          1,
+          1,
+          0
+        ],
+        "palette": 4,
+        "name": "Squid Ate FISH r1687"
+      },
+      {
+        "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+        "grfid": "0100403A",
+        "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+        "version": 0,
+        "params": [],
+        "palette": 1,
+        "name": "City objects 1.3"
+      },
+      {
+        "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+        "grfid": "4F472B34",
+        "md5": "136d889fdaeaa3491f8320248a04425c",
+        "version": 5524,
+        "params": [
+          12,
+          0,
+          4,
+          15,
+          4,
+          0
+        ],
+        "palette": 4,
+        "name": "OpenGFX+ Landscape 1.1.2"
+      },
+      {
+        "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+        "grfid": "44440302",
+        "md5": "5f268de28cca8fa7fdd140ac031a5939",
+        "version": 252,
+        "params": [
+          0
+        ],
+        "palette": 9,
+        "name": "North American Railway Set (NARS) 2.52"
+      },
+      {
+        "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+        "grfid": "4E4D0518",
+        "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+        "version": 2401131718,
+        "params": [
+          4,
+          3,
+          2
+        ],
+        "palette": 4,
+        "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+      },
+      {
+        "filename": "axis-historical-europe-0.2.0.grf",
+        "grfid": "4B484531",
+        "md5": "8a395985234b85df126aeac4e3c8cc7c",
+        "version": 2,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          150,
+          80,
+          300,
+          1
+        ],
+        "palette": 4,
+        "name": "AXIS Historical Europe 0.2.0 (AXIS 2.3.1 base)"
+      },
+      {
+        "filename": "gets0.7.grf",
+        "grfid": "53410808",
+        "md5": "7c3e713c64766a1dd71dc96d583e8138",
+        "version": 19,
+        "params": [
+          3,
+          2
+        ],
+        "palette": 20,
+        "name": " GETS 0.7"
+      }
+    ],
+    "chunks": {
+      "SLXI": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 4154,
+        "sha256": "d8392eb2731f6e65c0ea28a09b1be4d5e9b1e756befda7e3fd61be897cf8d872"
+      },
+      "GLOG": {
+        "kind": 3,
+        "records": 7,
+        "payload_bytes": 1237,
+        "sha256": "da46a4c461432f9fb39278f2b5ca17da5fce4be047bc87d7b4dce63d9f1ac53e"
+      },
+      "MAPS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 23,
+        "sha256": "b526a1a7f0b7b980dbc2c238b577b6331ac19c87bd5948d9c72118bbe6334ca1"
+      },
+      "MAPT": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "34c8b16294ec82906abcfaec6cdde1a56f122b2589432899290fc0edb82fdb01"
+      },
+      "MAPH": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "ff6da8971d70d4a5ec438b0995dfd1b588b48b5c1fbe78cd88f62ed73883f47d"
+      },
+      "MAPO": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "0d52dd25745b2bac43ece7d213a6113280e17fc6356f006f0e7bc034f2abea99"
+      },
+      "MAP2": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 33554432,
+        "sha256": "e4a6ec941a4956e58ed58b8451270b89426604b37cae93342f41dafe7cdb3bf5"
+      },
+      "M3LO": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "7559a0431a53c6d5b940f1d25bcf73c3a2eb43e19edb90905cfd380a56b02933"
+      },
+      "M3HI": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "811c0680fb7734b9861d1f083ded05cac8cd8b8cd3784b6b32d72a29ff5a0fbb"
+      },
+      "MAP5": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "3ec68e7657d3932bc6122b9a9f82bb8166b57e2886ef745d34f8ca09a14820ce"
+      },
+      "MAPE": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "a2b8bf9be3adeef3d5b365ef65a8386a3e17ccf4dc0648f1db3fea4cddf8ada6"
+      },
+      "MAP7": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 16777216,
+        "sha256": "6983a136ca4b9ceabc99a30687f72e6c3783db22b5f39a2d2c0a2ce1e8e3228b"
+      },
+      "MAP8": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 33554432,
+        "sha256": "40124a0bd4395b46ee39056d47ccf81bdce7037d45b20c263dde44c01a36ac43"
+      },
+      "DATE": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 655,
+        "sha256": "4ac60dd9b00ae661fd61c39ebf31ba4301ff5ce797c9682c4f0de28a2986ae66"
+      },
+      "VIEW": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 22,
+        "sha256": "2b73cc51936c4af3482ee8185f66dc65494d8adddb3fc3e515ad5a70edbd3800"
+      },
+      "CHTS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 562,
+        "sha256": "de419ef7af3129ee2f42a1970c6d0d0f5bb499f8f130c720daada5adc3079ef9"
+      },
+      "PATS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 12741,
+        "sha256": "3be070b6f47d0c716cf28cc35cc23af983ce3bbe92920571baef6bde02a6b435"
+      },
+      "VEHS": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 6909,
+        "sha256": "a51ab75b6dc129cd06a64cb2da390b0d5a05f05e41e60f2e4572a8138244da3d"
+      },
+      "VESR": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 41,
+        "sha256": "69721b5788044bf672c3c5464c5d03e660b74ecdcb600da53179b1e5f4423643"
+      },
+      "DEPT": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 38,
+        "sha256": "aaecd9f6dc75bd618e1fc35e657fb11c3ce4b91c7f966239f40dba3ff881afe9"
+      },
+      "BKOR": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 575,
+        "sha256": "3af45e3448fc56a9818cce8742e6c9df4f9404d732fe046f77f8298b3e98b0bd"
+      },
+      "ORDL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 323,
+        "sha256": "d7fa9a372653d8c856633ef1e586bf878d8d15b3d8d36fa7933fb83942607d7a"
+      },
+      "INDY": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 484,
+        "sha256": "a76128137119a90c976706960265eb50797b40c39308fad09e19c3ebbc7e4eec"
+      },
+      "IIDS": {
+        "kind": 3,
+        "records": 93,
+        "payload_bytes": 746,
+        "sha256": "e030313d910aae48dbf29190335b68a835d5a8369203fc14c2af940db1de2c7b"
+      },
+      "TIDS": {
+        "kind": 3,
+        "records": 352,
+        "payload_bytes": 1442,
+        "sha256": "d8697e096f7a8f36d4358056047df0af2cca1c6d6ccf8f2b90a3e7b9bd0ffe35"
+      },
+      "IBLD": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 18,
+        "sha256": "c249af10ec0697ec24482f1c6617c5a9069a5c44b31d1cde412213ac7e775685"
+      },
+      "ITBL": {
+        "kind": 3,
+        "records": 241,
+        "payload_bytes": 2702,
+        "sha256": "2811a88b5fb85585086b1ec125ca1627e03157e6d5e8567940f459d8dc55fcb0"
+      },
+      "CAPY": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 54,
+        "sha256": "6d7eb2bff7f38c613859bf361da6c2aa297eaa4236dcfdc118219b1e31233d5a"
+      },
+      "ECMY": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 145,
+        "sha256": "3dabe214fc74f9b6b569df8a5468a137f75e1c7b1b2a91fb8b5bdeccc772a55e"
+      },
+      "SUBS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 63,
+        "sha256": "77fdb47f45b03cd835ecdde51914f2d8ceb5720ed5d731c8e5469160614bf5ca"
+      },
+      "CMDL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 17,
+        "sha256": "431d1a081a5c7aaac6e7bface0422161a2aa20f7bbf6742f67686fcfaca56547"
+      },
+      "CMPU": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 17,
+        "sha256": "431d1a081a5c7aaac6e7bface0422161a2aa20f7bbf6742f67686fcfaca56547"
+      },
+      "GOAL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 48,
+        "sha256": "160f4fe4db0b551486f7bd17e1ee28c0c798693cee7dd7afd6003c059daf1de7"
+      },
+      "STPE": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 46,
+        "sha256": "d14e80f347c2a8dfed7249bcf2a13825b9e092189a210dd2ea71d1819bfe0e44"
+      },
+      "STPA": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 35,
+        "sha256": "a9889bffb02f9fbb1c45ceeb501c618b572d655c60df3a4982eb3d2fc315b2a4"
+      },
+      "LEAE": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 62,
+        "sha256": "bca770331528d8c6e38dff47288c8a5ee6f2e361f4a79e2b187a160a1b511e5e"
+      },
+      "LEAT": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 24,
+        "sha256": "36732992ac67429b24c241d1991a0bc2e9d3918de7645a5809f9cc2c5b5632e8"
+      },
+      "EIDS": {
+        "kind": 3,
+        "records": 3765,
+        "payload_bytes": 30154,
+        "sha256": "c4edc94b48cea4aa98b4a6cd6f1e87ecd65dc8dce25c7cc8565271bd958c5458"
+      },
+      "ENGN": {
+        "kind": 3,
+        "records": 3765,
+        "payload_bytes": 128227,
+        "sha256": "61802397bdd05c253725321bdace5a6cd81188ac0b612cb2538acca512c581fa"
+      },
+      "HIDS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 34,
+        "sha256": "6180afaa13c8a353f38ae5d3436106be7cdfcbc2d160099ab328a4c112acce64"
+      },
+      "CITY": {
+        "kind": 3,
+        "records": 614,
+        "payload_bytes": 1283506,
+        "sha256": "d1bc146a6e7aa0fc8b3c0a5393f77988b6e3ef75d6742a74d200c70685608583"
+      },
+      "SIGN": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 36,
+        "sha256": "3ad633392c8485964180717616f2ea8ca95f2964f8225628dc91542c022cd168"
+      },
+      "STNN": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 1295,
+        "sha256": "e9318bc755b0cafbfb3ce8fe4fca8c60c4dacc654a432985013fa04f32020fbd"
+      },
+      "ROAD": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 19,
+        "sha256": "88f857c6e73c7219e2bc337272d43a4b5c3a99ec608ed3203227091a61fd50f3"
+      },
+      "PLYR": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 2185,
+        "sha256": "0f4d0374a00f0c97adeb5dff9b293746b6e5d6858c09d94fa37bccefbf4dc13e"
+      },
+      "PLYP": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 0,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "AIPL": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 116,
+        "sha256": "bed97f97bc5a57463d784d1de4c683b85d1ed9d41b42db700c7c0792559a1532"
+      },
+      "GSTR": {
+        "kind": 3,
+        "records": 5,
+        "payload_bytes": 8550,
+        "sha256": "efa705ac700ed9e49090a9b89d56ae3b494159417164e0dffae5fdcbe8affc58"
+      },
+      "GSDT": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 33,
+        "sha256": "61a8df5c140adce7aa71eb943494e2a394ad0fc35dcff633a15f5c29ebcfe5c0"
+      },
+      "ANIT": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 32,
+        "sha256": "d395cf334b8a5748b88254ea45d8e03f52d0aa955f3e1d99fbad52645471e317"
+      },
+      "NGRF": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 2201,
+        "sha256": "f24ba0af15a2e04baaac890c7f04d41e48c8355a70d9e555678259a42bf5f4d4"
+      },
+      "GRPS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 98,
+        "sha256": "23f517ac2cb96cbfe049c4d59dc0c5714c569309046a9699d02b6e0ad73eebc9"
+      },
+      "CAPA": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 125,
+        "sha256": "a0e0769bb59ceaccb65710d28419cb877943c745910e0a1e31f4ec6f3d85705a"
+      },
+      "CPDP": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 0,
+        "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+      },
+      "ERNW": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 45,
+        "sha256": "9f942e241d0ef55973e5d24176156565784cd1cfb68ca7d00052497e445aa417"
+      },
+      "RAIL": {
+        "kind": 3,
+        "records": 65,
+        "payload_bytes": 264,
+        "sha256": "7bdff20cebe760acc5e713771b3b91ce807f4d9b8e823cd2ba76f52274a09e44"
+      },
+      "ROTT": {
+        "kind": 3,
+        "records": 64,
+        "payload_bytes": 332,
+        "sha256": "5fa0967c8afa8687139db28ccf1e24ad5854f6e599c1e994ee5857471e0cf20b"
+      },
+      "LGRP": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 194,
+        "sha256": "a3ce5d76a25089833fb66f243aee1a533307865a253f688752f78c4ece697f00"
+      },
+      "LGRJ": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 2994,
+        "sha256": "47203d829223f4a8b3f0485c7c65c338378626882d1cba92db56c693c542c6fb"
+      },
+      "LGRS": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 22,
+        "sha256": "fb98f28bbeba68f42fe164c857cd4b9227c5cb9b4c5fd8587a0571943c28efc9"
+      },
+      "ATID": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 34,
+        "sha256": "6180afaa13c8a353f38ae5d3436106be7cdfcbc2d160099ab328a4c112acce64"
+      },
+      "APID": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 34,
+        "sha256": "6180afaa13c8a353f38ae5d3436106be7cdfcbc2d160099ab328a4c112acce64"
+      },
+      "OBID": {
+        "kind": 3,
+        "records": 141,
+        "payload_bytes": 1114,
+        "sha256": "4248700aa3e5a36d826deeb1ca61602e7bc7ea5d69b3335ab70308d03178a7ba"
+      },
+      "OBJS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 78,
+        "sha256": "3b837e48539bc4deeb22db91e6b9dfe6444992b4179339910b270c7ecb972a37"
+      },
+      "PSAC": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 17,
+        "sha256": "760d6b1c73371f33378567e20b099d41d9ff79cd76e0ad95d865ed8ecef29e94"
+      },
+      "TRRM": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 13,
+        "sha256": "b18ce8ef1c214d85ce9f54e852b29022819ea3d5dcf651a4909641129474c856"
+      },
+      "TRRP": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 24,
+        "sha256": "276c7ab587a374ec87225f17d1a2e997441ecf2e77e385ca2397a25d12dc2176"
+      },
+      "TRRS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 75,
+        "sha256": "053a9d93c2576dcb7d53ed69c0a327b3af50f2cf6b6291361aa4451661b7295e"
+      },
+      "TRRG": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 36,
+        "sha256": "7d460bea991e7a82215bf96ed3ce4d05e8c690575802b56f0028bc794118a828"
+      },
+      "TRRC": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 28,
+        "sha256": "0260cc5dad022e4d4094a25cec2fcb6ea1c76eae0be6d514f9649526bd445ddd"
+      },
+      "TRRB": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 125,
+        "sha256": "c480198a6c772cc746d886f5a858992fbf4bac9186cea1fd8a330994b02ddedc"
+      },
+      "SPRG": {
+        "kind": 0,
+        "records": 1,
+        "payload_bytes": 1,
+        "sha256": "e64cf59bfbcf3c5743ccd9eda3a811a7966689717a8499e5b1ef0cb1f33bf4b6"
+      },
+      "PLAN": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 77,
+        "sha256": "c8028081f207709b73230abea4e1bd3f6211d6783466992fbcffe267833b9fdd"
+      },
+      "TRPL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 22,
+        "sha256": "987df2eb4aefce73e68e9a3c2e79140de25065be0e9a391762458c6b1817d572"
+      },
+      "TMPL": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 265,
+        "sha256": "e885b6030581b3c084dfea70c5603cc919d07a5644923782cd4896231b426452"
+      },
+      "XBSS": {
+        "kind": 4,
+        "records": 1,
+        "payload_bytes": 18,
+        "sha256": "911cb28ef98ed60cd146df15a84952adb1ee061f07fbb7f6a529375a2c53414b"
+      },
+      "XBST": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 20,
+        "sha256": "fc50570c3fd2aa8bc3a4a27b3cb8c1efb379cdf67a1e7ade9447778ac851177d"
+      },
+      "TUNN": {
+        "kind": 3,
+        "records": 7,
+        "payload_bytes": 127,
+        "sha256": "f7f084870b5b4e17d19b3b5e665e333357f418aee0ed66639fd97c4735a84418"
+      },
+      "TSAS": {
+        "kind": 3,
+        "records": 1,
+        "payload_bytes": 77,
+        "sha256": "8da7a97ceaceb79ee93dfc8a5f16635019ff71d5abed625ce9243e54fff7e09d"
+      },
+      "NSID": {
+        "kind": 3,
+        "records": 16,
+        "payload_bytes": 97,
+        "sha256": "74bfc6b8c1f2e36eb7d68200d073bd4f18b6829e75b1c3a71a34683dbe47bf11"
+      },
+      "DBGD": {
+        "kind": 3,
+        "records": 2,
+        "payload_bytes": 1,
+        "sha256": "225e8b0669f42feb38bc1d07704ef23ec77341427d2e8cd9403b7d381937cfae"
+      }
+    },
+    "tile_type_counts": {
+      "7": 16380,
+      "0": 8387724,
+      "4": 153207,
+      "6": 8179893,
+      "3": 18263,
+      "2": 21337,
+      "9": 412
+    },
+    "industry_tiles": 0,
+    "industry_records": 0,
+    "town_records": 613,
+    "map_dimensions": [
+      4096,
+      4096
+    ],
+    "date_records_hex": [
+      "050464617465040a646174655f6672616374080c7469636b5f636f756e74657202117469636b5f736b69705f636f756e74657208137363616c65645f7469636b5f636f756e746572070b73746174655f7469636b7306116375725f74696c656c6f6f705f74696c6504136e6578745f64697361737465725f7374617274060f72616e646f6d5f73746174655b305d060f72616e646f6d5f73746174655b315d080e73746174655f636865636b73756d0214636f6d70616e795f7469636b5f636f756e746572021274726565735f7469636b5f636f756e746572020a70617573655f6d6f6465061367616d655f6576656e74735f6f766572616c6c061a726f61645f6c61796f75745f6368616e67655f636f756e746572080f6173706563745f6366675f6861736806116175785f74696c656c6f6f705f74696c650614636f6d70657469746f72735f696e74657276616c061c636f6d70657469746f72735f696e74657276616c5f656c6170736564011a636f6d70657469746f72735f696e74657276616c5f66697265641a026964050c65636f6e6f6d795f64617465041265636f6e6f6d795f646174655f6672616374041763616c656e6461725f7375625f646174655f6672616374051565636f6e6f6d795f79656172735f656c61707365640515706572696f645f646973706c61795f6f6666736574060b656e67696e655f7365656400",
+      "000a32ea000000000000000005000000000000000000000000000000d456f700f6e310047ae11b5676bbe1f077000000000000000000000100000004000000008ae0b835ec86dece0000000100000b550000003a01203146373137333437423042443139333735394141434146383031324333384135000a081d0000000000000000fffff8f9be91d6c3"
+    ]
+  },
+  "changed_chunks": [
+    "DATE",
+    "GLOG",
+    "TIDS",
+    "IIDS",
+    "NGRF"
+  ],
+  "source_only_grfs": [
+    {
+      "filename": "4a4b8808-axis_extreme_industry_set-2.3.1.tar\\axis_extreme_industry_set-2.3.1\\axis_2.3.1.grf",
+      "grfid": "4A4B8808",
+      "md5": "b580ae20d12247f3a7edd28fadc6f2e5",
+      "version": 6749,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        150,
+        80,
+        300
+      ],
+      "palette": 4,
+      "name": "AXIS 2.3.1"
+    }
+  ],
+  "candidate_only_grfs": [
+    {
+      "filename": "axis-historical-europe-0.2.0.grf",
+      "grfid": "4B484531",
+      "md5": "8a395985234b85df126aeac4e3c8cc7c",
+      "version": 2,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        150,
+        80,
+        300,
+        1
+      ],
+      "palette": 4,
+      "name": "AXIS Historical Europe 0.2.0 (AXIS 2.3.1 base)"
+    }
+  ]
+}

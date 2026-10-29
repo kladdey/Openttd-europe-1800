@@ -1,0 +1,149 @@
+cargo_label,producer_id,producer_local_id,region,x,y,before_consumer_id,before_distance,after_consumer_id,after_distance,after_consumer_coastal,after_consumer_town,evidence,route_access
+FOOD,255,34,GB,2569,1086,148,655,529,251,False,LEICESTER,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,256,34,GB,2760,987,148,365,493,124,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,257,34,GB,2650,1304,442,519,479,99,False,LONDON,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,313,36,GB,2674,1324,442,515,479,95,False,LONDON,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,314,36,GB,2840,1343,442,368,519,171,False,BATH,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,337,37,GB,2864,1369,442,370,519,173,False,BATH,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,315,36,GB,3071,1399,442,193,524,143,True,PLYMOUTH,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,338,37,GB,3104,1415,442,176,524,94,True,PLYMOUTH,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,258,34,GB,3029,1347,442,183,519,112,False,BATH,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,316,36,GB,3052,1357,442,170,519,145,False,BATH,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,259,34,GB,2883,688,148,57,148,57,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,317,36,GB,2907,704,148,65,148,65,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,318,36,GB,3035,556,149,197,489,125,False,GLASGOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,339,37,GB,3060,560,149,176,489,100,False,GLASGOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,260,34,GB,3358,966,150,13,150,13,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,319,36,GB,3580,1205,150,462,498,31,True,CORK,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,340,37,GB,3603,1225,150,505,498,12,True,CORK,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,261,34,FR,2466,1688,442,1087,505,32,False,PARIS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,320,36,FR,2742,1651,442,774,475,16,True,CAEN,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,341,37,FR,2766,1670,442,769,475,27,True,CAEN,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,262,34,FR,2880,1826,442,811,488,155,False,NANTES,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,321,36,FR,2904,1845,442,806,488,160,False,NANTES,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,263,34,FR,2788,2381,152,864,511,25,False,BORDEAUX,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,264,34,FR,2553,2567,152,443,503,19,False,TOULOUSE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,265,34,FR,2305,1655,154,1110,537,18,False,REIMS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,266,34,BX,2249,1379,442,995,499,124,False,MONS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,322,36,BX,2273,1399,442,991,499,80,False,MONS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,323,36,BX,2098,992,156,994,485,136,False,ZWOLLE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,342,37,BX,2122,1010,148,1026,485,142,False,ZWOLLE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,267,34,DE,1907,1195,156,1006,528,22,False,MUNSTER,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,324,36,DE,1931,1213,156,1048,528,20,False,MUNSTER,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,268,34,DE,1316,1116,156,336,532,230,False,Gorzów Wielkopolski,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,269,34,DE,1686,1128,156,718,501,88,False,BRAUNSCHWEIG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,325,36,DE,1710,1146,156,760,501,94,False,BRAUNSCHWEIG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,270,34,DE,1495,1821,156,1220,500,110,False,AUGSBURG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,326,36,DE,1519,1840,156,1263,500,105,False,AUGSBURG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,271,34,CE,1288,1463,156,655,522,121,False,PRAHA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,272,34,CE,990,1807,156,1161,467,23,False,WIEN,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,273,34,PL,936,1121,155,496,532,239,False,Gorzów Wielkopolski,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,274,34,PL,510,1151,155,610,530,149,False,Łowicz,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,275,34,PL,622,1507,155,854,474,17,False,KRAKOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,327,36,PL,646,1525,155,848,474,25,False,KRAKOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,276,34,PL,762,1023,155,230,487,105,False,Włocławek,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,277,34,BA,510,446,155,605,533,143,True,Klaipėda,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,278,34,BA,64,749,155,748,478,148,False,Lida,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,328,36,BA,88,766,155,707,478,131,False,Lida,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,279,34,BA,562,743,155,256,533,210,True,Klaipėda,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,280,34,SC,1346,596,158,40,158,40,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,329,36,SC,1641,503,157,281,514,127,False,Viborg,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,343,37,SC,1663,524,157,282,514,126,False,Viborg,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,281,34,SC,1396,597,158,13,158,13,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,330,36,SC,1415,600,158,35,158,35,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,282,34,IB,3542,2992,151,81,151,81,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,283,34,IB,3660,3370,450,341,491,9,True,LISBOA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,331,36,IB,3686,3369,450,366,491,18,True,LISBOA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,284,34,IB,3198,2887,151,530,509,303,False,MADRID,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,285,34,IB,2767,3263,153,41,538,24,True,VALENCIA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,286,34,IB,3349,3604,450,820,539,17,False,SEVILLA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,287,34,IT,1625,2370,154,789,494,129,False,FERRARA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,332,36,IT,1648,2388,154,748,494,162,False,FERRARA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,288,34,IT,1422,2261,154,1101,494,191,False,FERRARA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,333,36,IT,1441,2277,154,1066,494,156,False,FERRARA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,289,34,IT,1552,2555,154,677,540,18,False,FIRENZE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,290,34,IT,1154,3578,153,1921,541,79,False,CALTAGIRONE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,291,34,SE,717,1927,155,1179,535,162,False,Szolnok,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,292,34,SE,800,2161,155,1400,515,126,False,Osijek,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,334,36,SE,819,2178,155,1436,515,128,False,Osijek,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,293,34,SE,565,2367,155,1771,527,21,False,Belgrade,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,335,36,SE,591,2386,155,1764,527,24,False,Belgrade,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,294,34,SE,754,2245,155,1460,515,18,False,Osijek,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,295,34,SE,363,3217,154,2394,507,16,False,Larissa,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,336,36,SE,387,3235,153,2367,507,26,False,Larissa,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,426,113,FR,2460,1692,442,1097,505,34,False,PARIS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,427,113,DE,1492,1240,156,636,476,133,False,LEIPZIG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,428,113,PL,836,1109,155,384,487,131,False,Włocławek,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,409,90,GB,2851,710,148,3,148,3,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,410,90,GB,3223,551,149,10,149,10,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,411,90,IB,2497,2952,152,2,152,2,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,412,90,IB,2743,3258,153,12,153,12,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,413,90,FR,2147,2636,154,29,154,29,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,414,90,PL,763,796,155,2,155,2,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,415,90,DE,1216,878,156,6,156,6,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,416,90,SC,1398,527,157,14,531,11,True,Helsingborg,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,417,90,SC,1387,599,158,6,158,6,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,445,125,PL,636,1516,155,849,474,6,False,KRAKOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,447,125,PL,591,1526,155,904,474,55,False,KRAKOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,448,124,IB,3618,3059,450,12,450,12,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,451,124,GB,2860,722,148,18,148,18,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,452,124,GB,3206,553,149,23,149,23,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,453,125,GB,3038,966,150,319,493,175,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,454,124,PL,773,811,155,23,155,23,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+FOOD,455,124,SC,1403,599,158,22,158,22,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,418,93,GB,2747,1287,456,400,480,30,False,LONDON,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,358,42,GB,2939,951,458,124,493,91,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,215,13,GB,2965,963,458,86,458,86,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,359,42,GB,2884,895,458,235,493,92,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,216,13,GB,2908,911,458,195,493,100,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,360,42,GB,2859,1017,458,240,493,55,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,217,13,GB,2882,1037,458,237,493,84,False,SHEFFIELD,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,344,38,GB,2925,1127,458,284,529,146,False,LEICESTER,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,361,42,GB,3098,587,458,429,490,86,False,GLASGOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,218,13,GB,3119,605,458,432,490,83,False,GLASGOW,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,362,42,GB,3312,762,458,468,502,35,True,BELFAST,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,219,13,GB,3347,781,458,484,502,19,True,BELFAST,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,419,93,FR,2890,1991,457,796,488,24,False,NANTES,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,363,42,FR,2200,2212,462,455,497,24,False,LYON,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,220,13,FR,2222,2229,462,460,497,15,False,LYON,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,364,42,FR,1894,1749,462,1144,520,18,False,STRASBOURG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,221,13,FR,1917,1769,462,1101,520,25,False,STRASBOURG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,365,42,FR,2389,1408,457,830,499,125,False,MONS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,222,13,FR,2408,1432,457,787,499,120,False,MONS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,366,42,BX,2316,1344,456,888,499,116,False,MONS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,223,13,BX,2340,1362,456,882,499,122,False,MONS,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,367,42,BX,2089,1417,457,1121,470,50,False,LIEGE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,224,13,BX,2116,1435,457,1076,470,35,False,LIEGE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,420,93,BX,2216,1146,458,1012,485,174,False,ZWOLLE,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,345,38,DE,2001,1381,456,1240,525,20,False,KOLN,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,368,42,DE,1355,1381,464,610,476,145,False,LEIPZIG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,225,13,DE,1379,1394,464,647,476,134,False,LEIPZIG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,369,42,DE,1061,1373,465,576,486,107,False,Liberec,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,226,13,DE,1081,1382,465,565,486,78,False,Liberec,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,227,13,DE,1860,1856,462,1071,520,143,False,STRASBOURG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,421,93,DE,1569,1625,464,1068,500,174,False,AUGSBURG,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,370,42,CE,1197,1503,464,650,522,20,False,PRAHA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,228,13,CE,1221,1521,464,644,522,22,False,PRAHA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,371,42,CE,967,1638,465,935,534,149,False,Znojmo,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,229,13,CE,993,1665,465,936,534,96,False,Znojmo,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,230,13,CE,1100,2012,465,1180,516,264,False,Veszprém,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,372,42,CE,1813,1946,462,1028,508,76,False,St. Gallen,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,231,13,CE,1842,1964,462,981,508,121,False,St. Gallen,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,373,42,PL,672,1228,463,503,530,90,False,Łowicz,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,232,13,PL,696,1246,463,497,530,132,False,Łowicz,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,233,13,PL,203,1555,463,1299,521,381,False,Uzhhorod,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,234,13,PL,289,1013,463,671,526,136,False,Łomża,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,235,13,BA,193,386,463,974,495,342,True,Ventspils,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,236,13,SC,1885,189,466,902,482,8,True,Kristiansand,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,237,13,SC,2119,64,466,1261,482,365,True,Kristiansand,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,238,13,SC,1166,398,466,452,531,356,True,Helsingborg,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,374,42,IB,3584,2894,459,121,459,121,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,239,13,IB,3608,2925,459,66,459,66,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,240,13,IB,3607,2700,459,292,459,292,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,241,13,IB,2502,2949,461,8,461,8,True,existing export industry,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,375,42,IT,1899,2319,462,569,518,29,False,TORINO,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,242,13,IT,1923,2341,462,523,518,17,False,TORINO,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,376,42,IT,1744,2262,462,781,472,18,False,MILANO,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,243,13,IT,1768,2280,462,739,472,24,False,MILANO,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,377,42,IT,1207,3013,462,1339,513,367,True,ROMA,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes
+GOOD,244,13,SE,251,2051,463,1747,535,428,False,Szolnok,ENGINE-CALCULATED Manhattan diagnostic; industry placement and acceptance verified separately,NOT TESTED except recorded gameplay routes

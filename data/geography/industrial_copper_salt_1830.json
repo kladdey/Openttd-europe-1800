@@ -1,0 +1,44 @@
+{
+  "policy": "Separate 0.3.0 additions only. Preserve the completed 438-industry candidate. A named mining/smelting district is not a claim that the proxy layout represents an individual historic building. Ancillary quarries, salteries, livestock and ports are explicitly regional chain representations.",
+  "sources": {
+    "CORNWALL": "https://whc.unesco.org/en/list/1215/",
+    "PARYS": "https://coflein.gov.uk/en/sites/33752",
+    "ALLIHIES": "https://acmm.ie/dooneenmine/",
+    "SWANSEA": "https://museum.wales/collections/online/object/c7f6ffdf-f60b-30de-b4e8-64870393cdc8/Proceedings-at-the-Hafod-Works-on-Smelting-Copper-1823-book/",
+    "NEATH": "https://coflein.gov.uk/media/36/934/aent28_11.pdf",
+    "SALT_MINES": "https://muzeum.wieliczka.pl/en/exhibition/the-cracow-saltworks-the-royal-enterprise",
+    "AVEIRO": "https://tradicional.dgadr.gov.pt/pt/cat/sal-marinho-e-flor-de-sal/1040-sal-de-aveiro-flor-de-sal-de-aveiro",
+    "CURING": "https://angusmacleodarchive.org.uk/view/index.php?path=%2F8.+The+Fishing+Industry+in+Lewis+and+Scotland%2F2.+History+of+the+Herring+Fishery+to+the+1880s%2F5.+Curing+the+Herring.pdf",
+    "PORTS": "https://nmm.pl/en/national-martitme-musuem/historia-spichlerzy-na-olowiance/"
+  },
+  "records": [
+    ["GB", "Dolcoath copper mining district", 50.222, -5.286, [64], "CORNWALL"],
+    ["GB", "Gwennap consolidated copper mining district", 50.231, -5.174, [64], "CORNWALL"],
+    ["GB", "Parys Mountain copper district", 53.387, -4.345, [64], "PARYS"],
+    ["GB", "Allihies Duneen copper workings, active from 1812", 51.643, -10.053, [64], "ALLIHIES"],
+    ["GB", "Hafod Swansea Welsh-process copper works, active from 1810", 51.641, -3.933, [123], "SWANSEA"],
+    ["GB", "Neath copper-smelting district", 51.660, -3.810, [123], "NEATH"],
+    ["GB", "Lower Swansea valley ancillary mineral supply proxy", 51.700, -3.900, [10], "SWANSEA"],
+    ["GB", "Swansea copper export and supply harbour representation", 51.615, -3.930, [46,39], "SWANSEA"],
+    ["PL", "Wieliczka historic underground salt mine", 49.983, 20.055, [105], "SALT_MINES"],
+    ["PL", "Bochnia historic underground salt mine", 49.969, 20.431, [105], "SALT_MINES"],
+    ["PL", "Krakow regional salted meat trade representation", 50.050, 19.950, [125], "SALT_MINES"],
+    ["PL", "Bochnia regional livestock and curing representation", 49.990, 20.420, [27,125], "SALT_MINES"],
+    ["IB", "Aveiro traditional coastal salt production", 40.650, -8.670, [117], "AVEIRO"],
+    ["IB", "Aveiro regional fish salting and export representation", 40.640, -8.700, [124,46,39], "AVEIRO"],
+    ["GB", "Sunderland regional fish curing representation", 54.910, -1.370, [124], "CURING"],
+    ["GB", "Greenock regional fish curing representation", 55.950, -4.760, [124], "CURING"],
+    ["GB", "Liverpool regional meat curing representation", 53.420, -2.980, [125], "CURING"],
+    ["PL", "Gdansk regional fish curing representation", 54.350, 18.650, [124], "CURING"],
+    ["SC", "Copenhagen regional fish curing representation", 55.680, 12.570, [124], "CURING"]
+  ],
+  "wharf_towns": ["PLYMOUTH","LIVERPOOL","HULL","SUNDERLAND","GREENOCK","DUBLIN","PORTO","LISBOA","BARCELONA","VALENCIA","MARSEILLE","DANZIG (GDANSK)","Świnoujście","Kołobrzeg","Kristiansand","Helsingborg","COPENHAGEN"],
+  "limitations": [
+    "No tin cargo is invented for Cornwall.",
+    "Copper exports terminate at the existing wharf. This is an abstract international metal market, not a fictitious copper-to-food conversion.",
+    "Slag is a waste by-product in 1830. The 1945 slag-grinding plant is not backdated. No artificial 1830 slag consumer is added.",
+    "Regional salteries are representative trades, not independently verified named factory addresses. The Scottish curing source supports the trade, not every listed town or the abstract conversion ratio.",
+    "Falun remains outside the map. No northern mine is relocated southwards.",
+    "Coastal evaporator placement depends on the unchanged AXIS layout and coast rules. Failed placements must be reported, not forced by terraforming."
+  ]
+}

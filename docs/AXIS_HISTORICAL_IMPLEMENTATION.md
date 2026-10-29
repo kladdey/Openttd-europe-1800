@@ -1,4 +1,69 @@
-# AXIS Historical Europe 0.1.0 — steelmaking implementation
+# AXIS Historical Europe — Phase 5 implementation
+
+**Current build: 0.2.0, PARTIALLY READY.** Implemented and compiled on
+`feature/axis-historical-integration`, based on merged `main`. No push, PR,
+installation or campaign conversion was performed.
+
+The manifest now explicitly covers **all 91 original Extreme Classic types plus
+the reused steelworks (92 total)**. All receive date/route guards in both
+availability and location callbacks, while delegating to original AXIS checks.
+History applies only to Classic. The user-facing parameter now describes all
+industry progression, rather than only steelmaking. GRFID remains `KHE1`, numeric
+version is **2**, minimum compatible version **1** concerns this fork identity.
+
+The existing stockpile steel recipe, original 91 model recipes/layouts, all
+64 cargo slots and other-economy models remain unchanged. No vehicle statistic,
+cargo ID, tile ID or industry ID was renumbered. All final construction years
+are deliberately null: this build enforces introductions and European resource
+policy exclusions, not automatic industrial retirement. Existing sites retain
+ordinary AXIS production/closure behavior; they are not converted or demolished.
+
+The [complete matrix](research/axis_historical_availability.csv) records date,
+permissions, prerequisites, source status and survival behavior. **Year 0 means
+no added pre-1830 date gate**, not a claim of invention in year zero. Draft-band
+dates are explicitly provisional adoption policies, not an authoritative list
+of earliest inventions. Three excluded resource types cannot be newly generated
+or funded in historical mode. This regional policy is not a geographic callback.
+
+Refined sourced choices include aluminium production 1888 ([Aluminum Association](https://www.aluminum.org/primary-production-101)),
+ammonia synthesis 1913 ([BASF](https://www.basf.com/global/en/who-we-are/history/chronology/1902-1924/1913)),
+and Solvay soda production 1863 ([Solvay](https://www.solvay.com/en/our-company/history/1863-1885)).
+Steel dates remain 1860/1906/1952 with the historical qualifications below.
+Other refined dates remain labelled provisional. [Science Museum's polyethylene
+apparatus](https://collection.sciencemuseumgroup.org.uk/objects/co9243)
+documents discovery in 1933; the 1939 campaign adoption gate is not a claim of
+invention that year. [Smithsonian's Holborn account](https://americanhistory.si.edu/lighting/scripts/s19c.htm)
+supports the 1882 central-power example. [Dunlop's own chronology](https://www.dunloptires.com/about-us/our-history)
+distinguishes the 1888 patent and 1890 factory: the gate is not uniform European
+adoption. Manufacturing/import proxies still need process-specific review.
+
+**Current artifact:** `dist/axis-historical-europe-0.2.0.grf`, **7,842,417 bytes**,
+SHA256 `0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7`.
+The matching source ZIP rebuilt identically. `validation-phase5-result.json`
+contains **22,080** generated gate truth checks and 320 identical binary cargo
+records. Nine full-type fresh-world tests, 16 actual steel boundary/parameter
+cases, a persistent 1830–2025 world with reload, and actual steel deliveries
+passed. Five historical services and three stock freight controls cover
+**40 service-years** of actual ledgers; this is separate from the progression soak.
+
+See [gameplay evidence](AXIS_HISTORICAL_GAMEPLAY_VALIDATION.md),
+[compatibility](AXIS_HISTORICAL_COMPATIBILITY.md),
+[migration](AXIS_HISTORICAL_MIGRATION_GUIDE.md) and
+[release decision](AXIS_HISTORICAL_RELEASE_READINESS.md). The existing Europe
+scenario was not hot-swapped: its distinct stock identity and 463 instances
+outside the draft 1830 policy remain a migration problem. Editor behavior and
+human three-player operation are **MANUAL TEST REQUIRED**. Modern early-port
+outputs and other historical recipe compromises prevent a complete-historicity
+claim even though construction gating works.
+
+## Archived 0.1.0 milestone evidence
+
+The following records the earlier, limited steelmaking milestone. Its version,
+hashes, counts and pending-test statements refer to **0.1.0**, not this build.
+Its original validation/runtime/production JSON remains preserved. Use the
+current README and Phase 5 reports for new commands and current coverage.
+
+### AXIS Historical Europe 0.1.0 — steelmaking implementation
 
 2026-10-28. **Compiled and loaded in JGRPP 0.73.4; 16 automated headless
 construction cases passed.** This is a limited steelmaking milestone, not a

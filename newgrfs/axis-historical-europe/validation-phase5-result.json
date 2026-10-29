@@ -1,0 +1,286 @@
+{
+  "passed": true,
+  "upstream_commit": "11c8353ccf7444b143e57080b1aa2b5e38839a23",
+  "classic_industries": [
+    91,
+    92
+  ],
+  "cargo_slots": 64,
+  "all_economy_cargo_orders_unchanged": true,
+  "other_economies_identical_enabled_models": true,
+  "all_original_classic_industries_unchanged_models": true,
+  "binary_grfid": "4B484531",
+  "binary_version": 2,
+  "binary_cargo_slot_label_records_identical": 320,
+  "generated_nml_gate_truth_checks": 22080,
+  "recipe_tests": [
+    {
+      "stockpile": [
+        0,
+        100
+      ],
+      "consumed_and_produced": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "stockpile": [
+        300,
+        0
+      ],
+      "consumed_and_produced": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "stockpile": [
+        300,
+        100
+      ],
+      "consumed_and_produced": [
+        300,
+        100,
+        300,
+        100
+      ]
+    },
+    {
+      "stockpile": [
+        5,
+        2
+      ],
+      "consumed_and_produced": [
+        3,
+        1,
+        3,
+        1
+      ]
+    },
+    {
+      "stockpile": [
+        2,
+        1
+      ],
+      "consumed_and_produced": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "stockpile": [
+        6,
+        1
+      ],
+      "consumed_and_produced": [
+        3,
+        1,
+        3,
+        1
+      ]
+    }
+  ],
+  "optional_final_year_and_route_mask_checks": 16,
+  "graph_reachable_cargo_labels_before": [
+    "ACID",
+    "ALUM",
+    "AORE",
+    "BDMT",
+    "BEER",
+    "BIOM",
+    "BOOM",
+    "CHLO",
+    "CLAY",
+    "CMNT",
+    "COAL",
+    "COAT",
+    "COKE",
+    "COPR",
+    "CORE",
+    "CTAR",
+    "ENSP",
+    "EOIL",
+    "FERT",
+    "FICR",
+    "FISH",
+    "FMSP",
+    "FOOD",
+    "FRUT",
+    "GLAS",
+    "GOOD",
+    "GRAI",
+    "IORE",
+    "IRON",
+    "LIME",
+    "LVST",
+    "MAIL",
+    "MILK",
+    "MNSP",
+    "MPAR",
+    "NITR",
+    "OIL_",
+    "OLSD",
+    "PAPR",
+    "PASS",
+    "PETR",
+    "PLAS",
+    "PORE",
+    "POWR",
+    "QLME",
+    "RAMT",
+    "RCYC",
+    "RFPR",
+    "RUBR",
+    "SALT",
+    "SAND",
+    "SASH",
+    "SCMT",
+    "SGBT",
+    "SLAG",
+    "STEL",
+    "SULP",
+    "TEXT",
+    "TYRE",
+    "VEHI",
+    "VPTS",
+    "WDPR",
+    "WOOD",
+    "ZINC"
+  ],
+  "graph_reachable_cargo_labels_after": [
+    "ACID",
+    "ALUM",
+    "AORE",
+    "BDMT",
+    "BEER",
+    "BIOM",
+    "BOOM",
+    "CHLO",
+    "CLAY",
+    "CMNT",
+    "COAL",
+    "COAT",
+    "COKE",
+    "COPR",
+    "CORE",
+    "CTAR",
+    "ENSP",
+    "EOIL",
+    "FERT",
+    "FICR",
+    "FISH",
+    "FMSP",
+    "FOOD",
+    "FRUT",
+    "GLAS",
+    "GOOD",
+    "GRAI",
+    "IORE",
+    "IRON",
+    "LIME",
+    "LVST",
+    "MAIL",
+    "MILK",
+    "MNSP",
+    "MPAR",
+    "NITR",
+    "OIL_",
+    "OLSD",
+    "PAPR",
+    "PASS",
+    "PETR",
+    "PLAS",
+    "PORE",
+    "POWR",
+    "QLME",
+    "RAMT",
+    "RCYC",
+    "RFPR",
+    "RUBR",
+    "SALT",
+    "SAND",
+    "SASH",
+    "SCMT",
+    "SGBT",
+    "SLAG",
+    "STEL",
+    "SULP",
+    "TEXT",
+    "TYRE",
+    "VEHI",
+    "VPTS",
+    "WDPR",
+    "WOOD",
+    "ZINC"
+  ],
+  "unreachable_cargo_labels_after": [],
+  "upstream_modified_paths": [
+    "src/incompatible_grfs.py",
+    "src/industries/__init__.py",
+    "src/industry.py",
+    "src/lang_templates/english.pylng",
+    "src/templates/availability.pynml",
+    "src/templates/header.pynml",
+    "src/templates/location_check_macros_industry.pynml"
+  ],
+  "cargo_relationships": {
+    "IRON": {
+      "producers": [
+        "blast_furnace"
+      ],
+      "consumers": [
+        "basic_oxygen_furnace",
+        "iron_works",
+        "steel_mill"
+      ]
+    },
+    "COKE": {
+      "producers": [
+        "coke_oven",
+        "ethylene_cracker"
+      ],
+      "consumers": [
+        "aluminium_plant",
+        "blast_furnace",
+        "cement_plant",
+        "pyrite_smelter",
+        "steel_mill"
+      ]
+    },
+    "STEL": {
+      "producers": [
+        "basic_oxygen_furnace",
+        "electric_arc_furnace",
+        "steel_mill"
+      ],
+      "consumers": [
+        "assembly_plant",
+        "bulk_terminal",
+        "metal_workshop",
+        "sheet_and_pipe_mill"
+      ]
+    },
+    "SLAG": {
+      "producers": [
+        "aluminium_plant",
+        "basic_oxygen_furnace",
+        "blast_furnace",
+        "copper_refinery",
+        "electric_arc_furnace",
+        "steel_mill"
+      ],
+      "consumers": [
+        "slag_grinding_plant"
+      ]
+    }
+  },
+  "artifact_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "runtime_tested_by_this_validator": false
+}

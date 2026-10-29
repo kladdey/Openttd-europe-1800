@@ -1,0 +1,30 @@
+{
+  "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\visible-warning-1793279159813047100",
+  "pid": 48564,
+  "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\europe-vertical-slice-1793278648051610600\\checkpoint.sav",
+  "command": [
+    "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\visible-warning-1793279159813047100\\test.cfg",
+    "-g",
+    "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\europe-vertical-slice-1793278648051610600\\checkpoint.sav",
+    "-r",
+    "1280x800",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4"
+  ],
+  "evidence": "VERIFIED IN GAME: native Windows GUI observation",
+  "visible_news_text": "TEST: Active mine decline warning. Closure window is announced in advance; redirect services to replacement coalfields.",
+  "displayed_calendar_date": "1830-09-18",
+  "news_calendar_date": "1830-09-11",
+  "news_window_visible": true,
+  "clicking_news_centred_wolverhampton_managed_mine": true,
+  "window_id": 1442712,
+  "engine_log_sha256": "1f611520ad0ec1466aa20cb87146c0fdd11efd1c8aed69df1ec2a4fccc3ea360"
+}

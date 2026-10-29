@@ -1,0 +1,37 @@
+{
+  "evidence": "VERIFIED BY ENGINE TEST",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "results": [
+    {
+      "phase": "initial",
+      "seconds": 11.09,
+      "log_sha256": "6f814c684bae26ec01be1a63fab68f1be48f5f66cd7113dee0e071acd0e0f419",
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1830 industries=50 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1850 industries=55 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1870 industries=61 original_id_type_matches=50 failures=0"
+      ],
+      "log": ".work\\integration\\progression-1793218798547104800\\initial.log"
+    },
+    {
+      "phase": "reloaded",
+      "seconds": 49.2,
+      "log_sha256": "5f889cf3f7a257d59cb22853812f1278eb93355c893c659367d0b133e84b0cb3",
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5P RELOADED year=1872 next=3",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1900 industries=73 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1925 industries=82 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1950 industries=90 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=1975 industries=100 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=2000 industries=107 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P MILESTONE year=2025 industries=117 original_id_type_matches=50 failures=0",
+        "dbg: [script:4] [18] [I] AHE5P DONE"
+      ],
+      "log": ".work\\integration\\progression-1793218798547104800\\reloaded.log"
+    }
+  ],
+  "passed": true,
+  "limitations": "Unserved industries may close through original AXIS behavior; ID/type matches are not unique lifetime identities. No human companies or freight in this soak.",
+  "checkpoint_sha256": "2f68d1c56c8b87f15535059fd63588944c127c8360c36f8e0c43ecae86f53b19"
+}

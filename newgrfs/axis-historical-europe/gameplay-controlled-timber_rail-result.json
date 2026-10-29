@@ -1,0 +1,154 @@
+{
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "results": [
+    {
+      "case": "timber_rail",
+      "controlled": true,
+      "mode": "rail",
+      "cargo": "WOOD",
+      "evidence": "VERIFIED BY ENGINE TEST",
+      "paid_delivery_verified": true,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G FIXTURE source=true destination=true",
+        "dbg: [script:4] [18] [I] AHE5G SELECT|rail|WOOD|0|1|55",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_BUILT|company_0|1534|2-2-0 Planet (Steam)|8430|8527|24|35|34|90|34|51|13043|30000|668407",
+        "dbg: [script:4] [18] [I] P4_COMMISSION|company_0|0|8430|8527|24|1|668407|8737",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1830|13275|30000|1|72|1|1531|8430,8527,629,0,0,0,396,-2160,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1831|15073|30000|1|120|1|3093|0,0,507,0,0,0,396,-3600,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1832|16008|30000|1|96|1|2231|0,0,648,0,0,0,396,-2880,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1833|17739|30000|1|120|1|3026|0,0,574,0,0,0,396,-3600,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1834|18676|30000|54|96|1|2232|0,0,647,0,0,0,396,-2880,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [
+        {
+          "year": 1830,
+          "cash": 13275,
+          "loan": 30000,
+          "delivered": 72,
+          "vehicle_profit": 1531,
+          "ledger": [
+            8430,
+            8527,
+            629,
+            0,
+            0,
+            0,
+            396,
+            -2160,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1831,
+          "cash": 15073,
+          "loan": 30000,
+          "delivered": 120,
+          "vehicle_profit": 3093,
+          "ledger": [
+            0,
+            0,
+            507,
+            0,
+            0,
+            0,
+            396,
+            -3600,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1832,
+          "cash": 16008,
+          "loan": 30000,
+          "delivered": 96,
+          "vehicle_profit": 2231,
+          "ledger": [
+            0,
+            0,
+            648,
+            0,
+            0,
+            0,
+            396,
+            -2880,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1833,
+          "cash": 17739,
+          "loan": 30000,
+          "delivered": 120,
+          "vehicle_profit": 3026,
+          "ledger": [
+            0,
+            0,
+            574,
+            0,
+            0,
+            0,
+            396,
+            -3600,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1834,
+          "cash": 18676,
+          "loan": 30000,
+          "delivered": 96,
+          "vehicle_profit": 2232,
+          "ledger": [
+            0,
+            0,
+            647,
+            0,
+            0,
+            0,
+            396,
+            -2880,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        }
+      ],
+      "log": ".work\\integration\\timber_rail-1793219145551663400\\engine.log",
+      "log_sha256": "83294d41f6198271a7e0e35d9b7337b277adb206754b61c7daaac1dfe3aa9ea8",
+      "settings_sha256": "87e490438e6373731f6e6a99277fc2f458de920b26b836fe5e24bf159678497f",
+      "script_sha256": "8a9c86d021781e9a49ce8521922b4d5acedc21f758142ac9327bec35a596f254"
+    }
+  ],
+  "limitations": "Fresh 256x256 geography; inherited scalar PATS settings, changed map generation. No matched geographic baseline or multiplayer network test."
+}

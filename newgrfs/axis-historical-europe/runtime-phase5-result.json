@@ -1,0 +1,269 @@
+{
+  "engine": "JGRPP 0.73.4",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "map_size": [
+    256,
+    256
+  ],
+  "cases": [
+    {
+      "case": "1830",
+      "passed": true,
+      "log": ".work/runtime-results/1830/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1830",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1850",
+      "passed": true,
+      "log": ".work/runtime-results/1850/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1850",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1859",
+      "passed": true,
+      "log": ".work/runtime-results/1859/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1859",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1860",
+      "passed": true,
+      "log": ".work/runtime-results/1860/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1860",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1900",
+      "passed": true,
+      "log": ".work/runtime-results/1900/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1900",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1905",
+      "passed": true,
+      "log": ".work/runtime-results/1905/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1905",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1906",
+      "passed": true,
+      "log": ".work/runtime-results/1906/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1906",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1950",
+      "passed": true,
+      "log": ".work/runtime-results/1950/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1950",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1951",
+      "passed": true,
+      "log": ".work/runtime-results/1951/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1951",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1952",
+      "passed": true,
+      "log": ".work/runtime-results/1952/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1952",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "1955",
+      "passed": true,
+      "log": ".work/runtime-results/1955/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1955",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "2000",
+      "passed": true,
+      "log": ".work/runtime-results/2000/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=2000",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "unrestricted-1830",
+      "passed": true,
+      "log": ".work/runtime-results/unrestricted-1830/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1830",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=true expected=true initial=0 built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "spawning-off-2000",
+      "passed": true,
+      "log": ".work/runtime-results/spawning-off-2000/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=2000",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "generated-1830",
+      "passed": true,
+      "log": ".work/runtime-results/generated-1830/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=1830",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=false expected=false initial=0 built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=false expected=false built=false",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    },
+    {
+      "case": "generated-2000",
+      "passed": true,
+      "log": ".work/runtime-results/generated-2000/process.log",
+      "test_lines": [
+        "dbg: [script:4] [18] [I] AHETEST START year=2000",
+        "dbg: [script:4] [18] [I] AHETEST INVENTORY cargos=64 types=92",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=2 allowed=true expected=true initial=1 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=79 allowed=true expected=true initial=1 built=true",
+        "dbg: [script:4] [18] [I] AHETEST TYPE id=77 allowed=true expected=true initial=1 built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=2 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=79 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST FUND id=77 allowed=true expected=true built=true",
+        "dbg: [script:4] [18] [I] AHETEST DONE failures=0"
+      ]
+    }
+  ],
+  "passed": true,
+  "scope": "fresh headless worlds; deity and company-mode funding commands, map generation and inventory; no human joins or transported cargo"
+}

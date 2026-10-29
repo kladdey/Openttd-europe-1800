@@ -1,0 +1,40 @@
+{
+  "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\proof-1793261779344338400",
+  "town": {
+    "town_id": 191,
+    "name": "LONDON",
+    "tile": 5229220,
+    "x": 2724,
+    "y": 1276,
+    "population": 11004
+  },
+  "events": [
+    "PROOF|467|5233314|25|12|11004|10992",
+    "ACCEPT|FOOD|1",
+    "ACCEPT|GOOD|1"
+  ],
+  "engine_log_sha256": "a9018065e59e7ebb87382fa99f546da8da279e8030f4e3b08f3730931bb1cb68",
+  "manifest": {
+    "source": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.3.0 Candidate - Industrialized.scn",
+    "source_sha256": "b05ef51a3bd17eb453d6b5e4af544c0745fee372a6195f5354ab8bd927ce6e75",
+    "script_sha256": "6f2b697a9ed7c847f24a7e0e917e7e983743b5677ec0f124a40f775b253c4c3b",
+    "unpaused_movement_test": false,
+    "command": [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+      "-X",
+      "-x",
+      "-c",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\proof-1793261779344338400\\probe.cfg",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\proof-1793261779344338400\\probe.scn",
+      "-v",
+      "null:ticks=6000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4"
+    ]
+  }
+}

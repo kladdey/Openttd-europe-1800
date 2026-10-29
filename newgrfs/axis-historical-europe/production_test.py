@@ -44,6 +44,8 @@ def main():
     parser.add_argument("--engine-directory", required=True, type=Path)
     parser.add_argument("--resume", action="store_true", help="Replay the reload phase from this fixture's existing checkpoint")
     args = parser.parse_args()
+    if json.loads((ROOT / 'historical_manifest.json').read_text())['version'] != '0.1.0':
+        raise SystemExit('Legacy 0.1.0 fixture: use production_phase5.py for the current fork')
     engine = args.engine_directory.resolve()
     assert engine.is_relative_to((ROOT / ".work").resolve()), "Disposable engine under .work required"
     case = ROOT / ".work/production-test"

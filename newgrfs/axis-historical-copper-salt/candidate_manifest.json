@@ -1,0 +1,44 @@
+{
+  "name":"AXIS Historical Europe copper/salt candidate",
+  "version":"0.3.0-candidate",
+  "grfid":"4B484531",
+  "grf_version":3,
+  "min_compatible_version":2,
+  "base_version":"0.2.0",
+  "base_grf_sha256":"0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "expected_industry_count":96,
+  "cargo_slots":64,
+  "existing_92_recipes":"Unchanged, including post-1850 copper refinery, fishing harbour and post-1850 food processor",
+  "additions":{
+    "traditional_copper_smelter":{
+      "local_id":123,"earliest_year":1700,
+      "inputs":{"CORE":6,"COAL":18,"SAND":1},
+      "outputs":{"COPR":1,"SLAG":4},
+      "input_policy":"Every input is mandatory; stockpile incomplete batches",
+      "historical_basis":"Coal-fired Welsh process; game batch, not an assay or chemical mass balance",
+      "source":"https://coflein.gov.uk/media/36/934/aent28_11.pdf"
+    },
+    "fish_saltery":{
+      "local_id":124,"earliest_year":0,
+      "inputs":{"FISH":3,"SALT":1},
+      "outputs":{"FOOD":3},
+      "input_policy":"Both inputs mandatory; salt alone produces no food",
+      "historical_basis":"Salt curing of fish; abstract game batch, not a universal historical salt/fish ratio",
+      "source":"https://tradicional.dgadr.gov.pt/pt/cat/sal-marinho-e-flor-de-sal/1040-sal-de-aveiro-flor-de-sal-de-aveiro"
+    },
+    "meat_saltery":{
+      "local_id":125,"earliest_year":0,
+      "inputs":{"LVST":3,"SALT":1},
+      "outputs":{"FOOD":3},
+      "input_policy":"Both inputs mandatory; salt alone produces no food",
+      "historical_basis":"Slaughtering and salt curing of meat, not canning. Abstract game batch, not a historical conversion or yield measurement.",
+      "source":"https://tradicional.dgadr.gov.pt/pt/cat/sal-marinho-e-flor-de-sal/1040-sal-de-aveiro-flor-de-sal-de-aveiro"
+    },
+    "salt_mine":{
+      "local_id":105,"earliest_year":0,
+      "accepted_optional_boost":"ENSP","outputs":{"SALT":20},
+      "implementation":"Enable existing salt_mine only in Classic, using its existing Steeltown/Tropic salt-only output recipe; leave other economies unchanged",
+      "source":"https://whc.unesco.org/en/list/0032/"
+    }
+  }
+}

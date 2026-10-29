@@ -1,0 +1,159 @@
+{
+  "candidate_grf_sha256": "f0da622873c91107fa4d2b768d88cd95d5db009c2b2975bdb6d7ab6caaed3c33",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "fixture_limitations": "Disposable 256x256 flat control map, construction grant, raw funding enabled, economy/calendar 1830. Not a campaign profitability test. No vehicle price, introduction, capacity or performance modifications.",
+  "tests": [
+    {
+      "kind": "copper",
+      "local_id": 123,
+      "evidence": "VERIFIED IN GAME",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\control-copper-1793257528745721600",
+      "script_sha256": "19b1e0622c357ba70f587d255b357fe0a9aa973a552dcede7b1ae344ce7d17eb",
+      "save_sha256": "1f1f1f6dde9437fe486248d1edbcf0278a9c77956c41513d987bf7138d22590f",
+      "production_first_observed": 4,
+      "negative_controls": [
+        "copper_ore_only|6|0|0|0",
+        "copper_missing_sand|24|22|0|0"
+      ],
+      "paid_events": [
+        {
+          "route": "ore_to_copper",
+          "vehicle_id": 0,
+          "positive_vehicle_profit_delta": 152,
+          "distance_to_destination": 0,
+          "tile": 40774
+        },
+        {
+          "route": "coal_to_copper",
+          "vehicle_id": 4,
+          "positive_vehicle_profit_delta": 67,
+          "distance_to_destination": 0,
+          "tile": 40774
+        },
+        {
+          "route": "sand_to_copper",
+          "vehicle_id": 10,
+          "positive_vehicle_profit_delta": 259,
+          "distance_to_destination": 0,
+          "tile": 40774
+        },
+        {
+          "route": "copper_to_export",
+          "vehicle_id": 14,
+          "positive_vehicle_profit_delta": 44,
+          "distance_to_destination": 0,
+          "tile": 48193
+        }
+      ],
+      "profit_unit": "OpenTTD internal money units; these are delivery events, not annual profits",
+      "persistence": [
+        {
+          "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\persist-copper-1793257634979413900",
+          "row": "CORE:40:1,COAL:16:1,SAND:4:1,|0",
+          "source_sha256": "1f1f1f6dde9437fe486248d1edbcf0278a9c77956c41513d987bf7138d22590f"
+        },
+        {
+          "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\persist-copper-1793257636240451800",
+          "row": "CORE:40:1,COAL:16:1,SAND:4:1,|0",
+          "source_sha256": "58258d0ca278348c9a7100d4d8aae11674bf03cb3f094e4e5f5e544d03d264ad"
+        }
+      ]
+    },
+    {
+      "kind": "meat",
+      "local_id": 125,
+      "evidence": "VERIFIED IN GAME",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\control-meat-1793257534646248800",
+      "script_sha256": "6840a149b66470402faf5cd1969f2c574da959be39a1aa2cc58d105207e92727",
+      "save_sha256": "3468aea95c858d27ed54f7061e1615ac001a9d94c95a5d79ff742c6819b31a4e",
+      "production_first_observed": 6,
+      "negative_controls": [
+        "salt_only|6|0|0"
+      ],
+      "paid_events": [
+        {
+          "route": "salt_to_meat",
+          "vehicle_id": 0,
+          "positive_vehicle_profit_delta": 253,
+          "distance_to_destination": 0,
+          "tile": 39514
+        },
+        {
+          "route": "livestock_to_cure",
+          "vehicle_id": 6,
+          "positive_vehicle_profit_delta": 164,
+          "distance_to_destination": 0,
+          "tile": 39514
+        },
+        {
+          "route": "preserved_meat_to_market",
+          "vehicle_id": 10,
+          "positive_vehicle_profit_delta": 66,
+          "distance_to_destination": 0,
+          "tile": 48233
+        }
+      ],
+      "profit_unit": "OpenTTD internal money units; these are delivery events, not annual profits",
+      "persistence": [
+        {
+          "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\persist-meat-1793257637495233700",
+          "row": "SALT:40:1,LVST:0:1,|0",
+          "source_sha256": "3468aea95c858d27ed54f7061e1615ac001a9d94c95a5d79ff742c6819b31a4e"
+        },
+        {
+          "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\persist-meat-1793257638762409400",
+          "row": "SALT:40:1,LVST:0:1,|0",
+          "source_sha256": "64ffa254f305a667898253e73220b505d9a949fefa0e9b3fb38f45b8ab003303"
+        }
+      ]
+    },
+    {
+      "kind": "fish",
+      "local_id": 124,
+      "evidence": "VERIFIED IN GAME",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\control-fish-1793236984028103400",
+      "script_sha256": "452bc160a2a3167c6fb03fb995507fcc330606341d2bbbc980bd32dcef99679e",
+      "save_sha256": "1e9d39babca6eb2eea6285faaa22996b12a5e7ec85b6b145b313c73e0704869d",
+      "production_first_observed": 6,
+      "negative_controls": [
+        "fish_salt_only|6|0|0"
+      ],
+      "paid_events": [
+        {
+          "route": "salt_to_fish",
+          "vehicle_id": 2,
+          "positive_vehicle_profit_delta": 236,
+          "distance_to_destination": 0,
+          "tile": 46933
+        },
+        {
+          "route": "fresh_fish_to_cure",
+          "vehicle_id": 5,
+          "positive_vehicle_profit_delta": 225,
+          "distance_to_destination": 2,
+          "tile": 48724
+        },
+        {
+          "route": "preserved_fish_to_market",
+          "vehicle_id": 6,
+          "positive_vehicle_profit_delta": 156,
+          "distance_to_destination": 0,
+          "tile": 48283
+        }
+      ],
+      "profit_unit": "OpenTTD internal money units; these are delivery events, not annual profits",
+      "persistence": [
+        {
+          "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\persist-fish-1793257640039619800",
+          "row": "SALT:0:1,FISH:1630:1,|0",
+          "source_sha256": "1e9d39babca6eb2eea6285faaa22996b12a5e7ec85b6b145b313c73e0704869d"
+        },
+        {
+          "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\persist-fish-1793257641303181300",
+          "row": "SALT:0:1,FISH:1630:1,|0",
+          "source_sha256": "973df01ab8cd95f52f7e753f89205a0b9219c4fde27e15f2ac495714b4bde2a4"
+        }
+      ]
+    }
+  ]
+}

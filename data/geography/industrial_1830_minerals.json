@@ -1,0 +1,34 @@
+{
+  "version_context": "Historical AXIS 0.2.0 base plan. Copper/salt deferrals describe that earlier version and are superseded only for the separate validated 0.3.0 additions; see industrial_copper_salt_1830.json.",
+  "scope": "Coordinates are locality-scale seeds, not surveyed shaft positions. Bounded siting cannot cross a region. Named sites distinguish pre-1830 workings from later infrastructure; ancillary coke, quarry and workshop representations are explicitly modelled.",
+  "districts": [
+    ["GB","Blaenavon early levels and ironworks",51.774,-3.085,"WALES",[0,4,10,78,7,21,45]],
+    ["GB","Merthyr and Dowlais iron district",51.762,-3.359,"WALES",[0,4,78,7,21]],
+    ["GB","Coalbrookdale historic integrated district",52.637,-2.493,"IRONBRIDGE",[0,4,10,78,7,21]],
+    ["GB","Tyneside early coalfield",55.002,-1.527,"EUROPE",[0,78,45]],
+    ["GB","Durham early coalfield",54.821,-1.450,"EUROPE",[0,45]],
+    ["GB","Lancashire early coalfield",53.590,-2.600,"GB_TEXT",[0,45]],
+    ["GB","West Yorkshire coalfield",53.548,-1.567,"GB_TEXT",[0,45]],
+    ["GB","Monklands early coalfield",55.870,-3.980,"EUROPE",[0,78,45]],
+    ["BX","Grand-Hornu Borinage workings",50.436,3.838,"HORNU",[0,78,45]],
+    ["BX","Seraing Cockerill works",50.605,5.496,"SERAING",[0,4,10,78,7,21]],
+    ["FR","Anzin early workings",50.381,3.503,"ANZIN",[0,78,45]],
+    ["FR","Le Creusot royal foundry district",46.802,4.428,"CREUSOT",[0,4,10,78,7,21]],
+    ["DE","Nachtigall shallow Ruhr workings",51.426,7.306,"RUHR",[0,78,45]],
+    ["DE","Southern Ruhr regional iron trades",51.390,7.150,"RUHR",[4,10,7,21]],
+    ["PL","Queen Louise Upper Silesian workings",50.294,18.805,"SILESIA",[0,78,45]],
+    ["PL","Upper Silesian early iron district",50.300,18.950,"SILESIA",[4,10,7,21]],
+    ["CE","Ostrava early coal workings, not later Hlubina",49.866,18.261,"OSTRAVA",[0,78,45]],
+    ["SC","Taberg iron district",57.676,14.087,"SWEDEN",[4,10]],
+    ["SC","Huseby pre-1830 iron estate",56.771,14.580,"HUSEBY",[7,21]],
+    ["CE","Styrian Erzberg iron district",47.540,14.890,"EUROPE",[4,10,7,21]],
+    ["IT","Elba historic iron district",42.815,10.426,"ITALY",[4,10]]
+  ],
+  "deferred": [
+    {"site":"Cornwall copper and tin","reason":"Documented major mining by 1830, but CORE has no eligible 1830 industrial consumer in the unchanged AXIS recipes; tin is not an active cargo. Do not invent an accepting smelter or strand a primary route.","source":"https://whc.unesco.org/en/list/1215/"},
+    {"site":"Falun copper / Bergslagen iron","reason":"Historic activity documented, but these northern locations fall beyond this map's calibrated northern extent. Do not shift them to southern Sweden.","source":"https://whc.unesco.org/en/list/1027/"},
+    {"site":"Vítkovice coke blast furnace","reason":"Puddling began September 1830; the coke blast furnace dates to 1836. Not operational on 1 January 1830; do not infer an 1830 coke furnace from the 1828 foundation date.","source":"https://www.rothschildarchive.org/collections/archivists_choice/august_2016_acquisition_of_the_witkowitz_ironworks_1842"},
+    {"site":"Wieliczka / stand-alone salt","reason":"Historic salt industry is real, but unchanged 1830 AXIS industry recipes have no SALT consumer. A mine without a usable transport destination is deferred; no modern food processor is backdated.","source":"https://whc.unesco.org/en/list/32/"},
+    {"site":"Modern Ruhr deep pits / Kladno / petroleum","reason":"No automatic placement from modern resource maps. Later pits and all post-1830 oil types are excluded by the placement policy.","source":"https://zeche-nachtigall.lwl.org/en/history/"}
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "changed_tiles": 4944,
+  "height_changes": 0,
+  "water_type_changes": 527,
+  "existing_infrastructure_changes": 0,
+  "original_towns": 617,
+  "original_town_rows_bit_identical": true,
+  "industry_instances": 467,
+  "water_tiles_occupied_by_industry": 527,
+  "protected_house_and_object_changes": 0,
+  "source_sha256": "6c7a7b8ccbf72a744102ab06df755d119d692ca435e397e1bbbac3267ee1b60d",
+  "candidate_sha256": "b05ef51a3bd17eb453d6b5e4af544c0745fee372a6195f5354ab8bd927ce6e75",
+  "candidate": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\additions-retry-1793257822982916200\\industrialized-0.3-pass2.scn",
+  "completed_438_industry_records_bit_identical": true,
+  "scenario_editor_load_save_reload_verified": true,
+  "editor_saved_file": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\editor-proof-1793258342322561300\\scenario\\UNNAMED.scn",
+  "editor_saved_sha256": "a28fe967d539372263cefcb65e1843b8891fc135e79cd1ee630a71131673edd5",
+  "editor_roundtrip_all_map_arrays_and_town_industry_newgrf_rows_identical": true,
+  "gameplay_roundtrips": [
+    {
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\final-reload-1793258878960108100",
+      "combined_load_probe_and_exit_save_seconds": 12.687,
+      "saved_sha256": "c13fc474549eeb40653f39b175b7bfdf395fd5c751a251e617f04b40dd37fcdf",
+      "events": [
+        "FINAL|towns=617|industries=467|types=96|cargos=64|grfs=15|version=3",
+        "FINAL_SETTING|construction.raw_industry_construction|0",
+        "FINAL_SETTING|construction.industry_platform|1",
+        "FINAL_SETTING|vehicle.max_train_length|7",
+        "FINAL_SETTING|economy.infrastructure_maintenance|1",
+        "FINAL_SETTING|economy.timekeeping_units|0",
+        "FINAL_SETTING|economy.inflation|0",
+        "FINAL_SETTING|difficulty.max_loan|300000",
+        "FINAL_SETTING|difficulty.vehicle_breakdowns|1",
+        "FINAL_SETTING|economy.town_growth_rate|2",
+        "ECONOMY_DATE|1800"
+      ]
+    },
+    {
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\industrial6b\\final-reload-1793258892173802300",
+      "combined_load_probe_and_exit_save_seconds": 10.125,
+      "saved_sha256": "b49bf538a4d448ab28c057994588bad70a7a1003fcf64958c9c4e37e44473fcf",
+      "events": [
+        "FINAL|towns=617|industries=467|types=96|cargos=64|grfs=15|version=3",
+        "FINAL_SETTING|construction.raw_industry_construction|0",
+        "FINAL_SETTING|construction.industry_platform|1",
+        "FINAL_SETTING|vehicle.max_train_length|7",
+        "FINAL_SETTING|economy.infrastructure_maintenance|1",
+        "FINAL_SETTING|economy.timekeeping_units|0",
+        "FINAL_SETTING|economy.inflation|0",
+        "FINAL_SETTING|difficulty.max_loan|300000",
+        "FINAL_SETTING|difficulty.vehicle_breakdowns|1",
+        "FINAL_SETTING|economy.town_growth_rate|2",
+        "ECONOMY_DATE|1800"
+      ]
+    }
+  ],
+  "source_scenario_unchanged": true
+}

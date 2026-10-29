@@ -1,0 +1,154 @@
+{
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "results": [
+    {
+      "case": "coal_rail",
+      "controlled": true,
+      "mode": "rail",
+      "cargo": "COAL",
+      "evidence": "VERIFIED BY ENGINE TEST",
+      "paid_delivery_verified": true,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G FIXTURE source=true destination=true",
+        "dbg: [script:4] [18] [I] AHE5G SELECT|rail|COAL|0|1|55",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_BUILT|company_0|1534|2-2-0 Planet (Steam)|8565|8527|24|36|34|90|34|50|12908|30000|668405",
+        "dbg: [script:4] [18] [I] P4_COMMISSION|company_0|0|8565|8527|24|1|668405|8738",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1830|12758|30000|1|72|1|1137|8565,8527,627,0,0,0,384,-1764,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1831|13904|30000|1|120|1|2429|0,0,510,0,0,0,384,-2940,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1832|15119|30000|1|120|1|2498|0,0,442,0,0,0,384,-2940,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1833|16336|30000|1|120|1|2500|0,0,439,0,0,0,384,-2940,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1834|16761|30000|1|96|1|1709|0,0,643,0,0,0,384,-2352,0,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [
+        {
+          "year": 1830,
+          "cash": 12758,
+          "loan": 30000,
+          "delivered": 72,
+          "vehicle_profit": 1137,
+          "ledger": [
+            8565,
+            8527,
+            627,
+            0,
+            0,
+            0,
+            384,
+            -1764,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1831,
+          "cash": 13904,
+          "loan": 30000,
+          "delivered": 120,
+          "vehicle_profit": 2429,
+          "ledger": [
+            0,
+            0,
+            510,
+            0,
+            0,
+            0,
+            384,
+            -2940,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1832,
+          "cash": 15119,
+          "loan": 30000,
+          "delivered": 120,
+          "vehicle_profit": 2498,
+          "ledger": [
+            0,
+            0,
+            442,
+            0,
+            0,
+            0,
+            384,
+            -2940,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1833,
+          "cash": 16336,
+          "loan": 30000,
+          "delivered": 120,
+          "vehicle_profit": 2500,
+          "ledger": [
+            0,
+            0,
+            439,
+            0,
+            0,
+            0,
+            384,
+            -2940,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1834,
+          "cash": 16761,
+          "loan": 30000,
+          "delivered": 96,
+          "vehicle_profit": 1709,
+          "ledger": [
+            0,
+            0,
+            643,
+            0,
+            0,
+            0,
+            384,
+            -2352,
+            0,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        }
+      ],
+      "log": ".work\\integration\\coal_rail-1793219140309291500\\engine.log",
+      "log_sha256": "e17848d1225962048ed7514610c987a74413466a998bdd68705d29dc6b605909",
+      "settings_sha256": "87e490438e6373731f6e6a99277fc2f458de920b26b836fe5e24bf159678497f",
+      "script_sha256": "f263425267876675c3e43ff615ecf1e20f629d74cc2918dc5213b1291f47ff1c"
+    }
+  ],
+  "limitations": "Fresh 256x256 geography; inherited scalar PATS settings, changed map generation. No matched geographic baseline or multiplayer network test."
+}

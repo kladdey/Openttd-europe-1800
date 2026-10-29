@@ -11,7 +11,7 @@ import sys
 import zipfile
 
 ROOT = Path(__file__).resolve().parent
-REPORT = ROOT / "validation-result.json"
+REPORT = ROOT / "validation-phase5-result.json"
 
 
 def grf_sprites(path):
@@ -168,7 +168,9 @@ def main():
             for year in [1830, 1850, 1860, 1900, 1950, 1955, 2000,
                          rule["earliest_year"] - 1, rule["earliest_year"], rule["earliest_year"] + 1]:
                 for route in range(4):
-                    assert condition_allows(expression, year, route) == (year >= rule["earliest_year"])
+                    permissions = [rule['allow_map_generation'], rule['allow_natural_and_gs'],
+                                   rule['allow_player_funding_and_prospecting'], rule['allow_player_funding_and_prospecting']]
+                    assert condition_allows(expression, year, route) == (year >= rule["earliest_year"] and permissions[route])
                     assert condition_allows(expression, year, route, mode=0)
                     assert condition_allows(expression, year, route, economy=5)
                     truth_checks += 3
@@ -198,13 +200,13 @@ def main():
             print("baseline-" + label, flush=True)
             with (ROOT / ".work" / ("baseline-" + label + ".log")).open("w", encoding="utf-8") as log:
                 subprocess.run(command, cwd=base, stdout=log, stderr=subprocess.STDOUT, check=True)
-    artifact = ROOT / "dist/axis-historical-europe-0.1.0.grf"
+    artifact = ROOT / f"dist/axis-historical-europe-{manifest['version']}.grf"
     sprites = list(grf_sprites(artifact))
     action8 = [s for s in sprites if s[:1] == b"\x08"]
     assert len(action8) == 1 and action8[0][2:6] == b"KHE1"
-    assert b"AXIS Historical Europe 0.1.0" in action8[0]
+    assert ('AXIS Historical Europe ' + manifest['version']).encode() in action8[0]
     # Action14 binary VRSN node has little-endian length=4, value=1.
-    assert any(b"BVRSN\x04\x00\x01\x00\x00\x00" in s for s in sprites if s[:1] == b"\x14")
+    assert any(b"BVRSN\x04\x00" + manifest['grf_version'].to_bytes(4, 'little') in s for s in sprites if s[:1] == b"\x14")
     cargo_binary = read_cargo_definitions(sprites)
     assert cargo_binary and cargo_binary == read_cargo_definitions(grf_sprites(baseline_grf))
 
@@ -222,7 +224,7 @@ def main():
         "cargo_slots": 64, "all_economy_cargo_orders_unchanged": True,
         "other_economies_identical_enabled_models": True,
         "all_original_classic_industries_unchanged_models": True,
-        "binary_grfid": "4B484531", "binary_version": 1,
+        "binary_grfid": "4B484531", "binary_version": manifest['grf_version'],
         "binary_cargo_slot_label_records_identical": len(cargo_binary),
         "generated_nml_gate_truth_checks": truth_checks, "recipe_tests": recipe_checks,
         "optional_final_year_and_route_mask_checks": 16,

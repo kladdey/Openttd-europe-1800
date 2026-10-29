@@ -1,0 +1,65 @@
+{
+  "evidence": "VERIFIED IN GAME",
+  "tests": [
+    {
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\reload-1793266902217221400",
+      "seconds": 12.844,
+      "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+      "saved_sha256": "9c475c43d6ad01a8ad9968ceeacfb299ee2d7c089db960537fcbacfc9ca9a7e3",
+      "town_industry_newgrf_rows_and_maps_identical": true
+    },
+    {
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\reload-1793266915615216600",
+      "seconds": 10.14,
+      "source_sha256": "9c475c43d6ad01a8ad9968ceeacfb299ee2d7c089db960537fcbacfc9ca9a7e3",
+      "saved_sha256": "b3aaf16c1db100526d88637249d7f3a9f287fac5aeea70708e453f989a0bf8fa",
+      "town_industry_newgrf_rows_and_maps_identical": true
+    }
+  ],
+  "opening_trains": [
+    "2038|0-4-0 Grasshopper (Steam)|63|4687",
+    "1705|Caboose|-1|3750",
+    "1701|Tank Car|-1|2953",
+    "1695|Flat Car|-1|2625",
+    "1691|Gondola|-1|2953",
+    "1686|Single Hopper|-1|2625",
+    "1684|Cattle Car|-1|2953",
+    "1677|Boxcar|-1|3000",
+    "1676|Express Car|-1|3750",
+    "1671|Mail Car|-1|3750",
+    "1665|Passenger Car|-1|4406",
+    "1534|2-2-0 Planet (Steam)|120|7031",
+    "1462|Passenger Coach|-1|726",
+    "1459|10t Brake Van|-1|468",
+    "1443|Single Bolster|-1|257",
+    "1430|Open Wagon|-1|257"
+  ],
+  "settings": [
+    "construction.raw_industry_construction|0",
+    "construction.industry_platform|1",
+    "vehicle.max_train_length|7",
+    "economy.infrastructure_maintenance|1",
+    "economy.timekeeping_units|0",
+    "economy.inflation|0",
+    "difficulty.max_loan|300000",
+    "difficulty.vehicle_breakdowns|1",
+    "economy.town_growth_rate|2"
+  ],
+  "newgrfs": [
+    "1396770824|19| GETS 0.7",
+    "1330064180|5524|OpenGFX+ Landscape 1.1.2",
+    "1313670424|2401131718|?NARS ADD-ON SET 2CC ?rev.2401131718 ?(STILL 218 Vehicles!)",
+    "1297481989|17|TEST Polish Rolling Stock Pack 0.19.1",
+    "1297481987|211|Polish Train Set 3.0",
+    "1263027505|3|AXIS Historical Europe 0.3.0 copper/salt candidate (AXIS 2.3.1 base)",
+    "1245904898|5518|Industrial Stations Renewal 1.0.2",
+    "1145311232|1050|UK Railway Set (UKRS2)",
+    "1145309697|2210|av8 Aviators Aircraft Set",
+    "1145307906|252|North American Railway Set (NARS) 2.52",
+    "1129136897|5|Sailing Ships (community) 0.73",
+    "1128812628|376|CHIPS Station Set 2.0.0",
+    "1096155395|40|eGRVTS v2.1 - r240",
+    "1095631361|1687|Squid Ate FISH r1687",
+    "16793658|0|City objects 1.3"
+  ]
+}

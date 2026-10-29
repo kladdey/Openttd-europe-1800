@@ -90,14 +90,14 @@ def main():
         "${'return string(STR_HISTORICAL_STEELWORKS_FUND)' if economy.id == 'BASIC_TEMPERATE' else industry.get_extra_text_fund(economy)};")
     (source / "src/templates/industry_historical_steelworks.pynml").write_text(secondary, encoding="utf-8")
     names = source / "src/lang_templates/english.pylng"
-    replace_once(names, ':AXIS 2.3.1', ':AXIS Historical Europe 0.1.0 (AXIS 2.3.1 base)')
+    replace_once(names, ':AXIS 2.3.1', f':AXIS Historical Europe {MANIFEST["version"]} (AXIS 2.3.1 base)')
     replace_once(names, ':https://github.com/EmperorJake/AXIS', ':https://github.com/kladdey/Openttd-europe-1800')
     years = {name: rule["earliest_year"] for name, rule in MANIFEST["industries"].items()}
     recipe = MANIFEST["industries"]["steel_mill"]["recipe"]
     with names.open("a", encoding="utf-8") as out:
         out.write(f'''
-STR_PARAM_HISTORICAL_EUROPE :Historical Europe steelmaking dates (Classic only)
-STR_PARAM_HISTORICAL_EUROPE_DESC :Default on. Steelworks from {years['steel_mill']}, EAF from {years['electric_arc_furnace']}, BOF from {years['basic_oxygen_furnace']}. Off disables added date/route restrictions, not original AXIS dates. Natural and deity GameScript construction share permission. New games only.
+STR_PARAM_HISTORICAL_EUROPE :Historical Europe industry progression (Classic only)
+STR_PARAM_HISTORICAL_EUROPE_DESC :Default on. Historical construction policy for all Classic types. Steelworks from {years['steel_mill']}, EAF from {years['electric_arc_furnace']}, BOF from {years['basic_oxygen_furnace']}. Off disables added date/route restrictions, not original AXIS dates. Natural and deity GameScript construction share permission. New games only.
 STR_IND_HISTORICAL_STEELWORKS :Nineteenth-century Steelworks
 STR_HISTORICAL_STEELWORKS_RECIPE :Stockpiles both inputs. Each complete batch: {recipe['inputs']['IRON']} pig iron + {recipe['inputs']['COKE']} coke yields {recipe['outputs']['STEL']} steel + {recipe['outputs']['SLAG']} slag. No output from either input alone.
 STR_HISTORICAL_STEELWORKS_FUND :Historical mode: new construction from {years['steel_mill']}. Existing works keep operating.

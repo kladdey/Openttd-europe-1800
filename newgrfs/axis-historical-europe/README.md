@@ -1,4 +1,82 @@
-# AXIS Historical Europe 0.1.0 — steelmaking milestone
+# AXIS Historical Europe 0.2.0 — Phase 5
+
+**PARTIALLY READY.** Compiled, loaded and tested with the campaign's other 14
+GRFs in fresh worlds. No certified conversion of the existing Europe scenario.
+Do not install over stock AXIS or hot-swap a working save.
+
+Current identity: **KHE1 / 4B484531**, numeric version **2**, minimum compatible
+**1** within this fork identity. All original 91 industry IDs/recipes/layouts
+and 64 cargo slots are preserved; reused steelworks ID 2 makes **92** types.
+The manifest now explicitly governs all types. Historical parameter 10 defaults
+on, applies only to Classic and does not close existing industries. Draft dates
+and modern-cargo proxies are explicitly experimental. Year zero means no added
+pre-1830 date gate. No cargo IDs or vehicle properties are changed.
+
+**Current output:** ignored `dist/axis-historical-europe-0.2.0.grf`, **7,842,417
+bytes**, SHA256 `0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7`.
+The complete matching source ZIP rebuilds identically. Compiler emitted 546
+warnings, no errors; see `.work/logs/compile.log`.
+
+Use the pinned build commands below with the current scripts: they now select
+0.2.0 from the manifest. Build dependencies remain Python 3.12.14, NML 0.9.0,
+Chameleon 4.6.0 and Pillow 13.0.0. For gameplay tests also install NumPy 2.3.5
+using `requirements-test.txt`. `extend_policy.py` is a policy-review generator,
+not an automatic build step; do not rerun it to erase manual date refinements.
+`package.py --verify-rebuild` packages full licensed corresponding source and
+checks an identical rebuild. No binaries or third-party assets are committed.
+
+Current runtime entry points:
+
+```powershell
+python newgrfs/axis-historical-europe/integration_test.py
+python newgrfs/axis-historical-europe/progression_test.py
+python newgrfs/axis-historical-europe/production_phase5.py
+python newgrfs/axis-historical-europe/gameplay_test.py --controlled --case coal_rail
+python newgrfs/axis-historical-europe/gameplay_test.py --controlled --case grain_horse
+python newgrfs/axis-historical-europe/gameplay_test.py --controlled --case timber_rail
+python newgrfs/axis-historical-europe/gameplay_test.py --case passenger_horse
+python newgrfs/axis-historical-europe/gameplay_test.py --case passenger_ship
+python newgrfs/axis-historical-europe/summarize_phase5.py
+python -m unittest discover -s tests -p test_axis_historical_phase5.py -v
+```
+
+Use the fork environment with `requirements-test.txt`, or the available bundled
+Python with NumPy/Pillow for the gameplay runner. Repeat the three controlled
+freight commands with `--stock` for stock-AXIS controls. `runtime_test.py` reruns
+16 steel construction/parameter cases on the current artifact; use the engine
+argument below. `production_test.py` is deliberately an archived 0.1.0 fixture;
+use **production_phase5.py** for current steel tests.
+
+Runtime prerequisites: official JGRPP 0.73.4/OpenGFX 8.0 under
+`.work/runtime/engine/openttd-jgrpp-0.73.4-windows-win64/`, and the exact audited
+NewGRF library/config under `.vehicle-audit-runtime/phase2/newgrf` and
+`phase2-verified-1830.cfg`. These local assets are not repository dependencies
+that can be redistributed with this fork. In a fresh checkout, recreate the
+isolated library from the user's installed files and the recorded 15 identities;
+do not substitute versions or install vehicles. The original scenario is read
+only for its fingerprint, never loaded into a historical replacement list.
+
+Fresh runs create unique case directories with raw logs/configs/GS source and
+disposable saves beneath `.work/integration/`. Read-only hardlinks share isolated
+copies only. A changed artifact requires a new integration directory, avoiding
+changes to earlier linked inputs. Result JSON summaries can be regenerated;
+archive them before a subsequent release audit. All engine invocations use
+explicit disposable config paths and `-X -x`.
+
+See [current implementation](../../docs/AXIS_HISTORICAL_IMPLEMENTATION.md),
+[gameplay results](../../docs/AXIS_HISTORICAL_GAMEPLAY_VALIDATION.md),
+[compatibility](../../docs/AXIS_HISTORICAL_COMPATIBILITY.md),
+[migration](../../docs/AXIS_HISTORICAL_MIGRATION_GUIDE.md),
+[release readiness](../../docs/AXIS_HISTORICAL_RELEASE_READINESS.md) and
+[92-type matrix](../../docs/research/axis_historical_availability.csv).
+Nothing was installed, pushed, merged or published.
+
+## Archived 0.1.0 milestone instructions and evidence
+
+The following version-specific outputs/counts/pending tests describe the earlier
+milestone. Use the current Phase 5 reports and entry points above for new tests.
+
+### AXIS Historical Europe 0.1.0 — steelmaking milestone
 
 **Compiled experimental NewGRF; 16 headless JGRPP 0.73.4 construction tests passed.**
 An actual truck-delivery and stockpile save/reload fixture also passed.

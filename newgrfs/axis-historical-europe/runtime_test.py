@@ -23,7 +23,8 @@ def main():
     engine = args.engine_directory.resolve()
     if not engine.is_relative_to((ROOT / ".work").resolve()):
         raise SystemExit("Engine must be a disposable copy inside this project's .work")
-    artifact = ROOT / "dist/axis-historical-europe-0.1.0.grf"
+    version = json.loads((ROOT / 'historical_manifest.json').read_text())['version']
+    artifact = ROOT / f"dist/axis-historical-europe-{version}.grf"
     (engine / "newgrf").mkdir(exist_ok=True)
     shutil.copyfile(artifact, engine / "newgrf" / artifact.name)
     game = engine / "game/historical-steel-runtime-test"
@@ -117,7 +118,7 @@ min_active_clients = 0
               "grf_sha256": hashlib.sha256(artifact.read_bytes()).hexdigest(), "map_size": [256, 256],
               "cases": results, "passed": len(results) == len(selected) and all(r["passed"] for r in results),
               "scope": "fresh headless worlds; deity and company-mode funding commands, map generation and inventory; no human joins or transported cargo"}
-    (ROOT / ("runtime-result.json" if args.case == "all" else "runtime-smoke-result.json")).write_text(
+    (ROOT / ("runtime-phase5-result.json" if args.case == "all" else "runtime-phase5-" + args.case + "-result.json")).write_text(
         json.dumps(report, indent=2) + "\n", encoding="utf-8")
 
 

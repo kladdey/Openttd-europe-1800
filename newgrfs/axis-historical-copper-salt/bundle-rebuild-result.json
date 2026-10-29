@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "rebuilt_grf_sha256": "f0da622873c91107fa4d2b768d88cd95d5db009c2b2975bdb6d7ab6caaed3c33",
+  "source_bundle_sha256": "90c0f83c447ac42079ad4382dccec6fbc0839c482328e0d8559904f0728e2674",
+  "method": "extract complete source ZIP and run its documented build commands"
+}

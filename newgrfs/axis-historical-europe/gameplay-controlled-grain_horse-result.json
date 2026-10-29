@@ -1,0 +1,154 @@
+{
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "0728a246327826ae2dccdcbb13578631ea401d088b56e1e954b917eb2f7af8a7",
+  "results": [
+    {
+      "case": "grain_horse",
+      "controlled": true,
+      "mode": "road",
+      "cargo": "GRAI",
+      "evidence": "VERIFIED BY ENGINE TEST",
+      "paid_delivery_verified": true,
+      "lines": [
+        "dbg: [script:4] [18] [I] AHE5G FIXTURE source=true destination=true",
+        "dbg: [script:4] [18] [I] AHE5G SELECT|road|GRAI|0|1|55",
+        "dbg: [script:4] [18] [I] P4_START|0|100000|100000|300000|1|7",
+        "dbg: [script:4] [18] [I] P4_BUILT|company_0|402|1 Horse Hopper Carriage|10803|2296|8|35|34|90|34|58|16901|30000|668410",
+        "dbg: [script:4] [18] [I] P4_COMMISSION|company_0|0|10803|2296|8|4|668410|8994",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1830|15489|30000|1|16|4|3|10803,2296,0,355,0,0,516,0,-360,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1831|14486|30000|1|32|4|411|0,0,0,332,0,0,516,0,-745,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1832|14200|30000|1|64|4|1129|0,0,0,341,0,0,516,0,-1470,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1833|13180|30000|1|32|4|395|0,0,0,328,0,0,516,0,-725,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_YEAR|0|1834|12087|30000|1|32|4|321|0,0,0,404,0,0,516,0,-727,0,0,600,300,0,0,",
+        "dbg: [script:4] [18] [I] P4_DONE"
+      ],
+      "years": [
+        {
+          "year": 1830,
+          "cash": 15489,
+          "loan": 30000,
+          "delivered": 16,
+          "vehicle_profit": 3,
+          "ledger": [
+            10803,
+            2296,
+            0,
+            355,
+            0,
+            0,
+            516,
+            0,
+            -360,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1831,
+          "cash": 14486,
+          "loan": 30000,
+          "delivered": 32,
+          "vehicle_profit": 411,
+          "ledger": [
+            0,
+            0,
+            0,
+            332,
+            0,
+            0,
+            516,
+            0,
+            -745,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1832,
+          "cash": 14200,
+          "loan": 30000,
+          "delivered": 64,
+          "vehicle_profit": 1129,
+          "ledger": [
+            0,
+            0,
+            0,
+            341,
+            0,
+            0,
+            516,
+            0,
+            -1470,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1833,
+          "cash": 13180,
+          "loan": 30000,
+          "delivered": 32,
+          "vehicle_profit": 395,
+          "ledger": [
+            0,
+            0,
+            0,
+            328,
+            0,
+            0,
+            516,
+            0,
+            -725,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        },
+        {
+          "year": 1834,
+          "cash": 12087,
+          "loan": 30000,
+          "delivered": 32,
+          "vehicle_profit": 321,
+          "ledger": [
+            0,
+            0,
+            0,
+            404,
+            0,
+            0,
+            516,
+            0,
+            -727,
+            0,
+            0,
+            600,
+            300,
+            0,
+            0
+          ]
+        }
+      ],
+      "log": ".work\\integration\\grain_horse-1793219142927252900\\engine.log",
+      "log_sha256": "6493e6abf359f3c67585bd07e758a267181822f7320f13befddeaaeeb86a3164",
+      "settings_sha256": "87e490438e6373731f6e6a99277fc2f458de920b26b836fe5e24bf159678497f",
+      "script_sha256": "466e5de3070759dc4719e22b58555b8322c84df12475fac9397660f41255fcd1"
+    }
+  ],
+  "limitations": "Fresh 256x256 geography; inherited scalar PATS settings, changed map generation. No matched geographic baseline or multiplayer network test."
+}

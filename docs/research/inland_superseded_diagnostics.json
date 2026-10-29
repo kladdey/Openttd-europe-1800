@@ -1,0 +1,341 @@
+[
+  {
+    "case": "coastal_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods-cheapest-fleet2-1793264998167929400",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "c573299ac3b325c2b68ca1227572f6d809c1a9c0c7d4146d185f5fc53de6757d",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 191,
+        "b": 374,
+        "mode": "road",
+        "manhattan": 42,
+        "a_tile": 11836965,
+        "b_tile": 11857408
+      },
+      {
+        "label": "GOOD",
+        "a": 374,
+        "b": 459,
+        "mode": "road",
+        "manhattan": 121,
+        "a_tile": 11857408,
+        "b_tile": 12217889
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|Route construction blocked GOOD_374_459"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "4767c5b478fe2f26c4557a4ef85c7d8ddd125cf5855f4758837c9a697367af36",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  },
+  {
+    "case": "coastal_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-coastal_goods-cheapest-fleet2-1793266382722969000",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "e2901c3a3cdb520c6d84169a5ff84c804cbeaa8b78f4990b76f0c6bf4464f35b",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 191,
+        "b": 374,
+        "mode": "road",
+        "manhattan": 42,
+        "a_tile": 11836965,
+        "b_tile": 11857408
+      },
+      {
+        "label": "GOOD",
+        "a": 374,
+        "b": 459,
+        "mode": "road",
+        "manhattan": 121,
+        "a_tile": 11857408,
+        "b_tile": 12217889
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|Route construction blocked GOOD_374_459"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "ea1ff42a543022589a3d1af0250cb82781ad019353ba5ac10b92920056e9fa7c",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  },
+  {
+    "case": "local_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-local_goods-cheapest-fleet2-1793264767065123300",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "1f51646879ab3cb44795f8517588140199c2e751f7910463eb15b54ed66a8843",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 187,
+        "b": 370,
+        "mode": "road",
+        "manhattan": 45,
+        "a_tile": 6104269,
+        "b_tile": 6157485
+      },
+      {
+        "label": "GOOD",
+        "a": 370,
+        "b": 522,
+        "mode": "road",
+        "manhattan": 20,
+        "a_tile": 6157485,
+        "b_tile": 6177980
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|17738|2296|79965|100000",
+      "FINANCE|1800|17730|40000|1|17738,2296,0,319,0,0,816,0,0,0,0,800,300,0,0,",
+      "CHAIN_PAID|485|legs=2",
+      "FINANCE|1801|16138|40000|1|0,0,0,347,0,0,816,0,-671,0,0,800,300,0,0,",
+      "FINANCE|1802|14356|40000|1|0,0,0,352,0,0,816,0,-487,0,0,800,300,0,0,",
+      "COMPLETE|all_paid=true|cash=14356|loan=40000|elapsed=1096"
+    ],
+    "paid_events": [
+      "FICR_187_370|0|160|0|6153389",
+      "GOOD_370_522|4|24|0|6169788"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "c1439ccba3f17739f4683131e7af0a07c7ade0216a76b885d973f1482c532c03",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  },
+  {
+    "case": "long_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-long_goods-cheapest-fleet2-1793264984898290400",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "32dda1c3d3e645333e3c91ae7f7ebb2acd9434c78b76f35d7449429569dad136",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 182,
+        "b": 365,
+        "mode": "road",
+        "manhattan": 33,
+        "a_tile": 5761396,
+        "b_tile": 5769557
+      },
+      {
+        "label": "GOOD",
+        "a": 365,
+        "b": 499,
+        "mode": "road",
+        "manhattan": 125,
+        "a_tile": 5769557,
+        "b_tile": 5933312
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|Route construction blocked GOOD_365_499"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "0f519a78e0d53023846a9f93a9907b80cc35ebe202497bfcd64f1f74a60d447b",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  },
+  {
+    "case": "long_goods",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "origin_load_policy": "full load any",
+    "rail_wagon_policy": "UKRS2 Open Wagon 1430 preferred, refit verified",
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-long_goods-cheapest-fleet2-1793266368333251900",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "e7e585c4bd5b6ca89c0fdd1450bdc602f30a2d474e056154b15f4a8fe6eb738d",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "FICR",
+        "a": 182,
+        "b": 365,
+        "mode": "road",
+        "manhattan": 33,
+        "a_tile": 5761396,
+        "b_tile": 5769557
+      },
+      {
+        "label": "GOOD",
+        "a": 365,
+        "b": 499,
+        "mode": "road",
+        "manhattan": 125,
+        "a_tile": 5769557,
+        "b_tile": 5933312
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "SERVICE_ERROR|No articulated-road-vehicle turning loop"
+    ],
+    "paid_events": [],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "61def04bb09ca1f9e2911abd8461bc85508de0d655ed87f18cab01214d3480f6",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  },
+  {
+    "case": "rail_food",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-rail_food-cheapest-fleet2-1793265542585139500",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "84e624d27360bc8af3a122d3def45a2a515484f84e4e7e8e8a3d95a85c662938",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "GRAI",
+        "a": 66,
+        "b": 275,
+        "mode": "rail",
+        "manhattan": 31,
+        "a_tile": 6234718,
+        "b_tile": 6173294
+      },
+      {
+        "label": "FOOD",
+        "a": 275,
+        "b": 474,
+        "mode": "road",
+        "manhattan": 17,
+        "a_tile": 6173294,
+        "b_tile": 6197881
+      }
+    ],
+    "status": "VERIFIED IN GAME",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "TRAIN|1534|2-2-0 Planet (Steam)|1443|Single Bolster|44|60",
+      "RAIL_LINK|0|6230622|6230621|6226525|true",
+      "RAIL_LINK|1|6230621|6226525|6222429|true",
+      "RAIL_LINK|2|6226525|6222429|6222430|true",
+      "RAIL_LINK|3|6222429|6222430|6222431|true",
+      "RAIL_LINK|4|6222430|6222431|6222432|true",
+      "RAIL_LINK|5|6222431|6222432|6222433|true",
+      "RAIL_LINK|6|6222432|6222433|6222434|true",
+      "RAIL_LINK|7|6222433|6222434|6222435|true",
+      "RAIL_LINK|8|6222434|6222435|6222436|true",
+      "RAIL_LINK|9|6222435|6222436|6222437|true",
+      "RAIL_LINK|10|6222436|6222437|6222438|true",
+      "RAIL_LINK|11|6222437|6222438|6222439|true",
+      "RAIL_LINK|12|6222438|6222439|6222440|true",
+      "RAIL_LINK|13|6222439|6222440|6222441|true",
+      "RAIL_LINK|14|6222440|6222441|6222442|true",
+      "RAIL_LINK|15|6222441|6222442|6222443|true",
+      "RAIL_LINK|16|6222442|6222443|6222444|true",
+      "RAIL_LINK|17|6222443|6222444|6222445|true",
+      "RAIL_LINK|18|6222444|6222445|6222446|true",
+      "RAIL_LINK|19|6222445|6222446|6222447|true",
+      "RAIL_LINK|20|6222446|6222447|6222448|true",
+      "RAIL_LINK|21|6222447|6222448|6222449|true",
+      "RAIL_LINK|22|6222448|6222449|6222450|true",
+      "RAIL_LINK|23|6222449|6222450|6222451|true",
+      "RAIL_LINK|24|6222450|6222451|6218355|true",
+      "RAIL_LINK|25|6222451|6218355|6214259|true",
+      "RAIL_LINK|26|6218355|6214259|6210163|true",
+      "RAIL_LINK|27|6214259|6210163|6206067|true",
+      "RAIL_LINK|28|6210163|6206067|6201971|true",
+      "RAIL_LINK|29|6206067|6201971|6197875|true",
+      "RAIL_LINK|30|6201971|6197875|6193779|true",
+      "RAIL_LINK|31|6197875|6193779|6189683|true",
+      "RAIL_LINK|32|6193779|6189683|6185587|true",
+      "RAIL_LINK|33|6189683|6185587|6181491|true",
+      "RAIL_LINK|34|6185587|6181491|6177395|true",
+      "RAIL_LINK|35|6181491|6177395|6173299|true",
+      "RAIL_LINK|36|6177395|6173299|6169203|true",
+      "RAIL_LINK|37|6173299|6169203|6169202|true",
+      "RAIL_LINK|38|6169203|6169202|6169201|true",
+      "CAPITAL|11842|11731|76426|100000",
+      "CHAIN_PAID|186|legs=2",
+      "FINANCE|1800|18176|40000|3756|11842,11731,825,153,0,0,516,-3848,-499,0,0,800,300,0,0,",
+      "FINANCE|1801|20752|40000|4697|0,0,747,186,0,0,516,-4815,-309,0,0,800,300,0,0,",
+      "FINANCE|1802|23416|40000|5989|0,0,690,174,0,0,516,-4834,-311,0,0,800,300,0,0,",
+      "COMPLETE|all_paid=true|cash=23416|loan=40000|elapsed=1096"
+    ],
+    "paid_events": [
+      "GRAI_66_275|0|951|0|6169198",
+      "FOOD_275_474|15|124|0|6201977"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "37b79dd3f1dcacc727cdec5bfefacdc4029debf8453e639e3154955f64fc72b5",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  },
+  {
+    "case": "regional_food",
+    "vehicle_policy": "cheapest",
+    "road_fleet_per_leg": 2,
+    "engine_case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\service-regional_food-cheapest-fleet2-1793264875875225400",
+    "scenario_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+    "script_sha256": "065dafd09b06a7c3e95a405006984c5f3787179f9a0ad0f2cbfdcd70ed418a52",
+    "grant": false,
+    "years_requested": 3,
+    "legs": [
+      {
+        "label": "GRAI",
+        "a": 47,
+        "b": 257,
+        "mode": "road",
+        "manhattan": 33,
+        "a_tile": 5421644,
+        "b_tile": 5343834
+      },
+      {
+        "label": "FOOD",
+        "a": 257,
+        "b": 479,
+        "mode": "road",
+        "manhattan": 99,
+        "a_tile": 5343834,
+        "b_tile": 5233314
+      }
+    ],
+    "status": "BLOCKED / NO COMPLETE PAID CHAIN",
+    "events": [
+      "INITIAL|100000|100000|300000|grant=false|maintenance=1|train_limit=7",
+      "CAPITAL|20868|2296|76835|100000",
+      "FINANCE|1800|14469|40000|1|20868,2296,0,279,0,0,1248,0,-261,0,0,800,300,0,0,",
+      "FINANCE|1801|12241|40000|1|0,0,0,403,0,0,1248,0,-524,0,0,800,300,0,0,",
+      "FINANCE|1802|10018|40000|1|0,0,0,398,0,0,1248,0,-522,0,0,800,300,0,0,",
+      "COMPLETE|all_paid=false|cash=10018|loan=40000|elapsed=1096"
+    ],
+    "paid_events": [
+      "GRAI_47_257|0|130|0|5339738"
+    ],
+    "currency": "GBP: JGRPP currency.cpp GBP rate=1; script values used without scaling",
+    "engine_log_sha256": "48250e4bcf8a5ef9913db133623a53f825e059b5c6e8a04d092d436b324a8aa7",
+    "scope": "Superseded diagnostic; excluded from final economic comparison"
+  }
+]

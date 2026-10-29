@@ -1,0 +1,68 @@
+[
+  {
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-03-1793278150774443700",
+    "command": [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+      "-X",
+      "-x",
+      "-c",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-03-1793278150774443700\\test.cfg",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-03-1793278150774443700\\flat.png",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4"
+    ],
+    "seconds": 2.015,
+    "log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-03-1793278150774443700\\engine.log",
+    "log_sha256": "4ebbef68ebf64db3e31b036e95b584f31228a206df1c79b8a2bcdf03c3ae262d",
+    "script_sha256": "1cc671cf8019e91554eb6e814694f70e7649ac00dbd62926f2286d887642acd6",
+    "observations": [
+      "dbg: [script:4] [18] [I] P7 NATURAL_BASELINE|47|deity_available=false",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1830|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1831|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1832|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1833|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1834|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_DONE|new=0|days=1834"
+    ]
+  },
+  {
+    "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-04-1793278155219099900",
+    "command": [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+      "-X",
+      "-x",
+      "-c",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-04-1793278155219099900\\test.cfg",
+      "-g",
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-04-1793278155219099900\\flat.png",
+      "-v",
+      "null:ticks=150000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4"
+    ],
+    "seconds": 2.532,
+    "log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\.work\\runtime\\natural-04-1793278155219099900\\engine.log",
+    "log_sha256": "831b0dd26bf429ebac885c2140aa75cd2e4f230fe2caf0c24e22926d9d0a16d3",
+    "script_sha256": "1cc671cf8019e91554eb6e814694f70e7649ac00dbd62926f2286d887642acd6",
+    "observations": [
+      "dbg: [script:4] [18] [I] P7 NATURAL_BASELINE|47|deity_available=true",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1830|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1831|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1832|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1833|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_YEAR|1834|new=0|industries=47",
+      "dbg: [script:4] [18] [I] P7 NATURAL_DONE|new=0|days=1834"
+    ]
+  }
+]

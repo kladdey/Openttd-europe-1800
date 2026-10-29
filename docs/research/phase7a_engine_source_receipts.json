@@ -1,0 +1,19 @@
+{
+  "source_root": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-historical-industry\\.research\\jgr734\\src",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "files": {
+    "company_type.h": "c6888e77f02bfeeacf107fd28860a94706cc0becb9fa6dda7c3a2b80a5256470",
+    "newgrf_callbacks.h": "ccef74ef8bf4d2078384f31fc7620f1d2486e07cb3033d74f9c42877affe9185",
+    "newgrf_industries.cpp": "5f5ffa92045d1551fdb07dffa31990b7e6af89ec1306aa91e1bda5ca041321f4",
+    "industry_cmd.cpp": "586ce925c5df16b07ed2e34de92d9c26aaa8f890218ae2abd34a8218c1a8649a",
+    "script/api/script_industrytype.cpp": "9437f2283c703b2e6ab845004df21814cdff3e6a3017c1cec171945f8ada63d5",
+    "script/api/script_industry.hpp": "6b45563f3f4b5bb7dc11e5794ac0c6684de0673c549a889c639d6b15510010e1",
+    "script/api/script_industry.cpp": "45f555e82ac79ec5b6902d04c947aff8af27bf5b0782a52f58b2d29347f5e186",
+    "script/api/script_date.cpp": "0750c174128496bad23015da882da6bb59c25ef1f8c2a2b4e713992ea2461044",
+    "script/api/script_story_page.hpp": "d970cce53428aa582587e83a336d2daa5ee4ae9fbe33d2c32b3109169ea07f3e",
+    "story.cpp": "838d40e7cde910f7d681dc2c2ea9c033dff296a7164fcf08fd6666c8dec53918",
+    "script/api/script_news.hpp": "ac93e648962fdeb5c5cbf0327e001010607a24ab5174f4fc8f21fdbab0cec6f5",
+    "game/game_core.cpp": "f696a24e6492490330e369c049a0a9191b8ff9a118d3aaffbeab701bef291a64",
+    "video/dedicated_v.cpp": "644fff9c62dfbc82538de809bd9a7982f7eb99f323cfa6b83b62e51fb07c0856"
+  }
+}

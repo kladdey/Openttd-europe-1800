@@ -1,0 +1,32 @@
+{
+  "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\editor-final-1793266270441401500",
+  "source_sha256": "afcab50864e87f56a7260c62d87bd37560fa3d7676713afb14c480c555d0bc06",
+  "pid": 47232,
+  "command": [
+    "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\editor-final-1793266270441401500\\editor.cfg",
+    "-e",
+    "-g",
+    "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\editor-final-1793266270441401500\\scenario\\UNNAMED.scn",
+    "-r",
+    "1280x800",
+    "-s",
+    "null",
+    "-m",
+    "null"
+  ],
+  "saved": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\inland6c\\editor-final-1793266270441401500\\scenario\\UNNAMED.scn",
+  "saved_sha256": "6d6995b19cab3f5e8cec70294fa355943084dad30e0d0232608e0756d107140b",
+  "editor_roundtrip_maps_towns_industries_settings_identical": true,
+  "date_editor_changes": {
+    "id": [
+      "3146373137333437423042443139333735394141434146383031324333384135",
+      "3441304646354632423935333243394533354335344141334530463741384242"
+    ]
+  },
+  "reload_pid": 15152,
+  "editor_reload_visually_verified": true
+}
