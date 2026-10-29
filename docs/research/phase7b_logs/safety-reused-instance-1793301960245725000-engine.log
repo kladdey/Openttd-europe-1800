@@ -1,0 +1,7 @@
+dbg: [script:4] [18] [I] P7 EVENT|legacy_loaded|scheduler|schema=2|sites=4
+dbg: [script:4] [18] [I] P7 EVENT|construction_context|test_legacy_regional_replacement|deity=true|multiple_per_town=0
+dbg: [script:4] [18] [I] P7 EVENT|opened|test_legacy_regional_replacement|industry=1|type=0|tile=4488074|calendar=672051|born=672051
+dbg: [script:4] [18] [I] P7 EVENT|news|test_legacy_regional_replacement|ok=true|TEST replacement regional coal working opens in GB. New coal transport opportunity.
+dbg: [script:4] [18] [I] P7 EVENT|legacy_identity_lost|legacy_1|No commands issued to replacement or reused ID
+dbg: [script:4] [18] [I] P7 EVENT|safety_pass|reused_instance|old_id=1|new_id=1|old_tile=4471720|new_tile=4488074|new_born=672051|exists=true|stale_ledger_rejected=true|replacement_via_scheduler=true|exact_tile=false|exact_tile_error=ERR_SITE_UNSUITABLE
+dbg: [script:1] [18] [E] You tried to save an unsupported type. No data saved.

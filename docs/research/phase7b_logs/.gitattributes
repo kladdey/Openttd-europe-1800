@@ -1,0 +1,2 @@
+# Engine receipts hash exact native log bytes, including CRLF and formatting.
+*.log -text -whitespace

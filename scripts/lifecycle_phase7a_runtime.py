@@ -67,7 +67,7 @@ max_train_length = 7
     (home/'inputs.json').write_text(json.dumps(dict(engine_sha256=sha(ENGINE),grf_sha256=sha(artifact),original_scenario_sha256=sha(SOURCE),script_sha256=sha(game/'main.nut'),policy=policy,old_0_3=old,industry_density=density),indent=2))
     return home
 
-def execute(home,ticks=45000,source=None,tag='engine',dedicated=False):
+def execute(home,ticks=45000,source=None,tag='engine',dedicated=False,timeout=300,fail_on_fatal=False):
     guards();home=Path(home);cmd=[str(ENGINE),'-X','-x','-c',str(home/'test.cfg'),'-g',str(source or home/'flat.png'),'-v',f'null:ticks={ticks}','-s','null','-m','null','-d','script=4']
     if dedicated:
         cmd.insert(1,'-D127.0.0.1:39873');cmd[cmd.index('-v')+1]='dedicated'
@@ -79,12 +79,13 @@ def execute(home,ticks=45000,source=None,tag='engine',dedicated=False):
             while p.poll() is None:
                 time.sleep(.25);text=log.read_text(encoding='utf8',errors='replace')
                 if any(s in text for s in ['Your script made an error','Failed to compile','The script died unexpectedly.']):raise RuntimeError('Script failure: '+str(log))
+                if fail_on_fatal and 'P7 FATAL|' in text:raise RuntimeError('Lifecycle safely refused run: '+str(log))
                 if dedicated and 'P7 DEDICATED_SMOKE_DONE' in text:
                     if quit_sent is None:
                         p.stdin.write(b'quit\n');p.stdin.flush();quit_sent=time.monotonic()
                     elif time.monotonic()-quit_sent>5:
                         p.terminate();forced_stop=True;p.wait()
-                if time.monotonic()-start>300:raise subprocess.TimeoutExpired(cmd,300)
+                if time.monotonic()-start>timeout:raise subprocess.TimeoutExpired(cmd,timeout)
             if p.returncode and not forced_stop:raise subprocess.CalledProcessError(p.returncode,cmd)
         finally:
             if p.poll() is None:p.kill();p.wait()

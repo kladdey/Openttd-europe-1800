@@ -1,0 +1,91 @@
+--- a/src/templates/header.pynml
++++ b/src/templates/header.pynml
+@@ -6,2 +6,2 @@
+-	version: 4;
+-	min_compatible_version: 3;
++	version: 5;
++	min_compatible_version: 4;
+--- a/src/templates/industry_primary.pynml
++++ b/src/templates/industry_primary.pynml
+@@ -47,0 +48,71 @@
++<tal:legacy condition="industry.id == 'coal_mine'">
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_1_consume, [STORE_PERM(-258834184, 200), STORE_PERM(current_date, 202)]) { return CB_RESULT_IND_PROD_CLOSE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_1_arm, [STORE_PERM(258834184, 200), STORE_PERM(current_date, 201)]) { return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_1_arm_gate, LOAD_PERM(200) == 0) { 1: phase7b_instance_1_arm; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_1_close_gate, LOAD_PERM(200) == 258834184 &amp;&amp; current_date &gt; LOAD_PERM(201) &amp;&amp; current_date - LOAD_PERM(201) &lt;= 90) { 1: phase7b_instance_1_consume; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_1_command, production_level) {
++ 5: phase7b_instance_1_arm_gate;
++ 4: phase7b_instance_1_close_gate;
++ return CB_RESULT_IND_PROD_NO_CHANGE;
++}
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_1_guard, var[0x80, 0, 0xFFFFFFFF] == 4471720 &amp;&amp; build_date == 668394 &amp;&amp; founder == 16 &amp;&amp; random_bits == 41446 &amp;&amp; layout_num == 5) { 1: phase7b_instance_1_command; return CB_RESULT_IND_PROD_NO_CHANGE; }
++</tal:legacy>
++<tal:legacy condition="industry.id == 'coal_mine'">
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_11_consume, [STORE_PERM(-104539881, 200), STORE_PERM(current_date, 202)]) { return CB_RESULT_IND_PROD_CLOSE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_11_arm, [STORE_PERM(104539881, 200), STORE_PERM(current_date, 201)]) { return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_11_arm_gate, LOAD_PERM(200) == 0) { 1: phase7b_instance_11_arm; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_11_close_gate, LOAD_PERM(200) == 104539881 &amp;&amp; current_date &gt; LOAD_PERM(201) &amp;&amp; current_date - LOAD_PERM(201) &lt;= 90) { 1: phase7b_instance_11_consume; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_11_command, production_level) {
++ 6: phase7b_instance_11_arm_gate;
++ 4: phase7b_instance_11_close_gate;
++ return CB_RESULT_IND_PROD_NO_CHANGE;
++}
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_11_guard, var[0x80, 0, 0xFFFFFFFF] == 5265313 &amp;&amp; build_date == 668394 &amp;&amp; founder == 16 &amp;&amp; random_bits == 49538 &amp;&amp; layout_num == 2) { 1: phase7b_instance_11_command; return CB_RESULT_IND_PROD_NO_CHANGE; }
++</tal:legacy>
++<tal:legacy condition="industry.id == 'coal_mine'">
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_12_consume, [STORE_PERM(-33238642, 200), STORE_PERM(current_date, 202)]) { return CB_RESULT_IND_PROD_CLOSE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_12_arm, [STORE_PERM(33238642, 200), STORE_PERM(current_date, 201)]) { return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_12_arm_gate, LOAD_PERM(200) == 0) { 1: phase7b_instance_12_arm; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_12_close_gate, LOAD_PERM(200) == 33238642 &amp;&amp; current_date &gt; LOAD_PERM(201) &amp;&amp; current_date - LOAD_PERM(201) &lt;= 90) { 1: phase7b_instance_12_consume; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_12_command, production_level) {
++ 7: phase7b_instance_12_arm_gate;
++ 4: phase7b_instance_12_close_gate;
++ return CB_RESULT_IND_PROD_NO_CHANGE;
++}
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_12_guard, var[0x80, 0, 0xFFFFFFFF] == 6042354 &amp;&amp; build_date == 668394 &amp;&amp; founder == 16 &amp;&amp; random_bits == 19487 &amp;&amp; layout_num == 1) { 1: phase7b_instance_12_command; return CB_RESULT_IND_PROD_NO_CHANGE; }
++</tal:legacy>
++<tal:legacy condition="industry.id == 'copper_mine'">
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_438_consume, [STORE_PERM(-44236316, 200), STORE_PERM(current_date, 202)]) { return CB_RESULT_IND_PROD_CLOSE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_438_arm, [STORE_PERM(44236316, 200), STORE_PERM(current_date, 201)]) { return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_438_arm_gate, LOAD_PERM(200) == 0) { 1: phase7b_instance_438_arm; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_438_close_gate, LOAD_PERM(200) == 44236316 &amp;&amp; current_date &gt; LOAD_PERM(201) &amp;&amp; current_date - LOAD_PERM(201) &lt;= 90) { 1: phase7b_instance_438_consume; return CB_RESULT_IND_PROD_NO_CHANGE; }
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_438_command, production_level) {
++ 9: phase7b_instance_438_arm_gate;
++ 4: phase7b_instance_438_close_gate;
++ return CB_RESULT_IND_PROD_NO_CHANGE;
++}
++switch(FEAT_INDUSTRIES, SELF, phase7b_instance_438_guard, var[0x80, 0, 0xFFFFFFFF] == 6106310 &amp;&amp; build_date == 668394 &amp;&amp; founder == 16 &amp;&amp; random_bits == 930 &amp;&amp; layout_num == 1) { 1: phase7b_instance_438_command; return CB_RESULT_IND_PROD_NO_CHANGE; }
++</tal:legacy>
++<tal:legacy condition="industry.id == 'coal_mine'">
++switch(FEAT_INDUSTRIES, SELF, phase7b_coal_mine_tile, var[0x80, 0, 0xFFFFFFFF]) {
++ 4471720: phase7b_instance_1_guard;
++ 5265313: phase7b_instance_11_guard;
++ 6042354: phase7b_instance_12_guard;
++ lifecycle_coal_closure;
++}
++switch(FEAT_INDUSTRIES, SELF, phase7b_coal_mine_dispatch, lifecycle_scheduler_mode &amp;&amp; historical_europe_mode &amp;&amp; economy == 0) {
++ 1: phase7b_coal_mine_tile;
++ return CB_RESULT_IND_PROD_NO_CHANGE;
++}
++</tal:legacy>
++<tal:legacy condition="industry.id == 'copper_mine'">
++switch(FEAT_INDUSTRIES, SELF, phase7b_copper_mine_tile, var[0x80, 0, 0xFFFFFFFF]) {
++ 6106310: phase7b_instance_438_guard;
++ CB_RESULT_IND_PROD_NO_CHANGE;
++}
++switch(FEAT_INDUSTRIES, SELF, phase7b_copper_mine_dispatch, lifecycle_scheduler_mode &amp;&amp; historical_europe_mode &amp;&amp; economy == 0) {
++ 1: phase7b_copper_mine_tile;
++ return CB_RESULT_IND_PROD_NO_CHANGE;
++}
++</tal:legacy>
++
+@@ -59 +130 @@
+-                monthly_prod_change: lifecycle_coal_closure;
++                monthly_prod_change: phase7b_coal_mine_dispatch;
+@@ -60,0 +132 @@
++                <tal:legacy condition="industry.id == 'copper_mine'">monthly_prod_change: phase7b_copper_mine_dispatch;</tal:legacy>
+--- a/src/lang_templates/english.pylng
++++ b/src/lang_templates/english.pylng
+@@ -1 +1 @@
+-STR_GRF_NAME                                                    :AXIS Historical Europe 0.4.0 lifecycle candidate (AXIS 2.3.1 base)
++STR_GRF_NAME                                                    :AXIS Historical Europe 0.5.0 legacy mine candidate (AXIS 2.3.1 base)

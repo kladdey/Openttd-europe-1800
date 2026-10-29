@@ -1,0 +1,9 @@
+mode,site_id,industry_id,warning_date,physical_closure_date,actual_warning_days,extended,forecast_after_extension,rolling_transport_at_extension,service_percent_at_extension
+control,legacy_1,1,1832-01-08,1837-04-07,1916,False,,0,0
+control,legacy_11,11,1832-01-08,1837-04-07,1916,False,,0,0
+control,legacy_12,12,1832-01-08,1837-04-07,1916,False,,0,0
+control,legacy_438,438,1832-01-08,1837-04-07,1916,False,,0,0
+served,legacy_1,1,1832-01-09,1839-04-14,2652,True,1839-01-01,2060,38
+served,legacy_11,11,1832-01-09,1837-04-08,1916,False,,0,0
+served,legacy_12,12,1832-01-09,1837-04-08,1916,False,,0,0
+served,legacy_438,438,1832-01-09,1837-04-08,1916,False,,0,0

@@ -1,0 +1,6 @@
+dbg: [script:4] [18] [I] P7 EVENT|initialized|scheduler|baseline=542|calendar=668394|economy=657437
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_1|industry=1|tile=4471720|born=668394|snapshot=f6d7f08fe208059edfb9e2babcba6e2e915545f8ff15a9cf032babf33cd9b682
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_11|industry=11|tile=5265313|born=668394|snapshot=63b26e971b3c6537157c965ecebc80161a9d3606be2d25b63d118be37bee31a2
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_12|industry=12|tile=6042354|born=668394|snapshot=1fb2e72407ab3c443786c03b596070469140508078e786ca041118e1736ad993
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_438|industry=438|tile=6106310|born=668394|snapshot=2a2fe1c16de89974163ff176f6fa4616e80806ee7ccf315e0a4bc6b1f66d764e
+dbg: [script:4] [18] [I] P7 EVENT|roundtrip_pass|production|sites=4|calendar=668394|economy=657437

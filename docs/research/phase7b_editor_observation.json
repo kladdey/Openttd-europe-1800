@@ -1,0 +1,13 @@
+{
+  "evidence": "VERIFIED IN GAME: native Windows Scenario Editor observation",
+  "method": "Saved a new scenario through Scenario Editor; exclusively copied that engine save to the named candidate; reopened that named file through its isolated launcher",
+  "candidate_sha256": "355686df5ddbc935aacdcc0b89a9bd446657d086f973df11fb794f5fbafd8e79",
+  "editor_save_observed": true,
+  "named_candidate_reopened": true,
+  "reopen_displayed_date": "1830-01-01",
+  "missing_or_compatible_grf_notice_on_named_candidate_reopen": false,
+  "initial_0_4_copy_compatible_grf_notice": "Expected and observed during the separate editor conversion; the finalized candidate embeds version 5 and its actual checksum",
+  "reopen_process_id": 38756,
+  "disabled_control": "A separate o.scn was saved through the editor with parameter 11 OFF; never substituted for the normal candidate",
+  "scope": "Manual UI receipt. Native initial preservation, embedded versions, registration and gameplay roundtrips are independently checked in the machine-readable reports."
+}
