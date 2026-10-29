@@ -1,0 +1,32 @@
+{
+  "evidence": "SOURCE MODEL VALIDATION; not a runtime test of all six economies",
+  "all_models_recipes_properties_layouts_cargo_ids_identical": true,
+  "economies": {
+    "BASIC_TEMPERATE": {
+      "industries": 96,
+      "cargos": 64
+    },
+    "STEELTOWN": {
+      "industries": 83,
+      "cargos": 64
+    },
+    "BASIC_TROPIC": {
+      "industries": 86,
+      "cargos": 64
+    },
+    "BASIC_ARCTIC": {
+      "industries": 17,
+      "cargos": 19
+    },
+    "BETTER_LIVING_THROUGH_CHEMISTRY": {
+      "industries": 49,
+      "cargos": 49
+    },
+    "IN_A_HOT_COUNTRY": {
+      "industries": 30,
+      "cargos": 29
+    }
+  },
+  "grf_sha256": "e05de519b4695bc68bde7064c17ee0ae833edfe281579c3b92cb79532f466c52",
+  "scope": "Generated availability/location and coal monthly closure callbacks intentionally differ; unchanged models do not mean identical compiled callbacks"
+}

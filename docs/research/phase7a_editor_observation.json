@@ -1,0 +1,12 @@
+{
+  "evidence": "VERIFIED IN GAME: native Windows GUI observation recorded during Phase 7A",
+  "method": "OpenTTD Scenario Editor save followed by GUI reopening of the separately named candidate; native computer-use tools, no save-byte modification",
+  "candidate_sha256": "e73952d2ec40f0fb6ad5dce9753c9254e2df1e317c8d5cd7e25e8042f8ce03fc",
+  "candidate_name": "Europe 1830 Historical AXIS 0.4.0 - Lifecycle Foundation.scn",
+  "editor_save_and_reload_observed": true,
+  "reopened_displayed_date": "1830-01-01",
+  "missing_grf_notification_observed": false,
+  "reopen_process_id": 26512,
+  "process_closed_after_observation": true,
+  "scope": "Manual editor UI check of this exact scenario hash; preservation and exact production gameplay roundtrips are independently recorded in phase7a_candidate_delivery.json. This receipt is not an automated GUI re-test."
+}

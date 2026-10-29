@@ -1,0 +1,47 @@
+{
+  "version": "0.4.0 lifecycle candidate",
+  "grfid": "4B484531",
+  "grf_version": 4,
+  "min_compatible_version": 3,
+  "artifact": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\dist\\axis-historical-europe-0.4.0-lifecycle-candidate.grf",
+  "sha256": "e05de519b4695bc68bde7064c17ee0ae833edfe281579c3b92cb79532f466c52",
+  "engine_patch": false,
+  "experimental_parameter": 11,
+  "default": 0,
+  "base_0_3_sha256": "f0da622873c91107fa4d2b768d88cd95d5db009c2b2975bdb6d7ab6caaed3c33",
+  "commands": [
+    [
+      "language",
+      [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+        "src/render_lang.py"
+      ]
+    ],
+    [
+      "render",
+      [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+        "src/render_nml.py"
+      ]
+    ],
+    [
+      "compile",
+      [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+        "-m",
+        "nml.main",
+        "-c",
+        "-l",
+        "generated/lang",
+        "--verbosity=3",
+        "--grf=C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-lifecycle\\dist\\axis-historical-europe-0.4.0-lifecycle-candidate.grf",
+        "generated/firs.nml"
+      ]
+    ]
+  ],
+  "reproduction": {
+    "before_sha256": "e05de519b4695bc68bde7064c17ee0ae833edfe281579c3b92cb79532f466c52",
+    "after_sha256": "e05de519b4695bc68bde7064c17ee0ae833edfe281579c3b92cb79532f466c52",
+    "bit_identical": true
+  }
+}
