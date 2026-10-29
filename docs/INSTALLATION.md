@@ -1,3 +1,24 @@
+# Current local installation — Phase 7B (development only)
+
+The latest tested development profile is **Europe 1830 Historical AXIS 0.5.0 - Legacy Mine Lifecycle**, with **617 towns / 542 starting industries**. It requires **JGRPP 0.73.4**, the **exact 15 active NewGRFs**, the separately built **Historical AXIS 0.5.0 legacy candidate**, and packaged **GameScript v2/policy**. **Do not use the older FIRS-based nine-GRF list below to set up this candidate.**
+
+On the original development Windows PC, from the repository root:
+
+```powershell
+python scripts/lifecycle_phase7b_launch.py
+python scripts/lifecycle_phase7b_launch.py --editor
+```
+
+The isolated launcher validates local assets. The scenario and compiled NewGRF are **local build outputs, not guaranteed to be included in a Git clone**. Exact SHA-256 hashes, paths and requirements are in [Phase 7B readiness](PHASE_7B_READINESS.md) and [delivery manifest](research/phase7b_candidate_delivery.json). Do not manually substitute versions based on similar filenames.
+
+**Migration warning:** A 0.3/0.4 save is not automatically a 0.5 lifecycle save. Legacy enrollment on existing campaigns requires a separately reviewed explicit migration; do not replace NewGRFs or scripts in an ongoing game. The normal 7B policy is not the accelerated 1837/1839 test fixture.
+
+For other machines, obtain licensed upstream assets and verify every exact GRF/script/checksum before hosting; a clone alone is not a ready-to-play package. See [multiplayer](MULTIPLAYER.md) and [licensing](LICENSING.md).
+
+---
+
+## Earlier Europe 1800 installation guidance (historical)
+
 # Installation - Europe 1800
 
 ## Recommended public distribution
