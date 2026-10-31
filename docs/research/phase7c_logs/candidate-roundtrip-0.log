@@ -1,0 +1,14 @@
+dbg: [script:4] [18] [I] P7 EVENT|initialized|scheduler|baseline=542|calendar=668394|economy=657437
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_1|industry=1|tile=4471720|born=668394|snapshot=f6d7f08fe208059edfb9e2babcba6e2e915545f8ff15a9cf032babf33cd9b682
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_11|industry=11|tile=5265313|born=668394|snapshot=63b26e971b3c6537157c965ecebc80161a9d3606be2d25b63d118be37bee31a2
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_12|industry=12|tile=6042354|born=668394|snapshot=1fb2e72407ab3c443786c03b596070469140508078e786ca041118e1736ad993
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_438|industry=438|tile=6106310|born=668394|snapshot=2a2fe1c16de89974163ff176f6fa4616e80806ee7ccf315e0a4bc6b1f66d764e
+dbg: [script:4] [18] [I] P7 EVENT|processor_enrolled|krakow_old_mill|industry=275|snapshot=98bb982e686fd5938aad12e19c95b5a4b0e5977931227a89c4daa6b37a006486
+dbg: [script:4] [18] [I] P7 EVENT|c_candidate|normal|industries=542|towns=617|calendar=668394|economy=657437|version=6
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668394|economy=657437|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668394|economy=657437|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668394|economy=657437|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668394|economy=657437|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668394|economy=657437|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|news|galicia_mill|ok=true|Regional grain-milling expansion planned in Galicia: Wieliczka from 1835; no company reservation or subsidy.
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668394|economy=657437|industries=542

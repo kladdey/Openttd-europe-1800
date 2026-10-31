@@ -1,0 +1,126 @@
+dbg: [script:4] [18] [I] P7 EVENT|initialized|scheduler|baseline=542|calendar=668394|economy=657437
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_1|industry=1|tile=4471720|born=668394|snapshot=f6d7f08fe208059edfb9e2babcba6e2e915545f8ff15a9cf032babf33cd9b682
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_11|industry=11|tile=5265313|born=668394|snapshot=63b26e971b3c6537157c965ecebc80161a9d3606be2d25b63d118be37bee31a2
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_12|industry=12|tile=6042354|born=668394|snapshot=1fb2e72407ab3c443786c03b596070469140508078e786ca041118e1736ad993
+dbg: [script:4] [18] [I] P7 EVENT|legacy_enrolled|legacy_438|industry=438|tile=6106310|born=668394|snapshot=2a2fe1c16de89974163ff176f6fa4616e80806ee7ccf315e0a4bc6b1f66d764e
+dbg: [script:4] [18] [I] P7 EVENT|processor_enrolled|krakow_old_mill|industry=275|snapshot=98bb982e686fd5938aad12e19c95b5a4b0e5977931227a89c4daa6b37a006486
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668394|economy=657438|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668394|economy=657438|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668394|economy=657438|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668394|economy=657438|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668394|economy=657438|production=0|transported=0|rolling_months=1|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|news|galicia_mill|ok=true|Regional grain-milling expansion planned in Galicia: Wieliczka from 1831; no company reservation or subsidy.
+dbg: [script:4] [18] [I] P7 EVENT|news|galicia_successor|ok=true|Nearby grain-mill modernization successor planned in Galicia: Bochnia from 1832; no company reservation or subsidy.
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668409|economy=657452|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668423|economy=657467|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668438|economy=657481|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668438|economy=657481|production=0|transported=0|rolling_months=2|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668438|economy=657481|production=0|transported=0|rolling_months=2|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668438|economy=657481|production=0|transported=0|rolling_months=2|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668438|economy=657481|production=0|transported=0|rolling_months=2|rolling_produced=0|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668452|economy=657495|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668466|economy=657510|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668466|economy=657510|production=340|transported=0|rolling_months=3|rolling_produced=340|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668466|economy=657510|production=340|transported=0|rolling_months=3|rolling_produced=340|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668466|economy=657510|production=765|transported=0|rolling_months=3|rolling_produced=765|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668466|economy=657510|production=340|transported=0|rolling_months=3|rolling_produced=340|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668481|economy=657524|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668495|economy=657539|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668495|economy=657539|production=180|transported=0|rolling_months=4|rolling_produced=520|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668495|economy=657539|production=180|transported=0|rolling_months=4|rolling_produced=520|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668495|economy=657539|production=405|transported=0|rolling_months=4|rolling_produced=1170|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668495|economy=657539|production=180|transported=0|rolling_months=4|rolling_produced=520|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668510|economy=657553|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668524|economy=657568|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668524|economy=657568|production=160|transported=0|rolling_months=5|rolling_produced=680|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668524|economy=657568|production=180|transported=0|rolling_months=5|rolling_produced=700|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668524|economy=657568|production=405|transported=0|rolling_months=5|rolling_produced=1575|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668524|economy=657568|production=160|transported=0|rolling_months=5|rolling_produced=680|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668539|economy=657582|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668553|economy=657596|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668553|economy=657596|production=180|transported=0|rolling_months=6|rolling_produced=860|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668553|economy=657596|production=180|transported=0|rolling_months=6|rolling_produced=880|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668553|economy=657596|production=405|transported=0|rolling_months=6|rolling_produced=1980|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668553|economy=657596|production=180|transported=0|rolling_months=6|rolling_produced=860|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668567|economy=657611|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668582|economy=657625|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668582|economy=657625|production=180|transported=0|rolling_months=7|rolling_produced=1040|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668582|economy=657625|production=160|transported=0|rolling_months=7|rolling_produced=1040|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668582|economy=657625|production=360|transported=0|rolling_months=7|rolling_produced=2340|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668582|economy=657625|production=180|transported=0|rolling_months=7|rolling_produced=1040|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668596|economy=657640|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668611|economy=657654|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668611|economy=657654|production=180|transported=0|rolling_months=8|rolling_produced=1220|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668611|economy=657654|production=180|transported=0|rolling_months=8|rolling_produced=1220|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668611|economy=657654|production=405|transported=0|rolling_months=8|rolling_produced=2745|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668611|economy=657654|production=180|transported=0|rolling_months=8|rolling_produced=1220|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668625|economy=657669|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668640|economy=657683|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668640|economy=657683|production=180|transported=0|rolling_months=9|rolling_produced=1400|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668640|economy=657683|production=180|transported=0|rolling_months=9|rolling_produced=1400|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668640|economy=657683|production=405|transported=0|rolling_months=9|rolling_produced=3150|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668640|economy=657683|production=180|transported=0|rolling_months=9|rolling_produced=1400|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668654|economy=657697|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668668|economy=657712|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668668|economy=657712|production=180|transported=0|rolling_months=10|rolling_produced=1580|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668668|economy=657712|production=180|transported=0|rolling_months=10|rolling_produced=1580|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668668|economy=657712|production=405|transported=0|rolling_months=10|rolling_produced=3555|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668668|economy=657712|production=180|transported=0|rolling_months=10|rolling_produced=1580|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668683|economy=657726|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668697|economy=657741|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668697|economy=657741|production=180|transported=0|rolling_months=11|rolling_produced=1760|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668697|economy=657741|production=180|transported=0|rolling_months=11|rolling_produced=1760|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668697|economy=657741|production=405|transported=0|rolling_months=11|rolling_produced=3960|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668697|economy=657741|production=180|transported=0|rolling_months=11|rolling_produced=1760|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668712|economy=657755|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668726|economy=657770|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668741|economy=657784|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668741|economy=657784|production=160|transported=0|rolling_months=12|rolling_produced=1920|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668741|economy=657784|production=180|transported=0|rolling_months=12|rolling_produced=1940|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668741|economy=657784|production=360|transported=0|rolling_months=12|rolling_produced=4320|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668741|economy=657784|production=160|transported=0|rolling_months=12|rolling_produced=1920|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668755|economy=657798|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668770|economy=657813|industries=542
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668770|economy=657813|production=180|transported=0|rolling_months=13|rolling_produced=2100|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668770|economy=657813|production=180|transported=0|rolling_months=13|rolling_produced=2120|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668770|economy=657813|production=405|transported=0|rolling_months=13|rolling_produced=4725|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668770|economy=657813|production=180|transported=0|rolling_months=13|rolling_produced=2100|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|expansion_opened|galicia_mill|local_id=34|industry=542|tile=6373982|born=668770|calendar=668770
+dbg: [script:4] [18] [I] P7 EVENT|news|galicia_mill|ok=true|Regional grain-milling expansion opens in Galicia: Wieliczka. New industrial transport opportunity.
+dbg: [script:4] [18] [I] P7 EVENT|news|krakow_old_mill|ok=true|Old mill modernization: at least 5 calendar years before possible retirement. Nearby successor and supply chain required. No pickup-based survival bonus.
+dbg: [script:4] [18] [I] P7 EVENT|processor_warning|krakow_old_mill|calendar=668770|minimum_years=5
+dbg: [script:4] [18] [I] P7 EVENT|processor_decline|krakow_old_mill|calendar=668770|level=14
+dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|28|402|1 Horse Hopper Carriage
+dbg: [script:4] [18] [I] P4_CASE|new_mill_grain|road|28|66|542|657813
+dbg: [script:4] [18] [I] P4_INITIAL|97700|100000|300000|1|7
+dbg: [script:4] [18] [I] P4_CAPITAL|new_mill_grain|origin_station|307
+dbg: [script:4] [18] [I] P4_CAPITAL|new_mill_grain|destination_station|307
+dbg: [script:4] [18] [I] P4_CAPITAL|new_mill_grain|way_and_depot|8144
+dbg: [script:4] [18] [I] P4_STATIONS|6234717|6373980|16|17|0|1
+dbg: [script:4] [18] [I] P4_FLEET|new_mill_grain|8
+dbg: [script:4] [18] [I] P4_BUILT|new_mill_grain|402|1 Horse Hopper Carriage|8758|4592|8|605|1522|604|1556|40|84350|100000|657814
+dbg: [script:4] [18] [I] P4_COMMISSION|new_mill_grain|0|8758|4592|8|8|657814|6238812
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6234717|5
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6373980|5
+dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|new_mill_grain|66|542|6234717|6373980|0|2
+dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|11|430|1 Horse Ice Box Carriage
+dbg: [script:4] [18] [I] P4_CASE|new_mill_food|road|11|542|474|657814
+dbg: [script:4] [18] [I] P4_INITIAL|83737|100000|300000|1|7
+dbg: [script:4] [18] [I] P4_CAPITAL|new_mill_food|origin_station|150
+dbg: [script:4] [18] [I] P4_CAPITAL|new_mill_food|destination_station|150
+dbg: [script:4] [18] [I] P4_CAPITAL|new_mill_food|way_and_depot|16333
+dbg: [script:4] [18] [I] P4_STATIONS|6378076|6201977|18|19|16|1
+dbg: [script:4] [18] [I] P4_FLEET|new_mill_food|8
+dbg: [script:4] [18] [I] P4_BUILT|new_mill_food|430|1 Horse Ice Box Carriage|16633|4593|8|604|1557|633|1514|78|62511|100000|657816
+dbg: [script:4] [18] [I] P4_COMMISSION|new_mill_food|0|16632|4592|8|8|657816|6238812
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6378076|5
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6201977|13
+dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|new_mill_food|542|474|6378076|6201977|16|18
+dbg: [script:4] [18] [I] P7 EVENT|c_capital|fixture|cash=62439
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668787|economy=657830|industries=543
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668801|economy=657845|industries=543
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_1|calendar=668801|economy=657845|production=180|transported=0|rolling_months=14|rolling_produced=2280|rolling_transported=0|service_percent=0|forecast=693961|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_11|calendar=668801|economy=657845|production=180|transported=0|rolling_months=14|rolling_produced=2300|rolling_transported=0|service_percent=0|forecast=687387|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_12|calendar=668801|economy=657845|production=405|transported=0|rolling_months=14|rolling_produced=5130|rolling_transported=0|service_percent=0|forecast=722450|level=16
+dbg: [script:4] [18] [I] P7 EVENT|legacy_sample|legacy_438|calendar=668801|economy=657845|production=180|transported=0|rolling_months=14|rolling_produced=2280|rolling_transported=0|service_percent=0|forecast=697978|level=16
+dbg: [script:4] [18] [I] P7 EVENT|c_checkpoint|fixture|calendar=668801|industry_count=543|other_originals_intact=541|towns=617|factory=warning|paid=false

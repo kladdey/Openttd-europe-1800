@@ -1,0 +1,29 @@
+{
+  "version": 6,
+  "min_compatible_version": 5,
+  "artifact": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\dist\\axis-historical-europe-0.6.0-expansion-candidate.grf",
+  "sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84",
+  "base_sha256": "473b4ac0ebc6962959408633dbbc2cf254546fe9bc7fdd6c3531b0f0a232e534",
+  "primary_template_unchanged": true,
+  "commands": [
+    [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+      "src/render_lang.py"
+    ],
+    [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+      "src/render_nml.py"
+    ],
+    [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+      "-m",
+      "nml.main",
+      "-c",
+      "-l",
+      "generated/lang",
+      "--grf=C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\dist\\axis-historical-europe-0.6.0-expansion-candidate.grf",
+      "generated/firs.nml"
+    ]
+  ],
+  "engine_patch": false
+}

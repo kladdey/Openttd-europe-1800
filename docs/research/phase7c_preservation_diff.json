@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\scenario\\Europe 1830 Historical AXIS 0.5.0 - Legacy Mine Lifecycle.scn",
+  "candidate": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Historical Expansion.scn",
+  "source_sha256": "355686df5ddbc935aacdcc0b89a9bd446657d086f973df11fb794f5fbafd8e79",
+  "candidate_sha256": "3064ea27afd485a59a3a4c71d30ee8c96d28968ecdf31aa2b056fb537924dbda",
+  "unchanged": [
+    "CITY",
+    "INDY",
+    "PATS",
+    "PSAC",
+    "ALL 16777216 MAP TILES/ALL PLANES"
+  ],
+  "towns": 617,
+  "industries": 542,
+  "newgrfs": 15,
+  "train_limit": 7,
+  "calendar_start": 1830,
+  "economy_start": 1800,
+  "newgrf_parameters_unchanged": true,
+  "original_files_unchanged": true
+}

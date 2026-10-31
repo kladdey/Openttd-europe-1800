@@ -1,0 +1,71 @@
+dbg: [script:4] [18] [I] P7 EVENT|initialized|scheduler|baseline=0|calendar=668394|economy=668394
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668394|economy=668394|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|news|galicia_mill|ok=true|Regional grain-milling expansion planned in Galicia: Wieliczka from 1831; no company reservation or subsidy.
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668408|economy=668408|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668422|economy=668422|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668436|economy=668436|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668450|economy=668450|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668464|economy=668464|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668478|economy=668478|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668492|economy=668492|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668506|economy=668506|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668520|economy=668520|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668534|economy=668534|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668548|economy=668548|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668562|economy=668562|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668576|economy=668576|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668590|economy=668590|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668604|economy=668604|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668618|economy=668618|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668632|economy=668632|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668646|economy=668646|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668660|economy=668661|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668675|economy=668675|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668689|economy=668689|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668703|economy=668703|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668717|economy=668717|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668731|economy=668731|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668745|economy=668745|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668759|economy=668759|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668773|economy=668773|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668787|economy=668787|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668801|economy=668801|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668815|economy=668815|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668829|economy=668829|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668843|economy=668843|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668857|economy=668857|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668871|economy=668871|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668885|economy=668885|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668899|economy=668899|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668913|economy=668914|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668928|economy=668928|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668942|economy=668942|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668956|economy=668956|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668970|economy=668970|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668984|economy=668984|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=668998|economy=668998|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669012|economy=669012|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669026|economy=669026|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669040|economy=669040|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669054|economy=669054|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669068|economy=669068|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669082|economy=669082|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669096|economy=669096|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_deferred|galicia_mill|Dependency or registered cargo endpoint missing
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669110|economy=669110|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|status|scheduler|calendar=669124|economy=669124|industries=0
+dbg: [script:4] [18] [I] P7 EVENT|expansion_cancelled|galicia_mill|Date/search budget exhausted; no terraforming
+dbg: [script:4] [18] [I] P7 EVENT|c_wave_final|galicia_mill|state=cancelled|attempts=0
+dbg: [script:4] [18] [I] P7 EVENT|c_wave_done|fixture|calendar=669124|industries=0
+dbg: [script:3] [0] [W] Save function is not implemented

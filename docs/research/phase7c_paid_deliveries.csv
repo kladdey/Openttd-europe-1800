@@ -1,0 +1,6 @@
+scope,route,vehicle_id,positive_sampled_net_gbp,distance_to_destination,tile,evidence
+europe,new_mill_grain,2,100,0,6373980,VERIFIED IN GAME: prior loaded observation and positive vehicle-profit delta near destination; not gross revenue
+europe,new_mill_food,16,37,0,6201977,VERIFIED IN GAME: prior loaded observation and positive vehicle-profit delta near destination; not gross revenue
+capacity,old_mill_grain,0,132,0,6169198,VERIFIED IN GAME: prior loaded observation and positive vehicle-profit delta near destination; not gross revenue
+capacity,old_mill_food,24,62,0,6201977,VERIFIED IN GAME: prior loaded observation and positive vehicle-profit delta near destination; not gross revenue
+regression-7b,legacy_baseline_coal_paid,14,89,0,4512664,VERIFIED IN GAME: prior loaded observation and positive vehicle-profit delta near destination; not gross revenue

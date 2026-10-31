@@ -1,0 +1,11 @@
+dbg: [script:4] [18] [I] P7 C_REG|version=6|types=96|cargos=64
+dbg: [script:4] [18] [I] P7 C_TYPE|local=34|runtime=30|available=true
+dbg: [script:4] [18] [I] P7 C_TYPE|local=2|runtime=2|available=false
+dbg: [script:4] [18] [I] P7 C_TYPE|local=103|runtime=80|available=false
+dbg: [script:4] [18] [I] P7 C_TYPE|local=9|runtime=7|available=false
+dbg: [script:4] [18] [I] P7 C_TYPE|local=80|runtime=68|available=false
+dbg: [script:4] [18] [I] P7 C_TYPE|local=24|runtime=21|available=true
+dbg: [script:4] [18] [I] P7 C_TYPE|local=25|runtime=22|available=true
+dbg: [script:4] [18] [I] P7 C_TYPE|local=23|runtime=20|available=false
+dbg: [script:4] [18] [I] P7 C_TYPE|local=18|runtime=15|available=false
+dbg: [script:3] [18] [W] Save function is not implemented
