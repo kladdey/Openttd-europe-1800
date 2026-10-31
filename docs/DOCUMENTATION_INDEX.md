@@ -1,3 +1,26 @@
+# Current documentation — development navigation
+
+**As of 29 October 2026:** Active development is the **617-town / 542-industry** Europe 1830 scenario. The older 568/613-town V12/V13 geography materials indexed below are historical checkpoints. Reports are intentionally retained unchanged as dated evidence, not rewritten to pretend that their old conclusions are current.
+
+| Current subject | Authoritative document |
+|---|---|
+| Project overview | [README](../README.md) |
+| Current status | [PROJECT_STATUS](PROJECT_STATUS.md) |
+| Current roadmap | [ROADMAP](ROADMAP.md) |
+| Installation / local assets | [INSTALLATION](INSTALLATION.md) |
+| Multiplayer | [MULTIPLAYER](MULTIPLAYER.md) |
+| Industrialized scenario Phase 6B | [INDUSTRIALIZED_SCENARIO_READINESS](INDUSTRIALIZED_SCENARIO_READINESS.md) |
+| Inland markets Phase 6C | [INLAND_MARKETS_READINESS](INLAND_MARKETS_READINESS.md), [coverage](INLAND_MARKET_COVERAGE.md), [gameplay](INLAND_MARKET_GAMEPLAY_VALIDATION.md) |
+| Legacy mine lifecycle Phase 7B | [PHASE_7B_READINESS](PHASE_7B_READINESS.md), [implementation](PHASE_7B_EXISTING_MINES_IMPLEMENTATION.md), [policy](PHASE_7B_DEPLETION_POLICY.md), [validation](PHASE_7B_ENGINE_VALIDATION.md), [migration/safety](PHASE_7B_MIGRATION_AND_SAFETY.md) |
+| Vehicle economics | [VEHICLE_TRANSPORT_AUDIT_INDEX](VEHICLE_TRANSPORT_AUDIT_INDEX.md) |
+| Distribution constraints | [LICENSING](LICENSING.md), [RELEASE_PROCESS](RELEASE_PROCESS.md) |
+
+**Phase 7A** is the separately versioned 0.4.0 lifecycle foundation underlying 7B; **Phase 7C** remains planned. Read the current 7B reports before assuming a capability applies to all industries or to an existing save.
+
+---
+
+## Historical documentation index (retained)
+
 # Documentation index
 
 Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.
