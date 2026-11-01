@@ -1,0 +1,146 @@
+{
+  "verdict": "PARTIAL",
+  "engine_invocations": 4,
+  "budget_note": "Fourth permitted run tests a clear-water loading approach after reload proved active source production and a non-loading moving ship",
+  "normal_candidate_unchanged": true,
+  "normal_candidate_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f",
+  "grf_sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "source_industry": 458,
+  "destination_industry": 260,
+  "cargo_label": "MNSP",
+  "cargo_id": 38,
+  "ship_engine": 616,
+  "date_basis": "GSDate economy days; calendar starts 1830, economy 1800; payments are GBP API values",
+  "runs": [
+    {
+      "phase": "access",
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-access-1793516883348816500\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+        "-v",
+        "null:ticks=18000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 3.516,
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-access-1793516883348816500",
+      "source": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+      "source_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f",
+      "script_sha256": "56f899249a4d2656c6594674a1d79efd545e7c03829e5c94a451ed98ce28e7b4",
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-access-1793516883348816500\\engine.log",
+      "log_sha256": "6d5f7eaa7152620d16b4ea526a70f54f48acad0a7f636900329541542ac57984",
+      "observations": [
+        "F1_ACCESS|a=3959783|b=3988757|station_a=0|station_b=1|extension=3960092|aw=3951591|bw=3996949|acceptance=32|nodes=60769|source_production=0|engine616_buildable=true|refit=true",
+        "F1_DONE|access"
+      ]
+    },
+    {
+      "phase": "delivery",
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-delivery-1793516895965195000\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-access-1793516883348816500\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 135.797,
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-delivery-1793516895965195000",
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-access-1793516883348816500\\save\\autosave\\exit.sav",
+      "source_sha256": "33bf9862f323e4cb5d6c0f161bf759745eb73d52f4d30f0dbb93b5386f698212",
+      "script_sha256": "527a0d2fd8f011be8f5aa21fcaf094416c12b5d63aaebac299603f4853bd21ab",
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-delivery-1793516895965195000\\engine.log",
+      "log_sha256": "52ce2001fc2c4d6aa0d7655473b3f728a12b5612e34aea7c95696edf88cbefe6",
+      "observations": [
+        "F1_SHIP|vehicle=0|engine=616|capacity=50|depot=3951593|capital_ship=3808|order_count=2",
+        "F1_RESULT|vehicle=0|loaded=0|unloaded=0|payment=0|profit_current=-41|profit_last=-492|days=1460|mill_food=-1",
+        "F1_DONE|delivery"
+      ]
+    },
+    {
+      "phase": "reload",
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-reload-1793517091900062500\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-delivery-1793516895965195000\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 4.765,
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-reload-1793517091900062500",
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-delivery-1793516895965195000\\save\\autosave\\exit.sav",
+      "source_sha256": "38353ca6832b22b9ecd6c0bad765385a2db444df83f0226243c1f03e9b629ad5",
+      "script_sha256": "0dac721fcddb0aa8af2e2727dd21cbf7cabf59634f3789988bf6cf5eeeee3143",
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-reload-1793517091900062500\\engine.log",
+      "log_sha256": "da85f46302f49256fb461adc7ea59de1194c6ffcdcb93604370628f15dd07c1b",
+      "observations": [
+        "F1_RELOAD|vehicle=0|paid=0|maxload=0|towns=617|industries=542",
+        "F1_DIAG|location=4029631|state=0|order=0|waiting=406|source_production=224|source_level=16|source_tile_production=1",
+        "F1_RESULT|vehicle=0|loaded=0|unloaded=0|payment=0|profit_current=-88|profit_last=-492|days=1495|mill_food=0",
+        "F1_DONE|reload"
+      ]
+    },
+    {
+      "phase": "fixed",
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-fixed-1793517204221751700\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 137.578,
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-fixed-1793517204221751700",
+      "source": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+      "source_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f",
+      "script_sha256": "11a86b242175ff692fcb6e37a28e665bd21af3de72c812a938ba267e55b0e2c8",
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\f1-fixed-1793517204221751700\\engine.log",
+      "log_sha256": "694d2b13c87aa4f0bceae36bbf239d4ddc840d73bfd21f95293949b07cf00bd8",
+      "observations": [
+        "F1_ACCESS|a=3984359|b=3988757|station_a=0|station_b=1|extension=3960092|aw=3984361|bw=3996949|acceptance=32|nodes=60769|source_production=0|engine616_buildable=true|refit=true",
+        "F1_SHIP|vehicle=0|engine=616|capacity=50|depot=3984363|capital_ship=3808|order_count=2",
+        "F1_RESULT|vehicle=0|loaded=0|unloaded=0|payment=0|profit_current=-41|profit_last=-492|days=1460|mill_food=0",
+        "F1_DONE|fixed"
+      ]
+    }
+  ]
+}

@@ -2,6 +2,10 @@
 
 **PARTIAL.** A separate playable candidate and eight conditional port-related events are implemented. **Zero paid maritime deliveries were verified.** Keep Phase 7D/7E as the established development baseline; do not promote Phase 7F to a validated multiplayer release.
 
+## Phase 7F.1 follow-up
+
+**Still PARTIAL:** four additional targeted engine invocations and four focused tests. A legal joined receiving station now accepts MNSP at the Dublin mill, and native Liverpool–Dublin water-edge connectivity passes. Reload diagnostics show Wharf 458 producing 224 MNSP/month and 406 units waiting, but the Brig never loaded or delivered in either four-year attempt. A wider loading approach did not resolve navigation/berth access. No normal candidate or port policy changed. [Exact evidence and next manual experiment](PHASE_7F1_MARITIME_CONNECTIVITY.md). The seven-run results below remain the historical Phase 7F record.
+
 ## Candidate and launch
 
 `C:\Users\Kladd\Documents\OpenTTD\scenario\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn`

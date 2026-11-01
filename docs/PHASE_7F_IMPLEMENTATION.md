@@ -58,3 +58,7 @@ Seven invocations total, including the editor. No more engine runs were performe
 The early test Brigs were existing Sailing Ships engine **616**, native purchase **£3,808**, list running **£492/year**, refitted capacity **50**. API buildability also listed schooner/barque/merchantman/clipper variants; none was newly installed or enabled. Horses were engines **402** and **430**, capacity eight. Dates in finance/sampling logs use **economy time** (1800 onward); the fixture's actual calendar starts in 1830. Road transfer credits were not counted as maritime delivery revenue.
 
 No positive shipborne payment or amount transported is verified. No shipping profitability/payback calculation is justified. No price, production, cargo-payment or vehicle changes were made. [Route results](research/phase7f_route_results.csv) and [receipts](research/phase7f_test_receipts.json) retain failures and negative observations; large raw logs stay local.
+
+## Phase 7F.1 follow-up (prior results retained)
+
+[Targeted connectivity work](PHASE_7F1_MARITIME_CONNECTIVITY.md) fixes the direct Dublin receiving catchment with a legal joined station. Native tile-edge connectivity now passes for that pair. A reload diagnostic confirms active MNSP production and waiting cargo, so zero initial production must not be treated as the cause of the empty ship. Both tested loading approaches still yielded zero ship deliveries; normal policy is unchanged and the phase remains PARTIAL. Four additional engine invocations and four focused tests are recorded separately.
