@@ -20,7 +20,8 @@ Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, 
 
 ## Next priorities
 
-- [ ] Verify Phase 7G active-boundary reload across downturn/restoration; ended-state reload has passed. Test normal historical dates and hauled COAL finances before tuning levels.
+- [x] Phase 7G active-boundary reload across downturn/restoration passed in the Phase 7H gate.
+- [ ] Verify Phase 7H active/closing-row reload and normal historical milestones; hauled freight and finances remain untested. [Transformation readiness](PHASE_7H_READINESS.md).
 - [ ] Resolve Phase 7F receiving dock/connected-water and feeder blockers; prove one actual paid maritime leg, then normal-policy save/reload.
 - [ ] Measure sustained profit with appropriately sized downstream fleets; Phase 7E proved delivery, but the two-truck MNSP leg lost money. Test complete steel/slag outlets and fuller EAF inputs separately.
 - [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.

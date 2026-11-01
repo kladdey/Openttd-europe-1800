@@ -8,7 +8,7 @@ A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's 
 |---|---|
 | Towns | **617** |
 | Starting industries | **542**, including 75 additional inland markets |
-| Historical AXIS | **0.6.0 unchanged GRF**; GS v4 baseline / separate GS v6 cycle profile |
+| Historical AXIS | **0.6.0 unchanged GRF**; GS v4 baseline; separate v6 cycle and v7 transformation profiles |
 | Active NewGRFs | **15**, exact versions/checksums required |
 | Starting calendar / economy dates | **1830 / 1800** |
 | Train length limit | **7 tiles** |
@@ -32,6 +32,8 @@ A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's 
 - **Phase 7F — PARTIAL:** separate GS v5 port candidate, eight conditional Liverpool/Gdańsk events and legal Liverpool port construction. **No paid maritime delivery verified**; station-catchment/approach and feeder blockers remain. Phase 7D/7E remains the established baseline. [Port readiness](docs/PHASE_7F_READINESS.md).
 
 - **Phase 7G — READY WITH CAVEATS for cycle testing:** new GS v6/schema 5 candidate adds one bounded Ruhr boom and downturn without changing AXIS. Actual COAL samples: 210 → 270 → 63 → 135; all original identities retained. Save/reload and paid profitability remain unverified. [Cycle readiness](docs/PHASE_7G_READINESS.md). Launch separately with `python scripts/cycles_phase7g_launch.py`.
+
+- **Phase 7H — READY WITH CAVEATS:** active 7G reload gate passed; new Lancashire textile demand and Silesian coal decline/physical retirement observed. Separate GS v7/schema 6 candidate; all original assets and policies retained. New ended-state reload passed; paid freight and full historical chronology remain unverified. [Transformation readiness](docs/PHASE_7H_READINESS.md). Launch with `python scripts/transformation_phase7h_launch.py`.
 
 ### Run the established Phase 7D local candidate
 
