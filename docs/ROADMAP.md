@@ -10,9 +10,11 @@ Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, 
 - [x] **Phase 7D implementation:** 32-event regional policy, legal layout/house-aware modern siting and GS v4 fresh-candidate isolation. Both Rhine and Lille sequences constructed in Europe, all originals preserved.
 - [x] Lean long-horizon attempt to 2026 with one reload and no duplicate openings; actual cancellations and fixture/final-policy differences recorded rather than hidden.
 
+- [x] **Phase 7E targeted freight validation:** actual paid RCYC/PLAS/MNSP and SCMT legs, native EAF output and physical gameplay reload; no changes to AXIS or normal GS. [Evidence and economics](PHASE_7E_READINESS.md).
+
 ## Next priorities
 
-- [ ] Operate and measure RCYC→recovery→PLAS→plastics→MNSP deliveries and the separate SCMT branch. Construction is not proof of revenue.
+- [ ] Measure sustained profit with appropriately sized downstream fleets; Phase 7E proved delivery, but the two-truck MNSP leg lost money. Test complete steel/slag outlets and fuller EAF inputs separately.
 - [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.
 - [ ] Review conditional/blocked regional events with targeted native site diagnostics. Do not flatten sites or grow towns artificially to force success.
 - [ ] Validate selected future stages as needed; no automatic broad regression campaign or full-Europe economic certification.

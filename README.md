@@ -27,6 +27,8 @@ A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's 
 - **Phase 7C:** **complete with caveats**: ten-event vertical slice, actual paid mill chain and guarded retirement, 36 recorded engine runs. [Readiness](docs/PHASE_7C_READINESS.md).
 - **Phase 7D:** 32-event regional rollout and modern siting implemented; both Rhine and Lille packages constructed in Europe with all originals retained. Lean small-map timeline attempted to 2026 with documented cancellations. **READY WITH CAVEATS**, not full economic certification. [Readiness](docs/PHASE_7D_READINESS.md) · [implementation](docs/PHASE_7D_IMPLEMENTATION.md).
 
+- **Phase 7E:** real Europe paid RCYC→PLAS→MNSP deliveries and RCYC→SCMT→EAF operation verified in disposable modern fixtures. Downstream two-truck MNSP service lost money; sustained profit and multiplayer remain unproven. The playable baseline remains Phase 7D; no GRF/GS changes. [Modern freight readiness](docs/PHASE_7E_READINESS.md).
+
 ### Run the Phase 7D local candidate
 
 From the repository root, on the development PC with the locally built assets:
@@ -48,7 +50,7 @@ The launcher verifies the isolated profile's local scenario, NewGRF and GameScri
 - Continent-wide depletion (only four original sites are enrolled).
 - All coastal GOOD and Europe copper export routes.
 - Profitable new-build horse-only freight networks in the tested 1830 cases.
-- Economic viability of all 32 regional events and actual paid modern recycling deliveries; some fixture events safely cancelled.
+- Economic viability of all 32 regional events, sustained modern recycling profit and a fully supplied/served steel economy. Phase 7E proved five paid freight legs; some progression fixture events safely cancelled.
 
 ### Historical geography archive
 

@@ -1,0 +1,6 @@
+evidence,tag,origin,destination,a,b,station_a,station_b,capital_cash_delta,acceptance,loaded,unloaded,paid,cargo,vehicles,engine_ids,capacity_each,station_manhattan_tiles,first_paid_vehicle,first_paid_economy_date,first_paid_economy_iso,first_positive_vehicle_delta_gbp,sampled_peak_load,positive_vehicle_income_samples_gbp,current_plus_last_year_vehicle_profit_gbp,run
+VERIFIED IN GAME,RCYC_547_549,547,549,5810529,5863794,16,17,15940,48,true,true,true,RCYC,0 1,407,32,30,0,657892,1801-04-01,480,32,7829,6963,delivery
+VERIFIED IN GAME,PLAS_549_550,549,550,5867888,5798250,18,19,12515,72,true,true,true,PLAS,2 3,369,32,23,2,657933,1801-05-12,123,8,893,128,delivery
+VERIFIED IN GAME,MNSP_550_546,550,546,5802343,5880168,20,21,11143,96,true,true,true,MNSP,4 5,369,32,20,4,657986,1801-07-04,52,5,170,-648,delivery
+VERIFIED IN GAME,RCYC_547_548,547,548,5810529,5765468,16,22,9967,56,true,true,true,RCYC,6 7,407,32,16,7,657867,1801-03-07,8,32,3200,2245,delivery
+VERIFIED IN GAME,SCMT_548_551,548,551,5761372,5921160,23,24,24043,96,true,true,true,SCMT,96 28,407,32,83,28,658272,1802-04-16,88,13,1775,854,secondary

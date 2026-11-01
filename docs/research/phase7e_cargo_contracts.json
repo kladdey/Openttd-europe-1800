@@ -1,0 +1,171 @@
+{
+  "economy": "BASIC_TEMPERATE / historical Europe",
+  "industries": [
+    {
+      "local_id": 18,
+      "industry": "plastics_plant",
+      "accepted": [
+        "PLAS",
+        "MPAR"
+      ],
+      "input_ratios": [
+        [
+          "PLAS",
+          5
+        ],
+        [
+          "MPAR",
+          3
+        ]
+      ],
+      "produced": [
+        [
+          "MNSP",
+          6
+        ]
+      ],
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\src\\industries\\plastics_plant.py",
+      "source_sha256": "7530b1a6f1b6cc6d18a3212c5450cc22c537ae0dd4cb983c17ecfcf280e266cf",
+      "compiled_nml": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\generated\\nml\\plastics_plant.nml",
+      "compiled_sha256": "4bf728241ffa2492e55d0aafd95f5009f2e2ced9fcb4b56d70b9ab089912ef96"
+    },
+    {
+      "local_id": 23,
+      "industry": "recycling_plant",
+      "accepted": [
+        "RCYC"
+      ],
+      "input_ratios": [
+        [
+          "RCYC",
+          6
+        ]
+      ],
+      "produced": [
+        [
+          "PLAS",
+          3
+        ]
+      ],
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\src\\industries\\recycling_plant.py",
+      "source_sha256": "f0dd32cec81c6a57e409dbd9cab7e9e605b5bfa1f5159c5a87e1c8d2193de6ba",
+      "compiled_nml": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\generated\\nml\\recycling_plant.nml",
+      "compiled_sha256": "64b3868e45937c601a56f332d46afc369f6884e054fd00e862a3b4828802db29"
+    },
+    {
+      "local_id": 24,
+      "industry": "recycling_depot",
+      "accepted": [],
+      "input_ratios": null,
+      "produced": [
+        [
+          "RCYC",
+          16
+        ]
+      ],
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\src\\industries\\recycling_depot.py",
+      "source_sha256": "a1d1db10bb5c359b6016e2a40ecb1e7e38f0e1d1bdd89f3cad7d83e0a6fcef8d",
+      "compiled_nml": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\generated\\nml\\recycling_depot.nml",
+      "compiled_sha256": "e4c972f7651f738c046341270ee1f1c0c9c120b4e14707135305725e6d0aa35b"
+    },
+    {
+      "local_id": 25,
+      "industry": "junk_yard",
+      "accepted": [
+        "RCYC"
+      ],
+      "input_ratios": [
+        [
+          "RCYC",
+          6
+        ]
+      ],
+      "produced": [
+        [
+          "SCMT",
+          3
+        ]
+      ],
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\src\\industries\\junk_yard.py",
+      "source_sha256": "cba9df5fd01aa8ab61a14f6c45c22522448abb975a21b312c9b218ddd0a36b89",
+      "compiled_nml": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\generated\\nml\\junk_yard.nml",
+      "compiled_sha256": "f94bc1c4e6475c32f210a6c271dc497e9f125e20412fe21c61a7b6b879c9d77d"
+    },
+    {
+      "local_id": 56,
+      "industry": "food_processor",
+      "accepted": [
+        "FRUT",
+        "FISH",
+        "EOIL",
+        "MNSP",
+        "SALT"
+      ],
+      "input_ratios": [
+        [
+          "FRUT",
+          4
+        ],
+        [
+          "FISH",
+          4
+        ],
+        [
+          "EOIL",
+          4
+        ],
+        [
+          "MNSP",
+          2
+        ],
+        [
+          "SALT",
+          2
+        ]
+      ],
+      "produced": [
+        [
+          "FOOD",
+          8
+        ]
+      ],
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\src\\industries\\food_processor.py",
+      "source_sha256": "f43676b3db4539049f54c93108a9a32a7b3a42c2041f3570d8086bb0a8839bac",
+      "compiled_nml": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\generated\\nml\\food_processor.nml",
+      "compiled_sha256": "1a44bed6b81fef0a257983616211848a827717daf03a70bc94dce31d048625b2"
+    },
+    {
+      "local_id": 79,
+      "industry": "electric_arc_furnace",
+      "accepted": [
+        "SCMT",
+        "QLME"
+      ],
+      "input_ratios": [
+        [
+          "SCMT",
+          4
+        ],
+        [
+          "QLME",
+          2
+        ]
+      ],
+      "produced": [
+        [
+          "STEL",
+          6
+        ],
+        [
+          "SLAG",
+          2
+        ]
+      ],
+      "source": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\src\\industries\\electric_arc_furnace.py",
+      "source_sha256": "e0ced731bde9c3d258f1eacfef20ce140199f8a2abaa5b163568f0ffdd09f966",
+      "compiled_nml": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\.work\\source\\generated\\nml\\electric_arc_furnace.nml",
+      "compiled_sha256": "aa7fe19b61b6acdcf3e6c2d0b627c81b49ad24d531fbb98ac25ddfe9d50d1ca9"
+    }
+  ],
+  "native_combination_rule": "Plastics and EAF production calculate a weighted sum of supplied cargos; both accepted inputs improve production but are not an all-inputs-required gate. Actual PLAS-only MNSP and SCMT-only steel observations confirm this for tested chains."
+}
