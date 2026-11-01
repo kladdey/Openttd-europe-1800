@@ -4,6 +4,8 @@
 
 **READY WITH CAVEATS**, not a certified three-human campaign. Phase 7D demonstrated modern construction in Rhine and Lille, limited depot production, a small-map timeline through 2026 and save/reload without duplicate openings. Earlier dedicated-server and client evidence belongs to its recorded earlier candidates; no new three-player session, paid modern recycling chain or full Europe progression certification is claimed.
 
+**Phase 7F is PARTIAL:** the separate port candidate is not multiplayer-certified and has no verified paid maritime leg. First resolve its [single-route validation steps](PHASE_7F_READINESS.md), then verify matching GS v5 save/rejoin and duplicate-opening safety in a disposable host/client test. Keep the Phase 7D/7E baseline and its evidence distinct; no silent live-save migration.
+
 ## First session: Kladdey, Squirrel and Toni
 
 1. Verify identical JGRPP and all GRF hashes against the [candidate manifest](research/phase7d_candidate_delivery.json). Host the fresh normal 1830 candidate with the matching GS v4 package; do not use accelerated or future-year fixtures.

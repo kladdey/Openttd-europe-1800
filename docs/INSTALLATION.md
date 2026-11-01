@@ -17,6 +17,10 @@ Compiled scenarios, GRFs and local runtime dependencies are not included in a Gi
 
 **Migration:** preserve all earlier candidates and saves. GS v4 rejects v1–v3 save data; no automatic adoption is supported. Do not replace NewGRFs or scripts in an ongoing campaign. Use a fresh separate Phase 7D scenario.
 
+## Separate Phase 7F experimental profile
+
+Phase 7F is **PARTIAL**, not the replacement validated baseline. Its unchanged AXIS 0.6.0 / GS v5 candidate has the same initial 617 towns / 542 industries. Use `python scripts/ports_phase7f_launch.py --verify-only`, then `python scripts/ports_phase7f_launch.py` only for isolated testing. Exact assets and [remaining shipping blockers](PHASE_7F_READINESS.md) are documented separately. Do not substitute this GS into existing v4 saves; its policy contract differs.
+
 ---
 
 ## Earlier Europe 1800 installation guidance (historical)

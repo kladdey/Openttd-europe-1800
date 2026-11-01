@@ -29,6 +29,8 @@ A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's 
 
 - **Phase 7E:** real Europe paid RCYC→PLAS→MNSP deliveries and RCYC→SCMT→EAF operation verified in disposable modern fixtures. Downstream two-truck MNSP service lost money; sustained profit and multiplayer remain unproven. The playable baseline remains Phase 7D; no GRF/GS changes. [Modern freight readiness](docs/PHASE_7E_READINESS.md).
 
+- **Phase 7F — PARTIAL:** separate GS v5 port candidate, eight conditional Liverpool/Gdańsk events and legal Liverpool port construction. **No paid maritime delivery verified**; station-catchment/approach and feeder blockers remain. Phase 7D/7E remains the established baseline. [Port readiness](docs/PHASE_7F_READINESS.md).
+
 ### Run the Phase 7D local candidate
 
 From the repository root, on the development PC with the locally built assets:

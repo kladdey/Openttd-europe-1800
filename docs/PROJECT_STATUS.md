@@ -1,6 +1,6 @@
 # Current project status — 1 November 2026
 
-**Phase 7E work branch:** `feature/phase-7e-modern-freight`, based on merged main `aaf6f6f`. Current local development candidate: **Phase 7D, READY WITH CAVEATS**. It retains stock JGRPP 0.73.4, Historical AXIS **0.6.0**, 617 towns, 542 initial industries, 15 GRFs, 64 cargos, calendar/economy 1830/1800 and seven-tile trains, with separately packaged **GS v4/schema 4**. [Launch/readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md).
+**Current work branch:** `feature/phase-7f-historical-ports`, based on local Phase 7E `4a6b056` descending from merged main `aaf6f6f`. Current local development candidate: **Phase 7D, READY WITH CAVEATS**. It retains stock JGRPP 0.73.4, Historical AXIS **0.6.0**, 617 towns, 542 initial industries, 15 GRFs, 64 cargos, calendar/economy 1830/1800 and seven-tile trains, with separately packaged **GS v4/schema 4**. [Launch/readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md).
 
 **Phase 7C is complete with caveats**, not merely planned: its paid grain/food chain, mill retirement, later construction and persistent lifecycle evidence remain preserved. Phase 7D adds layout/house-aware siting and a 32-event regional policy. A real Europe fixture constructed both Rhine and Lille depot/junkyard/recovery/plastics packages plus food processing: 551 industries, all 542 originals and all 617 towns retained. No GRF edits or source-scenario overwrites were needed.
 
@@ -8,7 +8,9 @@
 
 **Phase 7E — READY WITH CAVEATS:** five paid freight legs verified on the actual Europe fixture: depot→recovery, recovery→plastics, plastics→food processor, depot→junkyard and junkyard→EAF. Native EAF steel/slag output observed; MPAR/QLME are additive inputs in the tested recipes, not all-input gates. Six engine invocations (three completed, three failed fixture attempts), eight focused tests passed. Two-truck MNSP operation lost £648 in the sampled current/previous-year vehicle-profit sum; paid delivery does not imply sustained profitability. No GRF, schema, normal scenario or price changes. [Readiness/economics](PHASE_7E_READINESS.md).
 
-Next: right-size downstream fleets and competitive human playtesting, followed by targeted review of cancellations. Preserve earlier assets and live saves; no silent GS migration. Binary candidates remain local and hash-checked. See [roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
+**Phase 7F — PARTIAL:** separate unchanged-AXIS candidate with GS v5/schema 4, eight new conditional port events (40 total). Native Liverpool port construction succeeded; no paid shipborne delivery was achieved. Irish Sea feeder, dock catchment and bounded water-approach checks exposed specific unresolved route blockers. Seven engine invocations including the permitted extra alternative and editor; eight focused tests passed. No normal-policy save/reload or multiplayer certification. [Port readiness](PHASE_7F_READINESS.md).
+
+Next: establish one connected, accepting paid maritime leg without terrain changes; right-size downstream fleets and competitive human playtesting, followed by targeted review of cancellations. Preserve earlier assets and live saves; no silent GS migration. Binary candidates remain local and hash-checked. See [roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
 
 ---
 

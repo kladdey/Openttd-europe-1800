@@ -1,0 +1,266 @@
+{
+  "verdict": "PARTIAL",
+  "total_engine_invocations": 7,
+  "budget_note": "Seventh invocation was announced as indispensable targeted alternative after Dublin station catchment failure; it also failed the bounded water-connectivity check. No further engine tests.",
+  "actual_paid_ship_deliveries": 0,
+  "normal_assets_verified": true,
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84",
+  "gs_version": 5,
+  "schema": 4,
+  "evidence_scope": "No paid maritime freight or normal-policy save/reload certification; earlier Phase7E paid modern freight is retained separately",
+  "runs": [
+    {
+      "kind": "coastal-acceptor-freight",
+      "status": "FAILED FIXTURE",
+      "errors": [
+        "Ship fixture failed liverpool_greenock_supplies"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\coastal-acceptor-freight-1793497912158076500\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+        "-v",
+        "null:ticks=230000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "source_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\coastal-acceptor-freight-1793497912158076500",
+      "log_sha256": "04821b0e8b3fb94e8fafba8bdb1d4a1cfdc7ca26b851dbb225860eef2fc6e4ba",
+      "script_sha256": "19fd59a32c51fcfb5489a6aef42d3cc077ac8172936b159438416f1b49f47e86",
+      "seconds": null,
+      "diagnostics": [
+        "dbg: [script:4] [18] [I] P3_WATER|3951591|2243734|182449|false",
+        "dbg: [script:4] [18] [I] P3_BLOCKED|liverpool_greenock_supplies|docks not connected within 200-tile water search|ERR_NONE"
+      ],
+      "observations": [
+        "EVENT|initialized|scheduler|baseline=542|calendar=668394|economy=657437",
+        "EVENT|legacy_enrolled|legacy_1|industry=1|tile=4471720|born=668394|snapshot=f6d7f08fe208059edfb9e2babcba6e2e915545f8ff15a9cf032babf33cd9b682",
+        "EVENT|legacy_enrolled|legacy_11|industry=11|tile=5265313|born=668394|snapshot=63b26e971b3c6537157c965ecebc80161a9d3606be2d25b63d118be37bee31a2",
+        "EVENT|legacy_enrolled|legacy_12|industry=12|tile=6042354|born=668394|snapshot=1fb2e72407ab3c443786c03b596070469140508078e786ca041118e1736ad993",
+        "EVENT|legacy_enrolled|legacy_438|industry=438|tile=6106310|born=668394|snapshot=2a2fe1c16de89974163ff176f6fa4616e80806ee7ccf315e0a4bc6b1f66d764e",
+        "EVENT|processor_enrolled|krakow_old_mill|industry=275|snapshot=98bb982e686fd5938aad12e19c95b5a4b0e5977931227a89c4daa6b37a006486",
+        "F_ERROR|Ship fixture failed liverpool_greenock_supplies"
+      ]
+    },
+    {
+      "kind": "direct-native-freight",
+      "status": "FAILED FIXTURE",
+      "errors": [
+        "Ship fixture failed liverpool_dublin_supplies"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\direct-native-freight-1793497858210378600\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+        "-v",
+        "null:ticks=230000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "source_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\direct-native-freight-1793497858210378600",
+      "log_sha256": "e33e15e57da69b0abb093c4788edb4223c998f869050020cd6b068c4c2cb5f02",
+      "script_sha256": "9ce4c146375b19d06b17913d513781a00d2a77d61e0e47aa643aad29eb01e11f",
+      "seconds": null,
+      "diagnostics": [
+        "dbg: [script:4] [18] [I] P3_BLOCKED|liverpool_dublin_supplies|destination station|ERR_NONE"
+      ],
+      "observations": [
+        "EVENT|initialized|scheduler|baseline=542|calendar=668394|economy=657437",
+        "EVENT|legacy_enrolled|legacy_1|industry=1|tile=4471720|born=668394|snapshot=f6d7f08fe208059edfb9e2babcba6e2e915545f8ff15a9cf032babf33cd9b682",
+        "EVENT|legacy_enrolled|legacy_11|industry=11|tile=5265313|born=668394|snapshot=63b26e971b3c6537157c965ecebc80161a9d3606be2d25b63d118be37bee31a2",
+        "EVENT|legacy_enrolled|legacy_12|industry=12|tile=6042354|born=668394|snapshot=1fb2e72407ab3c443786c03b596070469140508078e786ca041118e1736ad993",
+        "EVENT|legacy_enrolled|legacy_438|industry=438|tile=6106310|born=668394|snapshot=2a2fe1c16de89974163ff176f6fa4616e80806ee7ccf315e0a4bc6b1f66d764e",
+        "EVENT|processor_enrolled|krakow_old_mill|industry=275|snapshot=98bb982e686fd5938aad12e19c95b5a4b0e5977931227a89c4daa6b37a006486",
+        "F_ERROR|Ship fixture failed liverpool_dublin_supplies"
+      ]
+    },
+    {
+      "kind": "early-paid-freight",
+      "status": "FAILED FIXTURE",
+      "errors": [
+        "Route construction blocked irish_grain"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\early-paid-freight-1793497653563482600\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\native-port-probe-1793497562726626600\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=230000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "source_sha256": "847c7be91b18e3167f98b719cd635673910110ec8df6c0b372d93b6906eedf1b",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\early-paid-freight-1793497653563482600",
+      "log_sha256": "94e9af4ea27f18c756b6725b1b66ac529cac3237daf1cadc534f08d9f26085ad",
+      "script_sha256": "59174e2fb72f86345fbf1bbe83c3f233dce5e32a570f4d79784debd766bc8fe2",
+      "seconds": null,
+      "diagnostics": [
+        "dbg: [script:4] [18] [I] P3_WATER|3996949|3906522|98651|true",
+        "dbg: [script:4] [18] [I] P4_BUILT|irish_sea_food|616|            Brig|1308|7616|50|3349|973|3032|953|-1|91076|100000|657468",
+        "dbg: [script:4] [18] [I] P3_BLOCKED|irish_grain|vehicle/refit|ERR_VEHICLE_NOT_AVAILABLE"
+      ],
+      "observations": [
+        "F_ERROR|Route construction blocked irish_grain"
+      ]
+    },
+    {
+      "kind": "early-paid-freight",
+      "status": "COMPLETED NEGATIVE",
+      "errors": [],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\early-paid-freight-1793497697326157100\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\native-port-probe-1793497562726626600\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=230000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "source_sha256": "847c7be91b18e3167f98b719cd635673910110ec8df6c0b372d93b6906eedf1b",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\early-paid-freight-1793497697326157100",
+      "log_sha256": "a2430d4bbc8b5fd88c0074eb9a75541eeea03c1b59edfe60500d9b2e11857ed4",
+      "script_sha256": "464a4ee7dee471e9ab33c954281647a0e53bad12c9d02a0f9587c67cafe1a100",
+      "seconds": 182.484,
+      "diagnostics": [
+        "dbg: [script:4] [18] [I] P3_WATER|3996949|3906522|98651|true",
+        "dbg: [script:4] [18] [I] P4_BUILT|irish_sea_food|616|            Brig|1308|7616|50|3349|973|3032|953|-1|91076|100000|657468",
+        "dbg: [script:4] [18] [I] P4_BUILT|irish_grain|402|1 Horse Hopper Carriage|9628|1148|8|3395|952|3358|965|51|80300|100000|657469",
+        "dbg: [script:4] [18] [I] P4_BUILT|food_feeder|430|1 Horse Ice Box Carriage|3501|1148|8|3356|966|3351|970|12|74582|100000|657478"
+      ],
+      "observations": [
+        "F_ROUTE|tag=irish_grain|a=3902787|b=3955998|station_a=2|station_b=3",
+        "F_VEHICLE|tag=irish_grain|id=2|engine=402|capacity=8",
+        "F_VEHICLE|tag=irish_grain|id=4|engine=402|capacity=8",
+        "F_ROUTE|tag=food_feeder|a=3960092|b=3976471|station_a=4|station_b=0",
+        "F_VEHICLE|tag=food_feeder|id=6|engine=430|capacity=8",
+        "F_VEHICLE|tag=food_feeder|id=8|engine=430|capacity=8",
+        "F_ROUTE|tag=irish_sea_food|a=3988757|b=3906520|station_a=0|station_b=1",
+        "F_VEHICLE|tag=irish_sea_food|id=0|engine=616|capacity=50",
+        "F_VEHICLE|tag=irish_sea_food|id=1|engine=616|capacity=50",
+        "E_LOADED|tag=irish_grain|vehicle=4|load=6|date=657487",
+        "E_PAID|tag=irish_grain|vehicle=4|delta=169|before_load=0|after_load=0|distance=0|date=657627",
+        "F_SHIP_RESULT|loaded=false|unloaded=false|paid=false|peak=0|sample_income=0|current_last_year_vehicle_profit=-1004|days=1825|cash=49254"
+      ]
+    },
+    {
+      "kind": "native-port-probe",
+      "status": "FAILED FIXTURE",
+      "errors": [
+        "Squirrel statement terminator error; corrected before probe rerun"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\native-port-probe-1793497550894297100\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7D Progression.scn",
+        "-v",
+        "null:ticks=12000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "source_sha256": "8eb114a0a4b4ea95363b810bfc815c0b30998e254399ff0d0dad8574e8456ec9",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\native-port-probe-1793497550894297100",
+      "log_sha256": "234ee5ba4220348418159b348d1925ffd0502a0534f315cd4eab88ef0334a341",
+      "script_sha256": "a134068bcb42688dfd964cfd72b194a524723049c9d5cb5f209aaa1a473e366f",
+      "seconds": null,
+      "diagnostics": [],
+      "observations": []
+    },
+    {
+      "kind": "native-port-probe",
+      "status": "COMPLETED",
+      "errors": [],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\native-port-probe-1793497562726626600\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7D Progression.scn",
+        "-v",
+        "null:ticks=12000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "source_sha256": "8eb114a0a4b4ea95363b810bfc815c0b30998e254399ff0d0dad8574e8456ec9",
+      "case": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\native-port-probe-1793497562726626600",
+      "log_sha256": "4d8b338694c567996761dccc242032523baf42917e65396c5bbce52b9b90e969",
+      "script_sha256": "20006790406869ae2dadd20c9399485f563c5fb52f32f62d7ee8bdc3420cfe72",
+      "seconds": 2.766,
+      "diagnostics": [],
+      "observations": [
+        "F_BASE|towns=617|industries=542|economy_date=657437|calendar=668394",
+        "F_PORT|event=liverpool_1831|id=542|tile=3914711|dock=-1|attempts=20",
+        "F_DEFERRED|event=hamburg_1831|attempts=0|error=ERR_NONE"
+      ]
+    },
+    {
+      "kind": "scenario-editor",
+      "status": "SAVED SEPARATE CANDIDATE",
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\phase7f-editor-1793497671951221000\\test.cfg",
+        "-e",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7f\\phase7f-editor-1793497671951221000\\scenario\\Phase7F source copy.scn",
+        "-r",
+        "1280x800",
+        "-s",
+        "null",
+        "-m",
+        "null"
+      ],
+      "candidate_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f"
+    }
+  ]
+}

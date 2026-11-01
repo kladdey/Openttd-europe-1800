@@ -12,8 +12,11 @@ Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, 
 
 - [x] **Phase 7E targeted freight validation:** actual paid RCYC/PLAS/MNSP and SCMT legs, native EAF output and physical gameplay reload; no changes to AXIS or normal GS. [Evidence and economics](PHASE_7E_READINESS.md).
 
+- [x] **Phase 7F partial implementation:** separate candidate and eight conditional port events; native Liverpool facility constructed. Paid shipping acceptance criterion remains unmet. [Readiness/blockers](PHASE_7F_READINESS.md).
+
 ## Next priorities
 
+- [ ] Resolve Phase 7F receiving dock/connected-water and feeder blockers; prove one actual paid maritime leg, then normal-policy save/reload.
 - [ ] Measure sustained profit with appropriately sized downstream fleets; Phase 7E proved delivery, but the two-truck MNSP leg lost money. Test complete steel/slag outlets and fuller EAF inputs separately.
 - [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.
 - [ ] Review conditional/blocked regional events with targeted native site diagnostics. Do not flatten sites or grow towns artificially to force success.
