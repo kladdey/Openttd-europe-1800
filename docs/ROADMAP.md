@@ -1,6 +1,6 @@
 # Current roadmap — Historical Europe 1830–2025
 
-Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, unchanged AXIS 0.6.0 plus isolated GS v4. Verdict: **READY WITH CAVEATS**. Older geography checkpoints below remain historical.
+Current separate development candidate: **Phase 7H**, 617 towns / 542 initial industries, unchanged AXIS 0.6.0 plus isolated GS v7/schema 6. Verdict: **READY WITH CAVEATS for controlled testing**. Phase 7D/7E remains the earlier established evidence baseline; older geography checkpoints below remain historical.
 
 ## Completed milestones
 

@@ -1,21 +1,19 @@
-# Current multiplayer test protocol — Phase 7D
+# Current multiplayer test protocol — Phase 7H
 
-**Candidate:** JGRPP **0.73.4**, **617 towns / 542 starting industries**, unchanged Historical AXIS **0.6.0**, server-side **GS v4/schema 4**, exact 15 GRFs. Launch using `python scripts/lifecycle_phase7d_launch.py` and the isolated [Phase 7D profile](PHASE_7D_READINESS.md). Calendar/economy starts **1830/1800**; train length remains seven tiles.
+**Candidate:** JGRPP **0.73.4**, unchanged AXIS **0.6.0**, **GS v7/schema 6**, exact 15 GRFs, initial **617 towns / 542 industries / 64 cargos**, calendar/economy **1830/1800**, seven-tile trains. Use the fresh [Phase 7H scenario/profile](PHASE_7H_READINESS.md) through `python scripts/transformation_phase7h_launch.py`. Do not upgrade an ongoing older-schema save in place.
 
-**READY WITH CAVEATS**, not a certified three-human campaign. Phase 7D demonstrated modern construction in Rhine and Lille, limited depot production, a small-map timeline through 2026 and save/reload without duplicate openings. Earlier dedicated-server and client evidence belongs to its recorded earlier candidates; no new three-player session, paid modern recycling chain or full Europe progression certification is claimed.
-
-**Phase 7F is PARTIAL:** the separate port candidate is not multiplayer-certified and has no verified paid maritime leg. First resolve its [single-route validation steps](PHASE_7F_READINESS.md), then verify matching GS v5 save/rejoin and duplicate-opening safety in a disposable host/client test. Keep the Phase 7D/7E baseline and its evidence distinct; no silent live-save migration.
+**READY WITH CAVEATS for controlled testing.** Phase 7H proved the existing 7G active-boom reload through downturn/recovery, legal Lancashire textile construction, Silesian pilot decline and physical retirement, and the new schema-6 ended-state reload. Phase 7E proved paid modern road freight. These are separate observations, not a successful three-human campaign. Paid maritime freight remains unresolved; normal historical milestones, new H active/closing-row reload and sustained route economics still need verification.
 
 ## First session: Kladdey, Squirrel and Toni
 
-1. Verify identical JGRPP and all GRF hashes against the [candidate manifest](research/phase7d_candidate_delivery.json). Host the fresh normal 1830 candidate with the matching GS v4 package; do not use accelerated or future-year fixtures.
-2. Have all three players join separate companies in distinct regions. Record loading time, exact missing-content errors, disconnects and desyncs; redact private addresses in shared logs.
-3. Build modest passenger and valid freight routes. Verify actual production, loading, acceptance and paid revenue; compare infrastructure/vehicle expenses and opportunities under competition. Record annual finances rather than assuming construction proves profitability.
-4. Save a disposable checkpoint, restart the host and reconnect both clients. Confirm towns/industries, company finances and GS ledger persist without duplicate events or unexplained closures.
-5. For lifecycle warnings/retirement and future recycling, use separately labelled disposable fixtures with their matching policies. Verify RCYC deliveries to recovery and junkyard, PLAS to plastics, downstream MNSP acceptance and SCMT/EAF supply. Do not mix fixture saves with the normal policy.
-6. Report dates, filenames/hashes, host/client versions, observed outcomes and relevant logs. Stop and preserve the checkpoint on desync, accidental baseline demolition or migration refusal; do not work around it by changing GRFs in the save.
+1. Verify identical engine and GRF hashes against the [manifest](research/phase7h_candidate_delivery.json). The host must use the matching GS v7 normal policy, a fresh 1830 scenario and a disposable campaign save. Do not use accelerated fixtures.
+2. Have all three players join separate companies in distinct regions. Record loading time, missing-content errors, disconnects and desyncs; redact private addresses in shared logs.
+3. Build modest passenger and compatible freight routes. Verify actual loading, acceptance and paid income, recording capital, vehicle expenses and maintenance under competition. Industry construction or displayed production alone does not establish profit.
+4. Save, stop/restart the host and reconnect both clients. Confirm company finances, industries, original map identities and GS state persist without duplicate openings or unexplained closures. This three-human gate has not been completed.
+5. In a separately labelled disposable accelerated profile, save during a new H active/closing row, reload and verify one-shot decline/retirement. Keep its exact fixture contract; do not load it under the normal policy. All original industries must remain except already authorized old lifecycle actions.
+6. Record dates, hashes, host/client versions, outcomes and logs. Preserve a checkpoint on errors; do not work around schema refusal or desync by changing NewGRFs in the save.
 
-Modern economic throughput, competing-company effects and all final regional events remain unverified. Consult [Phase 7D evidence limits](PHASE_7D_READINESS.md), [implementation](PHASE_7D_IMPLEMENTATION.md) and retained [mine safety rules](PHASE_7B_MIGRATION_AND_SAFETY.md).
+Next targeted freight work: right-size downstream recycling fleets, supply and haul textiles, and resolve one genuine paid maritime leg. No artificial subsidies or price changes are recommended from the current supply-only transformation tests. See [7H limitations](PHASE_7H_READINESS.md), [implementation](PHASE_7H_IMPLEMENTATION.md) and retained [original-mine safeguards](PHASE_7B_MIGRATION_AND_SAFETY.md).
 
 ---
 
