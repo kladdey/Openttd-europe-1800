@@ -14,8 +14,11 @@ Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, 
 
 - [x] **Phase 7F partial implementation:** separate candidate and eight conditional port events; native Liverpool facility constructed. Paid shipping acceptance criterion remains unmet. [Readiness/blockers](PHASE_7F_READINESS.md).
 
+- [x] **Phase 7G supply-cycle slice:** real neutral Ruhr mine, observed boom/downturn/recovery; unchanged NewGRFs and prior policies. [Readiness](PHASE_7G_READINESS.md).
+
 ## Next priorities
 
+- [ ] Verify Phase 7G schema-5 save/reload and no repeated opening; test normal historical dates and hauled COAL finances before tuning levels.
 - [ ] Resolve Phase 7F receiving dock/connected-water and feeder blockers; prove one actual paid maritime leg, then normal-policy save/reload.
 - [ ] Measure sustained profit with appropriately sized downstream fleets; Phase 7E proved delivery, but the two-truck MNSP leg lost money. Test complete steel/slag outlets and fuller EAF inputs separately.
 - [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.

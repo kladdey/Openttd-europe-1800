@@ -1,0 +1,425 @@
+{
+  "candidate": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7G Regional Cycles.scn",
+  "candidate_sha256": "5a6d3b52d59224a6dcb918c306cd92b4f74f39e333f6905db101e23d802d74f2",
+  "profile_candidate": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7G Regional Cycles.scn",
+  "profile": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300",
+  "configuration": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\test.cfg",
+  "source": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7F Historical Ports.scn",
+  "source_sha256": "0d21f3045e8bc2dc2d4888298ad467284e90ffb3cba1be012bced37ee7386c5f",
+  "engine": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-expansion\\dist\\axis-historical-europe-0.6.0-expansion-candidate.grf",
+  "grf_sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84",
+  "script": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\main.nut",
+  "script_sha256": "bf903e2168c7207294b34ac9f45f23fcfebc9dc9bd06d2a1684e7df09d8acf5d",
+  "gs_version": 6,
+  "gs_schema": 5,
+  "axis_version": "0.6.0 unchanged",
+  "test_dates": false,
+  "towns": 617,
+  "initial_industries": 542,
+  "newgrfs": [
+    {
+      "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+      "grfid": "44440A01",
+      "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+      "version": 2210,
+      "params": [],
+      "palette": 9,
+      "name": "av8 Aviators Aircraft Set"
+    },
+    {
+      "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+      "grfid": "43485054",
+      "md5": "f09180381b487c911d5eaf5dff4fddf2",
+      "version": 376,
+      "params": [],
+      "palette": 4,
+      "name": "CHIPS Station Set 2.0.0"
+    },
+    {
+      "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+      "grfid": "41560103",
+      "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+      "version": 40,
+      "params": [
+        0,
+        63,
+        0,
+        3,
+        0
+      ],
+      "palette": 9,
+      "name": "eGRVTS v2.1 - r240"
+    },
+    {
+      "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+      "grfid": "4A430002",
+      "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+      "version": 5518,
+      "params": [
+        0,
+        1
+      ],
+      "palette": 9,
+      "name": "Industrial Stations Renewal 1.0.2"
+    },
+    {
+      "filename": "polishtrainset3.0.3.grf",
+      "grfid": "4D560103",
+      "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+      "version": 211,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "Polish Train Set 3.0"
+    },
+    {
+      "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+      "grfid": "434D4301",
+      "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+      "version": 5,
+      "params": [
+        0,
+        0,
+        0
+      ],
+      "palette": 9,
+      "name": "Sailing Ships (community) 0.73"
+    },
+    {
+      "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+      "grfid": "4D560105",
+      "md5": "99ae27e35245e498e378adc3d06dec20",
+      "version": 17,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "TEST Polish Rolling Stock Pack 0.19.1"
+    },
+    {
+      "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+      "grfid": "44441000",
+      "md5": "da36131a815d2d5fc158c7a27d67b5af",
+      "version": 1050,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "palette": 9,
+      "name": "UK Railway Set (UKRS2)"
+    },
+    {
+      "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+      "grfid": "414E0201",
+      "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+      "version": 1687,
+      "params": [
+        1,
+        1,
+        0
+      ],
+      "palette": 4,
+      "name": "Squid Ate FISH r1687"
+    },
+    {
+      "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+      "grfid": "0100403A",
+      "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+      "version": 0,
+      "params": [],
+      "palette": 1,
+      "name": "City objects 1.3"
+    },
+    {
+      "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+      "grfid": "4F472B34",
+      "md5": "136d889fdaeaa3491f8320248a04425c",
+      "version": 5524,
+      "params": [
+        12,
+        0,
+        4,
+        15,
+        4,
+        0
+      ],
+      "palette": 4,
+      "name": "OpenGFX+ Landscape 1.1.2"
+    },
+    {
+      "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+      "grfid": "44440302",
+      "md5": "5f268de28cca8fa7fdd140ac031a5939",
+      "version": 252,
+      "params": [
+        0
+      ],
+      "palette": 9,
+      "name": "North American Railway Set (NARS) 2.52"
+    },
+    {
+      "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+      "grfid": "4E4D0518",
+      "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+      "version": 2401131718,
+      "params": [
+        4,
+        3,
+        2
+      ],
+      "palette": 4,
+      "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+    },
+    {
+      "filename": "axis-historical-europe-0.6.0-expansion-candidate.grf",
+      "grfid": "4B484531",
+      "md5": "f354a00c6e1c0b44376a5008999b4f71",
+      "version": 6,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        150,
+        80,
+        300,
+        1,
+        1
+      ],
+      "palette": 4,
+      "name": "AXIS Historical Europe 0.6.0 expansion candidate (AXIS 2.3.1 base)"
+    },
+    {
+      "filename": "gets0.7.grf",
+      "grfid": "53410808",
+      "md5": "7c3e713c64766a1dd71dc96d583e8138",
+      "version": 19,
+      "params": [
+        3,
+        2
+      ],
+      "palette": 20,
+      "name": " GETS 0.7"
+    }
+  ],
+  "preserved_chunks": [
+    "CITY",
+    "INDY",
+    "PATS",
+    "PSAC"
+  ],
+  "all_map_planes_unchanged": true,
+  "script_files": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\cycles_policy.nut",
+      "sha256": "a10e0f3217219ddc513de8b7872f821a5bce6fe31f35495a4f23ab90da3837aa"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\expansion_policy.nut",
+      "sha256": "ebedd0be73f4434917ff4596fa14fab872f43f34a3d4c4670600292ccb30abb8"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\info.nut",
+      "sha256": "0605236e2de7a5343263b331cf255dc16336d4933e0e9f9295e91b4235e3b2e9"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\legacy_policy.nut",
+      "sha256": "2ef322fdb0da11fbecf887c3fb7a21086f82e7ead6f1c1c11e9e3ceb9ce1daf1"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\main.nut",
+      "sha256": "bf903e2168c7207294b34ac9f45f23fcfebc9dc9bd06d2a1684e7df09d8acf5d"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\game\\lifecycle\\schedule.nut",
+      "sha256": "7bacca37ff888575ab012731ec7d7cd454067c2697fe355446fe7afab3d1fdea"
+    }
+  ],
+  "asset_files": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\extra_signals.grf",
+      "sha256": "831a1a4b0efc3a1b4a44c5f45afe107caabae7d09a4e5d3c913e800096df01c9"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\innerhighlight.grf",
+      "sha256": "a5e9ff63ee469072ef4167a7c894335b1484a6af288287c1534bd85535ac1913"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\misc_gui.grf",
+      "sha256": "494d10b6435dbe8f4f6657215df36f4c601e1fe515f43b23726d317be580119a"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\no_music.obm",
+      "sha256": "90a7d2c63a34097dbf9115aa76f3a8aefad6d3a288108e3e8fc9cbe745f9b5ea"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\no_sound.obs",
+      "sha256": "3edbc6670db84198d743cd7dc0272136a4aeb54a8c26708f5663df9be0afad15"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\opengfx-8.0.tar",
+      "sha256": "9389bcb0807058c80bd95121e978f05d9ef86b4b1bc3ac2da8da8bb02456043c"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\OpenTTD-Mono.ttf",
+      "sha256": "7ec9e91093167e140193633cff861c3f7a3ce5a36f9fcaa24e02366ee13f66b0"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\OpenTTD-Sans.ttf",
+      "sha256": "f10d200b4769e31302d949326f0cd3a3f697a34788892f7180d813600693afe2"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\OpenTTD-Serif.ttf",
+      "sha256": "c299f2d912a4f78a85f2633adad11450a1186b8f63d5adc0999fdc3a4a536266"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\OpenTTD-Small.ttf",
+      "sha256": "cfbd78b80bfecff188eae4c23447073e781c60741d39d16af2ca81a3920cbb5f"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\openttd.grf",
+      "sha256": "b96cdc70ccabe75479aecb30b46d593c6189b7cbe04cd52fa726963c54c13b96"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\opntitle.dat",
+      "sha256": "1645d6bd627df06986b1884c57f1e328f3ab606aa32549ed88a9220b1b1230fa"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_dos.obg",
+      "sha256": "796072ceafe660554fb3dbc24f6079c214d25cd93efc68e0aa99d7db32493381"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_dos.obm",
+      "sha256": "9f7e77264daf47bf5e9f138495c30044056b03c8771627701245baffed6df8ed"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_dos.obs",
+      "sha256": "23fefd452c2c8e3bb9638d17672f71eb18e7df927db4f063cedd8e508358cbeb"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_dos_de.obg",
+      "sha256": "53be105fc11878e7b6c8be92c8d2f0b5c66e2c22c05e6bdc70b2b1fee0cce34e"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_extra.grf",
+      "sha256": "0017cf6f5c8cbbf724c03f4af7c222c21022b156c584b62da5b5154d12d12b14"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_tto.obm",
+      "sha256": "e4a0f29af1aab5d920f01e2ec6361905abbee4bf06c468cc3d819422483fe62b"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_win.obg",
+      "sha256": "0ff1688f1ccf5f89fb47f2c7cb21db0d422550f010bfc9b59096fa5d4361c733"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_win.obm",
+      "sha256": "d27322ba7bb9a3a1a5d9824011e35940bd5ab7e2f408708e5d6485d599e580a7"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\orig_win.obs",
+      "sha256": "02af0fe4b4174b44a8dd0365baf97c989a24000ebed4d377115c1fc62662916e"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\progsignals.grf",
+      "sha256": "0c3aa0b68fc45891645cbfb2d17927d864bd2c1675d999c2f64b03bd46c3225c"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\road_waypoints.grf",
+      "sha256": "e375ee1ad28113f8817de3189a65dcca59c6491b10c7e22bed07d57f71f53f77"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\route_step.grf",
+      "sha256": "ad7df2cdc0b7463e0652d2fd9c8f445d22ba3d00b7b19d1636bd834963f5a61a"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\baseset\\tracerestrict.grf",
+      "sha256": "5423c92865def95d79777afe8b5a1ea2f7ac01a986618d69971d787f81b707fc"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\0100403a-City_Objects-1.3.tar",
+      "sha256": "6a7beb84463c0017dca4d790c8cecca5d4be486d5b422bf049f3c2232cc7a41d"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\414e0201-Squid_Ate_FISH_FISH_2_Ships-2.0.3.tar",
+      "sha256": "bbca24a526c87cb0364eb139144377c21869fc37491f586ce082c0fcef0754cd"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\41560103-eGRVTS_v2.1-r240.tar",
+      "sha256": "7945aa8f753838dff1b2ac5d8de090ad2630aaf999a64cd0a0820708a198ea50"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\43485054-CHIPS_Station_Set_2-2.0.0.tar",
+      "sha256": "8a44f8e42c1f43328e720d3b839e670236c855d170215f885b77738513317c25"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\434d4301-Sailing_Ships_community-0.73.tar",
+      "sha256": "729eb1f721ad8bbc8ad66266d35381a75fb946a868deb0baaa446c08b47da393"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\44440302-North_American_Renewal_Set-2.52.tar",
+      "sha256": "7d1c6b816c8b7a6b06143712020769d8050272d8afa9eafa6e2a35c7aece4d47"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\44440a01-av8_Aviators_Aircraft_Set-2.21.tar",
+      "sha256": "e874f93b45e2413a5fcea177e5cd0db852b6ede14c2f93bed56386e14fea3e4c"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\44441000-UKRS2_The_UK_Railway_Set-1.05.tar",
+      "sha256": "b6e38b9fac21b411dacbabb4fa3fe457d34e0a6ccc0df7d8ed7e82413d5d58e9"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\4a430002-Industrial_Stations_Renewal-1.0.2.tar",
+      "sha256": "17dc152e473c824754193c6ded5c246b166c13b828d60b22dde705c6ab3daf07"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\4a4b8808-AXIS_eXtreme_Industry_Set-2.3.1.tar",
+      "sha256": "78d0a7ded843bb5fc9025504884312df1effe4f15908876a8dcbba73b6f7429a"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\4d560105-Polish_Rolling_Stock_Pack-0.19.11.tar",
+      "sha256": "0cc055a184f2ac407ca757e7af095f883742732b07da47f59df659b3dbc08123"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\4e4d0518-NARS_Add_On_Set_2cc-2401131718.tar",
+      "sha256": "f01a247f596e0174e114b45cbc60c135063ef6b588b94f01783192e78931494b"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\4f472b34-OpenGFX_Landscape-1.1.2.tar",
+      "sha256": "5f9682e327d35da4df7ab62fe03e18fa1a86cf300e34b44b54b58176a70f755a"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\axis-historical-europe-0.6.0-expansion-candidate.grf",
+      "sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\gets0.7.grf",
+      "sha256": "c1d33f99d2acd038f49ceafa4e0fdf1fcd6492f55a38c3da3f19e68555742f0a"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7g\\phase7g-editor-1793518114999911300\\newgrf\\polishtrainset3.0.3.grf",
+      "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Current project status — 1 November 2026
 
-**Current work branch:** `feature/phase-7f-historical-ports`, based on local Phase 7E `4a6b056` descending from merged main `aaf6f6f`. Current local development candidate: **Phase 7D, READY WITH CAVEATS**. It retains stock JGRPP 0.73.4, Historical AXIS **0.6.0**, 617 towns, 542 initial industries, 15 GRFs, 64 cargos, calendar/economy 1830/1800 and seven-tile trains, with separately packaged **GS v4/schema 4**. [Launch/readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md).
+**Current work branch:** `feature/phase-7g-economic-cycles`, based on latest local `a707318`, preserving Phase 7E `4a6b056` and Phase 7F/7F.1 ancestry. Established map/economy baseline: **Phase 7D/7E, READY WITH CAVEATS**. The latest separate cycle candidate is **Phase 7G**, described below. It retains stock JGRPP 0.73.4, Historical AXIS **0.6.0**, 617 towns, 542 initial industries, 15 GRFs, 64 cargos, calendar/economy 1830/1800 and seven-tile trains, with separately packaged **GS v4/schema 4**. [Launch/readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md).
 
 **Phase 7C is complete with caveats**, not merely planned: its paid grain/food chain, mill retirement, later construction and persistent lifecycle evidence remain preserved. Phase 7D adds layout/house-aware siting and a 32-event regional policy. A real Europe fixture constructed both Rhine and Lille depot/junkyard/recovery/plastics packages plus food processing: 551 industries, all 542 originals and all 617 towns retained. No GRF edits or source-scenario overwrites were needed.
 
@@ -10,7 +10,9 @@
 
 **Phase 7F — PARTIAL:** separate unchanged-AXIS candidate with GS v5/schema 4, eight new conditional port events (40 total). Native Liverpool port construction succeeded; no paid shipborne delivery was achieved. Irish Sea feeder, dock catchment and bounded water-approach checks exposed specific unresolved route blockers. Seven engine invocations including the permitted extra alternative and editor; eight focused tests passed. No normal-policy save/reload or multiplayer certification. [Port readiness](PHASE_7F_READINESS.md).
 
-Next: establish one connected, accepting paid maritime leg without terrain changes; right-size downstream fleets and competitive human playtesting, followed by targeted review of cancellations. Preserve earlier assets and live saves; no silent GS migration. Binary candidates remain local and hash-checked. See [roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
+**Phase 7G — READY WITH CAVEATS for cycle playtesting:** separate GS v6/schema 5 candidate, unchanged AXIS 0.6.0. One new Ruhr mine demonstrated boom/downturn/restoration at native levels 16/32/8/16, with settled monthly COAL samples 210/270/63/135. All 542 originals and 617 towns retained; four engine invocations including two failed prototypes and one editor, six focused tests passed. No new paid freight, normal historical-date run or save/reload proof. [Readiness](PHASE_7G_READINESS.md) · [supported mechanism and limitations](PHASE_7G_IMPLEMENTATION.md).
+
+Next: verify GS v6/schema 5 reload/idempotence before a live campaign; establish one connected, accepting paid maritime leg without terrain changes; right-size downstream fleets and competitive human playtesting, followed by targeted review of cancellations. Preserve earlier assets and live saves; no silent GS migration. Binary candidates remain local and hash-checked. See [roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
 
 ---
 

@@ -14,6 +14,7 @@
 | Legacy mine lifecycle Phase 7B | [PHASE_7B_READINESS](PHASE_7B_READINESS.md), [implementation](PHASE_7B_EXISTING_MINES_IMPLEMENTATION.md), [policy](PHASE_7B_DEPLETION_POLICY.md), [validation](PHASE_7B_ENGINE_VALIDATION.md), [migration/safety](PHASE_7B_MIGRATION_AND_SAFETY.md) |
 | Modern paid freight Phase 7E — ready with caveats | [PHASE_7E_READINESS](PHASE_7E_READINESS.md), [paid routes](research/phase7e_paid_routes.csv), [engine receipts](research/phase7e_engine_receipts.json), [cargo contracts](research/phase7e_cargo_contracts.json) |
 | Historical ports Phase 7F — PARTIAL | [Readiness](PHASE_7F_READINESS.md), [implementation](PHASE_7F_IMPLEMENTATION.md), [receipts](research/phase7f_test_receipts.json), [events](research/phase7f_port_events.csv), [routes](research/phase7f_route_results.csv) |
+| Regional economic cycles Phase 7G — ready with caveats | [Readiness](PHASE_7G_READINESS.md), [implementation/capabilities](PHASE_7G_IMPLEMENTATION.md), [native production samples](research/phase7g_production_samples.csv), [receipts](research/phase7g_engine_receipts.json) |
 | Vehicle economics | [VEHICLE_TRANSPORT_AUDIT_INDEX](VEHICLE_TRANSPORT_AUDIT_INDEX.md) |
 | Historical expansion Phase 7C — complete with caveats | [PHASE_7C_READINESS](PHASE_7C_READINESS.md) |
 | Current progression Phase 7D — ready with caveats | [PHASE_7D_READINESS](PHASE_7D_READINESS.md), [implementation](PHASE_7D_IMPLEMENTATION.md), [event coverage](research/phase7d_event_coverage.csv), [test receipts](research/phase7d_test_receipts.json) |
