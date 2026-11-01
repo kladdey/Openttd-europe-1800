@@ -16,9 +16,11 @@ Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, 
 
 - [x] **Phase 7G supply-cycle slice:** real neutral Ruhr mine, observed boom/downturn/recovery; unchanged NewGRFs and prior policies. [Readiness](PHASE_7G_READINESS.md).
 
+- [x] **Phase 7G.1 ended-state persistence gate:** native schema-5 reload retained exactly one pilot mine and ended ledger, with no repeated cycle effect. Active-boundary reload remains unverified. [Evidence](PHASE_7G1_PERSISTENCE_READINESS.md).
+
 ## Next priorities
 
-- [ ] Verify Phase 7G schema-5 save/reload and no repeated opening; test normal historical dates and hauled COAL finances before tuning levels.
+- [ ] Verify Phase 7G active-boundary reload across downturn/restoration; ended-state reload has passed. Test normal historical dates and hauled COAL finances before tuning levels.
 - [ ] Resolve Phase 7F receiving dock/connected-water and feeder blockers; prove one actual paid maritime leg, then normal-policy save/reload.
 - [ ] Measure sustained profit with appropriately sized downstream fleets; Phase 7E proved delivery, but the two-truck MNSP leg lost money. Test complete steel/slag outlets and fuller EAF inputs separately.
 - [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.

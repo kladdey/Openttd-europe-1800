@@ -2,6 +2,10 @@
 
 **READY WITH CAVEATS for controlled cycle playtesting.** One regional boom and one downturn changed real COAL output in JGRPP; this is not a balanced 195-year economy or a multiplayer certification. Phase 7F shipping remains unresolved and out of scope.
 
+## Phase 7G.1 follow-up
+
+**PASS for ended-state native reload:** exact GS v6/schema 5 checkpoint loaded, with one pilot mine, all 542 original identities and 617 towns retained; ended states/timers/reference remained stable, level 16/flags 0, no repeated cycle commands. Two invocations included an initial observer-count failure caused by a legitimate 1831 port opening; the corrected shorter window passed. Three focused tests passed; no production fix or candidate change. **Active-boundary reload remains unverified.** [Persistence evidence and remaining gate](PHASE_7G1_PERSISTENCE_READINESS.md). The original Phase 7G test counts and no-reload statements below are retained as historical scope and are superseded only for this ended-state case.
+
 ## Separate candidate
 
 `C:\Users\Kladd\Documents\OpenTTD\scenario\Europe 1830 Historical AXIS 0.6.0 - Phase 7G Regional Cycles.scn`
@@ -17,7 +21,7 @@ python scripts/cycles_phase7g_launch.py --editor
 
 Use the [manifest-pinned isolated profile](research/phase7g_candidate_delivery.json), GS **v6/schema 5**, unchanged AXIS **0.6.0** and exact JGRPP **0.73.4**. Initial state remains **617 towns / 542 industries / 15 GRFs / 64 cargos / seven-tile trains / calendar 1830, economy 1800**. Old scenarios, binaries, player saves and normal configuration were not overwritten. Compiled/local dependencies are not included in a Git clone.
 
-## Verified versus remaining work
+## Original Phase 7G evidence and limitations (retained)
 
 - **VERIFIED IN GAME:** new neutral Ruhr coal mine 542; sampled output **210 baseline → 270 boom → 63 downturn → 135 restored**, with levels 16/32/8/16 and control flags returning from 12 to 0. This proves supply change, not exact 2×/½× production or paid profit.
 - **VERIFIED IN GAME / READ-ONLY CHECKS:** all original 542 industry identities and 617 towns retained in the completed fixture; one additional mine, 543 total; no local height changes. Initial native editor candidate is byte-equal to Phase 7F in all map planes and town/industry/settings/storage chunks, with identical GRF references/parameters.
