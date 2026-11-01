@@ -1,26 +1,25 @@
 # Current roadmap — Historical Europe 1830–2025
 
-The active branch now has a **617-town / 542-industry** playable development candidate. Older V12/V13 geography tasks remain historical backlog, not the main critical path.
+Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, unchanged AXIS 0.6.0 plus isolated GS v4. Verdict: **READY WITH CAVEATS**. Older geography checkpoints below remain historical.
 
 ## Completed milestones
 
-- [x] Phase 6B: historical industrialized scenario, copper and salt processing.
-- [x] Phase 6C: 75 inland retail markets and verified paid FOOD/GOOD deliveries.
-- [x] Phase 7A: guarded server-side scheduling, openings, warnings and actual closure in JGRPP; isolated AXIS 0.4.0 candidate.
-- [x] Phase 7B: guarded four-mine existing-site depletion pilot, native production decline, warning windows, finite service extensions, save/reload and dedicated-server smoke; isolated AXIS 0.5.0 candidate.
+- [x] Phases 6B/6C: historical industrialization, copper/salt processing and 75 inland markets.
+- [x] Phases 7A/7B: persistent scheduling and guarded four-original-mine depletion pilot, with retained safety evidence.
+- [x] **Phase 7C complete with caveats:** ten-event slice, paid Galician chain, guarded mill transition, later steel construction and 36 recorded engine runs.
+- [x] **Phase 7D implementation:** 32-event regional policy, legal layout/house-aware modern siting and GS v4 fresh-candidate isolation. Both Rhine and Lille sequences constructed in Europe, all originals preserved.
+- [x] Lean long-horizon attempt to 2026 with one reload and no duplicate openings; actual cancellations and fixture/final-policy differences recorded rather than hidden.
 
 ## Next priorities
 
-- [ ] **Phase 7C:** historically researched industrial expansion by era and region, including factory openings, obsolete chains, replacement policy and paid freight-chain verification. **Prompt prepared only; no implementation evidence.**
-- [ ] Extend 7B depletion beyond four original mines with documented regional policies; investigate four unresolved soda-ash sites.
-- [ ] Test three actual multiplayer clients through closures, reconnects, shared transport and potential cargo-dumping exploits.
-- [ ] Validate long-duration 1830–2025 behavior, performance, demand continuity and economic balance.
-- [ ] Complete Europe coastal GOOD and copper export end-to-end tests.
-- [ ] Test short-distance horse feeders on existing roads before considering price changes.
-- [ ] Plan explicit migration for any existing campaign save; never silently switch NewGRF or GS versions.
-- [ ] Resolve licensing and release packaging before public distribution.
+- [ ] Operate and measure RCYC→recovery→PLAS→plastics→MNSP deliveries and the separate SCMT branch. Construction is not proof of revenue.
+- [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.
+- [ ] Review conditional/blocked regional events with targeted native site diagnostics. Do not flatten sites or grow towns artificially to force success.
+- [ ] Validate selected future stages as needed; no automatic broad regression campaign or full-Europe economic certification.
+- [ ] Review any additional depletion/retirement policy separately; preserve the four-mine and one-mill scope until then.
+- [ ] Resolve packaging/licensing and any explicit live-save migration before distribution; do not silently substitute assets.
 
-See [Phase 7B readiness](PHASE_7B_READINESS.md), [Phase 6C readiness](INLAND_MARKETS_READINESS.md), [project status](PROJECT_STATUS.md).
+[Phase 7D readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md) · [Phase 7C readiness](PHASE_7C_READINESS.md).
 
 ---
 

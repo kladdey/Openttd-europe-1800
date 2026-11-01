@@ -1,10 +1,12 @@
-# Current project status — 29 October 2026
+# Current project status — 1 November 2026
 
-**Active development branch:** `feature/axis-historical-integration`. The current development candidate is **Phase 7B**, not the old V13 geography prototype. Current map: **617 towns**, **542 starting industries**, 15 active NewGRFs, JGRPP **0.73.4**, calendar **1830** / economy **1800**. Phase 7B uses a separate opt-in Historical AXIS **0.5.0** candidate and server-side GS v2. Read [Phase 7B readiness](PHASE_7B_READINESS.md), [migration and safety](PHASE_7B_MIGRATION_AND_SAFETY.md), and [installation](INSTALLATION.md).
+**Active branch:** `feature/axis-historical-integration`. Current local development candidate: **Phase 7D, READY WITH CAVEATS**. It retains stock JGRPP 0.73.4, Historical AXIS **0.6.0**, 617 towns, 542 initial industries, 15 GRFs, 64 cargos, calendar/economy 1830/1800 and seven-tile trains, with separately packaged **GS v4/schema 4**. [Launch/readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md).
 
-**Completed:** Phase 6B industrialization; Phase 6C inland markets (FOOD consumers 13→76, GOOD 12→69); Phase 7A scheduled lifecycle foundation; Phase 7B guarded existing-mine pilot (four of 44 extractive sites). **Not completed:** Phase 7C continental historical expansion, full 195-year balancing, and three-human lifecycle multiplayer test. Earlier scenario files, AXIS 0.3/0.4 binaries and the older FIRS-based 1800 setup are separate historical checkpoints, not interchangeable save formats.
+**Phase 7C is complete with caveats**, not merely planned: its paid grain/food chain, mill retirement, later construction and persistent lifecycle evidence remain preserved. Phase 7D adds layout/house-aware siting and a 32-event regional policy. A real Europe fixture constructed both Rhine and Lille depot/junkyard/recovery/plastics packages plus food processing: 551 industries, all 542 originals and all 617 towns retained. No GRF edits or source-scenario overwrites were needed.
 
-**Current verdict:** READY WITH CAVEATS for controlled playtesting; not a finished 1830–2025 campaign. NewGRF/GS migration requires explicit review; compiled scenario/GRF assets remain local. See [current roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
+**Evidence limits:** five focused tests; seven completed engine runs plus two corrected compile failures. A continuous small-map 1830–2026 attempt with one reload built 11 and cancelled 17 events in the earlier 28-event fixture. The final Lille additions/revised Rhine anchors were Europe-smoke-tested, not rerun through the full timeline. No new paid modern freight chain, full-Europe economic run or three-human certification is claimed. Earlier broad test dependency/geography failures were not revisited.
+
+Next: actual modern cargo deliveries and competitive human playtesting, followed by targeted review of cancellations. Preserve earlier assets and live saves; no silent GS migration. Binary candidates remain local and hash-checked. See [roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
 
 ---
 

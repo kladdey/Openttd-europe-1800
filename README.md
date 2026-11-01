@@ -2,20 +2,20 @@
 
 A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's Patch Pack 0.73.4**, intended for a three-company multiplayer campaign. Development is ongoing: this is **not** a fully validated 1830–2025 release.
 
-## Current playable development baseline (Phase 7B)
+## Current playable development baseline (Phase 7D)
 
 | Item | Verified development state |
 |---|---|
 | Towns | **617** |
 | Starting industries | **542**, including 75 additional inland markets |
-| Historical AXIS | **0.5.0 legacy-lifecycle candidate** (separate opt-in profile) |
+| Historical AXIS | **0.6.0 unchanged GRF**, separate GS v4 Phase 7D profile |
 | Active NewGRFs | **15**, exact versions/checksums required |
 | Starting calendar / economy dates | **1830 / 1800** |
 | Train length limit | **7 tiles** |
-| Lifecycle | Scheduled industry opening/closure demonstrated; four original extractive sites in guarded depletion pilot |
+| Lifecycle | 32 conditional regional events; layout-aware recycling siting; unchanged four-mine and one-mill pilots |
 | Readiness | **READY WITH CAVEATS** for controlled testing; not a 195-year certification |
 
-**Start here:** [Current project status](docs/PROJECT_STATUS.md) · [Roadmap](docs/ROADMAP.md) · [Documentation index](docs/DOCUMENTATION_INDEX.md) · [Phase 7B readiness](docs/PHASE_7B_READINESS.md).
+**Start here:** [Current project status](docs/PROJECT_STATUS.md) · [Roadmap](docs/ROADMAP.md) · [Documentation index](docs/DOCUMENTATION_INDEX.md) · [Phase 7D readiness](docs/PHASE_7D_READINESS.md).
 
 ### What has been implemented
 
@@ -24,21 +24,22 @@ A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's 
 - **Phase 6C:** 75 inland retail industries in 61 towns, 542 industries total; FOOD acceptance destinations **13 → 76**, GOOD **12 → 69**. [Readiness](docs/INLAND_MARKETS_READINESS.md) · [coverage](docs/INLAND_MARKET_COVERAGE.md) · [gameplay evidence](docs/INLAND_MARKET_GAMEPLAY_VALIDATION.md).
 - **Phase 7A:** persistent server-side GameScript lifecycle and guarded NewGRF closure mechanism; separate **0.4.0** candidate. [Lifecycle documentation](docs/DOCUMENTATION_INDEX.md).
 - **Phase 7B:** guarded decline, warnings, closure and service-sensitive finite extensions for **four** existing mines (out of 44 extractive sites); separate **0.5.0** candidate. [Readiness](docs/PHASE_7B_READINESS.md) · [safety](docs/PHASE_7B_MIGRATION_AND_SAFETY.md).
-- **Phase 7C:** historical industrial expansion is **planned, not implemented or validated**.
+- **Phase 7C:** **complete with caveats**: ten-event vertical slice, actual paid mill chain and guarded retirement, 36 recorded engine runs. [Readiness](docs/PHASE_7C_READINESS.md).
+- **Phase 7D:** 32-event regional rollout and modern siting implemented; both Rhine and Lille packages constructed in Europe with all originals retained. Lean small-map timeline attempted to 2026 with documented cancellations. **READY WITH CAVEATS**, not full economic certification. [Readiness](docs/PHASE_7D_READINESS.md) · [implementation](docs/PHASE_7D_IMPLEMENTATION.md).
 
-### Run the Phase 7B local candidate
+### Run the Phase 7D local candidate
 
 From the repository root, on the development PC with the locally built assets:
 
 ```powershell
-python scripts/lifecycle_phase7b_launch.py
+python scripts/lifecycle_phase7d_launch.py
 # Scenario Editor inspection:
-python scripts/lifecycle_phase7b_launch.py --editor
+python scripts/lifecycle_phase7d_launch.py --editor
 ```
 
-The launcher verifies the isolated profile's local scenario, NewGRF and GameScript assets. **These binaries are not necessarily in GitHub**; cloning the repository alone is not a complete playable installation. See [Phase 7B readiness](docs/PHASE_7B_READINESS.md), [installation](docs/INSTALLATION.md) and [multiplayer](docs/MULTIPLAYER.md).
+The launcher verifies the isolated profile's local scenario, NewGRF and GameScript assets. **These binaries are not necessarily in GitHub**; cloning the repository alone is not a complete playable installation. Use [Phase 7D readiness](docs/PHASE_7D_READINESS.md) for the current profile. Earlier [installation](docs/INSTALLATION.md) and [multiplayer](docs/MULTIPLAYER.md) guides retain prior packaging context.
 
-**Do not replace the NewGRF in an ongoing save.** Phase 7B's 0.5.0 candidate and GS v2 require an explicit compatible migration; automatic legacy-mine enrollment in old saves is not supported. Preserve earlier 0.3/0.4 scenarios and their GRFs.
+**Do not replace the NewGRF in an ongoing save.** Phase 7D uses a fresh separate scenario with GS v4; old v1–v3 saves are not automatically adopted. Preserve all earlier 0.3/0.4/0.5/0.6 scenarios and their GRFs.
 
 ### What is not yet proven
 
@@ -47,7 +48,7 @@ The launcher verifies the isolated profile's local scenario, NewGRF and GameScri
 - Continent-wide depletion (only four original sites are enrolled).
 - All coastal GOOD and Europe copper export routes.
 - Profitable new-build horse-only freight networks in the tested 1830 cases.
-- Automatic historically accurate industrial expansion across all eras.
+- Economic viability of all 32 regional events and actual paid modern recycling deliveries; some fixture events safely cancelled.
 
 ### Historical geography archive
 

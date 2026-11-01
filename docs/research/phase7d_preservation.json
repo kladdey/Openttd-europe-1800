@@ -1,0 +1,23 @@
+{
+  "initial_towns": 617,
+  "initial_industries": 542,
+  "initial_map_all_planes_identical": true,
+  "initial_CITY_INDY_PATS_PSAC_identical": true,
+  "newgrf_references_identical_to_7c": true,
+  "train_limit": 7,
+  "calendar_start": 1830,
+  "economy_start": 1800,
+  "europe_runtime": {
+    "changed_tiles": 234433,
+    "height_changes": 21,
+    "water_type_changes": 437,
+    "existing_infrastructure_changes": 419
+  },
+  "europe_height_changes_within_16_tiles_of_openings": 0,
+  "europe_water_changes_within_16_tiles_of_openings": 0,
+  "minimum_height_change_distance_from_openings": 1159,
+  "runtime_note": "Simulation updated remote map tiles. Not a claim of a globally frozen runtime map. No terrain/water commands in GS, no height/water changes near placements.",
+  "europe_removed_existing_rail_road_station_bridge_tiles": 0,
+  "source_sha256": "3064ea27afd485a59a3a4c71d30ee8c96d28968ecdf31aa2b056fb537924dbda",
+  "candidate_sha256": "8eb114a0a4b4ea95363b810bfc815c0b30998e254399ff0d0dad8574e8456ec9"
+}
