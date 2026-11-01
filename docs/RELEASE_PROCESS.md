@@ -11,8 +11,9 @@ The main repository can remain public without hosting a bundled game distributio
 
 ## Candidate versioning
 
-- Preserve **V12 (568 towns)** as the last user-approved town-placement baseline.
-- Mark **V13 (613 towns)** as an unvalidated offline candidate.
+- Current development candidate: **Phase 7D**, 617 towns / 542 initial industries, AXIS 0.6.0 with GS v4/schema 4; **READY WITH CAVEATS**. See [readiness](PHASE_7D_READINESS.md) and the [exact local asset manifest](research/phase7d_candidate_delivery.json).
+- Preserve V12/V13 and all Phase 6/7 candidates as historical checkpoints; they are not interchangeable campaign saves.
+- A repository merge publishes source and documentation; it does not publish a playable binary bundle or certify multiplayer readiness. Local scenarios, profiles and third-party assets are not automatically uploaded.
 - Identify the multiplayer `.scn` by exact filename and SHA-256; it may differ from V12/V13 source files.
 - Use an explicit pre-release label until clean-machine and multiplayer tests pass.
 

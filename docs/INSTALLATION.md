@@ -1,19 +1,21 @@
-# Current local installation — Phase 7B (development only)
+# Current local installation — Phase 7D (development only)
 
-The latest tested development profile is **Europe 1830 Historical AXIS 0.5.0 - Legacy Mine Lifecycle**, with **617 towns / 542 starting industries**. It requires **JGRPP 0.73.4**, the **exact 15 active NewGRFs**, the separately built **Historical AXIS 0.5.0 legacy candidate**, and packaged **GameScript v2/policy**. **Do not use the older FIRS-based nine-GRF list below to set up this candidate.**
+The current separate development scenario is **Europe 1830 Historical AXIS 0.6.0 - Phase 7D Progression.scn**, with **617 towns / 542 initial industries**, JGRPP **0.73.4**, unchanged Historical AXIS **0.6.0**, **GS v4/schema 4** and the exact 15 NewGRF references. Calendar/economy start is **1830/1800**, with seven-tile trains. Verdict: **READY WITH CAVEATS**.
 
-On the original development Windows PC, from the repository root:
+On the development Windows PC, from the repository root:
 
 ```powershell
-python scripts/lifecycle_phase7b_launch.py
-python scripts/lifecycle_phase7b_launch.py --editor
+python scripts/lifecycle_phase7d_launch.py --verify-only
+python scripts/lifecycle_phase7d_launch.py
+# Optional Scenario Editor inspection:
+python scripts/lifecycle_phase7d_launch.py --editor
 ```
 
-The isolated launcher validates local assets. The scenario and compiled NewGRF are **local build outputs, not guaranteed to be included in a Git clone**. Exact SHA-256 hashes, paths and requirements are in [Phase 7B readiness](PHASE_7B_READINESS.md) and [delivery manifest](research/phase7b_candidate_delivery.json). Do not manually substitute versions based on similar filenames.
+The launcher validates the isolated assets. The normal scenario is in `C:\Users\Kladd\Documents\OpenTTD\scenario`; its exact filename, hashes and profile are recorded in the [delivery manifest](research/phase7d_candidate_delivery.json) and [readiness report](PHASE_7D_READINESS.md). Use that profile rather than an unrelated normal configuration. The future-year construction fixture is not the campaign start.
 
-**Migration warning:** A 0.3/0.4 save is not automatically a 0.5 lifecycle save. Legacy enrollment on existing campaigns requires a separately reviewed explicit migration; do not replace NewGRFs or scripts in an ongoing game. The normal 7B policy is not the accelerated 1837/1839 test fixture.
+Compiled scenarios, GRFs and local runtime dependencies are not included in a Git clone. Other machines need the exact licensed assets; copying this PC's absolute-path profile is not a portable installer. Verify engine/GRF checksums and package the matching server-side GS/policy before hosting. See [multiplayer](MULTIPLAYER.md), [licensing](LICENSING.md) and [release process](RELEASE_PROCESS.md).
 
-For other machines, obtain licensed upstream assets and verify every exact GRF/script/checksum before hosting; a clone alone is not a ready-to-play package. See [multiplayer](MULTIPLAYER.md) and [licensing](LICENSING.md).
+**Migration:** preserve all earlier candidates and saves. GS v4 rejects v1–v3 save data; no automatic adoption is supported. Do not replace NewGRFs or scripts in an ongoing campaign. Use a fresh separate Phase 7D scenario.
 
 ---
 

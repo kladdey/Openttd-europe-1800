@@ -1,12 +1,19 @@
-# Current multiplayer test protocol — Phase 7B
+# Current multiplayer test protocol — Phase 7D
 
-**Current candidate:** JGRPP **0.73.4**, **617 towns**, **542 starting industries**, Historical AXIS **0.5.0** and packaged GameScript **v2**, exact 15 active NewGRFs. Launch using `python scripts/lifecycle_phase7b_launch.py` and the isolated profile documented in [readiness](PHASE_7B_READINESS.md). This is a **new separate scenario**, not the old Europe 1800/Toni save.
+**Candidate:** JGRPP **0.73.4**, **617 towns / 542 starting industries**, unchanged Historical AXIS **0.6.0**, server-side **GS v4/schema 4**, exact 15 GRFs. Launch using `python scripts/lifecycle_phase7d_launch.py` and the isolated [Phase 7D profile](PHASE_7D_READINESS.md). Calendar/economy starts **1830/1800**; train length remains seven tiles.
 
-**Verified so far:** dedicated-server startup, lifecycle state restoration and notification smoke; earlier Squirrel client connection to a different Europe 1800 scenario. **Not verified:** all three human players connected simultaneously to the Phase 7B lifecycle candidate, shared-service incentives, dumping exploits, closure during reconnect, or full-campaign stability.
+**READY WITH CAVEATS**, not a certified three-human campaign. Phase 7D demonstrated modern construction in Rhine and Lille, limited depot production, a small-map timeline through 2026 and save/reload without duplicate openings. Earlier dedicated-server and client evidence belongs to its recorded earlier candidates; no new three-player session, paid modern recycling chain or full Europe progression certification is claimed.
 
-For the first three-person test: confirm identical engine, GRF and GS checksums; save disposable checkpoints; test normal industry delivery, 5–10-year warning, decline and physical closure using the matching accelerated fixture **only in disposable copies**; restart/reconnect; inspect orphaned infrastructure and competing service. Do not load accelerated fixture saves with the normal policy. Record finance, service counters and exact errors. Do not change NewGRFs in an active campaign.
+## First session: Kladdey, Squirrel and Toni
 
-See [Phase 7B human playtest procedure](PHASE_7B_READINESS.md) and [migration/safety](PHASE_7B_MIGRATION_AND_SAFETY.md).
+1. Verify identical JGRPP and all GRF hashes against the [candidate manifest](research/phase7d_candidate_delivery.json). Host the fresh normal 1830 candidate with the matching GS v4 package; do not use accelerated or future-year fixtures.
+2. Have all three players join separate companies in distinct regions. Record loading time, exact missing-content errors, disconnects and desyncs; redact private addresses in shared logs.
+3. Build modest passenger and valid freight routes. Verify actual production, loading, acceptance and paid revenue; compare infrastructure/vehicle expenses and opportunities under competition. Record annual finances rather than assuming construction proves profitability.
+4. Save a disposable checkpoint, restart the host and reconnect both clients. Confirm towns/industries, company finances and GS ledger persist without duplicate events or unexplained closures.
+5. For lifecycle warnings/retirement and future recycling, use separately labelled disposable fixtures with their matching policies. Verify RCYC deliveries to recovery and junkyard, PLAS to plastics, downstream MNSP acceptance and SCMT/EAF supply. Do not mix fixture saves with the normal policy.
+6. Report dates, filenames/hashes, host/client versions, observed outcomes and relevant logs. Stop and preserve the checkpoint on desync, accidental baseline demolition or migration refusal; do not work around it by changing GRFs in the save.
+
+Modern economic throughput, competing-company effects and all final regional events remain unverified. Consult [Phase 7D evidence limits](PHASE_7D_READINESS.md), [implementation](PHASE_7D_IMPLEMENTATION.md) and retained [mine safety rules](PHASE_7B_MIGRATION_AND_SAFETY.md).
 
 ---
 
