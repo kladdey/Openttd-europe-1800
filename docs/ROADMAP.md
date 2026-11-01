@@ -1,6 +1,6 @@
 # Current roadmap — Historical Europe 1830–2025
 
-Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, unchanged AXIS 0.6.0 plus isolated GS v4. Verdict: **READY WITH CAVEATS**. Older geography checkpoints below remain historical.
+Current separate development candidate: **Phase 7H**, 617 towns / 542 initial industries, unchanged AXIS 0.6.0 plus isolated GS v7/schema 6. Verdict: **READY WITH CAVEATS for controlled testing**. Phase 7D/7E remains the earlier established evidence baseline; older geography checkpoints below remain historical.
 
 ## Completed milestones
 
@@ -10,9 +10,20 @@ Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, 
 - [x] **Phase 7D implementation:** 32-event regional policy, legal layout/house-aware modern siting and GS v4 fresh-candidate isolation. Both Rhine and Lille sequences constructed in Europe, all originals preserved.
 - [x] Lean long-horizon attempt to 2026 with one reload and no duplicate openings; actual cancellations and fixture/final-policy differences recorded rather than hidden.
 
+- [x] **Phase 7E targeted freight validation:** actual paid RCYC/PLAS/MNSP and SCMT legs, native EAF output and physical gameplay reload; no changes to AXIS or normal GS. [Evidence and economics](PHASE_7E_READINESS.md).
+
+- [x] **Phase 7F partial implementation:** separate candidate and eight conditional port events; native Liverpool facility constructed. Paid shipping acceptance criterion remains unmet. [Readiness/blockers](PHASE_7F_READINESS.md).
+
+- [x] **Phase 7G supply-cycle slice:** real neutral Ruhr mine, observed boom/downturn/recovery; unchanged NewGRFs and prior policies. [Readiness](PHASE_7G_READINESS.md).
+
+- [x] **Phase 7G.1 ended-state persistence gate:** native schema-5 reload retained exactly one pilot mine and ended ledger, with no repeated cycle effect. Active-boundary reload remains unverified. [Evidence](PHASE_7G1_PERSISTENCE_READINESS.md).
+
 ## Next priorities
 
-- [ ] Operate and measure RCYC→recovery→PLAS→plastics→MNSP deliveries and the separate SCMT branch. Construction is not proof of revenue.
+- [x] Phase 7G active-boundary reload across downturn/restoration passed in the Phase 7H gate.
+- [ ] Verify Phase 7H active/closing-row reload and normal historical milestones; hauled freight and finances remain untested. [Transformation readiness](PHASE_7H_READINESS.md).
+- [ ] Resolve Phase 7F receiving dock/connected-water and feeder blockers; prove one actual paid maritime leg, then normal-policy save/reload.
+- [ ] Measure sustained profit with appropriately sized downstream fleets; Phase 7E proved delivery, but the two-truck MNSP leg lost money. Test complete steel/slag outlets and fuller EAF inputs separately.
 - [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.
 - [ ] Review conditional/blocked regional events with targeted native site diagnostics. Do not flatten sites or grow towns artificially to force success.
 - [ ] Validate selected future stages as needed; no automatic broad regression campaign or full-Europe economic certification.

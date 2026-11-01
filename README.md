@@ -2,13 +2,13 @@
 
 A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's Patch Pack 0.73.4**, intended for a three-company multiplayer campaign. Development is ongoing: this is **not** a fully validated 1830–2025 release.
 
-## Current playable development baseline (Phase 7D)
+## Current map baseline and development candidates
 
 | Item | Verified development state |
 |---|---|
 | Towns | **617** |
 | Starting industries | **542**, including 75 additional inland markets |
-| Historical AXIS | **0.6.0 unchanged GRF**, separate GS v4 Phase 7D profile |
+| Historical AXIS | **0.6.0 unchanged GRF**; GS v4 baseline; separate v6 cycle and v7 transformation profiles |
 | Active NewGRFs | **15**, exact versions/checksums required |
 | Starting calendar / economy dates | **1830 / 1800** |
 | Train length limit | **7 tiles** |
@@ -27,7 +27,15 @@ A historically inspired, **4096 × 4096 Europe** transport scenario for **JGR's 
 - **Phase 7C:** **complete with caveats**: ten-event vertical slice, actual paid mill chain and guarded retirement, 36 recorded engine runs. [Readiness](docs/PHASE_7C_READINESS.md).
 - **Phase 7D:** 32-event regional rollout and modern siting implemented; both Rhine and Lille packages constructed in Europe with all originals retained. Lean small-map timeline attempted to 2026 with documented cancellations. **READY WITH CAVEATS**, not full economic certification. [Readiness](docs/PHASE_7D_READINESS.md) · [implementation](docs/PHASE_7D_IMPLEMENTATION.md).
 
-### Run the Phase 7D local candidate
+- **Phase 7E:** real Europe paid RCYC→PLAS→MNSP deliveries and RCYC→SCMT→EAF operation verified in disposable modern fixtures. Downstream two-truck MNSP service lost money; sustained profit and multiplayer remain unproven. The playable baseline remains Phase 7D; no GRF/GS changes. [Modern freight readiness](docs/PHASE_7E_READINESS.md).
+
+- **Phase 7F — PARTIAL:** separate GS v5 port candidate, eight conditional Liverpool/Gdańsk events and legal Liverpool port construction. **No paid maritime delivery verified**; station-catchment/approach and feeder blockers remain. Phase 7D/7E remains the established baseline. [Port readiness](docs/PHASE_7F_READINESS.md).
+
+- **Phase 7G — READY WITH CAVEATS for cycle testing:** new GS v6/schema 5 candidate adds one bounded Ruhr boom and downturn without changing AXIS. Actual COAL samples: 210 → 270 → 63 → 135; all original identities retained. Save/reload and paid profitability remain unverified. [Cycle readiness](docs/PHASE_7G_READINESS.md). Launch separately with `python scripts/cycles_phase7g_launch.py`.
+
+- **Phase 7H — READY WITH CAVEATS:** active 7G reload gate passed; new Lancashire textile demand and Silesian coal decline/physical retirement observed. Separate GS v7/schema 6 candidate; all original assets and policies retained. New ended-state reload passed; paid freight and full historical chronology remain unverified. [Transformation readiness](docs/PHASE_7H_READINESS.md). Launch with `python scripts/transformation_phase7h_launch.py`.
+
+### Run the established Phase 7D local candidate
 
 From the repository root, on the development PC with the locally built assets:
 
@@ -39,7 +47,7 @@ python scripts/lifecycle_phase7d_launch.py --editor
 
 The launcher verifies the isolated profile's local scenario, NewGRF and GameScript assets. **These binaries are not necessarily in GitHub**; cloning the repository alone is not a complete playable installation. Use [Phase 7D readiness](docs/PHASE_7D_READINESS.md) for the current profile. Earlier [installation](docs/INSTALLATION.md) and [multiplayer](docs/MULTIPLAYER.md) guides retain prior packaging context.
 
-**Do not replace the NewGRF in an ongoing save.** Phase 7D uses a fresh separate scenario with GS v4; old v1–v3 saves are not automatically adopted. Preserve all earlier 0.3/0.4/0.5/0.6 scenarios and their GRFs.
+**Do not replace the NewGRF in an ongoing save.** Each profile has its own GS/policy contract. Phase 7D uses GS v4; Phase 7G uses GS v6/schema 5 and refuses old running-save schemas/contracts. No automatic migration is provided. Preserve all earlier 0.3/0.4/0.5/0.6 scenarios and their GRFs.
 
 ### What is not yet proven
 
@@ -48,7 +56,7 @@ The launcher verifies the isolated profile's local scenario, NewGRF and GameScri
 - Continent-wide depletion (only four original sites are enrolled).
 - All coastal GOOD and Europe copper export routes.
 - Profitable new-build horse-only freight networks in the tested 1830 cases.
-- Economic viability of all 32 regional events and actual paid modern recycling deliveries; some fixture events safely cancelled.
+- Economic viability of all 32 regional events, sustained modern recycling profit and a fully supplied/served steel economy. Phase 7E proved five paid freight legs; some progression fixture events safely cancelled.
 
 ### Historical geography archive
 

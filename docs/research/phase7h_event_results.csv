@@ -1,0 +1,3 @@
+event_id,region,local_type,industry,normal_open,normal_decline,normal_retire,fixture_industry,fixture_tile,fixture_open_calendar,result,inputs,outputs
+lancashire_textiles,Lancashire,42,textile_mill,1840-01-01,NOT APPLICABLE,NOT APPLICABLE,543,4008858,668425,VERIFIED NATIVE OPENING AND ACCEPTANCE; production unserved,FICR COAT,TEXT GOOD
+silesian_transition,Upper Silesia,0,coal_mine,1975-01-01,1991-01-01,2000-01-01,542,6120173,668401,VERIFIED DECLINE AND PHYSICAL RETIREMENT,ENSP,COAL

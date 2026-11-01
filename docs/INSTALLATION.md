@@ -1,21 +1,28 @@
-# Current local installation — Phase 7D (development only)
+# Current local installation — Phase 7H (development only)
 
-The current separate development scenario is **Europe 1830 Historical AXIS 0.6.0 - Phase 7D Progression.scn**, with **617 towns / 542 initial industries**, JGRPP **0.73.4**, unchanged Historical AXIS **0.6.0**, **GS v4/schema 4** and the exact 15 NewGRF references. Calendar/economy start is **1830/1800**, with seven-tile trains. Verdict: **READY WITH CAVEATS**.
+The latest separate development candidate is **Europe 1830 Historical AXIS 0.6.0 - Phase 7H Industrial Transformation.scn**. It retains **617 towns / 542 initial industries**, JGRPP **0.73.4**, unchanged Historical AXIS **0.6.0**, the exact **15 NewGRFs / 64 cargos**, calendar/economy **1830/1800** and seven-tile trains. Its isolated profile packages **GS v7/schema 6**. Verdict: **READY WITH CAVEATS for controlled playtesting**, not multiplayer certification.
 
 On the development Windows PC, from the repository root:
 
 ```powershell
-python scripts/lifecycle_phase7d_launch.py --verify-only
-python scripts/lifecycle_phase7d_launch.py
+python scripts/transformation_phase7h_launch.py --verify-only
+python scripts/transformation_phase7h_launch.py
 # Optional Scenario Editor inspection:
-python scripts/lifecycle_phase7d_launch.py --editor
+python scripts/transformation_phase7h_launch.py --editor
 ```
 
-The launcher validates the isolated assets. The normal scenario is in `C:\Users\Kladd\Documents\OpenTTD\scenario`; its exact filename, hashes and profile are recorded in the [delivery manifest](research/phase7d_candidate_delivery.json) and [readiness report](PHASE_7D_READINESS.md). Use that profile rather than an unrelated normal configuration. The future-year construction fixture is not the campaign start.
+The scenario is in `C:\Users\Kladd\Documents\OpenTTD\scenario`. SHA-256: `88d7a56e341ba7c2972e634fe3c8ec779e6357e6f2ab09adac2e2746c01aa647`. Use the [manifest-pinned isolated profile](research/phase7h_candidate_delivery.json), not the normal OpenTTD configuration. The [readiness report](PHASE_7H_READINESS.md) separates observed effects from untested milestones. Accelerated fixture saves are not the normal 1830 campaign.
 
-Compiled scenarios, GRFs and local runtime dependencies are not included in a Git clone. Other machines need the exact licensed assets; copying this PC's absolute-path profile is not a portable installer. Verify engine/GRF checksums and package the matching server-side GS/policy before hosting. See [multiplayer](MULTIPLAYER.md), [licensing](LICENSING.md) and [release process](RELEASE_PROCESS.md).
+**Compatibility:** start a fresh separate candidate. GS v7/schema 6 refuses older running-save schemas/contracts; no automatic migration is provided. Do not replace GRFs or scripts in an ongoing save. Earlier candidates remain distinct:
 
-**Migration:** preserve all earlier candidates and saves. GS v4 rejects v1–v3 save data; no automatic adoption is supported. Do not replace NewGRFs or scripts in an ongoing campaign. Use a fresh separate Phase 7D scenario.
+| Candidate | GS / schema | Launcher | Evidence |
+|---|---|---|---|
+| Phase 7D established baseline | v4 / 4 | `lifecycle_phase7d_launch.py` | [Readiness](PHASE_7D_READINESS.md) |
+| Phase 7F ports | v5 / 4 | `ports_phase7f_launch.py` | [PARTIAL; shipping unresolved](PHASE_7F1_MARITIME_CONNECTIVITY.md) |
+| Phase 7G cycles | v6 / 5 | `cycles_phase7g_launch.py` | [Readiness](PHASE_7G_READINESS.md); active reload subsequently passed in 7H |
+| Phase 7H transformations | v7 / 6 | `transformation_phase7h_launch.py` | [Current readiness](PHASE_7H_READINESS.md) |
+
+Compiled scenarios, GRFs and local dependencies are not included in a Git clone. Other machines need the exact licensed assets and matching server-side GS/policy. This PC's absolute-path manifest is not a portable installer. Verify all checksums before hosting. See [multiplayer](MULTIPLAYER.md), [licensing](LICENSING.md) and [release process](RELEASE_PROCESS.md).
 
 ---
 

@@ -1,0 +1,56 @@
+[
+  {
+    "town": "ROTTERDAM",
+    "town_id": "282",
+    "x": 2248,
+    "y": 1208,
+    "nearest_water_manhattan": 35,
+    "water_tiles_within_32": 172,
+    "evidence": "READ-ONLY MAP CALCULATION; water proximity is not sea navigability"
+  },
+  {
+    "town": "LONDON",
+    "town_id": "191",
+    "x": 2724,
+    "y": 1276,
+    "nearest_water_manhattan": 1,
+    "water_tiles_within_32": 154,
+    "evidence": "READ-ONLY MAP CALCULATION; water proximity is not sea navigability"
+  },
+  {
+    "town": "LIVERPOOL",
+    "town_id": "187",
+    "x": 3026,
+    "y": 966,
+    "nearest_water_manhattan": 11,
+    "water_tiles_within_32": 1118,
+    "evidence": "READ-ONLY MAP CALCULATION; water proximity is not sea navigability"
+  },
+  {
+    "town": "HAMBURG",
+    "town_id": "146",
+    "x": 1670,
+    "y": 937,
+    "nearest_water_manhattan": 2,
+    "water_tiles_within_32": 125,
+    "evidence": "READ-ONLY MAP CALCULATION; water proximity is not sea navigability"
+  },
+  {
+    "town": "DANZIG (GDANSK)",
+    "town_id": "100",
+    "x": 767,
+    "y": 811,
+    "nearest_water_manhattan": 1,
+    "water_tiles_within_32": 1221,
+    "evidence": "READ-ONLY MAP CALCULATION; water proximity is not sea navigability"
+  },
+  {
+    "town": "ANTWERPEN",
+    "town_id": "22",
+    "x": 2256,
+    "y": 1324,
+    "nearest_water_manhattan": 33,
+    "water_tiles_within_32": 94,
+    "evidence": "READ-ONLY MAP CALCULATION; water proximity is not sea navigability"
+  }
+]

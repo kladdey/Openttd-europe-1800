@@ -1,0 +1,4 @@
+phase,vehicle,loaded,unloaded,payment,profit_current,profit_last,days,mill_food,evidence,status
+delivery,0,0,0,0,-41,-492,1460,-1,VERIFIED IN GAME,NO PAID DELIVERY OBSERVED
+reload,0,0,0,0,-88,-492,1495,0,VERIFIED IN GAME,NO PAID DELIVERY OBSERVED
+fixed,0,0,0,0,-41,-492,1460,0,VERIFIED IN GAME,NO PAID DELIVERY OBSERVED

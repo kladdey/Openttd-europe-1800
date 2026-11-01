@@ -1,0 +1,386 @@
+{
+  "engine": "JGRPP 0.73.4",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf_sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84",
+  "normal_candidate": "C:\\Users\\Kladd\\Documents\\OpenTTD\\scenario\\Europe 1830 Historical AXIS 0.6.0 - Phase 7D Progression.scn",
+  "normal_candidate_sha256": "8eb114a0a4b4ea95363b810bfc815c0b30998e254399ff0d0dad8574e8456ec9",
+  "normal_assets_unchanged": true,
+  "total_engine_invocations": 6,
+  "completed": 3,
+  "failed": 3,
+  "date_basis": "GSDate log values are ECONOMY dates, not modern calendar dates; fixture starts at Phase7D 1985 calendar snapshot",
+  "money_basis": "Internal GBP, rate 1; sampled increments are not route profit or exact gross receipts",
+  "probe_scope": "Standalone disposable transport probe deliberately replaces the test GS controller and ignores fixture-only saved GS data; does not migrate normal saves or certify GS ledger persistence",
+  "receipts": [
+    {
+      "kind": "capability",
+      "status": "COMPLETED",
+      "error": [],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\capability-1793495331313861300\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=8000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 1.515,
+      "source": {
+        "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "sha256": "18700836d341bae97908b279d497fe4228502b489dad929f2ae04c37356b69ee"
+      },
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\capability-1793495331313861300\\engine.log",
+      "log_sha256": "cb26b9cf698ff4ae3db93d512831c787a2ade02df1fa73674353c680250f750f",
+      "script_sha256": "47115399630c27d2f4e05a0163ed3eba04126654ec7b1cbec051518215a9d117",
+      "max_sampled_monthly_production": {},
+      "selected_capabilities": [
+        {
+          "cargo": "52",
+          "engine": "407",
+          "name": "Prime Carrimor Hopper Truck",
+          "price": "2953",
+          "running": "403",
+          "speed": "88"
+        },
+        {
+          "cargo": "48",
+          "engine": "407",
+          "name": "Prime Carrimor Hopper Truck",
+          "price": "2953",
+          "running": "403",
+          "speed": "88"
+        },
+        {
+          "cargo": "44",
+          "engine": "369",
+          "name": "Witsharp Brooks Box Truck",
+          "price": "2666",
+          "running": "356",
+          "speed": "88"
+        },
+        {
+          "cargo": "38",
+          "engine": "369",
+          "name": "Witsharp Brooks Box Truck",
+          "price": "2666",
+          "running": "356",
+          "speed": "88"
+        }
+      ],
+      "finance_begin": [],
+      "finance_end": [],
+      "observations": [
+        "E_BASE|date=657806|towns=617|industries=551|train=7",
+        "E_CARGO|id=52|label=SCMT",
+        "E_CARGO|id=48|label=RCYC",
+        "E_CARGO|id=46|label=QLME",
+        "E_CARGO|id=44|label=PLAS",
+        "E_CARGO|id=38|label=MNSP",
+        "E_CARGO|id=33|label=MPAR"
+      ]
+    },
+    {
+      "kind": "delivery",
+      "status": "FAILED / stopped after observed fixture error",
+      "error": [
+        "the index 'IsIndustryTile' does not exist"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495387053510100\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": null,
+      "source": {
+        "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "sha256": "18700836d341bae97908b279d497fe4228502b489dad929f2ae04c37356b69ee"
+      },
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495387053510100\\engine.log",
+      "log_sha256": "c694b4e5b0f09a8f6d48341e597c52b91523ddc44c5102d29a43f1999a1f36db",
+      "script_sha256": "8fb6ae4c039361fbfa765518469fda133b93056f8e08c9474a2e700874fa426a",
+      "max_sampled_monthly_production": {},
+      "selected_capabilities": [],
+      "finance_begin": [
+        {
+          "cash": "97700",
+          "loan": "100000"
+        }
+      ],
+      "finance_end": [],
+      "observations": [
+        "E_SELECTED|cargo=48|engine=407|name=Prime Carrimor Hopper Truck|price=2953|running=403",
+        "E_ERROR|the index 'IsIndustryTile' does not exist"
+      ]
+    },
+    {
+      "kind": "delivery",
+      "status": "FAILED / stopped after observed fixture error",
+      "error": [
+        "No articulated-road-vehicle turning loop"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495418181080400\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": null,
+      "source": {
+        "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "sha256": "18700836d341bae97908b279d497fe4228502b489dad929f2ae04c37356b69ee"
+      },
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495418181080400\\engine.log",
+      "log_sha256": "8b8773a7cbba276af9ea880ff85597734e15d8d24582404973e0fc251a7ad888",
+      "script_sha256": "53e0de5aa81220db559dca4ed17fe6df633a4d9d9e6bbb4c62939335c5eca232",
+      "max_sampled_monthly_production": {},
+      "selected_capabilities": [],
+      "finance_begin": [
+        {
+          "cash": "97700",
+          "loan": "100000"
+        }
+      ],
+      "finance_end": [],
+      "observations": [
+        "E_SELECTED|cargo=48|engine=407|name=Prime Carrimor Hopper Truck|price=2953|running=403",
+        "E_VEHICLE|tag=RCYC_547_549|id=0|engine=407|capacity=32",
+        "E_VEHICLE|tag=RCYC_547_549|id=1|engine=407|capacity=32",
+        "E_ROUTE|tag=RCYC_547_549|origin=547|destination=549|a=5810529|b=5863794|station_a=16|station_b=17|capital_cash_delta=15940|acceptance=48",
+        "E_SELECTED|cargo=44|engine=369|name=Witsharp Brooks Box Truck|price=2666|running=356",
+        "E_VEHICLE|tag=PLAS_549_550|id=3|engine=369|capacity=32",
+        "E_VEHICLE|tag=PLAS_549_550|id=6|engine=369|capacity=32",
+        "E_ROUTE|tag=PLAS_549_550|origin=549|destination=550|a=5867888|b=5798250|station_a=18|station_b=19|capital_cash_delta=12516|acceptance=72",
+        "E_SELECTED|cargo=38|engine=369|name=Witsharp Brooks Box Truck|price=2666|running=356",
+        "E_ERROR|No articulated-road-vehicle turning loop"
+      ]
+    },
+    {
+      "kind": "delivery",
+      "status": "FAILED / stopped after observed fixture error",
+      "error": [
+        "Loop commit failed: ERR_VEHICLE_IN_THE_WAY"
+      ],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495463150657400\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": null,
+      "source": {
+        "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "sha256": "18700836d341bae97908b279d497fe4228502b489dad929f2ae04c37356b69ee"
+      },
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495463150657400\\engine.log",
+      "log_sha256": "aaed9e949e499da6eff719573813db2baac7d9c46c9fccfa5434ae09b3d6b0db",
+      "script_sha256": "6790681e9ac84cd67692a1b4a76817694ca4679eac2a44513ffce51b5d11b433",
+      "max_sampled_monthly_production": {},
+      "selected_capabilities": [],
+      "finance_begin": [
+        {
+          "cash": "97700",
+          "loan": "100000"
+        }
+      ],
+      "finance_end": [],
+      "observations": [
+        "E_SELECTED|cargo=48|engine=407|name=Prime Carrimor Hopper Truck|price=2953|running=403",
+        "E_VEHICLE|tag=RCYC_547_549|id=0|engine=407|capacity=32",
+        "E_VEHICLE|tag=RCYC_547_549|id=1|engine=407|capacity=32",
+        "E_ROUTE|tag=RCYC_547_549|origin=547|destination=549|a=5810529|b=5863794|station_a=16|station_b=17|capital_cash_delta=15940|acceptance=48",
+        "E_SELECTED|cargo=44|engine=369|name=Witsharp Brooks Box Truck|price=2666|running=356",
+        "E_VEHICLE|tag=PLAS_549_550|id=3|engine=369|capacity=32",
+        "E_VEHICLE|tag=PLAS_549_550|id=5|engine=369|capacity=32",
+        "E_ROUTE|tag=PLAS_549_550|origin=549|destination=550|a=5867888|b=5798250|station_a=18|station_b=19|capital_cash_delta=12518|acceptance=72",
+        "E_SELECTED|cargo=38|engine=369|name=Witsharp Brooks Box Truck|price=2666|running=356",
+        "E_ERROR|Loop commit failed: ERR_VEHICLE_IN_THE_WAY"
+      ]
+    },
+    {
+      "kind": "delivery",
+      "status": "COMPLETED",
+      "error": [],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495487830549100\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 36.468,
+      "source": {
+        "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\Europe-modern-and-food-1793493422419793500\\save\\autosave\\exit.sav",
+        "sha256": "18700836d341bae97908b279d497fe4228502b489dad929f2ae04c37356b69ee"
+      },
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495487830549100\\engine.log",
+      "log_sha256": "47bd69d99f5664680ae01d4ad1965fe7223247144ba762e9a2580b631b5d43e5",
+      "script_sha256": "39393c49f69aed2daf21848986611309bf65ed759d33e2ba82b7198e58a943b9",
+      "max_sampled_monthly_production": {
+        "547:RCYC": 272,
+        "548:SCMT": 12,
+        "549:PLAS": 12,
+        "550:MNSP": 7,
+        "546:FOOD": 0
+      },
+      "selected_capabilities": [],
+      "finance_begin": [
+        {
+          "cash": "97700",
+          "loan": "100000"
+        }
+      ],
+      "finance_end": [
+        {
+          "cash": "52752",
+          "loan": "100000",
+          "days": "366"
+        }
+      ],
+      "observations": [
+        "E_SELECTED|cargo=48|engine=407|name=Prime Carrimor Hopper Truck|price=2953|running=403",
+        "E_VEHICLE|tag=RCYC_547_549|id=0|engine=407|capacity=32",
+        "E_VEHICLE|tag=RCYC_547_549|id=1|engine=407|capacity=32",
+        "E_ROUTE|tag=RCYC_547_549|origin=547|destination=549|a=5810529|b=5863794|station_a=16|station_b=17|capital_cash_delta=15940|acceptance=48",
+        "E_SELECTED|cargo=44|engine=369|name=Witsharp Brooks Box Truck|price=2666|running=356",
+        "E_VEHICLE|tag=PLAS_549_550|id=2|engine=369|capacity=32",
+        "E_VEHICLE|tag=PLAS_549_550|id=3|engine=369|capacity=32",
+        "E_ROUTE|tag=PLAS_549_550|origin=549|destination=550|a=5867888|b=5798250|station_a=18|station_b=19|capital_cash_delta=12515|acceptance=72",
+        "E_SELECTED|cargo=38|engine=369|name=Witsharp Brooks Box Truck|price=2666|running=356",
+        "E_VEHICLE|tag=MNSP_550_546|id=4|engine=369|capacity=32",
+        "E_VEHICLE|tag=MNSP_550_546|id=5|engine=369|capacity=32",
+        "E_ROUTE|tag=MNSP_550_546|origin=550|destination=546|a=5802343|b=5880168|station_a=20|station_b=21|capital_cash_delta=11143|acceptance=96",
+        "E_SELECTED|cargo=48|engine=407|name=Prime Carrimor Hopper Truck|price=2953|running=403",
+        "E_VEHICLE|tag=RCYC_547_548|id=6|engine=407|capacity=32",
+        "E_VEHICLE|tag=RCYC_547_548|id=7|engine=407|capacity=32",
+        "E_ROUTE|tag=RCYC_547_548|origin=547|destination=548|a=5810529|b=5765468|station_a=16|station_b=22|capital_cash_delta=9967|acceptance=56",
+        "E_LOADED|tag=RCYC_547_548|vehicle=6|load=5|date=657852",
+        "E_PAID|tag=RCYC_547_548|vehicle=7|delta=8|before_load=0|after_load=0|distance=0|date=657867",
+        "E_LOADED|tag=RCYC_547_549|vehicle=0|load=5|date=657872",
+        "E_PAID|tag=RCYC_547_549|vehicle=0|delta=480|before_load=0|after_load=0|distance=0|date=657892",
+        "E_LOADED|tag=PLAS_549_550|vehicle=2|load=5|date=657920",
+        "E_PAID|tag=PLAS_549_550|vehicle=2|delta=123|before_load=0|after_load=0|distance=0|date=657933",
+        "E_LOADED|tag=MNSP_550_546|vehicle=4|load=4|date=657968",
+        "E_PAID|tag=MNSP_550_546|vehicle=4|delta=52|before_load=0|after_load=0|distance=0|date=657986",
+        "E_RESULT|tag=RCYC_547_549|loaded=true|unloaded=true|paid=true|peak=32|positive_income_samples=7829|current_plus_last_year_vehicle_profit=6963",
+        "E_RESULT|tag=PLAS_549_550|loaded=true|unloaded=true|paid=true|peak=8|positive_income_samples=893|current_plus_last_year_vehicle_profit=128",
+        "E_RESULT|tag=MNSP_550_546|loaded=true|unloaded=true|paid=true|peak=5|positive_income_samples=170|current_plus_last_year_vehicle_profit=-648",
+        "E_RESULT|tag=RCYC_547_548|loaded=true|unloaded=true|paid=true|peak=32|positive_income_samples=3200|current_plus_last_year_vehicle_profit=2245",
+        "E_DELIVERY_DONE"
+      ]
+    },
+    {
+      "kind": "secondary",
+      "status": "COMPLETED",
+      "error": [],
+      "command": [
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+        "-X",
+        "-x",
+        "-c",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\secondary-1793495571028494800\\test.cfg",
+        "-g",
+        "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495487830549100\\save\\autosave\\exit.sav",
+        "-v",
+        "null:ticks=180000",
+        "-s",
+        "null",
+        "-m",
+        "null",
+        "-d",
+        "script=4"
+      ],
+      "seconds": 35.422,
+      "source": {
+        "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\delivery-1793495487830549100\\save\\autosave\\exit.sav",
+        "sha256": "206b1026b7c586948aabc5ccc8b7233d3fb03d53d825691aa27e872bbe1ede7c"
+      },
+      "raw_log": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-progression\\.work\\runtime\\phase7e\\secondary-1793495571028494800\\engine.log",
+      "log_sha256": "6d327c8f69828f09e44566df5e765a2b2c9d227455b775883bba75e45f1a0b17",
+      "script_sha256": "a7964d66f2f56401eb619e85753cfbb3890ff598ed7a215729f0ac55980cf997",
+      "max_sampled_monthly_production": {
+        "548:SCMT": 12,
+        "551:STEL": 6,
+        "551:SLAG": 2
+      },
+      "selected_capabilities": [],
+      "finance_begin": [
+        {
+          "cash": "52750",
+          "loan": "100000"
+        }
+      ],
+      "finance_end": [
+        {
+          "cash": "36171",
+          "loan": "100000",
+          "days": "366"
+        }
+      ],
+      "observations": [
+        "E_EAF_BUILT|id=551|tile=5925256|attempts=1",
+        "E_RELOAD|towns=617|industry_count=552|original_vehicle0=true",
+        "E_SELECTED|cargo=52|engine=407|name=Prime Carrimor Hopper Truck|price=2953|running=403",
+        "E_VEHICLE|tag=SCMT_548_551|id=96|engine=407|capacity=32",
+        "E_VEHICLE|tag=SCMT_548_551|id=28|engine=407|capacity=32",
+        "E_ROUTE|tag=SCMT_548_551|origin=548|destination=551|a=5761372|b=5921160|station_a=23|station_b=24|capital_cash_delta=24043|acceptance=96",
+        "E_LOADED|tag=SCMT_548_551|vehicle=96|load=5|date=658237",
+        "E_PAID|tag=SCMT_548_551|vehicle=28|delta=88|before_load=0|after_load=0|distance=0|date=658272",
+        "E_RESULT|tag=SCMT_548_551|loaded=true|unloaded=true|paid=true|peak=13|positive_income_samples=1775|current_plus_last_year_vehicle_profit=854",
+        "E_DELIVERY_DONE"
+      ]
+    }
+  ]
+}
