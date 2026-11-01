@@ -1,0 +1,905 @@
+{
+  "matrix_sha256": "24575bc6bbf36c082e0fbfc7e940794390c153d1a86b47f8e52df66bed19ec7c",
+  "registered_models": 96,
+  "cargo_labels": [
+    {
+      "slot": 0,
+      "id": "passengers",
+      "cargo_label": "PASS"
+    },
+    {
+      "slot": 1,
+      "id": "acid",
+      "cargo_label": "ACID"
+    },
+    {
+      "slot": 2,
+      "id": "mail",
+      "cargo_label": "MAIL"
+    },
+    {
+      "slot": 3,
+      "id": "alcohol",
+      "cargo_label": "BEER"
+    },
+    {
+      "slot": 4,
+      "id": "aluminium",
+      "cargo_label": "ALUM"
+    },
+    {
+      "slot": 5,
+      "id": "goods",
+      "cargo_label": "GOOD"
+    },
+    {
+      "slot": 6,
+      "id": "bauxite",
+      "cargo_label": "AORE"
+    },
+    {
+      "slot": 7,
+      "id": "biomass",
+      "cargo_label": "BIOM"
+    },
+    {
+      "slot": 8,
+      "id": "building_materials",
+      "cargo_label": "BDMT"
+    },
+    {
+      "slot": 9,
+      "id": "cement",
+      "cargo_label": "CMNT"
+    },
+    {
+      "slot": 10,
+      "id": "chemicals",
+      "cargo_label": "RFPR"
+    },
+    {
+      "slot": 11,
+      "id": "food",
+      "cargo_label": "FOOD"
+    },
+    {
+      "slot": 12,
+      "id": "chlorine",
+      "cargo_label": "CHLO"
+    },
+    {
+      "slot": 13,
+      "id": "clay",
+      "cargo_label": "CLAY"
+    },
+    {
+      "slot": 14,
+      "id": "coal",
+      "cargo_label": "COAL"
+    },
+    {
+      "slot": 15,
+      "id": "coal_tar",
+      "cargo_label": "CTAR"
+    },
+    {
+      "slot": 16,
+      "id": "coke",
+      "cargo_label": "COKE"
+    },
+    {
+      "slot": 17,
+      "id": "copper",
+      "cargo_label": "COPR"
+    },
+    {
+      "slot": 18,
+      "id": "copper_ore",
+      "cargo_label": "CORE"
+    },
+    {
+      "slot": 19,
+      "id": "edible_oil",
+      "cargo_label": "EOIL"
+    },
+    {
+      "slot": 20,
+      "id": "electrical_parts",
+      "cargo_label": "POWR"
+    },
+    {
+      "slot": 21,
+      "id": "engineering_supplies",
+      "cargo_label": "ENSP"
+    },
+    {
+      "slot": 22,
+      "id": "explosives",
+      "cargo_label": "BOOM"
+    },
+    {
+      "slot": 23,
+      "id": "farm_supplies",
+      "cargo_label": "FMSP"
+    },
+    {
+      "slot": 24,
+      "id": "fertiliser",
+      "cargo_label": "FERT"
+    },
+    {
+      "slot": 25,
+      "id": "fish",
+      "cargo_label": "FISH"
+    },
+    {
+      "slot": 26,
+      "id": "fruits",
+      "cargo_label": "FRUT"
+    },
+    {
+      "slot": 27,
+      "id": "glass",
+      "cargo_label": "GLAS"
+    },
+    {
+      "slot": 28,
+      "id": "grain",
+      "cargo_label": "GRAI"
+    },
+    {
+      "slot": 29,
+      "id": "iron_ore",
+      "cargo_label": "IORE"
+    },
+    {
+      "slot": 30,
+      "id": "limestone",
+      "cargo_label": "LIME"
+    },
+    {
+      "slot": 31,
+      "id": "livestock",
+      "cargo_label": "LVST"
+    },
+    {
+      "slot": 32,
+      "id": "logs",
+      "cargo_label": "WOOD"
+    },
+    {
+      "slot": 33,
+      "id": "metal_parts",
+      "cargo_label": "MPAR"
+    },
+    {
+      "slot": 34,
+      "id": "milk",
+      "cargo_label": "MILK"
+    },
+    {
+      "slot": 35,
+      "id": "nitrates",
+      "cargo_label": "NITR"
+    },
+    {
+      "slot": 36,
+      "id": "oil",
+      "cargo_label": "OIL_"
+    },
+    {
+      "slot": 37,
+      "id": "oil_seeds",
+      "cargo_label": "OLSD"
+    },
+    {
+      "slot": 38,
+      "id": "packaging",
+      "cargo_label": "MNSP"
+    },
+    {
+      "slot": 39,
+      "id": "paints_and_coatings",
+      "cargo_label": "COAT"
+    },
+    {
+      "slot": 40,
+      "id": "paper",
+      "cargo_label": "PAPR"
+    },
+    {
+      "slot": 41,
+      "id": "petrol",
+      "cargo_label": "PETR"
+    },
+    {
+      "slot": 42,
+      "id": "pig_iron",
+      "cargo_label": "IRON"
+    },
+    {
+      "slot": 43,
+      "id": "plant_fibres",
+      "cargo_label": "FICR"
+    },
+    {
+      "slot": 44,
+      "id": "plastics",
+      "cargo_label": "PLAS"
+    },
+    {
+      "slot": 45,
+      "id": "pyrite_ore",
+      "cargo_label": "PORE"
+    },
+    {
+      "slot": 46,
+      "id": "quicklime",
+      "cargo_label": "QLME"
+    },
+    {
+      "slot": 47,
+      "id": "rare_metals",
+      "cargo_label": "RAMT"
+    },
+    {
+      "slot": 48,
+      "id": "recyclables",
+      "cargo_label": "RCYC"
+    },
+    {
+      "slot": 49,
+      "id": "rubber",
+      "cargo_label": "RUBR"
+    },
+    {
+      "slot": 50,
+      "id": "salt",
+      "cargo_label": "SALT"
+    },
+    {
+      "slot": 51,
+      "id": "sand",
+      "cargo_label": "SAND"
+    },
+    {
+      "slot": 52,
+      "id": "scrap_metal",
+      "cargo_label": "SCMT"
+    },
+    {
+      "slot": 53,
+      "id": "slag",
+      "cargo_label": "SLAG"
+    },
+    {
+      "slot": 54,
+      "id": "soda_ash",
+      "cargo_label": "SASH"
+    },
+    {
+      "slot": 55,
+      "id": "steel",
+      "cargo_label": "STEL"
+    },
+    {
+      "slot": 56,
+      "id": "sugar_beet",
+      "cargo_label": "SGBT"
+    },
+    {
+      "slot": 57,
+      "id": "sulphur",
+      "cargo_label": "SULP"
+    },
+    {
+      "slot": 58,
+      "id": "textiles",
+      "cargo_label": "TEXT"
+    },
+    {
+      "slot": 59,
+      "id": "tyres",
+      "cargo_label": "TYRE"
+    },
+    {
+      "slot": 60,
+      "id": "lumber",
+      "cargo_label": "WDPR"
+    },
+    {
+      "slot": 61,
+      "id": "vehicle_parts",
+      "cargo_label": "VPTS"
+    },
+    {
+      "slot": 62,
+      "id": "vehicles",
+      "cargo_label": "VEHI"
+    },
+    {
+      "slot": 63,
+      "id": "zinc",
+      "cargo_label": "ZINC"
+    }
+  ],
+  "models": [
+    {
+      "local_id": 0,
+      "file": "src/industries/coal_mine.py",
+      "sha256": "062449699d677f88c149be673d2570c8857b21baf47f9995a2c5a4ee4abfc781",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 2,
+      "file": "src/industries/steel_mill.py",
+      "sha256": "66692bca32e9b832c997947bed73a266aa3f4bdf4fa21b9536ac765247df02d2",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 4,
+      "file": "src/industries/iron_ore_mine.py",
+      "sha256": "e95160b79a6402db525c02215e4ae35a05ac564ad28dd0260d66f170147fb8b6",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 5,
+      "file": "src/industries/peatlands.py",
+      "sha256": "3dc24df123f66a4e940aee969405ad7e389ed6697eebb0f23790bf5f282c5f7e",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 7,
+      "file": "src/industries/blast_furnace.py",
+      "sha256": "f583fdf96dfafc4f1d72a2ea36b6faeb6cc4da85a4a8f9a00dcb8ce0362c4adc",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 8,
+      "file": "src/industries/aluminium_plant.py",
+      "sha256": "b85aeab70ebcb7b200e4df3601c5da11d53e1be61f021990ae2093a07b470b53",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 9,
+      "file": "src/industries/metal_workshop.py",
+      "sha256": "0869d684ed44390834f7246d7c14254f27cf11be700b24b300add14a5941ad42",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 10,
+      "file": "src/industries/quarry.py",
+      "sha256": "e3624811d1225ef9652cda94af7719cbe2ef5fc1087c2326a7583f693494278f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 11,
+      "file": "src/industries/forest.py",
+      "sha256": "bd30c17fa3a0495d7d42f25478d84a4f4fa8620183819d2789750a9e38a0ee97",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 12,
+      "file": "src/industries/sawmill.py",
+      "sha256": "3d6891cc48e842bf3809c315195b15efa6826b02e986056bcfd26c83f648ff00",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 13,
+      "file": "src/industries/furniture_factory.py",
+      "sha256": "7c8dc2d034f91af28b044ad16d6a89a7d3f21125da8c70dda3a30e62642a5a1f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 15,
+      "file": "src/industries/oil_wells.py",
+      "sha256": "a393fdf5e31727d5c003effed2c1a21171439bd0b673f71c963413bd740eeea7",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 16,
+      "file": "src/industries/oil_rig.py",
+      "sha256": "8ee264a53817081fc488f7791aa7ce223d3027e4671abb50ce87a29a9182b47c",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 17,
+      "file": "src/industries/oil_refinery.py",
+      "sha256": "1e29f81a19b8c6e3139e1eb444d81ce092a8209ff99f698adda8909fa811c032",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 18,
+      "file": "src/industries/plastics_plant.py",
+      "sha256": "7530b1a6f1b6cc6d18a3212c5450cc22c537ae0dd4cb983c17ecfcf280e266cf",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 19,
+      "file": "src/industries/fish_farm.py",
+      "sha256": "7efaae9d0331fca01b0481535541ebc5869bd83655249506c12da2fae67c29f3",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 20,
+      "file": "src/industries/dredging_site.py",
+      "sha256": "c3746e4c476a8c261f5feba8d80c8b0eb2a36f818db179a07e60d4efd354256f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 21,
+      "file": "src/industries/iron_works.py",
+      "sha256": "3f29ed7f0a5dc8d84c84c0a21a6aadc5f68c1e8300f63fddd011564d6357ccde",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 22,
+      "file": "src/industries/glass_works.py",
+      "sha256": "c7f992de3e0330da4f21f53db1e1ee337a200ef2eef364982278064b87a9424f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 23,
+      "file": "src/industries/recycling_plant.py",
+      "sha256": "f0dd32cec81c6a57e409dbd9cab7e9e605b5bfa1f5159c5a87e1c8d2193de6ba",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 24,
+      "file": "src/industries/recycling_depot.py",
+      "sha256": "a1d1db10bb5c359b6016e2a40ecb1e7e38f0e1d1bdd89f3cad7d83e0a6fcef8d",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 25,
+      "file": "src/industries/junk_yard.py",
+      "sha256": "cba9df5fd01aa8ab61a14f6c45c22522448abb975a21b312c9b218ddd0a36b89",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 26,
+      "file": "src/industries/arable_farm.py",
+      "sha256": "9900bfc17c33e34178a197e775bee8211c7ef1554b4022a5ec9c2f33c3acb193",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 27,
+      "file": "src/industries/sheep_farm.py",
+      "sha256": "d3cea7add5346bc8ab3808f659ca4855fca304d33a19830933d65031ad386687",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 28,
+      "file": "src/industries/dairy_farm.py",
+      "sha256": "66f0c393c0efb81f9cfdb9ee066fa904eb1e73d657c8e1e0c3bd041d4a01554b",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 29,
+      "file": "src/industries/farm.py",
+      "sha256": "404d20351e0844e6ecacdad2feaf24aeec946b40455ccdeb7ac226d010514f94",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 30,
+      "file": "src/industries/fruit_plantation.py",
+      "sha256": "a3db73b21f1f66935b26a49c5ef213619fe3fa68bb3b3da6895c5fd3059aa0f2",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 32,
+      "file": "src/industries/fishing_grounds.py",
+      "sha256": "29da08a3f694fc54bd3dd21ec9ed6fe60ef026792a010bd153da1d531f7bf177",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 33,
+      "file": "src/industries/vehicle_distributor.py",
+      "sha256": "4d434ace288627b97b0a737f8f4100231a06f5a5ab906b57cb0d267055b78539",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 34,
+      "file": "src/industries/flour_mill.py",
+      "sha256": "aa3d2fa93a50cc41e76725d93a433411d177d96fd76ad870c1e511f41af9dc7d",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 35,
+      "file": "src/industries/brewery.py",
+      "sha256": "8fa5d9da6be095e7e569187f1960e859508ec7cef3d0ee553f91742dc87b3acb",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 36,
+      "file": "src/industries/dairy.py",
+      "sha256": "6debf091e0ee396628f17d6791a300e5c875ec95cf313fb09c7da4939e110b24",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 37,
+      "file": "src/industries/stockyard.py",
+      "sha256": "cb9c8ed5a3c8373432667dee8a287a48f3925eab1630c7942d7bd7d2709638e7",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 38,
+      "file": "src/industries/machine_shop.py",
+      "sha256": "a2254fdffb212a5e5d6bdc773f68bca68762e4a75f3a87ff4b739e775a91e78c",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 39,
+      "file": "src/industries/port.py",
+      "sha256": "7e250754d5a715a5c6a08b25147d6911bfa59ab9878839d8d397920f8f37f9f1",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 40,
+      "file": "src/industries/ammonia_plant.py",
+      "sha256": "a36bfe6d101e5c13dc1aabfc225c2c1362aab46660776bbb0efbe6c3e7565382",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 41,
+      "file": "src/industries/lumber_yard.py",
+      "sha256": "f2a2fbd5974782212e7a8af95d5ace8f9829d2aba4f27970bba6d5b5daa081b1",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 42,
+      "file": "src/industries/textile_mill.py",
+      "sha256": "6bb52d9064193a7e054c40d865b4f664d378a08df6442732eab31d1d0af2d7ef",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 43,
+      "file": "src/industries/vineyard.py",
+      "sha256": "8296ec08a8b6f2892f12bd25f6217d307a94f7f3ddd004ee62d87fcb2c46e337",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 44,
+      "file": "src/industries/clay_pit.py",
+      "sha256": "9c489314f7cd9deec1ce25e9994a7e1b25adc81bfcf4f8b4dcb01280774fee03",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 45,
+      "file": "src/industries/brick_works.py",
+      "sha256": "10a2eb6ab8df8c8f0d4c21ee0b000b2d580f685bbc85914587d5c983eac7a7ab",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 46,
+      "file": "src/industries/wharf.py",
+      "sha256": "35f4d02efce783c4c4f908e2e9f47e8001a796d2c0a8b8c4eae32014576de133",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 47,
+      "file": "src/industries/orchard_piggery.py",
+      "sha256": "6ad079a957de2aba3d6a7c116e121fe48e2b8bbc6be1f67cf8233b6ace08ebc2",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 48,
+      "file": "src/industries/ranch.py",
+      "sha256": "83a61db99d28d25ef175fed7456bf59bd37889b499d54fbdddacc94a329817bb",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 51,
+      "file": "src/industries/bulk_terminal.py",
+      "sha256": "d15e9d45c6988946a8a750ea1c99d8c8ced4e22e8f60db0ce7e21131de03739e",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 52,
+      "file": "src/industries/trading_post.py",
+      "sha256": "a3568a7f5ec6eb4c2ff56ef090aac501b1e364b227cdedb6f64d04e950f3ac80",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 53,
+      "file": "src/industries/rubber_plantation.py",
+      "sha256": "c75b771c7cba5736f29e7231223a2fd9d47a7785eaf2e28e3140d101152b4c5b",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 54,
+      "file": "src/industries/limestone_mine.py",
+      "sha256": "a45c2593a154ac4aba3e85a17751c19b7b46bedd26ffeeb4c8b4dad64bafe1b4",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 56,
+      "file": "src/industries/food_processor.py",
+      "sha256": "f43676b3db4539049f54c93108a9a32a7b3a42c2041f3570d8086bb0a8839bac",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 57,
+      "file": "src/industries/hardware_store.py",
+      "sha256": "0d0a700f1c3610e5deb0c314ff4cdeabf9f71f72456f66bf032d167c9cc2a8fa",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 59,
+      "file": "src/industries/food_market.py",
+      "sha256": "32fbd7b4fa1c937565e159737ec8e2d25d60a0037167abc9170f1cdca8c3c756",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 60,
+      "file": "src/industries/petrol_pump.py",
+      "sha256": "fe6479adb4ba5e2bc15b6c864925f583c09788affcf883295c050c7eab284132",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 61,
+      "file": "src/industries/general_store.py",
+      "sha256": "b98eed0d966ea3076ab7434fc721053f073287f2ac4e1260b3437337f0083701",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 62,
+      "file": "src/industries/assembly_plant.py",
+      "sha256": "4b939289451e48edee51ba8c66e360851408eee09e6bbb7985c0fdee12e227c2",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 64,
+      "file": "src/industries/copper_mine.py",
+      "sha256": "6ba397286b6fb1ea90d4d3bca830344e3065b42b023ec614bd039bb8c6730b8b",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 65,
+      "file": "src/industries/nitrate_mine.py",
+      "sha256": "afa01024c0d9875a614b4809b7d1afdef2177f8a7932634070eb9b0358ef6ad7",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 66,
+      "file": "src/industries/power_plant.py",
+      "sha256": "39ff328b3fe312c5e0287715eab5920a0f8edfd2cb90b99ab80faca2aaaaa964",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 67,
+      "file": "src/industries/copper_refinery.py",
+      "sha256": "9d56083e1552867b9a82f9ca39421ee8df37cca6fd4f20d280f45f52ba6b7541",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 68,
+      "file": "src/industries/cement_plant.py",
+      "sha256": "7cff6904db94dcfee9587f4791d40821f3435755d1db6caea26b8d4a2a2ed676",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 69,
+      "file": "src/industries/supply_yard.py",
+      "sha256": "91782bfd10af42a2dd64c2f3632eb4f55ed691cd49a8946a91de86b3632d84dc",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 70,
+      "file": "src/industries/tyre_plant.py",
+      "sha256": "e6bcfb14ae9e3efe58ba27f0857a5db175a86119d23bf414f150fe2e9351074a",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 71,
+      "file": "src/industries/pyrite_mine.py",
+      "sha256": "378adb4fe9fc2996d58051d63e60fd4e37812f949926cd635923ae8f5b795de6",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 72,
+      "file": "src/industries/pyrite_smelter.py",
+      "sha256": "a8e158f0942a64e15d478d3e1bccf3ac3c403e7c1aef6c6e6676580f2ea66cc0",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 73,
+      "file": "src/industries/paper_mill.py",
+      "sha256": "0eb00bb84598b4bcba8072f4ff3708e58299e2220a18df4ee84f47aa3bd79f18",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 74,
+      "file": "src/industries/liquids_terminal.py",
+      "sha256": "9dc5625a2e0827cf18721076214892e448946983b1bb5f09df965ef710ba541f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 77,
+      "file": "src/industries/basic_oxygen_furnace.py",
+      "sha256": "57f65f6cfaa00d4027de6aab062150f94f8d168e6fa3e8231521f5cae48650a3",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 78,
+      "file": "src/industries/coke_oven.py",
+      "sha256": "f08140c9689516fee08e4ceeccacf127fd303419e4448ba18e25404d7f6a065b",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 79,
+      "file": "src/industries/electric_arc_furnace.py",
+      "sha256": "e0ced731bde9c3d258f1eacfef20ce140199f8a2abaa5b163568f0ffdd09f966",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 80,
+      "file": "src/industries/slag_grinding_plant.py",
+      "sha256": "2ef6d08668c4f746a4b6106f329e024aab63d6dd1327f15f39d3e88a4f3ca591",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 82,
+      "file": "src/industries/biorefinery.py",
+      "sha256": "95a88c21e8cff86a2d7f52e2a976eaabba9ab7337a2f8ef449592e5e0463133c",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 83,
+      "file": "src/industries/electrical_works.py",
+      "sha256": "689a02ac09d72c1c2596d3e2be70678c1e355585acc4323aa13137bfd0d81cfd",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 86,
+      "file": "src/industries/soda_ash_mine.py",
+      "sha256": "900268f851cc2caed21a132d181483e703ab62ea706342ca4d8178f941384839",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 87,
+      "file": "src/industries/chlor_alkali_plant.py",
+      "sha256": "2c645ead7790a8c036edf107cb73a34c72e2cb48d5cba8fc5c161a22c8636718",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 88,
+      "file": "src/industries/component_factory.py",
+      "sha256": "c3aa430e6bfef88f7d850bf2eff7579650500fa602791f00961b99f7d8dc9b63",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 90,
+      "file": "src/industries/fishing_harbour.py",
+      "sha256": "47a99ae0a519d59539b6e618a517c03b0b8c388680c3cc8e8f1631771b0881cb",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 92,
+      "file": "src/industries/fischer_tropsch_plant.py",
+      "sha256": "165da7d554e39c41e3e8c85b67a1b77b09b55f177ae354c94c78dc07258e3e0c",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 93,
+      "file": "src/industries/printing_plant.py",
+      "sha256": "7af78f41b2214b2eb970a4afd2f13f3a25f822818256f8f0c0444d439aedbb4b",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 99,
+      "file": "src/industries/lime_kiln.py",
+      "sha256": "b6c461f77b22fcf411c9d9830b300b85fb7b4fa4c2707bed52532f9309aca77d",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 100,
+      "file": "src/industries/appliance_factory.py",
+      "sha256": "2467346d434d59eff67fa9ea319fe6f2bae3c5124a3fca8b094ec51eebd42ec3",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 102,
+      "file": "src/industries/paint_factory.py",
+      "sha256": "03c8a1482333c502bbd91eb95da0ed0157dc686c8b8e48f28422af1a61e55551",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 103,
+      "file": "src/industries/sheet_and_pipe_mill.py",
+      "sha256": "6e6b0cd94240ded9ab57a5122123f9a34f114d6eadd51198b912b3a566c252f6",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 104,
+      "file": "src/industries/solvay_plant.py",
+      "sha256": "7bae8ec433e42b5fb15785bd32421f5546cbb440cb72107142b1c99e4454b160",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 105,
+      "file": "src/industries/salt_mine.py",
+      "sha256": "dc96d1db0485b799dd254de5a7a4f7575c94b0132d7213451aa4959b10893985",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 109,
+      "file": "src/industries/sulphuric_acid_plant.py",
+      "sha256": "cfc5a22ba27eb11380971d523774b0704ff5f1f9a7703f4834e197887fe53397",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 111,
+      "file": "src/industries/polyethylene_plant.py",
+      "sha256": "4c50b43845d44ff7efc4b85cb56fc813d6341f58fcc4437b7c30d8b3fcc57117",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 112,
+      "file": "src/industries/ethylene_cracker.py",
+      "sha256": "45da38d5339f6210ad4c03395ca00551ffd3f885b49483a765de921a61e0f55f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 113,
+      "file": "src/industries/sugar_refinery.py",
+      "sha256": "888529cb21274d47fa21681b4d7224ed17cf875d51585b559766ef834fe4234c",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 115,
+      "file": "src/industries/bauxite_mine.py",
+      "sha256": "ca0b5f59a09d6940cd19860d88a6ea02d89aac17264448112df3554084ccf1d3",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 116,
+      "file": "src/industries/tar_sands_mine.py",
+      "sha256": "774873e495fe95fb1a546e58116a4b7305dc443c1c8a355210ad00c42493ba00",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 117,
+      "file": "src/industries/salt_evaporator.py",
+      "sha256": "404ec7431c2de80642d368b8a3f12f27cafd7e77ecd317e30c33211fe9db39f2",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 119,
+      "file": "src/industries/seaweed_farm.py",
+      "sha256": "448b328df3b57ee344eefaabb5b508d9d1026db9ddbc8b90710fd0bde52f4e64",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 120,
+      "file": "src/industries/farm_supply_yard.py",
+      "sha256": "0c9b0745ca581970294a44556ca0777e74f447d9e7e028f6bdb531d6ef726d6f",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 122,
+      "file": "src/industries/edible_oil_refinery.py",
+      "sha256": "a44d090e8978021b42ef942a6baeee85f7070ad8b341c629f78255a72c733627",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 123,
+      "file": "src/historical_copper_salt.py",
+      "sha256": "484c0a031b5fc20dd2b663f8e94026414fadbcdd71eeb3d40fd8c6cdc2a4e31a",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 124,
+      "file": "src/historical_copper_salt.py",
+      "sha256": "484c0a031b5fc20dd2b663f8e94026414fadbcdd71eeb3d40fd8c6cdc2a4e31a",
+      "matches_audited_model": true
+    },
+    {
+      "local_id": 125,
+      "file": "src/historical_copper_salt.py",
+      "sha256": "484c0a031b5fc20dd2b663f8e94026414fadbcdd71eeb3d40fd8c6cdc2a4e31a",
+      "matches_audited_model": true
+    }
+  ],
+  "primary_template_unchanged": true
+}

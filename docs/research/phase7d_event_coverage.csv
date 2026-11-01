@@ -1,0 +1,33 @@
+event_id,region,local_id,action,policy_year,europe_fixture,timeline_fixture,evidence,inputs,outputs
+galicia_mill,Galicia: Wieliczka,34,opening,1835,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,GRAI MNSP,FOOD EOIL
+ruhr_sheet,Ruhr,103,opening,1865,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,STEL ZINC ACID,MPAR BDMT
+ruhr_steel,Ruhr,2,opening,1865,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,IRON COKE,STEL SLAG
+galicia_successor,Galicia: Bochnia,34,replacement,1887,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,GRAI MNSP,FOOD EOIL
+ruhr_workshop,Ruhr,9,opening,1910,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,STEL ALUM COAT,MPAR MNSP
+ruhr_slag,Ruhr,80,opening,1955,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,SLAG,CMNT FERT
+rhine_depot,Lower Rhine,24,opening,1985,built,cancelled,VERIFIED CONSTRUCTION at fixture dates only,,RCYC
+rhine_junk,Lower Rhine,25,opening,1985,built,cancelled,VERIFIED CONSTRUCTION at fixture dates only,RCYC,SCMT
+rhine_recycling,Lower Rhine,23,opening,1985,built,cancelled,VERIFIED CONSTRUCTION at fixture dates only,RCYC,PLAS
+rhine_plastics,Lower Rhine,18,opening,1985,built,cancelled,VERIFIED CONSTRUCTION at fixture dates only,PLAS MPAR,MNSP
+gb_milling,Britain,34,opening,1840,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,GRAI MNSP,FOOD EOIL
+fr_milling,France/Benelux,34,opening,1845,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,GRAI MNSP,FOOD EOIL
+iberian_food,Iberia,56,opening,1870,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,FRUT FISH EOIL MNSP SALT,FOOD
+fr_oil_food,France/Benelux,56,opening,1860,built,cancelled,VERIFIED CONSTRUCTION at fixture dates only,FRUT FISH EOIL MNSP SALT,FOOD
+gb_sheet,Britain,103,opening,1870,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,STEL ZINC ACID,MPAR BDMT
+gb_steel,Britain,2,opening,1870,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,IRON COKE,STEL SLAG
+silesia_sheet,Silesia/Polish lands,103,opening,1880,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,STEL ZINC ACID,MPAR BDMT
+silesia_steel,Silesia/Polish lands,2,opening,1880,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,IRON COKE,STEL SLAG
+italy_workshop,Italy,9,opening,1900,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,STEL ALUM COAT,MPAR MNSP
+italy_machinery,Italy,38,opening,1920,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,POWR VPTS MPAR TYRE GLAS,GOOD ENSP FMSP
+scandi_machinery,Scandinavia,38,opening,1930,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,POWR VPTS MPAR TYRE GLAS,GOOD ENSP FMSP
+fr_postwar_food,France,56,opening,1955,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,FRUT FISH EOIL MNSP SALT,FOOD
+silesia_depot,Silesia/Polish lands,24,opening,1990,NOT TESTED,built,VERIFIED CONSTRUCTION at fixture dates only,,RCYC
+silesia_junk,Silesia/Polish lands,25,opening,1990,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,RCYC,SCMT
+silesia_recycling,Silesia/Polish lands,23,opening,1990,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,RCYC,PLAS
+silesia_plastics,Silesia/Polish lands,18,opening,1990,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,PLAS MPAR,MNSP
+rhine_eaf,Lower Rhine,79,opening,1995,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,SCMT QLME,STEL SLAG
+silesia_eaf,Silesia/Polish lands,79,opening,2000,NOT TESTED,cancelled,UNVERIFIED OR CONDITIONAL,SCMT QLME,STEL SLAG
+lille_depot,France/Benelux,24,opening,1990,built,NOT IN EARLIER 28-EVENT FIXTURE,VERIFIED CONSTRUCTION at fixture dates only,,RCYC
+lille_junk,France/Benelux,25,opening,1990,built,NOT IN EARLIER 28-EVENT FIXTURE,VERIFIED CONSTRUCTION at fixture dates only,RCYC,SCMT
+lille_recycling,France/Benelux,23,opening,1990,built,NOT IN EARLIER 28-EVENT FIXTURE,VERIFIED CONSTRUCTION at fixture dates only,RCYC,PLAS
+lille_plastics,France/Benelux,18,opening,1990,built,NOT IN EARLIER 28-EVENT FIXTURE,VERIFIED CONSTRUCTION at fixture dates only,PLAS MPAR,MNSP

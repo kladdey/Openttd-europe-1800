@@ -1,3 +1,26 @@
+# Current local installation — Phase 7D (development only)
+
+The current separate development scenario is **Europe 1830 Historical AXIS 0.6.0 - Phase 7D Progression.scn**, with **617 towns / 542 initial industries**, JGRPP **0.73.4**, unchanged Historical AXIS **0.6.0**, **GS v4/schema 4** and the exact 15 NewGRF references. Calendar/economy start is **1830/1800**, with seven-tile trains. Verdict: **READY WITH CAVEATS**.
+
+On the development Windows PC, from the repository root:
+
+```powershell
+python scripts/lifecycle_phase7d_launch.py --verify-only
+python scripts/lifecycle_phase7d_launch.py
+# Optional Scenario Editor inspection:
+python scripts/lifecycle_phase7d_launch.py --editor
+```
+
+The launcher validates the isolated assets. The normal scenario is in `C:\Users\Kladd\Documents\OpenTTD\scenario`; its exact filename, hashes and profile are recorded in the [delivery manifest](research/phase7d_candidate_delivery.json) and [readiness report](PHASE_7D_READINESS.md). Use that profile rather than an unrelated normal configuration. The future-year construction fixture is not the campaign start.
+
+Compiled scenarios, GRFs and local runtime dependencies are not included in a Git clone. Other machines need the exact licensed assets; copying this PC's absolute-path profile is not a portable installer. Verify engine/GRF checksums and package the matching server-side GS/policy before hosting. See [multiplayer](MULTIPLAYER.md), [licensing](LICENSING.md) and [release process](RELEASE_PROCESS.md).
+
+**Migration:** preserve all earlier candidates and saves. GS v4 rejects v1–v3 save data; no automatic adoption is supported. Do not replace NewGRFs or scripts in an ongoing campaign. Use a fresh separate Phase 7D scenario.
+
+---
+
+## Earlier Europe 1800 installation guidance (historical)
+
 # Installation - Europe 1800
 
 ## Recommended public distribution

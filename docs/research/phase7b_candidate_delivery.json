@@ -1,0 +1,314 @@
+{
+  "candidate": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\scenario\\Europe 1830 Historical AXIS 0.5.0 - Legacy Mine Lifecycle.scn",
+  "candidate_sha256": "355686df5ddbc935aacdcc0b89a9bd446657d086f973df11fb794f5fbafd8e79",
+  "profile": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700",
+  "configuration": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\test.cfg",
+  "engine": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.work\\runtime\\engine\\openttd-jgrpp-0.73.4-windows-win64\\openttd.exe",
+  "engine_sha256": "1b3fd69c1ea5f77eebe881c6d8a6ad9a03b71f98928a05e0c3c08c79482e2789",
+  "grf": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\dist\\axis-historical-europe-0.5.0-legacy-candidate.grf",
+  "grf_sha256": "473b4ac0ebc6962959408633dbbc2cf254546fe9bc7fdd6c3531b0f0a232e534",
+  "script": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\game\\lifecycle\\main.nut",
+  "script_sha256": "80e21fd603f584f8adc083f256fbf3ed410cc62cb27607ac50e5d0ee7efc418c",
+  "policy_sha256": "2ef322fdb0da11fbecf887c3fb7a21086f82e7ead6f1c1c11e9e3ceb9ce1daf1",
+  "schedule_sha256": "7bacca37ff888575ab012731ec7d7cd454067c2697fe355446fe7afab3d1fdea",
+  "baseline_towns": 617,
+  "baseline_industries": 542,
+  "all_map_bytes_unchanged": true,
+  "unchanged_chunks": [
+    "CITY",
+    "INDY",
+    "PATS",
+    "PSAC"
+  ],
+  "test_dates": false,
+  "embedded_newgrfs": [
+    {
+      "filename": "44440a01-av8_aviators_aircraft_set-2.21.tar\\av8_aviators_aircraft_set-2.21\\pb_av8w.grf",
+      "grfid": "44440A01",
+      "md5": "fceec76cf44ec23e7fe9c88048cf11cc",
+      "version": 2210,
+      "params": [],
+      "palette": 9,
+      "name": "av8 Aviators Aircraft Set"
+    },
+    {
+      "filename": "43485054-chips_station_set_2-2.0.0.tar\\chips_station_set_2-2.0.0\\chips.grf",
+      "grfid": "43485054",
+      "md5": "f09180381b487c911d5eaf5dff4fddf2",
+      "version": 376,
+      "params": [],
+      "palette": 4,
+      "name": "CHIPS Station Set 2.0.0"
+    },
+    {
+      "filename": "41560103-egrvts_v2.1-r240.tar\\egrvts_v2.1-r240\\egrvts2_1.grf",
+      "grfid": "41560103",
+      "md5": "98aa8b74926ab2a59f14ff0f49b8b80b",
+      "version": 40,
+      "params": [
+        0,
+        63,
+        0,
+        3,
+        0
+      ],
+      "palette": 9,
+      "name": "eGRVTS v2.1 - r240"
+    },
+    {
+      "filename": "4a430002-industrial_stations_renewal-1.0.2.tar\\industrial_stations_renewal-1.0.2\\indstatr.grf",
+      "grfid": "4A430002",
+      "md5": "93eac5f5396584b92d4c5f0aaaf3f6c5",
+      "version": 5518,
+      "params": [
+        0,
+        1
+      ],
+      "palette": 9,
+      "name": "Industrial Stations Renewal 1.0.2"
+    },
+    {
+      "filename": "polishtrainset3.0.3.grf",
+      "grfid": "4D560103",
+      "md5": "0db844fa56cb799f90bc1bdd199aa2f9",
+      "version": 211,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "Polish Train Set 3.0"
+    },
+    {
+      "filename": "434d4301-sailing_ships_community-0.73.tar\\sailing_ships_community-0.73\\ss_community.grf",
+      "grfid": "434D4301",
+      "md5": "9f51ba9b50b5f99ad31bd3a13e66ada8",
+      "version": 5,
+      "params": [
+        0,
+        0,
+        0
+      ],
+      "palette": 9,
+      "name": "Sailing Ships (community) 0.73"
+    },
+    {
+      "filename": "4d560105-polish_rolling_stock_pack-0.19.11.tar\\polish_rolling_stock_pack-0.19.11\\polish-rolling-stock-pack-0.19.11.grf",
+      "grfid": "4D560105",
+      "md5": "99ae27e35245e498e378adc3d06dec20",
+      "version": 17,
+      "params": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "palette": 4,
+      "name": "TEST Polish Rolling Stock Pack 0.19.1"
+    },
+    {
+      "filename": "44441000-ukrs2_the_uk_railway_set-1.05.tar\\ukrs2__the_uk_railway_set-1.05\\proj1000.grf",
+      "grfid": "44441000",
+      "md5": "da36131a815d2d5fc158c7a27d67b5af",
+      "version": 1050,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        2
+      ],
+      "palette": 9,
+      "name": "UK Railway Set (UKRS2)"
+    },
+    {
+      "filename": "414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\\fish_2-2.0.3\\fish.grf",
+      "grfid": "414E0201",
+      "md5": "0da3a80b986bc3c17c20ca4ce9ca26aa",
+      "version": 1687,
+      "params": [
+        1,
+        1,
+        0
+      ],
+      "palette": 4,
+      "name": "Squid Ate FISH r1687"
+    },
+    {
+      "filename": "0100403a-city_objects-1.3.tar\\city_objects-1.3\\cov1.3.grf",
+      "grfid": "0100403A",
+      "md5": "e8c0aac6273492cc97ceb0bb9fbebee3",
+      "version": 0,
+      "params": [],
+      "palette": 1,
+      "name": "City objects 1.3"
+    },
+    {
+      "filename": "4f472b34-opengfx_landscape-1.1.2.tar\\opengfx_landscape-1.1.2\\ogfx-landscape.grf",
+      "grfid": "4F472B34",
+      "md5": "136d889fdaeaa3491f8320248a04425c",
+      "version": 5524,
+      "params": [
+        12,
+        0,
+        4,
+        15,
+        4,
+        0
+      ],
+      "palette": 4,
+      "name": "OpenGFX+ Landscape 1.1.2"
+    },
+    {
+      "filename": "44440302-north_american_renewal_set-2.52.tar\\north_american_renewal_set-2.52\\newnars.grf",
+      "grfid": "44440302",
+      "md5": "5f268de28cca8fa7fdd140ac031a5939",
+      "version": 252,
+      "params": [
+        0
+      ],
+      "palette": 9,
+      "name": "North American Railway Set (NARS) 2.52"
+    },
+    {
+      "filename": "4e4d0518-nars_add_on_set_2cc-2401131718.tar\\nars_add_on_set_2cc-2401131718\\nars_add_on_set.grf",
+      "grfid": "4E4D0518",
+      "md5": "d4c3a76cd516a5fccfa0de58bb3e9c7b",
+      "version": 2401131718,
+      "params": [
+        4,
+        3,
+        2
+      ],
+      "palette": 4,
+      "name": "NARS ADD-ON SET 2CC rev.2401131718 (STILL 218 Vehicles!)"
+    },
+    {
+      "filename": "axis-historical-europe-0.5.0-legacy-candidate.grf",
+      "grfid": "4B484531",
+      "md5": "96f4a992b3f7c11d5de0e1ba5a350fa1",
+      "version": 5,
+      "params": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        150,
+        80,
+        300,
+        1,
+        1
+      ],
+      "palette": 4,
+      "name": "AXIS Historical Europe 0.5.0 legacy mine candidate (AXIS 2.3.1 base)"
+    },
+    {
+      "filename": "gets0.7.grf",
+      "grfid": "53410808",
+      "md5": "7c3e713c64766a1dd71dc96d583e8138",
+      "version": 19,
+      "params": [
+        3,
+        2
+      ],
+      "palette": 20,
+      "name": " GETS 0.7"
+    }
+  ],
+  "required_asset_files": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\0100403a-City_Objects-1.3.tar",
+      "sha256": "6a7beb84463c0017dca4d790c8cecca5d4be486d5b422bf049f3c2232cc7a41d",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\414e0201-Squid_Ate_FISH_FISH_2_Ships-2.0.3.tar",
+      "sha256": "bbca24a526c87cb0364eb139144377c21869fc37491f586ce082c0fcef0754cd",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\41560103-eGRVTS_v2.1-r240.tar",
+      "sha256": "7945aa8f753838dff1b2ac5d8de090ad2630aaf999a64cd0a0820708a198ea50",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\43485054-CHIPS_Station_Set_2-2.0.0.tar",
+      "sha256": "8a44f8e42c1f43328e720d3b839e670236c855d170215f885b77738513317c25",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\434d4301-Sailing_Ships_community-0.73.tar",
+      "sha256": "729eb1f721ad8bbc8ad66266d35381a75fb946a868deb0baaa446c08b47da393",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\44440302-North_American_Renewal_Set-2.52.tar",
+      "sha256": "7d1c6b816c8b7a6b06143712020769d8050272d8afa9eafa6e2a35c7aece4d47",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\44440a01-av8_Aviators_Aircraft_Set-2.21.tar",
+      "sha256": "e874f93b45e2413a5fcea177e5cd0db852b6ede14c2f93bed56386e14fea3e4c",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\44441000-UKRS2_The_UK_Railway_Set-1.05.tar",
+      "sha256": "b6e38b9fac21b411dacbabb4fa3fe457d34e0a6ccc0df7d8ed7e82413d5d58e9",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\4a430002-Industrial_Stations_Renewal-1.0.2.tar",
+      "sha256": "17dc152e473c824754193c6ded5c246b166c13b828d60b22dde705c6ab3daf07",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\4d560105-Polish_Rolling_Stock_Pack-0.19.11.tar",
+      "sha256": "0cc055a184f2ac407ca757e7af095f883742732b07da47f59df659b3dbc08123",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\4e4d0518-NARS_Add_On_Set_2cc-2401131718.tar",
+      "sha256": "f01a247f596e0174e114b45cbc60c135063ef6b588b94f01783192e78931494b",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\4f472b34-OpenGFX_Landscape-1.1.2.tar",
+      "sha256": "5f9682e327d35da4df7ab62fe03e18fa1a86cf300e34b44b54b58176a70f755a",
+      "format": "archive"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\axis-historical-europe-0.5.0-legacy-candidate.grf",
+      "sha256": "473b4ac0ebc6962959408633dbbc2cf254546fe9bc7fdd6c3531b0f0a232e534",
+      "format": "loose GRF"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\gets0.7.grf",
+      "sha256": "c1d33f99d2acd038f49ceafa4e0fdf1fcd6492f55a38c3da3f19e68555742f0a",
+      "format": "loose GRF"
+    },
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\polishtrainset3.0.3.grf",
+      "sha256": "6942b87a35619be15b36ed3333a9ef2abd64501dde6f96696ee6eb77608465c6",
+      "format": "loose GRF"
+    }
+  ],
+  "inactive_library_files": [
+    {
+      "path": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\.work\\runtime\\legacy-editor-1793286062596721700\\newgrf\\4a4b8808-AXIS_eXtreme_Industry_Set-2.3.1.tar",
+      "sha256": "78d0a7ded843bb5fc9025504884312df1effe4f15908876a8dcbba73b6f7429a",
+      "format": "archive"
+    }
+  ],
+  "info_sha256": "69a7070aec053e5dc0193efe989b090c34c8c10a9cc43972ff734966e5cc6694"
+}

@@ -1,3 +1,19 @@
+# Current project status — 1 November 2026
+
+**Active branch:** `feature/axis-historical-integration`. Current local development candidate: **Phase 7D, READY WITH CAVEATS**. It retains stock JGRPP 0.73.4, Historical AXIS **0.6.0**, 617 towns, 542 initial industries, 15 GRFs, 64 cargos, calendar/economy 1830/1800 and seven-tile trains, with separately packaged **GS v4/schema 4**. [Launch/readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md).
+
+**Phase 7C is complete with caveats**, not merely planned: its paid grain/food chain, mill retirement, later construction and persistent lifecycle evidence remain preserved. Phase 7D adds layout/house-aware siting and a 32-event regional policy. A real Europe fixture constructed both Rhine and Lille depot/junkyard/recovery/plastics packages plus food processing: 551 industries, all 542 originals and all 617 towns retained. No GRF edits or source-scenario overwrites were needed.
+
+**Evidence limits:** five focused tests; seven completed engine runs plus two corrected compile failures. A continuous small-map 1830–2026 attempt with one reload built 11 and cancelled 17 events in the earlier 28-event fixture. The final Lille additions/revised Rhine anchors were Europe-smoke-tested, not rerun through the full timeline. No new paid modern freight chain, full-Europe economic run or three-human certification is claimed. Earlier broad test dependency/geography failures were not revisited.
+
+Next: actual modern cargo deliveries and competitive human playtesting, followed by targeted review of cancellations. Preserve earlier assets and live saves; no silent GS migration. Binary candidates remain local and hash-checked. See [roadmap](ROADMAP.md) and [documentation index](DOCUMENTATION_INDEX.md).
+
+---
+
+## Historical project-status entries (preserved)
+
+The material below records earlier development checkpoints and must not override the current status above.
+
 ## Economy and vehicle overhaul - 2026-10-27
 
 The three-company 1800-1813 multiplayer session was a **disposable playtest**, not the campaign save. The player reported insufficient FIRS Temperate Basic industry variety and poor early-era vehicle choice (two-horse passenger versus six-horse mail carriage; no useful trains by 1813). **AXIS Extreme Classic is a candidate only**, not installed or verified. Priorities: audit early road/rail/ship NewGRFs, verify AXIS's cargo compatibility and JGRPP 0.73.4 behavior, and plan historical industry progression on fresh scenario copies. See [economy and vehicle overhaul](ECONOMY_VEHICLE_OVERHAUL.md).

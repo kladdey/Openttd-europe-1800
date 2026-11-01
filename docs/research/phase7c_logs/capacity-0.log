@@ -1,0 +1,79 @@
+dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|28|402|1 Horse Hopper Carriage
+dbg: [script:4] [18] [I] P4_CASE|old_mill_grain|road|28|66|275|657437
+dbg: [script:4] [18] [I] P4_INITIAL|100000|100000|300000|1|7
+dbg: [script:4] [18] [I] P4_CAPITAL|old_mill_grain|origin_station|307
+dbg: [script:4] [18] [I] P4_CAPITAL|old_mill_grain|destination_station|307
+dbg: [script:4] [18] [I] P4_CAPITAL|old_mill_grain|way_and_depot|6092
+dbg: [script:4] [18] [I] P4_STATIONS|6234717|6169198|0|1|0|1
+dbg: [script:4] [18] [I] P4_FLEET|old_mill_grain|8
+dbg: [script:4] [18] [I] P4_BUILT|old_mill_grain|402|1 Horse Hopper Carriage|6706|4592|8|605|1522|622|1506|34|88702|100000|657437
+dbg: [script:4] [18] [I] P4_COMMISSION|old_mill_grain|0|6706|4592|8|8|657437|6238812
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6234717|5
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6169198|5
+dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|old_mill_grain|66|275|6234717|6169198|0|2
+dbg: [script:4] [18] [I] I6 PERIOD_ENGINE|11|430|1 Horse Ice Box Carriage
+dbg: [script:4] [18] [I] P4_CASE|old_mill_food|road|11|275|474|657437
+dbg: [script:4] [18] [I] P4_INITIAL|87947|100000|300000|1|7
+dbg: [script:4] [18] [I] P4_CAPITAL|old_mill_food|origin_station|308
+dbg: [script:4] [18] [I] P4_CAPITAL|old_mill_food|destination_station|150
+dbg: [script:4] [18] [I] P4_CAPITAL|old_mill_food|way_and_depot|2097
+dbg: [script:4] [18] [I] P4_STATIONS|6173292|6201977|2|3|16|1
+dbg: [script:4] [18] [I] P4_FLEET|old_mill_food|8
+dbg: [script:4] [18] [I] P4_BUILT|old_mill_food|430|1 Horse Ice Box Carriage|2555|4592|8|620|1507|633|1514|21|80800|100000|657438
+dbg: [script:4] [18] [I] P4_COMMISSION|old_mill_food|0|2554|4592|8|8|657438|6238812
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6173292|5
+dbg: [script:4] [18] [I] I6 TURNING_LOOP|6201977|13
+dbg: [script:4] [18] [I] I6 CONTROL_SERVICE|old_mill_food|275|474|6173292|6201977|16|18
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=0|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=30|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=58|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=89|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=119|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=150|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=180|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=211|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=242|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] I6 CONTROL_PAID|old_mill_grain|0|132|0|6169198
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=272|level=16|grain_stock=0|food_produced=6
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=303|level=16|grain_stock=0|food_produced=14
+dbg: [script:4] [18] [I] I6 CONTROL_PAID|old_mill_food|24|62|0|6201977
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=333|level=16|grain_stock=0|food_produced=7
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=364|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=395|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=423|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=454|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=484|level=16|grain_stock=0|food_produced=21
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=515|level=16|grain_stock=0|food_produced=7
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=545|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=576|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=607|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=637|level=16|grain_stock=0|food_produced=7
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=668|level=16|grain_stock=0|food_produced=14
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=698|level=16|grain_stock=0|food_produced=7
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=729|level=16|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=760|level=8|grain_stock=0|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=788|level=8|grain_stock=8|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=819|level=8|grain_stock=16|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=849|level=8|grain_stock=32|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=880|level=8|grain_stock=40|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=910|level=8|grain_stock=32|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=941|level=8|grain_stock=24|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=972|level=8|grain_stock=24|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1002|level=8|grain_stock=24|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1033|level=8|grain_stock=56|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1063|level=8|grain_stock=48|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1094|level=8|grain_stock=40|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1125|level=8|grain_stock=32|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1153|level=8|grain_stock=32|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1184|level=8|grain_stock=40|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1214|level=8|grain_stock=48|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1245|level=8|grain_stock=64|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1275|level=8|grain_stock=56|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1306|level=8|grain_stock=48|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1337|level=8|grain_stock=48|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1367|level=8|grain_stock=48|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1398|level=8|grain_stock=78|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1428|level=8|grain_stock=72|food_produced=0
+dbg: [script:4] [18] [I] P7 C_CAPACITY|elapsed=1459|level=8|grain_stock=64|food_produced=9
+dbg: [script:4] [18] [I] P7 C_CAPACITY_DONE|old_exists=true|grain_paid=true|food_paid=true
+dbg: [script:3] [18] [W] Save function is not implemented

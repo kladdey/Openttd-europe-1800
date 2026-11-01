@@ -1,0 +1,22 @@
+{
+  "focused_tests": 75,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": [
+    "Phase7A",
+    "Phase7B",
+    "Phase7C",
+    "Phase6B",
+    "Phase6C"
+  ],
+  "broad_discovery": {
+    "tests": 199,
+    "failures": 3,
+    "errors": 11,
+    "skipped": 15,
+    "status": "NOT GREEN: missing SciPy, stale earlier coastline registration, and an earlier platform-path snapshot difference; files outside Phase7C unchanged"
+  },
+  "engine_invocations": 36,
+  "all_current_engine_receipts_use_final_grf": true
+}

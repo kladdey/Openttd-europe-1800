@@ -1,0 +1,2 @@
+dbg: [script:1] [18] [E] P7 FATAL|Lifecycle disabled or incompatible availability policy; no legacy commands
+dbg: [script:1] [18] [E] Save function should return a table.

@@ -1,3 +1,30 @@
+# Current roadmap — Historical Europe 1830–2025
+
+Current development baseline: **Phase 7D**, 617 towns / 542 initial industries, unchanged AXIS 0.6.0 plus isolated GS v4. Verdict: **READY WITH CAVEATS**. Older geography checkpoints below remain historical.
+
+## Completed milestones
+
+- [x] Phases 6B/6C: historical industrialization, copper/salt processing and 75 inland markets.
+- [x] Phases 7A/7B: persistent scheduling and guarded four-original-mine depletion pilot, with retained safety evidence.
+- [x] **Phase 7C complete with caveats:** ten-event slice, paid Galician chain, guarded mill transition, later steel construction and 36 recorded engine runs.
+- [x] **Phase 7D implementation:** 32-event regional policy, legal layout/house-aware modern siting and GS v4 fresh-candidate isolation. Both Rhine and Lille sequences constructed in Europe, all originals preserved.
+- [x] Lean long-horizon attempt to 2026 with one reload and no duplicate openings; actual cancellations and fixture/final-policy differences recorded rather than hidden.
+
+## Next priorities
+
+- [ ] Operate and measure RCYC→recovery→PLAS→plastics→MNSP deliveries and the separate SCMT branch. Construction is not proof of revenue.
+- [ ] Test three human clients through public openings, save/rejoin and competitive access; retain prior service-abuse caveats.
+- [ ] Review conditional/blocked regional events with targeted native site diagnostics. Do not flatten sites or grow towns artificially to force success.
+- [ ] Validate selected future stages as needed; no automatic broad regression campaign or full-Europe economic certification.
+- [ ] Review any additional depletion/retirement policy separately; preserve the four-mine and one-mill scope until then.
+- [ ] Resolve packaging/licensing and any explicit live-save migration before distribution; do not silently substitute assets.
+
+[Phase 7D readiness](PHASE_7D_READINESS.md) · [implementation](PHASE_7D_IMPLEMENTATION.md) · [Phase 7C readiness](PHASE_7C_READINESS.md).
+
+---
+
+## Historical geography roadmap (archived checkpoint)
+
 # Development roadmap
 
 Current offline candidate: [V13 coverage implementation](../maps/calibration/geography_v13/README.md), 45 additions to the saved 568-town map, 613 full candidate, 17 deferred research leads. Run `python scripts/build_gap_additions.py --out /tmp/europe_v13_rebuild` from the repository root. The V12 checkpoint remains the last user-confirmed component; V13 founding is pending. Earlier version-specific details below remain historical.

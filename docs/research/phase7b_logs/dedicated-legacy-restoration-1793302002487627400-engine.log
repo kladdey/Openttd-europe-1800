@@ -1,0 +1,28 @@
+dbg: [net:3] Starting dedicated server, version jgrpp-0.73.4
+dbg: [net:3] Starting network
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Network online, multiplayer available
+dbg: [net:3] Detected broadcast addresses:
+dbg: [net:3]   0) 192.168.18.255
+dbg: [net:3]   1) 192.168.194.255
+dbg: [net:3] Network revision name: jgrpp-0.73.4
+OpenTTD Game Console Revision 7 - jgrpp-0.73.4
+------------------------------------
+use "help" for more information
+
+Console log output started to 'C:/Users/Kladd/Documents/Codex/2026-10-28/openttd-europe-1830-2025-local-newgrf/newgrfs/axis-historical-europe/.work/runtime-results/generated-2000/console.log'.
+dbg: [net:1] No "client_name" has been set, using "Unnamed Client" instead. Please set this now using the "name <new name>" command
+dbg: [net:1] No "server_name" has been set, using "Unnamed Server" instead. Please set this now using the "server_name <new name>" command
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Listening on 127.0.0.1:39873 (IPv4)
+dbg: [net:3] Listening on 127.0.0.1:39873 (IPv4)
+‎*** Game still paused (game script)
+dbg: [script:4] [18] [I] P7 EVENT|legacy_loaded|scheduler|schema=2|sites=4
+dbg: [script:4] [18] [I] P7 DEDICATED|multiplayer=true
+dbg: [script:4] [18] [I] P7 EVENT|news|legacy_1|ok=true|Coalbrookdale historic integrated district (GB, COAL): Dedicated-server restored deadline year 1839
+dbg: [script:4] [18] [I] P7 DEDICATED_SMOKE_DONE|legacy=4
+‎*** Game still paused (game script)
+Console log file closed.
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Shutting down network

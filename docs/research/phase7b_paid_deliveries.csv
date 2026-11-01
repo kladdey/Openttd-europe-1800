@@ -1,0 +1,2 @@
+scope,route,vehicle_id,sampled_net_vehicle_income_increase,distance,tile,evidence,log
+FULL EUROPE ENGINE: served comparison checkpoint 0,legacy_baseline_coal_paid,14,91,0,4512664,VERIFIED IN GAME: actual prior loading and positive sampled vehicle income at accepting destination; not gross invoice or annual profitability,docs/research/phase7b_logs/legacy-comparison-served-1793285967354721900-stage0.log

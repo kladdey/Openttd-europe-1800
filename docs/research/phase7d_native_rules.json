@@ -1,0 +1,1674 @@
+{
+  "grf_sha256": "023099757b94573f33e0c8380804cdbe80d3155b914d5441f98e89e55c9d8b84",
+  "unchanged_cargo_slots": 64,
+  "rules": [
+    {
+      "local_id": 24,
+      "industry": "recycling_depot",
+      "earliest_year": 0,
+      "inputs": [],
+      "outputs": [
+        [
+          "RCYC",
+          16
+        ]
+      ],
+      "layouts": [
+        {
+          "id": "recycling_depot_industry_layout",
+          "layout": [
+            [
+              0,
+              0,
+              "recycling_depot_tile_1",
+              "recycling_depot_spritelayout_hut"
+            ],
+            [
+              0,
+              1,
+              "recycling_depot_tile_1",
+              "recycling_depot_spritelayout_no_hut"
+            ],
+            [
+              1,
+              0,
+              "recycling_depot_tile_1",
+              "recycling_depot_spritelayout_no_hut"
+            ],
+            [
+              1,
+              1,
+              "recycling_depot_tile_1",
+              "recycling_depot_spritelayout_no_hut"
+            ]
+          ]
+        }
+      ],
+      "tile_checks": [
+        {
+          "tile": "recycling_depot_tile_1",
+          "checks": {
+            "always_allow_founder": false,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": false,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": true,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        }
+      ],
+      "industry_checks": {
+        "same_type_distance": null,
+        "near_at_least_one_of_these_keystone_industries": null,
+        "require_cluster": null,
+        "require_town_industry_count": null,
+        "require_town_min_population": 800,
+        "location_check_industry_disallow_too_far_from_coast": null,
+        "flour_mill_layouts_by_date": null
+      }
+    },
+    {
+      "local_id": 25,
+      "industry": "junk_yard",
+      "earliest_year": 0,
+      "inputs": [
+        "RCYC"
+      ],
+      "outputs": [
+        [
+          "SCMT",
+          3
+        ]
+      ],
+      "layouts": [
+        {
+          "id": "junk_yard_industry_layout_1",
+          "layout": [
+            [
+              0,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_2"
+            ],
+            [
+              1,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_2"
+            ],
+            [
+              1,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_9"
+            ],
+            [
+              2,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_1"
+            ],
+            [
+              2,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_8"
+            ],
+            [
+              3,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_4"
+            ],
+            [
+              3,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_7"
+            ],
+            [
+              4,
+              0,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_5"
+            ],
+            [
+              4,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_3"
+            ],
+            [
+              4,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_6"
+            ]
+          ]
+        },
+        {
+          "id": "junk_yard_industry_layout_2",
+          "layout": [
+            [
+              0,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_7"
+            ],
+            [
+              1,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_1"
+            ],
+            [
+              1,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_8"
+            ],
+            [
+              2,
+              0,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_5"
+            ],
+            [
+              2,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_3"
+            ],
+            [
+              2,
+              2,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_6"
+            ]
+          ]
+        },
+        {
+          "id": "junk_yard_industry_layout_3",
+          "layout": [
+            [
+              0,
+              3,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_2"
+            ],
+            [
+              1,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_2"
+            ],
+            [
+              1,
+              3,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_9"
+            ],
+            [
+              2,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_1"
+            ],
+            [
+              2,
+              3,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_8"
+            ],
+            [
+              3,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_4"
+            ],
+            [
+              3,
+              3,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_7"
+            ],
+            [
+              4,
+              0,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_5"
+            ],
+            [
+              4,
+              1,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_3"
+            ],
+            [
+              4,
+              3,
+              "junk_yard_tile_1",
+              "junk_yard_spritelayout_6"
+            ]
+          ]
+        }
+      ],
+      "tile_checks": [
+        {
+          "tile": "junk_yard_tile_1",
+          "checks": {
+            "always_allow_founder": true,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": true,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": true,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        }
+      ],
+      "industry_checks": {
+        "same_type_distance": null,
+        "near_at_least_one_of_these_keystone_industries": null,
+        "require_cluster": null,
+        "require_town_industry_count": null,
+        "require_town_min_population": null,
+        "location_check_industry_disallow_too_far_from_coast": null,
+        "flour_mill_layouts_by_date": null
+      }
+    },
+    {
+      "local_id": 23,
+      "industry": "recycling_plant",
+      "earliest_year": 1978,
+      "inputs": [
+        "RCYC"
+      ],
+      "outputs": [
+        [
+          "PLAS",
+          3
+        ]
+      ],
+      "layouts": [
+        {
+          "id": "recycling_plant_industry_layout_1",
+          "layout": [
+            [
+              0,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_2"
+            ],
+            [
+              0,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_3"
+            ],
+            [
+              1,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_1"
+            ],
+            [
+              1,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_4"
+            ],
+            [
+              2,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_5"
+            ],
+            [
+              2,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_6"
+            ]
+          ]
+        },
+        {
+          "id": "recycling_plant_industry_layout_2",
+          "layout": [
+            [
+              0,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_2"
+            ],
+            [
+              0,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_3"
+            ],
+            [
+              0,
+              2,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_5"
+            ],
+            [
+              1,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_1"
+            ],
+            [
+              1,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_4"
+            ],
+            [
+              1,
+              2,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_6"
+            ]
+          ]
+        },
+        {
+          "id": "recycling_plant_industry_layout_3",
+          "layout": [
+            [
+              0,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_5"
+            ],
+            [
+              0,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_3"
+            ],
+            [
+              0,
+              2,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_2"
+            ],
+            [
+              1,
+              0,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_6"
+            ],
+            [
+              1,
+              1,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_4"
+            ],
+            [
+              1,
+              2,
+              "recycling_plant_tile_1",
+              "recycling_plant_spritelayout_1"
+            ]
+          ]
+        }
+      ],
+      "tile_checks": [
+        {
+          "tile": "recycling_plant_tile_1",
+          "checks": {
+            "always_allow_founder": true,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": false,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": false,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        }
+      ],
+      "industry_checks": {
+        "same_type_distance": null,
+        "near_at_least_one_of_these_keystone_industries": [
+          [
+            "junk_yard"
+          ],
+          48
+        ],
+        "require_cluster": null,
+        "require_town_industry_count": null,
+        "require_town_min_population": null,
+        "location_check_industry_disallow_too_far_from_coast": null,
+        "flour_mill_layouts_by_date": null
+      }
+    },
+    {
+      "local_id": 18,
+      "industry": "plastics_plant",
+      "earliest_year": 1914,
+      "inputs": [
+        "PLAS",
+        "MPAR"
+      ],
+      "outputs": [
+        [
+          "MNSP",
+          6
+        ]
+      ],
+      "layouts": [
+        {
+          "id": "plastics_plant_industry_layout_1",
+          "layout": [
+            [
+              0,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_2"
+            ],
+            [
+              0,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_1"
+            ],
+            [
+              0,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              1,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_2"
+            ],
+            [
+              1,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_1"
+            ],
+            [
+              1,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              2,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              2,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_7"
+            ],
+            [
+              2,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_9"
+            ],
+            [
+              3,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_8"
+            ],
+            [
+              3,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_6"
+            ],
+            [
+              3,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              4,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_5"
+            ],
+            [
+              4,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_4"
+            ],
+            [
+              4,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_3"
+            ]
+          ]
+        },
+        {
+          "id": "plastics_plant_industry_layout_2",
+          "layout": [
+            [
+              0,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_8"
+            ],
+            [
+              0,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_7"
+            ],
+            [
+              0,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_9"
+            ],
+            [
+              1,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_8"
+            ],
+            [
+              1,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_6"
+            ],
+            [
+              1,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              2,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_5"
+            ],
+            [
+              2,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_4"
+            ],
+            [
+              2,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_3"
+            ],
+            [
+              3,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_2"
+            ],
+            [
+              3,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_1"
+            ],
+            [
+              3,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ]
+          ]
+        },
+        {
+          "id": "plastics_plant_industry_layout_3",
+          "layout": [
+            [
+              0,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_2"
+            ],
+            [
+              0,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_1"
+            ],
+            [
+              0,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              0,
+              3,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_7"
+            ],
+            [
+              0,
+              4,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_9"
+            ],
+            [
+              1,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_2"
+            ],
+            [
+              1,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_1"
+            ],
+            [
+              1,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_8"
+            ],
+            [
+              1,
+              3,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_6"
+            ],
+            [
+              1,
+              4,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_10"
+            ],
+            [
+              2,
+              0,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_2"
+            ],
+            [
+              2,
+              1,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_1"
+            ],
+            [
+              2,
+              2,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_5"
+            ],
+            [
+              2,
+              3,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_4"
+            ],
+            [
+              2,
+              4,
+              "plastics_plant_tile_1",
+              "plastics_plant_spritelayout_3"
+            ]
+          ]
+        }
+      ],
+      "tile_checks": [
+        {
+          "tile": "plastics_plant_tile_1",
+          "checks": {
+            "always_allow_founder": true,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": false,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": false,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        }
+      ],
+      "industry_checks": {
+        "same_type_distance": null,
+        "near_at_least_one_of_these_keystone_industries": null,
+        "require_cluster": null,
+        "require_town_industry_count": null,
+        "require_town_min_population": null,
+        "location_check_industry_disallow_too_far_from_coast": null,
+        "flour_mill_layouts_by_date": null
+      }
+    },
+    {
+      "local_id": 56,
+      "industry": "food_processor",
+      "earliest_year": 1850,
+      "inputs": [
+        "FRUT",
+        "FISH",
+        "EOIL",
+        "MNSP",
+        "SALT"
+      ],
+      "outputs": [
+        [
+          "FOOD",
+          8
+        ]
+      ],
+      "layouts": [
+        {
+          "id": "food_processor_industry_layout_1",
+          "layout": [
+            [
+              0,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              0,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              0,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              1,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              1,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              1,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              2,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              2,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              2,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              3,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              3,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              3,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ]
+          ]
+        },
+        {
+          "id": "food_processor_industry_layout_2",
+          "layout": [
+            [
+              0,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              0,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              0,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              0,
+              3,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              1,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              1,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              1,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              1,
+              3,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              2,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              2,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              2,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              3,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              3,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              3,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ]
+          ]
+        },
+        {
+          "id": "food_processor_industry_layout_3",
+          "layout": [
+            [
+              0,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              0,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              0,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              0,
+              3,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              1,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              1,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              1,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_2"
+            ],
+            [
+              1,
+              3,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_3"
+            ],
+            [
+              2,
+              0,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              2,
+              1,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_1"
+            ],
+            [
+              2,
+              2,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ],
+            [
+              2,
+              3,
+              "food_processor_tile_1",
+              "food_processor_spritelayout_4"
+            ]
+          ]
+        }
+      ],
+      "tile_checks": [
+        {
+          "tile": "food_processor_tile_1",
+          "checks": {
+            "always_allow_founder": true,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": false,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": false,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        }
+      ],
+      "industry_checks": {
+        "same_type_distance": null,
+        "near_at_least_one_of_these_keystone_industries": null,
+        "require_cluster": null,
+        "require_town_industry_count": null,
+        "require_town_min_population": null,
+        "location_check_industry_disallow_too_far_from_coast": null,
+        "flour_mill_layouts_by_date": null
+      }
+    },
+    {
+      "local_id": 79,
+      "industry": "electric_arc_furnace",
+      "earliest_year": 1906,
+      "inputs": [
+        "SCMT",
+        "QLME"
+      ],
+      "outputs": [
+        [
+          "STEL",
+          6
+        ],
+        [
+          "SLAG",
+          2
+        ]
+      ],
+      "layouts": [
+        {
+          "id": "electric_arc_furnace_industry_layout_1",
+          "layout": [
+            [
+              0,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              0,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              0,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ],
+            [
+              1,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_3"
+            ],
+            [
+              1,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              1,
+              2,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              1,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              1,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              2,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_tanks"
+            ],
+            [
+              2,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_air_plant"
+            ],
+            [
+              2,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_extra_shed_1"
+            ],
+            [
+              2,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              2,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ]
+          ]
+        },
+        {
+          "id": "electric_arc_furnace_industry_layout_2",
+          "layout": [
+            [
+              0,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_air_plant"
+            ],
+            [
+              1,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              1,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_3"
+            ],
+            [
+              1,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_tanks"
+            ],
+            [
+              2,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              2,
+              1,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              2,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              3,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              3,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_extra_shed_1"
+            ],
+            [
+              3,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              4,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              4,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              4,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ]
+          ]
+        },
+        {
+          "id": "electric_arc_furnace_industry_layout_3",
+          "layout": [
+            [
+              0,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              0,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              1,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              1,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_3"
+            ],
+            [
+              1,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_tanks"
+            ],
+            [
+              1,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_air_plant"
+            ],
+            [
+              2,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              2,
+              1,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              2,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              2,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ],
+            [
+              3,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              3,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_extra_shed_1"
+            ],
+            [
+              3,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              3,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ]
+          ]
+        },
+        {
+          "id": "electric_arc_furnace_industry_layout_4",
+          "layout": [
+            [
+              0,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_tanks"
+            ],
+            [
+              0,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_air_plant"
+            ],
+            [
+              1,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              1,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              1,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              1,
+              3,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              1,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              2,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_3"
+            ],
+            [
+              2,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              2,
+              2,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              2,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              2,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ],
+            [
+              3,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_tanks"
+            ],
+            [
+              3,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_air_plant"
+            ],
+            [
+              3,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_extra_shed_1"
+            ],
+            [
+              3,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              3,
+              4,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ]
+          ]
+        },
+        {
+          "id": "electric_arc_furnace_industry_layout_5",
+          "layout": [
+            [
+              0,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              0,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_air_plant"
+            ],
+            [
+              1,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              1,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              1,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_3"
+            ],
+            [
+              1,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_tanks"
+            ],
+            [
+              2,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_2"
+            ],
+            [
+              2,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              2,
+              2,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              2,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              3,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_large_furnace_shed_1"
+            ],
+            [
+              3,
+              1,
+              "electric_arc_furnace_tile_2",
+              "electric_arc_furnace_spritelayout_caster_line_animated"
+            ],
+            [
+              3,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              3,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ],
+            [
+              4,
+              0,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_1"
+            ],
+            [
+              4,
+              1,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_extra_shed_1"
+            ],
+            [
+              4,
+              2,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_2"
+            ],
+            [
+              4,
+              3,
+              "electric_arc_furnace_tile_1",
+              "electric_arc_furnace_spritelayout_casting_shed_3"
+            ]
+          ]
+        }
+      ],
+      "tile_checks": [
+        {
+          "tile": "electric_arc_furnace_tile_1",
+          "checks": {
+            "always_allow_founder": true,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": false,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": false,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        },
+        {
+          "tile": "electric_arc_furnace_tile_2",
+          "checks": {
+            "always_allow_founder": true,
+            "disallow_slopes": false,
+            "disallow_steep_slopes": false,
+            "disallow_industry_adjacent": true,
+            "require_effectively_flat": true,
+            "require_houses_nearby": false,
+            "require_road_adjacent": false,
+            "require_coast": false,
+            "disallow_above_snowline": false,
+            "disallow_below_snowline": false,
+            "disallow_desert": false,
+            "disallow_coast": false
+          }
+        }
+      ],
+      "industry_checks": {
+        "same_type_distance": null,
+        "near_at_least_one_of_these_keystone_industries": null,
+        "require_cluster": null,
+        "require_town_industry_count": null,
+        "require_town_min_population": null,
+        "location_check_industry_disallow_too_far_from_coast": null,
+        "flour_mill_layouts_by_date": null
+      }
+    }
+  ]
+}

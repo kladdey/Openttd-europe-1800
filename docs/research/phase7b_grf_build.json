@@ -1,0 +1,294 @@
+{
+  "version": "0.5.0 legacy candidate",
+  "grfid": "4B484531",
+  "grf_version": 5,
+  "min_compatible_version": 4,
+  "artifact": "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\dist\\axis-historical-europe-0.5.0-legacy-candidate.grf",
+  "sha256": "473b4ac0ebc6962959408633dbbc2cf254546fe9bc7fdd6c3531b0f0a232e534",
+  "base_0_4_sha256": "e05de519b4695bc68bde7064c17ee0ae833edfe281579c3b92cb79532f466c52",
+  "registered_instances": [
+    {
+      "industry_id": 1,
+      "record_sha256": "f6d7f08fe208059edfb9e2babcba6e2e915545f8ff15a9cf032babf33cd9b682",
+      "location.tile": 4471720,
+      "location.w": 5,
+      "location.h": 2,
+      "type": 1,
+      "founder": 16,
+      "construction_date": 668394,
+      "construction_type": 1,
+      "selected_layout": 5,
+      "random": 41446,
+      "prod_level": 16,
+      "ctlflags": 0,
+      "tile": 4471720,
+      "x": 2984,
+      "y": 1091,
+      "local_id": 0,
+      "industry": "coal_mine",
+      "region": "GB",
+      "nearest_town": "WENLOCK",
+      "cargo_outputs": [
+        "COAL"
+      ],
+      "cargo_inputs": [
+        "ENSP"
+      ],
+      "downstream_industry_ids": [
+        378,
+        379,
+        380,
+        398,
+        381,
+        399,
+        400,
+        382,
+        383,
+        384,
+        385,
+        401,
+        386,
+        402,
+        387,
+        403,
+        404,
+        388,
+        405,
+        406,
+        389,
+        407,
+        390,
+        408,
+        391,
+        440
+      ],
+      "historical_locality": "Coalbrookdale historic integrated district",
+      "historical_source": "https://www.english-heritage.org.uk/visit/places/iron-bridge/history",
+      "historical_confidence": "Locality-scale sourced district",
+      "lifecycle_class": "finite fossil deposit",
+      "reserves": "UNVERIFIED \u2014 no numerical mineral reserve claimed",
+      "provenance_flag": "Regional game representation; not exact shaft identity",
+      "site_id": "legacy_1",
+      "token": 258834184,
+      "arm_level": 5
+    },
+    {
+      "industry_id": 11,
+      "record_sha256": "63b26e971b3c6537157c965ecebc80161a9d3606be2d25b63d118be37bee31a2",
+      "location.tile": 5265313,
+      "location.w": 2,
+      "location.h": 3,
+      "type": 1,
+      "founder": 16,
+      "construction_date": 668394,
+      "construction_type": 1,
+      "selected_layout": 2,
+      "random": 49538,
+      "prod_level": 16,
+      "ctlflags": 0,
+      "tile": 5265313,
+      "x": 1953,
+      "y": 1285,
+      "local_id": 0,
+      "industry": "coal_mine",
+      "region": "DE",
+      "nearest_town": "ELBERFELD",
+      "cargo_outputs": [
+        "COAL"
+      ],
+      "cargo_inputs": [
+        "ENSP"
+      ],
+      "downstream_industry_ids": [
+        378,
+        379,
+        380,
+        398,
+        381,
+        399,
+        400,
+        382,
+        383,
+        384,
+        385,
+        401,
+        386,
+        402,
+        387,
+        403,
+        404,
+        388,
+        405,
+        406,
+        389,
+        407,
+        390,
+        408,
+        391,
+        440
+      ],
+      "historical_locality": "Nachtigall shallow Ruhr workings",
+      "historical_source": "https://zeche-nachtigall.lwl.org/en/history/",
+      "historical_confidence": "Locality-scale sourced district",
+      "lifecycle_class": "finite fossil deposit",
+      "reserves": "UNVERIFIED \u2014 no numerical mineral reserve claimed",
+      "provenance_flag": "Regional game representation; not exact shaft identity",
+      "site_id": "legacy_11",
+      "token": 104539881,
+      "arm_level": 6
+    },
+    {
+      "industry_id": 12,
+      "record_sha256": "1fb2e72407ab3c443786c03b596070469140508078e786ca041118e1736ad993",
+      "location.tile": 6042354,
+      "location.w": 3,
+      "location.h": 4,
+      "type": 1,
+      "founder": 16,
+      "construction_date": 668394,
+      "construction_type": 1,
+      "selected_layout": 1,
+      "random": 19487,
+      "prod_level": 16,
+      "ctlflags": 0,
+      "tile": 6042354,
+      "x": 754,
+      "y": 1475,
+      "local_id": 0,
+      "industry": "coal_mine",
+      "region": "PL",
+      "nearest_town": "Gliwice",
+      "cargo_outputs": [
+        "COAL"
+      ],
+      "cargo_inputs": [
+        "ENSP"
+      ],
+      "downstream_industry_ids": [
+        378,
+        379,
+        380,
+        398,
+        381,
+        399,
+        400,
+        382,
+        383,
+        384,
+        385,
+        401,
+        386,
+        402,
+        387,
+        403,
+        404,
+        388,
+        405,
+        406,
+        389,
+        407,
+        390,
+        408,
+        391,
+        440
+      ],
+      "historical_locality": "Queen Louise Upper Silesian workings",
+      "historical_source": "https://dzienniki.slask.eu/WDU_S/2023/1601/akt.pdf",
+      "historical_confidence": "Locality-scale sourced district",
+      "lifecycle_class": "finite fossil deposit",
+      "reserves": "UNVERIFIED \u2014 no numerical mineral reserve claimed",
+      "provenance_flag": "Regional game representation; not exact shaft identity",
+      "site_id": "legacy_12",
+      "token": 33238642,
+      "arm_level": 7
+    },
+    {
+      "industry_id": 438,
+      "record_sha256": "2a2fe1c16de89974163ff176f6fa4616e80806ee7ccf315e0a4bc6b1f66d764e",
+      "location.tile": 6106310,
+      "location.w": 4,
+      "location.h": 4,
+      "type": 55,
+      "founder": 16,
+      "construction_date": 668394,
+      "construction_type": 1,
+      "selected_layout": 1,
+      "random": 930,
+      "prod_level": 16,
+      "ctlflags": 0,
+      "tile": 6106310,
+      "x": 3270,
+      "y": 1490,
+      "local_id": 64,
+      "industry": "copper_mine",
+      "region": "GB",
+      "nearest_town": "Falmouth",
+      "cargo_outputs": [
+        "CORE"
+      ],
+      "cargo_inputs": [
+        "ENSP"
+      ],
+      "downstream_industry_ids": [
+        440
+      ],
+      "historical_locality": "Dolcoath copper mining district",
+      "historical_source": "https://whc.unesco.org/en/list/1215/",
+      "historical_confidence": "Locality-scale sourced district",
+      "lifecycle_class": "finite mineral deposit; extraction-specific policy required",
+      "reserves": "UNVERIFIED \u2014 no numerical mineral reserve claimed",
+      "provenance_flag": "Regional game representation; not exact shaft identity",
+      "site_id": "legacy_438",
+      "token": 44236316,
+      "arm_level": 9
+    }
+  ],
+  "commands": [
+    [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+      "src/render_lang.py"
+    ],
+    [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+      "src/render_nml.py"
+    ],
+    [
+      "C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-europe\\.venv\\Scripts\\python.exe",
+      "-m",
+      "nml.main",
+      "-c",
+      "-l",
+      "generated/lang",
+      "--grf=C:\\Users\\Kladd\\Documents\\Codex\\2026-10-28\\openttd-europe-1830-2025-local-newgrf\\newgrfs\\axis-historical-legacy\\dist\\axis-historical-europe-0.5.0-legacy-candidate.grf",
+      "generated/firs.nml"
+    ]
+  ],
+  "engine_patch": false,
+  "models_equal_in_all_six_economies": true,
+  "economies": {
+    "BASIC_TEMPERATE": {
+      "industries": 96,
+      "cargos": 64
+    },
+    "STEELTOWN": {
+      "industries": 83,
+      "cargos": 64
+    },
+    "BASIC_TROPIC": {
+      "industries": 86,
+      "cargos": 64
+    },
+    "BASIC_ARCTIC": {
+      "industries": 17,
+      "cargos": 19
+    },
+    "BETTER_LIVING_THROUGH_CHEMISTRY": {
+      "industries": 49,
+      "cargos": 49
+    },
+    "IN_A_HOT_COUNTRY": {
+      "industries": 30,
+      "cargos": 29
+    }
+  }
+}
