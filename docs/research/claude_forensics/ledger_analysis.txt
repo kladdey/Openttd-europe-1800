@@ -1,0 +1,55 @@
+tag | yr | age d | billed running | billed/catalogue | revenue | delivered | reliability
+rail-coal-ledger | 1800 | 365 | 666 | 1.20 | 2208 | 192 | 76
+rail-coal-ledger | 1801 | 730 | 601 | 1.09 | 2208 | 192 | 90
+rail-coal-ledger | 1802 | 1095 | 600 | 1.08 | 2484 | 216 | 91
+rail-coal-ledger | 1803 | 1460 | 651 | 1.18 | 2484 | 216 | 92
+rail-coal-ledger | 1804 | 1826 | 655 | 1.18 | 2484 | 216 | 93
+rail-coal-ledger | 1805 | 2191 | 719 | 1.30 | 2208 | 192 | 94
+rail-coal-ledger | 1806 | 2556 | 848 | 1.53 | 2484 | 216 | 91
+rail-coal-ledger | 1807 | 2921 | 983 | 1.78 | 2208 | 192 | 94
+rail-coal-ledger | 1808 | 3287 | 852 | 1.54 | 2484 | 216 | 96
+rail-coal-ledger | 1809 | 3652 | 967 | 1.75 | 2484 | 216 | 92
+rail-coal-ledger | 1810 | 4017 | 902 | 1.63 | 2484 | 216 | 93
+rail-coal-ledger | 1811 | 4382 | 965 | 1.75 | 2208 | 192 | 95
+rail-coal-ledger | 1812 | 4748 | 1170 | 2.12 | 2484 | 216 | 92
+rail-coal-ledger | 1813 | 5113 | 1036 | 1.87 | 2484 | 216 | 93
+rail-coal-ledger | 1814 | 5478 | 1032 | 1.87 | 2208 | 192 | 94
+rail-coal-ledger | 1815 | 5843 | 1155 | 2.09 | 2484 | 216 | 95
+rail-coal-ledger | 1816 | 6209 | 1158 | 2.09 | 2484 | 216 | 96
+rail-coal-ledger | 1817 | 6574 | 1156 | 2.09 | 2484 | 216 | 91
+rail-coal-ledger | 1818 | 6939 | 1286 | 2.33 | 2484 | 216 | 92
+rail-coal-ledger | 1819 | 7304 | 1288 | 2.33 | 2208 | 192 | 93
+rail-grasshopper | 1800 | 365 | 3248 | 1.02 | 1656 | 144 | 69
+rail-grasshopper | 1801 | 730 | 3320 | 1.04 | 1932 | 168 | 77
+rail-grasshopper | 1802 | 1095 | 3180 | 1.00 | 1932 | 168 | 79
+rail-grasshopper | 1803 | 1460 | 3273 | 1.03 | 1656 | 160 | 80
+rail-grasshopper | 1804 | 1826 | 3236 | 1.02 | 1932 | 176 | 80
+rail-wood-final | 1800 | 350 | 593 | 1.07 | 692 | 24 | 71
+rail-wood-final | 1801 | 715 | 684 | 1.24 | 1368 | 48 | 91
+rail-wood-final | 1802 | 1080 | 618 | 1.12 | 1368 | 48 | 72
+rail-wood-final | 1803 | 1445 | 742 | 1.34 | 684 | 24 | 77
+rail-wood-final | 1804 | 1811 | 680 | 1.23 | 1368 | 48 | 82
+rail-wood-grasshopper | 1800 | 350 | 3170 | 1.00 | 648 | 24 | 46
+rail-wood-grasshopper | 1801 | 715 | 3273 | 1.03 | 648 | 24 | 74
+rail-wood-grasshopper | 1802 | 1080 | 3227 | 1.02 | 648 | 24 | 63
+rail-wood-grasshopper | 1803 | 1445 | 3273 | 1.03 | 1272 | 48 | 82
+rail-wood-grasshopper | 1804 | 1811 | 3236 | 1.02 | 648 | 24 | 68
+rail-lodi | 1800 | 364 | 712 | n/a | 5885 | 307 | 76
+rail-lodi | 1801 | 729 | 656 | n/a | 4618 | 241 | 89
+rail-lodi | 1802 | 1094 | 653 | n/a | 5442 | 284 | 95
+rail-lodi | 1803 | 1459 | 766 | n/a | 6597 | 345 | 91
+rail-lodi | 1804 | 1825 | 762 | n/a | 7374 | 386 | 93
+rail-lodi | 1805 | 2190 | 761 | n/a | 7512 | 393 | 91
+rail-lodi | 1806 | 2555 | 904 | n/a | 5924 | 310 | 92
+rail-lodi | 1807 | 2920 | 905 | n/a | 5422 | 283 | 93
+rail-lodi | 1808 | 3286 | 915 | n/a | 3853 | 205 | 93
+rail-lodi | 1809 | 3651 | 1032 | n/a | 3934 | 201 | 93
+
+Planet coal (same route, same consist, 1830-1849 calendar; no calendar surcharge before 1913):
+  billed year1 666, year20 1288; OLS slope 37.0 GBP/yr per year of age; 20-yr mean 934
+Grasshopper coal (same route/consist, 5 yrs): mean 3251, range 3180-3320 (flat)
+Catalogue engine ratio Grasshopper/Planet: 6.00; consist catalogue ratio 5.75
+Billed ratio, years 1-5 (same years): 5.12
+Billed ratio vs Planet 20-yr lifecycle mean (Grasshopper assumed flat, as observed): 3.48
+Years 1-5 mean: Planet revenue 2374, delivered 206; Grasshopper revenue 1822, delivered 163
+Years 1-5 mean (revenue - billed running - 132 property): Planet 1607; Grasshopper -1562

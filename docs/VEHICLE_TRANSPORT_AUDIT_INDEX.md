@@ -49,6 +49,10 @@ and prior research bytes; it is not a generic GitHub CI test. An unrelated
 geography suite has additional dependencies and is not covered by these thirty
 economy tests.
 
+## Independent reinvestigation (Claude, 2026-11)
+
+An independent challenge of the running-cost findings is in [CLAUDE_FLEET_DISCREPANCY_REINVESTIGATION.md](CLAUDE_FLEET_DISCREPANCY_REINVESTIGATION.md), with [forensics](NARS_UKRS2_RUNNING_COST_FORENSICS.md), [UKRS2 assessment](UKRS2_UNDERPRICING_ASSESSMENT.md) and [recommendations](FLEET_BALANCE_INDEPENDENT_RECOMMENDATIONS.md). It re-derives the figures from the committed evidence above plus JGRPP 0.73.4 source. It ran no new game experiments.
+
 ## Historical industry work
 
 The separately developed [historical-industry implementation](AXIS_HISTORICAL_IMPLEMENTATION.md)

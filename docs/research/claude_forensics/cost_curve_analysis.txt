@@ -1,0 +1,55 @@
+## Fitted factor = a + b*hp, steam locomotives introduced <=1950, 1913 snapshot (base factors)
+set | n | a (fixed factor) | b (factor per 1000 hp) | R^2 | exponent | fixed GBP/yr | GBP/yr per hp
+UKRS2 | 22 | -7.7 | 48.3 | 0.918 | +3 | -1,007 | 6.34
+NARS 2.52 | 21 | 19.8 | 15.9 | 0.992 | +4 | 5,193 | 4.17
+NARS Add-On 2cc | 30 | 17.8 | 14.4 | 0.961 | +3 | 2,334 | 1.90
+Polish Train Set | 15 | 19.9 | 50.1 | 0.983 | +1 | 652 | 1.64
+Polish Rolling Stock Pack | 19 | 16.6 | 54.7 | 0.939 | +1 | 546 | 1.79
+
+## Predicted catalogue running cost (GBP/yr) from fitted curves, same hp, 1830-1913 base (no UKRS2 surcharge)
+hp | UKRS2 | NARS 2.52 | NARS Add-On 2cc | Polish Train Set | Polish Rolling Stock Pack
+63 | 131 | 5,456 | 2,453 | 756 | 659
+120 | 131 | 5,694 | 2,561 | 850 | 761
+200 | 262 | 6,028 | 2,713 | 981 | 905
+250 | 579 | 6,236 | 2,808 | 1,063 | 994
+450 | 1,847 | 7,070 | 3,187 | 1,392 | 1,353
+800 | 4,067 | 8,530 | 3,850 | 1,967 | 1,981
+1500 | 8,507 | 11,449 | 5,178 | 3,117 | 3,237
+2000 | 11,678 | 13,535 | 6,126 | 3,938 | 4,135
+3000 | 18,021 | 17,705 | 8,021 | 5,581 | 5,929
+5000 | 30,706 | 26,046 | 11,813 | 8,867 | 9,518
+
+## Size/era-matched steam pairs (UKRS2 counterpart within +-35% hp, +-20 yrs); 1913 base values
+set | engine | intro | hp | run | UKRS2 match | intro | hp | run | run ratio | /hp ratio | = factor ratio x exponent ratio | buy ratio
+NARS 2.52 | 4-2-0 Norris | 1837 | 200 | 6,300 | 0-4-0 Coppernob (Steam | 1844 | 250 | 1,181 | 5.33 | 6.67 | 2.67 x 2 | 0.91
+NARS 2.52 | 4-4-0 American | 1850 | 450 | 7,612 | 0-6-0 Long Boiler (Ste | 1855 | 375 | 1,706 | 4.46 | 3.72 | 2.23 x 2 | 0.96
+NARS 2.52 | 2-6-0 Mogul | 1869 | 650 | 7,612 | 0-6-0 Goods (Steam) | 1873 | 600 | 2,625 | 2.9 | 2.68 | 1.45 x 2 | 0.67
+NARS 2.52 | 2-8-0 Consolidation | 1875 | 800 | 8,137 | 0-6-0 Goods (Steam) | 1873 | 600 | 2,625 | 3.1 | 2.32 | 1.55 x 2 | 0.71
+NARS 2.52 | 4-6-0 Ten-Wheeler | 1885 | 900 | 9,187 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 1.67 | 1.85 | 0.83 x 2 | 0.63
+NARS 2.52 | 4-4-0 Express | 1885 | 900 | 9,450 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 1.71 | 1.9 | 0.86 x 2 | 0.62
+NARS 2.52 | 2-8-0 Consolidation II | 1902 | 1500 | 10,762 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 1.95 | 1.3 | 0.98 x 2 | 0.87
+NARS 2.52 | 4-4-2 Atlantic | 1905 | 1400 | 11,287 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 2.05 | 1.46 | 1.02 x 2 | 0.81
+NARS 2.52 | 0-6-0 Switcher | 1910 | 1000 | 8,137 | 0-8-0 Mineral (Steam) | 1912 | 1000 | 4,068 | 2.0 | 2.0 | 1.0 x 2 | 0.67
+NARS 2.52 | 2-8-2 Mikado | 1911 | 2000 | 13,125 | 4-6-2 Pacific (Steam) | 1922 | 1750 | 10,893 | 1.2 | 1.05 | 0.6 x 2 | 0.72
+NARS 2.52 | 4-6-2 Pacific | 1914 | 1700 | 12,600 | 4-6-2 Pacific (Steam) | 1922 | 1750 | 10,893 | 1.16 | 1.19 | 0.58 x 2 | 0.63
+NARS 2.52 | 4-8-2 Mountain | 1926 | 2200 | 14,175 | 4-6-2 Pacific (Steam) | 1922 | 1750 | 10,893 | 1.3 | 1.04 | 0.65 x 2 | 0.79
+NARS 2.52 | 2-8-4 Berkshire | 1927 | 3000 | 17,325 | 4-6-2 Streak (Steam) | 1937 | 2000 | 14,700 | 1.18 | 0.79 | 0.59 x 2 | 0.93
+NARS 2.52 | 4-6-4 Hudson | 1933 | 2500 | 16,012 | 4-6-2 Streak (Steam) | 1937 | 2000 | 14,700 | 1.09 | 0.87 | 0.54 x 2 | 0.79
+NARS 2.52 | 4-4-4 Jubilee | 1938 | 2100 | 14,700 | 4-6-2 Streak (Steam) | 1937 | 2000 | 14,700 | 1.0 | 0.95 | 0.5 x 2 | 0.63
+NARS Add-On 2cc | 4-6-2 Pacific (NGRL Steam) | 1938 | 1650 | 5,775 | 4-6-0 Jubilee (Steam) | 1934 | 1550 | 8,793 | 0.66 | 0.62 | 0.66 x 1 | 0.69
+NARS Add-On 2cc | 4-6-0 Ten Wheeler (NGRL Stea | 1902 | 900 | 3,937 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 0.71 | 0.79 | 0.71 x 1 | 0.62
+NARS Add-On 2cc | 4-4-0 American (NGRL Steam) | 1878 | 500 | 3,806 | 4-2-2 Spinner (Steam) | 1870 | 500 | 2,493 | 1.53 | 1.53 | 1.53 x 1 | 0.82
+NARS Add-On 2cc | 2-8-2 Mikado (NGRL Steam) | 1916 | 1850 | 5,906 | 4-6-2 Pacific (Steam) | 1922 | 1750 | 10,893 | 0.54 | 0.51 | 0.54 x 1 | 0.68
+NARS Add-On 2cc | 2-8-0 Consolidation (NGRL St | 1877 | 700 | 3,543 | 0-6-0 Goods (Steam) | 1873 | 600 | 2,625 | 1.35 | 1.16 | 1.35 x 1 | 0.67
+NARS Add-On 2cc | 2-6-0 Mogul (NGRL Steam) | 1881 | 500 | 3,281 | 0-6-0 Jinty (Steam) | 1890 | 500 | 2,100 | 1.56 | 1.56 | 1.56 x 1 | 0.8
+NARS Add-On 2cc | 2-4-0 Porter (NGRL Steam) | 1873 | 400 | 3,018 | 4-2-2 Spinner (Steam) | 1870 | 500 | 2,493 | 1.21 | 1.51 | 1.21 x 1 | 0.59
+NARS Add-On 2cc | 0-4-4-0 Class A Shay (NGRL S | 1884 | 400 | 3,018 | 0-6-0 Jinty (Steam) | 1890 | 500 | 2,100 | 1.44 | 1.8 | 1.44 x 1 | 0.67
+NARS Add-On 2cc | 0-6-0 Duchess (NGRL Steam) | 1883 | 350 | 2,756 | 0-4-0 Industrial (Stea | 1890 | 250 | 918 | 3.0 | 2.14 | 3.0 x 1 | 1.14
+NARS Add-On 2cc | 0-4-4-0 Class C Shay (Steam) | 1904 | 1200 | 4,593 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 0.83 | 0.69 | 0.83 x 1 | 0.69
+NARS Add-On 2cc | 0-8-0 Winans "Camel Back" (S | 1853 | 750 | 4,462 | 0-6-0 Goods (Steam) | 1873 | 600 | 2,625 | 1.7 | 1.36 | 1.7 x 1 | 0.86
+NARS Add-On 2cc | 0-8-0 Switcher (Steam) | 1914 | 1250 | 4,462 | 2-6-0 Mogul (Steam) | 1912 | 1100 | 5,118 | 0.87 | 0.77 | 0.87 x 1 | 0.69
+NARS Add-On 2cc | 2-8-0 Sierra Railroad #28 (S | 1922 | 1622 | 6,562 | 4-6-2 Pacific (Steam) | 1922 | 1750 | 10,893 | 0.6 | 0.65 | 0.6 x 1 | 0.63
+NARS Add-On 2cc | 4-4-0 Canadian Pacific #374  | 1886 | 670 | 2,493 | 0-6-0 Jinty (Steam) | 1890 | 500 | 2,100 | 1.19 | 0.89 | 1.19 x 1 | 1.2
+NARS Add-On 2cc | 4-4-0 PRR Class D16 (Steam) | 1895 | 1090 | 2,887 | 4-4-0 Edwardian (Steam | 1904 | 1000 | 5,512 | 0.52 | 0.48 | 0.52 x 1 | 0.92
+NARS Add-On 2cc | 4-6-6T Commuter (Steam) | 1925 | 1500 | 3,150 | 4-4-0 Shire (Steam) | 1927 | 1250 | 7,087 | 0.44 | 0.37 | 0.44 x 1 | 0.27
+NARS Add-On 2cc | 4-6-2 Light Pacific (Steam) | 1908 | 1500 | 6,037 | 2-6-0 Mogul (Steam) | 1912 | 1100 | 5,118 | 1.18 | 0.87 | 1.18 x 1 | 0.85

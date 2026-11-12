@@ -1,0 +1,33 @@
+## Terminal (power/TE-limited) speed, km-ish/h, 12 NARS single hoppers (wagon limit 64)
+loco | empty flat | loaded flat (W t) | loaded, whole train on 3% grade | max total train t on 3% (TE/325 N/t)
+Planet (UKRS2 1830) | 43.4 | 21.5 (398) | STALL | 34
+Grasshopper (Add-on 1830) | 29.2 | 16.0 (392) | STALL | 34
+Norris (NARS 1837/38) | 56.0 | 41.0 (404) | STALL | 58
+Coppernob (UKRS2 1844) | 64.0 | 47.6 (421) | STALL | 132
+Crampton (UKRS2 1847) | 64.0 | 58.6 (431) | STALL | 65
+American 4-4-0 (NARS 1850) | 64.0 | 64.0 (425) | STALL | 95
+
+## 32-tile flat route, 12 hoppers loaded out / empty back, running time only (no loading/dwell)
+loco | loaded leg days | empty leg days | round-trip running days | max trips/yr if never waiting for cargo | max t/yr
+Planet (UKRS2 1830) | 104.4 | 28.7 | 133.2 | 2.7 | 658
+Grasshopper (Add-on 1830) | 98.0 | 36.3 | 134.3 | 2.7 | 652
+Norris (NARS 1837/38) | 36.5 | 21.5 | 58.1 | 6.3 | 1,509
+Coppernob (UKRS2 1844) | 26.8 | 18.7 | 45.5 | 8.0 | 1,926
+Crampton (UKRS2 1847) | 33.6 | 19.6 | 53.2 | 6.9 | 1,646
+American 4-4-0 (NARS 1850) | 24.5 | 17.3 | 41.8 | 8.7 | 2,097
+
+## Same route with a sustained 4-tile 3% climb at the end of the loaded leg
+Planet (UKRS2 1830) | STALLS on the grade
+Grasshopper (Add-on 1830) | STALLS on the grade
+Norris (NARS 1837/38) | STALLS on the grade
+Coppernob (UKRS2 1844) | STALLS on the grade
+Crampton (UKRS2 1847) | STALLS on the grade
+American 4-4-0 (NARS 1850) | STALLS on the grade
+
+## Largest number of loaded NARS hoppers that can climb a sustained 3% grade at all
+Planet (UKRS2 1830) | 0 hoppers (0 t coal)
+Grasshopper (Add-on 1830) | 0 hoppers (0 t coal)
+Norris (NARS 1837/38) | 1 hoppers (20 t coal)
+Coppernob (UKRS2 1844) | 2 hoppers (40 t coal)
+Crampton (UKRS2 1847) | 0 hoppers (0 t coal)
+American 4-4-0 (NARS 1850) | 1 hoppers (20 t coal)
