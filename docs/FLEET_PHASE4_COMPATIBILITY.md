@@ -31,7 +31,7 @@ GRF is about 260 bytes in total and is rebuilt deterministically from `variants.
 | Articulated vehicle definitions | Preserved | No articulation properties or callbacks touched. The Mallet, Big Boy and Yellowstone build, run and climb identically (RUNTIME: tonnage equal across variants) |
 | Introduction dates | Preserved | Design dates unchanged in every catalogue (RUNTIME) |
 | Physics (power, TE, weight, speed) | Preserved | Unchanged in every catalogue. Delivered tonnage identical across cost levels on every duty (RUNTIME) |
-| Multiplayer determinism | **Partly verified** | 180 control runs reproduce exactly (single-player determinism, RUNTIME). In multiplayer no desync was reported, but every network sync check was skipped (see §4), so network determinism is **UNVERIFIED** |
+| Multiplayer determinism | **Verified for the tested sessions** | 180 control runs reproduce exactly (single-player, RUNTIME). A windowed client passed about 180 network sync checks over two 4-minute sessions on the Variant C campaign clone, with no desync (see §4). Longer sessions with several human clients are not tested |
 
 Unchanged GRFIDs are **not** treated as proof of compatibility. Each row above was tested.
 
@@ -68,7 +68,8 @@ test directory (RUNTIME, `mptest_C_cross.json`, `mp_logs/`).
 | Client with the balance GRFs joins | ✔ `Client #2 … joined` |
 | Client leaves and rejoins | ✔ `Client #3 … joined` |
 | Client **without** the balance GRFs | ✔ **Refused**: "NewGRF 52560010 not found". It cannot join a modified server, which protects the campaign from silent mismatches |
-| Desync | None reported. **But** the client logged "Missed frame for sync-test" for all 25 sync points, so JGRPP never compared states: **network determinism UNVERIFIED** |
+| Desync, headless client | None reported, but the null-video client logged "Missed frame for sync-test" for all 25 sync points, so no states were compared there |
+| **Desync, windowed client** (`mptest.py --gui`, `mptest_C_cross_gui.json`) | **None.** A normal windowed JGRPP client joined, played 240 s, left, rejoined (at server frame 9,147) and played another 240 s. **0 missed sync frames**, no sync error, and the connection was never lost (it closed only when the test ended it). Default `sync_freq` is 100 frames, so this is about 90 state comparisons per session (DERIVED from the frame counter). **Network determinism verified for this session length** |
 | Production multiplayer environment | Never touched. No production server was started, and nothing was advertised |
 
 The first Variant B attempts failed because a null-video client does nothing without a

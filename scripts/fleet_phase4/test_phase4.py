@@ -65,6 +65,13 @@ for v in ('B_steam', 'C_cross'):
     t = json.loads((OUT / f'savetest_{v}.json').read_text())
     check(f'save {v}: production save folder and source untouched', t['production_save_dir_unchanged'] and t['source_unchanged'])
 
+# 6b. Windowed multiplayer client: sync checks performed, no desync
+g = OUT / 'mptest_C_cross_gui.json'
+if g.exists():
+    m = json.loads(g.read_text())
+    check('GUI client: 2 joins, 0 missed sync frames, no desync',
+          sum(' joined as ' in l for l in m['server_connect_lines']) == 2 and all(c['missed'] == 0 and not c['desync'] for c in m['client_full']) and not m['server_desync_lines'])
+
 # 7. Built GRFs are byte-identical to the GRFs used in the runs
 man = json.loads((OUT / 'grf_build' / 'MANIFEST.json').read_text())
 same = []

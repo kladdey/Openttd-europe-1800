@@ -38,6 +38,8 @@ def text(p):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--variant', required=True)
+    ap.add_argument('--gui', action='store_true', help='normal windowed client (real-time, sync checks performed)')
+    ap.add_argument('--seconds', type=int, default=120)
     a = ap.parse_args()
     extras = V.extras(a.variant)
     save = rv.RUNS / '_saves' / f'clone_{a.variant}_gs.sav'
@@ -51,10 +53,13 @@ def main():
     while 'RV_OBSERVE_MONTH|0' not in text(srv / 'server.log') and time.time() - t0 < 600:
         time.sleep(2)
     res['server_ready_s'] = round(time.time() - t0)
-    for i, (home, label) in enumerate(((cli, "join"), (cli, "rejoin"), (bad, "client without balance GRFs"))):
+    steps = ((cli, 'gui join'), (cli, 'gui rejoin')) if a.gui else ((cli, 'join'), (cli, 'rejoin'), (bad, 'client without balance GRFs'))
+    for i, (home, label) in enumerate(steps):
         log = f'client{i}.log'
-        C = start(home, ['-v', 'null:ticks=100000000', '-n', f'127.0.0.1:{PORT}'], log)
-        time.sleep(120)
+        video = ['-r', '1280x720'] if a.gui else ['-v', 'null:ticks=100000000']
+        C = start(home, video + ['-n', f'127.0.0.1:{PORT}'], log)
+        time.sleep(a.seconds)
+        res.setdefault('client_full', []).append(dict(step=label, missed=text(home / log).count('Missed frame'), desync=[l for l in text(home / log).splitlines() if 'desync' in l.lower() or 'sync error' in l.lower()][:10], lost=[l for l in text(home / log).splitlines() if 'lost' in l.lower() or 'closed' in l.lower() or 'error' in l.lower()][:10]))
         C.kill(); C.wait()
         res['events'].append(dict(step=label, client_log_tail=text(home / log)[-1500:]))
         time.sleep(5)
@@ -67,14 +72,14 @@ def main():
     res['server_grf_lines'] = [l for l in log.splitlines() if 'newgrf' in l.lower() and ('mismatch' in l.lower() or 'missing' in l.lower())][:20]
     res['server_net_lines'] = [l for l in log.splitlines() if '[net' in l][:80]
     res['server_observe_months'] = log.count('RV_OBSERVE_MONTH|')
-    (P4.OUT / f'mptest_{a.variant}.json').write_text(json.dumps(res, indent=2))
+    (P4.OUT / f"mptest_{a.variant}{'_gui' if a.gui else ''}.json").write_text(json.dumps(res, indent=2))
     rv.KEEP_RUN_DIRS = False
     for h in (srv, cli, bad):
         for f in ('server.log', 'client0.log', 'client1.log', 'client2.log'):
             if (h / f).exists():
                 (P4.OUT / 'mp_logs').mkdir(exist_ok=True)
                 lines = [l for l in text(h / f).splitlines() if '[net' in l or 'RV_' in l or 'desync' in l.lower() or 'error' in l.lower()]
-                (P4.OUT / 'mp_logs' / f'{a.variant}_{h.name}_{f}').write_text('\n'.join(lines[-400:]))
+                (P4.OUT / 'mp_logs' / f"{a.variant}{'_gui' if a.gui else ''}_{h.name}_{f}").write_text('\n'.join(lines[-400:]))
         rv.cleanup(h)
     print(json.dumps({k: res[k] for k in ('server_ready_s', 'server_joins', 'server_desync_lines', 'server_observe_months')}, indent=1))
 

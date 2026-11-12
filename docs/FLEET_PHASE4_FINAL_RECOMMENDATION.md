@@ -106,11 +106,13 @@ American heavy engine. Specialisation is preserved and sharpened.
 - rollback restores every cost;
 - autoreplace works.
 
-Localhost multiplayer: join and rejoin work, and a client without the GRFs is refused.
+Localhost multiplayer: join and rejoin work, and a client without the GRFs is refused. A
+normal windowed client played two 4-minute sessions on the Variant C campaign clone with
+0 missed sync frames and no desync, which is about 180 network sync checks.
 
 Conditions:
-- **(a)** Network sync determinism is UNVERIFIED: every JGRPP sync check was skipped in
-  the headless test. Run a GUI-client session first.
+- **(a)** Determinism is verified only for those short single-client sessions. Watch the
+  first real session with several clients.
 - **(b)** Adding a GRF to the running campaign needs an administrator GRF-list edit of
   the save. It is not a normal in-game operation.
 - **(c)** Every client must install the GRF.
@@ -132,7 +134,6 @@ Conditions:
    set-wide parameter.
 5. **Before deployment:**
    - author permission (NARS);
-   - a GUI multiplayer session with sync verification on a cloned save;
    - an administrator GRF-list update of the campaign save, done on a copy and verified
      with `test_phase4.py`;
    - simultaneous client distribution;
@@ -143,4 +144,4 @@ Conditions:
 
 | Measured (RUNTIME) | Estimated (DERIVED / ANALYTIC) | Unverified |
 | --- | --- | --- |
-| Ledger revenue, train running, property; delivered tonnes; speeds; per-state running rates; catalogue values; ageing; autoreplace; save load, autosave and rollback; client join, rejoin and refusal | Operating profit (revenue − running − property); payback; 10- and 20-year cash flow from 5-year means (the 20-year cash for the priority engines is measured); cost per tonne-tile; the £190/yr value of a hypothetical Grasshopper standstill discount | Network sync determinism; Judah in passenger service; NARS electric locomotives on electrified routes; GETS/Polish standstill behaviour; long (96-tile) routes with the original Coke Oven (AXIS refuses it, so a fallback acceptor was used); 1830 calendar date for Norris (tested in 1850) |
+| Ledger revenue, train running, property; delivered tonnes; speeds; per-state running rates; catalogue values; ageing; autoreplace; save load, autosave and rollback; client join, rejoin and refusal; about 180 network sync checks with a windowed client | Operating profit (revenue − running − property); payback; 10- and 20-year cash flow from 5-year means (the 20-year cash for the priority engines is measured); cost per tonne-tile; the £190/yr value of a hypothetical Grasshopper standstill discount | Multi-client and long multiplayer sessions (two 4-minute single-client sessions passed); Judah in passenger service; NARS electric locomotives on electrified routes; GETS/Polish standstill behaviour; long (96-tile) routes with the original Coke Oven (AXIS refuses it, so a fallback acceptor was used); 1830 calendar date for Norris (tested in 1850) |

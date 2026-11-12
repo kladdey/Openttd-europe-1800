@@ -1,0 +1,65 @@
+{
+  "variant": "C_cross",
+  "port": 3989,
+  "events": [
+    {
+      "step": "gui join",
+      "client_log_tail": "nloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT11.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT16.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT09.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT18.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT19.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT21.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT17.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT20.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT07.GM\ndbg: [misc:1] Not adding original_windows (1) as base music set (duplicate, lower version)\ndbg: [net:3] Initializing UDP listeners\ndbg: [net:3] Connected to 127.0.0.1:3989\ndbg: [net:3] [crypto] Creating a new random key\n"
+    },
+    {
+      "step": "gui rejoin",
+      "client_log_tail": "nloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT11.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT16.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT09.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT18.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT19.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT21.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT17.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT20.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT07.GM\ndbg: [misc:1] Not adding original_windows (1) as base music set (duplicate, lower version)\ndbg: [net:3] Initializing UDP listeners\ndbg: [net:3] Connected to 127.0.0.1:3989\ndbg: [net:3] [crypto] Creating a new random key\n"
+    }
+  ],
+  "server_ready_s": 2,
+  "client_full": [
+    {
+      "step": "gui join",
+      "missed": 0,
+      "desync": [],
+      "lost": []
+    },
+    {
+      "step": "gui rejoin",
+      "missed": 0,
+      "desync": [],
+      "lost": []
+    }
+  ],
+  "server_joins": 4,
+  "server_connect_lines": [
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 75",
+    "dbg: [net:3] [server] Client #2 (127.0.0.1) joined as rv-oss-client, pubkey: 635D2E3AD2F6EDF53C55FFF69C42ED9D9992AFAEE9A3F7D59FDFA4DA65DECA0F",
+    "dbg: [net:3] [server] Client #2 closed connection",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 9147",
+    "dbg: [net:3] [server] Client #3 (127.0.0.1) joined as rv-oss-client, pubkey: 5CF3C8911E6FB163BD92365941B3FA2921785E31DCA60AF7E02D60132D358540",
+    "dbg: [net:3] [server] Client #3 closed connection"
+  ],
+  "client_sync_missed": [
+    "gui join: 0",
+    "gui rejoin: 0"
+  ],
+  "server_desync_lines": [],
+  "server_grf_lines": [],
+  "server_net_lines": [
+    "dbg: [net:3] Starting dedicated server, version jgrpp-0.73.4",
+    "dbg: [net:3] Starting network",
+    "dbg: [net:3] Initializing UDP listeners",
+    "dbg: [net:3] Network online, multiplayer available",
+    "dbg: [net:3] Detected broadcast addresses:",
+    "dbg: [net:3]   0) 192.168.18.255",
+    "dbg: [net:3]   1) 192.168.194.255",
+    "dbg: [net:3] Network revision name: jgrpp-0.73.4",
+    "dbg: [net:3] Initializing UDP listeners",
+    "dbg: [net:3] Initializing UDP listeners",
+    "dbg: [net:3] Listening on 127.0.0.1:3989 (IPv4)",
+    "dbg: [net:3] Listening on 127.0.0.1:3989 (IPv4)",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 75",
+    "dbg: [net:3] [server] Client #2 (127.0.0.1) joined as rv-oss-client, pubkey: 635D2E3AD2F6EDF53C55FFF69C42ED9D9992AFAEE9A3F7D59FDFA4DA65DECA0F",
+    "dbg: [net:3] [server] Client #2 closed connection",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 9147",
+    "dbg: [net:3] [server] Client #3 (127.0.0.1) joined as rv-oss-client, pubkey: 5CF3C8911E6FB163BD92365941B3FA2921785E31DCA60AF7E02D60132D358540",
+    "dbg: [net:3] [server] Client #3 closed connection"
+  ],
+  "server_observe_months": 9
+}
