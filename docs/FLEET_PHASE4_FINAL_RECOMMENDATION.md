@@ -155,3 +155,24 @@ Conditions:
 | Measured (RUNTIME) | Estimated (DERIVED / ANALYTIC) | Unverified |
 | --- | --- | --- |
 | Ledger revenue, train running, property; delivered tonnes; speeds; per-state running rates; catalogue values; ageing; autoreplace; save load, autosave and rollback; client join, rejoin and refusal; about 180 network sync checks with a windowed client; Judah in 1866 passenger service | Operating profit (revenue − running − property); payback; 10- and 20-year cash flow from 5-year means (the 20-year cash for the priority engines is measured); cost per tonne-tile; the £190/yr value of a hypothetical Grasshopper standstill discount | Multi-client and long multiplayer sessions (two 4-minute single-client sessions passed); NARS electric locomotives on electrified routes; GETS/Polish standstill behaviour; long (96-tile) routes with the original Coke Oven (AXIS refuses it, so a fallback acceptor was used); 1830 calendar date for Norris (tested in 1850) |
+
+## Deployment package (prepared 2026-11-12, not deployed)
+
+Location: [`deploy/europe1830-balance-v1/`](../deploy/europe1830-balance-v1/) in git. The
+local package, which also contains the balanced campaign save, is in
+`C:\Users\Kladd\OTTD-runtime-validation\deploy\europe1830-balance-v1\` and `.zip`.
+Install and rollback steps are in its `README.md`. The package GRFs carry production names
+(*Europe 1830 Balance v1*); their content is otherwise Variant C.
+
+Native JGRPP checks on the exact package (`verification.json`, RUNTIME):
+
+- **Catalogue:** identical to the tested Variant C GRFs for all 2,854 engines at 1850,
+  1925 and 2000.
+- **Balanced campaign save:** all 176 trains keep their identity. The 14 engine types in
+  use have exactly the tested Variant C costs, and no purchase price changes.
+- **Campaign GameScript:** the save loads and runs with the campaign's own "Historical
+  Industry Lifecycle" GameScript (240 s, no script errors, no missing GRFs).
+- **Rollback:** `apply_balance.py rollback` output is content-identical to the original
+  save.
+
+The source save was only read; its SHA-256 was unchanged afterwards.

@@ -1,0 +1,30 @@
+{
+  "tag": "deploy-cat-1850",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\deploy-cat-1850\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\deploy-cat-1850\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 3.7,
+  "full_log_sha256": "77dd03a296e7c693f140f2d6698af8143374fc69735ef078d2b99b966bd03e0d",
+  "full_log_bytes": 10025385,
+  "production_files_unchanged": true,
+  "free_gb_after": 76.0,
+  "run_dir_deleted": true
+}

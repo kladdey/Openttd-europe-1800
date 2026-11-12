@@ -34,7 +34,7 @@ def build(spec):
                engines:[{id:local, factor:int|None, cls:'steam'|'diesel'|'electric'|int|None}]}"""
     own = bytes.fromhex(spec['grfid'])
     tgt = bytes.fromhex(spec['target'])
-    sprites = [b'\x08\x08' + own + spec['name'].encode() + b'\x00' + b'Europe 1830 Phase 4 experimental balance (test only)\x00',
+    sprites = [b'\x08\x08' + own + spec['name'].encode() + b'\x00' + spec.get('desc', 'Europe 1830 Phase 4 experimental balance (test only)').encode() + b'\x00',
                b'\x00\x08\x01\x01\x00\x11' + own + tgt]
     for p, e in sorted(spec.get('prices', {}).items()):
         assert -8 <= e <= 8

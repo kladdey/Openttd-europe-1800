@@ -114,5 +114,15 @@ check('Judah C improves on short passenger duty but stays below Lady, Crampton, 
 check('American C not overpowered in 1866 passenger (<= 1.05 x Lady)',
       J[('C_cross', '1586', '96')] <= 1.05 * J[('original', '1533', '96')] and J[('C_cross', '1586', '48')] <= 1.05 * J[('original', '1533', '48')])
 
+# 10. Deployment package verification
+dv = Path(__file__).resolve().parents[2] / 'deploy' / 'europe1830-balance-v1' / 'verification.json'
+v = json.loads(dv.read_text())
+check('deployment package: catalogue equals tested Variant C at 3 dates', all(not x['differences'] for x in v['catalogue_equivalence_to_tested_variant_C'].values()))
+check('deployment save: identities kept, costs = tested C, prices unchanged', v['observer']['identity_equal_to_original'] and all(v['observer']['engine_costs_equal_to_tested_C'].values()) and v['observer']['engine_prices_equal_to_original'])
+check('deployment save runs with the campaign GameScript, rollback exact', not v['campaign_gamescript_run']['script_errors'] and not v['campaign_gamescript_run']['grf_not_found'] and v['campaign_gamescript_run']['gs_lines'] > 0 and v['rollback_content_identical_to_original'] and v['source']['unchanged'])
+gdir = dv.parent / 'newgrf'
+check('package GRF checksums match SHA256SUMS', all(hashlib.sha256((dv.parent / l.split()[1].lstrip('*')).read_bytes()).hexdigest() == l.split()[0]
+      for l in (dv.parent / 'SHA256SUMS.txt').read_text().splitlines() if l.strip() and 'local package only' not in l))
+
 print(f'\n{len(fails)} failures')
 sys.exit(1 if fails else 0)

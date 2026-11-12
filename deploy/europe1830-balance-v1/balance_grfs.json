@@ -1,0 +1,16 @@
+[
+  {
+    "filename": "europe1830_balance_v1_nars.grf",
+    "grfid": "52560010",
+    "md5": "6FDC517374670B87D9E3D51DDC3FC052",
+    "name": "Europe 1830 Balance v1 - NARS 2.52",
+    "after": "44440302"
+  },
+  {
+    "filename": "europe1830_balance_v1_nars_addon.grf",
+    "grfid": "52560011",
+    "md5": "C5D260D1FA179BA85FCB040BC49866A3",
+    "name": "Europe 1830 Balance v1 - NARS Add-On",
+    "after": "4E4D0518"
+  }
+]

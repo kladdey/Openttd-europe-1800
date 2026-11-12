@@ -1,0 +1,116 @@
+{
+  "grfs": [
+    {
+      "filename": "europe1830_balance_v1_nars.grf",
+      "grfid": "52560010",
+      "md5": "6FDC517374670B87D9E3D51DDC3FC052",
+      "sha256": "291a73c63f00f1e7a963ad9925811541a3583724e301076aeb9cc10afd9e070d",
+      "bytes": 232,
+      "name": "Europe 1830 Balance v1 - NARS 2.52",
+      "after": "44440302",
+      "prices": {
+        "42": 3,
+        "44": 3
+      },
+      "engines": [
+        {
+          "id": 0,
+          "cls": "electric"
+        },
+        {
+          "id": 1,
+          "cls": "electric"
+        }
+      ]
+    },
+    {
+      "filename": "europe1830_balance_v1_nars_addon.grf",
+      "grfid": "52560011",
+      "md5": "C5D260D1FA179BA85FCB040BC49866A3",
+      "sha256": "a4b935ef891055de89d3d1379aa7a85c3b1131216aab335a3d23985510edacc9",
+      "bytes": 201,
+      "name": "Europe 1830 Balance v1 - NARS Add-On",
+      "after": "4E4D0518",
+      "prices": {},
+      "engines": [
+        {
+          "id": 116,
+          "factor": 6
+        },
+        {
+          "id": 122,
+          "factor": 12
+        }
+      ]
+    }
+  ],
+  "catalogue_equivalence_to_tested_variant_C": {
+    "1850": {
+      "engines": 2854,
+      "differences": []
+    },
+    "1925": {
+      "engines": 2854,
+      "differences": []
+    },
+    "2000": {
+      "engines": 2854,
+      "differences": []
+    }
+  },
+  "apply": [
+    "inserted 52560010 after 44440302",
+    "inserted 52560011 after 4E4D0518",
+    "written C:\\Users\\Kladd\\OTTD-runtime-validation\\deploy\\europe1830-balance-v1\\campaign_1893-06-04_balance-v1.sav 3fb39c682d4ffc59392589e946ac9c30c3602efd9f36b321e02c19f6a5c2e63c"
+  ],
+  "observer": {
+    "reason": "completed",
+    "trains": 176,
+    "identity_equal_to_original": true,
+    "engine_costs_equal_to_tested_C": {
+      "1535": true,
+      "2040": true,
+      "3524": true,
+      "1494": true,
+      "1590": true,
+      "1495": true,
+      "1496": true,
+      "1532": true,
+      "3610": true,
+      "1531": true,
+      "3660": true,
+      "1533": true,
+      "1534": true,
+      "3519": true
+    },
+    "engine_prices_equal_to_original": true
+  },
+  "campaign_gamescript_run": {
+    "reason": "wall timeout",
+    "seconds": 240.3,
+    "gs_lines": 10,
+    "script_errors": [],
+    "grf_not_found": [],
+    "first_gs_lines": [
+      "dbg: [script:4] [3] [I] Downgrading API to be compatible with version 15",
+      "dbg: [script:4] [18] [I] P7 EVENT|legacy_loaded|scheduler|schema=2|sites=4",
+      "dbg: [script:4] [18] [I] P7 EVENT|expansion_loaded|scheduler|schema=3",
+      "dbg: [script:4] [18] [I] P7 EVENT|legacy_decline|legacy_1|calendar=692135|level=8",
+      "dbg: [script:4] [18] [I] P7 EVENT|news|italy_workshop|ok=true|Italy metal workshop expansion planned in Italy from 1900; no company reservation or subsidy.",
+      "dbg: [script:4] [18] [I] P7 EVENT|processor_arm|krakow_old_mill|calendar=692135|token=160151938",
+      "dbg: [script:4] [18] [I] P7 EVENT|processor_commit|krakow_old_mill|calendar=692175",
+      "dbg: [script:4] [18] [I] P7 EVENT|processor_closed|krakow_old_mill|calendar=692225|industry=275"
+    ]
+  },
+  "rollback_content_identical_to_original": true,
+  "source": {
+    "name": "<newest campaign save, 1893-06-04.sav>",
+    "sha256": "12aea0671df55051edda01498c021777a0a218285c4dff48a79aad554b11757c",
+    "unchanged": true
+  },
+  "package_save": {
+    "file": "campaign_1893-06-04_balance-v1.sav",
+    "sha256": "3fb39c682d4ffc59392589e946ac9c30c3602efd9f36b321e02c19f6a5c2e63c",
+    "bytes": 10798140
+  }
+}

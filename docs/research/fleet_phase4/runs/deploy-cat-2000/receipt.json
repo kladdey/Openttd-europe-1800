@@ -1,0 +1,30 @@
+{
+  "tag": "deploy-cat-2000",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\deploy-cat-2000\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\deploy-cat-2000\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 2.6,
+  "full_log_sha256": "deb4d8effc7ac3d1b26db44f0424ebd79c87183e0c5ccdf4c22da95dd189561e",
+  "full_log_bytes": 10023306,
+  "production_files_unchanged": true,
+  "free_gb_after": 75.9,
+  "run_dir_deleted": true
+}
