@@ -67,7 +67,7 @@ The share of the era-best on the engine's own duty:
 | NARS 4-4-0 American | 1860 freight | 0.56 |
 | Grasshopper | 1850 passenger | 0.30 |
 | Grasshopper | 1850 freight vs Planet | 0.42 |
-| T.D. Judah | — | 0.22–0.30 |
+| T.D. Judah | 1866 light passenger / full trains | 0.70 / 0.59 (0.22–0.30 on coal) |
 | Mallet | 1945 flat / grade | 0.63 / 0.63 |
 | Santa Fe | 1925–45 flat | 0.71–0.79 |
 | NARS Express | 1890 passenger | 0.81 |
@@ -116,8 +116,9 @@ Conditions:
 - **(b)** Adding a GRF to the running campaign needs an administrator GRF-list edit of
   the save. It is not a normal in-game operation.
 - **(c)** Every client must install the GRF.
-- **(d)** NARS 2.52 is copyrighted without a licence grant. Ask PikkaBird before
-  distributing a GRF that rebalances NARS.
+- **(d)** ~~Ask PikkaBird before distributing a NARS rebalance.~~ **Resolved 2026-11-12:**
+  the project owner reports that permission was obtained from the NARS author. Keep the
+  written permission with the project records (not verified by me).
 
 **10. Exact changes to approve for production.**
 
@@ -127,13 +128,22 @@ Conditions:
    all verified).
 2. **Approve the Grasshopper part of the Add-On GRF** (`52560011`, L116 factor 6 =
    £787). *Confidence: high.*
-3. **Hold the T.D. Judah change** (L122 factor 12 = £1,575). It was measured only on
-   1878 coal, which is not its passenger role. Test it on 1863–1880 light passenger duty
-   before approving.
+3. **Approve the T.D. Judah change** (L122 factor 12 = £1,575). *Confidence:
+   medium-high.* It was tested in its passenger role (suite `judah`: 1866, 5 seeds, RUNTIME
+   ledgers, profit DERIVED).
+   - **48-tile, 4-coach route:** £9.8k → £12.2k (0.70 → 0.86 of the best, the UKRS2 Lady
+     at £14.2k). It still trails Coppernob (£12.9k) and Crampton (£13.5k), and stays the
+     cheapest to buy, with a 1.0-year payback.
+   - **96-tile, full 7-tile train:** £21.3k → £23.7k (0.66). At 126 hp it can't move full
+     trains quickly (27.8 km-ish/h), so it stays a light-train engine.
+
+   It becomes a sensible budget light-passenger engine and is not overpowered. In the same
+   test, the NARS American under C reaches 0.87 on the short route and parity on the long
+   one (£35.7k against the Lady's £36.0k), up from 0.59 and 0.88.
 4. **No change** to UKRS2, GETS, the Polish sets, purchase prices, or the Add-On's
    set-wide parameter.
 5. **Before deployment:**
-   - author permission (NARS);
+   - ~~author permission (NARS)~~: obtained (reported by the project owner, 2026-11-12);
    - an administrator GRF-list update of the campaign save, done on a copy and verified
      with `test_phase4.py`;
    - simultaneous client distribution;
@@ -144,4 +154,4 @@ Conditions:
 
 | Measured (RUNTIME) | Estimated (DERIVED / ANALYTIC) | Unverified |
 | --- | --- | --- |
-| Ledger revenue, train running, property; delivered tonnes; speeds; per-state running rates; catalogue values; ageing; autoreplace; save load, autosave and rollback; client join, rejoin and refusal; about 180 network sync checks with a windowed client | Operating profit (revenue − running − property); payback; 10- and 20-year cash flow from 5-year means (the 20-year cash for the priority engines is measured); cost per tonne-tile; the £190/yr value of a hypothetical Grasshopper standstill discount | Multi-client and long multiplayer sessions (two 4-minute single-client sessions passed); Judah in passenger service; NARS electric locomotives on electrified routes; GETS/Polish standstill behaviour; long (96-tile) routes with the original Coke Oven (AXIS refuses it, so a fallback acceptor was used); 1830 calendar date for Norris (tested in 1850) |
+| Ledger revenue, train running, property; delivered tonnes; speeds; per-state running rates; catalogue values; ageing; autoreplace; save load, autosave and rollback; client join, rejoin and refusal; about 180 network sync checks with a windowed client; Judah in 1866 passenger service | Operating profit (revenue − running − property); payback; 10- and 20-year cash flow from 5-year means (the 20-year cash for the priority engines is measured); cost per tonne-tile; the £190/yr value of a hypothetical Grasshopper standstill discount | Multi-client and long multiplayer sessions (two 4-minute single-client sessions passed); NARS electric locomotives on electrified routes; GETS/Polish standstill behaviour; long (96-tile) routes with the original Coke Oven (AXIS refuses it, so a fallback acceptor was used); 1830 calendar date for Norris (tested in 1850) |

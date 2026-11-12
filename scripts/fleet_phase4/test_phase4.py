@@ -106,5 +106,13 @@ for k, engs in era.items():
                 worst = max(worst, d['C_cross'][0] / max(others))
 check('Variant C creates no NARS outlier (<= 1.10 x best other engine in any era/duty)', worst <= 1.10, f'max {worst:.3f}')
 
+# 9. Judah in its passenger role (1866)
+J = {(r['label'], r['engine'], r['distance']): float(r['operating_profit_DERIVED']) for r in A if r['suite'] == 'judah' and r.get('operating_profit_DERIVED')}
+rivals = [J[('original', e, '48')] for e in ('1533', '1532', '1531')]
+check('Judah C improves on short passenger duty but stays below Lady, Crampton, Coppernob',
+      J[('original', '2044', '48')] < J[('C_cross', '2044', '48')] < min(rivals))
+check('American C not overpowered in 1866 passenger (<= 1.05 x Lady)',
+      J[('C_cross', '1586', '96')] <= 1.05 * J[('original', '1533', '96')] and J[('C_cross', '1586', '48')] <= 1.05 * J[('original', '1533', '48')])
+
 print(f'\n{len(fails)} failures')
 sys.exit(1 if fails else 0)

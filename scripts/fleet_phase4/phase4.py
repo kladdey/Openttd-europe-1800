@@ -166,6 +166,17 @@ def suite(name):
                 g = route(e, 4, years=3)
                 g['autoreplace_to'] = to
                 jobs.append((f'arep-{vname}-{label}-s734', dict(year=1850, seed=734, mode='route', extras=xx, extra_settings=FIX, gs_config=g)))
+    if name == 'judah':        # T.D. Judah (Add-On, 1863, 126 hp) in its intended light-passenger role
+        import variants as V
+        ex = V.extras('C_cross')
+        for e in (2044, 1533, 1532, 1586, 1531):
+            for vname, xx in (('original', []), ('C_cross', ex)):
+                if vname == 'C_cross' and e not in V.changed_engines('C_cross'):
+                    continue      # unaffected engines are identical under C (determinism controls)
+                for s in SEEDS:
+                    for dist, n in ((48, 4), (96, -1)):
+                        g = dict(route(e, n, wagon=1462, years=4, distance=dist), cargo='PASS')
+                        jobs.append((f'judah-{vname}-{e}-pass{dist}-w{n}-s{s}', dict(year=1866, seed=s, mode='route', extras=xx, extra_settings=FIX, gs_config=g)))
     if name == 'catalogue':
         import variants as V
         for v in ['original'] + V.VARIANTS:

@@ -80,7 +80,7 @@ directory. Those attempts are recorded in `mptest_B_steam.json`.
 
 | Set | Licence (from the package) | Consequence |
 | --- | --- | --- |
-| NARS 2.52 (PikkaBird) | "Copyright 2021 David Dallaston (PikkaBird)", with no licence grant | No fork or redistribution of a modified NARS. An independent override GRF does not modify or contain NARS, but it deliberately changes NARS economics: **ask the author before public distribution** |
+| NARS 2.52 (PikkaBird) | "Copyright 2021 David Dallaston (PikkaBird)", with no licence grant | No fork or redistribution of a modified NARS. An independent override GRF does not modify or contain NARS, but it deliberately changes NARS economics. **Permission from the author obtained** (reported by the project owner, 2026-11-12; keep the written record) |
 | UKRS2 1.05 (PikkaBird) | "All rights reserved. Distribution or modification without permission prohibited." | Nothing proposed touches UKRS2 |
 | NARS Add-On 2cc | GPL v2 | A fork would be allowed, but the override is simpler and keeps the original binary |
 

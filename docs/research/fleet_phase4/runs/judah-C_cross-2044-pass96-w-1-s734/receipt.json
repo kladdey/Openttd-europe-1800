@@ -1,0 +1,30 @@
+{
+  "tag": "judah-C_cross-2044-pass96-w-1-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\judah-C_cross-2044-pass96-w-1-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\judah-C_cross-2044-pass96-w-1-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 30.1,
+  "full_log_sha256": "4faf783ebe97329252c4645325d2d1b5c2dc282922aa804b566f85c472bab9f2",
+  "full_log_bytes": 9696282,
+  "production_files_unchanged": true,
+  "free_gb_after": 73.8,
+  "run_dir_deleted": true
+}

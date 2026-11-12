@@ -1,0 +1,30 @@
+{
+  "tag": "judah-original-2044-pass96-w-1-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\judah-original-2044-pass96-w-1-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\judah-original-2044-pass96-w-1-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 30.1,
+  "full_log_sha256": "ea2f4cb68a30ac5c7f81d96ed549acd36c47c372c61354d959d9e9d9e076e7ba",
+  "full_log_bytes": 9692530,
+  "production_files_unchanged": true,
+  "free_gb_after": 73.8,
+  "run_dir_deleted": true
+}

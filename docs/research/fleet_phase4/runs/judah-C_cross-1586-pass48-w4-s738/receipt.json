@@ -1,0 +1,30 @@
+{
+  "tag": "judah-C_cross-1586-pass48-w4-s738",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\judah-C_cross-1586-pass48-w4-s738\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "738",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\judah-C_cross-1586-pass48-w4-s738\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 27.8,
+  "full_log_sha256": "3d582d57c1546917248b0878c637b0139e972c9bee97976228b4aa17ac85fe1b",
+  "full_log_bytes": 9696539,
+  "production_files_unchanged": true,
+  "free_gb_after": 73.8,
+  "run_dir_deleted": true
+}
