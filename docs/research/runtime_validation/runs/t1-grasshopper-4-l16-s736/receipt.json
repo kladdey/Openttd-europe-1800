@@ -1,0 +1,27 @@
+{
+  "tag": "t1-grasshopper-4-l16-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-grasshopper-4-l16-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-grasshopper-4-l16-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 27.3,
+  "full_log_sha256": "7f038066b1d767fb88454fade9535411395ec238c6a7cef21e4f8d1a47b353e8",
+  "production_files_unchanged": true
+}

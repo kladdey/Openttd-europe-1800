@@ -1,0 +1,827 @@
+dbg: [grf:3] [polishtrainset3.0.3.grf:20] Added 0x22B: grfid 4D560103 string 0xD000 lang 0x4 string 'El tren no estĂˇ siendo calentado debidamente. Hay un error en los sistemas de calefacciĂłn o una falta de energĂ­a en el sistema calefactor.
+dbg: [grf:3] [4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf:72] Added 0x349: grfid 4D560105 string 0xD000 lang 0x4 string 'El tren no estĂˇ siendo calentado debidamente. Hay un error en los sistemas de calefacciĂłn o una falta de energĂ­a en el sistema calefactor.
+dbg: [grf:3] '44440a01-av8_aviators_aircraft_set-2.21.tar\av8_aviators_aircraft_set-2.21\pb_av8w.grf' sets local price base multiplier 45 to 4
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 16 to 4
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 42 to 1
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 43 to 1
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '434d4301-sailing_ships_community-0.73.tar\sailing_ships_community-0.73\ss_community.grf' sets local price base multiplier 19 to 0
+dbg: [grf:3] '434d4301-sailing_ships_community-0.73.tar\sailing_ships_community-0.73\ss_community.grf' sets local price base multiplier 47 to 0
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 16 to 4
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 42 to 1
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 43 to 1
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 16 to 2
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 42 to 3
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 43 to -3
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 44 to 5
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets local price base multiplier 19 to 2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets local price base multiplier 47 to 2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 60 to -3
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 61 to -4
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 62 to -2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 63 to -4
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 64 to -1
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 65 to -2
+dbg: [grf:3] '4f472b34-opengfx_landscape-1.1.2.tar\opengfx_landscape-1.1.2\ogfx-landscape.grf' sets local price base multiplier 50 to 4
+dbg: [grf:3] '4f472b34-opengfx_landscape-1.1.2.tar\opengfx_landscape-1.1.2\ogfx-landscape.grf' sets local price base multiplier 51 to 5
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 15 to -1
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 16 to 3
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 42 to 4
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 43 to -3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 15 to 1
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 16 to 3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 42 to 3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 43 to 2
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets global price base multiplier 46 to 1
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 48 to 2
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 49 to 2
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 58 to 2
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 15 to -2
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 16 to 1
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 42 to -3
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 43 to -5
+dbg: [script:4] [18] [I] RV_BEGIN|673873|1845|route
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_costs|0
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_costs_in_depot|1
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_costs_when_stopped|1
+dbg: [script:4] [18] [I] RV_SETTING|economy.inflation|0
+dbg: [script:4] [18] [I] RV_SETTING|economy.timekeeping_units|0
+dbg: [script:4] [18] [I] RV_SETTING|economy.minutes_per_calendar_year|12
+dbg: [script:4] [18] [I] RV_SETTING|economy.day_length_factor|1
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.train_acceleration_model|1
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.train_slope_steepness|3
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.max_train_length|7
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.freight_trains|1
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_breakdowns|1
+dbg: [script:4] [18] [I] RV_SETTING|economy.infrastructure_maintenance|1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1686|Single Hopper|2625|38|-1|-1|12|64|true|657437|20
+dbg: [script:4] [18] [I] RV_ENGINE|start|1688|Large Hopper|2859|76|-1|-1|23|112|true|705017|40
+dbg: [script:4] [18] [I] RV_ENGINE|start|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_CORRIDOR|40|20|72|cleared 0
+dbg: [script:4] [18] [I] RV_PROFILE|x|2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+dbg: [script:4] [18] [I] RV_PROFILE|y|2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+dbg: [script:4] [18] [I] RV_INDTYPE|95|Meat Curing House|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|94|Fish Saltery|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|93|Traditional Copper Smelter|true|false|true|2
+dbg: [script:4] [18] [I] RV_INDTYPE|92|Edible Oil Refinery|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|91|Farm Supply Yard|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|90|Seaweed Farm|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|89|Salt Evaporator|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|88|Tar Sands Mine|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|87|Bauxite Mine|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|86|Sugar Refinery|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|85|Naphtha Cracker|false|false|false|3
+dbg: [script:4] [18] [I] RV_INDTYPE|84|Polymerisation Plant|false|false|false|3
+dbg: [script:4] [18] [I] RV_INDTYPE|83|Acid Plant|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|82|Salt Mine|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|81|Solvay Plant|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|80|Sheet Mill|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|79|Paint Factory|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|78|Appliance Factory|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|77|Lime Kiln|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|76|Printing Plant|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|75|Coal Liquefaction Plant|false|false|true|2
+dbg: [script:4] [18] [I] RV_INDTYPE|74|Fishing Harbour|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|73|Component Factory|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|72|Chlor-alkali Plant|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|71|Soda Ash Mine|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|70|Electrical Works|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|69|Biorefinery|false|false|false|3
+dbg: [script:4] [18] [I] RV_INDTYPE|68|Slag Grinding Plant|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|67|Electric Arc Furnace|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|66|Coke Oven|true|false|true|2
+dbg: [script:4] [18] [I] RV_INDTYPE|65|Basic Oxygen Furnace|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|64|Liquids Terminal|false|false|false|4
+dbg: [script:4] [18] [I] RV_INDTYPE|63|Pyrite Smelter|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|62|Pyrite Mine|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|61|Tyre and Rubber Plant|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|60|Engineering Supply Yard|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|59|Cement Plant|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|58|Copper Smelter|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|57|Power Plant|false|false|true|0
+dbg: [script:4] [18] [I] RV_INDTYPE|56|Nitrate Mine|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|55|Copper Ore Mine|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|54|Assembly Plant|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|53|General Store|true|false|false|0
+dbg: [script:4] [18] [I] RV_INDTYPE|52|Petrol Station|false|false|false|0
+dbg: [script:4] [18] [I] RV_INDTYPE|51|Grocer's Shop|true|false|false|0
+dbg: [script:4] [18] [I] RV_INDTYPE|50|Hardware Store|true|false|false|0
+dbg: [script:4] [18] [I] RV_INDTYPE|49|Cannery|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|48|Limestone Mine|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|47|Rubber Plantation|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|46|Shipbreaker|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|45|Bulk Terminal|false|true|false|4
+dbg: [script:4] [18] [I] RV_INDTYPE|44|Cotton Farm|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|43|Orchard and Piggery|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|42|Wharf|true|false|false|4
+dbg: [script:4] [18] [I] RV_INDTYPE|41|Brick Works|true|false|true|1
+dbg: [script:4] [18] [I] RV_INDTYPE|40|Clay Pit|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|39|Vineyard|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|38|Textile Mill|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|37|Timber Yard|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|36|Ammonia Plant|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|35|Port|true|false|false|4
+dbg: [script:4] [18] [I] RV_INDTYPE|34|Machinery Factory|true|false|false|3
+dbg: [script:4] [18] [I] RV_INDTYPE|33|Abattoir|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|32|Dairy|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|31|Brewery|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|30|Flour Mill|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|29|Vehicle Distributor|false|false|false|0
+dbg: [script:4] [18] [I] RV_INDTYPE|28|Fishing Grounds|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|27|Fruit Plantation|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|26|Mixed Farm|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|25|Dairy Farm|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|24|Sheep Farm|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|23|Arable Farm|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|22|Scrap Yard|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|21|Recycling Depot|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|20|Recycling Plant|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|19|Glass Works|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|18|Forge and Foundry|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|17|Dredging Site|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|16|Fish Farm|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|15|Moulding Plant|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|14|Paper Mill|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|13|Oil Refinery|false|false|false|3
+dbg: [script:4] [18] [I] RV_INDTYPE|12|Oil Wells|false|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|11|Furniture Factory|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|10|Sawmill|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|9|Forest|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|8|Quarry|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|7|Metal Workshop|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|6|Blast Furnace|true|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|5|Oil Rig|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|4|Peatlands|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|3|Iron Ore Mine|true|false|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|2|Nineteenth-century Steelworks|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDTYPE|1|Coal Mine|true|true|false|1
+dbg: [script:4] [18] [I] RV_INDTYPE|0|Aluminium Plant|false|false|false|2
+dbg: [script:4] [18] [I] RV_INDUSTRY_TYPES|1|Coal Mine|66|Coke Oven
+dbg: [script:4] [18] [I] RV_INDUSTRY_BUILT|1|4134|-2|-4
+dbg: [script:4] [18] [I] RV_INDUSTRY_BUILT|66|4166|-2|-4
+dbg: [script:4] [18] [I] RV_PRODUCTION_LEVEL|1|66|true
+dbg: [script:4] [18] [I] RV_PRODUCTION_LEVEL|0|1|true
+dbg: [script:4] [18] [I] RV_AUTORENEW|true|true|false
+dbg: [script:4] [18] [I] RV_CATCHMENT|1|120
+dbg: [script:4] [18] [I] RV_MAX_AGE|14640|14640
+dbg: [script:4] [18] [I] RV_BUILD|0|15187|8610|80|19|5|0|1|5|3302
+dbg: [script:4] [18] [I] RV_EXPENSE_IDS|2|6|12|1|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|0|8610
+dbg: [script:4] [18] [I] RV_LEDGER_START|1|30374
+dbg: [script:4] [18] [I] RV_LEDGER_START|2|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|3|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|4|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|5|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|6|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|7|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|8|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|9|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|10|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|11|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|12|-200000000
+dbg: [script:4] [18] [I] RV_LEDGER_START|13|0
+dbg: [script:4] [18] [I] RV_LEDGER_START|14|0
+dbg: [script:4] [18] [I] RV_MONTH|673873|-1|0|-1|0|0|depot|3302|0|86|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|673904|-1|0|-1|0|0|platform_loading_empty|3302|31|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|673932|424|214|69|80|34|moving_loaded|3302|59|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|673963|224|359|60|0|38|moving_empty|3302|90|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|673993|199|390|54|80|27|moving_loaded|3302|120|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674024|224|512|50|80|35|moving_loaded|3302|151|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674054|224|600|40|0|38|moving_empty|3302|181|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674085|224|595|43|80|33|moving_loaded|3302|212|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674116|224|690|37|0|38|moving_empty|3302|243|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674146|224|658|31|80|18|moving_loaded|3302|273|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674177|224|727|39|80|35|moving_loaded|3302|304|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674207|199|768|31|0|38|moving_empty|3302|334|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674238|224|738|31|80|32|moving_loaded|3302|365|85|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1845|320|320|4|1622|8610,30374,3332,0,0,0,600,-4954,0,0,0,0,-199999700,0,0,|366|85|0|0|-1|3302|3302|365
+dbg: [script:4] [18] [I] RV_STATE|1845|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1845|moving_empty|1987|6561074|3302|3302|70139|0
+dbg: [script:4] [18] [I] RV_STATE|1845|platform_loading_empty|489|1614678|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1845|other_stopped|205|676910|3302|3302|0|5760
+dbg: [script:4] [18] [I] RV_STATE|1845|depot|19|62738|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1845|moving_loaded|2546|8406892|3302|3302|74905|203680
+dbg: [script:4] [18] [I] RV_STATE|1845|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|674269|224|790|34|0|16|moving_empty|3302|396|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674297|199|834|27|0|38|moving_empty|3302|424|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674328|224|804|35|80|35|moving_loaded|3302|455|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674358|224|860|33|0|38|moving_empty|3302|485|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674389|224|774|27|80|27|moving_loaded|3302|516|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674419|199|835|34|80|35|moving_loaded|3302|546|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674450|224|893|30|0|38|moving_empty|3302|577|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674481|224|847|29|80|30|moving_loaded|3302|608|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674511|224|902|34|80|25|moving_loaded|3302|638|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674542|224|959|27|0|38|moving_empty|3302|669|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674572|224|919|35|80|35|moving_loaded|3302|699|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674603|224|963|31|0|38|moving_empty|3302|730|80|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1846|400|400|5|3033|0,0,3396,0,0,0,600,-6430,0,0,0,0,300,0,0,|731|80|0|0|-1|3302|3302|730
+dbg: [script:4] [18] [I] RV_STATE|1846|platform_unloading|82|270764|3302|3302|0|1760
+dbg: [script:4] [18] [I] RV_STATE|1846|moving_empty|2049|6765798|3302|3302|71953|0
+dbg: [script:4] [18] [I] RV_STATE|1846|other_stopped|268|884936|3302|3302|0|5200
+dbg: [script:4] [18] [I] RV_STATE|1846|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1846|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1846|moving_loaded|2908|9602216|3302|3302|88563|232640
+dbg: [script:4] [18] [I] RV_STATE|1846|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|674634|224|920|29|80|25|moving_loaded|3302|761|86|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674662|199|970|34|80|35|moving_loaded|3302|789|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674693|224|1011|28|0|38|moving_empty|3302|820|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674723|199|955|33|80|34|moving_loaded|3302|850|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674754|224|999|33|0|38|moving_empty|3302|881|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674784|224|966|27|80|26|moving_loaded|3302|911|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674815|224|1020|33|80|34|moving_loaded|3302|942|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674846|224|1063|28|0|38|moving_empty|3302|973|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674876|224|1004|31|80|33|moving_loaded|3302|1003|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674907|224|1064|29|0|36|moving_empty|3302|1034|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674937|199|952|24|0|38|moving_empty|3302|1064|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|674968|224|871|32|80|34|moving_loaded|3302|1095|84|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1847|320|320|4|1794|0,0,3349,0,0,0,600,-5144,0,0,0,0,300,0,0,|1096|84|0|0|-1|3302|3302|1095
+dbg: [script:4] [18] [I] RV_STATE|1847|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1847|moving_empty|2137|7056374|3302|3302|76334|0
+dbg: [script:4] [18] [I] RV_STATE|1847|other_stopped|205|676910|3302|3302|0|6400
+dbg: [script:4] [18] [I] RV_STATE|1847|platform_loading_empty|2|6604|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1847|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1847|moving_loaded|2879|9506458|3302|3302|85221|230320
+dbg: [script:4] [18] [I] RV_STATE|1847|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|674999|224|925|31|0|38|moving_empty|3302|1126|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675028|224|870|27|80|16|moving_loaded|3302|1155|86|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675059|199|921|33|80|35|moving_loaded|3302|1186|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675089|224|970|25|0|38|moving_empty|3302|1216|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675120|224|870|31|80|34|moving_loaded|3302|1247|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675150|224|935|30|0|38|moving_empty|3302|1277|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675181|224|838|27|80|27|moving_loaded|3302|1308|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675212|224|904|33|80|34|moving_loaded|3302|1339|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675242|199|953|25|0|38|moving_empty|3302|1369|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675273|224|862|31|80|33|moving_loaded|3302|1400|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675303|224|925|34|0|34|moving_empty|3302|1430|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675334|224|904|27|80|17|moving_loaded|3302|1461|77|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1848|400|400|5|3118|0,0,3311,0,0,0,600,-6430,0,0,0,0,300,0,0,|1462|77|0|0|-1|3302|3302|1461
+dbg: [script:4] [18] [I] RV_STATE|1848|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1848|moving_empty|2312|7634224|3302|3302|82731|0
+dbg: [script:4] [18] [I] RV_STATE|1848|other_stopped|121|399542|3302|3302|0|5680
+dbg: [script:4] [18] [I] RV_STATE|1848|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1848|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1848|moving_loaded|2791|9215882|3302|3302|83996|223280
+dbg: [script:4] [18] [I] RV_STATE|1848|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|675365|224|970|35|80|35|moving_loaded|3302|1492|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675393|199|1024|29|0|38|moving_empty|3302|1520|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675424|224|931|29|80|30|moving_loaded|3302|1551|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675454|224|993|33|40|0|platform_unloading|3302|1581|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675485|224|1019|25|0|38|moving_empty|3302|1612|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675515|199|961|33|80|34|moving_loaded|3302|1642|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675546|224|1022|31|0|38|moving_empty|3302|1673|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675577|224|984|29|80|27|moving_loaded|3302|1704|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675607|224|1053|32|80|35|moving_loaded|3302|1734|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675638|224|1084|24|0|38|moving_empty|3302|1765|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675668|224|1012|32|80|35|moving_loaded|3302|1795|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675699|199|1055|33|0|0|other_stopped|3302|1826|80|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1849|400|400|5|3127|0,0,3303,0,0,0,600,-6430,0,0,0,0,300,0,0,|1827|80|0|0|-1|3302|3302|1826
+dbg: [script:4] [18] [I] RV_STATE|1849|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1849|moving_empty|1969|6501638|3302|3302|69918|0
+dbg: [script:4] [18] [I] RV_STATE|1849|other_stopped|144|475488|3302|3302|0|5680
+dbg: [script:4] [18] [I] RV_STATE|1849|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1849|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1849|moving_loaded|3109|10265918|3302|3302|93624|248720
+dbg: [script:4] [18] [I] RV_STATE|1849|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|675730|224|1001|25|80|14|moving_loaded|3302|1857|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675758|224|1064|34|80|29|moving_loaded|3302|1885|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675789|199|1125|25|0|38|moving_empty|3302|1916|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675819|224|963|26|80|24|moving_loaded|3302|1946|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675850|224|1024|34|80|34|moving_loaded|3302|1977|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675880|224|1090|27|0|38|moving_empty|3302|2007|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675911|224|920|28|80|27|moving_loaded|3302|2038|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675942|224|976|31|80|35|moving_loaded|3302|2069|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|675972|199|993|25|0|38|moving_empty|3302|2099|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676003|224|904|31|80|33|moving_loaded|3302|2130|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676033|224|970|32|0|36|moving_empty|3302|2160|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676064|224|950|27|80|18|moving_loaded|3302|2191|77|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1850|320|320|4|1653|0,0,3490,0,0,0,600,-5144,0,0,0,0,300,0,0,|2192|77|0|0|-1|3302|3302|2191
+dbg: [script:4] [18] [I] RV_STATE|1850|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1850|moving_empty|2232|7370064|3302|3302|78942|0
+dbg: [script:4] [18] [I] RV_STATE|1850|other_stopped|404|1334008|3302|3302|0|12400
+dbg: [script:4] [18] [I] RV_STATE|1850|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1850|moving_loaded|2591|8555482|3302|3302|75614|207280
+dbg: [script:4] [18] [I] RV_STATE|1850|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|676095|224|1014|35|80|35|moving_loaded|3302|2222|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676123|199|1067|26|0|38|moving_empty|3302|2250|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676154|224|900|29|80|30|moving_loaded|3302|2281|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676184|224|962|32|40|0|platform_unloading|3302|2311|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676215|224|1020|26|0|38|moving_empty|3302|2342|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676245|199|988|34|80|34|moving_loaded|3302|2372|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676276|224|1052|25|0|38|moving_empty|3302|2403|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676307|224|891|28|80|28|moving_loaded|3302|2434|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676337|224|951|33|80|34|moving_loaded|3302|2464|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676368|224|955|24|0|38|moving_empty|3302|2495|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676398|224|879|32|80|35|moving_loaded|3302|2525|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676429|199|941|27|0|38|moving_empty|3302|2556|80|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1851|400|400|5|3127|0,0,3302,0,0,0,600,-6430,0,0,0,0,300,0,0,|2557|80|0|0|-1|3302|3302|2556
+dbg: [script:4] [18] [I] RV_STATE|1851|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1851|moving_empty|1996|6590792|3302|3302|70986|0
+dbg: [script:4] [18] [I] RV_STATE|1851|other_stopped|121|399542|3302|3302|0|5680
+dbg: [script:4] [18] [I] RV_STATE|1851|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1851|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1851|moving_loaded|3106|10256012|3302|3302|93558|248480
+dbg: [script:4] [18] [I] RV_STATE|1851|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|676460|224|803|28|80|19|moving_loaded|3302|2587|86|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676489|224|866|33|80|34|moving_loaded|3302|2616|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676520|224|885|25|0|38|moving_empty|3302|2647|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676550|199|747|31|80|34|moving_loaded|3302|2677|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676581|224|806|31|0|38|moving_empty|3302|2708|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676611|224|765|24|0|38|moving_empty|3302|2738|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676642|224|719|33|80|35|moving_loaded|3302|2769|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676673|224|781|31|0|38|moving_empty|3302|2800|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676703|224|749|28|80|26|moving_loaded|3302|2830|86|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676734|224|816|32|80|35|moving_loaded|3302|2861|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676764|199|853|26|0|38|moving_empty|3302|2891|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676795|224|778|32|80|34|moving_loaded|3302|2922|84|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1852|320|320|4|1785|0,0,3358,0,0,0,600,-5144,0,0,0,0,300,0,0,|2923|84|0|0|-1|3302|3302|2922
+dbg: [script:4] [18] [I] RV_STATE|1852|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1852|moving_empty|2167|7155434|3302|3302|77375|0
+dbg: [script:4] [18] [I] RV_STATE|1852|other_stopped|204|673608|3302|3302|0|6240
+dbg: [script:4] [18] [I] RV_STATE|1852|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1852|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1852|moving_loaded|2867|9466834|3302|3302|84743|229360
+dbg: [script:4] [18] [I] RV_STATE|1852|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|676826|224|843|30|0|33|moving_empty|3302|2953|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676854|199|802|24|0|5|moving_empty|3302|2981|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676885|224|775|34|80|35|moving_loaded|3302|3012|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676915|224|830|28|0|38|moving_empty|3302|3042|80|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676946|224|706|27|80|0|other_stopped|3302|3073|86|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|676976|224|772|33|80|34|moving_loaded|3302|3103|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677007|224|829|27|0|38|moving_empty|3302|3134|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677038|224|764|31|80|34|moving_loaded|3302|3165|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677068|199|819|33|0|38|moving_empty|3302|3195|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677099|224|767|26|80|22|moving_loaded|3302|3226|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677129|224|820|34|80|35|moving_loaded|3302|3256|83|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677160|224|872|26|0|38|moving_empty|3302|3287|79|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1853|400|400|5|3033|0,0,3396,0,0,0,600,-6430,0,0,0,0,300,0,0,|3288|79|0|0|-1|3302|3302|3287
+dbg: [script:4] [18] [I] RV_STATE|1853|platform_unloading|82|270764|3302|3302|0|1760
+dbg: [script:4] [18] [I] RV_STATE|1853|moving_empty|2126|7020052|3302|3302|75964|0
+dbg: [script:4] [18] [I] RV_STATE|1853|other_stopped|249|822198|3302|3302|0|15920
+dbg: [script:4] [18] [I] RV_STATE|1853|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1853|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1853|moving_loaded|2849|9407398|3302|3302|84191|227920
+dbg: [script:4] [18] [I] RV_STATE|1853|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|677191|224|774|31|80|32|moving_loaded|3302|3318|84|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677219|199|830|31|0|10|moving_empty|3302|3346|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677250|224|788|24|0|25|moving_empty|3302|3377|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677280|199|766|34|80|34|moving_loaded|3302|3407|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677311|224|821|29|0|38|moving_empty|3302|3438|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677341|224|734|27|80|5|moving_loaded|3302|3468|85|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677372|224|794|33|80|35|moving_loaded|3302|3499|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677403|224|853|29|0|38|moving_empty|3302|3530|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677433|224|824|32|80|34|moving_loaded|3302|3560|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677464|224|887|33|0|38|moving_empty|3302|3591|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677494|199|849|27|80|24|moving_loaded|3302|3621|75|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677525|224|906|33|80|34|moving_loaded|3302|3652|80|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1854|320|320|4|1794|0,0,3349,0,0,0,600,-5144,0,0,0,0,300,0,0,|3653|80|0|0|-1|3302|3302|3652
+dbg: [script:4] [18] [I] RV_STATE|1854|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1854|moving_empty|2034|6716268|3302|3302|72398|0
+dbg: [script:4] [18] [I] RV_STATE|1854|other_stopped|176|581152|3302|3302|0|6320
+dbg: [script:4] [18] [I] RV_STATE|1854|depot|20|66040|3302|3302|0|1600
+dbg: [script:4] [18] [I] RV_STATE|1854|moving_loaded|3012|9945624|3302|3302|89734|240960
+dbg: [script:4] [18] [I] RV_STATE|1854|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|677556|224|960|26|0|38|moving_empty|3302|3683|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677584|199|847|30|80|31|moving_loaded|3302|3711|82|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677615|224|911|26|0|0|other_stopped|3302|3742|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677645|224|808|19|0|5|moving_empty|3302|3772|74|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677676|224|706|29|80|35|moving_loaded|3302|3803|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677706|224|721|23|0|38|moving_empty|3302|3833|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677737|224|448|24|80|30|moving_loaded|3302|3864|81|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677768|224|502|29|40|0|platform_unloading|3302|3895|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677798|199|505|23|0|38|moving_empty|3302|3925|74|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677829|224|412|30|80|34|moving_loaded|3302|3956|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677859|224|461|28|0|36|moving_empty|3302|3986|75|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677890|224|308|24|80|18|moving_loaded|3302|4017|71|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1855|400|400|5|3127|0,0,3302,0,0,0,600,-6430,0,0,0,0,300,0,0,|4018|71|0|0|-1|3302|3302|4017
+dbg: [script:4] [18] [I] RV_STATE|1855|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1855|moving_empty|2312|7634224|3302|3302|82738|0
+dbg: [script:4] [18] [I] RV_STATE|1855|other_stopped|185|610870|3302|3302|0|10800
+dbg: [script:4] [18] [I] RV_STATE|1855|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1855|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1855|moving_loaded|2712|8955024|3302|3302|79503|216960
+dbg: [script:4] [18] [I] RV_STATE|1855|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|677921|224|355|33|80|35|moving_loaded|3302|4048|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677950|199|402|27|0|38|moving_empty|3302|4077|74|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|677981|224|328|29|80|31|moving_loaded|3302|4108|79|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678011|224|382|33|0|10|moving_empty|3302|4138|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678042|224|384|24|0|25|moving_empty|3302|4169|72|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678072|199|348|33|80|34|moving_loaded|3302|4199|77|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678103|224|410|29|0|38|moving_empty|3302|4230|73|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678134|224|327|28|80|29|moving_loaded|3302|4261|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678164|224|387|31|80|34|moving_loaded|3302|4291|75|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678195|224|414|23|0|38|moving_empty|3302|4322|71|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678225|224|339|31|80|35|moving_loaded|3302|4352|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678256|224|396|30|0|38|moving_empty|3302|4383|72|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1856|400|400|5|3071|0,0,3358,0,0,0,600,-6430,0,0,0,0,300,0,0,|4384|72|0|0|-1|3302|3302|4383
+dbg: [script:4] [18] [I] RV_STATE|1856|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1856|moving_empty|2011|6640322|3302|3302|71556|0
+dbg: [script:4] [18] [I] RV_STATE|1856|other_stopped|120|396240|3302|3302|0|5600
+dbg: [script:4] [18] [I] RV_STATE|1856|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1856|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1856|moving_loaded|3106|10256012|3302|3302|93546|248480
+dbg: [script:4] [18] [I] RV_STATE|1856|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|678287|224|327|27|80|23|moving_loaded|3302|4414|78|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678315|199|377|32|80|35|moving_loaded|3302|4442|74|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678346|224|428|27|0|38|moving_empty|3302|4473|71|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678376|199|381|31|80|34|moving_loaded|3302|4503|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678407|224|444|29|0|0|other_stopped|3302|4534|72|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678437|224|407|20|0|30|moving_empty|3302|4564|68|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678468|224|337|29|80|34|moving_loaded|3302|4595|74|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678499|224|395|27|0|38|moving_empty|3302|4626|70|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678529|224|321|27|80|28|moving_loaded|3302|4656|76|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678560|199|388|30|80|25|moving_loaded|3302|4687|72|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678590|224|416|24|0|38|moving_empty|3302|4717|69|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678621|224|336|32|80|35|moving_loaded|3302|4748|73|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1857|320|320|4|1794|0,0,3350,0,0,0,600,-5144,0,0,0,0,300,0,0,|4749|73|0|0|-1|3302|3302|4748
+dbg: [script:4] [18] [I] RV_STATE|1857|platform_unloading|66|217932|3302|3302|0|1440
+dbg: [script:4] [18] [I] RV_STATE|1857|moving_empty|2150|7099300|3302|3302|76808|0
+dbg: [script:4] [18] [I] RV_STATE|1857|other_stopped|188|620776|3302|3302|0|6160
+dbg: [script:4] [18] [I] RV_STATE|1857|depot|20|66040|3302|3302|0|1600
+dbg: [script:4] [18] [I] RV_STATE|1857|moving_loaded|2883|9519666|3302|3302|85189|230640
+dbg: [script:4] [18] [I] RV_STATE|1857|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|678652|224|401|29|0|38|moving_empty|3302|4779|70|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678680|199|302|24|80|18|moving_loaded|3302|4807|67|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678711|224|356|33|80|34|moving_loaded|3302|4838|72|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678741|224|409|25|0|38|moving_empty|3302|4868|68|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678772|224|285|24|80|19|moving_loaded|3302|4899|65|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678802|199|326|32|80|35|moving_loaded|3302|4929|71|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678833|224|382|28|0|38|moving_empty|3302|4960|68|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678864|224|327|29|80|32|moving_loaded|3302|4991|73|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678894|224|393|29|0|29|moving_empty|3302|5021|69|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678925|224|317|23|80|0|platform_loading_part|3302|5052|66|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678955|224|356|32|80|35|moving_loaded|3302|5082|71|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|678986|224|414|26|0|38|moving_empty|3302|5113|68|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1858|400|400|5|2939|0,0,3490,0,0,0,600,-6430,0,0,0,0,300,0,0,|5114|67|0|0|-1|3302|3302|5113
+dbg: [script:4] [18] [I] RV_STATE|1858|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1858|moving_empty|2018|6663436|3302|3302|70861|0
+dbg: [script:4] [18] [I] RV_STATE|1858|other_stopped|384|1267968|3302|3302|0|16080
+dbg: [script:4] [18] [I] RV_STATE|1858|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1858|moving_loaded|2825|9328150|3302|3302|83694|226000
+dbg: [script:4] [18] [I] RV_STATE|1858|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|679017|224|297|25|80|23|moving_loaded|3302|5144|64|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679045|199|336|32|80|34|moving_loaded|3302|5172|70|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679076|224|394|29|0|38|moving_empty|3302|5203|66|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679106|199|352|31|80|0|depot|3302|5233|72|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679137|224|420|32|80|34|moving_loaded|3302|5264|69|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679167|224|400|23|0|38|moving_empty|3302|5294|65|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679198|224|325|29|80|34|moving_loaded|3302|5325|70|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679229|224|391|29|80|25|moving_loaded|3302|5356|66|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679259|224|387|23|0|38|moving_empty|3302|5386|63|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679290|224|342|32|80|35|moving_loaded|3302|5417|69|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679320|199|394|31|0|38|moving_empty|3302|5447|65|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679351|224|353|28|80|22|moving_loaded|3302|5478|70|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1859|320|320|4|1700|0,0,3443,0,0,0,600,-5144,0,0,0,0,300,0,0,|5479|70|0|0|-1|3302|3302|5478
+dbg: [script:4] [18] [I] RV_STATE|1859|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1859|moving_empty|2168|7158736|3302|3302|77450|0
+dbg: [script:4] [18] [I] RV_STATE|1859|other_stopped|346|1142492|3302|3302|0|20000
+dbg: [script:4] [18] [I] RV_STATE|1859|platform_loading_empty|2|6604|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1859|depot|18|59436|3302|3302|0|1440
+dbg: [script:4] [18] [I] RV_STATE|1859|moving_loaded|2708|8941816|3302|3302|77449|216640
+dbg: [script:4] [18] [I] RV_STATE|1859|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|679382|224|412|32|80|35|moving_loaded|3302|5509|67|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679411|199|414|24|0|38|moving_empty|3302|5538|63|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679442|224|326|30|80|35|moving_loaded|3302|5569|68|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679472|224|391|30|0|38|moving_empty|3302|5599|65|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679503|224|302|25|80|28|moving_loaded|3302|5630|61|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679533|224|351|31|80|34|moving_loaded|3302|5660|66|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679564|224|400|27|0|38|moving_empty|3302|5691|62|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679595|224|341|30|80|33|moving_loaded|3302|5722|68|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679625|199|403|30|80|25|moving_loaded|3302|5752|64|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679656|224|372|23|0|38|moving_empty|3302|5783|60|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679686|224|329|31|80|35|moving_loaded|3302|5813|66|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679717|224|393|29|0|38|moving_empty|3302|5844|63|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1860|400|400|5|3071|0,0,3358,0,0,0,600,-6430,0,0,0,0,300,0,0,|5845|63|0|0|-1|3302|3302|5844
+dbg: [script:4] [18] [I] RV_STATE|1860|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1860|moving_empty|1978|6531356|3302|3302|70316|0
+dbg: [script:4] [18] [I] RV_STATE|1860|other_stopped|214|706628|3302|3302|0|13120
+dbg: [script:4] [18] [I] RV_STATE|1860|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1860|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1860|moving_loaded|3048|10064496|3302|3302|91554|243840
+dbg: [script:4] [18] [I] RV_STATE|1860|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|679748|224|303|26|80|11|moving_loaded|3302|5875|68|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679776|199|353|31|80|35|moving_loaded|3302|5903|65|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679807|224|403|27|0|38|moving_empty|3302|5934|61|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679837|224|316|27|80|29|moving_loaded|3302|5964|67|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679868|224|375|29|80|25|moving_loaded|3302|5995|63|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679898|199|386|23|0|38|moving_empty|3302|6025|59|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679929|224|326|30|80|34|moving_loaded|3302|6056|65|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679960|224|390|29|0|38|moving_empty|3302|6087|61|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|679990|224|333|23|40|0|platform_loading_part|3302|6117|58|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680021|224|334|32|80|34|moving_loaded|3302|6148|63|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680051|199|390|26|0|38|moving_empty|3302|6178|60|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680082|224|307|28|80|30|moving_loaded|3302|6209|65|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1861|320|320|4|1700|0,0,3443,0,0,0,600,-5144,0,0,0,0,300,0,0,|6210|65|0|0|-1|3302|3302|6209
+dbg: [script:4] [18] [I] RV_STATE|1861|platform_unloading|66|217932|3302|3302|0|1440
+dbg: [script:4] [18] [I] RV_STATE|1861|moving_empty|2211|7300722|3302|3302|78009|0
+dbg: [script:4] [18] [I] RV_STATE|1861|other_stopped|315|1040130|3302|3302|0|6240
+dbg: [script:4] [18] [I] RV_STATE|1861|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1861|depot|20|66040|3302|3302|0|1600
+dbg: [script:4] [18] [I] RV_STATE|1861|moving_loaded|2694|8895588|3302|3302|79019|215520
+dbg: [script:4] [18] [I] RV_STATE|1861|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|680113|224|368|31|80|34|moving_loaded|3302|6240|61|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680141|199|423|25|0|38|moving_empty|3302|6268|58|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680172|224|331|29|80|32|moving_loaded|3302|6299|64|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680202|224|391|32|0|20|moving_empty|3302|6329|60|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680233|224|424|24|0|3|moving_empty|3302|6360|56|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680263|224|374|31|80|0|other_stopped|3302|6390|62|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680294|224|439|28|0|27|moving_empty|3302|6421|59|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680325|224|381|23|0|38|moving_empty|3302|6452|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680355|199|313|30|80|34|moving_loaded|3302|6482|62|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680386|224|368|29|0|38|moving_empty|3302|6513|58|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680416|224|378|23|0|25|moving_empty|3302|6543|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680447|224|341|33|80|35|moving_loaded|3302|6574|60|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1862|320|320|4|1606|0,0,3537,0,0,0,600,-5144,0,0,0,0,300,0,0,|6575|60|0|0|-1|3302|3302|6574
+dbg: [script:4] [18] [I] RV_STATE|1862|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1862|moving_empty|1892|6247384|3302|3302|66166|0
+dbg: [script:4] [18] [I] RV_STATE|1862|other_stopped|519|1713738|3302|3302|0|18400
+dbg: [script:4] [18] [I] RV_STATE|1862|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1862|moving_loaded|2832|9351264|3302|3302|82720|226560
+dbg: [script:4] [18] [I] RV_STATE|1862|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|680478|224|398|30|0|38|moving_empty|3302|6605|57|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680506|199|347|28|80|26|moving_loaded|3302|6633|62|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680537|224|414|30|80|35|moving_loaded|3302|6664|59|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680567|224|391|23|0|38|moving_empty|3302|6694|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680598|224|319|29|80|33|moving_loaded|3302|6725|61|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680628|199|379|29|0|34|moving_empty|3302|6755|57|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680659|224|389|23|0|32|moving_empty|3302|6786|53|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680690|224|346|32|80|34|moving_loaded|3302|6817|59|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680720|224|408|28|0|38|moving_empty|3302|6847|56|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680751|224|272|25|80|22|moving_loaded|3302|6878|52|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680781|199|323|33|80|35|moving_loaded|3302|6908|58|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680812|224|371|28|0|38|moving_empty|3302|6939|54|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1863|400|400|5|2986|0,0,3443,0,0,0,600,-6430,0,0,0,0,300,0,0,|6940|54|0|0|-1|3302|3302|6939
+dbg: [script:4] [18] [I] RV_STATE|1863|platform_unloading|83|274066|3302|3302|0|1840
+dbg: [script:4] [18] [I] RV_STATE|1863|moving_empty|2163|7142226|3302|3302|75798|0
+dbg: [script:4] [18] [I] RV_STATE|1863|other_stopped|346|1142492|3302|3302|0|5280
+dbg: [script:4] [18] [I] RV_STATE|1863|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1863|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1863|moving_loaded|2715|8964930|3302|3302|81983|217200
+dbg: [script:4] [18] [I] RV_STATE|1863|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|680843|224|298|24|80|19|moving_loaded|3302|6970|50|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680872|224|349|32|80|35|moving_loaded|3302|6999|57|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680903|224|409|27|0|38|moving_empty|3302|7030|54|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680933|199|305|26|80|12|moving_loaded|3302|7060|60|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680964|224|354|32|80|35|moving_loaded|3302|7091|56|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|680994|224|399|24|0|38|moving_empty|3302|7121|52|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681025|224|317|30|80|31|moving_loaded|3302|7152|58|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681056|224|371|28|0|26|moving_empty|3302|7183|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681086|224|372|23|0|38|moving_empty|3302|7213|51|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681117|224|332|31|80|34|moving_loaded|3302|7244|56|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681147|199|390|29|0|17|moving_empty|3302|7274|53|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681178|224|306|24|80|17|moving_loaded|3302|7305|49|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1864|320|320|4|1597|0,0,3546,0,0,0,600,-5144,0,0,0,0,300,0,0,|7306|49|0|0|-1|3302|3302|7305
+dbg: [script:4] [18] [I] RV_STATE|1864|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1864|moving_empty|2086|6887972|3302|3302|72396|0
+dbg: [script:4] [18] [I] RV_STATE|1864|other_stopped|590|1948180|3302|3302|0|11280
+dbg: [script:4] [18] [I] RV_STATE|1864|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1864|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1864|moving_loaded|2566|8472932|3302|3302|75627|205280
+dbg: [script:4] [18] [I] RV_STATE|1864|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|681209|224|350|32|80|35|moving_loaded|3302|7336|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681237|199|398|27|0|38|moving_empty|3302|7364|51|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681268|224|297|28|80|30|moving_loaded|3302|7395|57|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681298|224|357|29|40|0|platform_unloading|3302|7425|53|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681329|224|362|21|0|0|other_stopped|3302|7456|49|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681359|224|268|27|80|35|moving_loaded|3302|7486|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681390|224|318|29|0|38|moving_empty|3302|7517|52|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681421|199|241|22|80|22|moving_loaded|3302|7548|48|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681451|224|257|29|80|35|moving_loaded|3302|7578|53|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681482|224|295|24|0|38|moving_empty|3302|7609|49|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681512|224|206|25|80|31|moving_loaded|3302|7639|55|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681543|224|257|29|0|16|moving_empty|3302|7670|51|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1865|400|400|5|2986|0,0,3444,0,0,0,600,-6430,0,0,0,0,300,0,0,|7671|51|0|0|-1|3302|3302|7670
+dbg: [script:4] [18] [I] RV_STATE|1865|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1865|moving_empty|1887|6230874|3302|3302|66636|0
+dbg: [script:4] [18] [I] RV_STATE|1865|other_stopped|246|812292|3302|3302|0|6000
+dbg: [script:4] [18] [I] RV_STATE|1865|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1865|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1865|moving_loaded|3106|10256012|3302|3302|93569|248480
+dbg: [script:4] [18] [I] RV_STATE|1865|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|681574|224|278|20|0|38|moving_empty|3302|7701|47|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681602|199|211|26|80|34|moving_loaded|3302|7729|54|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681633|224|266|28|0|38|moving_empty|3302|7760|50|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681663|199|186|21|80|0|other_stopped|3302|7790|46|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681694|224|224|29|80|35|moving_loaded|3302|7821|52|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681724|224|272|24|0|38|moving_empty|3302|7851|49|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681755|224|187|22|80|25|moving_loaded|3302|7882|54|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681786|224|232|28|80|35|moving_loaded|3302|7913|50|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681816|224|245|20|0|38|moving_empty|3302|7943|46|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681847|224|170|25|80|32|moving_loaded|3302|7974|52|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681877|199|215|28|80|0|other_stopped|3302|8004|49|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681908|224|220|19|0|38|moving_empty|3302|8035|45|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1866|320|320|4|1700|0,0,3443,0,0,0,600,-5144,0,0,0,0,300,0,0,|8036|45|0|0|-1|3302|3302|8035
+dbg: [script:4] [18] [I] RV_STATE|1866|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1866|moving_empty|2237|7386574|3302|3302|80403|0
+dbg: [script:4] [18] [I] RV_STATE|1866|other_stopped|467|1542034|3302|3302|0|17360
+dbg: [script:4] [18] [I] RV_STATE|1866|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1866|moving_loaded|2540|8387080|3302|3302|75287|203200
+dbg: [script:4] [18] [I] RV_STATE|1866|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|681939|224|163|28|80|34|moving_loaded|3302|8066|51|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681967|199|209|28|0|38|moving_empty|3302|8094|47|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|681998|224|157|24|80|14|moving_loaded|3302|8125|53|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682028|224|206|29|80|34|moving_loaded|3302|8155|49|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682059|224|231|22|0|38|moving_empty|3302|8186|45|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682089|224|178|27|80|34|moving_loaded|3302|8216|50|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682120|224|235|26|0|38|moving_empty|3302|8247|47|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682151|224|147|20|80|0|other_stopped|3302|8278|43|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682181|199|194|29|80|34|moving_loaded|3302|8308|48|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682212|224|235|23|0|38|moving_empty|3302|8339|45|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682242|224|144|22|80|6|moving_loaded|3302|8369|51|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682273|224|199|29|80|34|moving_loaded|3302|8400|47|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1867|320|320|4|1700|0,0,3443,0,0,0,600,-5144,0,0,0,0,300,0,0,|8401|47|0|0|-1|3302|3302|8400
+dbg: [script:4] [18] [I] RV_STATE|1867|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1867|moving_empty|1895|6257290|3302|3302|67115|0
+dbg: [script:4] [18] [I] RV_STATE|1867|other_stopped|251|828802|3302|3302|0|12400
+dbg: [script:4] [18] [I] RV_STATE|1867|platform_loading_empty|2|6604|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1867|depot|20|66040|3302|3302|0|1600
+dbg: [script:4] [18] [I] RV_STATE|1867|moving_loaded|3074|10150348|3302|3302|91190|245920
+dbg: [script:4] [18] [I] RV_STATE|1867|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|682304|224|226|23|0|38|moving_empty|3302|8431|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682333|199|137|23|80|0|other_stopped|3302|8460|50|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682364|224|189|29|80|35|moving_loaded|3302|8491|47|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682394|224|218|22|0|38|moving_empty|3302|8521|43|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682425|224|143|26|80|34|moving_loaded|3302|8552|48|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682455|199|193|29|0|38|moving_empty|3302|8582|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682486|224|135|23|80|23|moving_loaded|3302|8613|41|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682517|224|184|29|80|34|moving_loaded|3302|8644|46|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682547|224|225|24|0|38|moving_empty|3302|8674|42|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682578|224|169|26|80|32|moving_loaded|3302|8705|47|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682608|224|217|29|0|18|moving_empty|3302|8735|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682639|224|158|20|80|0|other_stopped|3302|8766|40|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1868|400|400|5|3024|0,0,3405,0,0,0,600,-6430,0,0,0,0,300,0,0,|8767|40|0|0|-1|3302|3302|8766
+dbg: [script:4] [18] [I] RV_STATE|1868|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1868|moving_empty|2313|7637526|3302|3302|82765|0
+dbg: [script:4] [18] [I] RV_STATE|1868|other_stopped|282|931164|3302|3302|0|18560
+dbg: [script:4] [18] [I] RV_STATE|1868|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1868|moving_loaded|2630|8684260|3302|3302|77662|210400
+dbg: [script:4] [18] [I] RV_STATE|1868|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|682670|224|199|29|80|35|moving_loaded|3302|8797|45|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682698|199|250|27|0|38|moving_empty|3302|8825|42|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682729|224|145|20|80|11|moving_loaded|3302|8856|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682759|199|185|29|80|4|moving_loaded|3302|8886|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682790|224|238|26|0|38|moving_empty|3302|8917|41|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682820|224|139|19|80|0|other_stopped|3302|8947|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682851|224|191|29|80|35|moving_loaded|3302|8978|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682882|224|243|25|0|38|moving_empty|3302|9009|40|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682912|199|164|22|80|16|moving_loaded|3302|9039|46|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682943|224|204|29|80|26|moving_loaded|3302|9070|42|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|682973|224|234|20|0|23|moving_empty|3302|9100|39|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683004|224|136|22|80|17|moving_loaded|3302|9131|46|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1869|320|320|4|1512|0,0,3631,0,0,0,600,-5144,0,0,0,0,300,0,0,|9132|45|0|0|-1|3302|3302|9131
+dbg: [script:4] [18] [I] RV_STATE|1869|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1869|moving_empty|1893|6250686|3302|3302|66166|0
+dbg: [script:4] [18] [I] RV_STATE|1869|other_stopped|632|2086864|3302|3302|0|30480
+dbg: [script:4] [18] [I] RV_STATE|1869|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1869|depot|20|66040|3302|3302|0|1600
+dbg: [script:4] [18] [I] RV_STATE|1869|moving_loaded|2713|8958326|3302|3302|76964|217040
+dbg: [script:4] [18] [I] RV_STATE|1869|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|683035|224|179|29|80|35|moving_loaded|3302|9162|42|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683063|199|212|24|0|38|moving_empty|3302|9190|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683094|224|162|28|80|30|moving_loaded|3302|9221|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683124|224|219|28|80|25|moving_loaded|3302|9251|41|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683155|224|218|19|0|38|moving_empty|3302|9282|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683185|199|138|24|80|30|moving_loaded|3302|9312|44|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683216|224|185|29|0|0|platform_unloading|3302|9343|40|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683247|224|208|21|0|25|moving_empty|3302|9374|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683277|224|184|31|80|34|moving_loaded|3302|9404|41|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683308|224|240|25|0|38|moving_empty|3302|9435|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683338|224|216|19|0|38|moving_empty|3302|9465|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683369|224|170|28|80|34|moving_loaded|3302|9496|41|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1870|320|320|4|1606|0,0,3537,0,0,0,600,-5144,0,0,0,0,300,0,0,|9497|41|0|0|-1|3302|3302|9496
+dbg: [script:4] [18] [I] RV_STATE|1870|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1870|moving_empty|1880|6207760|3302|3302|66070|0
+dbg: [script:4] [18] [I] RV_STATE|1870|other_stopped|538|1776476|3302|3302|0|19360
+dbg: [script:4] [18] [I] RV_STATE|1870|platform_loading_empty|3|9906|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1870|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1870|moving_loaded|2822|9318244|3302|3302|83153|225760
+dbg: [script:4] [18] [I] RV_STATE|1870|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|683400|224|220|28|0|38|moving_empty|3302|9527|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683428|199|143|24|80|8|moving_loaded|3302|9555|43|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683459|224|188|29|80|34|moving_loaded|3302|9586|39|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683489|199|226|24|0|38|moving_empty|3302|9616|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683520|224|171|28|80|34|moving_loaded|3302|9647|41|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683550|224|232|26|80|5|moving_loaded|3302|9677|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683581|224|218|19|0|38|moving_empty|3302|9708|33|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683612|224|172|28|80|34|moving_loaded|3302|9739|39|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683642|224|224|28|0|0|other_stopped|3302|9769|35|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683673|199|148|21|80|26|moving_loaded|3302|9800|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683703|224|201|29|80|35|moving_loaded|3302|9830|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683734|224|251|24|0|0|other_stopped|3302|9861|34|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1871|400|400|5|3033|0,0,3396,0,0,0,600,-6430,0,0,0,0,300,0,0,|9862|34|0|0|-1|3302|3302|9861
+dbg: [script:4] [18] [I] RV_STATE|1871|platform_unloading|81|267462|3302|3302|0|1680
+dbg: [script:4] [18] [I] RV_STATE|1871|moving_empty|2135|7049770|3302|3302|75743|0
+dbg: [script:4] [18] [I] RV_STATE|1871|other_stopped|292|964184|3302|3302|0|11120
+dbg: [script:4] [18] [I] RV_STATE|1871|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1871|moving_loaded|2801|9248902|3302|3302|83736|224080
+dbg: [script:4] [18] [I] RV_STATE|1871|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|683765|224|196|24|80|30|moving_loaded|3302|9892|40|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683794|199|246|28|80|28|moving_loaded|3302|9921|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683825|224|270|23|0|38|moving_empty|3302|9952|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683855|224|191|24|80|31|moving_loaded|3302|9982|39|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683886|224|244|26|0|0|other_stopped|3302|10013|35|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683916|224|235|19|0|25|moving_empty|3302|10043|31|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683947|224|196|27|80|35|moving_loaded|3302|10074|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|683978|224|248|28|0|38|moving_empty|3302|10105|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684008|199|172|23|80|5|moving_loaded|3302|10135|39|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684039|224|222|29|80|0|other_stopped|3302|10166|35|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684069|224|254|22|0|38|moving_empty|3302|10196|31|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684100|224|173|23|80|4|moving_loaded|3302|10227|28|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1872|320|320|4|1691|0,0,3452,0,0,0,600,-5144,0,0,0,0,300,0,0,|10228|28|0|0|-1|3302|3302|10227
+dbg: [script:4] [18] [I] RV_STATE|1872|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1872|moving_empty|2071|6838442|3302|3302|73157|0
+dbg: [script:4] [18] [I] RV_STATE|1872|other_stopped|496|1637792|3302|3302|0|29120
+dbg: [script:4] [18] [I] RV_STATE|1872|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1872|moving_loaded|2674|8829548|3302|3302|76378|213920
+dbg: [script:4] [18] [I] RV_STATE|1872|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|684131|224|226|28|80|35|moving_loaded|3302|10258|35|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684159|199|253|22|0|38|moving_empty|3302|10286|31|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684190|224|166|24|80|31|moving_loaded|3302|10317|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684220|224|211|29|0|13|moving_empty|3302|10347|33|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684251|224|212|19|0|38|moving_empty|3302|10378|30|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684281|199|155|26|80|34|moving_loaded|3302|10408|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684312|224|207|29|0|38|moving_empty|3302|10439|33|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684343|224|141|20|80|0|platform_loading_part|3302|10470|29|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684373|224|196|29|80|34|moving_loaded|3302|10500|35|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684404|224|235|24|0|38|moving_empty|3302|10531|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684434|199|157|24|80|30|moving_loaded|3302|10561|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684465|224|209|28|40|0|platform_unloading|3302|10592|34|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1873|360|360|4|1653|0,0,3491,0,0,0,600,-5144,0,0,0,0,300,0,0,|10593|34|0|0|-1|3302|3302|10592
+dbg: [script:4] [18] [I] RV_STATE|1873|platform_unloading|68|224536|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1873|moving_empty|1874|6187948|3302|3302|66103|0
+dbg: [script:4] [18] [I] RV_STATE|1873|other_stopped|274|904748|3302|3302|0|5760
+dbg: [script:4] [18] [I] RV_STATE|1873|platform_loading_empty|2|6604|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1873|depot|18|59436|3302|3302|0|1440
+dbg: [script:4] [18] [I] RV_STATE|1873|moving_loaded|3087|10193274|3302|3302|92915|246960
+dbg: [script:4] [18] [I] RV_STATE|1873|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|684496|224|220|20|0|38|moving_empty|3302|10623|30|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684524|199|136|23|80|27|moving_loaded|3302|10651|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684555|224|187|29|80|0|other_stopped|3302|10682|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684585|224|220|23|0|0|other_stopped|3302|10712|30|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684616|224|139|23|80|25|moving_loaded|3302|10743|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684646|224|174|29|80|34|moving_loaded|3302|10773|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684677|224|210|23|0|38|moving_empty|3302|10804|30|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684708|224|158|29|80|34|moving_loaded|3302|10835|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684738|199|202|28|0|27|moving_empty|3302|10865|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684769|224|208|19|0|35|moving_empty|3302|10896|28|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684799|224|150|26|80|34|moving_loaded|3302|10926|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684830|224|207|29|0|38|moving_empty|3302|10957|33|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1874|360|360|5|2845|0,0,3584,0,0,0,600,-6430,0,0,0,0,300,0,0,|10958|32|0|0|-1|3302|3302|10957
+dbg: [script:4] [18] [I] RV_STATE|1874|platform_unloading|65|214630|3302|3302|0|1360
+dbg: [script:4] [18] [I] RV_STATE|1874|moving_empty|2002|6610604|3302|3302|69166|0
+dbg: [script:4] [18] [I] RV_STATE|1874|other_stopped|628|2073656|3302|3302|0|16800
+dbg: [script:4] [18] [I] RV_STATE|1874|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1874|depot|15|49530|3302|3302|0|1200
+dbg: [script:4] [18] [I] RV_STATE|1874|moving_loaded|2612|8624824|3302|3302|75344|208960
+dbg: [script:4] [18] [I] RV_STATE|1874|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_MONTH|684861|224|142|24|80|0|other_stopped|3302|10988|29|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684889|199|190|29|80|35|moving_loaded|3302|11016|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684920|224|209|21|0|37|moving_empty|3302|11047|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684950|224|118|16|80|14|moving_loaded|3302|11077|28|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|684981|224|154|25|80|34|moving_loaded|3302|11108|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685011|199|190|21|0|38|moving_empty|3302|11138|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685042|224|117|18|80|23|moving_loaded|3302|11169|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685073|224|161|25|80|35|moving_loaded|3302|11200|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685103|224|199|20|0|38|moving_empty|3302|11230|30|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685134|224|145|25|80|35|moving_loaded|3302|11261|36|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685164|199|182|24|0|38|moving_empty|3302|11291|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685195|224|119|20|80|0|other_stopped|3302|11322|29|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1875|320|320|4|1700|0,0,3443,0,0,0,600,-5144,0,0,0,0,300,0,0,|11323|29|0|0|-1|3302|3302|11322
+dbg: [script:4] [18] [I] RV_STATE|1875|platform_unloading|66|217932|3302|3302|0|1440
+dbg: [script:4] [18] [I] RV_STATE|1875|moving_empty|2196|7251192|3302|3302|79099|0
+dbg: [script:4] [18] [I] RV_STATE|1875|other_stopped|415|1370330|3302|3302|0|30000
+dbg: [script:4] [18] [I] RV_STATE|1875|depot|16|52832|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1875|moving_loaded|2614|8631428|3302|3302|75829|209120
+dbg: [script:4] [18] [I] RV_STATE|1875|platform_loading_part|80|264160|3302|3302|0|4800
+dbg: [script:4] [18] [I] RV_MONTH|685226|224|160|25|80|34|moving_loaded|3302|11353|35|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685255|224|195|20|0|38|moving_empty|3302|11382|32|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685286|224|124|18|80|27|moving_loaded|3302|11413|28|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685316|199|159|25|80|34|moving_loaded|3302|11443|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685347|224|192|20|0|38|moving_empty|3302|11474|31|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685377|224|133|24|80|33|moving_loaded|3302|11504|37|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685408|224|173|25|80|17|moving_loaded|3302|11535|33|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685439|224|198|16|0|38|moving_empty|3302|11566|29|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685469|224|129|19|80|25|moving_loaded|3302|11596|38|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685500|224|172|25|80|10|moving_loaded|3302|11627|34|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685530|199|191|20|0|38|moving_empty|3302|11657|30|3302|3150
+dbg: [script:4] [18] [I] RV_MONTH|685561|224|129|21|80|31|moving_loaded|3302|11688|37|3302|3150
+dbg: [script:4] [18] [I] RV_YEAR|1876|320|320|4|1550|0,0,3593,0,0,0,600,-5144,0,0,0,0,300,0,0,|11689|37|0|0|-1|3302|3302|11688
+dbg: [script:4] [18] [I] RV_STATE|1876|platform_unloading|64|211328|3302|3302|0|1280
+dbg: [script:4] [18] [I] RV_STATE|1876|moving_empty|1887|6230874|3302|3302|66125|0
+dbg: [script:4] [18] [I] RV_STATE|1876|other_stopped|579|1911858|3302|3302|0|20720
+dbg: [script:4] [18] [I] RV_STATE|1876|platform_loading_empty|1|3302|3302|3302|0|0
+dbg: [script:4] [18] [I] RV_STATE|1876|depot|19|62738|3302|3302|0|1520
+dbg: [script:4] [18] [I] RV_STATE|1876|moving_loaded|2788|9205976|3302|3302|79484|223040
+dbg: [script:4] [18] [I] RV_STATE|1876|platform_loading_part|64|211328|3302|3302|0|3840
+dbg: [script:4] [18] [I] RV_DONE|finished

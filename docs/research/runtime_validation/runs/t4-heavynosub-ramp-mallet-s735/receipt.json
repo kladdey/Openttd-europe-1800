@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavynosub-ramp-mallet-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-ramp-mallet-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-ramp-mallet-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 27.3,
+  "full_log_sha256": "449a2ec6be58c94d70f0881f95e0371bb00659e4849d385a8c96d2445dc3529b",
+  "production_files_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavy-ramp-yellowstone-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-ramp-yellowstone-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-ramp-yellowstone-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 26.2,
+  "full_log_sha256": "96f56e4ef3af049f8a55b118a85143b8e7b8a1a96eddbbe111690c7bf24290b4",
+  "production_files_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "tag": "t1-planet-12-l128nosub-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-planet-12-l128nosub-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-planet-12-l128nosub-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 30.5,
+  "full_log_sha256": "5192e94eceaa8c73a7f1f149f85dc13ef403c2c4b535d20ba3d9fb393ba2388c",
+  "production_files_unchanged": true
+}

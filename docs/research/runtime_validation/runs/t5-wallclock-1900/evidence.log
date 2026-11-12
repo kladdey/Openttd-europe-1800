@@ -1,0 +1,718 @@
+dbg: [grf:3] [polishtrainset3.0.3.grf:20] Added 0x22B: grfid 4D560103 string 0xD000 lang 0x4 string 'El tren no estĂˇ siendo calentado debidamente. Hay un error en los sistemas de calefacciĂłn o una falta de energĂ­a en el sistema calefactor.
+dbg: [grf:3] [4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf:72] Added 0x349: grfid 4D560105 string 0xD000 lang 0x4 string 'El tren no estĂˇ siendo calentado debidamente. Hay un error en los sistemas de calefacciĂłn o una falta de energĂ­a en el sistema calefactor.
+dbg: [grf:3] '44440a01-av8_aviators_aircraft_set-2.21.tar\av8_aviators_aircraft_set-2.21\pb_av8w.grf' sets local price base multiplier 45 to 4
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 16 to 4
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 42 to 1
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 43 to 1
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '434d4301-sailing_ships_community-0.73.tar\sailing_ships_community-0.73\ss_community.grf' sets local price base multiplier 19 to 0
+dbg: [grf:3] '434d4301-sailing_ships_community-0.73.tar\sailing_ships_community-0.73\ss_community.grf' sets local price base multiplier 47 to 0
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 16 to 4
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 42 to 1
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 43 to 1
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 16 to 2
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 42 to 3
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 43 to -3
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 44 to 5
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets local price base multiplier 19 to 2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets local price base multiplier 47 to 2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 60 to -3
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 61 to -4
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 62 to -2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 63 to -4
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 64 to -1
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 65 to -2
+dbg: [grf:3] '4f472b34-opengfx_landscape-1.1.2.tar\opengfx_landscape-1.1.2\ogfx-landscape.grf' sets local price base multiplier 50 to 4
+dbg: [grf:3] '4f472b34-opengfx_landscape-1.1.2.tar\opengfx_landscape-1.1.2\ogfx-landscape.grf' sets local price base multiplier 51 to 5
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 15 to -1
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 16 to 3
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 42 to 4
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 43 to -3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 15 to 1
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 16 to 3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 42 to 3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 43 to 2
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets global price base multiplier 46 to 1
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 48 to 2
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 49 to 2
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 58 to 2
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 15 to -2
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 16 to 1
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 42 to -3
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 43 to -5
+dbg: [script:4] [18] [I] RV_BEGIN|691200|1920|catalogue
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_costs|0
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_costs_in_depot|1
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_costs_when_stopped|1
+dbg: [script:4] [18] [I] RV_SETTING|economy.inflation|0
+dbg: [script:4] [18] [I] RV_SETTING|economy.timekeeping_units|1
+dbg: [script:4] [18] [I] RV_SETTING|economy.minutes_per_calendar_year|1
+dbg: [script:4] [18] [I] RV_SETTING|economy.day_length_factor|1
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.train_acceleration_model|1
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.train_slope_steepness|3
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.max_train_length|7
+dbg: [script:4] [18] [I] RV_SETTING|vehicle.freight_trains|1
+dbg: [script:4] [18] [I] RV_SETTING|difficulty.vehicle_breakdowns|1
+dbg: [script:4] [18] [I] RV_SETTING|economy.infrastructure_maintenance|1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|start|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691230|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m1|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m1|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691260|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m2|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m2|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691290|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m3|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m3|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691320|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m4|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m4|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691350|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m5|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m5|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691380|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m6|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m6|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691410|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m7|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m7|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691440|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m8|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m8|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691470|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m9|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m9|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691500|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m10|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m10|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691530|1920
+dbg: [script:4] [18] [I] RV_ENGINE|m11|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m11|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691560|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m12|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m12|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691590|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m13|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m13|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691620|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m14|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m14|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691650|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m15|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m15|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691680|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m16|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m16|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691710|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m17|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m17|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691740|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m18|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m18|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691770|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m19|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m19|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691800|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m20|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m20|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691830|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m21|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m21|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691860|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m22|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m22|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691890|1921
+dbg: [script:4] [18] [I] RV_ENGINE|m23|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m23|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691920|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m24|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m24|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691950|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m25|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m25|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|691980|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m26|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m26|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692010|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m27|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m27|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692040|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m28|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m28|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692070|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m29|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m29|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692100|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m30|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m30|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692130|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m31|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m31|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692160|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m32|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m32|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692190|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m33|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m33|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692220|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m34|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m34|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692250|1922
+dbg: [script:4] [18] [I] RV_ENGINE|m35|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m35|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692280|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m36|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m36|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692310|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m37|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m37|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692340|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m38|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m38|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692370|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m39|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m39|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692400|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m40|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m40|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692430|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m41|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m41|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692460|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m42|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m42|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692490|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m43|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m43|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692520|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m44|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m44|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692550|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m45|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m45|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692580|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m46|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m46|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692610|1923
+dbg: [script:4] [18] [I] RV_ENGINE|m47|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m47|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692640|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m48|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m48|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692670|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m49|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m49|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692700|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m50|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m50|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692730|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m51|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m51|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692760|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m52|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m52|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692790|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m53|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m53|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692820|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m54|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m54|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692850|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m55|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m55|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692880|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m56|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m56|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692910|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m57|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m57|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692940|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m58|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m58|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|692970|1924
+dbg: [script:4] [18] [I] RV_ENGINE|m59|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m59|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693000|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m60|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m60|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693030|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m61|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m61|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693060|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m62|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m62|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693090|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m63|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m63|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693120|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m64|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m64|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693150|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m65|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m65|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693180|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m66|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m66|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693210|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m67|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m67|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693240|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m68|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m68|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693270|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m69|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m69|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693300|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m70|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m70|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693330|1925
+dbg: [script:4] [18] [I] RV_ENGINE|m71|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m71|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DATE|693360|1926
+dbg: [script:4] [18] [I] RV_ENGINE|m72|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706250|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|704332|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|709285|-1
+dbg: [script:4] [18] [I] RV_ENGINE|m72|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|709285|-1
+dbg: [script:4] [18] [I] RV_DONE|catalogue

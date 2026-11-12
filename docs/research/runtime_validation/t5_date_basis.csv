@@ -1,0 +1,1146 @@
+run,timekeeping,economy_year,calendar_year_DERIVED,engine,name,running,sample,economy_day,economy_year_GSDate,buildable
+t5-control-1900,calendar,1900,1900,1534,2-2-0 Planet (Steam),525,,,,
+t5-control-1900,calendar,1900,1900,1531,0-4-0 Coppernob (Steam),1181,,,,
+t5-control-1900,calendar,1900,1900,1500,2-8-0 8F (Steam),6431,,,,
+t5-control-1900,calendar,1900,1900,1585,4-2-0 Norris,6300,,,,
+t5-control-1900,calendar,1900,1900,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1913,calendar,1913,1913,1534,2-2-0 Planet (Steam),525,,,,
+t5-control-1913,calendar,1913,1913,1531,0-4-0 Coppernob (Steam),1181,,,,
+t5-control-1913,calendar,1913,1913,1500,2-8-0 8F (Steam),6431,,,,
+t5-control-1913,calendar,1913,1913,1585,4-2-0 Norris,6300,,,,
+t5-control-1913,calendar,1913,1913,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1930,calendar,1930,1930,1534,2-2-0 Planet (Steam),525,,,,
+t5-control-1930,calendar,1930,1930,1531,0-4-0 Coppernob (Steam),1181,,,,
+t5-control-1930,calendar,1930,1930,1500,2-8-0 8F (Steam),6431,,,,
+t5-control-1930,calendar,1930,1930,1585,4-2-0 Norris,6300,,,,
+t5-control-1930,calendar,1930,1930,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1940,calendar,1940,1940,1534,2-2-0 Planet (Steam),525,,,,
+t5-control-1940,calendar,1940,1940,1531,0-4-0 Coppernob (Steam),1181,,,,
+t5-control-1940,calendar,1940,1940,1500,2-8-0 8F (Steam),6431,,,,
+t5-control-1940,calendar,1940,1940,1585,4-2-0 Norris,6300,,,,
+t5-control-1940,calendar,1940,1940,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1941,calendar,1941,1941,1534,2-2-0 Planet (Steam),525,,,,
+t5-control-1941,calendar,1941,1941,1531,0-4-0 Coppernob (Steam),1181,,,,
+t5-control-1941,calendar,1941,1941,1500,2-8-0 8F (Steam),6431,,,,
+t5-control-1941,calendar,1941,1941,1585,4-2-0 Norris,6300,,,,
+t5-control-1941,calendar,1941,1941,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1945,calendar,1945,1945,1534,2-2-0 Planet (Steam),787,,,,
+t5-control-1945,calendar,1945,1945,1531,0-4-0 Coppernob (Steam),1443,,,,
+t5-control-1945,calendar,1945,1945,1500,2-8-0 8F (Steam),6693,,,,
+t5-control-1945,calendar,1945,1945,1585,4-2-0 Norris,6300,,,,
+t5-control-1945,calendar,1945,1945,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1950,calendar,1950,1950,1534,2-2-0 Planet (Steam),1181,,,,
+t5-control-1950,calendar,1950,1950,1531,0-4-0 Coppernob (Steam),1837,,,,
+t5-control-1950,calendar,1950,1950,1500,2-8-0 8F (Steam),7087,,,,
+t5-control-1950,calendar,1950,1950,1585,4-2-0 Norris,6300,,,,
+t5-control-1950,calendar,1950,1950,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1955,calendar,1955,1955,1534,2-2-0 Planet (Steam),1443,,,,
+t5-control-1955,calendar,1955,1955,1531,0-4-0 Coppernob (Steam),2100,,,,
+t5-control-1955,calendar,1955,1955,1500,2-8-0 8F (Steam),7350,,,,
+t5-control-1955,calendar,1955,1955,1585,4-2-0 Norris,6300,,,,
+t5-control-1955,calendar,1955,1955,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1960,calendar,1960,1960,1534,2-2-0 Planet (Steam),1837,,,,
+t5-control-1960,calendar,1960,1960,1531,0-4-0 Coppernob (Steam),2493,,,,
+t5-control-1960,calendar,1960,1960,1500,2-8-0 8F (Steam),7743,,,,
+t5-control-1960,calendar,1960,1960,1585,4-2-0 Norris,6300,,,,
+t5-control-1960,calendar,1960,1960,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5-control-1970,calendar,1970,1970,1534,2-2-0 Planet (Steam),2493,,,,
+t5-control-1970,calendar,1970,1970,1531,0-4-0 Coppernob (Steam),3150,,,,
+t5-control-1970,calendar,1970,1970,1500,2-8-0 8F (Steam),8400,,,,
+t5-control-1970,calendar,1970,1970,1585,4-2-0 Norris,6300,,,,
+t5-control-1970,calendar,1970,1970,2038,0-4-0 Grasshopper (Steam),3150,,,,
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m1,691230,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m1,691230,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m2,691260,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m2,691260,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m3,691290,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m3,691290,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m4,691320,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m4,691320,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m5,691350,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m5,691350,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m6,691380,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m6,691380,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m7,691410,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m7,691410,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m8,691440,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m8,691440,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m9,691470,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m9,691470,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m10,691500,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m10,691500,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m11,691530,1920,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m11,691530,1920,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m12,691560,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m12,691560,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m13,691590,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m13,691590,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m14,691620,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m14,691620,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m15,691650,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m15,691650,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m16,691680,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m16,691680,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m17,691710,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m17,691710,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m18,691740,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m18,691740,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m19,691770,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m19,691770,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m20,691800,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m20,691800,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m21,691830,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m21,691830,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m22,691860,1921,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m22,691860,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m23,691890,1921,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m24,691920,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m25,691950,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m26,691980,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m27,692010,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m28,692040,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m29,692070,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m30,692100,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m31,692130,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m32,692160,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m33,692190,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m34,692220,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m35,692250,1922,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m36,692280,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m37,692310,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m38,692340,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m39,692370,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m40,692400,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m41,692430,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m42,692460,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m43,692490,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m44,692520,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m45,692550,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m46,692580,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m47,692610,1923,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m48,692640,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m49,692670,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m50,692700,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m51,692730,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m52,692760,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m53,692790,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m54,692820,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m55,692850,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m56,692880,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m57,692910,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m58,692940,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m59,692970,1924,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m60,693000,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m61,693030,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m62,693060,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m63,693090,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m64,693120,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m65,693150,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m66,693180,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m67,693210,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m68,693240,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m69,693270,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m70,693300,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m71,693330,1925,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,m72,693360,1926,false
+t5b-wallclock-1900,wallclock,,,1534,2-2-0 Planet (Steam),525,start,691200,,false
+t5b-wallclock-1900,wallclock,,,1531,0-4-0 Coppernob (Steam),1181,start,691200,,true
+t5b-wallclock-1900,wallclock,,,1500,2-8-0 8F (Steam),6431,start,691200,,false
+t5b-wallclock-1900,wallclock,,,1585,4-2-0 Norris,6300,start,691200,,false
+t5b-wallclock-1900,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,start,691200,,false
+t5b-wallclock-1900,wallclock,,,1599,2-8-8-2 Mallet,25462,start,691200,,false
+t5b-wallclock-1900,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,start,691200,,false
+t5b-wallclock-1900,wallclock,,,2030,2-8-8-4 Yellowstone (Steam),13125,start,691200,,false
+t5b-wallclock-1900,wallclock,,,1688,Large Hopper,76,start,691200,,false
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m1,691230,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m1,691230,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m1,691230,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m1,691230,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m1,691230,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m1,691230,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m2,691260,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m2,691260,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m2,691260,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m2,691260,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m2,691260,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m2,691260,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m3,691290,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m3,691290,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m3,691290,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m3,691290,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m3,691290,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m3,691290,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m4,691320,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m4,691320,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m4,691320,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m4,691320,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m4,691320,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m4,691320,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m5,691350,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m5,691350,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m5,691350,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m5,691350,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m5,691350,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m5,691350,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m6,691380,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m6,691380,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m6,691380,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m6,691380,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m6,691380,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m6,691380,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m7,691410,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m7,691410,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m7,691410,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m7,691410,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m7,691410,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m7,691410,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m8,691440,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m8,691440,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m8,691440,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m8,691440,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m8,691440,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m8,691440,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m9,691470,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m9,691470,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m9,691470,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m9,691470,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m9,691470,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m9,691470,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m10,691500,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m10,691500,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m10,691500,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m10,691500,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m10,691500,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m10,691500,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m11,691530,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m11,691530,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m11,691530,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m11,691530,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m11,691530,1920,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m11,691530,1920,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m12,691560,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m12,691560,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m12,691560,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m12,691560,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m12,691560,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m12,691560,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m13,691590,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m13,691590,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m13,691590,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m13,691590,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m13,691590,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m13,691590,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m14,691620,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m14,691620,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m14,691620,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m14,691620,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m14,691620,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m14,691620,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m15,691650,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m15,691650,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m15,691650,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m15,691650,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m15,691650,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m15,691650,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m16,691680,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m16,691680,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m16,691680,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m16,691680,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m16,691680,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m16,691680,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m17,691710,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m17,691710,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m17,691710,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m17,691710,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m17,691710,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m17,691710,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m18,691740,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m18,691740,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m18,691740,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m18,691740,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m18,691740,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m18,691740,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m19,691770,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m19,691770,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m19,691770,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m19,691770,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m19,691770,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m19,691770,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m20,691800,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m20,691800,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m20,691800,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m20,691800,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m20,691800,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m20,691800,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m21,691830,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m21,691830,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m21,691830,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m21,691830,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m21,691830,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m21,691830,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m22,691860,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m22,691860,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m22,691860,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m22,691860,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m22,691860,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m22,691860,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m23,691890,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m23,691890,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m23,691890,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m23,691890,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m23,691890,1921,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m23,691890,1921,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m24,691920,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m24,691920,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m24,691920,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m24,691920,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m24,691920,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m24,691920,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m25,691950,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m25,691950,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m25,691950,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m25,691950,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m25,691950,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m25,691950,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m26,691980,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m26,691980,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m26,691980,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m26,691980,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m26,691980,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m26,691980,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m27,692010,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m27,692010,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m27,692010,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m27,692010,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m27,692010,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m27,692010,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m28,692040,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m28,692040,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m28,692040,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m28,692040,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m28,692040,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m28,692040,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m29,692070,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m29,692070,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m29,692070,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m29,692070,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m29,692070,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m29,692070,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m30,692100,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m30,692100,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m30,692100,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m30,692100,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m30,692100,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m30,692100,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m31,692130,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m31,692130,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m31,692130,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m31,692130,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m31,692130,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m31,692130,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m32,692160,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m32,692160,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m32,692160,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m32,692160,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m32,692160,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m32,692160,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m33,692190,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m33,692190,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m33,692190,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m33,692190,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m33,692190,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m33,692190,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m34,692220,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m34,692220,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m34,692220,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m34,692220,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m34,692220,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m34,692220,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m35,692250,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m35,692250,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m35,692250,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m35,692250,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m35,692250,1922,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m35,692250,1922,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m36,692280,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m36,692280,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m36,692280,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m36,692280,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m36,692280,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m36,692280,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m37,692310,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m37,692310,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m37,692310,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m37,692310,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m37,692310,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m37,692310,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m38,692340,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m38,692340,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m38,692340,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m38,692340,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m38,692340,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m38,692340,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m39,692370,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m39,692370,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m39,692370,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m39,692370,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m39,692370,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m39,692370,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m40,692400,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m40,692400,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m40,692400,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m40,692400,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m40,692400,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m40,692400,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m41,692430,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m41,692430,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m41,692430,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m41,692430,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m41,692430,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m41,692430,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m42,692460,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m42,692460,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m42,692460,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m42,692460,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m42,692460,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m42,692460,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m43,692490,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m43,692490,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m43,692490,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m43,692490,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m43,692490,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m43,692490,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m44,692520,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m44,692520,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m44,692520,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m44,692520,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m44,692520,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m44,692520,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m45,692550,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m45,692550,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m45,692550,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m45,692550,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m45,692550,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m45,692550,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m46,692580,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m46,692580,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m46,692580,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m46,692580,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m46,692580,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m46,692580,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m47,692610,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m47,692610,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m47,692610,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m47,692610,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m47,692610,1923,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m47,692610,1923,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m48,692640,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m48,692640,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m48,692640,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m48,692640,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m48,692640,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m48,692640,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m49,692670,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m49,692670,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m49,692670,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m49,692670,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m49,692670,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m49,692670,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m50,692700,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m50,692700,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m50,692700,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m50,692700,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m50,692700,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m50,692700,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m51,692730,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m51,692730,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m51,692730,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m51,692730,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m51,692730,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m51,692730,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m52,692760,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m52,692760,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m52,692760,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m52,692760,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m52,692760,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m52,692760,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m53,692790,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m53,692790,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m53,692790,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m53,692790,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m53,692790,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m53,692790,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m54,692820,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m54,692820,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m54,692820,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m54,692820,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m54,692820,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m54,692820,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m55,692850,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m55,692850,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m55,692850,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m55,692850,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m55,692850,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m55,692850,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m56,692880,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m56,692880,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m56,692880,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m56,692880,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m56,692880,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m56,692880,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m57,692910,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m57,692910,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m57,692910,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m57,692910,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m57,692910,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m57,692910,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m58,692940,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m58,692940,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m58,692940,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m58,692940,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m58,692940,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m58,692940,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m59,692970,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m59,692970,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m59,692970,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m59,692970,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m59,692970,1924,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m59,692970,1924,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m60,693000,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m60,693000,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m60,693000,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m60,693000,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m60,693000,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m60,693000,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m61,693030,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m61,693030,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m61,693030,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m61,693030,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m61,693030,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m61,693030,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m62,693060,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m62,693060,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m62,693060,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m62,693060,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m62,693060,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m62,693060,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m63,693090,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m63,693090,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m63,693090,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m63,693090,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m63,693090,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m63,693090,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m64,693120,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m64,693120,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m64,693120,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m64,693120,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m64,693120,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m64,693120,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m65,693150,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m65,693150,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m65,693150,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m65,693150,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m65,693150,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m65,693150,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m66,693180,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m66,693180,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m66,693180,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m66,693180,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m66,693180,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m66,693180,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m67,693210,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m67,693210,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m67,693210,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m67,693210,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m67,693210,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m67,693210,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m68,693240,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m68,693240,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m68,693240,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m68,693240,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m68,693240,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m68,693240,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m69,693270,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m69,693270,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m69,693270,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m69,693270,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m69,693270,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m69,693270,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m70,693300,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m70,693300,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m70,693300,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m70,693300,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m70,693300,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m70,693300,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m71,693330,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m71,693330,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m71,693330,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m71,693330,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m71,693330,1925,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m71,693330,1925,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,m72,693360,1926,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,m72,693360,1926,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,m72,693360,1926,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,m72,693360,1926,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,m72,693360,1926,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,m72,693360,1926,true
+t5b-wallclock-frozen-1945,wallclock,,,1534,2-2-0 Planet (Steam),787,start,691200,,false
+t5b-wallclock-frozen-1945,wallclock,,,1531,0-4-0 Coppernob (Steam),1443,start,691200,,false
+t5b-wallclock-frozen-1945,wallclock,,,1500,2-8-0 8F (Steam),6693,start,691200,,true
+t5b-wallclock-frozen-1945,wallclock,,,1585,4-2-0 Norris,6300,start,691200,,false
+t5b-wallclock-frozen-1945,wallclock,,,2038,0-4-0 Grasshopper (Steam),3150,start,691200,,false
+t5b-wallclock-frozen-1945,wallclock,,,2018,4-8-8-4 UP Big Boy (Steam),15750,start,691200,,true

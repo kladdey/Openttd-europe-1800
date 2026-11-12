@@ -1,0 +1,27 @@
+{
+  "tag": "t4-ramp-coppernob-4-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-ramp-coppernob-4-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-ramp-coppernob-4-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 25.0,
+  "full_log_sha256": "d0e7df56c6c503dce9b4cc2977e107caa7e2b37d9df120bb31b81bfd76cb75b6",
+  "production_files_unchanged": true
+}

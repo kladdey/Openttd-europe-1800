@@ -1,0 +1,27 @@
+{
+  "tag": "t1-norris-6-l128nosub-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-norris-6-l128nosub-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-norris-6-l128nosub-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 28.5,
+  "full_log_sha256": "e0eb3f0a5b4af29eba8c9e14c2cf6c4af23fe7bcf156e5264e5ba5cb5a6f2264",
+  "production_files_unchanged": true
+}

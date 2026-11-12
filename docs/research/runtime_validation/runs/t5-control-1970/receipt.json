@@ -1,0 +1,27 @@
+{
+  "tag": "t5-control-1970",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t5-control-1970\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t5-control-1970\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 23.7,
+  "full_log_sha256": "518d8f491c5b734718c390685cbb3904aa265c2b0a05d66c6966e97bc20e308f",
+  "production_files_unchanged": true
+}

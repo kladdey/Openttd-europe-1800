@@ -1,0 +1,27 @@
+{
+  "tag": "t4-flat-grasshopper-4-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-flat-grasshopper-4-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-flat-grasshopper-4-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 25.2,
+  "full_log_sha256": "9ed0190271342ba741d43d672af85012551a2e57feebe2b631392de2af33190b",
+  "production_files_unchanged": true
+}

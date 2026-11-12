@@ -1,0 +1,27 @@
+{
+  "tag": "t4-flat-norris-2-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-flat-norris-2-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-flat-norris-2-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 19.7,
+  "full_log_sha256": "04d6ea106936b3c77d38bc142de33d46c5ed598556c4341c748f2419e13c0efa",
+  "production_files_unchanged": true
+}

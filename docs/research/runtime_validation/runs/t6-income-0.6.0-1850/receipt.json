@@ -1,0 +1,27 @@
+{
+  "tag": "t6-income-0.6.0-1850",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t6-income-0.6.0-1850\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t6-income-0.6.0-1850\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 11.9,
+  "full_log_sha256": "acc3fcf8ea11c06e8cdce16ee8a17f241a30120dd76be538f486185586e4e02e",
+  "production_files_unchanged": true
+}

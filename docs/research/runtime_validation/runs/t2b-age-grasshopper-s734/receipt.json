@@ -1,0 +1,27 @@
+{
+  "tag": "t2b-age-grasshopper-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2b-age-grasshopper-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2b-age-grasshopper-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 35.7,
+  "full_log_sha256": "0a5c01df061aad250f4ff6bfc91ad8e88a218fce3ce999e0f10eb31b20e78e15",
+  "production_files_unchanged": true
+}

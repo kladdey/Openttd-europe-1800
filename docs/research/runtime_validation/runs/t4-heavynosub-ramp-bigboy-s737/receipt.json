@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavynosub-ramp-bigboy-s737",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-ramp-bigboy-s737\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "737",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-ramp-bigboy-s737\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 26.9,
+  "full_log_sha256": "854d4c64f4a675a40a6cc27b4e57b2d875e776234699bb5df8ebc8e68fc9e40f",
+  "production_files_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "tag": "t3-catalogue-2000-compat",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t3-catalogue-2000-compat\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t3-catalogue-2000-compat\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 5.1,
+  "full_log_sha256": "0b83864617bf87531fc34ca5dc40adaafe1ab135e6385af9ea2b1dfeae9f4438",
+  "production_files_unchanged": true
+}

@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavy-flat-yellowstone-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-flat-yellowstone-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-flat-yellowstone-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 25.2,
+  "full_log_sha256": "e4e1882456136d8432ab60fce0f8602653b0423b8cc2ecab62e707bbca02f20c",
+  "production_files_unchanged": true
+}

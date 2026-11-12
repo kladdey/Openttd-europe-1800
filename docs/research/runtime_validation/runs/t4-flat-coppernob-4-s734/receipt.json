@@ -1,0 +1,27 @@
+{
+  "tag": "t4-flat-coppernob-4-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-flat-coppernob-4-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-flat-coppernob-4-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 25.3,
+  "full_log_sha256": "ed679b76658c3f493923039317c025aa7f5375a9d375419826350b12bf37af5f",
+  "production_files_unchanged": true
+}

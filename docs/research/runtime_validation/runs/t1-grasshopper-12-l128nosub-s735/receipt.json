@@ -1,0 +1,27 @@
+{
+  "tag": "t1-grasshopper-12-l128nosub-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-grasshopper-12-l128nosub-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t1-grasshopper-12-l128nosub-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 12.9,
+  "full_log_sha256": "b5adbfd4126494b83d577b71908b04ae33620dcf0b0d081c78112ff5731d94c3",
+  "production_files_unchanged": true
+}

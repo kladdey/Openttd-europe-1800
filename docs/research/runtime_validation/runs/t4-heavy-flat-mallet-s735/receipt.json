@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavy-flat-mallet-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-flat-mallet-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-flat-mallet-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 24.9,
+  "full_log_sha256": "c07f720344eb405f42e0053b603be865bbb648b28dd9aa34ed075deb1b9df348",
+  "production_files_unchanged": true
+}

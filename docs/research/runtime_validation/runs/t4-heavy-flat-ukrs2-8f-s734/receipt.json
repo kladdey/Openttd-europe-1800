@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavy-flat-ukrs2-8f-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-flat-ukrs2-8f-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-flat-ukrs2-8f-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 23.6,
+  "full_log_sha256": "9aa46850cb438e5bae64285d8de0ebfa8fbc1e70ac8ee9cb197bbf6252b79a26",
+  "production_files_unchanged": true
+}

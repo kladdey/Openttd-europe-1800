@@ -1,0 +1,27 @@
+{
+  "tag": "t3-norris-service-compat-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t3-norris-service-compat-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t3-norris-service-compat-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 23.0,
+  "full_log_sha256": "cba10990d935d004a17f830a514b2093242b9a9fb4ce6491d1c888c1fd10629a",
+  "production_files_unchanged": true
+}

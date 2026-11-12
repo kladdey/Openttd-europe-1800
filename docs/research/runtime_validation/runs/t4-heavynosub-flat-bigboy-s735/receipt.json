@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavynosub-flat-bigboy-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-flat-bigboy-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-flat-bigboy-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 27.0,
+  "full_log_sha256": "5118d86b9ed009e0148d47ca96a429fba36229a81a04352fc4e669edc839af8a",
+  "production_files_unchanged": true
+}

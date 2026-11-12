@@ -1,0 +1,27 @@
+{
+  "tag": "t4-ramp-norris-2-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-ramp-norris-2-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-ramp-norris-2-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 24.9,
+  "full_log_sha256": "d2d69e508a6606982ecbad93538e8679049cc30cc2b5771849e9e5b46b8f1a39",
+  "production_files_unchanged": true
+}

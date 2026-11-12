@@ -1,0 +1,27 @@
+{
+  "tag": "t5-wallclock-1900",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t5-wallclock-1900\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t5-wallclock-1900\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 26.0,
+  "full_log_sha256": "1923e752e09b23b8e8b1e1cc32f812ac4e27b9d48fbc3b7bb526ac2c5415263d",
+  "production_files_unchanged": true
+}

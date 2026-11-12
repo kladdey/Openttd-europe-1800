@@ -1,0 +1,27 @@
+{
+  "tag": "t2b-age-planet-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2b-age-planet-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2b-age-planet-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 35.2,
+  "full_log_sha256": "91eacd9623a9c8a0cf8f61e46fd114794e216812083c51695bd76c6ddec257ea",
+  "production_files_unchanged": true
+}

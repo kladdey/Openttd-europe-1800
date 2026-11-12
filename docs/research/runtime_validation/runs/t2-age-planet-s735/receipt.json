@@ -1,0 +1,27 @@
+{
+  "tag": "t2-age-planet-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2-age-planet-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2-age-planet-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 33.3,
+  "full_log_sha256": "3ac9e261e07b4dc1d19a49ea945a6b5af8cf0b6d048e94b3c759805b7c17ad19",
+  "production_files_unchanged": true
+}

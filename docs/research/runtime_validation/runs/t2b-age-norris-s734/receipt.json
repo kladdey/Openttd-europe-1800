@@ -1,0 +1,27 @@
+{
+  "tag": "t2b-age-norris-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2b-age-norris-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t2b-age-norris-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 36.5,
+  "full_log_sha256": "1b153c1cb68f66ef9764c507b88920f4bd48d9b0ed47d7fa3b80baa2563ed4ac",
+  "production_files_unchanged": true
+}

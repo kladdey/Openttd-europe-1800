@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavy-ramp-ukrs2-8f-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-ramp-ukrs2-8f-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavy-ramp-ukrs2-8f-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 23.9,
+  "full_log_sha256": "92a73fcd6dbf66be50fec60fefa8d8f6537cc24c0f79fe2781cb9b70240f158c",
+  "production_files_unchanged": true
+}

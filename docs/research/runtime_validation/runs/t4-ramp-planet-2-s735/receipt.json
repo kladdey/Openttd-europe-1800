@@ -1,0 +1,27 @@
+{
+  "tag": "t4-ramp-planet-2-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-ramp-planet-2-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-ramp-planet-2-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 21.9,
+  "full_log_sha256": "a2c4bcd73e7ab86d8fabe03bd3dd203cede1efef29dce03d3c28a0d4c6dfa028",
+  "production_files_unchanged": true
+}

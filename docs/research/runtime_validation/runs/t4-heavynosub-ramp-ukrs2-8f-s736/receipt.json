@@ -1,0 +1,27 @@
+{
+  "tag": "t4-heavynosub-ramp-ukrs2-8f-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-ramp-ukrs2-8f-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t4-heavynosub-ramp-ukrs2-8f-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 15.0,
+  "full_log_sha256": "7d21898423c489acbaaccfe1416c73204ca66ee571283c79aa0310b30928a8f3",
+  "production_files_unchanged": true
+}

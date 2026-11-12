@@ -1,0 +1,27 @@
+{
+  "tag": "t6-probe",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t6-probe\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\t6-probe\\map.png"
+  ],
+  "reason": "blocked",
+  "returncode": 1,
+  "seconds": 2.7,
+  "full_log_sha256": "6462dd216d55fe3dd9e4188db830cce29fcc3475cc24cab9a7fbf6f626248070",
+  "production_files_unchanged": true
+}
