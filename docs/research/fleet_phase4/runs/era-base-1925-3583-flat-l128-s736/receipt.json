@@ -1,0 +1,30 @@
+{
+  "tag": "era-base-1925-3583-flat-l128-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1925-3583-flat-l128-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1925-3583-flat-l128-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 24.8,
+  "full_log_sha256": "9f5da474025100c06ac434d34de147e45a7d2bf9b71759f3ce010aa6cc8c535f",
+  "full_log_bytes": 9699873,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

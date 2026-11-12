@@ -1,0 +1,14 @@
+{
+  "grfid": "52560012",
+  "target": "44441000",
+  "tag": "f10",
+  "name": "RV P4 f10",
+  "prices": {
+    "43": 0
+  },
+  "engines": [],
+  "file": "rv_52560012_f10.grf",
+  "bytes": 108,
+  "sha256": "76b9c82d5bc340ece7d1a14756b259ea0a984b85b9326830d06f57e481a8c4a8",
+  "md5": "7FF95CB1817C84916B9793830A1A806F"
+}

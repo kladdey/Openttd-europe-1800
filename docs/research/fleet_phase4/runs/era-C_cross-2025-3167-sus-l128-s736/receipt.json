@@ -1,0 +1,30 @@
+{
+  "tag": "era-C_cross-2025-3167-sus-l128-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-C_cross-2025-3167-sus-l128-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-C_cross-2025-3167-sus-l128-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 27.7,
+  "full_log_sha256": "97c3a1463b10d70952fde0f29ecc69a43d89a2f920de221796d95cd4784cd996",
+  "full_log_bytes": 9703685,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

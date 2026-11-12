@@ -1,0 +1,14 @@
+{
+  "grfid": "52560011",
+  "target": "4E4D0518",
+  "tag": "f8",
+  "name": "RV P4 f8",
+  "prices": {
+    "43": 6
+  },
+  "engines": [],
+  "file": "rv_52560011_f8.grf",
+  "bytes": 107,
+  "sha256": "6f4445267db400787bc18b527403883957418dbfe905adeb2a93420007f918e5",
+  "md5": "D844C08A133DC1B52BFFA9539D83B776"
+}

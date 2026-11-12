@@ -1,0 +1,30 @@
+{
+  "tag": "p1850-grass525-pass48-w4-s738",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-grass525-pass48-w4-s738\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "738",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-grass525-pass48-w4-s738\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 31.7,
+  "full_log_sha256": "8d582f0bf4de0547a3d77f07b5a76ace2aae28ecdb4a4c67519492dc679545b2",
+  "full_log_bytes": 9696172,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

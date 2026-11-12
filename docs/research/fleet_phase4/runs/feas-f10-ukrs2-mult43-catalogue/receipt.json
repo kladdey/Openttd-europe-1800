@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f10-ukrs2-mult43-catalogue",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f10-ukrs2-mult43-catalogue\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f10-ukrs2-mult43-catalogue\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 18.8,
+  "full_log_sha256": "81dd8b88d28437a07234dbcd0e3648479a53a808b31600c8c9a8ea3b6d480174",
+  "full_log_bytes": 10022830,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

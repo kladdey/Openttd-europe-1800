@@ -24,6 +24,30 @@ class RVProbe extends GSController {
   }
  }
 
+ // Loaded (cloned) campaign save: identity and cost of every train, monthly.
+ function Observe(){
+  local months=Cfg("watch_months",2),m=-1,seen=-1;
+  L("OBSERVE_BEGIN|"+GSDate.GetCurrentDate());
+  while(seen<months){
+   local now=GSDate.GetMonth(GSDate.GetCurrentDate());
+   if(now!=m){
+    m=now;seen++;
+    local n=0,engines={};
+    foreach(v,vv in GSVehicleList()){
+     if(GSVehicle.GetVehicleType(v)!=GSVehicle.VT_RAIL)continue;
+     n++;local e=GSVehicle.GetEngineType(v);engines[e]<-1;
+     L("VEH|"+seen+"|"+v+"|"+GSVehicle.GetOwner(v)+"|"+GSVehicle.GetUnitNumber(v)+"|"+e+"|"+GSVehicle.GetNumWagons(v)+"|"+GSVehicle.GetLength(v)
+       +"|"+GSVehicle.GetRunningCost(v)+"|"+GSVehicle.GetAge(v)+"|"+GSVehicle.GetState(v)+"|"+GSVehicle.GetCurrentSpeed(v)+"|"+GSVehicle.GetReliability(v)+"|"+GSVehicle.GetProfitLastYear(v));
+    }
+    for(local c=0;c<15;c++)if(GSCompany.ResolveCompanyID(c)!=GSCompany.COMPANY_INVALID)
+     L("COMPANY|"+seen+"|"+c+"|"+GSCompany.GetAnnualExpenseValue(c,0,GSCompany.EXPENSES_TRAIN_RUN)+"|"+GSCompany.GetBankBalance(c));
+    foreach(e,x in engines)L("OENGINE|"+seen+"|"+e+"|"+GSEngine.GetName(e)+"|"+GSEngine.GetPrice(e)+"|"+GSEngine.GetRunningCost(e));
+    L("OBSERVE_MONTH|"+seen+"|"+GSDate.GetCurrentDate()+"|"+n);
+   }
+   Sleep(10);
+  }
+  L("DONE|observe");while(true)Sleep(10000);
+ }
  function Buildable(id){if(GSCompany.ResolveCompanyID(0)==GSCompany.COMPANY_INVALID)return "nc";local m=GSCompanyMode(0);return GSEngine.IsBuildable(id);}
  function Settings(){
   foreach(key in ["difficulty.vehicle_costs","difficulty.vehicle_costs_in_depot","difficulty.vehicle_costs_when_stopped",
@@ -33,14 +57,15 @@ class RVProbe extends GSController {
    L("SETTING|"+key+"|"+(GSGameSettings.IsValid(key)?GSGameSettings.GetValue(key):"n/a"));
  }
 
- function ResolveCoal(){
-  foreach(c,v in GSCargoList())if(GSCargo.GetCargoLabel(c)=="COAL")return c;
+ function ResolveCargo(lab){
+  foreach(c,v in GSCargoList())if(GSCargo.GetCargoLabel(c)==lab)return c;
   return -1;
  }
 
  function Start(){
   L("BEGIN|"+GSDate.GetCurrentDate()+"|"+GSDate.GetYear(GSDate.GetCurrentDate())+"|"+CONFIG.mode);
   Settings();
+  if(CONFIG.mode=="observe"){Observe();return;}
   while(GSCompany.ResolveCompanyID(0)==GSCompany.COMPANY_INVALID)Sleep(5);
   Catalogue("start");
   if(CONFIG.mode=="catalogue"){
@@ -67,7 +92,8 @@ class RVProbe extends GSController {
  function Height(x,y){return GSTile.GetMinHeight(GSMap.GetTileIndex(x,y));}
 
  function Route(){
-  coal=ResolveCoal();if(coal<0)Fail("no COAL cargo");
+  local label=Cfg("cargo","COAL"),pass=(label=="PASS");
+  coal=ResolveCargo(label);if(coal<0)Fail("no "+label+" cargo");
   GSCompany.ChangeBankBalance(0,200000000,GSCompany.EXPENSES_OTHER,GSMap.TILE_INVALID);
   local D=CONFIG.distance,x=CONFIG.x0,y=-1,bx=x+D;
   // First row (from y0) whose corridor and industry band are entirely clear and buildable.
@@ -85,6 +111,17 @@ class RVProbe extends GSController {
   local prof2="";for(local yy=y-4;yy<=y+D+9;yy++)prof2+=Height(x,yy)+",";
   L("PROFILE|y|"+prof2);
 
+  local a=GSMap.GetTileIndex(x,y),b=GSMap.GetTileIndex(bx,y);
+  if(pass){
+   BuildLine(x,y,bx,a,b);
+   foreach(tx in [x,bx]){
+    local ok=false;
+    for(local dy=-6;dy>=-9 && !ok;dy--)ok=GSTown.FoundTown(GSMap.GetTileIndex(tx+3,y+dy),GSTown.TOWN_SIZE_LARGE,false,GSTown.ROAD_LAYOUT_2x2,null);
+    L("TOWN_FOUNDED|"+tx+"|"+ok+"|"+GSError.GetLastErrorString());
+    if(!ok)Fail("town founding");
+   }
+   foreach(t,vv in GSTownList()){GSTown.SetGrowthRate(t,GSTown.TOWN_GROWTH_NONE);L("TOWN|"+t+"|"+GSTown.GetPopulation(t));}
+  } else {
   // Industries (built as deity; capital outside the transport company).
   local ptype=-1,ctype=-1,crank=9;
   foreach(t,v in GSIndustryTypeList()){
@@ -99,7 +136,6 @@ class RVProbe extends GSController {
   }
   if(ptype<0||ctype<0)Fail("coal industry types");
   L("INDUSTRY_TYPES|"+ptype+"|"+GSIndustryType.GetName(ptype)+"|"+ctype+"|"+GSIndustryType.GetName(ctype));
-  local a=GSMap.GetTileIndex(x,y),b=GSMap.GetTileIndex(bx,y);
   BuildLine(x,y,bx,a,b);
   local built=[false,false];
   foreach(i,pair in [[ptype,x,true],[ctype,bx,false]]){
@@ -108,11 +144,30 @@ class RVProbe extends GSController {
     if(GSIndustryType.BuildIndustry(pair[0],t)){built[i]=true;L("INDUSTRY_BUILT|"+pair[0]+"|"+t+"|"+dx+"|"+dy);}
    }
   }
+  // Second pass (only reached when the first finds no site): south of the track, wider.
+  foreach(i,pair in [[ptype,x,true],[ctype,bx,false]]){
+   for(local dy=3;dy<=10 && !built[i];dy++)for(local dx=-4;dx<=8 && !built[i];dx++){
+    local t=GSMap.GetTileIndex(pair[1]+dx,y+dy);
+    if(GSIndustryType.BuildIndustry(pair[0],t)){built[i]=true;L("INDUSTRY_BUILT|"+pair[0]+"|"+t+"|"+dx+"|"+dy+"|pass2");}
+   }
+  }
+  // Third pass: the consumer type refused every site (AXIS location rules, e.g. coke ovens far from
+  // coal) -> try the other buildable coal acceptors, logged as INDUSTRY_FALLBACK.
+  if(built[0] && !built[1]){
+   foreach(t,vv in GSIndustryTypeList()){
+    if(built[1] || t==ctype || !GSIndustryType.CanBuildIndustry(t) || !GSIndustryType.GetAcceptedCargo(t).HasItem(coal))continue;
+    for(local dy=-4;dy>=-9 && !built[1];dy--)for(local dx=-2;dx<=6 && !built[1];dx++){
+     local tt=GSMap.GetTileIndex(bx+dx,y+dy);
+     if(GSIndustryType.BuildIndustry(t,tt)){built[1]=true;L("INDUSTRY_FALLBACK|"+ctype+"|"+t+"|"+GSIndustryType.GetName(t)+"|"+tt);}
+    }
+   }
+  }
   if(!built[0]||!built[1])Fail("industry placement");
   local level=Cfg("production_level",16);
   foreach(i,v in GSIndustryList()){
    GSIndustry.SetControlFlags(i,GSIndustry.INDCTL_NO_PRODUCTION_INCREASE|GSIndustry.INDCTL_NO_PRODUCTION_DECREASE);
    L("PRODUCTION_LEVEL|"+i+"|"+GSIndustry.GetIndustryType(i)+"|"+GSIndustry.SetProductionLevel(i,level,false,null));
+  }
   }
 
   local mode=GSCompanyMode(0);
@@ -121,13 +176,15 @@ class RVProbe extends GSController {
   local infra=GSAccounting();
   local infrastructure=line_cost;
   local prodA=GSTile.GetCargoProduction(a,coal,7,1,4),accB=GSTile.GetCargoAcceptance(b,coal,7,1,4);
-  L("CATCHMENT|"+prodA+"|"+accB);
+  L("CATCHMENT|"+prodA+"|"+accB+"|"+GSTile.GetCargoAcceptance(a,coal,7,1,4)+"|"+GSTile.GetCargoProduction(b,coal,7,1,4));
   if(prodA<1||accB<8)Fail("catchment");
+  { local mode0=null; }
 
   // Consist: engine + N wagons refitted to coal, or fill to the 7-tile limit when wagons<0.
   local v=BuildConsist(depot,eng,wag,CONFIG.wagons);
   local purchase=infra.GetCosts();infra.ResetCosts();
-  if(!GSOrder.AppendOrder(v,a,GSOrder.OF_FULL_LOAD_ANY) || !GSOrder.AppendOrder(v,b,GSOrder.OF_UNLOAD|GSOrder.OF_NO_LOAD))Fail("orders");
+  if(pass){if(!GSOrder.AppendOrder(v,a,GSOrder.OF_NONE) || !GSOrder.AppendOrder(v,b,GSOrder.OF_NONE))Fail("orders");}
+  else if(!GSOrder.AppendOrder(v,a,GSOrder.OF_FULL_LOAD_ANY) || !GSOrder.AppendOrder(v,b,GSOrder.OF_UNLOAD|GSOrder.OF_NO_LOAD))Fail("orders");
   local twin=-1;
   if(Cfg("twin",false)){twin=BuildConsist(depot,eng,wag,CONFIG.wagons);infra.ResetCosts();}
   local sa=GSStation.GetStationID(a),sb=GSStation.GetStationID(b);
@@ -140,7 +197,20 @@ class RVProbe extends GSController {
   local ramp0=Cfg("ramp_x0",-1),ramp1=Cfg("ramp_x1",-1);
   local year=GSDate.GetYear(GSDate.GetCurrentDate()),end=year+CONFIG.years+1,month=-1;
   local S=NewStats(),last_load=0,arrivals=0;
+  local ar_set=false,year0=year;
   while(year<end){
+   if(!GSVehicle.IsValidVehicle(v)){   // replaced by autoreplace/autorenew: follow the new train
+    local nv=-1;foreach(x,xx in GSVehicleList())if(x!=twin && GSVehicle.GetVehicleType(x)==GSVehicle.VT_RAIL)nv=x;
+    if(nv<0){Sleep(5);continue;}
+    L("REPLACED|"+GSDate.GetCurrentDate()+"|"+v+"|"+nv+"|"+GSVehicle.GetEngineType(nv)+"|"+GSEngine.GetName(GSVehicle.GetEngineType(nv))+"|"+GSVehicle.GetNumWagons(nv)+"|"+GSVehicle.GetCapacity(nv,coal)+"|"+GSVehicle.GetRunningCost(nv));
+    v=nv;
+   }
+   if(Cfg("autoreplace_to",-1)>=0 && !ar_set && GSDate.GetYear(GSDate.GetCurrentDate())>year0){
+    ar_set=true;
+    local okr=GSGroup.SetAutoReplace(GSGroup.GROUP_ALL,eng,CONFIG.autoreplace_to);
+    GSCompany.SetAutoRenewStatus(true);
+    L("AUTOREPLACE_SET|"+eng+"|"+CONFIG.autoreplace_to+"|"+okr+"|"+GSError.GetLastErrorString()+"|"+GSEngine.GetRunningCost(CONFIG.autoreplace_to));
+   }
    local sp=GSVehicle.GetCurrentSpeed(v),load=GSVehicle.GetCargoLoad(v,coal),st=GSVehicle.GetState(v);
    local loc=GSVehicle.GetLocation(v),cost=GSVehicle.GetRunningCost(v),here=GSStation.GetStationID(loc);
    local cls="other_stopped";
@@ -149,7 +219,7 @@ class RVProbe extends GSController {
    else if(st==GSVehicle.VS_AT_STATION)cls=(here==sa)?((load>0)?"platform_loading_part":"platform_loading_empty"):"platform_unloading";
    Acc(S,cls,cost,sp,load);
    if(load>0 && sp>0 && ramp0>=0){local tx=GSMap.GetTileX(loc);if(tx>=ramp0 && tx<=ramp1){S.ramp_n++;S.ramp_speed+=sp;if(sp<S.ramp_min)S.ramp_min=sp;}}
-   if(here==sb && load<last_load)S.unloaded+=last_load-load;
+   if((here==sb || (pass && here==sa)) && load<last_load)S.unloaded+=last_load-load;
    if(here==sb && last_load>0 && load==0)arrivals++;
    last_load=load;
    if(twin>=0){local tc=GSVehicle.GetRunningCost(twin);if(tc<S.twin_min)S.twin_min=tc;if(tc>S.twin_max)S.twin_max=tc;}

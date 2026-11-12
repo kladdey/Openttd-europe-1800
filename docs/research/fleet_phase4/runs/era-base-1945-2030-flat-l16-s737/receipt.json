@@ -1,0 +1,30 @@
+{
+  "tag": "era-base-1945-2030-flat-l16-s737",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1945-2030-flat-l16-s737\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "737",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1945-2030-flat-l16-s737\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 3.8,
+  "full_log_sha256": "ebdad48dde6ccb4a76adf1dbb9e9c30c1833bc4c5d2b3a247737e8455f1f9e54",
+  "full_log_bytes": 9699908,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

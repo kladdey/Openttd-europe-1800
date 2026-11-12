@@ -1,0 +1,30 @@
+{
+  "tag": "arep-original-planet-to-grass-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\arep-original-planet-to-grass-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\arep-original-planet-to-grass-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 20.7,
+  "full_log_sha256": "540a490ec92b9da73fb879bb07d4da131e9a0f53827f09b34cc5c4627f0739a2",
+  "full_log_bytes": 9697777,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

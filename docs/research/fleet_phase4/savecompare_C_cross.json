@@ -1,0 +1,40 @@
+{
+  "trains": 176,
+  "identity_original_vs_balanced": true,
+  "identity_balanced_end_vs_rollback": true,
+  "engines_in_use": 14,
+  "engines_cost_changed": [
+    {
+      "engine": 1590,
+      "name": "4-4-0 Express",
+      "set": "44440302",
+      "price_o": 18750,
+      "price_b": 18750,
+      "run_o": 9450,
+      "run_b": 4725,
+      "run_rollback": 9450
+    }
+  ],
+  "engines_price_changed": [],
+  "rollback_restores_all_costs": true,
+  "trains_same_state_at_load": 176,
+  "train_cost_changed_only_for_changed_engines": true,
+  "example_trains": [
+    {
+      "vehicle": 4693,
+      "engine": 1590,
+      "name": "4-4-0 Express",
+      "cost_original": 10706,
+      "cost_balanced": 5981,
+      "state": "0"
+    },
+    {
+      "vehicle": 4365,
+      "engine": 1590,
+      "name": "4-4-0 Express",
+      "cost_original": 11011,
+      "cost_balanced": 6286,
+      "state": "0"
+    }
+  ]
+}

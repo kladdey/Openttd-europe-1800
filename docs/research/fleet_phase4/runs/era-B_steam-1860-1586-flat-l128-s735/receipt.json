@@ -1,0 +1,30 @@
+{
+  "tag": "era-B_steam-1860-1586-flat-l128-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-B_steam-1860-1586-flat-l128-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-B_steam-1860-1586-flat-l128-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 31.0,
+  "full_log_sha256": "67a821d8575260942d0b20493ad5d6f741893d1c2d609e99cd2f3de4fd8e493a",
+  "full_log_bytes": 9701844,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

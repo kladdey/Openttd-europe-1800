@@ -1,0 +1,30 @@
+{
+  "tag": "cat-B_steam-1925",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\cat-B_steam-1925\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\cat-B_steam-1925\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 32.7,
+  "full_log_sha256": "c049668075334aa6b1531a5b64bee6d4fe2744c6ed893b167403e2765948a1eb",
+  "full_log_bytes": 10022275,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

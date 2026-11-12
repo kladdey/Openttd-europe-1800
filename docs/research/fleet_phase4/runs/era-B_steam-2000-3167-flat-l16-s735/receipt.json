@@ -1,0 +1,30 @@
+{
+  "tag": "era-B_steam-2000-3167-flat-l16-s735",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-B_steam-2000-3167-flat-l16-s735\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "735",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-B_steam-2000-3167-flat-l16-s735\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 3.7,
+  "full_log_sha256": "187065c71677e25c4eab7db17b67d58d92ef987a8a4aa931043aa4e3539fbdfa",
+  "full_log_bytes": 9701860,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

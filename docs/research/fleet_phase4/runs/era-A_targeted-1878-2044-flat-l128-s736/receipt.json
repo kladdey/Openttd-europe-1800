@@ -1,0 +1,30 @@
+{
+  "tag": "era-A_targeted-1878-2044-flat-l128-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-A_targeted-1878-2044-flat-l128-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-A_targeted-1878-2044-flat-l128-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 29.0,
+  "full_log_sha256": "c70cefe98c0e14c98a40b67bbd37d1a14e4eaf42cc584bc696986954b95037ba",
+  "full_log_bytes": 9703570,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

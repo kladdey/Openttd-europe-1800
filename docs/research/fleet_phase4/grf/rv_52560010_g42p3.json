@@ -1,0 +1,14 @@
+{
+  "grfid": "52560010",
+  "target": "44440302",
+  "tag": "g42p3",
+  "name": "RV P4 g42p3",
+  "prices": {
+    "42": 3
+  },
+  "engines": [],
+  "file": "rv_52560010_g42p3.grf",
+  "bytes": 110,
+  "sha256": "59d3766b0edf1a7250235afe55e266bb8a7be7ceef5fa30fefe2f7dcaa2dc985",
+  "md5": "2135F3C0F9FFCCD21D92C1823840D8F6"
+}

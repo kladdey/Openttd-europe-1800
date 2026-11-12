@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f1-nars-factor-service",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f1-nars-factor-service\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f1-nars-factor-service\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 19.7,
+  "full_log_sha256": "61a788247961b64154be3b7605d3c0db64239e333f441acaa3a8309b79d59c97",
+  "full_log_bytes": 9695719,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

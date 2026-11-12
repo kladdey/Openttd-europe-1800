@@ -1,0 +1,220 @@
+{
+  "A_targeted": [
+    {
+      "file": "A_targeted/europe1830_balance_A_targeted_44440302.grf",
+      "grfid": "52560010",
+      "overrides": "44440302",
+      "load_directly_after": "44440302 (NARS 2.52)",
+      "bytes": 132,
+      "sha256": "e8b532397b9d3bdcb447a544fbf65156f945014d17a377a5116030f1e5707a8b",
+      "md5": "B96E0CC0B061A267D0A521E18A6C20FA",
+      "prices": {
+        "44": "+3"
+      },
+      "engines": [
+        {
+          "local_id": 0,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 1,
+          "factor": null,
+          "running_cost_class": "electric"
+        }
+      ]
+    },
+    {
+      "file": "A_targeted/europe1830_balance_A_targeted_4e4d0518.grf",
+      "grfid": "52560011",
+      "overrides": "4E4D0518",
+      "load_directly_after": "4E4D0518 (NARS Add-On 2cc)",
+      "bytes": 116,
+      "sha256": "dcd1a2fc7f5f5094bbfd6616f26799bb2530a5d11e6352f9ed0e049791ff1913",
+      "md5": "0884B4E6BF588805D4A46C9781EEA164",
+      "prices": {},
+      "engines": [
+        {
+          "local_id": 116,
+          "factor": 6,
+          "running_cost_class": null
+        },
+        {
+          "local_id": 122,
+          "factor": 12,
+          "running_cost_class": null
+        }
+      ]
+    }
+  ],
+  "B_steam": [
+    {
+      "file": "B_steam/europe1830_balance_B_steam_44440302.grf",
+      "grfid": "52560010",
+      "overrides": "44440302",
+      "load_directly_after": "44440302 (NARS 2.52)",
+      "bytes": 379,
+      "sha256": "0524aaabb87a36046a5a1f9ee378c43d621d6b033f8709ebe85ca347a6f5f214",
+      "md5": "2F0C1D82A99BC63DF26BB7250E9AB090",
+      "prices": {
+        "44": "+3"
+      },
+      "engines": [
+        {
+          "local_id": 0,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 1,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 2,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 3,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 4,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 5,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 6,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 7,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 8,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 9,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 10,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 11,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 12,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 13,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 14,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 15,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 16,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 17,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 18,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 19,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 70,
+          "factor": null,
+          "running_cost_class": "electric"
+        }
+      ]
+    }
+  ],
+  "C_cross": [
+    {
+      "file": "C_cross/europe1830_balance_C_cross_44440302.grf",
+      "grfid": "52560010",
+      "overrides": "44440302",
+      "load_directly_after": "44440302 (NARS 2.52)",
+      "bytes": 142,
+      "sha256": "93eabd34a7e2cb37b642d2d506506f1160cbfd64daa94426c1694ee1371b120d",
+      "md5": "72FBC53C8E6A49BEE75E44D5C0C7C754",
+      "prices": {
+        "42": "+3",
+        "44": "+3"
+      },
+      "engines": [
+        {
+          "local_id": 0,
+          "factor": null,
+          "running_cost_class": "electric"
+        },
+        {
+          "local_id": 1,
+          "factor": null,
+          "running_cost_class": "electric"
+        }
+      ]
+    },
+    {
+      "file": "C_cross/europe1830_balance_C_cross_4e4d0518.grf",
+      "grfid": "52560011",
+      "overrides": "4E4D0518",
+      "load_directly_after": "4E4D0518 (NARS Add-On 2cc)",
+      "bytes": 116,
+      "sha256": "9fcb6775687b8d5bc56229fb6a4ec045c57d7f10186dfae6ff60e7993a7ae179",
+      "md5": "C0949074ED54AA87930AA015C5970D11",
+      "prices": {},
+      "engines": [
+        {
+          "local_id": 116,
+          "factor": 6,
+          "running_cost_class": null
+        },
+        {
+          "local_id": 122,
+          "factor": 12,
+          "running_cost_class": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tag": "feas-base-planet-service",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-base-planet-service\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-base-planet-service\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 7.7,
+  "full_log_sha256": "ec7cc603c9fb7533f557da2a79bc34ad53e04cd069ba43b875e6992f134b8b54",
+  "full_log_bytes": 9693979,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

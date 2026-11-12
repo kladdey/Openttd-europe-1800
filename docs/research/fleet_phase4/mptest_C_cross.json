@@ -1,0 +1,63 @@
+{
+  "variant": "C_cross",
+  "port": 3989,
+  "events": [
+    {
+      "step": "join",
+      "client_log_tail": "test: 1200 / 1201\ndbg: [net:1] Missed frame for sync-test: 1300 / 1301\ndbg: [net:1] Missed frame for sync-test: 1400 / 1401\ndbg: [net:1] Missed frame for sync-test: 1500 / 1501\ndbg: [net:1] Missed frame for sync-test: 1600 / 1601\ndbg: [net:1] Missed frame for sync-test: 1700 / 1701\ndbg: [net:1] Missed frame for sync-test: 1800 / 1801\ndbg: [net:1] Missed frame for sync-test: 1900 / 1901\ndbg: [net:1] Missed frame for sync-test: 2000 / 2001\ndbg: [net:1] Missed frame for sync-test: 2100 / 2101\ndbg: [net:1] Missed frame for sync-test: 2200 / 2201\ndbg: [net:1] Missed frame for sync-test: 2300 / 2301\ndbg: [net:1] Missed frame for sync-test: 2400 / 2401\ndbg: [net:1] Missed frame for sync-test: 2500 / 2501\ndbg: [net:1] Missed frame for sync-test: 2600 / 2601\ndbg: [net:1] Missed frame for sync-test: 2700 / 2701\ndbg: [net:1] Missed frame for sync-test: 2800 / 2801\ndbg: [net:1] Missed frame for sync-test: 2900 / 2901\ndbg: [net:1] Missed frame for sync-test: 3000 / 3001\ndbg: [net:1] Missed frame for sync-test: 3100 / 3101\ndbg: [net:1] Missed frame for sync-test: 3200 / 3201\ndbg: [net:1] Missed frame for sync-test: 3300 / 3301\ndbg: [net:1] Missed frame for sync-test: 3400 / 3401\ndbg: [net:1] Missed frame for sync-test: 3500 / 3501\ndbg: [net:1] Missed frame for sync-test: 3600 / 3601\ndbg: [net:1] Missed frame for sync-test: 3700 / 3701\ndbg: [net:3] Closed client connection 0\ndbg: [net:1] Shutdown client connection 0\ndbg: [net:3] Initializing UDP listeners\ndbg: [net:3] Shutting down network\n"
+    },
+    {
+      "step": "rejoin",
+      "client_log_tail": "test: 5800 / 5801\ndbg: [net:1] Missed frame for sync-test: 5900 / 5901\ndbg: [net:1] Missed frame for sync-test: 6000 / 6001\ndbg: [net:1] Missed frame for sync-test: 6100 / 6101\ndbg: [net:1] Missed frame for sync-test: 6200 / 6201\ndbg: [net:1] Missed frame for sync-test: 6300 / 6301\ndbg: [net:1] Missed frame for sync-test: 6400 / 6401\ndbg: [net:1] Missed frame for sync-test: 6500 / 6501\ndbg: [net:1] Missed frame for sync-test: 6600 / 6601\ndbg: [net:1] Missed frame for sync-test: 6700 / 6701\ndbg: [net:1] Missed frame for sync-test: 6800 / 6801\ndbg: [net:1] Missed frame for sync-test: 6900 / 6901\ndbg: [net:1] Missed frame for sync-test: 7000 / 7001\ndbg: [net:1] Missed frame for sync-test: 7100 / 7101\ndbg: [net:1] Missed frame for sync-test: 7200 / 7201\ndbg: [net:1] Missed frame for sync-test: 7300 / 7301\ndbg: [net:1] Missed frame for sync-test: 7400 / 7401\ndbg: [net:1] Missed frame for sync-test: 7500 / 7501\ndbg: [net:1] Missed frame for sync-test: 7600 / 7601\ndbg: [net:1] Missed frame for sync-test: 7700 / 7701\ndbg: [net:1] Missed frame for sync-test: 7800 / 7801\ndbg: [net:1] Missed frame for sync-test: 7900 / 7901\ndbg: [net:1] Missed frame for sync-test: 8000 / 8001\ndbg: [net:1] Missed frame for sync-test: 8100 / 8101\ndbg: [net:1] Missed frame for sync-test: 8200 / 8201\ndbg: [net:1] Missed frame for sync-test: 8300 / 8301\ndbg: [net:3] Closed client connection 0\ndbg: [net:1] Shutdown client connection 0\ndbg: [net:3] Initializing UDP listeners\ndbg: [net:3] Shutting down network\n"
+    },
+    {
+      "step": "client without balance GRFs",
+      "client_log_tail": "ading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT09.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT18.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT19.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT21.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT17.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT20.GM\ndbg: [misc:1] Loading base musicset details failed: C:\\Users\\Kladd\\Downloads\\OpenTTD\\baseset\\orig_win.obm\ndbg: [misc:1]   File is missing: GM_TT07.GM\ndbg: [misc:1] Not adding original_windows (1) as base music set (duplicate, lower version)\ndbg: [net:3] Initializing UDP listeners\ndbg: [net:3] Connected to 127.0.0.1:3989\ndbg: [net:3] [crypto] Creating a new random key\ndbg: [grf:0] NewGRF 52560010 not found; checksum 72FBC53C8E6A49BEE75E44D5C0C7C754\ndbg: [grf:0] NewGRF 52560011 not found; checksum C0949074ED54AA87930AA015C5970D11\ndbg: [net:3] Closed client connection 0\ndbg: [net:1] Shutdown client connection 0\n"
+    }
+  ],
+  "server_ready_s": 2,
+  "server_joins": 4,
+  "server_connect_lines": [
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 62",
+    "dbg: [net:3] [server] Client #2 (127.0.0.1) joined as rv-oss-client, pubkey: 2078167D6BFBB22DD02FF52F472D19E7266854DD15BC76D0F73BA4C26104CC51",
+    "dbg: [net:3] [server] Client #2 closed connection",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 4692",
+    "dbg: [net:3] [server] Client #3 (127.0.0.1) joined as rv-oss-client, pubkey: 146519696CFC47E30232AF35022F7AFF24A2EB46F1321CE8F3815A30BF759406",
+    "dbg: [net:3] [server] Client #3 closed connection",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 9322",
+    "dbg: [net:3] [server] Client #4 closed connection"
+  ],
+  "client_sync_missed": [
+    "join: 25",
+    "rejoin: 25",
+    "client without balance GRFs: 0"
+  ],
+  "server_desync_lines": [],
+  "server_grf_lines": [
+    "dbg: [net:2] non-joined client 4 reported an error and is closing its connection (NewGRF mismatch) (2, 3, 15)"
+  ],
+  "server_net_lines": [
+    "dbg: [net:3] Starting dedicated server, version jgrpp-0.73.4",
+    "dbg: [net:3] Starting network",
+    "dbg: [net:3] Initializing UDP listeners",
+    "dbg: [net:3] Network online, multiplayer available",
+    "dbg: [net:3] Detected broadcast addresses:",
+    "dbg: [net:3]   0) 192.168.18.255",
+    "dbg: [net:3]   1) 192.168.194.255",
+    "dbg: [net:3] Network revision name: jgrpp-0.73.4",
+    "dbg: [net:3] Initializing UDP listeners",
+    "dbg: [net:3] Initializing UDP listeners",
+    "dbg: [net:3] Listening on 127.0.0.1:3989 (IPv4)",
+    "dbg: [net:3] Listening on 127.0.0.1:3989 (IPv4)",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 62",
+    "dbg: [net:3] [server] Client #2 (127.0.0.1) joined as rv-oss-client, pubkey: 2078167D6BFBB22DD02FF52F472D19E7266854DD15BC76D0F73BA4C26104CC51",
+    "dbg: [net:3] [server] Client #2 closed connection",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 4692",
+    "dbg: [net:3] [server] Client #3 (127.0.0.1) joined as rv-oss-client, pubkey: 146519696CFC47E30232AF35022F7AFF24A2EB46F1321CE8F3815A30BF759406",
+    "dbg: [net:3] [server] Client #3 closed connection",
+    "dbg: [net:3] [server] Client connected from 127.0.0.1 on frame 9322",
+    "dbg: [net:2] non-joined client 4 reported an error and is closing its connection (NewGRF mismatch) (2, 3, 15)",
+    "dbg: [net:3] [server] Client #4 closed connection"
+  ],
+  "server_observe_months": 4
+}

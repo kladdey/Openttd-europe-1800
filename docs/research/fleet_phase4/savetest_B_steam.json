@@ -1,0 +1,141 @@
+{
+  "source": "<campaign save>, 1893-06-04.sav",
+  "source_sha256": "12aea0671df55051edda01498c021777a0a218285c4dff48a79aad554b11757c",
+  "variant": "B_steam",
+  "steps": [
+    {
+      "src": "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\_saves\\campaign_1893_clone.sav",
+      "src_sha256": "12aea0671df55051edda01498c021777a0a218285c4dff48a79aad554b11757c",
+      "dst": "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\_saves\\clone_B_steam_gs.sav",
+      "dst_sha256": "09686d0fa94b76e5905ab40c504f15edb73ebb90e50b21525a71e3b70e875f76",
+      "changes": [
+        [
+          "GSDT",
+          "attached",
+          "RVProbe"
+        ],
+        [
+          "NGRF",
+          "inserted after",
+          "44440302",
+          "52560010"
+        ]
+      ]
+    },
+    {
+      "src": "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\_saves\\save-B_steam-balanced__autosave1.sav",
+      "src_sha256": "e6266ba784372982232abc10ed10b606e18cb03c421de8a4926820ac9123835c",
+      "dst": "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\_saves\\clone_B_steam_rollback.sav",
+      "dst_sha256": "f5af9ed71d943c35eb7ad8a65c74705cc1b58f84f40adbce4b181d47c7d204c4",
+      "changes": [
+        [
+          "NGRF",
+          "removed",
+          "52560010"
+        ]
+      ]
+    }
+  ],
+  "original": {
+    "tag": "save-B_steam-original",
+    "command": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-X",
+      "-x",
+      "-c",
+      "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-B_steam-original\\test.cfg",
+      "-v",
+      "null:ticks=40000000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4,grf=3",
+      "-G",
+      "734",
+      "-g",
+      "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-B_steam-original\\game.sav"
+    ],
+    "reason": "completed",
+    "returncode": 1,
+    "seconds": 45.1,
+    "full_log_sha256": "3e1cb330e2d1ec714c79ebd59602002d6342dd4b99ad1108ec59372243ff4f23",
+    "full_log_bytes": 9743457,
+    "production_files_unchanged": true,
+    "free_gb_after": 77.1,
+    "run_dir_deleted": false,
+    "autosaves_in_run_dir": []
+  },
+  "balanced": {
+    "tag": "save-B_steam-balanced",
+    "command": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-X",
+      "-x",
+      "-c",
+      "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-B_steam-balanced\\test.cfg",
+      "-v",
+      "null:ticks=40000000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4,grf=3",
+      "-G",
+      "734",
+      "-g",
+      "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-B_steam-balanced\\game.sav"
+    ],
+    "reason": "completed",
+    "returncode": 1,
+    "seconds": 230.6,
+    "full_log_sha256": "1f406868589a31522111a4d9e86f4e218f890d48d97eef4953b27db43a0e6bf9",
+    "full_log_bytes": 10314182,
+    "production_files_unchanged": true,
+    "free_gb_after": 77.1,
+    "run_dir_deleted": false,
+    "autosaves_in_run_dir": [
+      "save\\autosave\\autosave0.sav",
+      "save\\autosave\\autosave1.sav"
+    ]
+  },
+  "autosaves": [
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\_saves\\save-B_steam-balanced__autosave0.sav",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\_saves\\save-B_steam-balanced__autosave1.sav"
+  ],
+  "rollback": {
+    "tag": "save-B_steam-rollback",
+    "command": [
+      "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+      "-X",
+      "-x",
+      "-c",
+      "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-B_steam-rollback\\test.cfg",
+      "-v",
+      "null:ticks=40000000",
+      "-s",
+      "null",
+      "-m",
+      "null",
+      "-d",
+      "script=4,grf=3",
+      "-G",
+      "734",
+      "-g",
+      "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-B_steam-rollback\\game.sav"
+    ],
+    "reason": "completed",
+    "returncode": 1,
+    "seconds": 42.0,
+    "full_log_sha256": "154ae3596d24642bb3683c37ccf01cf6ea9780cf46478beabd170a2026cd8480",
+    "full_log_bytes": 9743686,
+    "production_files_unchanged": true,
+    "free_gb_after": 77.0,
+    "run_dir_deleted": false,
+    "autosaves_in_run_dir": []
+  },
+  "production_save_dir_unchanged": true,
+  "source_unchanged": true
+}

@@ -1,0 +1,30 @@
+{
+  "tag": "p1850-grass1050-flat96-w12-l128-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-grass1050-flat96-w12-l128-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-grass1050-flat96-w12-l128-s736\\map.png"
+  ],
+  "reason": "blocked",
+  "returncode": 1,
+  "seconds": 27.7,
+  "full_log_sha256": "98a4784fef9b3b48edd08e3477fca02666584bc13cfff54080838494d69d74ae",
+  "full_log_bytes": 9691443,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

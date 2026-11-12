@@ -1,0 +1,30 @@
+{
+  "tag": "era-B_steam-1940-1603-pass96-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-B_steam-1940-1603-pass96-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-B_steam-1940-1603-pass96-s736\\map.png"
+  ],
+  "reason": "blocked",
+  "returncode": 1,
+  "seconds": 15.6,
+  "full_log_sha256": "756bdf1b7339a9c5e7d769526ff2a23e5d19aab032b8298f7c0d56aa5a4cc12d",
+  "full_log_bytes": 9684216,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

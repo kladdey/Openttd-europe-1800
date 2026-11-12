@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f6-nars-mult43-catalogue",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f6-nars-mult43-catalogue\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f6-nars-mult43-catalogue\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 20.0,
+  "full_log_sha256": "0ccde54e9606edb8279cc862fa90b6f4e4c5874183eaba7c19d09d07c2bd5c9c",
+  "full_log_bytes": 10022571,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

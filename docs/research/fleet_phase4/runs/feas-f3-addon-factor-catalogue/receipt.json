@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f3-addon-factor-catalogue",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f3-addon-factor-catalogue\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f3-addon-factor-catalogue\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 20.2,
+  "full_log_sha256": "dd0595e50d1b80b7730175213ef0b99e38104c6e38e21560fd3ee8c0e586a39f",
+  "full_log_bytes": 10022818,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

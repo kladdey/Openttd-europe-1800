@@ -1,0 +1,17 @@
+{
+  "grfid": "52560011",
+  "target": "4E4D0518",
+  "tag": "f3",
+  "name": "RV P4 f3",
+  "prices": {},
+  "engines": [
+    {
+      "id": 116,
+      "factor": 12
+    }
+  ],
+  "file": "rv_52560011_f3.grf",
+  "bytes": 107,
+  "sha256": "664ad6a817d57027ca0dac3dba36ea0d2ec3b48cd78da68b1093a8c2a09f6609",
+  "md5": "DE09F77D80E8BBE4539331DDCF8AB1CC"
+}

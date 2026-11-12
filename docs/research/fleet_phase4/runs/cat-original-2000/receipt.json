@@ -1,0 +1,30 @@
+{
+  "tag": "cat-original-2000",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\cat-original-2000\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\cat-original-2000\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 39.8,
+  "full_log_sha256": "dce360fd62a3a125f845c02581174284f054434f4cf2fff15ef2346d6ab891af",
+  "full_log_bytes": 10018680,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

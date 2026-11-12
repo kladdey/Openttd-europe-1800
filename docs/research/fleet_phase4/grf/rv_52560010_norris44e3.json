@@ -1,0 +1,19 @@
+{
+  "grfid": "52560010",
+  "target": "44440302",
+  "tag": "norris44e3",
+  "name": "RV P4 norris44e3",
+  "prices": {
+    "44": 3
+  },
+  "engines": [
+    {
+      "id": 0,
+      "cls": "electric"
+    }
+  ],
+  "file": "rv_52560010_norris44e3.grf",
+  "bytes": 128,
+  "sha256": "2075b49fea521d3dc8f938ab18f8268818b859a7f23341e3f2fbf4422544d607",
+  "md5": "B4C1260BDC2A5650A814446848794FCC"
+}

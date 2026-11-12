@@ -1,0 +1,23 @@
+{
+  "grfid": "52560010",
+  "target": "44440302",
+  "tag": "A",
+  "name": "RV P4 A",
+  "prices": {
+    "44": 3
+  },
+  "engines": [
+    {
+      "id": 0,
+      "cls": "electric"
+    },
+    {
+      "id": 1,
+      "cls": "electric"
+    }
+  ],
+  "file": "rv_52560010_A.grf",
+  "bytes": 132,
+  "sha256": "e8b532397b9d3bdcb447a544fbf65156f945014d17a377a5116030f1e5707a8b",
+  "md5": "B96E0CC0B061A267D0A521E18A6C20FA"
+}

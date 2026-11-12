@@ -1,0 +1,30 @@
+{
+  "tag": "cat-C_cross-1850",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\cat-C_cross-1850\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\cat-C_cross-1850\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 32.8,
+  "full_log_sha256": "5708dc6e4327c77525191ac6fb9afcfb8529965e06a07b14b7b8c5ed8abe0d6d",
+  "full_log_bytes": 10024705,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

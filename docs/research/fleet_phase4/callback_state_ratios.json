@@ -1,0 +1,130 @@
+{
+ "NARS|2-10-2 Santa Fe": {
+  "B_steam": 0.244,
+  "C_cross": 0.244,
+  "base": 0.244
+ },
+ "NARS|2-6-0 Mogul": {
+  "B_steam": 0.242,
+  "C_cross": 0.242,
+  "base": 0.242
+ },
+ "NARS|2-8-0 Consolidation": {
+  "B_steam": 0.226,
+  "C_cross": 0.226,
+  "base": 0.226
+ },
+ "NARS|2-8-0 Consolidation II": {
+  "B_steam": 0.244,
+  "C_cross": 0.244,
+  "base": 0.244
+ },
+ "NARS|2-8-8-2 Mallet": {
+  "B_steam": 1.0,
+  "C_cross": 1.0,
+  "base": 1.0
+ },
+ "NARS|4-4-0 American": {
+  "A_targeted": 0.242,
+  "B_steam": 0.242,
+  "C_cross": 0.242,
+  "base": 0.242
+ },
+ "NARS|4-6-0 Ten-Wheeler": {
+  "B_steam": 0.229,
+  "C_cross": 0.229,
+  "base": 0.229
+ },
+ "NARS|Alco RS3": {
+  "C_cross": 0.25,
+  "base": 0.25
+ },
+ "NARS|EMD GP38-2": {
+  "C_cross": 0.245,
+  "base": 0.245
+ },
+ "NARS|EMD GP9": {
+  "C_cross": 0.238,
+  "base": 0.238
+ },
+ "NARS|EMD SD40-2": {
+  "C_cross": 0.246,
+  "base": 0.246
+ },
+ "NARS|EMD SD70MAC": {
+  "C_cross": 0.247,
+  "base": 0.247
+ },
+ "NARS|GE C44-9W": {
+  "C_cross": 0.25,
+  "base": 0.25
+ },
+ "NARS|GE Evolution": {
+  "C_cross": 0.244,
+  "base": 0.244
+ },
+ "NARS Add-On|0-4-0 Grasshopper (Steam)": {
+  "A_targeted": 1.0,
+  "C_cross": 1.0,
+  "base": 1.0
+ },
+ "NARS Add-On|0-8-0 Winans \"Camel Back\" (Steam)": {
+  "base": 1.0
+ },
+ "NARS Add-On|2-8-8-4 Yellowstone (Steam)": {
+  "base": 1.0
+ },
+ "NARS Add-On|4-2-2 Central Pacific T.D. Judah (Steam)": {
+  "A_targeted": 1.0,
+  "C_cross": 1.0,
+  "base": 1.0
+ },
+ "NARS Add-On|4-4-0 PRR Class D16 (Steam)": {
+  "base": 1.0
+ },
+ "NARS Add-On|4-8-8-4 UP Big Boy (Steam)": {
+  "base": 1.0
+ },
+ "NARS Add-On|Alco RSD7 (Diesel)": {
+  "base": 1.0
+ },
+ "NARS Add-On|EMD SD40 (Diesel)": {
+  "base": 1.0
+ },
+ "NARS Add-On|EMD SD70ACe (Diesel)": {
+  "base": 1.0
+ },
+ "NARS Add-On|EMD SD80MAC (Diesel)": {
+  "base": 1.0
+ },
+ "UKRS2|0-4-0 Coppernob (Steam)": {
+  "base": 0.501
+ },
+ "UKRS2|0-6-0 Goods (Steam)": {
+  "base": 0.467
+ },
+ "UKRS2|0-6-0 Jinty (Steam)": {
+  "base": 0.501
+ },
+ "UKRS2|0-6-0 Long Boiler (Steam)": {
+  "base": 0.445
+ },
+ "UKRS2|2-2-0 Planet (Steam)": {
+  "base": 0.337
+ },
+ "UKRS2|2-8-0 8F (Steam)": {
+  "base": 0.493
+ },
+ "UKRS2|BREL Class 58 (Diesel)": {
+  "base": 0.38
+ },
+ "UKRS2|Brush Type 4 (Diesel)": {
+  "base": 0.371
+ },
+ "UKRS2|EMD Class 66 (Diesel)": {
+  "A_targeted": 0.395,
+  "B_steam": 0.395,
+  "C_cross": 0.395,
+  "base": 0.395
+ }
+}

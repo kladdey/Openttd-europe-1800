@@ -1,0 +1,137 @@
+{
+  "A_targeted-1850": {
+    "engines": 2854,
+    "running_changed": 4,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 2,
+      "Add-On": 2,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "A_targeted-1925": {
+    "engines": 2854,
+    "running_changed": 4,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 2,
+      "Add-On": 2,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "A_targeted-2000": {
+    "engines": 2854,
+    "running_changed": 4,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 2,
+      "Add-On": 2,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "B_steam-1850": {
+    "engines": 2854,
+    "running_changed": 21,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 21,
+      "Add-On": 0,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "B_steam-1925": {
+    "engines": 2854,
+    "running_changed": 21,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 21,
+      "Add-On": 0,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "B_steam-2000": {
+    "engines": 2854,
+    "running_changed": 21,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 21,
+      "Add-On": 0,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "C_cross-1850": {
+    "engines": 2854,
+    "running_changed": 73,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 71,
+      "Add-On": 2,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "C_cross-1925": {
+    "engines": 2854,
+    "running_changed": 73,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 71,
+      "Add-On": 2,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  },
+  "C_cross-2000": {
+    "engines": 2854,
+    "running_changed": 73,
+    "unexpected_running_changes": [],
+    "expected_but_unchanged": [],
+    "other_field_changes": {},
+    "by_set": {
+      "NARS": 71,
+      "Add-On": 2,
+      "UKRS2": 0,
+      "GETS": 0,
+      "PTS": 0,
+      "PRSP": 0
+    }
+  }
+}

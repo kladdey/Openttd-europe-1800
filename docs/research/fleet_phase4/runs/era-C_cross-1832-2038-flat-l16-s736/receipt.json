@@ -1,0 +1,30 @@
+{
+  "tag": "era-C_cross-1832-2038-flat-l16-s736",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-C_cross-1832-2038-flat-l16-s736\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "736",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-C_cross-1832-2038-flat-l16-s736\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 30.8,
+  "full_log_sha256": "e70ce531e118911124f9a23bb1cc7e9a03a0383be5970120e3dcbce42a0fa72f",
+  "full_log_bytes": 9702673,
+  "production_files_unchanged": true,
+  "free_gb_after": 76.9,
+  "run_dir_deleted": true
+}

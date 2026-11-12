@@ -1,0 +1,30 @@
+{
+  "tag": "era-base-1980-1932-pass96-s737",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1980-1932-pass96-s737\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "737",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1980-1932-pass96-s737\\map.png"
+  ],
+  "reason": "blocked",
+  "returncode": 1,
+  "seconds": 18.8,
+  "full_log_sha256": "522e9b0d5abdcbd4336d5ac4b6d39ee5b3063b0466d9126567e6e113c2c9a624",
+  "full_log_bytes": 9682209,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

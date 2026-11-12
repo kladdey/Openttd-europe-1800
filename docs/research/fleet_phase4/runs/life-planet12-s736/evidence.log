@@ -1,0 +1,267 @@
+dbg: [grf:3] '44440a01-av8_aviators_aircraft_set-2.21.tar\av8_aviators_aircraft_set-2.21\pb_av8w.grf' sets local price base multiplier 45 to 4
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 16 to 4
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 42 to 1
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 43 to 1
+dbg: [grf:3] 'polishtrainset3.0.3.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '434d4301-sailing_ships_community-0.73.tar\sailing_ships_community-0.73\ss_community.grf' sets local price base multiplier 19 to 0
+dbg: [grf:3] '434d4301-sailing_ships_community-0.73.tar\sailing_ships_community-0.73\ss_community.grf' sets local price base multiplier 47 to 0
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 16 to 4
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 42 to 1
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 43 to 1
+dbg: [grf:3] '4d560105-polish_rolling_stock_pack-0.19.11.tar\polish_rolling_stock_pack-0.19.11\polish-rolling-stock-pack-0.19.11.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 15 to 0
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 16 to 2
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 42 to 3
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 43 to -3
+dbg: [grf:3] '44441000-ukrs2_the_uk_railway_set-1.05.tar\ukrs2__the_uk_railway_set-1.05\proj1000.grf' sets local price base multiplier 44 to 5
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets local price base multiplier 19 to 2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets local price base multiplier 47 to 2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 60 to -3
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 61 to -4
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 62 to -2
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 63 to -4
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 64 to -1
+dbg: [grf:3] '414e0201-squid_ate_fish_fish_2_ships-2.0.3.tar\fish_2-2.0.3\fish.grf' sets global price base multiplier 65 to -2
+dbg: [grf:3] '4f472b34-opengfx_landscape-1.1.2.tar\opengfx_landscape-1.1.2\ogfx-landscape.grf' sets local price base multiplier 50 to 4
+dbg: [grf:3] '4f472b34-opengfx_landscape-1.1.2.tar\opengfx_landscape-1.1.2\ogfx-landscape.grf' sets local price base multiplier 51 to 5
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 15 to -1
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 16 to 3
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 42 to 4
+dbg: [grf:3] '44440302-north_american_renewal_set-2.52.tar\north_american_renewal_set-2.52\newnars.grf' sets local price base multiplier 43 to -3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 15 to 1
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 16 to 3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 42 to 3
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 43 to 2
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets local price base multiplier 44 to 1
+dbg: [grf:3] '4e4d0518-nars_add_on_set_2cc-2401131718.tar\nars_add_on_set_2cc-2401131718\nars_add_on_set.grf' sets global price base multiplier 46 to 1
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 48 to 2
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 49 to 2
+dbg: [grf:3] 'axis-historical-europe-0.6.0-expansion-candidate.grf' sets global price base multiplier 58 to 2
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 15 to -2
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 16 to 1
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 42 to -3
+dbg: [grf:3] 'gets0.7.grf' sets local price base multiplier 43 to -5
+RV_BEGIN|675699|1850|route
+RV_SETTING|difficulty.vehicle_costs|0
+RV_SETTING|difficulty.vehicle_costs_in_depot|1
+RV_SETTING|difficulty.vehicle_costs_when_stopped|1
+RV_SETTING|economy.inflation|0
+RV_SETTING|economy.timekeeping_units|0
+RV_SETTING|economy.minutes_per_calendar_year|12
+RV_SETTING|economy.day_length_factor|1
+RV_SETTING|vehicle.train_acceleration_model|1
+RV_SETTING|vehicle.train_slope_steepness|3
+RV_SETTING|vehicle.max_train_length|7
+RV_SETTING|vehicle.freight_trains|1
+RV_SETTING|difficulty.vehicle_breakdowns|1
+RV_SETTING|economy.infrastructure_maintenance|1
+RV_SETTING|difficulty.subsidy_multiplier|2
+RV_SETTING|difficulty.subsidy_duration|0
+RV_ENGINE|start|1534|2-2-0 Planet (Steam)|7031|525|120|11|14|48|false|668394|-1|true
+RV_ENGINE|start|1531|0-4-0 Coppernob (Steam)|12890|1181|250|43|37|64|false|673507|-1|true
+RV_ENGINE|start|1585|4-2-0 Norris|11718|6300|200|19|20|56|false|670951|-1|true
+RV_ENGINE|start|2038|0-4-0 Grasshopper (Steam)|4687|3150|63|11|8|38|false|668394|-1|true
+RV_ENGINE|start|1686|Single Hopper|2625|38|-1|-1|12|64|true|657437|20|true
+RV_ENGINE|start|1688|Large Hopper|2859|76|-1|-1|23|112|true|705225|40|false
+RV_ENGINE|start|1500|2-8-0 8F (Steam)|37500|6431|1550|142|128|80|false|706458|-1|false
+RV_ENGINE|start|1599|2-8-8-2 Mallet|70898|25462|5000|560|431|80|false|703996|-1|false
+RV_ENGINE|start|2018|4-8-8-4 UP Big Boy (Steam)|103125|15750|6290|600|603|130|false|708949|-1|false
+RV_ENGINE|start|2030|2-8-8-4 Yellowstone (Steam)|98437|13125|6200|649|514|80|false|708949|-1|false
+RV_CORRIDOR|40|20|72|cleared 0
+RV_PROFILE|x|2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+RV_PROFILE|y|2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+RV_INDUSTRY_TYPES|1|Coal Mine|66|Coke Oven
+RV_INDUSTRY_BUILT|1|4134|-2|-4
+RV_INDUSTRY_BUILT|66|4166|-2|-4
+RV_PRODUCTION_LEVEL|1|66|true
+RV_PRODUCTION_LEVEL|0|1|true
+RV_AUTORENEW|true|true|false
+RV_CATCHMENT|1|120|0|0
+RV_MAX_AGE|9150|9150
+RV_BUILD|0|38531|8475|240|53|13|0|1|14|588
+RV_EXPENSE_IDS|2|6|12|1|0
+RV_SUBSIDIES_AWARDED|1850|0
+RV_YEAR|1850|720|720|3|9653|8475,77062,883,0,0,0,600,-10536,0,0,0,0,-199999700,0,0,|366|82|0|0|-1|588|588|365
+RV_STATE|1850|platform_unloading|49|28812|588|588|0|3120
+RV_STATE|1850|moving_empty|1086|923100|850|850|35668|0
+RV_STATE|1850|platform_loading_empty|452|265776|588|588|0|0
+RV_STATE|1850|other_stopped|243|185590|588|850|0|44400
+RV_STATE|1850|depot|12|7056|588|588|0|1920
+RV_STATE|1850|moving_loaded|3485|2962250|850|850|53290|836400
+RV_STATE|1850|platform_loading_part|56|32928|588|588|0|10080
+RV_SUBSIDIES_AWARDED|1851|0
+RV_YEAR|1851|480|480|2|6114|0,0,1048,0,0,0,600,-7162,0,0,0,0,300,0,0,|731|88|0|0|-1|588|588|730
+RV_STATE|1851|platform_unloading|32|18816|588|588|0|1920
+RV_STATE|1851|moving_empty|1251|1063350|850|850|45683|0
+RV_STATE|1851|other_stopped|387|274716|588|850|0|84720
+RV_STATE|1851|depot|12|7056|588|588|0|2880
+RV_STATE|1851|moving_loaded|3657|3108450|850|850|45856|877680
+RV_STATE|1851|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1852|0
+RV_YEAR|1852|720|720|3|9960|0,0,974,0,0,0,600,-10935,0,0,0,0,300,0,0,|1097|74|0|0|-1|588|588|1096
+RV_STATE|1852|platform_unloading|49|28812|588|588|0|3120
+RV_STATE|1852|moving_empty|1380|1173000|850|850|46639|0
+RV_STATE|1852|other_stopped|458|315678|588|850|0|76320
+RV_STATE|1852|platform_loading_empty|1|588|588|588|0|0
+RV_STATE|1852|depot|8|4704|588|588|0|1920
+RV_STATE|1852|moving_loaded|3458|2939300|850|850|55347|829920
+RV_STATE|1852|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1853|0
+RV_YEAR|1853|720|720|3|9891|0,0,979,0,0,0,600,-10870,0,0,0,0,300,0,0,|1462|76|0|0|-1|588|588|1461
+RV_STATE|1853|platform_unloading|49|28812|588|588|0|3120
+RV_STATE|1853|moving_empty|1146|974100|850|850|39289|0
+RV_STATE|1853|other_stopped|311|224002|588|850|0|62640
+RV_STATE|1853|depot|12|7056|588|588|0|2880
+RV_STATE|1853|moving_loaded|3838|3262300|850|850|57920|921120
+RV_STATE|1853|platform_loading_part|32|18816|588|588|0|5760
+RV_SUBSIDIES_AWARDED|1854|0
+RV_YEAR|1854|720|720|3|9959|0,0,983,0,0,0,600,-10942,0,0,0,0,300,0,0,|1827|81|0|0|-1|588|588|1826
+RV_STATE|1854|platform_unloading|49|28812|588|588|0|3120
+RV_STATE|1854|moving_empty|1206|1025100|850|850|41720|0
+RV_STATE|1854|other_stopped|273|205326|588|850|0|53520
+RV_STATE|1854|depot|11|6468|588|588|0|2640
+RV_STATE|1854|moving_loaded|3800|3230000|850|850|59765|912000
+RV_STATE|1854|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1855|0
+RV_YEAR|1855|720|720|3|10111|0,0,844,0,0,0,600,-10956,0,0,0,0,300,0,0,|2192|80|0|0|-1|588|588|2191
+RV_STATE|1855|platform_unloading|48|28224|588|588|0|2880
+RV_STATE|1855|moving_empty|1407|1195950|850|850|50156|0
+RV_STATE|1855|other_stopped|165|140250|850|850|0|27360
+RV_STATE|1855|platform_loading_empty|1|588|588|588|0|0
+RV_STATE|1855|depot|11|6468|588|588|0|2640
+RV_STATE|1855|moving_loaded|3707|3150950|850|850|59679|889680
+RV_STATE|1855|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1856|0
+RV_YEAR|1856|480|480|2|6253|0,0,984,0,0,0,600,-7237,0,0,0,0,300,0,0,|2558|84|0|0|-1|588|588|2557
+RV_STATE|1856|platform_unloading|32|18816|588|588|0|1920
+RV_STATE|1856|moving_empty|1045|888250|850|850|37811|0
+RV_STATE|1856|other_stopped|303|221656|588|850|0|64560
+RV_STATE|1856|platform_loading_empty|1|588|588|588|0|0
+RV_STATE|1856|depot|10|5880|588|588|0|2400
+RV_STATE|1856|moving_loaded|3963|3368550|850|850|56589|951120
+RV_STATE|1856|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1857|0
+RV_YEAR|1857|720|720|3|9971|0,0,977,0,0,0,600,-10949,0,0,0,0,300,0,0,|2923|86|0|0|-1|588|588|2922
+RV_STATE|1857|platform_unloading|48|28224|588|588|0|2880
+RV_STATE|1857|moving_empty|1360|1156000|850|850|46626|0
+RV_STATE|1857|other_stopped|349|253682|588|850|0|50160
+RV_STATE|1857|depot|11|6468|588|588|0|2640
+RV_STATE|1857|moving_loaded|3571|3035350|850|850|52979|857040
+RV_STATE|1857|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1858|0
+RV_YEAR|1858|720|720|3|9975|0,0,981,0,0,0,600,-10956,0,0,0,0,300,0,0,|3288|86|0|0|-1|588|588|3287
+RV_STATE|1858|platform_unloading|48|28224|588|588|0|2880
+RV_STATE|1858|moving_empty|1346|1144100|850|850|46593|0
+RV_STATE|1858|other_stopped|294|219246|588|850|0|27360
+RV_STATE|1858|platform_loading_empty|1|588|588|588|0|0
+RV_STATE|1858|depot|12|7056|588|588|0|2880
+RV_STATE|1858|moving_loaded|3638|3092300|850|850|58035|873120
+RV_STATE|1858|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1859|0
+RV_YEAR|1859|720|720|3|9975|0,0,981,0,0,0,600,-10956,0,0,0,0,300,0,0,|3653|88|0|0|-1|588|588|3652
+RV_STATE|1859|platform_unloading|49|28812|588|588|0|3120
+RV_STATE|1859|moving_empty|1380|1173000|850|850|46643|0
+RV_STATE|1859|other_stopped|301|224148|588|850|0|42720
+RV_STATE|1859|platform_loading_empty|1|588|588|588|0|0
+RV_STATE|1859|depot|11|6468|588|588|0|2640
+RV_STATE|1859|moving_loaded|3598|3058300|850|850|55850|863520
+RV_STATE|1859|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1860|0
+RV_YEAR|1860|720|720|3|9976|0,0,980,0,0,0,600,-10956,0,0,0,0,300,0,0,|4019|89|0|0|-1|588|588|4018
+RV_STATE|1860|platform_unloading|49|28812|588|588|0|3120
+RV_STATE|1860|moving_empty|1390|1181500|850|850|46641|0
+RV_STATE|1860|other_stopped|326|237014|588|850|0|27120
+RV_STATE|1860|depot|11|6468|588|588|0|2640
+RV_STATE|1860|moving_loaded|3578|3041300|850|850|57915|858720
+RV_STATE|1860|platform_loading_part|48|28224|588|588|0|8640
+RV_SUBSIDIES_AWARDED|1861|0
+RV_YEAR|1861|720|720|3|9744|0,0,1045,0,0,0,600,-10790,0,0,0,0,300,0,0,|4384|78|0|0|-1|588|850|4383
+RV_STATE|1861|platform_unloading|48|28224|588|588|0|2880
+RV_STATE|1861|moving_empty|1071|928474|850|1244|32604|0
+RV_STATE|1861|other_stopped|448|303248|588|850|0|56880
+RV_STATE|1861|depot|8|4704|588|588|0|1920
+RV_STATE|1861|moving_loaded|3780|3213000|850|850|55875|907200
+RV_STATE|1861|platform_loading_part|32|18816|588|588|0|5760
+RV_SUBSIDIES_AWARDED|1862|0
+RV_YEAR|1862|480|480|2|5805|0,0,1499,0,0,0,600,-7304,0,0,0,0,300,0,0,|4749|85|0|0|-1|850|850|4748
+RV_STATE|1862|platform_unloading|32|27200|850|850|0|1920
+RV_STATE|1862|moving_empty|1258|1564952|1244|1244|44658|0
+RV_STATE|1862|other_stopped|439|444070|850|1244|0|76080
+RV_STATE|1862|depot|11|9350|850|850|0|2640
+RV_STATE|1862|moving_loaded|3599|4477156|1244|1244|52404|863760
+RV_STATE|1862|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1863|0
+RV_YEAR|1863|720|720|3|9711|0,0,1234,0,0,0,600,-10946,0,0,0,0,300,0,0,|5114|84|0|0|-1|850|850|5113
+RV_STATE|1863|platform_unloading|48|40800|850|850|0|2880
+RV_STATE|1863|moving_empty|1322|1644568|1244|1244|46598|0
+RV_STATE|1863|other_stopped|163|202772|1244|1244|0|26880
+RV_STATE|1863|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1863|depot|11|9350|850|850|0|2640
+RV_STATE|1863|moving_loaded|3794|4719736|1244|1244|62109|910560
+RV_STATE|1863|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1864|0
+RV_YEAR|1864|720|720|3|9434|0,0,1436,0,0,0,600,-10870,0,0,0,0,300,0,0,|5480|89|0|0|-1|850|850|5479
+RV_STATE|1864|platform_unloading|49|41650|850|850|0|3120
+RV_STATE|1864|moving_empty|1389|1727916|1244|1244|46599|0
+RV_STATE|1864|other_stopped|411|416724|850|1244|0|45600
+RV_STATE|1864|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1864|depot|11|9350|850|850|0|2640
+RV_STATE|1864|moving_loaded|3493|4345292|1244|1244|48311|838320
+RV_STATE|1864|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1865|0
+RV_YEAR|1865|720|720|3|9653|0,0,1303,0,0,0,600,-10956,0,0,0,0,300,0,0,|5845|89|0|0|-1|850|850|5844
+RV_STATE|1865|platform_unloading|48|40800|850|850|0|2880
+RV_STATE|1865|moving_empty|1376|1711744|1244|1244|46632|0
+RV_STATE|1865|other_stopped|229|261630|850|1244|0|26880
+RV_STATE|1865|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1865|depot|11|9350|850|850|0|2640
+RV_STATE|1865|moving_loaded|3674|4570456|1244|1244|59302|881760
+RV_STATE|1865|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1866|0
+RV_YEAR|1866|720|720|3|9648|0,0,1300,0,0,0,600,-10949,0,0,0,0,300,0,0,|6210|90|0|0|-1|850|850|6209
+RV_STATE|1866|platform_unloading|49|41650|850|850|0|3120
+RV_STATE|1866|moving_empty|1322|1644568|1244|1244|46596|0
+RV_STATE|1866|other_stopped|251|279148|850|1244|0|48240
+RV_STATE|1866|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1866|depot|11|9350|850|850|0|2640
+RV_STATE|1866|moving_loaded|3706|4610264|1244|1244|58624|889440
+RV_STATE|1866|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1867|0
+RV_YEAR|1867|720|720|3|9661|0,0,1295,0,0,0,600,-10956,0,0,0,0,300,0,0,|6575|74|0|0|-1|850|850|6574
+RV_STATE|1867|platform_unloading|48|40800|850|850|0|2880
+RV_STATE|1867|moving_empty|1359|1690596|1244|1244|46596|0
+RV_STATE|1867|other_stopped|346|359898|850|1244|0|44640
+RV_STATE|1867|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1867|depot|8|6800|850|850|0|1920
+RV_STATE|1867|moving_loaded|3577|4449788|1244|1244|58226|858480
+RV_STATE|1867|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1868|0
+RV_YEAR|1868|720|720|3|9461|0,0,1368,0,0,0,600,-10830,0,0,0,0,300,0,0,|6941|76|0|0|-1|850|850|6940
+RV_STATE|1868|platform_unloading|48|40800|850|850|0|2880
+RV_STATE|1868|moving_empty|1190|1480360|1244|1244|41244|0
+RV_STATE|1868|other_stopped|326|341716|850|1244|0|66000
+RV_STATE|1868|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1868|depot|10|8500|850|850|0|2400
+RV_STATE|1868|moving_loaded|3795|4720980|1244|1244|57891|910800
+RV_STATE|1868|platform_loading_part|32|27200|850|850|0|5760
+RV_SUBSIDIES_AWARDED|1869|0
+RV_YEAR|1869|480|480|2|5781|0,0,1437,0,0,0,600,-7218,0,0,0,0,300,0,0,|7306|83|0|0|-1|850|850|7305
+RV_STATE|1869|platform_unloading|32|27200|850|850|0|1920
+RV_STATE|1869|moving_empty|1037|1290028|1244|1244|35760|0
+RV_STATE|1869|other_stopped|328|343022|850|1244|0|46800
+RV_STATE|1869|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1869|depot|11|9350|850|850|0|2640
+RV_STATE|1869|moving_loaded|3930|4888920|1244|1244|57157|943200
+RV_STATE|1869|platform_loading_part|48|40800|850|850|0|8640
+RV_SUBSIDIES_AWARDED|1870|0
+RV_YEAR|1870|720|720|3|9496|0,0,1428,0,0,0,600,-10925,0,0,0,0,300,0,0,|7671|88|0|0|-1|850|850|7670
+RV_STATE|1870|platform_unloading|48|40800|850|850|0|2880
+RV_STATE|1870|moving_empty|1376|1711744|1244|1244|46651|0
+RV_STATE|1870|other_stopped|474|483670|850|1244|0|81360
+RV_STATE|1870|platform_loading_empty|1|850|850|850|0|0
+RV_STATE|1870|depot|12|10200|850|850|0|2880
+RV_STATE|1870|moving_loaded|3428|4264038|850|1244|47827|822720
+RV_STATE|1870|platform_loading_part|48|40800|850|850|0|8640
+RV_DONE|finished

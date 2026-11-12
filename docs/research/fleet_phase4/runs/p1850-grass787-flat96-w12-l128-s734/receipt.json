@@ -1,0 +1,30 @@
+{
+  "tag": "p1850-grass787-flat96-w12-l128-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-grass787-flat96-w12-l128-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-grass787-flat96-w12-l128-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 28.8,
+  "full_log_sha256": "a6844201c0691a3055e546c36bf286bbecd8ad1bd1b1a89d20e060dca430c701",
+  "full_log_bytes": 9703492,
+  "production_files_unchanged": true,
+  "free_gb_after": 76.9,
+  "run_dir_deleted": true
+}

@@ -1,0 +1,14 @@
+{
+  "grfid": "52560010",
+  "target": "44440302",
+  "tag": "f6",
+  "name": "RV P4 f6",
+  "prices": {
+    "43": 0
+  },
+  "engines": [],
+  "file": "rv_52560010_f6.grf",
+  "bytes": 107,
+  "sha256": "942ed6399d158589913016d0567c6308ac8d9aa8a34a255d568ccb3a19552e7c",
+  "md5": "03FCDF4C2CF773425E331597FD8F1DE5"
+}

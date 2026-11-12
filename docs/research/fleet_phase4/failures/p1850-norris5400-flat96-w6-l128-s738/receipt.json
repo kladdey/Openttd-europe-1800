@@ -1,0 +1,30 @@
+{
+  "tag": "p1850-norris5400-flat96-w6-l128-s738",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-norris5400-flat96-w6-l128-s738\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "738",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\p1850-norris5400-flat96-w6-l128-s738\\map.png"
+  ],
+  "reason": "blocked",
+  "returncode": 1,
+  "seconds": 26.7,
+  "full_log_sha256": "4d0e521681943d4c8ba70825927670473fff2507ceabfad61ae323dfc3c53bfb",
+  "full_log_bytes": 9691612,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

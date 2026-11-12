@@ -1,0 +1,99 @@
+{
+  "grfid": "52560010",
+  "target": "44440302",
+  "tag": "B",
+  "name": "RV P4 B",
+  "prices": {
+    "44": 3
+  },
+  "engines": [
+    {
+      "id": 0,
+      "cls": "electric"
+    },
+    {
+      "id": 1,
+      "cls": "electric"
+    },
+    {
+      "id": 2,
+      "cls": "electric"
+    },
+    {
+      "id": 3,
+      "cls": "electric"
+    },
+    {
+      "id": 4,
+      "cls": "electric"
+    },
+    {
+      "id": 5,
+      "cls": "electric"
+    },
+    {
+      "id": 6,
+      "cls": "electric"
+    },
+    {
+      "id": 7,
+      "cls": "electric"
+    },
+    {
+      "id": 8,
+      "cls": "electric"
+    },
+    {
+      "id": 9,
+      "cls": "electric"
+    },
+    {
+      "id": 10,
+      "cls": "electric"
+    },
+    {
+      "id": 11,
+      "cls": "electric"
+    },
+    {
+      "id": 12,
+      "cls": "electric"
+    },
+    {
+      "id": 13,
+      "cls": "electric"
+    },
+    {
+      "id": 14,
+      "cls": "electric"
+    },
+    {
+      "id": 15,
+      "cls": "electric"
+    },
+    {
+      "id": 16,
+      "cls": "electric"
+    },
+    {
+      "id": 17,
+      "cls": "electric"
+    },
+    {
+      "id": 18,
+      "cls": "electric"
+    },
+    {
+      "id": 19,
+      "cls": "electric"
+    },
+    {
+      "id": 70,
+      "cls": "electric"
+    }
+  ],
+  "file": "rv_52560010_B.grf",
+  "bytes": 379,
+  "sha256": "0524aaabb87a36046a5a1f9ee378c43d621d6b033f8709ebe85ca347a6f5f214",
+  "md5": "2F0C1D82A99BC63DF26BB7250E9AB090"
+}

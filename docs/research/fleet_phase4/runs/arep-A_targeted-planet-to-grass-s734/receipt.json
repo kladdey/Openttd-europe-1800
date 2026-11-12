@@ -1,0 +1,30 @@
+{
+  "tag": "arep-A_targeted-planet-to-grass-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\arep-A_targeted-planet-to-grass-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\arep-A_targeted-planet-to-grass-s734\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 19.9,
+  "full_log_sha256": "e5a2b63b961b5a34f754ae7849c0fe184ffe0ea2cbee7eab61dfd56cc5abc58b",
+  "full_log_bytes": 9701685,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

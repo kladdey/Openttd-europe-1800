@@ -1,0 +1,300 @@
+{
+  "lifecycle": {
+    "coppernob12": {
+      "purchase": 44390,
+      "cash10": 121738.3,
+      "cash20": 275862,
+      "run_y1_5": 1325.1,
+      "run_y16_20": 1602.5,
+      "depot_first": 850,
+      "depot_last": 1244,
+      "payback": 3,
+      "seeds": 3
+    },
+    "grass1575": {
+      "purchase": 20437,
+      "cash10": 27965.3,
+      "cash20": 77182,
+      "run_y1_5": 1893.9,
+      "run_y16_20": 1894.1,
+      "depot_first": 1803,
+      "depot_last": 1803,
+      "payback": 5,
+      "seeds": 3
+    },
+    "grass3150": {
+      "purchase": 20437,
+      "cash10": 12210.3,
+      "cash20": 45660,
+      "run_y1_5": 3470.5,
+      "run_y16_20": 3470.5,
+      "depot_first": 3378,
+      "depot_last": 3378,
+      "payback": 7.3,
+      "seeds": 3
+    },
+    "grass525": {
+      "purchase": 20437,
+      "cash10": 38458.3,
+      "cash20": 98178,
+      "run_y1_5": 844.1,
+      "run_y16_20": 844.1,
+      "depot_first": 753,
+      "depot_last": 753,
+      "payback": 4,
+      "seeds": 3
+    },
+    "grass787": {
+      "purchase": 20437,
+      "cash10": 35835.3,
+      "cash20": 92929,
+      "run_y1_5": 1106.7,
+      "run_y16_20": 1106.7,
+      "depot_first": 1016,
+      "depot_last": 1016,
+      "payback": 4,
+      "seeds": 3
+    },
+    "norris1350": {
+      "purchase": 43218,
+      "cash10": 91629.7,
+      "cash20": 218958.3,
+      "run_y1_5": 1812.8,
+      "run_y16_20": 1702.5,
+      "depot_first": 794,
+      "depot_last": 794,
+      "payback": 3.7,
+      "seeds": 3
+    },
+    "norris2700": {
+      "purchase": 43218,
+      "cash10": 79601.7,
+      "cash20": 195396.3,
+      "run_y1_5": 3019.6,
+      "run_y16_20": 2846.1,
+      "depot_first": 1132,
+      "depot_last": 1132,
+      "payback": 4,
+      "seeds": 3
+    },
+    "norris6300": {
+      "purchase": 43218,
+      "cash10": 47526,
+      "cash20": 132560,
+      "run_y1_5": 6237.5,
+      "run_y16_20": 5896.1,
+      "depot_first": 2032,
+      "depot_last": 2032,
+      "payback": 5.7,
+      "seeds": 3
+    },
+    "planet12": {
+      "purchase": 38531,
+      "cash10": 45643.3,
+      "cash20": 120893,
+      "run_y1_5": 996.3,
+      "run_y16_20": 1307.3,
+      "depot_first": 588,
+      "depot_last": 850,
+      "payback": 5.3,
+      "seeds": 3
+    },
+    "planet6": {
+      "purchase": 22781,
+      "cash10": 59174.7,
+      "cash20": 140087.7,
+      "run_y1_5": 661.9,
+      "run_y16_20": 1060.1,
+      "depot_first": 359,
+      "depot_last": 622,
+      "payback": 3,
+      "seeds": 3
+    }
+  },
+  "autoreplace": {
+    "arep-A_targeted-coppernob-to-norris-s734": {
+      "rule": [
+        "1531",
+        "1585",
+        "true",
+        "ERR_NONE",
+        "2700"
+      ],
+      "replaced": [
+        {
+          "date": "676065",
+          "old": "0",
+          "new": "6",
+          "engine": "1585",
+          "name": "4-2-0 Norris",
+          "parts": "5",
+          "capacity": "80",
+          "running": "827"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-A_targeted-grass-to-planet-s734": {
+      "rule": [
+        "2038",
+        "1534",
+        "true",
+        "ERR_NONE",
+        "525"
+      ],
+      "replaced": [
+        {
+          "date": "676137",
+          "old": "0",
+          "new": "5",
+          "engine": "1534",
+          "name": "2-2-0 Planet (Steam)",
+          "parts": "5",
+          "capacity": "80",
+          "running": "283"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-A_targeted-norris-to-coppernob-s734": {
+      "rule": [
+        "1585",
+        "1531",
+        "true",
+        "ERR_NONE",
+        "1181"
+      ],
+      "replaced": [
+        {
+          "date": "676114",
+          "old": "0",
+          "new": "6",
+          "engine": "1531",
+          "name": "0-4-0 Coppernob (Steam)",
+          "parts": "5",
+          "capacity": "80",
+          "running": "546"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-A_targeted-planet-to-grass-s734": {
+      "rule": [
+        "1534",
+        "2038",
+        "true",
+        "ERR_NONE",
+        "787"
+      ],
+      "replaced": [
+        {
+          "date": "676112",
+          "old": "0",
+          "new": "6",
+          "engine": "2038",
+          "name": "0-4-0 Grasshopper (Steam)",
+          "parts": "5",
+          "capacity": "80",
+          "running": "939"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-original-coppernob-to-norris-s734": {
+      "rule": [
+        "1531",
+        "1585",
+        "true",
+        "ERR_NONE",
+        "6300"
+      ],
+      "replaced": [
+        {
+          "date": "676065",
+          "old": "0",
+          "new": "6",
+          "engine": "1585",
+          "name": "4-2-0 Norris",
+          "parts": "5",
+          "capacity": "80",
+          "running": "1727"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-original-grass-to-planet-s734": {
+      "rule": [
+        "2038",
+        "1534",
+        "true",
+        "ERR_NONE",
+        "525"
+      ],
+      "replaced": [
+        {
+          "date": "676137",
+          "old": "0",
+          "new": "5",
+          "engine": "1534",
+          "name": "2-2-0 Planet (Steam)",
+          "parts": "5",
+          "capacity": "80",
+          "running": "283"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-original-norris-to-coppernob-s734": {
+      "rule": [
+        "1585",
+        "1531",
+        "true",
+        "ERR_NONE",
+        "1181"
+      ],
+      "replaced": [
+        {
+          "date": "676114",
+          "old": "0",
+          "new": "6",
+          "engine": "1531",
+          "name": "0-4-0 Coppernob (Steam)",
+          "parts": "5",
+          "capacity": "80",
+          "running": "546"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    },
+    "arep-original-planet-to-grass-s734": {
+      "rule": [
+        "1534",
+        "2038",
+        "true",
+        "ERR_NONE",
+        "3150"
+      ],
+      "replaced": [
+        {
+          "date": "676112",
+          "old": "0",
+          "new": "6",
+          "engine": "2038",
+          "name": "0-4-0 Grasshopper (Steam)",
+          "parts": "5",
+          "capacity": "80",
+          "running": "3302"
+        }
+      ],
+      "original_parts": "5",
+      "original_capacity": "80"
+    }
+  }
+}

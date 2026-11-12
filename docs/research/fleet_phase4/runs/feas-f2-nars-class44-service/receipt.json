@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f2-nars-class44-service",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f2-nars-class44-service\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f2-nars-class44-service\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 19.9,
+  "full_log_sha256": "1f06bdf0b0aa220e7cf2cb8576882921bbfd57bf2a700011882b5426ab9928f7",
+  "full_log_bytes": 9696105,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

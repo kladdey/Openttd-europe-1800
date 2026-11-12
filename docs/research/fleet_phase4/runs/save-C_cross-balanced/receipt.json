@@ -1,0 +1,30 @@
+{
+  "tag": "save-C_cross-balanced",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-C_cross-balanced\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\save-C_cross-balanced\\game.sav"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 155.2,
+  "full_log_sha256": "0bc7d02dd2ab2d4e8451178c6d428b7ad27699867e1e8882c4bb76d64b79a343",
+  "full_log_bytes": 10316035,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": false
+}

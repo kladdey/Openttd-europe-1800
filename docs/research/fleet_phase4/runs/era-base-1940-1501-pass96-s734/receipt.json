@@ -1,0 +1,30 @@
+{
+  "tag": "era-base-1940-1501-pass96-s734",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1940-1501-pass96-s734\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\era-base-1940-1501-pass96-s734\\map.png"
+  ],
+  "reason": "blocked",
+  "returncode": 1,
+  "seconds": 25.7,
+  "full_log_sha256": "4c9773a5c4af34bd1f43eb01d1b909db5a81cf18b168ac73f6ce6f7b33294f18",
+  "full_log_bytes": 9682324,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.0,
+  "run_dir_deleted": true
+}

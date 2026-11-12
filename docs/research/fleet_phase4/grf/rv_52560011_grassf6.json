@@ -1,0 +1,17 @@
+{
+  "grfid": "52560011",
+  "target": "4E4D0518",
+  "tag": "grassf6",
+  "name": "RV P4 grassf6",
+  "prices": {},
+  "engines": [
+    {
+      "id": 116,
+      "factor": 6
+    }
+  ],
+  "file": "rv_52560011_grassf6.grf",
+  "bytes": 112,
+  "sha256": "fab03fc8b47573a2b077c770f7af6f9ed23d224631ecc9ad18ce798d6ff4b858",
+  "md5": "9B5D196EF386E72D7CA26BA1BC3925AC"
+}

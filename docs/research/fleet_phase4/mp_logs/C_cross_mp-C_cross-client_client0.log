@@ -1,0 +1,52 @@
+dbg: [net:3] Starting network
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Network online, multiplayer available
+dbg: [net:3] Detected broadcast addresses:
+dbg: [net:3]   0) 192.168.18.255
+dbg: [net:3]   1) 192.168.194.255
+dbg: [net:3] Network revision name: jgrpp-0.73.4
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Connected to 127.0.0.1:3989
+dbg: [net:3] [crypto] Creating a new random key
+dbg: [net:1] Missed frame for sync-test: 98 / 99
+dbg: [net:1] Missed frame for sync-test: 100 / 101
+dbg: [net:1] Missed frame for sync-test: 200 / 201
+dbg: [net:1] Missed frame for sync-test: 300 / 301
+dbg: [net:1] Missed frame for sync-test: 400 / 401
+dbg: [net:1] Missed frame for sync-test: 500 / 501
+dbg: [net:1] Missed frame for sync-test: 600 / 601
+dbg: [net:1] Missed frame for sync-test: 700 / 701
+dbg: [net:1] Missed frame for sync-test: 800 / 801
+dbg: [net:1] Missed frame for sync-test: 900 / 901
+dbg: [net:1] Missed frame for sync-test: 1000 / 1001
+dbg: [net:1] Missed frame for sync-test: 1100 / 1101
+dbg: [net:1] Missed frame for sync-test: 1200 / 1201
+dbg: [net:1] Missed frame for sync-test: 1300 / 1301
+dbg: [net:1] Missed frame for sync-test: 1400 / 1401
+dbg: [net:1] Missed frame for sync-test: 1500 / 1501
+dbg: [net:1] Missed frame for sync-test: 1600 / 1601
+dbg: [net:1] Missed frame for sync-test: 1700 / 1701
+dbg: [net:1] Missed frame for sync-test: 1800 / 1801
+dbg: [net:1] Missed frame for sync-test: 1900 / 1901
+dbg: [net:1] Missed frame for sync-test: 2000 / 2001
+dbg: [net:1] Missed frame for sync-test: 2100 / 2101
+dbg: [net:1] Missed frame for sync-test: 2200 / 2201
+dbg: [net:1] Missed frame for sync-test: 2300 / 2301
+dbg: [net:1] Missed frame for sync-test: 2400 / 2401
+dbg: [net:1] Missed frame for sync-test: 2500 / 2501
+dbg: [net:1] Missed frame for sync-test: 2600 / 2601
+dbg: [net:1] Missed frame for sync-test: 2700 / 2701
+dbg: [net:1] Missed frame for sync-test: 2800 / 2801
+dbg: [net:1] Missed frame for sync-test: 2900 / 2901
+dbg: [net:1] Missed frame for sync-test: 3000 / 3001
+dbg: [net:1] Missed frame for sync-test: 3100 / 3101
+dbg: [net:1] Missed frame for sync-test: 3200 / 3201
+dbg: [net:1] Missed frame for sync-test: 3300 / 3301
+dbg: [net:1] Missed frame for sync-test: 3400 / 3401
+dbg: [net:1] Missed frame for sync-test: 3500 / 3501
+dbg: [net:1] Missed frame for sync-test: 3600 / 3601
+dbg: [net:1] Missed frame for sync-test: 3700 / 3701
+dbg: [net:3] Closed client connection 0
+dbg: [net:1] Shutdown client connection 0
+dbg: [net:3] Initializing UDP listeners
+dbg: [net:3] Shutting down network

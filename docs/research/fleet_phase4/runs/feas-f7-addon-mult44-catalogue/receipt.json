@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f7-addon-mult44-catalogue",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f7-addon-mult44-catalogue\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f7-addon-mult44-catalogue\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 18.8,
+  "full_log_sha256": "84046e37e237c05f098b97fe85820e3fb654d593f2f4ed8c49552b58c8cd860d",
+  "full_log_bytes": 10022828,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}

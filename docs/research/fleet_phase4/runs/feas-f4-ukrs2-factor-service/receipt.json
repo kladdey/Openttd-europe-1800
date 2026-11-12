@@ -1,0 +1,30 @@
+{
+  "tag": "feas-f4-ukrs2-factor-service",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f4-ukrs2-factor-service\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\feas-f4-ukrs2-factor-service\\map.png"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 19.9,
+  "full_log_sha256": "b0de3f92364917b80178b0b86592a8113f8baee0e956571843bfe21ab57ba5b3",
+  "full_log_bytes": 9695899,
+  "production_files_unchanged": true,
+  "free_gb_after": 77.1,
+  "run_dir_deleted": true
+}
