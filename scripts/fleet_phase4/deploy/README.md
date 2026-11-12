@@ -68,6 +68,47 @@ refused when joining (tested).
    delete them.
 3. Costs return immediately: OpenTTD stores no running cost per vehicle.
 
+## Ledger year fix (optional, separate from the balance)
+
+The campaign's economy date, which labels the finances window and drives the GameScript's
+timers, still runs 30 years behind the calendar (1863 vs 1893), an offset inherited from the
+1800 scenario. JGRPP's change-date cheat resynchronises it, moving vehicle and link-graph dates
+with it and staying in calendar mode throughout.
+
+**Do not** switch *Timekeeping units* to wallclock and back to fix this. That also resyncs the
+date, but the campaign GameScript stops immediately (`Pinned AXIS/calendar time required`).
+
+| | Calendar | Economy / finances |
+| --- | --- | --- |
+| Before | 1893-06-05 | 1863-06-06 |
+| After | 1893-06-05 | 1893-06-05 |
+
+The package contains `campaign_<date>_balance-v1_datesynced.sav`: the balanced save with this
+fix already applied. To apply it to a later save yourself:
+
+1. Stop the server and keep a copy of the save.
+2. Open the save in **single-player** with the same OpenTTD (JGRPP 0.73.4) and NewGRFs. The
+   cheat is disabled in multiplayer.
+3. Pause the game.
+4. Press **Ctrl+Alt+C** to open *Sandbox Options*. On **Change date**, click the left arrow
+   once (one year back), then the right arrow once (back to the current year).
+5. Open the console (the key below Esc) and run `getfulldate`. *Calendar Date* and *Economy
+   Date* must now be equal.
+6. Save under a new name and host that save. If the server starts paused, type `unpause` in
+   the server console.
+
+What changes:
+
+- The finances window shows real years: 1891 / 1892 / 1893 instead of 1861 / 1862 / 1863.
+  The amounts are untouched.
+- The save records that the change-date cheat was used. This is shown only in the cheats window.
+- The GameScript sees the economy date jump forward 30 years once. A GameScript industry
+  closure that is in progress at that moment is cancelled safely: the industry stays open
+  and a news item asks for administrator review. In the tested save no closure was in
+  progress, and the GameScript produced exactly the same events as without the fix.
+
+Rollback: host the save kept from step 1.
+
 ## Known limits
 
 - Multiplayer sync was verified with one windowed client for 2 × 4 minutes (about 180

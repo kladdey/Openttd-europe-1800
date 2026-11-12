@@ -1,0 +1,134 @@
+{
+  "method": "change-date cheat 1893 -> 1892 -> 1893 (single-player, paused, save copy)",
+  "rejected_method": "timekeeping_units 1 -> 0: campaign GameScript stops (P7 FATAL|Pinned AXIS/calendar time required)",
+  "cheat_console": {
+    "before": [
+      "Calendar Date: 1893-06-05 (691560)",
+      "Economy Date: 1863-06-06 (680603)",
+      "Period display offset: -1799",
+      "Elapsed years: 63"
+    ],
+    "after": [
+      "Calendar Date: 1893-06-05 (691560)",
+      "Economy Date: 1893-06-05 (691560)",
+      "Period display offset: -1829",
+      "Elapsed years: 63"
+    ],
+    "finances_window_years_after": [
+      1891,
+      1892,
+      1893
+    ]
+  },
+  "synced_sha256": "c6ecaf23dab01ee45bbf3ae3a7942b36182c935b4b8efc450447b33937ddf6a5",
+  "datesync-control": {
+    "reason": "wall timeout",
+    "seconds": 301.0,
+    "dates": [],
+    "gs_events": 9,
+    "gs_event_kinds": [
+      "expansion_loaded",
+      "legacy_decline",
+      "legacy_loaded",
+      "news",
+      "processor_arm",
+      "processor_closed",
+      "processor_commit"
+    ],
+    "gs_failures": [],
+    "script_errors": []
+  },
+  "datesync-synced": {
+    "reason": "wall timeout",
+    "seconds": 300.8,
+    "dates": [],
+    "gs_events": 9,
+    "gs_event_kinds": [
+      "expansion_loaded",
+      "legacy_decline",
+      "legacy_loaded",
+      "news",
+      "processor_arm",
+      "processor_closed",
+      "processor_commit"
+    ],
+    "gs_failures": [],
+    "script_errors": []
+  },
+  "observer": {
+    "reasons": {
+      "datesync-observe-unsynced": "completed",
+      "datesync-observe-synced": "completed"
+    },
+    "trains_before": 176,
+    "trains_after": 176,
+    "identity_unchanged": true,
+    "engine_costs_unchanged": true,
+    "economy_month_samples_before": [
+      680603,
+      680628,
+      680659
+    ],
+    "economy_month_samples_after": [
+      691560,
+      691586,
+      691617
+    ],
+    "companies_at_load_identical": true,
+    "company_train_running_and_cash_at_load": {
+      "0": [
+        203842,
+        31661224
+      ],
+      "1": [
+        69547,
+        5065159
+      ],
+      "2": [
+        20635,
+        16905930
+      ],
+      "3": [
+        0,
+        100000
+      ]
+    },
+    "company_month2_before": {
+      "0": [
+        276142,
+        31942849
+      ],
+      "1": [
+        94132,
+        5039567
+      ],
+      "2": [
+        27867,
+        17031270
+      ],
+      "3": [
+        0,
+        99617
+      ]
+    },
+    "company_month2_after": {
+      "0": [
+        277368,
+        31983013
+      ],
+      "1": [
+        94811,
+        5034735
+      ],
+      "2": [
+        27775,
+        17028320
+      ],
+      "3": [
+        0,
+        99617
+      ]
+    },
+    "note": "later months differ slightly because the economy day of month moved from the 6th to the 5th, so each sampled month is one economy day longer"
+  }
+}

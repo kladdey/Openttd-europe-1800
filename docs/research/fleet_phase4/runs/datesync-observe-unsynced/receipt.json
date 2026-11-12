@@ -1,0 +1,30 @@
+{
+  "tag": "datesync-observe-unsynced",
+  "command": [
+    "C:\\Users\\Kladd\\Downloads\\OpenTTD\\openttd.exe",
+    "-X",
+    "-x",
+    "-c",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\datesync-observe-unsynced\\test.cfg",
+    "-v",
+    "null:ticks=40000000",
+    "-s",
+    "null",
+    "-m",
+    "null",
+    "-d",
+    "script=4,grf=3",
+    "-G",
+    "734",
+    "-g",
+    "C:\\Users\\Kladd\\OTTD-runtime-validation\\runs\\datesync-observe-unsynced\\game.sav"
+  ],
+  "reason": "completed",
+  "returncode": 1,
+  "seconds": 10.9,
+  "full_log_sha256": "6b4871c0f8b28981c25f725f53226ee395c688f3fdb38f09a0a24aa03c2d199e",
+  "full_log_bytes": 9733050,
+  "production_files_unchanged": true,
+  "free_gb_after": 71.3,
+  "run_dir_deleted": false
+}

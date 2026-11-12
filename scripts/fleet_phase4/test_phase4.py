@@ -124,5 +124,19 @@ gdir = dv.parent / 'newgrf'
 check('package GRF checksums match SHA256SUMS', all(hashlib.sha256((dv.parent / l.split()[1].lstrip('*')).read_bytes()).hexdigest() == l.split()[0]
       for l in (dv.parent / 'SHA256SUMS.txt').read_text().splitlines() if l.strip() and 'local package only' not in l))
 
+# 11. Ledger/calendar date sync (change-date cheat on a save copy)
+ds = OUT / 'datesync_result.json'
+if ds.exists():
+    d = json.loads(ds.read_text())
+    cal_after, econ_after = d['cheat_console']['after'][0].split(': ')[1], d['cheat_console']['after'][1].split(': ')[1]
+    check('date sync: economy date equals calendar date after the cheat', cal_after == econ_after)
+    c, s = d['datesync-control'], d['datesync-synced']
+    check('date sync: campaign GameScript events identical, no failures or errors',
+          c['gs_event_kinds'] == s['gs_event_kinds'] and c['gs_events'] == s['gs_events'] and not s['gs_failures'] and not s['script_errors'] and not c['script_errors'])
+    o = d['observer']
+    check('date sync: trains, engine costs and company finances at load unchanged',
+          o['identity_unchanged'] and o['engine_costs_unchanged'] and o['companies_at_load_identical'] and o['trains_before'] == o['trains_after'] == 176
+          and o['economy_month_samples_after'][0] == 691560 and o['economy_month_samples_before'][0] == 680603)
+
 print(f'\n{len(fails)} failures')
 sys.exit(1 if fails else 0)

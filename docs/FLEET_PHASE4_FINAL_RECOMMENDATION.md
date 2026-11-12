@@ -176,3 +176,23 @@ Native JGRPP checks on the exact package (`verification.json`, RUNTIME):
   save.
 
 The source save was only read; its SHA-256 was unchanged afterwards.
+
+### Ledger year fix (separate from the balance)
+
+The economy date, which labels the finances window and drives the GameScript timers, ran 30
+years behind the calendar: 1863-06-06 against 1893-06-05 (RUNTIME, `getfulldate`). The package
+now also contains `campaign_1893-06-04_balance-v1_datesynced.sav`. It is the balanced save after
+JGRPP's change-date cheat (year −1, then +1) was applied on a paused single-player copy. The
+economy date is now 1893-06-05, and the finances window reads 1891 / 1892 / 1893.
+
+- **Rejected:** switching timekeeping units to wallclock and back. JGRPP resyncs the date that
+  way too, but the campaign GameScript stops at once (`P7 FATAL|Pinned AXIS/calendar time
+  required`, RUNTIME).
+- **Verified (`datesync_result.json`, RUNTIME):**
+  - With the campaign GameScript, the synced and unsynced saves produce the identical 9
+    events, with no failures and no errors.
+  - All 176 trains, every engine cost and every company's train running cost and cash at load
+    are identical.
+  - Later monthly figures differ only because each month now ends one economy day later.
+- **Instructions:** for applying the fix to a later save, see the package `README.md`. The
+  synced save was written paused; unpause it on the server after loading.
